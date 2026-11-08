@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>保險商品速查｜條款、類別與銷售狀態</title>
+  <meta name="description" content="查詢台灣各家壽險商品的類別、現售或停售狀態，並開啟官方契約條款。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --paper: #f3eee4;
+      --ink: #1b2430;
+      --muted: #5c6570;
+      --line: rgba(27, 36, 48, 0.12);
+      --card: #fffdf8;
+      --teal: #0d5c4d;
+      --teal-deep: #083f35;
+      --sale: #1b7a56;
+      --stop: #5c6570;
+      --unknown: #9a5b12;
+      --shadow: 0 16px 40px rgba(27, 36, 48, 0.08);
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      background:
+        radial-gradient(1200px 500px at 8% -10%, rgba(13, 92, 77, 0.10), transparent 55%),
+        radial-gradient(900px 400px at 100% 0%, rgba(154, 91, 18, 0.08), transparent 50%),
+        var(--paper);
+      color: var(--ink);
+      min-height: 100vh;
+    }
+    a { color: var(--teal); }
+    .wrap { width: min(1160px, calc(100% - 32px)); margin: 0 auto; }
+    header {
+      padding: 28px 0 8px;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .brand {
+      font-family: "Noto Serif TC", serif;
+      font-size: 15px;
+      letter-spacing: 0.14em;
+      color: var(--teal);
+      font-weight: 700;
+    }
+    .updated { color: var(--muted); font-size: 13px; text-align: right; line-height: 1.6; }
+    h1 {
+      font-family: "Noto Serif TC", serif;
+      font-size: clamp(34px, 6vw, 58px);
+      line-height: 1.15;
+      margin: 18px 0 12px;
+      font-weight: 700;
+    }
+    .lead { max-width: 720px; font-size: 18px; line-height: 1.7; color: var(--muted); margin: 0 0 28px; }
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 20px;
+    }
+    .search {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px 16px;
+      background: #fff;
+    }
+    .search input {
+      width: 100%;
+      border: 0;
+      outline: none;
+      font: inherit;
+      font-size: 17px;
+      background: transparent;
+    }
+    .filters {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 12px;
+      margin-top: 14px;
+    }
+    label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+    select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 10px 12px;
+      font: inherit;
+      background: #fff;
+      color: var(--ink);
+    }
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 16px 0 0;
+    }
+    .pill {
+      background: rgba(13, 92, 77, 0.08);
+      color: var(--teal-deep);
+      border-radius: 999px;
+      padding: 6px 12px;
+      font-size: 13px;
+    }
+    .page-size { display:flex; align-items:center; gap:8px; flex-shrink:0; margin:0; font-size:14px; }
+    .page-size select { width:auto; min-width:72px; min-height:44px; }
+    .toolbar {
+      flex-wrap:wrap;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin: 22px 0 12px;
+    }
+    .count { font-size: 15px; color: var(--muted); }
+    .count strong { color: var(--ink); font-size: 20px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; padding: 13px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    th { font-size: 13px; color: var(--muted); font-weight: 500; }
+    tbody tr:hover { background: rgba(13, 92, 77, 0.04); }
+    .name { font-weight: 700; line-height: 1.45; }
+    .sub { color: var(--muted); font-size: 12px; margin-top: 4px; }
+    .badge {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 3px 9px;
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .sale { background: rgba(27, 122, 86, 0.12); color: var(--sale); }
+    .stop { background: rgba(92, 101, 112, 0.14); color: var(--stop); }
+    .unknown { background: rgba(154, 91, 18, 0.14); color: var(--unknown); }
+    .ghost {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--teal);
+      color: var(--teal-deep);
+      background: transparent;
+      border-radius: 999px;
+      padding: 6px 12px;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .ghost:hover { background: var(--teal); color: #fff; }
+    .cards { display: none; }
+    .card {
+      border-bottom: 1px solid var(--line);
+      padding: 16px 4px;
+    }
+    .pager {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      padding: 18px 0 8px;
+    }
+    .pager button {
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 10px;
+      padding: 8px 14px;
+      font: inherit;
+      cursor: pointer;
+    }
+    .pager button:disabled { opacity: 0.4; cursor: not-allowed; }
+    .empty { padding: 48px 16px; text-align: center; color: var(--muted); }
+    footer {
+      margin: 36px 0 48px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.8;
+    }
+    footer h2 {
+      font-family: "Noto Serif TC", serif;
+      font-size: 20px;
+      color: var(--ink);
+      margin: 0 0 10px;
+    }
+    footer ul { padding-left: 18px; }
+    @media (max-width: 767px) {
+      .filters { grid-template-columns: 1fr 1fr; }
+      header { flex-direction: column; }
+      .updated { text-align: left; }
+      .table-wrap { display: none; }
+      .cards { display: block; }
+    }
+
+    body { font-size:16px; overflow-wrap:anywhere; }
+    input, select, button, .ghost { min-height:44px; }
+    button, select, .ghost { touch-action:manipulation; }
+    .filters > div, .search input { min-width:0; }
+    .search svg { flex-shrink:0; }
+    a.sub { display:inline-flex; align-items:center; min-height:44px; padding:8px 4px; font-size:14px; }
+    .sub { font-size:14px; line-height:1.6; }
+    .filter-toggle { display:none; width:100%; margin-top:12px; }
+    .loading { padding:16px; margin:12px 0; color:var(--teal); background:#fffdf8; border-radius:12px; }
+    .loading[hidden] { display:none; }
+    .pager { flex-wrap:wrap; }
+    td { overflow-wrap:anywhere; }
+    @media (min-width:768px) and (max-width:1024px) {
+      .filters { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      th,td { padding:12px 6px; }
+      td:first-child { width:40%; }
+      header { flex-direction:column; }
+      .updated { text-align:left; }
+    }
+    @media (max-width:767px) {
+      .wrap { width:calc(100% - 24px); }
+      header { padding-top:18px; }
+      h1 { font-size:32px; line-height:1.3; }
+      .lead { font-size:16px; margin-bottom:18px; }
+      .panel { padding:14px; }
+      .filter-toggle { display:flex; }
+      .filters { display:none; grid-template-columns:minmax(0,1fr); }
+      .filters.is-open { display:grid; }
+      .table-wrap { display:none; }
+      .cards { display:block; }
+      label { font-size:14px; }
+      .search { padding:8px 10px; }
+      .search input { font-size:16px; }
+      select { font-size:16px; }
+      .stats { gap:6px; }
+      .pill { font-size:13px; }
+      footer { font-size:14px; }
+    }
+    .favorites-tools { display:flex; flex-wrap:wrap; align-items:center; gap:10px; margin-top:14px; }
+    .favorites-tools label { display:flex; align-items:center; gap:8px; margin:0; font-size:14px; min-height:44px; }
+    .star { min-width:44px; min-height:44px; font-size:26px; border:1px solid var(--line); border-radius:10px; background:#fff; color:#795300; cursor:pointer; flex-shrink:0; }
+    .star[aria-pressed="true"] { background:#fff2bd; }
+    .product-heading { display:flex; align-items:flex-start; gap:10px; }
+    .favorites-tools [hidden] { display:none; }
+    #sync-status { font-size:13px; color:var(--muted); width:100%; }
+    /* Compact overview: details are only rendered visually on demand. */
+    header { padding:10px 0 0; align-items:center; }
+    .brand { font-size:13px; }
+    .updated { font-size:11px; }
+    h1 { font-size:26px; margin:8px 0 4px; }
+    .lead { font-size:14px; margin:0 0 10px; }
+    .panel { padding:10px; border-radius:12px; }
+    .toolbar { margin:8px 0; }
+    .favorites-tools { margin-top:4px; gap:6px; }
+    #sync-status { width:auto; font-size:11px; }
+    .stats { margin-top:4px; gap:4px; }
+    .pill { padding:3px 8px; font-size:12px; }
+    .search { padding:0 10px; }
+    .card { padding:0; }
+    td { padding:0; }
+    .compact-top { display:flex; align-items:center; gap:4px; min-height:52px; }
+    .compact-top .star { border:0; background:transparent; }
+    .product-toggle { display:flex; align-items:center; gap:6px; border:0; background:transparent; color:var(--ink); text-align:left; font:inherit; cursor:pointer; flex:1; min-width:0; min-height:52px; padding:4px 0; }
+    .product-copy { flex:1; min-width:0; }
+    .company { display:block; color:var(--muted); font-size:11px; line-height:1.2; }
+    .product-copy .name { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; font-size:13px; line-height:1.25; font-weight:500; }
+    .category-tag { font-size:10px; color:var(--teal); background:rgba(13,92,77,.08); border-radius:5px; padding:3px 4px; max-width:55px; flex-shrink:0; }
+    .expand-icon { font-size:14px; }
+    .product-toggle[aria-expanded="true"] .expand-icon { transform:rotate(180deg); }
+    .product-details { padding:6px 10px 12px 48px; }
+    .product-details[hidden] { display:none; }
+    .detail-links { display:flex; flex-wrap:wrap; align-items:center; gap:6px; }
+    footer { margin:12px 0 20px; font-size:12px; }
+    footer summary { min-height:44px; cursor:pointer; padding:12px 0; }
+    .pager { padding:8px 0 0; }
+    @media(max-width:767px) {
+      header { flex-direction:row; padding-top:8px; }
+      .updated, .lead, .stats, #sync-status { display:none; }
+      h1 { font-size:22px; margin:6px 0; }
+      .panel { padding:6px 8px; }
+      .filter-toggle { display:inline-flex; width:auto; margin-top:4px; }
+      .favorites-tools { display:inline-flex; vertical-align:middle; margin:0 0 0 4px; }
+      .favorites-tools label { font-size:12px; gap:4px; }
+      .favorites-tools input { margin:0; }
+      .favorites-tools .ghost { font-size:11px; padding:4px 8px; }
+      .filters { margin-top:4px; }
+      .toolbar { gap:4px; }
+      .count, .page-size { font-size:12px; }
+      .count strong { font-size:15px; }
+      .page-size select { padding:4px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">保險商品速查</div>
+      <div class="updated" id="updated"></div>
+    </header>
+    <h1>壽險商品速查</h1>
+    <p class="lead">搜尋商品，點一下展開條款與詳細資料。</p>
+
+    <div id="loading" class="loading" role="status" aria-live="polite">正在載入及解壓縮壽險資料，首次開啟請稍候…</div>
+    <section class="panel">
+      <form class="search" id="search-form" role="search">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="#0d5c4d" stroke-width="2"/><path d="M20 20L16.5 16.5" stroke="#0d5c4d" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="q" type="search" placeholder="搜尋商品名稱、保險公司、類別或代號，例如「實支實付」或「遠雄 癌症」" autocomplete="off">
+      </form>
+      <button id="filter-toggle" class="ghost filter-toggle" type="button" aria-expanded="true" aria-controls="filter-panel">收合篩選</button>
+      <div class="filters is-open" id="filter-panel">
+        <div>
+          <label for="sector">產業</label>
+          <select id="sector"><option value="">全部</option></select>
+        </div>
+        <div>
+          <label for="insurer">保險公司</label>
+          <select id="insurer"><option value="">全部公司</option></select>
+        </div>
+        <div>
+          <label for="category">商品類別</label>
+          <select id="category"><option value="">全部類別</option></select>
+        </div>
+        <div>
+          <label for="status">銷售狀態</label>
+          <select id="status">
+            <option value="">全部狀態</option>
+            <option value="現售">現售</option>
+            <option value="停售">停售</option>
+            <option value="未標示">未標示</option>
+          </select>
+        </div>
+        <div>
+          <label for="source">資料來源</label>
+          <select id="source">
+            <option value="">全部來源</option>
+            <option value="官網">保險公司官網</option>
+            <option value="保發中心">保發中心</option>
+          </select>
+        </div>
+      </div>
+      <div class="favorites-tools">
+        <label><input type="checkbox" id="favorites-only">只看我的最愛</label>
+        <span class="pill" id="favorites-count" aria-live="polite">我的最愛 0</span>
+        <button class="ghost" id="google-login" type="button" hidden>Google 登入同步</button>
+        <button class="ghost" id="google-logout" type="button" hidden>登出</button>
+        <span id="sync-status" role="status">未登入：星號只儲存在目前瀏覽器；跨裝置同步需完成 Google 登入設定。</span>
+      </div>
+      <div class="stats" id="stats"></div>
+    </section>
+
+    <div class="toolbar">
+      <div class="count" id="count">載入資料中…</div>
+      <label class="page-size" for="page-size">每頁顯示
+        <select id="page-size"><option value="10">10</option><option value="15">15</option><option value="20" selected>20</option></select>
+      </label>
+    </div>
+
+    <section class="panel" style="padding: 8px 16px 16px;">
+      <div class="table-wrap">
+        <table>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <div class="cards" id="cards"></div>
+      <div class="empty" id="empty" hidden>沒有符合的商品。試試較短的關鍵字，或清空篩選條件。</div>
+      <div class="pager" id="pager"></div>
+    </section>
+
+    <footer>
+      <details><summary>資料說明與注意事項</summary>
+      <p>本頁只呈現實際從保險公司公開網頁抓下來的商品，沒有編造名稱或條款。資料日期與來源如下：</p>
+      <ul id="notes"></ul>
+      <p>若要查更完整、含較早年代或本公司公開頁尚未列出的商品，請到財團法人保險事業發展中心的 <a href="https://insprod.tii.org.tw/Query.aspx" target="_blank" rel="noopener">保險商品查詢資料庫</a>（需輸入圖形驗證碼；可查現售與停售，並下載條款）。壽險公會本身沒有提供整合全市場、含條款的商品資料庫。政府資料開放平臺上的保險商品資料多為單一銀行或保經的上架清單，沒有完整條款。</p>
+      <p>本工具僅供查詢參考，不是投保建議或保險公司正式文件。實際保障、費率與能否投保，以各公司最新公告、保單條款與核保結果為準。遠雄人壽的條款檔需向其官網送出查詢後下載，點「開啟條款」時會另開官方頁面。</p>
+      </details>
+    </footer>
+  </div>
+
+  <script>
+    function loadScript(src) {
+      return new Promise((resolve,reject) => {
+        const script=document.createElement('script');
+        script.src=src; script.onload=resolve;
+        script.onerror=()=>reject(new Error('資料檔無法開啟，請確認壓縮檔已完整解壓縮。'));
+        document.head.appendChild(script);
+      });
+    }
+    window.insuranceReady = new Promise(resolve => requestAnimationFrame(()=>setTimeout(resolve,0))).then(async()=>{
+      if ('DecompressionStream' in window) {
+        await loadScript('data/products-packed.js');
+        const bytes=Uint8Array.from(atob(window.INSURANCE_PACKED),c=>c.charCodeAt(0));
+        window.INSURANCE_PACKED=null;
+        const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+        const data=JSON.parse(await new Response(stream).text());
+        window.INSURANCE_META=data.meta; window.INSURANCE_PRODUCTS=data.products;
+      } else {
+        await loadScript('data/products.js');
+      }
+    });
+  </script>
+  <script>
+    (async function(){
+    try {
+    await window.insuranceReady;
+    const PAGE_SIZE_STORAGE_KEY = 'insurance-page-size-v1';
+    let pageSize = 20;
+    try {
+      const saved = Number(localStorage.getItem(PAGE_SIZE_STORAGE_KEY));
+      if ([10, 15, 20].includes(saved)) pageSize = saved;
+    } catch (_) {}
+    document.getElementById('page-size').value = String(pageSize);
+    const state = { q: "", sector: "", insurer: "", category: "", status: "", source: "", page: 1 };
+    const products = window.INSURANCE_PRODUCTS || [];
+    const meta = window.INSURANCE_META || {};
+
+    const $ = (id) => document.getElementById(id);
+    const statusClass = (s) => s === "現售" ? "sale" : s === "停售" ? "stop" : "unknown";
+
+    function fillSelect(id, values, allLabel) {
+      const el = $(id);
+      const current = el.value;
+      el.innerHTML = `<option value="">${allLabel}</option>` +
+        values.map((v) => `<option value="${escapeAttr(v)}">${escapeHtml(v)}</option>`).join("");
+      if ([...el.options].some((o) => o.value === current)) el.value = current;
+    }
+
+    function unique(key, list = products) {
+      return [...new Set(list.map((p) => p[key]).filter(Boolean))].sort((a, b) => a.localeCompare(b, "zh-Hant"));
+    }
+
+    function escapeHtml(s) {
+      return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    }
+    function escapeAttr(s) { return escapeHtml(s); }
+
+    // Do not use row indexes or regenerated ids: these change when data is rebuilt.
+    const productKey = p => JSON.stringify([p.insurer || '', p.name || '', p.code || '', p.contract_type || '']);
+    const STORAGE_KEY = 'insurance-favorites-v1';
+    const validFavorites = value => Array.isArray(value) ? value.filter(k => typeof k === 'string') : [];
+    let favorites = new Set();
+    try { favorites = new Set(validFavorites(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'))); } catch (_) {}
+    let syncChange = () => {};
+    function saveFavorites() {
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify([...favorites])); }
+      catch (_) { $('sync-status').textContent = '瀏覽器無法儲存，關閉頁面後星號可能遺失。'; }
+    }
+    function starButton(p) {
+      const selected = favorites.has(productKey(p));
+      return `<button type="button" class="star" data-favorite="${escapeAttr(productKey(p))}" aria-pressed="${selected}" aria-label="${selected ? '取消我的最愛：' : '加入我的最愛：'}${escapeAttr(p.name)}">${selected ? '★' : '☆'}</button>`;
+    }
+    window.addEventListener('storage', e => {
+      if (e.key !== STORAGE_KEY) return;
+      try { favorites = new Set(validFavorites(JSON.parse(e.newValue || '[]'))); render(); } catch (_) {}
+    });
+    $('favorites-only').onchange = () => { state.page = 1; render(); };
+
+    function matches(p) {
+      if ($('favorites-only').checked && !favorites.has(productKey(p))) return false;
+      if (state.sector && p.sector !== state.sector) return false;
+      if (state.insurer && p.insurer !== state.insurer) return false;
+      if (state.category && p.category !== state.category) return false;
+      if (state.status && p.status !== state.status) return false;
+      if (state.source && (p.source || "").indexOf(state.source) < 0) return false;
+      const tokens = state.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
+      if (!tokens.length) return true;
+      const hay = [p.name, p.insurer, p.category, p.code, p.contract_type, p.sector, p.status, p.source].join(" ").toLowerCase();
+      return tokens.every((t) => hay.includes(t));
+    }
+
+    function filtered() { return products.filter(matches); }
+
+    function openTerms(p) {
+      if (p.terms_method === "POST" && p.terms_params) {
+        const form = document.createElement("form");
+        form.method = "POST";
+        form.action = p.terms_url;
+        form.target = "_blank";
+        form.rel = "noopener noreferrer";
+        Object.entries(p.terms_params).forEach(([k, v]) => {
+          const input = document.createElement("input");
+          input.type = "hidden";
+          input.name = k;
+          input.value = v;
+          form.appendChild(input);
+        });
+        document.body.appendChild(form);
+        form.submit();
+        form.remove();
+        return;
+      }
+      if (p.terms_url) window.open(p.terms_url, "_blank", "noopener,noreferrer");
+    }
+
+    function termsButton(p, i) {
+      const tii = p.tii_url ? ` <a class="sub" href="${escapeAttr(p.tii_url)}" target="_blank" rel="noopener noreferrer">保發中心詳細頁</a>` : "";
+      if (!p.terms_url) return (tii || `<span class="sub">無公開條款連結</span>`);
+      return `<button class="ghost" type="button" data-i="${i}">開啟條款</button>` + tii;
+    }
+
+    function metaLine(p) {
+      const bits = [];
+      if (p.code) bits.push("代號 " + p.code.replace(/^#/, ""));
+      if (p.contract_type) bits.push(p.contract_type);
+      if (p.sector) bits.push(p.sector);
+      if (p.sale_date) bits.push("銷售日 " + p.sale_date);
+      if (p.stop_date) bits.push("停售日 " + p.stop_date);
+      if (p.source) bits.push("來源 " + p.source);
+      return bits.join(" · ");
+    }
+
+    function render() {
+      $("favorites-count").textContent = `我的最愛 ${favorites.size}`;
+      const list = filtered();
+      const pages = Math.max(1, Math.ceil(list.length / pageSize));
+      if (state.page > pages) state.page = pages;
+      const start = (state.page - 1) * pageSize;
+      const pageItems = list.slice(start, start + pageSize);
+      $("count").innerHTML = `找到 <strong>${list.length.toLocaleString("zh-Hant")}</strong> 筆商品`;
+      $("empty").hidden = pageItems.length > 0;
+      const compactProduct = (p, i, prefix) => {
+        const id = `${prefix}-details-${i}`;
+        return `<div class="compact-top">
+          ${starButton(p)}
+          <button class="product-toggle" type="button" aria-expanded="false" aria-controls="${id}">
+            <span class="product-copy"><span class="company">${escapeHtml(p.insurer)}</span><span class="name">${escapeHtml(p.name)}</span></span>
+            <span class="category-tag">${escapeHtml(p.category)}</span><span class="expand-icon" aria-hidden="true">⌄</span>
+          </button>
+        </div>
+        <div class="product-details" id="${id}" hidden>
+          <span class="badge ${statusClass(p.status)}">${escapeHtml(p.status)}</span>
+          <div class="sub">${escapeHtml(metaLine(p))}</div>
+          <div class="detail-links">${termsButton(p, start + i)}</div>
+        </div>`;
+      };
+      $("rows").innerHTML = pageItems.map((p, i) => `<tr><td>${compactProduct(p,i,'table')}</td></tr>`).join('');
+      $("cards").innerHTML = pageItems.map((p, i) => `<article class="card">${compactProduct(p,i,'card')}</article>`).join('');
+      document.querySelectorAll('.product-toggle').forEach(button => {
+        button.onclick = () => {
+          const expanded = button.getAttribute('aria-expanded') !== 'true';
+          button.setAttribute('aria-expanded', String(expanded));
+          document.getElementById(button.getAttribute('aria-controls')).hidden = !expanded;
+        };
+      });
+      $("pager").innerHTML = list.length ? `
+        <button type="button" id="prev" ${state.page <= 1 ? "disabled" : ""}>上一頁</button>
+        <span>第 ${state.page} / ${pages} 頁</span>
+        <button type="button" id="next" ${state.page >= pages ? "disabled" : ""}>下一頁</button>
+      ` : "";
+      const prev = $("prev"); const next = $("next");
+      if (prev) prev.onclick = () => { state.page -= 1; collapsePhoneFilters(); render(); window.scrollTo({ top: 220, behavior: "smooth" }); };
+      if (next) next.onclick = () => { state.page += 1; collapsePhoneFilters(); render(); window.scrollTo({ top: 220, behavior: "smooth" }); };
+      document.querySelectorAll('[data-favorite]').forEach(btn => {
+        btn.onclick = () => {
+          const key = btn.dataset.favorite;
+          const selected = !favorites.has(key);
+          if (selected) favorites.add(key); else favorites.delete(key);
+          saveFavorites(); render(); syncChange(key, selected);
+        };
+      });
+      document.querySelectorAll("[data-i]").forEach((btn) => {
+        btn.addEventListener("click", () => openTerms(list[Number(btn.dataset.i)]));
+      });
+    }
+
+    function setFiltersExpanded(expanded) {
+      $('filter-toggle').setAttribute('aria-expanded', String(expanded));
+      $('filter-toggle').textContent = expanded ? '收合篩選' : '篩選';
+      $('filter-panel').classList.toggle('is-open', expanded);
+    }
+    function collapsePhoneFilters() {
+      if (window.matchMedia('(max-width:767px)').matches) setFiltersExpanded(false);
+    }
+
+    function bind() {
+      $('page-size').addEventListener('change', e => {
+        const nextSize = Number(e.target.value);
+        if (![10, 15, 20].includes(nextSize)) return;
+        pageSize = nextSize; state.page = 1;
+        try { localStorage.setItem(PAGE_SIZE_STORAGE_KEY, String(pageSize)); } catch (_) {}
+        render();
+      });
+      let searchTimer = 0;
+      const runSearch = () => {
+        clearTimeout(searchTimer);
+        state.q = $('q').value; state.page = 1;
+        collapsePhoneFilters(); render();
+      };
+      $('search-form').addEventListener('submit', e => { e.preventDefault(); runSearch(); });
+      $("q").addEventListener("input", () => {
+        clearTimeout(searchTimer);
+        searchTimer = setTimeout(runSearch, 80);
+      });
+      ["sector", "insurer", "category", "status", "source"].forEach((id) => {
+        $(id).addEventListener("change", (e) => {
+          state[id] = e.target.value;
+          state.page = 1;
+          if (id === "sector" || id === "insurer") refreshDependentFilters();
+          render();
+        });
+      });
+    }
+
+    function refreshDependentFilters() {
+      const base = products.filter((p) =>
+        (!state.sector || p.sector === state.sector) &&
+        (!state.insurer || p.insurer === state.insurer)
+      );
+      fillSelect("insurer", unique("insurer", products.filter((p) => !state.sector || p.sector === state.sector)), "全部公司");
+      fillSelect("category", unique("category", base), "全部類別");
+      if (state.insurer && ![...$("insurer").options].some((o) => o.value === state.insurer)) state.insurer = "";
+      if (state.category && ![...$("category").options].some((o) => o.value === state.category)) state.category = "";
+    }
+
+    function init() {
+      $("updated").textContent = meta.fetched_at ? `資料抓取時間：${meta.fetched_at}` : "";
+      fillSelect("sector", unique("sector"), "全部");
+      $("sector").parentElement.hidden = unique("sector").length <= 1;
+      fillSelect("insurer", unique("insurer"), "全部公司");
+      fillSelect("category", unique("category"), "全部類別");
+      const params = new URLSearchParams(location.search);
+      [["q","q"],["sector","sector"],["insurer","insurer"],["category","category"],["status","status"],["source","source"]].forEach(([key, id]) => {
+        if (params.has(key)) {
+          state[id] = params.get(key) || "";
+          if ($(id)) $(id).value = state[id];
+        }
+      });
+      if (!unique("sector").includes(state.sector)) { state.sector = ""; $("sector").value = ""; }
+      refreshDependentFilters();
+      const s = meta.stats || {};
+      const pills = [
+        `收錄 ${Number(meta.count || products.length).toLocaleString("zh-Hant")} 筆`,
+        `人身保險 ${Number((s.sectors || {})["人身保險"] || 0).toLocaleString("zh-Hant")} 筆`,
+        `現售 ${Number((s.statuses || {})["現售"] || 0).toLocaleString("zh-Hant")} 筆`,
+        `停售 ${Number((s.statuses || {})["停售"] || 0).toLocaleString("zh-Hant")} 筆`,
+        `保發中心 ${Number(((s.sources || {})["保發中心"] || 0) + ((s.sources || {})["官網+保發中心"] || 0)).toLocaleString("zh-Hant")} 筆`,
+        `未標示 ${Number((s.statuses || {})["未標示"] || 0).toLocaleString("zh-Hant")} 筆`
+      ];
+      $("stats").innerHTML = pills.map((t) => `<span class="pill">${t}</span>`).join("");
+      $("notes").innerHTML = (meta.notes || []).map((n) => `<li>${escapeHtml(n)}</li>`).join("");
+      bind();
+      render();
+    }
+
+    init();
+    // Firebase is optional. No SDK requests or login button until configured.
+    const FIREBASE_CONFIG = null;
+    async function setupFirebase() {
+      if (!FIREBASE_CONFIG) return;
+      const status = text => { $('sync-status').textContent = text; };
+      try {
+        for (const part of ['app', 'auth', 'firestore']) {
+          await loadScript(`https://www.gstatic.com/firebasejs/10.14.1/firebase-${part}-compat.js`);
+        }
+        const app = firebase.initializeApp(FIREBASE_CONFIG);
+        const auth = app.auth(), db = app.firestore();
+        let unsubscribe = () => {}, generation = 0;
+        $('google-login').hidden = false;
+        status('登入 Google 後可在手機、平板同步我的最愛。');
+        $('google-login').onclick = async () => {
+          try { await auth.signInWithPopup(new firebase.auth.GoogleAuthProvider()); }
+          catch (error) {
+            if (['auth/popup-blocked', 'auth/operation-not-supported-in-this-environment'].includes(error.code)) {
+              try { await auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider()); }
+              catch (_) { status('無法開啟 Google 登入，請確認網址與瀏覽器設定。'); }
+            } else if (error.code !== 'auth/popup-closed-by-user') status('Google 登入失敗，請稍後再試。');
+          }
+        };
+        $('google-logout').onclick = () => auth.signOut().catch(() => status('登出失敗，請重試。'));
+        await auth.getRedirectResult().catch(() => status('重新導向登入未完成，請重新登入。'));
+        auth.onAuthStateChanged(async user => {
+          const current = ++generation;
+          unsubscribe(); syncChange = () => {};
+          $('google-login').hidden = !!user; $('google-logout').hidden = !user;
+          if (!user) { status('未登入：目前星號仍保留在此瀏覽器。共用裝置請清除瀏覽器資料。'); return; }
+          status('正在合併本機與雲端我的最愛…');
+          const ref = db.doc(`users/${user.uid}`);
+          // Buffer edits while the initial cloud merge is in flight.
+          const pending = new Map();
+          syncChange = (key, selected) => pending.set(key, selected);
+          const initial = [...favorites];
+          try {
+            await db.runTransaction(async tx => {
+              const snapshot = await tx.get(ref);
+              const merged = new Set([...validFavorites(snapshot.data()?.favorites), ...initial]);
+              tx.set(ref, {favorites:[...merged]});
+            });
+            if (current !== generation) return;
+            // Atomic field transforms preserve other devices' simultaneous additions/removals.
+            let writes = Promise.resolve();
+            syncChange = (key, selected) => {
+              writes = writes.then(async () => {
+                if (current !== generation) return;
+                await ref.update({ favorites: selected ? firebase.firestore.FieldValue.arrayUnion(key) : firebase.firestore.FieldValue.arrayRemove(key) });
+              }).catch(() => status('同步失敗；星號已保留本機，請重新登入以重試。'));
+            };
+            for (const [key, selected] of pending) syncChange(key, selected);
+            await writes;
+            if (current !== generation) return;
+            unsubscribe = ref.onSnapshot(snapshot => {
+              if (current !== generation) return;
+              favorites = new Set(validFavorites(snapshot.data()?.favorites));
+              saveFavorites(); render(); status('已登入 Google・我的最愛自動同步中');
+            }, () => status('無法讀取雲端；請確認 Firestore 權限或重新登入。'));
+          } catch (_) {
+            if (current !== generation) return;
+            syncChange = () => {};
+            status('同步失敗；星號仍保留本機。請檢查 Firebase 設定與權限後重新登入。');
+          }
+        });
+      } catch (_) { status('同步服務載入失敗，仍可使用本機我的最愛。'); }
+    }
+    setupFirebase();
+    $("loading").hidden=true;
+    $("filter-toggle").onclick=()=>{
+      setFiltersExpanded($('filter-toggle').getAttribute('aria-expanded') !== 'true');
+    };
+    } catch(error) {
+      document.getElementById('loading').textContent='載入失敗：'+error.message+' 請重新整理後再試。';
+    }
+    })();
+  </script>
+</body>
+</html>
