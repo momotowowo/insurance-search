@@ -430,16 +430,16 @@
     }
     window.insuranceReady = new Promise(resolve => requestAnimationFrame(()=>setTimeout(resolve,0))).then(async()=>{
       if ('DecompressionStream' in window) {
-        await loadScript('../data/products-packed.js');
+        await loadScript('data/products-packed.js');
         const bytes=Uint8Array.from(atob(window.INSURANCE_PACKED),c=>c.charCodeAt(0));
         window.INSURANCE_PACKED=null;
         const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
         const data=JSON.parse(await new Response(stream).text());
         window.INSURANCE_META=data.meta; window.INSURANCE_PRODUCTS=data.products;
       } else {
-        await loadScript('../data/products.js');
+        await loadScript('data/products.js');
       }
-      try { await loadScript('../data/product_riders.js'); } catch (_) { window.INSURANCE_PRODUCT_RIDERS = window.INSURANCE_PRODUCT_RIDERS || { by_product_id: {} }; }
+      try { await loadScript('data/product_riders.js'); } catch (_) { window.INSURANCE_PRODUCT_RIDERS = window.INSURANCE_PRODUCT_RIDERS || { by_product_id: {} }; }
     });
   </script>
   <script>
@@ -484,7 +484,14 @@
     }
     const products = window.INSURANCE_PRODUCTS || [];
     const meta = window.INSURANCE_META || {};
-    const productRidersIndex = (window.INSURANCE_PRODUCT_RIDERS && window.INSURANCE_PRODUCT_RIDERS.by_product_id) || {};
+    const productRidersData = window.INSURANCE_PRODUCT_RIDERS || {};
+    const productRidersIndex = productRidersData.by_product_id || {};
+    const productRidersByMainKey = productRidersData.by_main_key || {};
+    const productRidersByMainTii = productRidersData.by_main_tii_product_id || {};
+    const productRidersByRiderKey = productRidersData.by_rider_key || {};
+    const productRidersByRiderTii = productRidersData.by_rider_tii_product_id || {};
+    const productRidersByRiderBase = productRidersData.by_rider_base_name || {};
+    const reverseMainsNote = productRidersData.reverse_note || '目前僅依已查核主約反推，清單持續補齊';
 
     const $ = (id) => document.getElementById(id);
     const statusClass = (s) => s === "現售" ? "sale" : s === "停售" ? "stop" : "unknown";
@@ -579,13 +586,37 @@
     }
 
 
+    function tiiProductIdOf(p) {
+      const url = (p && p.tii_url) || '';
+      const m = /productId=([^&]+)/.exec(url);
+      return m ? m[1] : '';
+    }
+
+    function stripPartialChangeSuffix(name) {
+      return String(name || '').replace(/[（(]\s*第\s*\d+\s*次\s*部分變更\s*[）)]\s*$/u, '').trim();
+    }
+
     function ridersForProduct(p) {
-      if (!p || !p.id) return null;
+      if (!p) return null;
       // Riders themselves do not show an attachable-rider block.
       if (p.category === "附約" || (p.name || "").includes("附約")) return null;
-      const entry = productRidersIndex[p.id];
+      const key = productKey(p);
+      const tii = tiiProductIdOf(p);
+      const entry = productRidersByMainKey[key] || productRidersByMainTii[tii] || productRidersIndex[p.id];
       if (!entry || !Array.isArray(entry.riders) || !entry.riders.length) return null;
       return entry;
+    }
+
+    function mainsForRider(p) {
+      if (!p) return null;
+      const isRider = p.category === "附約" || (p.name || "").includes("附約");
+      if (!isRider) return null;
+      const key = productKey(p);
+      const tii = tiiProductIdOf(p);
+      const baseKey = `${p.current_insurer || p.insurer || ''}|${stripPartialChangeSuffix(p.name || '')}`;
+      let mains = productRidersByRiderKey[key] || productRidersByRiderTii[tii] || productRidersByRiderBase[baseKey] || null;
+      if (!mains || !mains.length) return null;
+      return { mains, note: reverseMainsNote };
     }
 
     function jumpToSiteProduct(siteProductId, fallbackName) {
@@ -628,6 +659,25 @@
       return `<details class="riders-block">
         <summary>可附加附約（${n}）</summary>
         <div class="riders-meta">來源：${escapeHtml(sourceLabel)}${verified ? `｜查核 ${escapeHtml(verified)}` : ""}。實際可否附加依各公司核保規定。</div>
+        <ul class="riders-list">${items}</ul>
+      </details>`;
+    }
+
+    function mainsBlock(p) {
+      const entry = mainsForRider(p);
+      if (!entry) return "";
+      const n = entry.mains.length;
+      const items = entry.mains.map((m) => {
+        const name = escapeHtml(m.name || "");
+        if (m.on_site && (m.site_product_id || m.site_key)) {
+          return `<li><button type="button" class="rider-link" data-main-site-id="${escapeAttr(m.site_product_id || '')}" data-main-name="${escapeAttr(m.name || "")}">${name}</button></li>`;
+        }
+        const href = escapeAttr(m.tii_url || '');
+        return `<li><a class="rider-missing" href="${href}" target="_blank" rel="noopener noreferrer">${name}<span class="rider-badge">本站未收錄</span></a></li>`;
+      }).join("");
+      return `<details class="riders-block mains-block">
+        <summary>可搭配主約（${n}）</summary>
+        <div class="riders-meta">${escapeHtml(entry.note || reverseMainsNote)}</div>
         <ul class="riders-list">${items}</ul>
       </details>`;
     }
@@ -692,7 +742,7 @@
           ${p.insurer_assignment_status === 'needs_verification' ? `<div class="assignment-note">${escapeHtml(p.insurer_assignment_note || '保誠原始資料，現承保公司待核對（部分契約曾轉凱基）')}</div>` : ''}
           <div class="sub">${escapeHtml(metaLine(p))}</div>
           <div class="detail-links">${termsButton(p, start + i)}</div>
-          ${ridersBlock(p)}
+          ${ridersBlock(p)}${mainsBlock(p)}
         </div>`;
       };
       $("rows").innerHTML = pageItems.map((p, i) => `<tr><td>${compactProduct(p,i,'table')}</td></tr>`).join('');
@@ -709,6 +759,13 @@
           ev.preventDefault();
           ev.stopPropagation();
           jumpToSiteProduct(btn.getAttribute('data-rider-site-id'), btn.getAttribute('data-rider-name'));
+        };
+      });
+      document.querySelectorAll('[data-main-site-id]').forEach(btn => {
+        btn.onclick = (ev) => {
+          ev.preventDefault();
+          ev.stopPropagation();
+          jumpToSiteProduct(btn.getAttribute('data-main-site-id'), btn.getAttribute('data-main-name'));
         };
       });
       $("pager").innerHTML = list.length ? `
