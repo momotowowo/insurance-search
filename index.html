@@ -452,7 +452,10 @@
       const seen = parseFirstSeen(p);
       if (!seen) return '';
       const day = seen.toLocaleDateString('zh-Hant-TW', { timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit' });
-      if (p.first_seen_source === 'discovered') return `本站新增 ${day}`;
+      if (p.first_seen_source === 'discovered') {
+        const official = p.official_release_date ? `｜官方發布 ${p.official_release_date}` : '';
+        return `本站新增 ${day}${official}`;
+      }
       return '';
     }
     const products = window.INSURANCE_PRODUCTS || [];
