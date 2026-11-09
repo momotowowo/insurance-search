@@ -321,6 +321,7 @@
     .riders-list a:hover, .riders-list button.rider-link:hover { background:rgba(13,92,77,.1); }
     .riders-list .rider-code { display:block; color:var(--muted); font-size:10px; margin-top:2px; word-break:break-all; }
     .riders-list .rider-missing { color:var(--ink); }
+    .riders-list span.rider-missing { display:block; width:100%; background:rgba(27,36,48,.04); border-radius:8px; padding:8px 10px; font-size:12px; line-height:1.35; min-height:44px; }
     .riders-list .rider-badge { display:inline-block; margin-left:4px; font-size:10px; color:#8a5a00; background:#fff6e5; border:1px solid #f0d9a0; border-radius:4px; padding:0 4px; }
     @media(max-width:767px) {
       .product-details { padding:6px 8px 10px 40px; }
@@ -614,9 +615,28 @@
       const key = productKey(p);
       const tii = tiiProductIdOf(p);
       const baseKey = `${p.current_insurer || p.insurer || ''}|${stripPartialChangeSuffix(p.name || '')}`;
-      let mains = productRidersByRiderKey[key] || productRidersByRiderTii[tii] || productRidersByRiderBase[baseKey] || null;
-      if (!mains || !mains.length) return null;
-      return { mains, note: reverseMainsNote };
+      let raw = productRidersByRiderKey[key] || productRidersByRiderTii[tii] || productRidersByRiderBase[baseKey] || null;
+      if (!raw) return null;
+      // Official structured entry: { source, mains, source_label, verified_date, ... }
+      // Legacy inferred: bare array of mains.
+      let mains, note, official;
+      if (Array.isArray(raw)) {
+        mains = raw;
+        note = reverseMainsNote;
+        official = false;
+      } else {
+        mains = raw.mains || [];
+        official = raw.source === 'official_tii';
+        if (official) {
+          const verified = raw.verified_date || (raw.verified_at || '').slice(0, 10);
+          const label = raw.source_label || '保發中心，依各公司現行核保規定辦理';
+          note = `來源：${label}${verified ? `｜查核 ${verified}` : ''}。實際可否附加依各公司核保規定。`;
+        } else {
+          note = raw.note || reverseMainsNote;
+        }
+      }
+      if (!mains.length) return null;
+      return { mains, note, official };
     }
 
     function jumpToSiteProduct(siteProductId, fallbackName) {
@@ -669,11 +689,12 @@
       const n = entry.mains.length;
       const items = entry.mains.map((m) => {
         const name = escapeHtml(m.name || "");
+        const code = m.code || m.tii_product_id || "";
         if (m.on_site && (m.site_product_id || m.site_key)) {
-          return `<li><button type="button" class="rider-link" data-main-site-id="${escapeAttr(m.site_product_id || '')}" data-main-name="${escapeAttr(m.name || "")}">${name}</button></li>`;
+          return `<li><button type="button" class="rider-link" data-main-site-id="${escapeAttr(m.site_product_id || '')}" data-main-name="${escapeAttr(m.name || "")}">${name}${code ? `<span class="rider-code">${escapeHtml(code)}</span>` : ""}</button></li>`;
         }
-        const href = escapeAttr(m.tii_url || '');
-        return `<li><a class="rider-missing" href="${href}" target="_blank" rel="noopener noreferrer">${name}<span class="rider-badge">本站未收錄</span></a></li>`;
+        // Unmatched: plain text + note, not a fabricated in-site link.
+        return `<li><span class="rider-missing">${name}<span class="rider-badge">本站未收錄</span>${code ? `<span class="rider-code">${escapeHtml(code)}</span>` : ""}</span></li>`;
       }).join("");
       return `<details class="riders-block mains-block">
         <summary>可搭配主約（${n}）</summary>
