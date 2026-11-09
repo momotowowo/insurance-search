@@ -464,6 +464,8 @@
     const $ = (id) => document.getElementById(id);
     const statusClass = (s) => s === "現售" ? "sale" : s === "停售" ? "stop" : "unknown";
 
+    // Fixed category order (display names unchanged). Unknown categories follow, zh-Hant sorted.
+    const CATEGORY_ORDER = ["健康險", "傷害險", "附約", "壽險", "投資型", "年金險", "還本險", "OIU", "簡易人壽", "未分類"];
     function fillSelect(id, values, allLabel) {
       const el = $(id);
       const current = el.value;
@@ -474,6 +476,16 @@
 
     function unique(key, list = products) {
       return [...new Set(list.map((p) => p[key]).filter(Boolean))].sort((a, b) => a.localeCompare(b, "zh-Hant"));
+    }
+    function uniqueUnordered(key, list = products) {
+      return [...new Set(list.map((p) => p[key]).filter(Boolean))];
+    }
+    function orderedCategories(list = products) {
+      const present = new Set(uniqueUnordered("category", list));
+      const known = CATEGORY_ORDER.filter((c) => present.has(c));
+      const unknown = [...present].filter((c) => !CATEGORY_ORDER.includes(c))
+        .sort((a, b) => a.localeCompare(b, "zh-Hant"));
+      return known.concat(unknown);
     }
 
     function escapeHtml(s) {
@@ -686,7 +698,7 @@
         (!state.insurer || p.current_insurer === state.insurer)
       );
       fillSelect("insurer", unique("current_insurer", products.filter((p) => !state.sector || p.sector === state.sector)), "全部公司");
-      fillSelect("category", unique("category", base), "全部類別");
+      fillSelect("category", orderedCategories(base), "全部類別");
       if (state.insurer && ![...$("insurer").options].some((o) => o.value === state.insurer)) state.insurer = "";
       if (state.category && ![...$("category").options].some((o) => o.value === state.category)) state.category = "";
     }
@@ -696,7 +708,7 @@
       fillSelect("sector", unique("sector"), "全部");
       $("sector").parentElement.hidden = unique("sector").length <= 1;
       fillSelect("insurer", unique("current_insurer"), "全部公司");
-      fillSelect("category", unique("category"), "全部類別");
+      fillSelect("category", orderedCategories(), "全部類別");
       const params = new URLSearchParams(location.search);
       [["q","q"],["sector","sector"],["insurer","insurer"],["category","category"],["status","status"],["source","source"],["view","view"]].forEach(([key, id]) => {
         if (params.has(key)) {
