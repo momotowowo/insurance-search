@@ -268,6 +268,15 @@
     .assignment-note { display:block; margin-top:2px; color:#8a5a00; background:#fff6e5; border:1px solid #f0d9a0; border-radius:6px; padding:2px 6px; font-size:11px; line-height:1.35; }
     .assignment-banner { display:none; margin:8px 0 0; padding:8px 10px; border-radius:8px; background:#fff6e5; border:1px solid #f0d9a0; color:#8a5a00; font-size:13px; line-height:1.4; }
     .assignment-banner.is-visible { display:block; }
+    .view-tabs { display:flex; gap:6px; margin:8px 0 0; flex-wrap:wrap; }
+     .view-tabs button { min-height:44px; padding:8px 12px; border-radius:999px; border:1px solid var(--line); background:#fff; color:var(--ink); font:inherit; cursor:pointer; }
+    .view-tabs button[aria-selected="true"] { background:var(--teal); color:#fff; border-color:var(--teal); }
+    .new-badge { display:inline-block; margin-left:4px; font-size:10px; color:#0d5c4d; background:rgba(13,92,77,.1); border:1px solid rgba(13,92,77,.25); border-radius:4px; padding:0 4px; vertical-align:middle; }
+    .first-seen { display:block; margin-top:2px; color:var(--muted); font-size:11px; }
+    @media(max-width:767px) {
+      .view-tabs { margin-top:4px; }
+      .view-tabs button { min-height:44px; font-size:13px; padding:8px 12px; }
+    }
     .company { display:block; color:var(--muted); font-size:11px; line-height:1.2; }
     .product-copy .name { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; font-size:13px; line-height:1.25; font-weight:500; }
     .category-tag { font-size:10px; color:var(--teal); background:rgba(13,92,77,.08); border-radius:5px; padding:3px 4px; max-width:55px; flex-shrink:0; }
@@ -352,6 +361,10 @@
         <span id="sync-status" role="status">未登入：星號只儲存在目前瀏覽器；跨裝置同步需完成 Google 登入設定。</span>
       </div>
       <div class="stats" id="stats"></div>
+      <div class="view-tabs" id="view-tabs" role="tablist" aria-label="商品檢視">
+        <button type="button" role="tab" id="tab-all" aria-selected="true" data-view="all">全部商品</button>
+        <button type="button" role="tab" id="tab-new" aria-selected="false" data-view="new">新商品上架專區</button>
+      </div>
     </section>
 
     <div id="assignment-banner" class="assignment-banner" role="status" aria-live="polite" hidden></div>
@@ -416,7 +429,32 @@
       if ([10, 15, 20].includes(saved)) pageSize = saved;
     } catch (_) {}
     document.getElementById('page-size').value = String(pageSize);
-    const state = { q: "", sector: "", insurer: "", category: "", status: "", source: "", page: 1 };
+    const state = { q: "", sector: "", insurer: "", category: "", status: "", source: "", page: 1, view: "all" };
+    const NEW_WINDOW_MS = 7 * 24 * 60 * 60 * 1000;
+    function clockNow() {
+      if (typeof window.__INSURANCE_NOW__ === 'number') return new Date(window.__INSURANCE_NOW__);
+      if (typeof window.__INSURANCE_NOW__ === 'string' && window.__INSURANCE_NOW__) return new Date(window.__INSURANCE_NOW__);
+      return new Date();
+    }
+    function parseFirstSeen(p) {
+      if (!p || !p.first_seen_at) return null;
+      const d = new Date(p.first_seen_at);
+      return Number.isNaN(d.getTime()) ? null : d;
+    }
+    function isNewProduct(p, now = clockNow()) {
+      if (!p || p.first_seen_source !== 'discovered') return false;
+      const seen = parseFirstSeen(p);
+      if (!seen) return false;
+      const age = now.getTime() - seen.getTime();
+      return age >= 0 && age < NEW_WINDOW_MS;
+    }
+    function firstSeenLabel(p) {
+      const seen = parseFirstSeen(p);
+      if (!seen) return '';
+      const day = seen.toLocaleDateString('zh-Hant-TW', { timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit' });
+      if (p.first_seen_source === 'discovered') return `本站新增 ${day}`;
+      return '';
+    }
     const products = window.INSURANCE_PRODUCTS || [];
     const meta = window.INSURANCE_META || {};
 
@@ -462,6 +500,7 @@
     $('favorites-only').onchange = () => { state.page = 1; render(); };
 
     function matches(p) {
+      if (state.view === 'new' && !isNewProduct(p)) return false;
       if ($('favorites-only').checked && !favorites.has(productKey(p))) return false;
       if (state.sector && p.sector !== state.sector) return false;
       if (state.insurer && p.current_insurer !== state.insurer) return false;
@@ -513,6 +552,8 @@
       if (p.sale_date) bits.push("銷售日 " + p.sale_date);
       if (p.stop_date) bits.push("停售日 " + p.stop_date);
       if (p.source) bits.push("來源 " + p.source);
+      const seenLabel = firstSeenLabel(p);
+      if (seenLabel) bits.push(seenLabel);
       return bits.join(" · ");
     }
 
@@ -535,12 +576,20 @@
         banner.textContent = "";
       }
       $("empty").hidden = pageItems.length > 0;
+      if (state.view === 'new') {
+        $("empty").textContent = pageItems.length ? '' : '目前沒有本站 7 日內新發現的商品。新商品會出現在此專區，滿 7 天後只離開本區，一般搜尋仍可找到。';
+      } else {
+        $("empty").textContent = '沒有符合的商品。試試較短的關鍵字，或清空篩選條件。';
+      }
+      document.querySelectorAll('#view-tabs [data-view]').forEach(btn => {
+        btn.setAttribute('aria-selected', String(btn.dataset.view === state.view));
+      });
       const compactProduct = (p, i, prefix) => {
         const id = `${prefix}-details-${i}`;
         return `<div class="compact-top">
           ${starButton(p)}
           <button class="product-toggle" type="button" aria-expanded="false" aria-controls="${id}">
-            <span class="product-copy"><span class="company">${escapeHtml(p.current_insurer || p.insurer)}${p.current_insurer !== p.original_insurer ? ` <small class="original-company">原${escapeHtml(p.original_insurer)}</small>` : ""}${p.insurer_assignment_status === 'needs_verification' ? ` <small class="original-company">待核對</small>` : ""}</span><span class="name">${escapeHtml(p.name)}</span>${p.insurer_assignment_status === 'needs_verification' ? `<span class="assignment-note">${escapeHtml(p.insurer_assignment_note || '保誠原始資料，現承保公司待核對（部分契約曾轉凱基）')}</span>` : ''}</span>
+            <span class="product-copy"><span class="company">${escapeHtml(p.current_insurer || p.insurer)}${p.current_insurer !== p.original_insurer ? ` <small class="original-company">原${escapeHtml(p.original_insurer)}</small>` : ""}${p.insurer_assignment_status === 'needs_verification' ? ` <small class="original-company">待核對</small>` : ""}${isNewProduct(p) ? ` <span class="new-badge">新上架</span>` : ""}</span><span class="name">${escapeHtml(p.name)}</span>${firstSeenLabel(p) ? `<span class="first-seen">${escapeHtml(firstSeenLabel(p))}</span>` : ''}${p.insurer_assignment_status === 'needs_verification' ? `<span class="assignment-note">${escapeHtml(p.insurer_assignment_note || '保誠原始資料，現承保公司待核對（部分契約曾轉凱基）')}</span>` : ''}</span>
             <span class="category-tag">${escapeHtml(p.category)}</span><span class="expand-icon" aria-hidden="true">⌄</span>
           </button>
         </div>
@@ -591,6 +640,15 @@
     }
 
     function bind() {
+      document.querySelectorAll('#view-tabs [data-view]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          state.view = btn.dataset.view;
+          state.page = 1;
+          render();
+        });
+      });
+      // Re-evaluate 7-day window while the page stays open.
+      setInterval(() => { if (state.view === 'new') render(); }, 60 * 1000);
       $('page-size').addEventListener('change', e => {
         const nextSize = Number(e.target.value);
         if (![10, 15, 20].includes(nextSize)) return;
@@ -637,13 +695,14 @@
       fillSelect("insurer", unique("current_insurer"), "全部公司");
       fillSelect("category", unique("category"), "全部類別");
       const params = new URLSearchParams(location.search);
-      [["q","q"],["sector","sector"],["insurer","insurer"],["category","category"],["status","status"],["source","source"]].forEach(([key, id]) => {
+      [["q","q"],["sector","sector"],["insurer","insurer"],["category","category"],["status","status"],["source","source"],["view","view"]].forEach(([key, id]) => {
         if (params.has(key)) {
           state[id] = params.get(key) || "";
           if ($(id)) $(id).value = state[id];
         }
       });
       if (!unique("sector").includes(state.sector)) { state.sector = ""; $("sector").value = ""; }
+      if (state.view !== 'new') state.view = 'all';
       refreshDependentFilters();
       const s = meta.stats || {};
       const pills = [

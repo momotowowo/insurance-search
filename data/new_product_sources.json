@@ -1,0 +1,65 @@
+{
+  "title": "台灣壽險新商品公開監看來源（人工／半自動，非已建立自動同步）",
+  "checked_on": "2026-11-09",
+  "timezone": "Asia/Taipei",
+  "date_definitions": {
+    "approval_or_filing_date": "金管會核准／核備／備查日期（發行審查時點，不等於本站新品）",
+    "sale_date": "商品銷售起始日（公司或保發中心欄位；舊商品也可能有）",
+    "tii_listing_date": "保發中心資料庫登錄／更新時點（本站現有匯出未保證有獨立欄位）",
+    "first_seen_at": "本站首次入庫日期（Asia/Taipei）；僅此用於新商品專區 7 日窗"
+  },
+  "sources": [
+    {
+      "id": "ib_product_review",
+      "name": "金管會保險局｜保險商品審查公告",
+      "url": "https://www.ib.gov.tw/ch/home.jsp?id=64&parentpath=0%2C8",
+      "coverage": "金管會公開的商品核准／審查公告（壽險＋產險混列）",
+      "stable_incremental": "HTML 列表可每週人工比對標題；未驗證到可用的穩定 RSS XML（feed 圖示存在但 onemessages_rss.jsp 回傳一般網頁）",
+      "captcha": false,
+      "manual": true,
+      "gap": "僅核准制等需公告案件；備查／小幅變更常不在此列表。不能單靠此處推斷本站庫存新品。"
+    },
+    {
+      "id": "tii_insprod",
+      "name": "保發中心｜保險商品查詢資料庫",
+      "url": "https://insprod.tii.org.tw/Query.aspx",
+      "coverage": "人身／財產保險商品條款與狀態（現售／停售）",
+      "stable_incremental": "需表單查詢；本專案既有 tii_session 流程",
+      "captcha": true,
+      "captcha_policy": "驗證碼必須由使用者判讀，禁止 OCR／繞過",
+      "manual": true,
+      "gap": "新商品可能尚未送件；直接 DetailList 深連結常無內容。首次爬到舊商品若只用銷售日會誤標新品，故專區只用 first_seen_at。"
+    },
+    {
+      "id": "lia_roc_members",
+      "name": "壽險公會｜會員公司名錄（20家）",
+      "url": "https://www.lia-roc.org.tw/list_article?article_content=140",
+      "coverage": "現行壽險公司名單，非商品清單",
+      "stable_incremental": "名錄頁面",
+      "captcha": false,
+      "manual": true,
+      "gap": "無全市場新商品 RSS／清單"
+    },
+    {
+      "id": "insurer_official_disclosure",
+      "name": "各壽險公司官網資訊公開／商品專區",
+      "url_pattern": "各公司官網『資訊公開』或商品一覽（20家各自不同）",
+      "coverage": "現售條款／DM；停售收錄不完整",
+      "stable_incremental": "多數為 HTML；少見全公司統一 RSS。需逐家人工或既有官網抓取腳本",
+      "captcha": "視公司而定",
+      "manual": true,
+      "gap": "無單一穩定增量 API；版面常改；不能假設公開未公告的內部接口"
+    }
+  ],
+  "weekly_minimum_plan": {
+    "not_built": "本文件只描述可執行監看；未建立自動同步或 routine",
+    "steps": [
+      "1. 開啟金管會保險商品審查頁，記錄一週內壽險核准標題與日期：https://www.ib.gov.tw/ch/home.jsp?id=64&parentpath=0%2C8",
+      "2. 若要更新保發中心庫存：由使用者判讀 captcha.png 後跑既有 tii_session（不 OCR／不繞過）",
+      "3. 跑 merge_tii → company_merge → first_seen → pack_data；first_seen 只對從未見過的穩定鍵寫入 discovered",
+      "4. 發布前確認新商品專區：僅 discovered 且 <7 日；baseline 歷史庫存不出現",
+      "5. 核對保誠 needs_verification 提示仍在"
+    ],
+    "false_new_risk": "舊商品第一次被爬進站＝本站新增，不是公司剛發行；UI 必須標『本站新增』"
+  }
+}
