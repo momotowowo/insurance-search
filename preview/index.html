@@ -515,6 +515,7 @@
         on_site: !!(o && o.on),
       };
       if (o && o.id) out.site_product_id = o.id;
+      if (o && o.st) out.site_status = o.st;
       if (o && o.es === 'rev') out.edge_source = 'official_tii_reverse';
       else if (o && o.es) out.edge_source = o.es;
       else out.edge_source = 'official_tii';
@@ -582,7 +583,6 @@
 
     function manifestMainMeta(p) {
       if (!p) return null;
-      if (!isOnSale(p)) return null;
       if (p.category === '附約' || (p.name || '').includes('附約')) return null;
       const key = productKey(p);
       const tii = tiiProductIdOf(p);
@@ -592,7 +592,6 @@
 
     function manifestRiderMeta(p) {
       if (!p) return null;
-      if (!isOnSale(p)) return null;
       const isRider = p.category === '附約' || (p.name || '').includes('附約');
       if (!isRider) return null;
       const key = productKey(p);
@@ -711,7 +710,6 @@
 
     function ridersForProduct(p) {
       if (!p) return null;
-      if (!isOnSale(p)) return null;
       if (p.category === "附約" || (p.name || "").includes("附約")) return null;
       const key = productKey(p);
       const tii = tiiProductIdOf(p);
@@ -723,7 +721,6 @@
 
     function mainsForRider(p) {
       if (!p) return null;
-      if (!isOnSale(p)) return null;
       const isRider = p.category === "附約" || (p.name || "").includes("附約");
       if (!isRider) return null;
       const key = productKey(p);
@@ -781,8 +778,10 @@
         if (r.on_site && r.site_product_id) {
           return `<li><button type="button" class="rider-link" data-rider-site-id="${escapeAttr(r.site_product_id)}" data-rider-name="${escapeAttr(r.name || "")}">${name}<span class="rider-code">${code}</span></button></li>`;
         }
-        const href = escapeAttr(r.tii_url || (`https://insprod.tii.org.tw/DetailList.aspx?productId=${r.code || ""}`));
-        return `<li><a class="rider-missing" href="${href}" target="_blank" rel="noopener noreferrer">${name}<span class="rider-badge">本站未收錄</span><span class="rider-code">${code}</span></a></li>`;
+        if (r.site_status) {
+          return `<li><span>${name}<span class="rider-badge">${escapeHtml(r.site_status)}</span><span class="rider-code">${code}</span></span></li>`;
+        }
+        return `<li><span class="rider-missing">${name}<span class="rider-badge">本站未收錄</span><span class="rider-code">${code}</span></span></li>`;
       }).join("");
     }
 
@@ -792,6 +791,9 @@
         const code = m.code || m.tii_product_id || "";
         if (m.on_site && (m.site_product_id || m.site_key)) {
           return `<li><button type="button" class="rider-link" data-main-site-id="${escapeAttr(m.site_product_id || '')}" data-main-name="${escapeAttr(m.name || "")}">${name}${code ? `<span class="rider-code">${escapeHtml(code)}</span>` : ""}</button></li>`;
+        }
+        if (m.site_status) {
+          return `<li><span>${name}<span class="rider-badge">${escapeHtml(m.site_status)}</span>${code ? `<span class="rider-code">${escapeHtml(code)}</span>` : ""}</span></li>`;
         }
         return `<li><span class="rider-missing">${name}<span class="rider-badge">本站未收錄</span>${code ? `<span class="rider-code">${escapeHtml(code)}</span>` : ""}</span></li>`;
       }).join("");
