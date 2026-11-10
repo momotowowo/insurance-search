@@ -273,6 +273,11 @@
     .view-tabs button[aria-selected="true"] { background:var(--teal); color:#fff; border-color:var(--teal); }
     .new-badge { display:inline-block; margin-left:4px; font-size:10px; color:#0d5c4d; background:rgba(13,92,77,.1); border:1px solid rgba(13,92,77,.25); border-radius:4px; padding:0 4px; vertical-align:middle; }
     .first-seen { display:block; margin-top:2px; color:var(--muted); font-size:11px; }
+    .pending-badge { display:inline-block; margin-left:4px; font-size:10px; color:#8a5a00; background:#fff6e5; border:1px solid #f0d9a0; border-radius:4px; padding:0 4px; vertical-align:middle; }
+    .pending-reason { display:block; margin-top:2px; color:#8a5a00; font-size:11px; line-height:1.35; }
+    .pending-panel { margin:0 10px 8px 48px; padding:6px 8px; border-radius:8px; background:#fff6e5; border:1px solid #f0d9a0; }
+    .pending-panel .pending-reason { margin:4px 0 0; }
+    .pending-panel .pending-links { display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin-top:6px; }
     @media(max-width:767px) {
       .view-tabs { margin-top:4px; }
       .view-tabs button { min-height:44px; font-size:13px; padding:8px 12px; }
@@ -388,6 +393,7 @@
       <div class="view-tabs" id="view-tabs" role="tablist" aria-label="商品檢視">
         <button type="button" role="tab" id="tab-all" aria-selected="true" data-view="all">全部商品</button>
         <button type="button" role="tab" id="tab-new" aria-selected="false" data-view="new">新商品上架專區</button>
+        <button type="button" role="tab" id="tab-pending" aria-selected="false" data-view="pending">待確定</button>
       </div>
     </section>
 
@@ -484,6 +490,9 @@
       if (!seen) return false;
       const age = now.getTime() - seen.getTime();
       return age >= 0 && age < NEW_WINDOW_MS;
+    }
+    function isPending(p) {
+      return !!(p && (p.pending_review === true || p.pending_review === 'true'));
     }
     function firstSeenLabel(p) {
       const seen = parseFirstSeen(p);
@@ -602,6 +611,12 @@
     }
 
     const $ = (id) => document.getElementById(id);
+    function updatePendingTabLabel() {
+      const btn = $("tab-pending");
+      if (!btn) return;
+      const n = products.filter(isPending).length;
+      btn.textContent = "待確定 " + n.toLocaleString("zh-Hant");
+    }
     const statusClass = (s) => s === "現售" ? "sale" : s === "停售" ? "stop" : "unknown";
 
     // Fixed category order (display names unchanged). Unknown categories follow, zh-Hant sorted.
@@ -656,6 +671,7 @@
 
     function matches(p) {
       if (state.view === 'new' && !isNewProduct(p)) return false;
+      if (state.view === 'pending' && !isPending(p)) return false;
       if ($('favorites-only').checked && !favorites.has(productKey(p))) return false;
       if (state.sector && p.sector !== state.sector) return false;
       if (state.insurer && p.current_insurer !== state.insurer) return false;
@@ -913,6 +929,7 @@
     }
 
     function render() {
+      updatePendingTabLabel();
       $("favorites-count").textContent = `我的最愛 ${favorites.size}`;
       const list = filtered();
       const pages = Math.max(1, Math.ceil(list.length / pageSize));
@@ -933,6 +950,8 @@
       $("empty").hidden = pageItems.length > 0;
       if (state.view === 'new') {
         $("empty").textContent = pageItems.length ? '' : '目前沒有本站 7 日內新發現的商品。新商品會出現在此專區，滿 7 天後只離開本區，一般搜尋仍可找到。';
+      } else if (state.view === 'pending') {
+        $("empty").textContent = pageItems.length ? '' : '目前沒有待確定的商品。有疑問的販售狀態會列在此專區，一般搜尋仍可找到。';
       } else {
         $("empty").textContent = '沒有符合的商品。試試較短的關鍵字，或清空篩選條件。';
       }
@@ -944,10 +963,15 @@
         return `<div class="compact-top">
           ${starButton(p)}
           <button class="product-toggle" type="button" aria-expanded="false" aria-controls="${id}">
-            <span class="product-copy"><span class="company">${escapeHtml(p.current_insurer || p.insurer)}${p.current_insurer !== p.original_insurer ? ` <small class="original-company">原${escapeHtml(p.original_insurer)}</small>` : ""}${p.insurer_assignment_status === 'needs_verification' ? ` <small class="original-company">待核對</small>` : ""}${isNewProduct(p) ? ` <span class="new-badge">新上架</span>` : ""}</span><span class="name">${escapeHtml(p.name)}</span>${firstSeenLabel(p) ? `<span class="first-seen">${escapeHtml(firstSeenLabel(p))}</span>` : ''}${p.insurer_assignment_status === 'needs_verification' ? `<span class="assignment-note">${escapeHtml(p.insurer_assignment_note || '保誠原始資料，現承保公司待核對（部分契約曾轉凱基）')}</span>` : ''}</span>
+            <span class="product-copy"><span class="company">${escapeHtml(p.current_insurer || p.insurer)}${p.current_insurer !== p.original_insurer ? ` <small class="original-company">原${escapeHtml(p.original_insurer)}</small>` : ""}${p.insurer_assignment_status === 'needs_verification' ? ` <small class="original-company">待核對</small>` : ""}${isNewProduct(p) ? ` <span class="new-badge">新上架</span>` : ""}${isPending(p) ? ` <span class="pending-badge">待確定</span>` : ""}</span><span class="name">${escapeHtml(p.name)}</span>${firstSeenLabel(p) ? `<span class="first-seen">${escapeHtml(firstSeenLabel(p))}</span>` : ''}${p.insurer_assignment_status === 'needs_verification' ? `<span class="assignment-note">${escapeHtml(p.insurer_assignment_note || '保誠原始資料，現承保公司待核對（部分契約曾轉凱基）')}</span>` : ''}</span>
             <span class="category-tag">${escapeHtml(p.category)}</span><span class="expand-icon" aria-hidden="true">⌄</span>
           </button>
         </div>
+        ${isPending(p) ? `<div class="pending-panel">
+          <span class="badge ${statusClass(p.status)}">${escapeHtml(p.status)}</span>
+          <span class="pending-reason">${escapeHtml(p.pending_reason || '待確認販售狀態')}</span>
+          <div class="pending-links detail-links">${termsButton(p, start + i)}</div>
+        </div>` : ''}
         <div class="product-details" id="${id}" hidden>
           <span class="badge ${statusClass(p.status)}">${escapeHtml(p.status)}</span>
           ${p.insurer_assignment_status === 'needs_verification' ? `<div class="assignment-note">${escapeHtml(p.insurer_assignment_note || '保誠原始資料，現承保公司待核對（部分契約曾轉凱基）')}</div>` : ''}
@@ -1032,6 +1056,7 @@
         btn.addEventListener('click', () => {
           state.view = btn.dataset.view;
           state.page = 1;
+          collapsePhoneFilters();
           render();
         });
       });
@@ -1090,7 +1115,7 @@
         }
       });
       if (!unique("sector").includes(state.sector)) { state.sector = ""; $("sector").value = ""; }
-      if (state.view !== 'new') state.view = 'all';
+      if (state.view !== 'new' && state.view !== 'pending') state.view = 'all';
       refreshDependentFilters();
       const s = meta.stats || {};
       const pills = [
