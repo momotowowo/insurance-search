@@ -582,6 +582,7 @@
 
     function manifestMainMeta(p) {
       if (!p) return null;
+      if (!isOnSale(p)) return null;
       if (p.category === '附約' || (p.name || '').includes('附約')) return null;
       const key = productKey(p);
       const tii = tiiProductIdOf(p);
@@ -591,6 +592,7 @@
 
     function manifestRiderMeta(p) {
       if (!p) return null;
+      if (!isOnSale(p)) return null;
       const isRider = p.category === '附約' || (p.name || '').includes('附約');
       if (!isRider) return null;
       const key = productKey(p);
@@ -703,8 +705,13 @@
       return String(name || '').replace(/[（(]\s*第\s*\d+\s*次\s*部分變更\s*[）)]\s*$/u, '').trim();
     }
 
+    function isOnSale(p) {
+      return !!(p && p.status === '現售');
+    }
+
     function ridersForProduct(p) {
       if (!p) return null;
+      if (!isOnSale(p)) return null;
       if (p.category === "附約" || (p.name || "").includes("附約")) return null;
       const key = productKey(p);
       const tii = tiiProductIdOf(p);
@@ -716,6 +723,7 @@
 
     function mainsForRider(p) {
       if (!p) return null;
+      if (!isOnSale(p)) return null;
       const isRider = p.category === "附約" || (p.name || "").includes("附約");
       if (!isRider) return null;
       const key = productKey(p);
