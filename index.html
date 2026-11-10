@@ -555,7 +555,7 @@
 
     function termsButton(p, i) {
       const tii = p.tii_url ? ` <a class="sub" href="${escapeAttr(p.tii_url)}" target="_blank" rel="noopener noreferrer">保發中心詳細頁</a>` : "";
-      if (!p.terms_url) return (tii || `<span class="sub">無公開條款連結</span>`);
+      if (!p.terms_url) return (tii || `<span class="sub">條款尚未取得</span>`);
       return `<button class="ghost" type="button" data-i="${i}">開啟條款</button>` + tii;
     }
 

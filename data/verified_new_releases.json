@@ -11,7 +11,8 @@
     "official_release_date 另欄；重建時不得用官方日回填 first_seen。",
     "baseline 已存在但期內新發行者：可用 promote_baseline 改 first_seen_source=discovered 並寫入新的 site_added_at（僅已核實），不重設全庫 baseline。本次無此案例。",
     "PLDL／內部文宣控管編號不可當正式商品代號。",
-    "2026-11-10：安達人壽美利安康為金管會核准同意出單，銷售起日／正式代號等待核對；status=未標示，不標現售。"
+    "2026-11-10：安達人壽美利安康為金管會核准同意出單，銷售起日／正式代號等待核對；status=未標示，不標現售。",
+    "2026-11-10：美利安康公開保單條款尚未取得；已清除誤用金管會公告當 terms_url，卡片顯示「條款尚未取得」。"
   ],
   "products": [
     {
@@ -133,8 +134,8 @@
       "source": "金管會保險局",
       "source_name": "金管會保險局保險商品審查公告",
       "source_url": "https://www.ib.gov.tw/ch/home.jsp?id=64&parentpath=0,8&mcustomize=onemessages_view.jsp&dataserno=202611090001&dtable=Product",
-      "terms_url": "https://www.ib.gov.tw/ch/home.jsp?id=64&parentpath=0,8&mcustomize=onemessages_view.jsp&dataserno=202611090001&dtable=Product",
-      "terms_method": "GET",
+      "terms_url": "",
+      "terms_method": "",
       "official_release_date": "2026-11-09",
       "verified_new_release": true,
       "change_type": "金管會核准新商品（同意出單銷售，銷售起日待核對）",
@@ -153,7 +154,20 @@
         "announcement_body": "安達國際人壽保險股份有限公司所報「安達人壽美利安康美元分紅終身保險」新商品一案，依金管保壽字第1150434909號函辦理，同意出單銷售。",
         "note": "核准不代表已確認開賣；銷售起日、正式代號、通路、繳費年期、DM 均待核對。狀態標為未標示，不標現售。",
         "image_local": null,
-        "checked_on_taipei": "2026-11-10"
+        "checked_on_taipei": "2026-11-10",
+        "terms_status": "not_publicly_found",
+        "terms_checked_on_taipei": "2026-11-10",
+        "terms_sources_checked": [
+          "https://life.chubb.com/tw-zh/products/protection/participating-insurance.html",
+          "https://life.chubb.com/tw-zh/customer/product-terms/download.html",
+          "https://life.chubb.com/tw-zh/products/life.html",
+          "https://life.chubb.com/tw-zh/about-us/information-disclosure.html",
+          "https://life.chubb.com/tw-zh/activities/local-news.html",
+          "https://www.ib.gov.tw/ch/home.jsp?id=64&parentpath=0,8&mcustomize=onemessages_view.jsp&dataserno=202611090001&dtable=Product",
+          "guessed product URL patterns mei-li-an-kang* / *-code.pdf / dm-mei-li-an-kang.pdf (all 404)",
+          "local TII life_rows.tsv / details cache (no 美利安康 hit; did not mutate shared TII session)"
+        ],
+        "terms_note": "金管會 2026-11-09 核准同意出單，但安達官網分紅專區／商品頁／條款審閱專區／資訊公開／新聞皆尚未公開本商品保單條款 PDF；金管會公告頁無條款附件。不可把核准公告當條款。"
       }
     }
   ],
