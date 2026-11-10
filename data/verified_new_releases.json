@@ -12,7 +12,8 @@
     "baseline 已存在但期內新發行者：可用 promote_baseline 改 first_seen_source=discovered 並寫入新的 site_added_at（僅已核實），不重設全庫 baseline。本次無此案例。",
     "PLDL／內部文宣控管編號不可當正式商品代號。",
     "2026-11-10：安達人壽美利安康為金管會核准同意出單，銷售起日／正式代號等待核對；status=未標示，不標現售。",
-    "2026-11-10：美利安康公開保單條款尚未取得；已清除誤用金管會公告當 terms_url，卡片顯示「條款尚未取得」。"
+    "2026-11-10：美利安康公開保單條款尚未取得；已清除誤用金管會公告當 terms_url，卡片顯示「條款尚未取得」。",
+    "2026-11-10：凱基基富利、南山年年發已改掛正式保單條款，原 DM 改存 dm_url，不得再當「開啟條款」。美利安康公開條款仍未取得。"
   ],
   "products": [
     {
@@ -29,7 +30,7 @@
       "source": "官網",
       "source_name": "凱基人壽官網商品頁／新聞／DM",
       "source_url": "https://www.kgilife.com.tw/zh-tw/product-overview/personal/life-refund/apqepl",
-      "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/life-refund/dm/whole-life-protection/pldl1150189_1151101.pdf",
+      "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/life-refund/clause/whole-life-protection/apqepl.pdf",
       "terms_method": "GET",
       "official_release_date": "2026-11-04",
       "verified_new_release": true,
@@ -47,8 +48,20 @@
         "product_url": "https://www.kgilife.com.tw/zh-tw/product-overview/personal/life-refund/apqepl",
         "dm_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/life-refund/dm/whole-life-protection/pldl1150189_1151101.pdf",
         "image_local": "attachments/new-products/kgi-jifulii-news.jpg",
-        "checked_on_taipei": "2026-11-09"
-      }
+        "checked_on_taipei": "2026-11-09",
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/life-refund/clause/whole-life-protection/apqepl.pdf",
+        "terms_status": "verified_official_terms",
+        "terms_document_type": "保單條款",
+        "terms_product_name": "凱基人壽基富利美元利率變動型終身保險－定期給付型",
+        "terms_code": "APQEPL",
+        "terms_currency": "美元",
+        "terms_filing": "115.11.01 凱壽商一字第 1153000197 號",
+        "terms_pages": 35,
+        "terms_checked_on_taipei": "2026-11-10",
+        "terms_note": "官網商品頁同時提供保單條款（clause/apqepl.pdf）與銷售簡介 DM（pldl1150189_1151101.pdf）。先前誤把 DM 當條款，已更正。條款第3條載明各項收付皆以美元為貨幣單位。"
+      },
+      "dm_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/life-refund/dm/whole-life-protection/pldl1150189_1151101.pdf",
+      "terms_status": "已核實條款"
     },
     {
       "stable_hint": "aia-adhwl",
@@ -83,8 +96,13 @@
         "dm_url": "https://www.aia.com.tw/content/dam/tw-wise/zh-tw/our-products/life/docs/dm_adhwl.pdf",
         "terms_url": "https://www.aia.com.tw/content/dam/tw-wise/zh-tw/our-products/life/docs/tnc_adhwl.pdf",
         "image_local": "attachments/new-products/aia-yisheng-logo.png",
-        "checked_on_taipei": "2026-11-09"
-      }
+        "checked_on_taipei": "2026-11-09",
+        "terms_status": "verified_official_terms",
+        "terms_checked_on_taipei": "2026-11-10",
+        "terms_document_type": "保單條款"
+      },
+      "dm_url": "https://www.aia.com.tw/content/dam/tw-wise/zh-tw/our-products/life/docs/dm_adhwl.pdf",
+      "terms_status": "已核實條款"
     },
     {
       "stable_hint": "nanshan-auale",
@@ -100,7 +118,7 @@
       "source": "官網",
       "source_name": "南山人壽最新消息／商品簡介 DM",
       "source_url": "https://www.nanshanlife.com.tw/nanshanlife/news/",
-      "terms_url": "https://www.nanshanlife.com.tw/nanshanlife/portal-api/File/12162",
+      "terms_url": "https://www.nanshanlife.com.tw/nanshanlife/portal-api/File/12142",
       "terms_method": "GET",
       "official_release_date": "2026-11-02",
       "verified_new_release": true,
@@ -117,8 +135,20 @@
         "news_title": "經典復刻 南山人壽推出年年發美元利變終身險（115年11月02日）",
         "dm_url": "https://www.nanshanlife.com.tw/nanshanlife/portal-api/File/12162",
         "image_local": null,
-        "checked_on_taipei": "2026-11-09"
-      }
+        "checked_on_taipei": "2026-11-09",
+        "terms_url": "https://www.nanshanlife.com.tw/nanshanlife/portal-api/File/12142",
+        "terms_status": "verified_official_terms",
+        "terms_document_type": "保單條款（樣本）",
+        "terms_product_name": "南山人壽年年發美元利率變動型還本終身保險（定期給付型）",
+        "terms_code": "AUALE",
+        "terms_currency": "美元",
+        "terms_filing": "中華民國115年10月31日南壽研字第1150000114號函備查",
+        "terms_pages": 30,
+        "terms_checked_on_taipei": "2026-11-10",
+        "terms_note": "portal-api/File/12162 為商品簡介 DM（MP-01-608／2026年10月版）；正式條款為 portal-api/File/12142。條款第三條載明收付幣別皆以美元為貨幣單位。"
+      },
+      "dm_url": "https://www.nanshanlife.com.tw/nanshanlife/portal-api/File/12162",
+      "terms_status": "已核實條款"
     },
     {
       "stable_hint": "chubb-meiliankang",
@@ -168,7 +198,9 @@
           "local TII life_rows.tsv / details cache (no 美利安康 hit; did not mutate shared TII session)"
         ],
         "terms_note": "金管會 2026-11-09 核准同意出單，但安達官網分紅專區／商品頁／條款審閱專區／資訊公開／新聞皆尚未公開本商品保單條款 PDF；金管會公告頁無條款附件。不可把核准公告當條款。"
-      }
+      },
+      "terms_status": "尚未取得",
+      "dm_url": ""
     }
   ],
   "candidates": [
