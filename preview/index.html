@@ -771,6 +771,17 @@
       window.scrollTo({ top: 180, behavior: "smooth" });
     }
 
+    function isOnSaleProduct(p) {
+      return !!p && p.status === "現售";
+    }
+    function visibleRiders(p, riders) {
+      if (!isOnSaleProduct(p)) return [];
+      return (riders || []).filter((r) => r.on_site && r.site_product_id);
+    }
+    function visibleMains(p, mains) {
+      if (!isOnSaleProduct(p)) return [];
+      return (mains || []).filter((m) => m.on_site && (m.site_product_id || m.site_key));
+    }
     function renderRiderItems(riders) {
       return (riders || []).map((r) => {
         const code = escapeHtml(r.code || "");
@@ -800,10 +811,13 @@
     }
 
     function ridersBlock(p) {
+      if (!isOnSaleProduct(p)) return "";
       const entry = ridersForProduct(p);
       const meta = entry ? null : manifestMainMeta(p);
       if (!entry && !meta) return "";
-      const n = entry ? entry.riders.length : meta.n;
+      const items = entry ? visibleRiders(p, entry.riders) : null;
+      const n = entry ? items.length : meta.n;
+      if (!n) return "";
       const company = (p.current_insurer || p.insurer || (meta && meta.co) || "");
       if (entry) {
         const verified = entry.verified_date || (entry.verified_at || "").slice(0, 10);
@@ -811,7 +825,7 @@
         return `<details class="riders-block" data-rider-co="${escapeAttr(company)}">
           <summary>可附加附約（${n}）</summary>
           <div class="riders-meta">來源：${escapeHtml(sourceLabel)}${verified ? `｜查核 ${escapeHtml(verified)}` : ""}。實際可否附加依各公司核保規定。</div>
-          <ul class="riders-list">${renderRiderItems(entry.riders)}</ul>
+          <ul class="riders-list">${renderRiderItems(items)}</ul>
         </details>`;
       }
       return `<details class="riders-block" data-lazy-riders="1" data-rider-co="${escapeAttr(company)}" data-product-key="${escapeAttr(productKey(p))}">
@@ -821,16 +835,19 @@
     }
 
     function mainsBlock(p) {
+      if (!isOnSaleProduct(p)) return "";
       const entry = mainsForRider(p);
       const meta = entry ? null : manifestRiderMeta(p);
       if (!entry && !meta) return "";
-      const n = entry ? entry.mains.length : meta.n;
+      const items = entry ? visibleMains(p, entry.mains) : null;
+      const n = entry ? items.length : meta.n;
+      if (!n) return "";
       const company = (p.current_insurer || p.insurer || (meta && meta.co) || "");
       if (entry) {
         return `<details class="riders-block mains-block" data-rider-co="${escapeAttr(company)}">
           <summary>可搭配主約（${n}）</summary>
           <div class="riders-meta">${escapeHtml(entry.note || reverseMainsNote)}</div>
-          <ul class="riders-list">${renderMainItems(entry.mains)}</ul>
+          <ul class="riders-list">${renderMainItems(items)}</ul>
         </details>`;
       }
       return `<details class="riders-block mains-block" data-lazy-mains="1" data-rider-co="${escapeAttr(company)}" data-product-key="${escapeAttr(productKey(p))}">
@@ -848,21 +865,27 @@
       if (!p) return;
       if (detailsEl.dataset.lazyRiders === '1') {
         const entry = ridersForProduct(p);
-        if (!entry) { detailsEl.querySelector('.riders-lazy-body').innerHTML = '<div class="riders-meta">查無附約資料</div>'; return; }
+        const items = entry ? visibleRiders(p, entry.riders) : [];
+        if (!isOnSaleProduct(p) || !entry || !items.length) { detailsEl.remove(); return; }
         const verified = entry.verified_date || (entry.verified_at || "").slice(0, 10);
         const sourceLabel = entry.source_label || defaultSourceLabel;
+        const sum = detailsEl.querySelector('summary');
+        if (sum) sum.textContent = `可附加附約（${items.length}）`;
         detailsEl.querySelector('.riders-lazy-body').outerHTML =
           `<div class="riders-meta">來源：${escapeHtml(sourceLabel)}${verified ? `｜查核 ${escapeHtml(verified)}` : ""}。實際可否附加依各公司核保規定。</div>
-           <ul class="riders-list">${renderRiderItems(entry.riders)}</ul>`;
+           <ul class="riders-list">${renderRiderItems(items)}</ul>`;
         detailsEl.querySelectorAll('[data-rider-site-id]').forEach(btn => {
           btn.onclick = (ev) => { ev.preventDefault(); ev.stopPropagation(); jumpToSiteProduct(btn.getAttribute('data-rider-site-id'), btn.getAttribute('data-rider-name')); };
         });
       } else if (detailsEl.dataset.lazyMains === '1') {
         const entry = mainsForRider(p);
-        if (!entry) { detailsEl.querySelector('.riders-lazy-body').innerHTML = '<div class="riders-meta">查無主約資料</div>'; return; }
+        const items = entry ? visibleMains(p, entry.mains) : [];
+        if (!isOnSaleProduct(p) || !entry || !items.length) { detailsEl.remove(); return; }
+        const sum = detailsEl.querySelector('summary');
+        if (sum) sum.textContent = `可搭配主約（${items.length}）`;
         detailsEl.querySelector('.riders-lazy-body').outerHTML =
           `<div class="riders-meta">${escapeHtml(entry.note || reverseMainsNote)}</div>
-           <ul class="riders-list">${renderMainItems(entry.mains)}</ul>`;
+           <ul class="riders-list">${renderMainItems(items)}</ul>`;
         detailsEl.querySelectorAll('[data-main-site-id]').forEach(btn => {
           btn.onclick = (ev) => { ev.preventDefault(); ev.stopPropagation(); jumpToSiteProduct(btn.getAttribute('data-main-site-id'), btn.getAttribute('data-main-name')); };
         });
