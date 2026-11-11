@@ -292,6 +292,27 @@
     .product-details { padding:6px 10px 12px 48px; }
     .product-details[hidden] { display:none; }
     .detail-links { display:flex; flex-wrap:wrap; align-items:center; gap:6px; }
+
+    .riders-block { margin-top:8px; border:1px solid var(--line); border-radius:10px; background:#fff; }
+    .riders-block > summary { list-style:none; cursor:pointer; padding:8px 10px; font-size:13px; font-weight:500; color:var(--teal-deep); min-height:44px; display:flex; align-items:center; gap:6px; }
+    .riders-block > summary::-webkit-details-marker { display:none; }
+    .riders-block > summary::before { content:"▸"; font-size:12px; color:var(--teal); }
+    .riders-block[open] > summary::before { content:"▾"; }
+    .riders-meta { padding:0 10px 6px; font-size:11px; color:var(--muted); line-height:1.35; }
+    .riders-list { list-style:none; margin:0; padding:0 6px 8px; display:flex; flex-direction:column; gap:4px; }
+    .riders-list li { margin:0; }
+    .riders-list a, .riders-list button.rider-link {
+      display:block; width:100%; text-align:left; border:0; background:rgba(13,92,77,.04);
+      border-radius:8px; padding:8px 10px; font:inherit; font-size:12px; line-height:1.35;
+      color:var(--teal); cursor:pointer; text-decoration:none; min-height:44px;
+    }
+    .riders-list a:hover, .riders-list button.rider-link:hover { background:rgba(13,92,77,.1); }
+    .riders-list .rider-code { display:block; color:var(--muted); font-size:10px; margin-top:2px; word-break:break-all; }
+    @media(max-width:767px) {
+      .product-details { padding:6px 8px 10px 40px; }
+      .riders-block > summary { font-size:12px; padding:8px; }
+      .riders-list a, .riders-list button.rider-link { font-size:12px; padding:8px; }
+    }
     footer { margin:12px 0 20px; font-size:12px; }
     footer summary { min-height:44px; cursor:pointer; padding:12px 0; }
     .pager { padding:8px 0 0; }
@@ -426,6 +447,19 @@
       } else {
         await loadScript('data/products.js');
       }
+      window.INSURANCE_PRODUCT_RIDERS = window.INSURANCE_PRODUCT_RIDERS || {
+        version: 3, lazy: true,
+        by_product_id: {}, by_main_key: {}, by_main_tii_product_id: {},
+        by_rider_key: {}, by_rider_tii_product_id: {}, by_rider_base_name: {}
+      };
+      try {
+        await loadScript('data/riders/manifest.js');
+      } catch (_) {
+        try { await loadScript('data/product_riders.js'); } catch (__) {}
+      }
+      if (!window.INSURANCE_PRODUCT_RIDERS_MANIFEST) {
+        window.INSURANCE_PRODUCT_RIDERS_MANIFEST = { version: 3, lazy: true, companies: {}, main: {}, rider: {} };
+      }
     });
   </script>
   <script>
@@ -543,6 +577,301 @@
 
     // Do not use row indexes or regenerated ids: these change when data is rebuilt.
     const productKey = p => JSON.stringify([p.insurer || '', p.name || '', p.code || '', p.contract_type || '']);
+    const productsById = new Map(products.map((p) => [p.id, p]));
+    const productRidersData = window.INSURANCE_PRODUCT_RIDERS || {};
+    const ridersManifest = window.INSURANCE_PRODUCT_RIDERS_MANIFEST || { companies: {}, main: {}, rider: {} };
+    const reverseMainsNote = ridersManifest.reverse_note || productRidersData.reverse_note || '目前僅依已查核主約反推，清單持續補齊';
+    const defaultSourceLabel = ridersManifest.source_label || '保發中心，依各公司現行核保規定辦理';
+    const loadedRiderCompanies = new Set();
+    const loadingRiderCompanies = new Map();
+
+    function expandCompactLink(o) {
+      const code = (o && o.c) || '';
+      const name = (o && o.n) || '';
+      const out = {
+        name,
+        code,
+        tii_product_id: code,
+        tii_url: code ? `https://insprod.tii.org.tw/DetailList.aspx?productId=${code}` : '',
+        on_site: !!(o && o.on),
+      };
+      if (o && o.id) out.site_product_id = o.id;
+      if (o && o.st) out.site_status = o.st;
+      if (o && o.es === 'rev') out.edge_source = 'official_tii_reverse';
+      else if (o && o.es) out.edge_source = o.es;
+      else out.edge_source = 'official_tii';
+      return out;
+    }
+
+    function mergeRiderShard(shard) {
+      if (!shard || !shard.co) return;
+      const sl = shard.sl || defaultSourceLabel;
+      const pr = window.INSURANCE_PRODUCT_RIDERS;
+      for (const [tid, e] of Object.entries(shard.mt || {})) {
+        const entry = {
+          main_name: e.n,
+          main_tii_product_id: e.t || tid,
+          main_key: e.k,
+          main_site_product_id: e.id,
+          source: '保發中心',
+          source_label: sl,
+          verified_at: e.vd ? `${e.vd}T00:00:00+08:00` : '',
+          verified_date: e.vd || '',
+          riders: (e.r || []).map(expandCompactLink),
+          riders_source: 'official_tii',
+        };
+        pr.by_main_tii_product_id[tid] = entry;
+        if (e.k) pr.by_main_key[e.k] = entry;
+        if (e.id) pr.by_product_id[e.id] = entry;
+      }
+      for (const [tid, e] of Object.entries(shard.rt || {})) {
+        const entry = {
+          source: 'official_tii',
+          source_label: sl,
+          verified_at: e.vd ? `${e.vd}T00:00:00+08:00` : '',
+          verified_date: e.vd || '',
+          rider_name: e.n,
+          rider_tii_product_id: e.t || tid,
+          rider_site_product_id: e.id,
+          rider_key: e.k,
+          mains: (e.m || []).map(expandCompactLink),
+        };
+        pr.by_rider_tii_product_id[tid] = entry;
+        if (e.k) pr.by_rider_key[e.k] = entry;
+        if (e.n) {
+          const baseKey = `${shard.co}|${stripPartialChangeSuffix(e.n)}`;
+          pr.by_rider_base_name[baseKey] = entry;
+          pr.by_rider_base_name[`${shard.co}|${e.n}`] = entry;
+        }
+      }
+      loadedRiderCompanies.add(shard.co);
+    }
+
+    function ensureRiderShard(company) {
+      if (!company) return Promise.resolve();
+      if (loadedRiderCompanies.has(company)) return Promise.resolve();
+      if (loadingRiderCompanies.has(company)) return loadingRiderCompanies.get(company);
+      const slug = (ridersManifest.companies || {})[company];
+      if (!slug) return Promise.resolve();
+      const p = loadScript(`data/riders/${slug}.js`).then(() => {
+        const shard = window.INSURANCE_PRODUCT_RIDERS_SHARD;
+        window.INSURANCE_PRODUCT_RIDERS_SHARD = null;
+        if (shard) mergeRiderShard(shard);
+      }).catch(() => {}).finally(() => loadingRiderCompanies.delete(company));
+      loadingRiderCompanies.set(company, p);
+      return p;
+    }
+
+    function tiiProductIdOf(p) {
+      const url = (p && p.tii_url) || '';
+      const m = /productId=([^&]+)/.exec(url);
+      return m ? m[1] : '';
+    }
+
+    function stripPartialChangeSuffix(name) {
+      return String(name || '').replace(/[（(]\s*第\s*\d+\s*次\s*部分變更\s*[）)]\s*$/u, '').trim();
+    }
+
+    function manifestMainMeta(p) {
+      if (!p) return null;
+      if (p.category === '附約' || (p.name || '').includes('附約')) return null;
+      const key = productKey(p);
+      const tii = tiiProductIdOf(p);
+      const idx = ridersManifest.main || {};
+      return idx['k:' + key] || (tii && idx['t:' + tii]) || (p.id && idx['p:' + p.id]) || null;
+    }
+
+    function manifestRiderMeta(p) {
+      if (!p) return null;
+      const isRider = p.category === '附約' || (p.name || '').includes('附約');
+      if (!isRider) return null;
+      const key = productKey(p);
+      const tii = tiiProductIdOf(p);
+      const baseKey = `${p.current_insurer || p.insurer || ''}|${stripPartialChangeSuffix(p.name || '')}`;
+      const idx = ridersManifest.rider || {};
+      return idx['k:' + key] || (tii && idx['t:' + tii]) || idx['b:' + baseKey] || idx['b:' + `${p.current_insurer || p.insurer || ''}|${p.name || ''}`] || null;
+    }
+
+    function ridersForProduct(p) {
+      if (!p) return null;
+      if (p.category === "附約" || (p.name || "").includes("附約")) return null;
+      const key = productKey(p);
+      const tii = tiiProductIdOf(p);
+      const pr = window.INSURANCE_PRODUCT_RIDERS || {};
+      const entry = (pr.by_main_key || {})[key] || (pr.by_main_tii_product_id || {})[tii] || (pr.by_product_id || {})[p.id];
+      if (!entry || !Array.isArray(entry.riders) || !entry.riders.length) return null;
+      return entry;
+    }
+
+    function mainsForRider(p) {
+      if (!p) return null;
+      const isRider = p.category === "附約" || (p.name || "").includes("附約");
+      if (!isRider) return null;
+      const key = productKey(p);
+      const tii = tiiProductIdOf(p);
+      const baseKey = `${p.current_insurer || p.insurer || ''}|${stripPartialChangeSuffix(p.name || '')}`;
+      const pr = window.INSURANCE_PRODUCT_RIDERS || {};
+      let raw = (pr.by_rider_key || {})[key] || (pr.by_rider_tii_product_id || {})[tii] || (pr.by_rider_base_name || {})[baseKey] || null;
+      if (!raw) return null;
+      let mains, note, official;
+      if (Array.isArray(raw)) {
+        mains = raw;
+        note = reverseMainsNote;
+        official = false;
+      } else {
+        mains = raw.mains || [];
+        official = raw.source === 'official_tii';
+        if (official) {
+          const verified = raw.verified_date || (raw.verified_at || '').slice(0, 10);
+          const label = raw.source_label || defaultSourceLabel;
+          note = `來源：${label}${verified ? `｜查核 ${verified}` : ''}。實際可否附加依各公司核保規定。`;
+        } else {
+          note = raw.note || reverseMainsNote;
+        }
+      }
+      if (!mains.length) return null;
+      return { mains, note, official };
+    }
+
+    function jumpToSiteProduct(siteProductId, fallbackName) {
+      const target = productsById.get(siteProductId) || products.find((x) => x.id === siteProductId);
+      const q = (target && target.name) || fallbackName || "";
+      state.q = q;
+      state.sector = "";
+      state.insurer = "";
+      state.category = "";
+      state.status = "";
+      state.source = "";
+      state.page = 1;
+      state.view = "all";
+      $("q").value = q;
+      $("sector").value = "";
+      $("insurer").value = "";
+      $("category").value = "";
+      $("status").value = "";
+      if ($("source")) $("source").value = "";
+      refreshDependentFilters();
+      render();
+      window.scrollTo({ top: 180, behavior: "smooth" });
+    }
+
+    function isOnSaleProduct(p) {
+      return !!p && p.status === "現售";
+    }
+    function liveOnSaleById(id) {
+      if (!id) return false;
+      const live = productsById.get(id);
+      return !!(live && live.status === "現售");
+    }
+    function visibleRiders(p, riders) {
+      if (!isOnSaleProduct(p)) return [];
+      return (riders || []).filter((r) => r.on_site && r.site_product_id && liveOnSaleById(r.site_product_id));
+    }
+    function visibleMains(p, mains) {
+      if (!isOnSaleProduct(p)) return [];
+      return (mains || []).filter((m) => m.on_site && m.site_product_id && liveOnSaleById(m.site_product_id));
+    }
+    function renderRiderItems(riders) {
+      return (riders || []).map((r) => {
+        if (!(r.on_site && r.site_product_id)) return "";
+        const code = escapeHtml(r.code || "");
+        const name = escapeHtml(r.name || "");
+        return `<li><button type="button" class="rider-link" data-rider-site-id="${escapeAttr(r.site_product_id)}" data-rider-name="${escapeAttr(r.name || "")}">${name}<span class="rider-code">${code}</span></button></li>`;
+      }).join("");
+    }
+
+    function renderMainItems(mains) {
+      return (mains || []).map((m) => {
+        if (!(m.on_site && m.site_product_id)) return "";
+        const name = escapeHtml(m.name || "");
+        const code = m.code || m.tii_product_id || "";
+        return `<li><button type="button" class="rider-link" data-main-site-id="${escapeAttr(m.site_product_id || '')}" data-main-name="${escapeAttr(m.name || "")}">${name}${code ? `<span class="rider-code">${escapeHtml(code)}</span>` : ""}</button></li>`;
+      }).join("");
+    }
+
+    function ridersBlock(p) {
+      if (!isOnSaleProduct(p)) return "";
+      const entry = ridersForProduct(p);
+      const meta = entry ? null : manifestMainMeta(p);
+      if (!entry && !meta) return "";
+      const items = entry ? visibleRiders(p, entry.riders) : null;
+      const n = entry ? items.length : meta.n;
+      if (!n) return "";
+      const company = (p.current_insurer || p.insurer || (meta && meta.co) || "");
+      if (entry) {
+        const verified = entry.verified_date || (entry.verified_at || "").slice(0, 10);
+        const sourceLabel = entry.source_label || defaultSourceLabel;
+        return `<details class="riders-block" data-rider-co="${escapeAttr(company)}">
+          <summary>可附加附約（${n}）</summary>
+          <div class="riders-meta">來源：${escapeHtml(sourceLabel)}${verified ? `｜查核 ${escapeHtml(verified)}` : ""}。實際可否附加依各公司核保規定。</div>
+          <ul class="riders-list">${renderRiderItems(items)}</ul>
+        </details>`;
+      }
+      return `<details class="riders-block" data-lazy-riders="1" data-rider-co="${escapeAttr(company)}" data-product-key="${escapeAttr(productKey(p))}">
+        <summary>可附加附約（${n}）</summary>
+        <div class="riders-lazy-body"><div class="riders-meta">載入附約資料中…</div></div>
+      </details>`;
+    }
+
+    function mainsBlock(p) {
+      if (!isOnSaleProduct(p)) return "";
+      const entry = mainsForRider(p);
+      const meta = entry ? null : manifestRiderMeta(p);
+      if (!entry && !meta) return "";
+      const items = entry ? visibleMains(p, entry.mains) : null;
+      const n = entry ? items.length : meta.n;
+      if (!n) return "";
+      const company = (p.current_insurer || p.insurer || (meta && meta.co) || "");
+      if (entry) {
+        return `<details class="riders-block mains-block" data-rider-co="${escapeAttr(company)}">
+          <summary>可搭配主約（${n}）</summary>
+          <div class="riders-meta">${escapeHtml(entry.note || reverseMainsNote)}</div>
+          <ul class="riders-list">${renderMainItems(items)}</ul>
+        </details>`;
+      }
+      return `<details class="riders-block mains-block" data-lazy-mains="1" data-rider-co="${escapeAttr(company)}" data-product-key="${escapeAttr(productKey(p))}">
+        <summary>可搭配主約（${n}）</summary>
+        <div class="riders-lazy-body"><div class="riders-meta">載入主約資料中…</div></div>
+      </details>`;
+    }
+
+    async function fillLazyRiderBlock(detailsEl) {
+      if (!detailsEl || detailsEl.dataset.lazyFilled === '1') return;
+      const company = detailsEl.getAttribute('data-rider-co') || '';
+      const key = detailsEl.getAttribute('data-product-key') || '';
+      await ensureRiderShard(company);
+      const p = products.find((x) => productKey(x) === key);
+      if (!p) return;
+      if (detailsEl.dataset.lazyRiders === '1') {
+        const entry = ridersForProduct(p);
+        const items = entry ? visibleRiders(p, entry.riders) : [];
+        if (!isOnSaleProduct(p) || !entry || !items.length) { detailsEl.remove(); return; }
+        const verified = entry.verified_date || (entry.verified_at || "").slice(0, 10);
+        const sourceLabel = entry.source_label || defaultSourceLabel;
+        const sum = detailsEl.querySelector('summary');
+        if (sum) sum.textContent = `可附加附約（${items.length}）`;
+        detailsEl.querySelector('.riders-lazy-body').outerHTML =
+          `<div class="riders-meta">來源：${escapeHtml(sourceLabel)}${verified ? `｜查核 ${escapeHtml(verified)}` : ""}。實際可否附加依各公司核保規定。</div>
+           <ul class="riders-list">${renderRiderItems(items)}</ul>`;
+        detailsEl.querySelectorAll('[data-rider-site-id]').forEach(btn => {
+          btn.onclick = (ev) => { ev.preventDefault(); ev.stopPropagation(); jumpToSiteProduct(btn.getAttribute('data-rider-site-id'), btn.getAttribute('data-rider-name')); };
+        });
+      } else if (detailsEl.dataset.lazyMains === '1') {
+        const entry = mainsForRider(p);
+        const items = entry ? visibleMains(p, entry.mains) : [];
+        if (!isOnSaleProduct(p) || !entry || !items.length) { detailsEl.remove(); return; }
+        const sum = detailsEl.querySelector('summary');
+        if (sum) sum.textContent = `可搭配主約（${items.length}）`;
+        detailsEl.querySelector('.riders-lazy-body').outerHTML =
+          `<div class="riders-meta">${escapeHtml(entry.note || reverseMainsNote)}</div>
+           <ul class="riders-list">${renderMainItems(items)}</ul>`;
+        detailsEl.querySelectorAll('[data-main-site-id]').forEach(btn => {
+          btn.onclick = (ev) => { ev.preventDefault(); ev.stopPropagation(); jumpToSiteProduct(btn.getAttribute('data-main-site-id'), btn.getAttribute('data-main-name')); };
+        });
+      }
+      detailsEl.dataset.lazyFilled = '1';
+    }
+
     const DELETE_STORAGE_KEY = 'insurance-pending-delete-v1';
     function loadDeleteMoves() {
       try {
@@ -745,6 +1074,7 @@
           ${p.insurer_assignment_status === 'needs_verification' ? `<div class="assignment-note">${escapeHtml(p.insurer_assignment_note || '保誠原始資料，現承保公司待核對（部分契約曾轉凱基）')}</div>` : ''}
           <div class="sub">${escapeHtml(metaLine(p))}</div>
           <div class="detail-links">${termsButton(p, start + i)}${discontinuationSourceLink(p)}${(!isPending(p) && !isPendingDelete(p)) ? moveButton(p) : ""}</div>
+          ${ridersBlock(p)}${mainsBlock(p)}
         </div>`;
       };
       $("rows").innerHTML = pageItems.map((p, i) => `<tr><td>${compactProduct(p,i,'table')}</td></tr>`).join('');
@@ -755,6 +1085,36 @@
           button.setAttribute('aria-expanded', String(expanded));
           document.getElementById(button.getAttribute('aria-controls')).hidden = !expanded;
         };
+      });
+      document.querySelectorAll('[data-rider-site-id]').forEach(btn => {
+        btn.onclick = (ev) => {
+          ev.preventDefault();
+          ev.stopPropagation();
+          jumpToSiteProduct(btn.getAttribute('data-rider-site-id'), btn.getAttribute('data-rider-name'));
+        };
+      });
+      document.querySelectorAll('[data-main-site-id]').forEach(btn => {
+        btn.onclick = (ev) => {
+          ev.preventDefault();
+          ev.stopPropagation();
+          jumpToSiteProduct(btn.getAttribute('data-main-site-id'), btn.getAttribute('data-main-name'));
+        };
+      });
+      document.querySelectorAll('details.riders-block[data-lazy-riders], details.riders-block[data-lazy-mains]').forEach(det => {
+        det.addEventListener('toggle', () => {
+          if (det.open) fillLazyRiderBlock(det);
+        });
+      });
+      document.querySelectorAll('.product-toggle').forEach(button => {
+        button.addEventListener('click', () => {
+          const details = document.getElementById(button.getAttribute('aria-controls'));
+          if (!details) return;
+          const block = details.querySelector('details.riders-block[data-rider-co]');
+          if (block) {
+            const co = block.getAttribute('data-rider-co');
+            ensureRiderShard(co);
+          }
+        });
       });
       $("pager").innerHTML = list.length ? `
         <button type="button" id="prev" ${state.page <= 1 ? "disabled" : ""}>上一頁</button>
