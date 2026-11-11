@@ -734,11 +734,20 @@
 
     function filtered() { return products.filter(matches); }
 
+    function officialTermsUrl(p) {
+      const url = (p && p.terms_url) || "";
+      if (!url) return "";
+      if (p.terms_status === "尚未取得") return "";
+      if (p.dm_url && url === p.dm_url) return "";
+      return url;
+    }
+
     function openTerms(p) {
-      if (p.terms_method === "POST" && p.terms_params) {
+      const termsUrl = officialTermsUrl(p);
+      if (p.terms_method === "POST" && p.terms_params && termsUrl) {
         const form = document.createElement("form");
         form.method = "POST";
-        form.action = p.terms_url;
+        form.action = termsUrl;
         form.target = "_blank";
         form.rel = "noopener noreferrer";
         Object.entries(p.terms_params).forEach(([k, v]) => {
@@ -753,7 +762,7 @@
         form.remove();
         return;
       }
-      if (p.terms_url) window.open(p.terms_url, "_blank", "noopener,noreferrer");
+      if (termsUrl) window.open(termsUrl, "_blank", "noopener,noreferrer");
     }
 
 
@@ -958,7 +967,7 @@
 
     function termsButton(p, i) {
       const tii = p.tii_url ? ` <a class="sub" href="${escapeAttr(p.tii_url)}" target="_blank" rel="noopener noreferrer">保發中心詳細頁</a>` : "";
-      if (!p.terms_url) return (tii || `<span class="sub">無公開條款連結</span>`);
+      if (!officialTermsUrl(p)) return `<span class="sub">條款尚未取得</span>` + tii;
       return `<button class="ghost" type="button" data-i="${i}">開啟條款</button>` + tii;
     }
 
