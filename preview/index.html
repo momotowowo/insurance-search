@@ -976,8 +976,12 @@
 
     function termsButton(p, i) {
       const tii = p.tii_url ? ` <a class="sub" href="${escapeAttr(p.tii_url)}" target="_blank" rel="noopener noreferrer">保發中心詳細頁</a>` : "";
-      if (!officialTermsUrl(p)) return `<span class="sub">條款尚未取得</span>` + tii;
-      return `<button class="ghost" type="button" data-i="${i}">開啟條款</button>` + tii;
+      const termsUrl = officialTermsUrl(p);
+      if (!termsUrl) return `<span class="sub">條款尚未取得</span>` + tii;
+      if (p.terms_method === "POST" && p.terms_params) {
+        return `<button class="ghost" type="button" data-i="${i}">開啟條款</button>` + tii;
+      }
+      return `<a class="ghost" href="${escapeAttr(termsUrl)}" target="_blank" rel="noopener noreferrer">開啟條款</a>` + tii;
     }
 
     function metaLine(p) {
