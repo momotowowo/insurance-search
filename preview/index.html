@@ -278,6 +278,7 @@
     .pending-panel { margin:0 10px 8px 48px; padding:6px 8px; border-radius:8px; background:#fff6e5; border:1px solid #f0d9a0; }
     .pending-panel .pending-reason { margin:4px 0 0; }
     .pending-panel .pending-links { display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin-top:6px; }
+    .move-delete-btn { font-weight:600; }
     @media(max-width:767px) {
       .view-tabs { margin-top:4px; }
       .view-tabs button { min-height:44px; font-size:13px; padding:8px 12px; }
@@ -394,6 +395,7 @@
         <button type="button" role="tab" id="tab-all" aria-selected="true" data-view="all">全部商品</button>
         <button type="button" role="tab" id="tab-new" aria-selected="false" data-view="new">新商品上架專區</button>
         <button type="button" role="tab" id="tab-pending" aria-selected="false" data-view="pending">待確定</button>
+        <button type="button" role="tab" id="tab-delete" aria-selected="false" data-view="delete">待刪除</button>
       </div>
     </section>
 
@@ -491,8 +493,11 @@
       const age = now.getTime() - seen.getTime();
       return age >= 0 && age < NEW_WINDOW_MS;
     }
-    function isPending(p) {
+    function dataPendingReview(p) {
       return !!(p && (p.pending_review === true || p.pending_review === 'true'));
+    }
+    function dataPendingDelete(p) {
+      return !!(p && (p.pending_delete === true || p.pending_delete === 'true'));
     }
     function firstSeenLabel(p) {
       const seen = parseFirstSeen(p);
@@ -612,10 +617,10 @@
 
     const $ = (id) => document.getElementById(id);
     function updatePendingTabLabel() {
-      const btn = $("tab-pending");
-      if (!btn) return;
-      const n = products.filter(isPending).length;
-      btn.textContent = "待確定 " + n.toLocaleString("zh-Hant");
+      const pendingBtn = $("tab-pending");
+      if (pendingBtn) pendingBtn.textContent = "待確定 " + products.filter(isPending).length.toLocaleString("zh-Hant");
+      const deleteBtn = $("tab-delete");
+      if (deleteBtn) deleteBtn.textContent = "待刪除 " + products.filter(isPendingDelete).length.toLocaleString("zh-Hant");
     }
     const statusClass = (s) => s === "現售" ? "sale" : s === "停售" ? "stop" : "unknown";
 
@@ -650,6 +655,42 @@
 
     // Do not use row indexes or regenerated ids: these change when data is rebuilt.
     const productKey = p => JSON.stringify([p.insurer || '', p.name || '', p.code || '', p.contract_type || '']);
+    const DELETE_STORAGE_KEY = 'insurance-pending-delete-v1';
+    function loadDeleteMoves() {
+      try {
+        const raw = JSON.parse(localStorage.getItem(DELETE_STORAGE_KEY) || '{}');
+        const list = v => Array.isArray(v) ? v.filter(k => typeof k === 'string') : [];
+        return { added: new Set(list(raw.added)), removed: new Set(list(raw.removed)) };
+      } catch (_) {
+        return { added: new Set(), removed: new Set() };
+      }
+    }
+    let deleteMoves = loadDeleteMoves();
+    function saveDeleteMoves() {
+      try {
+        localStorage.setItem(DELETE_STORAGE_KEY, JSON.stringify({ added: [...deleteMoves.added], removed: [...deleteMoves.removed] }));
+      } catch (_) {}
+    }
+    function isPendingDelete(p) {
+      if (!p) return false;
+      const key = productKey(p);
+      if (deleteMoves.removed.has(key)) return false;
+      return dataPendingDelete(p) || deleteMoves.added.has(key);
+    }
+    function isPending(p) {
+      return dataPendingReview(p) && !isPendingDelete(p);
+    }
+    function deleteReason(p) {
+      const key = productKey(p);
+      if (deleteMoves.added.has(key) && !dataPendingDelete(p)) return '使用者移至待刪除';
+      return p.pending_delete_reason || '待確認是否應自清單移除';
+    }
+    function moveButton(p) {
+      if (isPendingDelete(p)) {
+        return `<button type="button" class="ghost move-delete-btn" data-move-back="${escapeAttr(productKey(p))}">移回</button>`;
+      }
+      return `<button type="button" class="ghost move-delete-btn" data-move-delete="${escapeAttr(productKey(p))}">移至待刪除</button>`;
+    }
     const STORAGE_KEY = 'insurance-favorites-v1';
     const validFavorites = value => Array.isArray(value) ? value.filter(k => typeof k === 'string') : [];
     let favorites = new Set();
@@ -664,14 +705,20 @@
       return `<button type="button" class="star" data-favorite="${escapeAttr(productKey(p))}" aria-pressed="${selected}" aria-label="${selected ? '取消我的最愛：' : '加入我的最愛：'}${escapeAttr(p.name)}">${selected ? '★' : '☆'}</button>`;
     }
     window.addEventListener('storage', e => {
-      if (e.key !== STORAGE_KEY) return;
-      try { favorites = new Set(validFavorites(JSON.parse(e.newValue || '[]'))); render(); } catch (_) {}
+      if (e.key === STORAGE_KEY) {
+        try { favorites = new Set(validFavorites(JSON.parse(e.newValue || '[]'))); render(); } catch (_) {}
+      }
+      if (e.key === DELETE_STORAGE_KEY) {
+        deleteMoves = loadDeleteMoves();
+        render();
+      }
     });
     $('favorites-only').onchange = () => { state.page = 1; render(); };
 
     function matches(p) {
       if (state.view === 'new' && !isNewProduct(p)) return false;
       if (state.view === 'pending' && !isPending(p)) return false;
+      if (state.view === 'delete' && !isPendingDelete(p)) return false;
       if ($('favorites-only').checked && !favorites.has(productKey(p))) return false;
       if (state.sector && p.sector !== state.sector) return false;
       if (state.insurer && p.current_insurer !== state.insurer) return false;
@@ -952,6 +999,8 @@
         $("empty").textContent = pageItems.length ? '' : '目前沒有本站 7 日內新發現的商品。新商品會出現在此專區，滿 7 天後只離開本區，一般搜尋仍可找到。';
       } else if (state.view === 'pending') {
         $("empty").textContent = pageItems.length ? '' : '目前沒有待確定的商品。有疑問的販售狀態會列在此專區，一般搜尋仍可找到。';
+      } else if (state.view === 'delete') {
+        $("empty").textContent = pageItems.length ? '' : '目前沒有待刪除的資料。看起來不像保險商品的項目會列在此專區，資料仍保留，一般搜尋也還找得到。';
       } else {
         $("empty").textContent = '沒有符合的商品。試試較短的關鍵字，或清空篩選條件。';
       }
@@ -963,20 +1012,24 @@
         return `<div class="compact-top">
           ${starButton(p)}
           <button class="product-toggle" type="button" aria-expanded="false" aria-controls="${id}">
-            <span class="product-copy"><span class="company">${escapeHtml(p.current_insurer || p.insurer)}${p.current_insurer !== p.original_insurer ? ` <small class="original-company">原${escapeHtml(p.original_insurer)}</small>` : ""}${p.insurer_assignment_status === 'needs_verification' ? ` <small class="original-company">待核對</small>` : ""}${isNewProduct(p) ? ` <span class="new-badge">新上架</span>` : ""}${isPending(p) ? ` <span class="pending-badge">待確定</span>` : ""}</span><span class="name">${escapeHtml(p.name)}</span>${firstSeenLabel(p) ? `<span class="first-seen">${escapeHtml(firstSeenLabel(p))}</span>` : ''}${p.insurer_assignment_status === 'needs_verification' ? `<span class="assignment-note">${escapeHtml(p.insurer_assignment_note || '保誠原始資料，現承保公司待核對（部分契約曾轉凱基）')}</span>` : ''}</span>
+            <span class="product-copy"><span class="company">${escapeHtml(p.current_insurer || p.insurer)}${p.current_insurer !== p.original_insurer ? ` <small class="original-company">原${escapeHtml(p.original_insurer)}</small>` : ""}${p.insurer_assignment_status === 'needs_verification' ? ` <small class="original-company">待核對</small>` : ""}${isNewProduct(p) ? ` <span class="new-badge">新上架</span>` : ""}${isPendingDelete(p) ? ` <span class="pending-badge">待刪除</span>` : isPending(p) ? ` <span class="pending-badge">待確定</span>` : ""}</span><span class="name">${escapeHtml(p.name)}</span>${firstSeenLabel(p) ? `<span class="first-seen">${escapeHtml(firstSeenLabel(p))}</span>` : ''}${p.insurer_assignment_status === 'needs_verification' ? `<span class="assignment-note">${escapeHtml(p.insurer_assignment_note || '保誠原始資料，現承保公司待核對（部分契約曾轉凱基）')}</span>` : ''}</span>
             <span class="category-tag">${escapeHtml(p.category)}</span><span class="expand-icon" aria-hidden="true">⌄</span>
           </button>
         </div>
-        ${isPending(p) ? `<div class="pending-panel">
+        ${isPendingDelete(p) ? `<div class="pending-panel">
+          <span class="badge ${statusClass(p.status)}">${escapeHtml(p.status)}</span>
+          <span class="pending-reason">${escapeHtml(deleteReason(p))}</span>
+          <div class="pending-links detail-links">${termsButton(p, start + i)}${moveButton(p)}</div>
+        </div>` : isPending(p) ? `<div class="pending-panel">
           <span class="badge ${statusClass(p.status)}">${escapeHtml(p.status)}</span>
           <span class="pending-reason">${escapeHtml(p.pending_reason || '待確認販售狀態')}</span>
-          <div class="pending-links detail-links">${termsButton(p, start + i)}</div>
+          <div class="pending-links detail-links">${termsButton(p, start + i)}${moveButton(p)}</div>
         </div>` : ''}
         <div class="product-details" id="${id}" hidden>
           <span class="badge ${statusClass(p.status)}">${escapeHtml(p.status)}</span>
           ${p.insurer_assignment_status === 'needs_verification' ? `<div class="assignment-note">${escapeHtml(p.insurer_assignment_note || '保誠原始資料，現承保公司待核對（部分契約曾轉凱基）')}</div>` : ''}
           <div class="sub">${escapeHtml(metaLine(p))}</div>
-          <div class="detail-links">${termsButton(p, start + i)}</div>
+          <div class="detail-links">${termsButton(p, start + i)}${(!isPending(p) && !isPendingDelete(p)) ? moveButton(p) : ""}</div>
           ${ridersBlock(p)}${mainsBlock(p)}
         </div>`;
       };
@@ -1035,6 +1088,29 @@
           const selected = !favorites.has(key);
           if (selected) favorites.add(key); else favorites.delete(key);
           saveFavorites(); render(); syncChange(key, selected);
+        };
+      });
+      document.querySelectorAll('[data-move-delete]').forEach(btn => {
+        btn.onclick = (ev) => {
+          ev.preventDefault();
+          ev.stopPropagation();
+          const key = btn.getAttribute('data-move-delete');
+          deleteMoves.removed.delete(key);
+          deleteMoves.added.add(key);
+          saveDeleteMoves();
+          render();
+        };
+      });
+      document.querySelectorAll('[data-move-back]').forEach(btn => {
+        btn.onclick = (ev) => {
+          ev.preventDefault();
+          ev.stopPropagation();
+          const key = btn.getAttribute('data-move-back');
+          deleteMoves.added.delete(key);
+          const p = products.find(item => productKey(item) === key);
+          if (p && dataPendingDelete(p)) deleteMoves.removed.add(key);
+          saveDeleteMoves();
+          render();
         };
       });
       document.querySelectorAll("[data-i]").forEach((btn) => {
@@ -1115,7 +1191,7 @@
         }
       });
       if (!unique("sector").includes(state.sector)) { state.sector = ""; $("sector").value = ""; }
-      if (state.view !== 'new' && state.view !== 'pending') state.view = 'all';
+      if (state.view !== 'new' && state.view !== 'pending' && state.view !== 'delete') state.view = 'all';
       refreshDependentFilters();
       const s = meta.stats || {};
       const pills = [
