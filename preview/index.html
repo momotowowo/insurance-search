@@ -732,7 +732,15 @@
       return tokens.every((t) => hay.includes(t));
     }
 
-    function filtered() { return products.filter(matches); }
+    function filtered() {
+      const list = products.filter(matches);
+      const starred = [];
+      const rest = [];
+      for (const p of list) {
+        (favorites.has(productKey(p)) ? starred : rest).push(p);
+      }
+      return starred.concat(rest);
+    }
 
     function officialTermsUrl(p) {
       const url = (p && p.terms_url) || "";
@@ -1096,6 +1104,7 @@
           const key = btn.dataset.favorite;
           const selected = !favorites.has(key);
           if (selected) favorites.add(key); else favorites.delete(key);
+          if (selected) state.page = 1;
           saveFavorites(); render(); syncChange(key, selected);
         };
       });
