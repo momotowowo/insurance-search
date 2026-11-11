@@ -272,6 +272,7 @@
      .view-tabs button { min-height:44px; padding:8px 12px; border-radius:999px; border:1px solid var(--line); background:#fff; color:var(--ink); font:inherit; cursor:pointer; }
     .view-tabs button[aria-selected="true"] { background:var(--teal); color:#fff; border-color:var(--teal); }
     .new-badge { display:inline-block; margin-left:4px; font-size:10px; color:#0d5c4d; background:rgba(13,92,77,.1); border:1px solid rgba(13,92,77,.25); border-radius:4px; padding:0 4px; vertical-align:middle; }
+    .delisted-badge { display:inline-block; margin-left:4px; font-size:10px; color:#7a3b2e; background:rgba(122,59,46,.1); border:1px solid rgba(122,59,46,.25); border-radius:4px; padding:0 4px; vertical-align:middle; }
     .first-seen { display:block; margin-top:2px; color:var(--muted); font-size:11px; }
     .pending-badge { display:inline-block; margin-left:4px; font-size:10px; color:#8a5a00; background:#fff6e5; border:1px solid #f0d9a0; border-radius:4px; padding:0 4px; vertical-align:middle; }
     .pending-reason { display:block; margin-top:2px; color:#8a5a00; font-size:11px; line-height:1.35; }
@@ -370,6 +371,7 @@
       <div class="view-tabs" id="view-tabs" role="tablist" aria-label="商品檢視">
         <button type="button" role="tab" id="tab-all" aria-selected="true" data-view="all">全部商品</button>
         <button type="button" role="tab" id="tab-new" aria-selected="false" data-view="new">新商品上架專區</button>
+        <button type="button" role="tab" id="tab-delisted" aria-selected="false" data-view="delisted">商品下架專區</button>
         <button type="button" role="tab" id="tab-pending" aria-selected="false" data-view="pending">待確定</button>
         <button type="button" role="tab" id="tab-delete" aria-selected="false" data-view="delete">待刪除</button>
       </div>
@@ -471,6 +473,32 @@
         return `本站新增 ${day}${official}`;
       }
       return '';
+    }
+    function parseDelisted(p) {
+      if (!p || !p.delisted_at) return null;
+      const d = new Date(p.delisted_at);
+      return Number.isNaN(d.getTime()) ? null : d;
+    }
+    function isDelistedProduct(p, now = clockNow()) {
+      if (!p || p.status !== '停售') return false;
+      const at = parseDelisted(p);
+      if (!at) return false;
+      const age = now.getTime() - at.getTime();
+      return age >= 0 && age < NEW_WINDOW_MS;
+    }
+    function delistedLabel(p) {
+      const at = parseDelisted(p);
+      if (!at) return '';
+      const day = at.toLocaleDateString('zh-Hant-TW', { timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit' });
+      const official = (p.stop_date && p.stop_date !== '未停售') ? `｜官方停售 ${p.stop_date}` : '';
+      const source = p.discontinuation_source_name ? `｜${p.discontinuation_source_name}` : '';
+      return `本站下架 ${day}${official}${source}`;
+    }
+    function discontinuationSourceLink(p) {
+      const url = p && p.discontinuation_source_url;
+      if (!url) return '';
+      const label = p.discontinuation_source_name || '官方停售公告';
+      return ` <a class="sub" href="${escapeAttr(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`;
     }
     const products = window.INSURANCE_PRODUCTS || [];
     const meta = window.INSURANCE_META || {};
@@ -577,6 +605,7 @@
 
     function matches(p) {
       if (state.view === 'new' && !isNewProduct(p)) return false;
+      if (state.view === 'delisted' && !isDelistedProduct(p)) return false;
       if (state.view === 'pending' && !isPending(p)) return false;
       if (state.view === 'delete' && !isPendingDelete(p)) return false;
       if ($('favorites-only').checked && !favorites.has(productKey(p))) return false;
@@ -667,6 +696,8 @@
       $("empty").hidden = pageItems.length > 0;
       if (state.view === 'new') {
         $("empty").textContent = pageItems.length ? '' : '目前沒有本站 7 日內新發現的商品。新商品會出現在此專區，滿 7 天後只離開本區，一般搜尋仍可找到。';
+      } else if (state.view === 'delisted') {
+        $("empty").textContent = pageItems.length ? '' : '目前沒有本站 7 日內下架的商品。經查核由現售改為停售的商品會出現在此專區，滿 7 天後只離開本區，一般搜尋仍可找到。';
       } else if (state.view === 'pending') {
         $("empty").textContent = pageItems.length ? '' : '目前沒有待確定的商品。有疑問的販售狀態會列在此專區，一般搜尋仍可找到。';
       } else if (state.view === 'delete') {
@@ -682,7 +713,7 @@
         return `<div class="compact-top">
           ${starButton(p)}
           <button class="product-toggle" type="button" aria-expanded="false" aria-controls="${id}">
-            <span class="product-copy"><span class="company">${escapeHtml(p.current_insurer || p.insurer)}${p.current_insurer !== p.original_insurer ? ` <small class="original-company">原${escapeHtml(p.original_insurer)}</small>` : ""}${p.insurer_assignment_status === 'needs_verification' ? ` <small class="original-company">待核對</small>` : ""}${isNewProduct(p) ? ` <span class="new-badge">新上架</span>` : ""}${isPendingDelete(p) ? ` <span class="pending-badge">待刪除</span>` : isPending(p) ? ` <span class="pending-badge">待確定</span>` : ""}</span><span class="name">${escapeHtml(p.name)}</span>${firstSeenLabel(p) ? `<span class="first-seen">${escapeHtml(firstSeenLabel(p))}</span>` : ''}${p.insurer_assignment_status === 'needs_verification' ? `<span class="assignment-note">${escapeHtml(p.insurer_assignment_note || '保誠原始資料，現承保公司待核對（部分契約曾轉凱基）')}</span>` : ''}</span>
+            <span class="product-copy"><span class="company">${escapeHtml(p.current_insurer || p.insurer)}${p.current_insurer !== p.original_insurer ? ` <small class="original-company">原${escapeHtml(p.original_insurer)}</small>` : ""}${p.insurer_assignment_status === 'needs_verification' ? ` <small class="original-company">待核對</small>` : ""}${isNewProduct(p) ? ` <span class="new-badge">新上架</span>` : ""}${isDelistedProduct(p) ? ` <span class="delisted-badge">下架</span>` : ""}${isPendingDelete(p) ? ` <span class="pending-badge">待刪除</span>` : isPending(p) ? ` <span class="pending-badge">待確定</span>` : ""}</span><span class="name">${escapeHtml(p.name)}</span>${firstSeenLabel(p) ? `<span class="first-seen">${escapeHtml(firstSeenLabel(p))}</span>` : ''}${delistedLabel(p) ? `<span class="first-seen">${escapeHtml(delistedLabel(p))}</span>` : ''}${p.insurer_assignment_status === 'needs_verification' ? `<span class="assignment-note">${escapeHtml(p.insurer_assignment_note || '保誠原始資料，現承保公司待核對（部分契約曾轉凱基）')}</span>` : ''}</span>
             <span class="category-tag">${escapeHtml(p.category)}</span><span class="expand-icon" aria-hidden="true">⌄</span>
           </button>
         </div>
@@ -699,7 +730,7 @@
           <span class="badge ${statusClass(p.status)}">${escapeHtml(p.status)}</span>
           ${p.insurer_assignment_status === 'needs_verification' ? `<div class="assignment-note">${escapeHtml(p.insurer_assignment_note || '保誠原始資料，現承保公司待核對（部分契約曾轉凱基）')}</div>` : ''}
           <div class="sub">${escapeHtml(metaLine(p))}</div>
-          <div class="detail-links">${termsButton(p, start + i)}${(!isPending(p) && !isPendingDelete(p)) ? moveButton(p) : ""}</div>
+          <div class="detail-links">${termsButton(p, start + i)}${discontinuationSourceLink(p)}${(!isPending(p) && !isPendingDelete(p)) ? moveButton(p) : ""}</div>
         </div>`;
       };
       $("rows").innerHTML = pageItems.map((p, i) => `<tr><td>${compactProduct(p,i,'table')}</td></tr>`).join('');
@@ -774,7 +805,7 @@
         });
       });
       // Re-evaluate 7-day window while the page stays open.
-      setInterval(() => { if (state.view === 'new') render(); }, 60 * 1000);
+      setInterval(() => { if (state.view === 'new' || state.view === 'delisted') render(); }, 60 * 1000);
       $('page-size').addEventListener('change', e => {
         const nextSize = Number(e.target.value);
         if (![10, 15, 20].includes(nextSize)) return;
@@ -828,7 +859,7 @@
         }
       });
       if (!unique("sector").includes(state.sector)) { state.sector = ""; $("sector").value = ""; }
-      if (state.view !== 'new' && state.view !== 'pending' && state.view !== 'delete') state.view = 'all';
+      if (state.view !== 'new' && state.view !== 'delisted' && state.view !== 'pending' && state.view !== 'delete') state.view = 'all';
       refreshDependentFilters();
       const s = meta.stats || {};
       const pills = [
