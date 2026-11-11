@@ -888,6 +888,22 @@
         localStorage.setItem(DELETE_STORAGE_KEY, JSON.stringify({ added: [...deleteMoves.added], removed: [...deleteMoves.removed] }));
       } catch (_) {}
     }
+    function pruneDeleteMoves() {
+      // Drop keys for products no longer on this site (e.g. permanently removed 待刪除 rows),
+      // so leftover phone localStorage cannot keep the tab non-zero or resurrect missing rows.
+      const known = new Set(products.map(productKey));
+      let changed = false;
+      for (const bucket of [deleteMoves.added, deleteMoves.removed]) {
+        for (const k of [...bucket]) {
+          if (!known.has(k)) {
+            bucket.delete(k);
+            changed = true;
+          }
+        }
+      }
+      if (changed) saveDeleteMoves();
+    }
+    pruneDeleteMoves();
     function isPendingDelete(p) {
       if (!p) return false;
       const key = productKey(p);
