@@ -3,9 +3,9 @@
   "timezone": "Asia/Taipei",
   "window": {
     "from": "2026-11-02T00:00:00+08:00",
-    "to_checked": "2026-11-10T09:10:00+08:00"
+    "to_checked": "2026-11-11T09:04:03+08:00"
   },
-  "checked_on": "2026-11-10",
+  "checked_on": "2026-11-11",
   "notes": [
     "first_seen_at／site_added_at 是本站首次入庫時間，不是官方發布日。",
     "official_release_date 另欄；重建時不得用官方日回填 first_seen。",
@@ -13,7 +13,8 @@
     "PLDL／內部文宣控管編號不可當正式商品代號。",
     "2026-11-10：安達人壽美利安康為金管會核准同意出單，銷售起日／正式代號等待核對；status=未標示，不標現售。",
     "2026-11-10：美利安康公開保單條款尚未取得；已清除誤用金管會公告當 terms_url，卡片顯示「條款尚未取得」。",
-    "2026-11-10：凱基基富利、南山年年發已改掛正式保單條款，原 DM 改存 dm_url，不得再當「開啟條款」。美利安康公開條款仍未取得。"
+    "2026-11-10：凱基基富利、南山年年發已改掛正式保單條款，原 DM 改存 dm_url，不得再當「開啟條款」。美利安康公開條款仍未取得。",
+    "2026-11-11：新增富邦永裕一生(FBY)、富邦紅運心傳(FPG)（富邦官網商品頁＋條款＋DM，備查115.11.06）及台灣人壽多美旺美元養老保險（官網商品頁＋條款，備查115.10.20）；三者官方新品公告日未公布，official_release_date 留空，銷售起日待核對。"
   ],
   "products": [
     {
@@ -186,7 +187,7 @@
         "image_local": null,
         "checked_on_taipei": "2026-11-10",
         "terms_status": "not_publicly_found",
-        "terms_checked_on_taipei": "2026-11-10",
+        "terms_checked_on_taipei": "2026-11-11",
         "terms_sources_checked": [
           "https://life.chubb.com/tw-zh/products/protection/participating-insurance.html",
           "https://life.chubb.com/tw-zh/customer/product-terms/download.html",
@@ -197,35 +198,155 @@
           "guessed product URL patterns mei-li-an-kang* / *-code.pdf / dm-mei-li-an-kang.pdf (all 404)",
           "local TII life_rows.tsv / details cache (no 美利安康 hit; did not mutate shared TII session)"
         ],
-        "terms_note": "金管會 2026-11-09 核准同意出單，但安達官網分紅專區／商品頁／條款審閱專區／資訊公開／新聞皆尚未公開本商品保單條款 PDF；金管會公告頁無條款附件。不可把核准公告當條款。"
+        "terms_note": "金管會 2026-11-09 核准同意出單，但安達官網分紅專區／商品頁／條款審閱專區／資訊公開／新聞皆尚未公開本商品保單條款 PDF；金管會公告頁無條款附件。不可把核准公告當條款。；2026-11-11 複查安達商品頁／條款審閱專區／分紅專區／新聞仍無本商品條款，金管會列表無新增，維持「條款尚未取得」。"
       },
       "terms_status": "尚未取得",
       "dm_url": ""
+    },
+    {
+      "stable_hint": "fubon-fby",
+      "name": "富邦人壽永裕一生外幣利率變動型終身壽險",
+      "insurer": "富邦人壽",
+      "original_insurer": "富邦人壽",
+      "current_insurer": "富邦人壽",
+      "sector": "人身保險",
+      "category": "壽險",
+      "status": "現售",
+      "code": "FBY",
+      "contract_type": "",
+      "source": "官網",
+      "source_name": "富邦人壽官網商品頁／條款／DM",
+      "source_url": "https://www.fubon.com/life/product/personal/life-refund/FBY",
+      "terms_url": "https://www.fubon.com/life/api/v1/files/13457/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E6%B0%B8%E8%A3%95%E4%B8%80%E7%94%9F%E5%A4%96%E5%B9%A3%E5%88%A9%E7%8E%87%E8%AE%8A%E5%8B%95%E5%9E%8B%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA.pdf",
+      "terms_method": "GET",
+      "official_release_date": "",
+      "verified_new_release": true,
+      "change_type": "新商品上架",
+      "site_added_at": "2026-11-11T09:04:03+08:00",
+      "dm_url": "https://www.fubon.com/life/api/v1/files/13450/open/%E4%B8%8B%E8%BC%89%E5%95%86%E5%93%81DM.pdf",
+      "terms_status": "已核實條款",
+      "verification": {
+        "filing": "115.11.06富壽商精字第1150002114號函備查（DM 商品文號）",
+        "terms_version": "FBY1151106（條款頁首版本碼）",
+        "dm_filename": "下載商品DM.pdf（files/13450）",
+        "dm_date": "PDF 建立 2026-11-03；內文未載版次日期",
+        "channel": "未公布，待核對",
+        "payment_terms": "3年",
+        "currency": "美元",
+        "insure_age": "18歲～77歲",
+        "sale_start": "未公布，待核對（官網商品頁未載；經代站稱115/11/06起銷售，非官方不採）",
+        "official_announcement": "富邦官網未找到新品新聞；工商時報2026-11-09、經濟日報2026-11-09/10 報導（非官方佐證）",
+        "product_url": "https://www.fubon.com/life/product/personal/life-refund/FBY",
+        "checked_on_taipei": "2026-11-11",
+        "terms_status": "verified_official_terms",
+        "terms_checked_on_taipei": "2026-11-11",
+        "terms_document_type": "保單條款（11頁，商品代號FBY，美元計價）",
+        "features": [
+          "3年繳費，提供造血幹細胞移植特定重大疾病保險金及壽險保障",
+          "有機會享有增值回饋分享金",
+          "指定期間內完成指定健康檢測，次一保單年度起續期保費可享健康管理保費折扣（外溢）"
+        ]
+      }
+    },
+    {
+      "stable_hint": "fubon-fpg",
+      "name": "富邦人壽紅運心傳外幣分紅終身壽險",
+      "insurer": "富邦人壽",
+      "original_insurer": "富邦人壽",
+      "current_insurer": "富邦人壽",
+      "sector": "人身保險",
+      "category": "壽險",
+      "status": "現售",
+      "code": "FPG",
+      "contract_type": "",
+      "source": "官網",
+      "source_name": "富邦人壽官網商品頁／條款／DM",
+      "source_url": "https://www.fubon.com/life/product/personal/life-refund/FPG",
+      "terms_url": "https://www.fubon.com/life/api/v1/files/13456/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E7%B4%85%E9%81%8B%E5%BF%83%E5%82%B3%E5%A4%96%E5%B9%A3%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA.pdf",
+      "terms_method": "GET",
+      "official_release_date": "",
+      "verified_new_release": true,
+      "change_type": "新商品上架",
+      "site_added_at": "2026-11-11T09:04:03+08:00",
+      "dm_url": "https://www.fubon.com/life/api/v1/files/13449/open/%E4%B8%8B%E8%BC%89%E5%95%86%E5%93%81DM.pdf",
+      "terms_status": "已核實條款",
+      "verification": {
+        "filing": "115.11.06富壽商精字第1150004210號函備查（DM 商品文號）",
+        "terms_version": "FPG1151106（條款頁首版本碼）",
+        "dm_filename": "下載商品DM.pdf（files/13449）",
+        "dm_date": "PDF 建立 2026-11-02；內文未載版次日期",
+        "channel": "未公布，待核對",
+        "payment_terms": "3年、5年",
+        "currency": "美元",
+        "insure_age": "0～76歲",
+        "sale_start": "未公布，待核對（經代站稱115/11/06起銷售，非官方不採）",
+        "official_announcement": "富邦官網未找到新品新聞",
+        "product_url": "https://www.fubon.com/life/product/personal/life-refund/FPG",
+        "checked_on_taipei": "2026-11-11",
+        "terms_status": "verified_official_terms",
+        "terms_checked_on_taipei": "2026-11-11",
+        "terms_document_type": "保單條款（16頁，商品代號FPG，分紅保單）",
+        "features": [
+          "提供特定重大疾病保險金及壽險保障",
+          "3年及5年繳費，分紅保單",
+          "年度保單紅利以購買增額繳清保險金額方式給付"
+        ]
+      }
+    },
+    {
+      "stable_hint": "taiwanlife-duomeiwang",
+      "name": "台灣人壽多美旺美元養老保險",
+      "insurer": "台灣人壽",
+      "original_insurer": "台灣人壽",
+      "current_insurer": "台灣人壽",
+      "sector": "人身保險",
+      "category": "壽險",
+      "status": "現售",
+      "code": "",
+      "contract_type": "",
+      "source": "官網",
+      "source_name": "台灣人壽官網商品頁／條款／DM",
+      "source_url": "https://www.taiwanlife.com/product/7/NUEW0401",
+      "terms_url": "https://www.taiwanlife.com/portal-api/File/26381",
+      "terms_method": "GET",
+      "official_release_date": "",
+      "verified_new_release": true,
+      "change_type": "新商品上架",
+      "site_added_at": "2026-11-11T09:04:03+08:00",
+      "dm_url": "https://www.taiwanlife.com/portal-api/File/26384",
+      "terms_status": "已核實條款",
+      "verification": {
+        "filing": "中華民國115年10月20日台壽字第1152320164號函備查（條款）",
+        "dm_filename": "portal-api/File/26384（DM，圖片型PDF 4頁）",
+        "dm_date": "PDF 建立 2026-10-08；內文未載版次日期",
+        "channel": "未公布，待核對",
+        "payment_terms": "躉繳（一次繳費）",
+        "currency": "美元",
+        "insure_age": "0歲～88歲",
+        "formal_code": "正式商品代號未公布（NUEW0401 為官網頁面編號，不當商品代號）",
+        "sale_start": "未公布，待核對（經代站稱115/11/06起銷售，非官方不採）",
+        "official_announcement": "台灣人壽官網未找到新品新聞",
+        "product_url": "https://www.taiwanlife.com/product/7/NUEW0401",
+        "checked_on_taipei": "2026-11-11",
+        "terms_status": "verified_official_terms",
+        "terms_checked_on_taipei": "2026-11-11",
+        "terms_document_type": "保單條款（7頁，保險期間10年，美元計價）",
+        "features": [
+          "一次繳費，10年期滿領回滿期保險金",
+          "身故保險金可一次領或分期領",
+          "美元計價收付"
+        ]
+      }
     }
   ],
   "candidates": [
     {
       "name": "宏泰人壽美康富傳美元利率變動型終身保險",
       "code_claimed": "UPJ",
-      "why": "中央社財經訊息平台／工商時報 2026-11-02 報導宏泰推出；官網 hontai.com.tw 商品／宣告利率頁本次 TLS 連線失敗，未取得官方商品頁或 DM，暫不入庫",
+      "why": "中央社財經訊息平台／工商時報 2026-11-02 報導宏泰推出；官網 hontai.com.tw 商品／宣告利率頁本次 TLS 連線失敗，未取得官方商品頁或 DM，暫不入庫；2026-11-11 複查 hontai.com.tw 仍連線失敗（HTTP 000），仍未入庫",
       "sources": [
         "https://www.cna.com.tw/business/chinese/448727",
         "https://www.ctee.com.tw/news/20261102701484-430301"
-      ]
-    },
-    {
-      "name": "富邦人壽永裕一生外幣利率變動型終身壽險",
-      "why": "經代站聲稱 115/11/06 起銷售；經濟日報 2026-11-09 稱 11/6 臍帶血公庫服務上線導入該商品；富邦官網最新消息／公開商品頁本次未找到對應商品頁或官方新品新聞，暫不入庫",
-      "sources": [
-        "http://www.jawjenn.com.tw/news01.aspx?ID=489",
-        "https://udn.com/news/story/7241/9866059"
-      ]
-    },
-    {
-      "name": "富邦人壽紅運心傳外幣分紅終身壽險",
-      "why": "僅經代站聲稱 115/11/06 起銷售；未找到富邦官網商品頁／新聞，暫不入庫",
-      "sources": [
-        "http://www.jawjenn.com.tw/news01.aspx?ID=489"
       ]
     }
   ],
