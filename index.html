@@ -566,7 +566,8 @@
       return dataPendingDelete(p) || deleteMoves.added.has(key);
     }
     function isPending(p) {
-      return dataPendingReview(p) && !isPendingDelete(p);
+      // Official 待刪除 rows must not re-enter 待確定 if the user clicks 移回.
+      return dataPendingReview(p) && !dataPendingDelete(p) && !isPendingDelete(p);
     }
     function deleteReason(p) {
       const key = productKey(p);
