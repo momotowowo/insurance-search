@@ -447,6 +447,12 @@
       } else {
         await loadScript('data/products.js');
       }
+      await loadScript('data/riders/product_updates.js');
+      const verifiedUpdates = window.INSURANCE_RIDER_PRODUCT_UPDATES;
+      const mergedProducts = new Map(window.INSURANCE_PRODUCTS.map(p => [p.id, p]));
+      for (const p of verifiedUpdates.products) mergedProducts.set(p.id, p);
+      window.INSURANCE_PRODUCTS = Array.from(mergedProducts.values());
+      window.INSURANCE_META = verifiedUpdates.meta;
       window.INSURANCE_PRODUCT_RIDERS = window.INSURANCE_PRODUCT_RIDERS || {
         version: 3, lazy: true,
         by_product_id: {}, by_main_key: {}, by_main_tii_product_id: {},
