@@ -7,6 +7,7 @@ currently on sale. No name, product-family, or successor-version matching.
 import base64
 import collections
 import gzip
+import hashlib
 import json
 import re
 import sys
@@ -38,6 +39,15 @@ def field(text, label):
 
 def key(p):
     return dumps([p.get('insurer', ''), p.get('name', ''), p.get('code', ''), p.get('contract_type', '')])
+
+
+def refresh_data_release():
+    paths = [ROOT / 'data/riders/manifest.js', ROOT / 'data/riders/product_updates.js']
+    release = 'riders-' + hashlib.sha256(b''.join(p.read_bytes() for p in paths)).hexdigest()[:16]
+    path = ROOT / 'index.html'
+    html, count = re.subn(r"const release = '[^']+';", f"const release = '{release}';", path.read_text())
+    assert count == 1, 'missing or ambiguous data release marker'
+    path.write_text(html)
 
 
 def build(slug, evidence_path, date):
@@ -197,6 +207,7 @@ def build(slug, evidence_path, date):
     assert sum(len(e['r']) for e in shard['mt'].values()) == len(pairs)
     assert sum(len(e['m']) for e in shard['rt'].values()) == len(pairs)
     assert all(m in pages and r in pages for m, r in pairs)
+    refresh_data_release()
     print(dumps(summary))
 
 
