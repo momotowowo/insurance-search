@@ -3,7 +3,7 @@
   "timezone": "Asia/Taipei",
   "window": {
     "from": "2026-11-02T00:00:00+08:00",
-    "to_checked": "2026-11-17T09:36:45.324161+08:00"
+    "to_checked": "2026-11-17T09:41:25+08:00"
   },
   "checked_on": "2026-11-17",
   "notes": [
@@ -15,7 +15,8 @@
     "2026-11-10：美利安康公開保單條款尚未取得；已清除誤用金管會公告當 terms_url，卡片顯示「條款尚未取得」。",
     "2026-11-10：凱基基富利、南山年年發已改掛正式保單條款，原 DM 改存 dm_url，不得再當「開啟條款」。美利安康公開條款仍未取得。",
     "2026-11-11：新增富邦永裕一生(FBY)、富邦紅運心傳(FPG)（富邦官網商品頁＋條款＋DM，備查115.11.06）及台灣人壽多美旺美元養老保險（官網商品頁＋條款，備查115.10.20）；三者官方新品公告日未公布，official_release_date 留空，銷售起日待核對。",
-    "2026-11-17：補查 2026-11-11～2026-11-17（用量用滿後漏跑的每日查核）。已入庫國泰人壽恆美傳世（官網商品頁＋核實條款＋DM；官網最新消息無新品公告，official_release_date 留空）。南山人壽美利拾光原為 baseline／未標示，已依 115年11月05日官方最新消息與核實條款 promote_baseline；正式代號 U1P10E4 記在核對欄，不改穩定鍵（原 code 為空）。美利安康條款仍未公開；FBY／FPG／多美旺官方發布日與銷售起日仍待核對，未回填。經代稱富邦美好利 12/11、真馨相守／豪愛無憂 11/24 停售，未取得富邦官方明文且停售日尚未到，不改狀態。臺銀官網商品訊息已載美添固、金永旺第1次部分變更自 115/10/01 停售，庫存早已是停售＋該日，屬歷史紀錄，不設 delisted_at、不列入本期停售通知。"
+    "2026-11-17：補查 2026-11-11～2026-11-17（用量用滿後漏跑的每日查核）。已入庫國泰人壽恆美傳世（官網商品頁＋核實條款＋DM；官網最新消息無新品公告，official_release_date 留空）。南山人壽美利拾光原為 baseline／未標示，已依 115年11月05日官方最新消息與核實條款 promote_baseline；正式代號 U1P10E4 記在核對欄，不改穩定鍵（原 code 為空）。美利安康條款仍未公開；FBY／FPG／多美旺官方發布日與銷售起日仍待核對，未回填。經代稱富邦美好利 12/11、真馨相守／豪愛無憂 11/24 停售，未取得富邦官方明文且停售日尚未到，不改狀態。臺銀官網商品訊息已載美添固、金永旺第1次部分變更自 115/10/01 停售，庫存早已是停售＋該日，屬歷史紀錄，不設 delisted_at、不列入本期停售通知。",
+    "2026-11-17（每日查核，接續補查 584c74a）：富邦資訊公開『契約條款』清單新增條款 958 美好年華(PFMA–PFMG，115.11.06備查)、961 安鑫平安(AJL，115.11.06備查)、962 金享優退(FPHA–FPHH，115.11.12備查)；已開啟條款 PDF 核對完整名稱／公司／幣別／備查文號。庫存原無此三筆。官網商品頁未上架、無新品新聞，銷售起日／通路／DM 待核對，status 未標示（不把備查當開賣），official_release_date 留空。同時修正 584c74a 恆美傳世 id 與既有匯豐 44088 重複，改為不重複 id。"
   ],
   "products": [
     {
@@ -445,6 +446,117 @@
           "身故保險金可分期定期給付"
         ]
       }
+    },
+    {
+      "stable_hint": "fubon-pfm",
+      "name": "富邦人壽美好年華外幣分紅終身保險",
+      "insurer": "富邦人壽",
+      "original_insurer": "富邦人壽",
+      "current_insurer": "富邦人壽",
+      "sector": "人身保險",
+      "category": "壽險",
+      "status": "未標示",
+      "code": "PFMA/PFMB/PFMC/PFMD/PFME/PFMF/PFMG",
+      "contract_type": "",
+      "source": "官網",
+      "source_name": "富邦人壽資訊公開－契約條款",
+      "source_url": "https://www.fubon.com/life/Investors/public-info/fubon/D3B4A1896E0046EB844E43A98E2FC83B/",
+      "terms_url": "https://www.fubon.com/life/cms/publish/407/20261106/template/20261106_35a70b53c41c46deb1000072efa83c4f.pdf",
+      "terms_method": "GET",
+      "official_release_date": "",
+      "verified_new_release": true,
+      "change_type": "新商品（官網資訊公開已上架條款；銷售起日／通路待核對）",
+      "site_added_at": "2026-11-17T09:41:25+08:00",
+      "terms_status": "已核實條款",
+      "filing": "115.11.06富壽商精字第1150003733號函備查（條款）",
+      "currency": "美元",
+      "verification": {
+        "terms_checked_at": "2026-11-17T09:41:25+08:00",
+        "terms_title_match": true,
+        "terms_pages": 14,
+        "pending": [
+          "sale_start",
+          "channel",
+          "payment_terms",
+          "dm",
+          "official_release_date",
+          "product_page"
+        ]
+      }
+    },
+    {
+      "stable_hint": "fubon-ajl",
+      "name": "富邦人壽安鑫平安終身保險",
+      "insurer": "富邦人壽",
+      "original_insurer": "富邦人壽",
+      "current_insurer": "富邦人壽",
+      "sector": "人身保險",
+      "category": "傷害險",
+      "status": "未標示",
+      "code": "AJL",
+      "contract_type": "",
+      "source": "官網",
+      "source_name": "富邦人壽資訊公開－契約條款",
+      "source_url": "https://www.fubon.com/life/Investors/public-info/fubon/D3B4A1896E0046EB844E43A98E2FC83B/",
+      "terms_url": "https://www.fubon.com/life/cms/publish/407/20261106/template/20261106_2a56a51750ae402f9fb4d6e149d94bd6.pdf",
+      "terms_method": "GET",
+      "official_release_date": "",
+      "verified_new_release": true,
+      "change_type": "新商品（官網資訊公開已上架條款；銷售起日／通路待核對）",
+      "site_added_at": "2026-11-17T09:41:25+08:00",
+      "terms_status": "已核實條款",
+      "filing": "115.11.06富壽商精字第1150003899號函備查（條款）",
+      "currency": "待核對（條款未載外幣收付約定）",
+      "verification": {
+        "terms_checked_at": "2026-11-17T09:41:25+08:00",
+        "terms_title_match": true,
+        "terms_pages": 18,
+        "pending": [
+          "sale_start",
+          "channel",
+          "payment_terms",
+          "dm",
+          "official_release_date",
+          "product_page"
+        ]
+      }
+    },
+    {
+      "stable_hint": "fubon-fph",
+      "name": "富邦人壽金享優退外幣分紅終身保險",
+      "insurer": "富邦人壽",
+      "original_insurer": "富邦人壽",
+      "current_insurer": "富邦人壽",
+      "sector": "人身保險",
+      "category": "壽險",
+      "status": "未標示",
+      "code": "FPHA/FPHB/FPHC/FPHD/FPHE/FPHF/FPHG/FPHH",
+      "contract_type": "",
+      "source": "官網",
+      "source_name": "富邦人壽資訊公開－契約條款",
+      "source_url": "https://www.fubon.com/life/Investors/public-info/fubon/D3B4A1896E0046EB844E43A98E2FC83B/",
+      "terms_url": "https://www.fubon.com/life/cms/publish/407/20261112/template/20261112_80e1ef4e83224582827cd67c89c61d2a.pdf",
+      "terms_method": "GET",
+      "official_release_date": "",
+      "verified_new_release": true,
+      "change_type": "新商品（官網資訊公開已上架條款；銷售起日／通路待核對）",
+      "site_added_at": "2026-11-17T09:41:25+08:00",
+      "terms_status": "已核實條款",
+      "filing": "115.11.12富壽商精字第1150004321號函備查（條款）",
+      "currency": "美元",
+      "verification": {
+        "terms_checked_at": "2026-11-17T09:41:25+08:00",
+        "terms_title_match": true,
+        "terms_pages": 15,
+        "pending": [
+          "sale_start",
+          "channel",
+          "payment_terms",
+          "dm",
+          "official_release_date",
+          "product_page"
+        ]
+      }
     }
   ],
   "candidates": [
@@ -455,14 +567,6 @@
       "sources": [
         "https://www.cna.com.tw/business/chinese/448727",
         "https://www.ctee.com.tw/news/20261102701484-430301"
-      ]
-    },
-    {
-      "name": "富邦人壽美好年華外幣分紅終身保險、富邦人壽金享優退外幣分紅終身保險",
-      "why": "富邦官網分紅保單專區可見（代號 PFMA–PFMG、FPHA–FPHH），庫存沒有這兩筆；資訊公開頁有 2026-11-06／2026-11-12 檔案日期，但未找到官方新品新聞，也尚未實際開啟並核對個別條款與備查日／銷售起日，無法判斷是本期新品還是庫存漏收的既有商品，暫不入庫、不列入本期通知",
-      "sources": [
-        "https://www.fubon.com/life/edmprod/participating/index.html",
-        "https://www.fubon.com/life/Investors/public-info/fubon/D3B4A1896E0046EB844E43A98E2FC83B/"
       ]
     },
     {
