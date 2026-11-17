@@ -3,9 +3,9 @@
   "timezone": "Asia/Taipei",
   "window": {
     "from": "2026-11-02T00:00:00+08:00",
-    "to_checked": "2026-11-11T09:04:03+08:00"
+    "to_checked": "2026-11-17T09:36:45.324161+08:00"
   },
-  "checked_on": "2026-11-11",
+  "checked_on": "2026-11-17",
   "notes": [
     "first_seen_at／site_added_at 是本站首次入庫時間，不是官方發布日。",
     "official_release_date 另欄；重建時不得用官方日回填 first_seen。",
@@ -14,7 +14,8 @@
     "2026-11-10：安達人壽美利安康為金管會核准同意出單，銷售起日／正式代號等待核對；status=未標示，不標現售。",
     "2026-11-10：美利安康公開保單條款尚未取得；已清除誤用金管會公告當 terms_url，卡片顯示「條款尚未取得」。",
     "2026-11-10：凱基基富利、南山年年發已改掛正式保單條款，原 DM 改存 dm_url，不得再當「開啟條款」。美利安康公開條款仍未取得。",
-    "2026-11-11：新增富邦永裕一生(FBY)、富邦紅運心傳(FPG)（富邦官網商品頁＋條款＋DM，備查115.11.06）及台灣人壽多美旺美元養老保險（官網商品頁＋條款，備查115.10.20）；三者官方新品公告日未公布，official_release_date 留空，銷售起日待核對。"
+    "2026-11-11：新增富邦永裕一生(FBY)、富邦紅運心傳(FPG)（富邦官網商品頁＋條款＋DM，備查115.11.06）及台灣人壽多美旺美元養老保險（官網商品頁＋條款，備查115.10.20）；三者官方新品公告日未公布，official_release_date 留空，銷售起日待核對。",
+    "2026-11-17：補查 2026-11-11～2026-11-17（用量用滿後漏跑的每日查核）。已入庫國泰人壽恆美傳世（官網商品頁＋核實條款＋DM；官網最新消息無新品公告，official_release_date 留空）。南山人壽美利拾光原為 baseline／未標示，已依 115年11月05日官方最新消息與核實條款 promote_baseline；正式代號 U1P10E4 記在核對欄，不改穩定鍵（原 code 為空）。美利安康條款仍未公開；FBY／FPG／多美旺官方發布日與銷售起日仍待核對，未回填。經代稱富邦美好利 12/11、真馨相守／豪愛無憂 11/24 停售，未取得富邦官方明文且停售日尚未到，不改狀態。臺銀官網商品訊息已載美添固、金永旺第1次部分變更自 115/10/01 停售，庫存早已是停售＋該日，屬歷史紀錄，不設 delisted_at、不列入本期停售通知。"
   ],
   "products": [
     {
@@ -337,16 +338,138 @@
           "美元計價收付"
         ]
       }
+    },
+    {
+      "stable_hint": "cathay-wjcwjdwje",
+      "name": "國泰人壽恆美傳世利率變動型美元終身壽險（定期給付型）",
+      "insurer": "國泰人壽",
+      "original_insurer": "國泰人壽",
+      "current_insurer": "國泰人壽",
+      "sector": "人身保險",
+      "category": "壽險",
+      "status": "現售",
+      "code": "",
+      "contract_type": "",
+      "source": "官網",
+      "source_name": "國泰人壽官網商品頁／條款／DM",
+      "source_url": "https://www.cathaylife.com.tw/official/products/life-caring/wjcwjdwje",
+      "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/products/life-caring/WJCWJDWJE.pdf",
+      "terms_method": "GET",
+      "official_release_date": "",
+      "verified_new_release": true,
+      "change_type": "新商品上架",
+      "site_added_at": "2026-11-17T09:36:45.324161+08:00",
+      "dm_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/products/life-caring/WJCWJDWJE_DM.pdf",
+      "terms_status": "已核實條款",
+      "verification": {
+        "filing": "115.11.12 國壽字第 1150110010 號函備查（條款）",
+        "terms_version": null,
+        "dm_filename": "WJCWJDWJE_DM.pdf",
+        "dm_date": "DM 內文版次日期因圖檔文字無法完整讀出，待核對",
+        "official_codes": "WJC／WJD／WJE（DM 載明商品代號；對應繳別待核對）",
+        "formal_code": "正式單一商品代號未在條款載明；DM 列 WJC／WJD／WJE，不寫入穩定鍵 code",
+        "channel": "未公布，待核對（商品頁寫最低承保限額請洽招攬人員；DM 提及符合條件可搭配保費／保單融資）",
+        "payment_terms": "躉繳、2年、6年",
+        "currency": "美元",
+        "insure_age": "躉繳：0歲～85歲；2年期：0歲～84歲；6年期：0歲～79歲",
+        "sale_start": "未公布，待核對（官網最新消息無上架公告；商品頁 repo:modifyDate 2026-11-12T01:37:03Z；工商時報／經濟日報 2026-11-16 報導，非官方不採為 official_release_date）",
+        "official_announcement": "國泰人壽最新消息 11/03–11/17 未見本商品上架新聞（可見為帳戶安全、抽獎與展覽等）",
+        "product_url": "https://www.cathaylife.com.tw/official/products/life-caring/wjcwjdwje",
+        "checked_on_taipei": "2026-11-17",
+        "terms_status": "verified_official_terms",
+        "terms_checked_on_taipei": "2026-11-17",
+        "terms_document_type": "保單條款（10頁，商品名稱相符，美元計價，無完全失能給付）",
+        "terms_product_name": "國泰人壽恆美傳世利率變動型美元終身壽險（定期給付型）",
+        "terms_pages": 10,
+        "terms_note": "資訊公開契約條款 WJCWJDWJE.pdf 與商品頁 files/products/life-caring/WJCWJDWJE.pdf 內容相同，皆已實際開啟核對。DM 不得當條款。",
+        "features": [
+          "終身保障，增值回饋，美元資產配置",
+          "繳費年期可選躉繳／2年／6年",
+          "每年有機會享有增值回饋分享金（儲存生息或增購保額；16歲以下依條款）",
+          "身故保險金可分期定期給付",
+          "給付項目：祝壽保險金、身故保險金或喪葬費用保險金；本保險無提供完全失能給付"
+        ]
+      }
+    },
+    {
+      "stable_hint": "nanshan-u1p10e4",
+      "name": "南山人壽美利拾光美元養老保險（定期給付型）",
+      "insurer": "南山人壽",
+      "original_insurer": "南山人壽",
+      "current_insurer": "南山人壽",
+      "sector": "人身保險",
+      "category": "壽險",
+      "status": "現售",
+      "code": "",
+      "contract_type": "",
+      "source": "官網",
+      "source_name": "南山人壽最新消息／商品簡介 DM／保單條款",
+      "source_url": "https://www.nanshanlife.com.tw/nanshanlife/news/newscenter/1717",
+      "terms_url": "https://www.nanshanlife.com.tw/nanshanlife/portal-api/File/12027",
+      "terms_method": "GET",
+      "official_release_date": "2026-11-05",
+      "verified_new_release": true,
+      "change_type": "新商品上架",
+      "site_added_at": "2026-11-17T09:36:45.324161+08:00",
+      "dm_url": "https://www.nanshanlife.com.tw/nanshanlife/portal-api/File/12026",
+      "terms_status": "已核實條款",
+      "verification": {
+        "filing": "中華民國115年10月17日南壽研字第1150000122號函備查",
+        "dm_filename": "portal-api/File/12026（商品簡介 DM）",
+        "dm_date": "115年10月版（BK-01-1150403）",
+        "formal_code": "U1P10E4（DM／條款檔名載明；不寫入穩定鍵 code，以免與原 baseline 鍵不一致）",
+        "channel": "DM 載明「透過金融機構為行銷通路招攬並代理」，是否另有業務通路待核對",
+        "payment_terms": "躉繳（一次繳費）",
+        "currency": "美元",
+        "insure_age": "0歲～88歲（DM 投保規範分齡保額至 66～88 歲）",
+        "insurance_period": "10年",
+        "sale_start": "未公布，待核對（官方最新消息日期為 115年11月05日「推出」，未另載銷售起日）",
+        "news_url": "https://www.nanshanlife.com.tw/nanshanlife/news/newscenter/1717",
+        "news_title": "南山人壽推美利拾光美元養老險 同時規劃保障與變動風險（115年11月05日）",
+        "product_url": null,
+        "checked_on_taipei": "2026-11-17",
+        "terms_status": "verified_official_terms",
+        "terms_checked_on_taipei": "2026-11-17",
+        "terms_document_type": "保單條款（樣本，12頁，商品名稱與代號相符）",
+        "terms_product_name": "南山人壽美利拾光美元養老保險（定期給付型）",
+        "terms_code": "U1P10E4",
+        "terms_currency": "美元",
+        "terms_filing": "中華民國 115 年 10 月 17 日 南壽研字第 1150000122 號函備查",
+        "terms_pages": 12,
+        "terms_note": "portal-api/File/12026 為商品簡介 DM；正式條款為 portal-api/File/12027。官網公開資訊路徑 nanshanlife-info/Products/rule/U1P10E4.pdf 為同一份條款樣本（文字等長、文首商品名相符）。先前誤入 baseline／未標示，本次依官方新聞與條款 promote_baseline。",
+        "features": [
+          "繳費1次，保障10年，滿期生存領取滿期保險金",
+          "美元收付，資產靈活配置",
+          "給付項目：滿期保險金、身故保險金或喪葬費用保險金",
+          "本商品無提供完全失能保險金；不分紅保單",
+          "身故保險金可分期定期給付"
+        ]
+      }
     }
   ],
   "candidates": [
     {
       "name": "宏泰人壽美康富傳美元利率變動型終身保險",
       "code_claimed": "UPJ",
-      "why": "中央社財經訊息平台／工商時報 2026-11-02 報導宏泰推出；官網 hontai.com.tw 商品／宣告利率頁本次 TLS 連線失敗，未取得官方商品頁或 DM，暫不入庫；2026-11-11 複查 hontai.com.tw 仍連線失敗（HTTP 000），仍未入庫",
+      "why": "中央社財經訊息平台／工商時報 2026-11-02 報導宏泰推出；官網 hontai.com.tw 商品／宣告利率頁本次 TLS 連線失敗，未取得官方商品頁或 DM，暫不入庫；2026-11-11 複查 hontai.com.tw 仍連線失敗（HTTP 000），仍未入庫；2026-11-17 複查：CNA／工商時報仍僅見 11/02 報導，hontai.com.tw 商品頁本次 WebFetch 逾時，未取得官方商品頁或可開啟的條款 PDF，仍不入庫",
       "sources": [
         "https://www.cna.com.tw/business/chinese/448727",
         "https://www.ctee.com.tw/news/20261102701484-430301"
+      ]
+    },
+    {
+      "name": "富邦人壽美好年華外幣分紅終身保險、富邦人壽金享優退外幣分紅終身保險",
+      "why": "富邦官網分紅保單專區可見（代號 PFMA–PFMG、FPHA–FPHH），庫存沒有這兩筆；資訊公開頁有 2026-11-06／2026-11-12 檔案日期，但未找到官方新品新聞，也尚未實際開啟並核對個別條款與備查日／銷售起日，無法判斷是本期新品還是庫存漏收的既有商品，暫不入庫、不列入本期通知",
+      "sources": [
+        "https://www.fubon.com/life/edmprod/participating/index.html",
+        "https://www.fubon.com/life/Investors/public-info/fubon/D3B4A1896E0046EB844E43A98E2FC83B/"
+      ]
+    },
+    {
+      "name": "新光人壽i生活交通／假日／骨折傷害保險附加條款（媒體稱搭配 e起金平安，將來銀行網路投保）",
+      "why": "經濟日報 2026-11-16 報導將來銀行網路投保專區推出；主約「新光人壽e起金平安傷害保險」庫存已是 baseline、現售、sale_date=2025-07-01，屬既有商品通路擴充，不 promote。附加條款未在庫存，亦未取得新光官方商品頁或可核實條款，暫不入庫",
+      "sources": [
+        "https://money.udn.com/money/story/5613/9881436"
       ]
     }
   ],
@@ -375,7 +498,51 @@
     {
       "name": "友邦人壽憶起守護定期保險",
       "reason": "官方新聞 2026-10-29，在窗之前"
+    },
+    {
+      "name": "新光人壽e起金平安傷害保險（將來銀行網路投保「意外保障自由配」）",
+      "reason": "庫存已有 baseline id=17670，status=現售，sale_date=2025-07-01；11/16 媒體為既有商品新增銀行通路，不是新商品上架",
+      "sources": [
+        "https://money.udn.com/money/story/5613/9881436"
+      ]
+    },
+    {
+      "name": "富邦人壽團體重大疾病一年定期保險、團體一年定期壽險及大量「第N次部分變更」（保險e聊站 11/12–13 更新清單）",
+      "reason": "屬部分變更或既有團險文件同步，不是新商品；未以官方新品公告入庫"
+    },
+    {
+      "name": "美商安達產物個人傷害保險（丙型）等產險（保險e聊站 11/12）",
+      "reason": "產險，已定排除"
+    },
+    {
+      "name": "新光人壽愛無限澳幣防癌終身保險（保險e聊站 11/11 再出現）",
+      "reason": "庫存已是停售歷史商品（2015–2018 銷售），屬資料庫重錄，不是新品"
+    },
+    {
+      "name": "經代站稱富邦人壽美好利 115/12/11 停售、真馨相守防癌 CLX 與豪愛無憂防癌 CLZ 115/11/24 停售",
+      "reason": "僅經代站；未取得富邦官方停止銷售／停止受理明文；且停售日尚未到期。官網壽險商品列表仍可見美好利、真馨相守。不改狀態、不列入本期停售通知",
+      "sources": [
+        "http://www.jawjenn.com.tw/news01.aspx?ID=489"
+      ]
+    },
+    {
+      "name": "臺銀人壽美添固美元養老保險（定期給付型）、金永旺利率變動型終身壽險（定期給付型）（第1次部分變更）自115年10月1日停止銷售",
+      "reason": "臺銀官網商品訊息 2026-10-01 已有明文，但停售日在本期窗之前；庫存早已 status=停售、stop_date=2026-10-01，屬歷史紀錄，不設 delisted_at、不列入本期停售通知",
+      "sources": [
+        "https://www.twfhclife.com.tw/%e6%9c%80%e6%96%b0%e6%b6%88%e6%81%af/%e5%95%86%e5%93%81%e8%a8%8a%e6%81%af/"
+      ]
     }
   ],
-  "promote_baseline": []
+  "promote_baseline": [
+    {
+      "insurer": "南山人壽",
+      "name": "南山人壽美利拾光美元養老保險（定期給付型）",
+      "code": "",
+      "contract_type": "",
+      "confirmed": true,
+      "site_added_at": "2026-11-17T09:36:45.324161+08:00",
+      "official_release_date": "2026-11-05",
+      "reason": "庫存原為 baseline／未標示（公開條款已在庫）；官方最新消息 115年11月05日宣布推出，且已核實官方條款與 DM。"
+    }
+  ]
 }
