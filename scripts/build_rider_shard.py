@@ -112,7 +112,10 @@ def build(slug, evidence_path, date):
             # Links must agree with the displayed identifier. Plain text is
             # evidence too, but is never used to guess another identifier.
             link_codes = {tid(a['url']) for a in row['links'] if tid(a['url'])}
-            assert not link_codes or link_codes == {target}, 'link/displayed-code mismatch'
+            if link_codes and link_codes != {target}:
+                excluded.append({'from': code, 'to': target,
+                                 'link_codes': sorted(link_codes), 'reason': 'link_code_mismatch'})
+                continue
             if code[6] == 'M' and target[6] in 'RA':
                 pair = (code, target)
             elif code[6] in 'RA' and target[6] == 'M':
