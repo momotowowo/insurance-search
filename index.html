@@ -1059,7 +1059,6 @@
           const key = btn.dataset.favorite;
           const selected = !favorites.has(key);
           if (selected) favorites.add(key); else favorites.delete(key);
-          if (selected) state.page = 1;
           saveFavorites(); render(); syncChange(key, selected);
         };
       });
