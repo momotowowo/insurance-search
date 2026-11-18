@@ -896,13 +896,7 @@
     }
 
     function filtered() {
-      const list = products.filter(matches);
-      const starred = [];
-      const rest = [];
-      for (const p of list) {
-        (favorites.has(productKey(p)) ? starred : rest).push(p);
-      }
-      return starred.concat(rest);
+      return products.filter(matches);
     }
 
     function officialTermsUrl(p) {
@@ -1059,7 +1053,19 @@
           const key = btn.dataset.favorite;
           const selected = !favorites.has(key);
           if (selected) favorites.add(key); else favorites.delete(key);
-          saveFavorites(); render(); syncChange(key, selected);
+          saveFavorites();
+          if ($('favorites-only').checked) {
+            render();
+          } else {
+            $("favorites-count").textContent = `我的最愛 ${favorites.size}`;
+            document.querySelectorAll('[data-favorite]').forEach(star => {
+              if (star.dataset.favorite !== key) return;
+              star.setAttribute('aria-pressed', String(selected));
+              star.setAttribute('aria-label', star.getAttribute('aria-label').replace(/^(加入|取消)/, selected ? '取消' : '加入'));
+              star.textContent = selected ? '★' : '☆';
+            });
+          }
+          syncChange(key, selected);
         };
       });
       document.querySelectorAll("[data-i]").forEach((btn) => {
