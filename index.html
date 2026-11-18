@@ -177,6 +177,12 @@
       font: inherit;
       cursor: pointer;
     }
+    .pager-next-controls { display: inline-flex; align-items: center; gap: 6px; }
+    .pager-next-controls select { width: auto; min-height: 44px; font-size: 16px; }
+    @media (max-width: 767px) {
+      .pager { gap: 6px; }
+      .pager button { padding-inline: 8px; }
+    }
     .pager button:disabled { opacity: 0.4; cursor: not-allowed; }
     .empty { padding: 48px 16px; text-align: center; color: var(--muted); }
     footer {
@@ -1049,11 +1055,28 @@
       $("pager").innerHTML = list.length ? `
         <button type="button" id="prev" ${state.page <= 1 ? "disabled" : ""}>上一頁</button>
         <span>第 ${state.page} / ${pages} 頁</span>
-        <button type="button" id="next" ${state.page >= pages ? "disabled" : ""}>下一頁</button>
+        <span class="pager-next-controls">
+          <button type="button" id="next" ${state.page >= pages ? "disabled" : ""}>下一頁</button>
+          <select id="jump-page" aria-label="跳至頁碼" ${pages === 1 ? "disabled" : ""}>
+            ${Array.from({ length: pages }, (_, i) => i + 1).map(page =>
+              `<option value="${page}" ${state.page === page ? "selected" : ""}>${page} 頁</option>`
+            ).join("")}
+          </select>
+        </span>
       ` : "";
-      const prev = $("prev"); const next = $("next");
-      if (prev) prev.onclick = () => { state.page -= 1; collapsePhoneFilters(); render(); window.scrollTo({ top: 220, behavior: "smooth" }); };
-      if (next) next.onclick = () => { state.page += 1; collapsePhoneFilters(); render(); window.scrollTo({ top: 220, behavior: "smooth" }); };
+      function goToPage(page) {
+        if (!Number.isInteger(page) || page < 1 || page > pages || page === state.page) return;
+        state.page = page;
+        collapsePhoneFilters();
+        render();
+        window.scrollTo({ top: 220, behavior: "smooth" });
+      }
+      const prev = $("prev");
+      const next = $("next");
+      const jumpPage = $("jump-page");
+      if (prev) prev.onclick = () => goToPage(state.page - 1);
+      if (next) next.onclick = () => goToPage(state.page + 1);
+      if (jumpPage) jumpPage.onchange = () => goToPage(Number(jumpPage.value));
       document.querySelectorAll('[data-favorite]').forEach(btn => {
         btn.onclick = () => {
           const key = btn.dataset.favorite;
