@@ -457,8 +457,20 @@
       const verifiedUpdates = window.INSURANCE_RIDER_PRODUCT_UPDATES;
       const mergedProducts = new Map(window.INSURANCE_PRODUCTS.map(p => [p.id, p]));
       for (const p of verifiedUpdates.products) mergedProducts.set(p.id, p);
+      const meta = verifiedUpdates.meta;
+      const fields = { insurers: 'insurer', sectors: 'sector', statuses: 'status', sources: 'source', categories: 'category' };
+      for (const [id, product] of mergedProducts) {
+        if (!/批[註注]條款/.test(product.name.replace(/\s+/g, ''))) continue;
+        mergedProducts.delete(id);
+        for (const [group, field] of Object.entries(fields)) {
+          const counts = meta.stats[group];
+          const key = product[field] || '未標示';
+          if (counts[key]) counts[key]--;
+        }
+      }
+      meta.count = mergedProducts.size;
       window.INSURANCE_PRODUCTS = Array.from(mergedProducts.values());
-      window.INSURANCE_META = verifiedUpdates.meta;
+      window.INSURANCE_META = meta;
       window.INSURANCE_PRODUCT_RIDERS = window.INSURANCE_PRODUCT_RIDERS || {
         version: 3, lazy: true,
         by_product_id: {}, by_main_key: {}, by_main_tii_product_id: {},
