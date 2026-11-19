@@ -373,13 +373,6 @@
           </select>
         </div>
         <div>
-          <label for="saleSort">時間排序</label>
-          <select id="saleSort">
-            <option value="newest">販售日（最新）</option>
-            <option value="oldest">販售日（最舊）</option>
-          </select>
-        </div>
-        <div>
           <label for="source">資料來源</label>
           <select id="source">
             <option value="">全部來源</option>
@@ -497,7 +490,7 @@
       if ([10, 15, 20].includes(saved)) pageSize = saved;
     } catch (_) {}
     document.getElementById('page-size').value = String(pageSize);
-    const state = { q: "", sector: "", insurer: "", category: "", status: "", source: "", saleSort: "newest", page: 1, view: "all" };
+    const state = { q: "", sector: "", insurer: "", category: "", status: "", source: "", page: 1, view: "all" };
     const NEW_WINDOW_MS = 7 * 24 * 60 * 60 * 1000;
     function clockNow() {
       if (typeof window.__INSURANCE_NOW__ === 'number') return new Date(window.__INSURANCE_NOW__);
@@ -927,16 +920,7 @@
         if (!matches(product)) continue;
         (favorites.has(productKey(product)) ? favoritesFirst : remaining).push(product);
       }
-      const direction = state.saleSort === "oldest" ? 1 : -1;
-      function compareSaleDates(a, b) {
-        const aDate = /^\d{4}-\d{2}-\d{2}$/.test(a.sale_date) ? a.sale_date : "";
-        const bDate = /^\d{4}-\d{2}-\d{2}$/.test(b.sale_date) ? b.sale_date : "";
-        if (aDate === bDate) return 0;
-        if (!aDate) return 1;
-        if (!bDate) return -1;
-        return (aDate < bDate ? -1 : 1) * direction;
-      }
-      return favoritesFirst.sort(compareSaleDates).concat(remaining.sort(compareSaleDates));
+      return favoritesFirst.concat(remaining);
     }
 
     function officialTermsUrl(p) {
@@ -1162,7 +1146,7 @@
         clearTimeout(searchTimer);
         searchTimer = setTimeout(runSearch, 80);
       });
-      ["sector", "insurer", "category", "status", "saleSort", "source"].forEach((id) => {
+      ["sector", "insurer", "category", "status", "source"].forEach((id) => {
         $(id).addEventListener("change", (e) => {
           state[id] = e.target.value;
           state.page = 1;
