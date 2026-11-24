@@ -920,7 +920,12 @@
         if (!matches(product)) continue;
         (favorites.has(productKey(product)) ? favoritesFirst : remaining).push(product);
       }
-      return favoritesFirst.concat(remaining);
+      const list = favoritesFirst.concat(remaining);
+      if (state.view === 'new') {
+        // New releases use the date added to this website, newest first.
+        list.sort((a, b) => (parseFirstSeen(b)?.getTime() ?? 0) - (parseFirstSeen(a)?.getTime() ?? 0));
+      }
+      return list;
     }
 
     function officialTermsUrl(p) {
