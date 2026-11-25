@@ -924,6 +924,9 @@
       if (state.view === 'new') {
         // New releases use the date added to this website, newest first.
         list.sort((a, b) => (parseFirstSeen(b)?.getTime() ?? 0) - (parseFirstSeen(a)?.getTime() ?? 0));
+      } else if (state.view === 'delisted') {
+        // Sort by when the confirmed transition entered this section.
+        list.sort((a, b) => (parseDelisted(b)?.getTime() ?? 0) - (parseDelisted(a)?.getTime() ?? 0));
       }
       return list;
     }
