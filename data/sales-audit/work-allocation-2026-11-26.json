@@ -1,0 +1,49 @@
+{
+  "assigned_at": "2026-11-26",
+  "baseline_commit": "08c9e886357359caa863494c5621b9efe92c53a3",
+  "gpt": {
+    "scope": "銷售狀態未標示商品之銷售狀態、銷售日與停售日核實；同時缺販售日亦歸 GPT",
+    "product_ids": [
+      "00642",
+      "00880",
+      "00881",
+      "00882",
+      "00942",
+      "00996",
+      "01007",
+      "01015",
+      "01017",
+      "01111",
+      "01662",
+      "01696",
+      "01698",
+      "44134",
+      "44139",
+      "44140",
+      "44141",
+      "44258",
+      "44267",
+      "44268"
+    ],
+    "current_product_id": "00642"
+  },
+  "grok": {
+    "scope": "排除 GPT 已認領商品的缺販售日補齊與銷售資料複查；現售商品主附約關聯補齊",
+    "acknowledged": false
+  },
+  "coordination": {
+    "publish_owner": "GPT",
+    "grok_output": "獨立查核檔，回報 commit 交接；不直接修改共用正式資料與 index.html",
+    "ownership": "已認領 ID 不因修正後狀態改變自動轉交；轉交需明確記錄",
+    "completion": "官方證據核實、main 提交並驗證正式 Pages 後才標已上線",
+    "preview": "不處理"
+  },
+  "current_evidence": {
+    "product_id": "00642",
+    "checked_at": "2026-11-26",
+    "official_terms_url": "https://www.nanshanlife.com.tw/nanshanlife/nanshanlife-info/Products/rule/OUISA.pdf",
+    "observed": "條款首頁：2015-10-21（104）南壽研字第202號函申報；2023-02-25南壽研字第1120000113號函申報。這些為申報日期，尚不能作為銷售日。",
+    "pending": "保發中心人工驗證碼與同版本交叉核對",
+    "product_data_changed": false
+  }
+}
