@@ -280,7 +280,7 @@
     },
     "note": "scope 1 (1,121): live-verified+applied 358+155+127+23 = 663; the remainder are handed to GPT (pending). scope 2 (recheck) and scope 3 (rider links) not started."
   },
-  "updated_at": "2026-11-26T13:33:58+08:00",
+  "updated_at": "2026-11-26T14:11:50+08:00",
   "live_tii_queue": {
     "note": "已移交 GPT（pending）之項目中，即時保發中心查詢（需使用者判讀驗證碼）可能解決者；Grok 要處理須先與 GPT 記錄",
     "counts": {
@@ -4007,9 +4007,72 @@
         "items": 13,
         "consistent": 13,
         "commit": "9b38801"
+      },
+      "29": {
+        "items": 32,
+        "verified": 32,
+        "corrections": 3,
+        "consistent": 29,
+        "status_conflicts": 0,
+        "commit": "409fb20",
+        "live_commit": "642226e"
+      },
+      "30": {
+        "items": 60,
+        "consistent": 60,
+        "status_conflicts": 0,
+        "commit": "364c316"
+      },
+      "31": {
+        "items": 60,
+        "consistent": 60,
+        "status_conflicts": 0,
+        "commit": "364c316"
+      },
+      "32": {
+        "items": 60,
+        "consistent": 60,
+        "status_conflicts": 0,
+        "commit": "364c316"
+      },
+      "33": {
+        "items": 60,
+        "consistent": 60,
+        "status_conflicts": 0,
+        "commit": "364c316"
+      },
+      "34": {
+        "items": 60,
+        "consistent": 60,
+        "status_conflicts": 0,
+        "commit": "364c316"
+      },
+      "35": {
+        "items": 60,
+        "consistent": 60,
+        "status_conflicts": 0,
+        "commit": "364c316"
+      },
+      "36": {
+        "items": 60,
+        "consistent": 60,
+        "status_conflicts": 0,
+        "commit": "364c316"
+      },
+      "37": {
+        "items": 60,
+        "consistent": 60,
+        "status_conflicts": 0,
+        "commit": "364c316"
+      },
+      "38": {
+        "items": 24,
+        "consistent": 20,
+        "status_conflicts": 4,
+        "commit": "364c316"
       }
     },
-    "status_conflicts_found": 18,
+    "status_conflicts_found": 22,
     "status_changes_made": 0,
     "integration": {
       "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
@@ -4070,6 +4133,30 @@
       "reverse_site_stopped_tii_open": 31,
       "site_現售_pid_not_in_cache_unfetched": 1,
       "note": "need new TII captcha session"
+    },
+    "recent_onsale_refresh": {
+      "population": "本站現售、銷售日 ≥ 2026-07-01 且有保發中心連結（排除 GPT 20 筆）",
+      "refreshed_live": 504,
+      "consistent": 500,
+      "status_conflicts": 4,
+      "conflict_ids": [
+        "00570",
+        "21834",
+        "21835",
+        "21836"
+      ],
+      "note": "保發中心即時頁已停售而本站現售；官網無明文，已移交 GPT（batch 38 交接檔），未改狀態"
+    },
+    "integration_batch29": {
+      "commit": "642226e",
+      "pages_build": "built",
+      "release": "sales-20261126-grok6",
+      "ids": [
+        "02319",
+        "02322",
+        "02389"
+      ],
+      "live_verified_at": "2026-11-26T14:11:50+08:00"
     }
   }
 }

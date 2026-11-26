@@ -8,13 +8,14 @@
     "ids": 32
   },
   "gpt_claimed_ids_excluded": true,
-  "integration_status": "待整合",
+  "integration_status": "已核實項目已上線（待核對項目已移交 GPT，仍為 pending）",
   "product_data_changed": false,
   "method": "本站停售而 2026-11-08 保發中心快取顯示未停售者，以 2026-11-26 即時保發中心詳細頁覆核；官網條款與保發中心逐字文號比對。未對驗證碼做 OCR、未執行 submit。",
   "summary": {
     "已核實": 32,
     "total": 32,
-    "items_with_proposed_changes": 3
+    "items_with_proposed_changes": 3,
+    "live_applied": 3
   },
   "items": [
     {
@@ -71,7 +72,7 @@
         "stop_date": "未停售",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4B41123B11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
@@ -113,7 +114,13 @@
         "stop_date"
       ],
       "date_basis": "本站停售狀態不變；停售日取自保發中心即時詳細頁（115/11/01），本站原停售日欄位為「未停售」占位值，屬資料矛盾。官網條款文號（1150000043）與保發中心該版本文號逐字相符，確認同一版本；官網頁面未另載停售日。",
-      "caveat": "狀態未更動，僅補正停售日"
+      "caveat": "狀態未更動，僅補正停售日",
+      "integration": {
+        "commit": "642226e",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T14:11:44+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok6）3 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok6"
+      }
     },
     {
       "product_id": "02322",
@@ -126,7 +133,7 @@
         "stop_date": "未停售",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A38723B11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
@@ -168,7 +175,13 @@
         "stop_date"
       ],
       "date_basis": "本站停售狀態不變；停售日取自保發中心即時詳細頁（115/11/01），本站原停售日欄位為「未停售」占位值，屬資料矛盾。官網條款文號（1140000011）與保發中心該版本文號逐字相符，確認同一版本；官網頁面未另載停售日。",
-      "caveat": "狀態未更動，僅補正停售日"
+      "caveat": "狀態未更動，僅補正停售日",
+      "integration": {
+        "commit": "642226e",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T14:11:44+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok6）3 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok6"
+      }
     },
     {
       "product_id": "02389",
@@ -181,7 +194,7 @@
         "stop_date": "未停售",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A40323A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
@@ -223,7 +236,13 @@
         "stop_date"
       ],
       "date_basis": "本站停售狀態不變；停售日取自保發中心即時詳細頁（115/11/01），本站原停售日欄位為「未停售」占位值，屬資料矛盾。官網條款文號（1140021544）與保發中心該版本文號逐字相符，確認同一版本；官網頁面未另載停售日。",
-      "caveat": "狀態未更動，僅補正停售日"
+      "caveat": "狀態未更動，僅補正停售日",
+      "integration": {
+        "commit": "642226e",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T14:11:44+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok6）3 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok6"
+      }
     },
     {
       "product_id": "39178",
@@ -1429,5 +1448,12 @@
       },
       "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
     }
-  ]
+  ],
+  "integrated": {
+    "count": 3,
+    "commit": "642226e",
+    "pages_build": "built",
+    "live_verified_at": "2026-11-26T14:11:44+08:00",
+    "live_verification": "線上 product_updates.js（release=sales-20261126-grok6）3 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok6"
+  }
 }
