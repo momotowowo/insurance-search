@@ -429,7 +429,7 @@
     function loadScript(src) {
       return new Promise((resolve,reject) => {
         const script=document.createElement('script');
-        const release = 'sales-20261126-grok8';
+        const release = 'sales-20261126-grok9-test';
         script.src=src+(src.includes('?') ? '&' : '?')+'v='+release; script.onload=resolve;
         script.onerror=()=>reject(new Error('資料檔無法開啟，請確認壓縮檔已完整解壓縮。'));
         document.head.appendChild(script);
@@ -914,13 +914,16 @@
     }
 
     function filtered() {
+      // Temporary version-check product (id TEST1, test_marker: true): pin to top of 全部商品. Remove with the TEST1 record.
+      const testFirst = [];
       const favoritesFirst = [];
       const remaining = [];
       for (const product of products) {
         if (!matches(product)) continue;
-        (favorites.has(productKey(product)) ? favoritesFirst : remaining).push(product);
+        if (product.test_marker === true) testFirst.push(product);
+        else (favorites.has(productKey(product)) ? favoritesFirst : remaining).push(product);
       }
-      const list = favoritesFirst.concat(remaining);
+      const list = testFirst.concat(favoritesFirst, remaining);
       if (state.view === 'new') {
         // New releases use the date added to this website, newest first.
         list.sort((a, b) => (parseFirstSeen(b)?.getTime() ?? 0) - (parseFirstSeen(a)?.getTime() ?? 0));

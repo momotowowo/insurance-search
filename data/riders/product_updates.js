@@ -1,6 +1,18 @@
 window.INSURANCE_RIDER_PRODUCT_UPDATES= {
   "products": [
     {
+      "name": "測試用",
+      "insurer": "測試用",
+      "sector": "待補充",
+      "category": "待補充",
+      "status": "待補充",
+      "source": "待補充",
+      "id": "TEST1",
+      "original_insurer": "測試用",
+      "current_insurer": "測試用",
+      "test_marker": true
+    },
+    {
       "name": "元大人壽福氣美滿美元利率變動型終身壽險",
       "insurer": "元大人壽",
       "sector": "人身保險",
