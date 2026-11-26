@@ -1,0 +1,1433 @@
+{
+  "batch_id": "grok-scope2-reverse-live-batch29-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T13:58:31+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": {
+    "description": "範圍2：反向項目（本站停售／快取未停售）31 筆＋44243 中華郵政",
+    "ids": 32
+  },
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": "本站停售而 2026-11-08 保發中心快取顯示未停售者，以 2026-11-26 即時保發中心詳細頁覆核；官網條款與保發中心逐字文號比對。未對驗證碼做 OCR、未執行 submit。",
+  "summary": {
+    "已核實": 32,
+    "total": 32,
+    "items_with_proposed_changes": 3
+  },
+  "items": [
+    {
+      "product_id": "44243",
+      "name": "郵政簡易人壽微型傷害保險附約(第9次部分變更)",
+      "insurer": "中華郵政簡易壽險",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=220211RZ1A00221A11A10000009"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "220211RZ1A00221A11A10000009",
+          "name": "郵政簡易人壽微型傷害保險附約(第9次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "115/01/15",
+          "filing_no": "103年12月24日交通部核轉中華郵政公司103年12月23日壽字第1032202408號函備查,114年2月13日金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:57:03+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=220211RZ1A00221A11A10000009",
+          "match_tier": "site_link"
+        },
+        "cache_note": "即時頁未停售，與本站現售一致"
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=16c19fbb-b639-42b8-85f4-fb44e863cac9",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "02319",
+      "name": "遠雄人壽傳富勝達美元利率變動型終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "BU1",
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2026-02-26",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4B41123B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "216131MA4B41123B11Z10000000",
+          "name": "遠雄人壽傳富勝達美元利率變動型終身壽險",
+          "sale": "115/02/26",
+          "stop": "115/11/01",
+          "filing_date": "115/02/26",
+          "filing_no": "遠壽字第1150000043號函",
+          "at": "2026-11-26T13:57:03+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4B41123B11Z10000000",
+          "match_tier": "a"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=BU1&termsKind=C",
+        "fetched_at": "2026-11-26T13:58:06+08:00",
+        "quoted": {
+          "條款文號／日期條目": [
+            {
+              "date": "115/02/26",
+              "numbers": [
+                "1150000043"
+              ]
+            }
+          ]
+        }
+      },
+      "verification_status": "已核實",
+      "correction": true,
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2026-02-26",
+        "stop_date": "2026-11-01"
+      },
+      "changes": [
+        "stop_date"
+      ],
+      "date_basis": "本站停售狀態不變；停售日取自保發中心即時詳細頁（115/11/01），本站原停售日欄位為「未停售」占位值，屬資料矛盾。官網條款文號（1150000043）與保發中心該版本文號逐字相符，確認同一版本；官網頁面未另載停售日。",
+      "caveat": "狀態未更動，僅補正停售日"
+    },
+    {
+      "product_id": "02322",
+      "name": "遠雄人壽傳富康世美美元利率變動型終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "BG1",
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-01-13",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A38723B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "216131MA1A38723B11Z10000000",
+          "name": "遠雄人壽傳富康世美美元利率變動型終身壽險",
+          "sale": "114/01/13",
+          "stop": "115/11/01",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1140000011號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:57:04+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A38723B11Z10000000",
+          "match_tier": "a"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=BG1&termsKind=C",
+        "fetched_at": "2026-11-26T13:58:09+08:00",
+        "quoted": {
+          "條款文號／日期條目": [
+            {
+              "date": "114/01/13",
+              "numbers": [
+                "1140000011"
+              ]
+            }
+          ]
+        }
+      },
+      "verification_status": "已核實",
+      "correction": true,
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-01-13",
+        "stop_date": "2026-11-01"
+      },
+      "changes": [
+        "stop_date"
+      ],
+      "date_basis": "本站停售狀態不變；停售日取自保發中心即時詳細頁（115/11/01），本站原停售日欄位為「未停售」占位值，屬資料矛盾。官網條款文號（1140000011）與保發中心該版本文號逐字相符，確認同一版本；官網頁面未另載停售日。",
+      "caveat": "狀態未更動，僅補正停售日"
+    },
+    {
+      "product_id": "02389",
+      "name": "遠雄人壽美滿有go利利率變動型終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "WT1",
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-08-29",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A40323A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "216131MA1A40323A11Z10000000",
+          "name": "遠雄人壽美滿有go利利率變動型終身壽險",
+          "sale": "114/08/29",
+          "stop": "115/11/01",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1140021544號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:57:05+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A40323A11Z10000000",
+          "match_tier": "a"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=WT1&termsKind=C",
+        "fetched_at": "2026-11-26T13:58:12+08:00",
+        "quoted": {
+          "條款文號／日期條目": [
+            {
+              "date": "114/08/29",
+              "numbers": [
+                "1140021544"
+              ]
+            }
+          ]
+        }
+      },
+      "verification_status": "已核實",
+      "correction": true,
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-08-29",
+        "stop_date": "2026-11-01"
+      },
+      "changes": [
+        "stop_date"
+      ],
+      "date_basis": "本站停售狀態不變；停售日取自保發中心即時詳細頁（115/11/01），本站原停售日欄位為「未停售」占位值，屬資料矛盾。官網條款文號（1140021544）與保發中心該版本文號逐字相符，確認同一版本；官網頁面未另載停售日。",
+      "caveat": "狀態未更動，僅補正停售日"
+    },
+    {
+      "product_id": "39178",
+      "name": "元大人壽福氣美滿美元利率變動型終身壽險",
+      "insurer": "元大人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2026-06-24",
+        "stop_date": "2026-11-06",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=261131MA9BBM023B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "261131MA9BBM023B11Z10000000",
+          "name": "元大人壽福氣美滿美元利率變動型終身壽險",
+          "sale": "115/06/24",
+          "stop": "115/11/06",
+          "filing_date": "115/06/24",
+          "filing_no": "元壽字第1150003903號函備查",
+          "at": "2026-11-26T13:57:07+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=261131MA9BBM023B11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2026-06-24",
+        "stop_date": "2026-11-06"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40533",
+      "name": "全球人壽美利樂沛利率變動型美元還本終身保險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2024-11-25",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264121MA1AFMP23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264121MA1AFMP23B11Z10000000",
+          "name": "全球人壽美利樂沛利率變動型美元還本終身保險(定額給付型)",
+          "sale": "113/11/25",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1131125001號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:08+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264121MA1AFMP23B11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1734488215278/FMP.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2024-11-25",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40534",
+      "name": "全球人壽豪享樂退利率變動型終身壽險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2024-11-25",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AQMS23A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA1AQMS23A11Z10000000",
+          "name": "全球人壽豪享樂退利率變動型終身壽險(定額給付型)",
+          "sale": "113/11/25",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1131125002號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:10+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AQMS23A11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1734662311657/QMS.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2024-11-25",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40538",
+      "name": "全球人壽鑫滿富足利率變動型增額終身壽險(定額給付型)(第二次部分變更)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-01-01",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AQHD23A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA1AQHD23A11Z10000002",
+          "name": "全球人壽鑫滿富足利率變動型增額終身壽險(定額給付型)(第二次部分變更)",
+          "sale": "114/01/01",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1121030015號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:11+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AQHD23A11Z10000002",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1698909869827/QHD.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-01-01",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40550",
+      "name": "全球人壽豪旺世代利率變動型美元終身壽險(定額給付型)(第一次部分變更)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-01-01",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AFMW23B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA1AFMW23B11Z10000001",
+          "name": "全球人壽豪旺世代利率變動型美元終身壽險(定額給付型)(第一次部分變更)",
+          "sale": "114/01/01",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1130513002號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:12+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AFMW23B11Z10000001",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1717382718047/FMW.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-01-01",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40555",
+      "name": "全球人壽豪利旺利率變動型美元終身壽險(定額給付型)(第一次部分變更)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-01-01",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AFNW23B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA1AFNW23B11Z10000001",
+          "name": "全球人壽豪利旺利率變動型美元終身壽險(定額給付型)(第一次部分變更)",
+          "sale": "114/01/01",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1130819001號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:14+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AFNW23B11Z10000001",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1725869743194/FNW.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-01-01",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40559",
+      "name": "全球人壽豪威六六利率變動型終身壽險(定額給付型)(第一次部分變更)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-01-01",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BQBW23A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA4BQBW23A11Z10000001",
+          "name": "全球人壽豪威六六利率變動型終身壽險(定額給付型)(第一次部分變更)",
+          "sale": "114/01/01",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1130226002號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:15+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BQBW23A11Z10000001",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1710148401186/QBW.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-01-01",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40569",
+      "name": "全球人壽88鑫傳承利率變動型終身壽險(定額給付型)(第一次部分變更)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-01-01",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA9BQDW23A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA9BQDW23A11Z10000001",
+          "name": "全球人壽88鑫傳承利率變動型終身壽險(定額給付型)(第一次部分變更)",
+          "sale": "114/01/01",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1121218001號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:17+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA9BQDW23A11Z10000001",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1704953436650/QDW.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-01-01",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40572",
+      "name": "全球人壽88美傳承利率變動型美元終身壽險(定額給付型)(第二次部分變更)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-01-01",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA9BFDW23B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA9BFDW23B11Z10000002",
+          "name": "全球人壽88美傳承利率變動型美元終身壽險(定額給付型)(第二次部分變更)",
+          "sale": "114/01/01",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1120522004號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:18+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA9BFDW23B11Z10000002",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1686711654170/FDW.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-01-01",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40575",
+      "name": "全球人壽88鑫傳富利率變動型終身壽險(定額給付型)(第二次部分變更)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-01-01",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BQTW23A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA4BQTW23A11Z10000002",
+          "name": "全球人壽88鑫傳富利率變動型終身壽險(定額給付型)(第二次部分變更)",
+          "sale": "114/01/01",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1110822001號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:20+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BQTW23A11Z10000002",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1663568986632/QTW.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-01-01",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40579",
+      "name": "全球人壽年年有利利率變動型還本終身保險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-01-22",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264121MA1AQJP23A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264121MA1AQJP23A11Z10000000",
+          "name": "全球人壽年年有利利率變動型還本終身保險(定額給付型)",
+          "sale": "114/01/22",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1140122001號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:21+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264121MA1AQJP23A11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1739868020582/QJP.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-01-22",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40582",
+      "name": "全球人壽美富88利率變動型美元終身壽險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-03-31",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BFYW23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA4BFYW23B11Z10000000",
+          "name": "全球人壽美富88利率變動型美元終身壽險(定額給付型)",
+          "sale": "114/03/31",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1140331003號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:23+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BFYW23B11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1745313156596/FYW.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-03-31",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40585",
+      "name": "全球人壽豪鑫368利率變動型終身壽險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-04-21",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BQVW23A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA4BQVW23A11Z10000000",
+          "name": "全球人壽豪鑫368利率變動型終身壽險(定額給付型)",
+          "sale": "114/04/21",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1140421010號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:24+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BQVW23A11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1747221962992/QVW.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-04-21",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40586",
+      "name": "全球人壽豪美368利率變動型美元終身壽險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-04-21",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BFVW23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA4BFVW23B11Z10000000",
+          "name": "全球人壽豪美368利率變動型美元終身壽險(定額給付型)",
+          "sale": "114/04/21",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1140421009號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:25+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BFVW23B11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1747041340908/FVW.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-04-21",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40587",
+      "name": "全球人壽飛翔讚利率變動型終身壽險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-06-09",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AQGD23A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA1AQGD23A11Z10000000",
+          "name": "全球人壽飛翔讚利率變動型終身壽險(定額給付型)",
+          "sale": "114/06/09",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1140609001號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:27+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AQGD23A11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1749800365582/QGD.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-06-09",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40588",
+      "name": "全球人壽美滿樂退利率變動型美元終身壽險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-06-23",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AFMS23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA1AFMS23B11Z10000000",
+          "name": "全球人壽美滿樂退利率變動型美元終身壽險(定額給付型)",
+          "sale": "114/06/23",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1140623008號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:28+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AFMS23B11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1752484894072/FMS.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-06-23",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40589",
+      "name": "全球人壽美旺智富利率變動型美元終身壽險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-07-14",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AFUW23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA1AFUW23B11Z10000000",
+          "name": "全球人壽美旺智富利率變動型美元終身壽險(定額給付型)",
+          "sale": "114/07/14",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1140714002號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:30+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AFUW23B11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1754449330996/FUW.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-07-14",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40590",
+      "name": "全球人壽美鑫恆盈利率變動型美元終身壽險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-07-14",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AFJD23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA1AFJD23B11Z10000000",
+          "name": "全球人壽美鑫恆盈利率變動型美元終身壽險(定額給付型)",
+          "sale": "114/07/14",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1140714001號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:31+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AFJD23B11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1754537300240/FJD.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-07-14",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40591",
+      "name": "全球人壽幸福玉守利率變動型美元終身壽險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-08-11",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA9BFXW23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA9BFXW23B11Z10000000",
+          "name": "全球人壽幸福玉守利率變動型美元終身壽險(定額給付型)",
+          "sale": "114/08/11",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1140811002號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:33+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA9BFXW23B11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1756805683586/FXW.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-08-11",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40593",
+      "name": "全球人壽神力盈多福利率變動型終身壽險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2025-09-15",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BQWW23A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA4BQWW23A11Z10000000",
+          "name": "全球人壽神力盈多福利率變動型終身壽險(定額給付型)",
+          "sale": "114/09/15",
+          "stop": "115/10/14",
+          "filing_date": "114/02/13",
+          "filing_no": "全球壽(商研)字第1140915002號函備查,依114.2.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T13:57:34+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BQWW23A11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1758505714986/QWW.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-09-15",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40603",
+      "name": "全球人壽神力美添旺利率變動型美元終身壽險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2026-02-02",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BF5W23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA4BF5W23B11Z10000000",
+          "name": "全球人壽神力美添旺利率變動型美元終身壽險(定額給付型)",
+          "sale": "115/02/02",
+          "stop": "115/10/14",
+          "filing_date": "115/02/02",
+          "filing_no": "全球壽(商研)字第1150202016號函備查",
+          "at": "2026-11-26T13:57:36+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BF5W23B11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1770628862123/F5W.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2026-02-02",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40604",
+      "name": "全球人壽尊榮37利率變動型美元終身壽險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2026-02-02",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA9BF3W23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA9BF3W23B11Z10000000",
+          "name": "全球人壽尊榮37利率變動型美元終身壽險(定額給付型)",
+          "sale": "115/02/02",
+          "stop": "115/10/14",
+          "filing_date": "115/02/02",
+          "filing_no": "全球壽(商研)字第1150202015號函備查",
+          "at": "2026-11-26T13:57:37+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA9BF3W23B11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1771834812558/F3W.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2026-02-02",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40605",
+      "name": "全球人壽金美好富貴利率變動型美元終身壽險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2026-03-30",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BF7W23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA4BF7W23B11Z10000000",
+          "name": "全球人壽金美好富貴利率變動型美元終身壽險(定額給付型)",
+          "sale": "115/03/30",
+          "stop": "115/10/14",
+          "filing_date": "115/03/30",
+          "filing_no": "全球壽(商研)字第1150330003號函備查",
+          "at": "2026-11-26T13:57:38+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BF7W23B11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1776235374900/F7W.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2026-03-30",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40607",
+      "name": "全球人壽美滿智富利率變動型美元終身壽險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2026-03-30",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AF6W23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA1AF6W23B11Z10000000",
+          "name": "全球人壽美滿智富利率變動型美元終身壽險(定額給付型)",
+          "sale": "115/03/30",
+          "stop": "115/10/14",
+          "filing_date": "115/03/30",
+          "filing_no": "全球壽(商研)字第1150330001號函備查",
+          "at": "2026-11-26T13:57:40+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AF6W23B11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1776135061045/F6W.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2026-03-30",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40609",
+      "name": "全球人壽鑫億68利率變動型美元終身壽險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2026-04-13",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BF8W23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA4BF8W23B11Z10000000",
+          "name": "全球人壽鑫億68利率變動型美元終身壽險(定額給付型)",
+          "sale": "115/04/13",
+          "stop": "115/10/14",
+          "filing_date": "115/04/13",
+          "filing_no": "全球壽(商研)字第1150413001號函備查",
+          "at": "2026-11-26T13:57:41+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA4BF8W23B11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1776911269415/F8W.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2026-04-13",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40610",
+      "name": "全球人壽溢美至富利率變動型美元還本終身保險(定額給付型)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2026-04-27",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264121MA9BFKP23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264121MA9BFKP23B11Z10000000",
+          "name": "全球人壽溢美至富利率變動型美元還本終身保險(定額給付型)",
+          "sale": "115/04/27",
+          "stop": "115/10/14",
+          "filing_date": "115/04/27",
+          "filing_no": "全球壽(商研)字第1150427011號函備查",
+          "at": "2026-11-26T13:57:43+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264121MA9BFKP23B11Z10000000",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1778571188267/FKP.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2026-04-27",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40620",
+      "name": "全球人壽美利長盈利率變動型美元終身壽險(定額給付型)(第一次部分變更)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2026-06-29",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AF2W23B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA1AF2W23B11Z10000001",
+          "name": "全球人壽美利長盈利率變動型美元終身壽險(定額給付型)(第一次部分變更)",
+          "sale": "115/06/29",
+          "stop": "115/10/14",
+          "filing_date": "115/06/29",
+          "filing_no": "全球壽(商研)字第1141124001號函備查,全球壽(商研)字第1150629001號函備查",
+          "at": "2026-11-26T13:57:44+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AF2W23B11Z10000001",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1764558605490/F2W.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2026-06-29",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    },
+    {
+      "product_id": "40621",
+      "name": "全球人壽豪美樂利利率變動型美元終身壽險(定額給付型)(第一次部分變更)",
+      "insurer": "全球人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": "2026-06-29",
+        "stop_date": "2026-10-14",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AFKD23B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核（反向：本站停售、快取顯示未停售）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 13:57 起之驗證碼工作階段，GET DetailList.aspx）",
+        "matched_version": {
+          "pid": "264131MA1AFKD23B11Z10000001",
+          "name": "全球人壽豪美樂利利率變動型美元終身壽險(定額給付型)(第一次部分變更)",
+          "sale": "115/06/29",
+          "stop": "115/10/14",
+          "filing_date": "115/06/29",
+          "filing_no": "全球壽(商研)字第1141124002號函備查,全球壽(商研)字第1150629002號函備查",
+          "at": "2026-11-26T13:57:46+08:00",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=264131MA1AFKD23B11Z10000001",
+          "match_tier": "site_link"
+        },
+        "cache_note": "2026-11-08 快取顯示未停售；即時頁已顯示停售，故本站停售狀態與即時保發中心一致（快取過期，非衝突）"
+      },
+      "company": {
+        "terms_url": "https://www.transglobe.com.tw/transglobe_resource/leap_do/gallery/PD/1765172978045/FKD.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2026-06-29",
+        "stop_date": "2026-10-14"
+      },
+      "date_basis": "保發中心即時詳細頁之銷售日／停售日與本站一致"
+    }
+  ]
+}
