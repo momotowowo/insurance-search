@@ -280,7 +280,7 @@
     },
     "note": "scope 1 (1,121): live-verified+applied 358+155+127+23 = 663; the remainder are handed to GPT (pending). scope 2 (recheck) and scope 3 (rider links) not started."
   },
-  "updated_at": "2026-11-26T13:04:45+08:00",
+  "updated_at": "2026-11-26T13:33:58+08:00",
   "live_tii_queue": {
     "note": "已移交 GPT（pending）之項目中，即時保發中心查詢（需使用者判讀驗證碼）可能解決者；Grok 要處理須先與 GPT 記錄",
     "counts": {
@@ -3980,5 +3980,96 @@
       "02536"
     ],
     "release": "sales-20261126-grok4"
+  },
+  "scope2": {
+    "session_expired_at": "2026-11-26 during pid 322/366 (TII session expired)",
+    "candidates_found": 176,
+    "priority_checked": 144,
+    "batches": {
+      "25": {
+        "items": 53,
+        "verified_corrections": 46,
+        "handed_off": 7,
+        "commit": "b8db3b2",
+        "live_commit": "e7c608d"
+      },
+      "26": {
+        "items": 18,
+        "status_conflicts": 18,
+        "commit": "18ea150"
+      },
+      "27": {
+        "items": 60,
+        "consistent": 60,
+        "commit": "1e31ac9"
+      },
+      "28": {
+        "items": 13,
+        "consistent": 13,
+        "commit": "9b38801"
+      }
+    },
+    "status_conflicts_found": 18,
+    "status_changes_made": 0,
+    "integration": {
+      "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+      "pages_build": "built",
+      "live_verified_at": "2026-11-26T13:33:58+08:00",
+      "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5",
+      "applied_ids": [
+        "00888",
+        "00893",
+        "00906",
+        "00907",
+        "01212",
+        "02646",
+        "02648",
+        "02653",
+        "02657",
+        "02660",
+        "02681",
+        "02682",
+        "02683",
+        "02685",
+        "02686",
+        "02688",
+        "02689",
+        "02690",
+        "02697",
+        "02698",
+        "02699",
+        "02700",
+        "02702",
+        "02704",
+        "02705",
+        "02706",
+        "02707",
+        "02708",
+        "02709",
+        "02711",
+        "02712",
+        "02713",
+        "02716",
+        "02739",
+        "02740",
+        "02745",
+        "02747",
+        "02752",
+        "02754",
+        "02756",
+        "02759",
+        "02770",
+        "02772",
+        "02780",
+        "02781",
+        "02782"
+      ],
+      "release": "sales-20261126-grok5"
+    },
+    "remaining": {
+      "reverse_site_stopped_tii_open": 31,
+      "site_現售_pid_not_in_cache_unfetched": 1,
+      "note": "need new TII captcha session"
+    }
   }
 }

@@ -8,14 +8,15 @@
     "ids": 53
   },
   "gpt_claimed_ids_excluded": true,
-  "integration_status": "待整合",
+  "integration_status": "已核實項目已上線（待核對項目已移交 GPT，仍為 pending）",
   "product_data_changed": false,
   "method": "範圍2覆核：以本站現售商品所連結之保發中心版本為起點，於 2026-11-26 保發中心驗證碼工作階段 GET 即時詳細頁及同系列所有版本；與官網條款（遠雄／台灣／安聯 PDF）之文號與日期交叉比對。未經保發中心與官網雙重明文證據，不更改狀態；衝突移交 GPT。未對驗證碼做 OCR、未執行 submit。",
   "summary": {
     "已核實": 46,
     "待核對": 7,
     "total": 53,
-    "items_with_proposed_changes": 46
+    "items_with_proposed_changes": 46,
+    "live_applied": 46
   },
   "items": [
     {
@@ -29,7 +30,7 @@
         "stop_date": "未銷售",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202421MU1A72A13B11Z90000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -114,7 +115,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（台灣人壽保富人生外幣變額年金保險，銷售日 未銷售／停售日 未銷售）並非該系列現行版本；該系列保發中心即時頁僅「幣變額年金保險(第1次部分變更)」未停售且為最新版本，銷售日 114/09/08。官網條款最新日期等於該版本銷售日且含該版本文號，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "00893",
@@ -127,7 +134,7 @@
         "stop_date": "未銷售",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202421MU1A60B13A11Z90000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -212,7 +219,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（台灣人壽富盈人生變額年金保險，銷售日 未銷售／停售日 未銷售）並非該系列現行版本；該系列保發中心即時頁僅「生變額年金保險(第1次部分變更)」未停售且為最新版本，銷售日 115/09/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "00906",
@@ -225,7 +238,7 @@
         "stop_date": "未停售",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202421MU1A21A13B11C90000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -324,7 +337,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（台灣人壽臻鑽年年外幣變額年金保險，銷售日 未銷售／停售日 未停售）並非該系列現行版本；該系列保發中心即時頁僅「幣變額年金保險(第2次部分變更)」未停售且為最新版本，銷售日 113/12/13。官網條款最新日期等於該版本銷售日且含該版本文號，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "00907",
@@ -337,7 +356,7 @@
         "stop_date": "未停售",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202421MU1A20A13A11C90000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -436,7 +455,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（台灣人壽臻鑽年年變額年金保險，銷售日 未銷售／停售日 未停售）並非該系列現行版本；該系列保發中心即時頁僅「年變額年金保險(第2次部分變更)」未停售且為最新版本，銷售日 113/12/13。官網條款最新日期等於該版本銷售日且含該版本文號，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "01212",
@@ -449,7 +474,7 @@
         "stop_date": "2022-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218391MZ9B01022A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -578,7 +603,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（安聯人壽寶滿滿重大傷病健康保險，銷售日 111/10/01／停售日 111/12/31）並非該系列現行版本；該系列保發中心即時頁僅「大傷病健康保險(第3次部分變更)」未停售且為最新版本，銷售日 114/01/01。官網條款最新日期等於該版本銷售日且含該版本文號，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02646",
@@ -591,7 +622,7 @@
         "stop_date": "2007-08-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216321R12B02400"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -780,7 +811,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽一年定期癌症健康保險附約，銷售日 092/09/15／停售日 096/08/31）並非該系列現行版本；該系列保發中心即時頁僅「健康保險附約(第12次部分變更)」未停售且為最新版本，銷售日 113/10/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02648",
@@ -793,7 +830,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216391RZ1A29921A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -892,7 +929,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（安康重大傷病一年定期健康保險附約，銷售日 110/12/03／停售日 111/12/01）並非該系列現行版本；該系列保發中心即時頁僅「期健康保險附約(第3次部分變更)」未停售且為最新版本，銷售日 113/10/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02653",
@@ -905,7 +948,7 @@
         "stop_date": "2025-10-02",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216311MZ1B39323A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -989,7 +1032,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽實足守護醫療終身保險，銷售日 114/06/30／停售日 114/10/02）並非該系列現行版本；該系列保發中心即時頁僅「護醫療終身保險(第1次部分變更)」未停售且為最新版本，銷售日 114/10/03。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02657",
@@ -1002,7 +1051,7 @@
         "stop_date": "2024-06-30",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216321RZ1A35321A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -1101,7 +1150,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（壽愛吉時一年定期癌症健康保險附約，銷售日 112/10/13／停售日 113/06/30）並非該系列現行版本；該系列保發中心即時頁僅「症健康保險附約(第2次部分變更)」未停售且為最新版本，銷售日 113/10/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02660",
@@ -1114,7 +1169,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216321MZ2B30722A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -1240,7 +1295,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽愛無價85防癌健康保險，銷售日 110/12/30／停售日 111/12/01）並非該系列現行版本；該系列保發中心即時頁僅「5防癌健康保險(第5次部分變更)」未停售且為最新版本，銷售日 114/01/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02681",
@@ -1253,7 +1314,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216321RZ1A29022A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -1352,7 +1413,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（鬆愛生活癌症醫療定期健康保險附約，銷售日 110/04/20／停售日 111/12/01）並非該系列現行版本；該系列保發中心即時頁僅「期健康保險附約(第2次部分變更)」未停售且為最新版本，銷售日 113/07/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02682",
@@ -1365,7 +1432,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216361RZ1A28822A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -1455,7 +1522,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（鬆超享福長期照顧定期健康保險附約，銷售日 110/04/20／停售日 111/12/01）並非該系列現行版本；該系列保發中心即時頁僅「期健康保險附約(第2次部分變更)」未停售且為最新版本，銷售日 113/07/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02683",
@@ -1468,7 +1541,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216311MZ1A28722A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -1558,7 +1631,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽輕鬆醫起來定期健康保險，銷售日 110/04/20／停售日 111/12/01）並非該系列現行版本；該系列保發中心即時頁僅「來定期健康保險(第1次部分變更)」未停售且為最新版本，銷售日 111/12/02。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02685",
@@ -1571,7 +1650,7 @@
         "stop_date": "2024-06-30",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216341RZ1A35721A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -1661,7 +1740,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽金大吉豁免保險費附約，銷售日 112/12/01／停售日 113/06/30）並非該系列現行版本；該系列保發中心即時頁僅「豁免保險費附約(第2次部分變更)」未停售且為最新版本，銷售日 113/10/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02686",
@@ -1674,7 +1759,7 @@
         "stop_date": "2014-04-30",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216341R11A13600"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -1827,7 +1912,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽金好心豁免保險費附約，銷售日 102/05/13／停售日 103/04/30）並非該系列現行版本；該系列保發中心即時頁僅「豁免保險費附約(第8次部分變更)」未停售且為最新版本，銷售日 113/10/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02688",
@@ -1840,7 +1931,7 @@
         "stop_date": "2019-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216341RZ1A24122B11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -1966,7 +2057,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽金放心美元豁免保險費附約，銷售日 107/08/15／停售日 108/12/31）並非該系列現行版本；該系列保發中心即時頁僅「豁免保險費附約(第6次部分變更)」未停售且為最新版本，銷售日 113/10/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02689",
@@ -1979,7 +2076,7 @@
         "stop_date": "2018-09-13",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216341RZ1A22722A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -2105,7 +2202,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽金貼心豁免保險費附約，銷售日 106/11/01／停售日 107/09/13）並非該系列現行版本；該系列保發中心即時頁僅「豁免保險費附約(第6次部分變更)」未停售且為最新版本，銷售日 113/10/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02690",
@@ -2118,7 +2221,7 @@
         "stop_date": "2024-06-30",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216351MZ9B36922A11E10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -2217,7 +2320,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（雄人壽雄有溢85精選傷病定期保險，銷售日 113/04/16／停售日 113/06/30）並非該系列現行版本；該系列保發中心即時頁僅「選傷病定期保險(第3次部分變更)」未停售且為最新版本，銷售日 114/01/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02697",
@@ -2230,7 +2339,7 @@
         "stop_date": "2018-09-13",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216291RZ1A23521A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -2338,7 +2447,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽完美人生傷害保險附約，銷售日 107/02/09／停售日 107/09/13）並非該系列現行版本；該系列保發中心即時頁僅「生傷害保險附約(第5次部分變更)」未停售且為最新版本，銷售日 111/12/02。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02698",
@@ -2351,7 +2466,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211MZ3D31721A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -2450,7 +2565,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽寶貝偉骨力傷害失能保險，銷售日 111/06/30／停售日 111/12/01）並非該系列現行版本；該系列保發中心即時頁僅「力傷害失能保險(第3次部分變更)」未停售且為最新版本，銷售日 113/10/01。官網條款最新日期等於該版本銷售日且含該版本文號，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02699",
@@ -2463,7 +2584,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ3D30921A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -2571,7 +2692,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（雄人壽寶貝金人生傷害失能保險附約，銷售日 111/01/07／停售日 111/12/01）並非該系列現行版本；該系列保發中心即時頁僅「害失能保險附約(第5次部分變更)」未停售且為最新版本，銷售日 113/10/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02700",
@@ -2584,7 +2711,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ1A32721A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -2701,7 +2828,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽平安傷害保險附約，銷售日 111/08/12／停售日 111/12/01）並非該系列現行版本；該系列保發中心即時頁僅「安傷害保險附約(第4次部分變更)」未停售且為最新版本，銷售日 113/10/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02701",
@@ -2836,7 +2969,7 @@
         "stop_date": "2018-09-13",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216213MZ1A67021A11A10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -2944,7 +3077,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽微型團體傷害保險，銷售日 105/07/01／停售日 107/09/13）並非該系列現行版本；該系列保發中心即時頁僅「型團體傷害保險(第4次部分變更)」未停售且為最新版本，銷售日 115/01/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02704",
@@ -2957,7 +3096,7 @@
         "stop_date": "2024-06-30",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ1A35422A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -3056,7 +3195,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（人壽意醫非凡傷害醫療定期保險附約，銷售日 112/10/27／停售日 113/06/30）並非該系列現行版本；該系列保發中心即時頁僅「療定期保險附約(第2次部分變更)」未停售且為最新版本，銷售日 113/10/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02705",
@@ -3069,7 +3214,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ1A30021A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -3177,7 +3322,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽新傷害保險附約，銷售日 110/12/01／停售日 111/12/01）並非該系列現行版本；該系列保發中心即時頁僅「新傷害保險附約(第4次部分變更)」未停售且為最新版本，銷售日 113/10/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02706",
@@ -3190,7 +3341,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211MZ1A32923A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -3298,7 +3449,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽新意大力終身傷害保險，銷售日 111/09/21／停售日 111/12/01）並非該系列現行版本；該系列保發中心即時頁僅「力終身傷害保險(第3次部分變更)」未停售且為最新版本，銷售日 113/10/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02707",
@@ -3311,7 +3468,7 @@
         "stop_date": "2024-09-30",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ1A37521A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -3401,7 +3558,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽真實在傷害醫療保險附約，銷售日 113/07/01／停售日 113/09/30）並非該系列現行版本；該系列保發中心即時頁僅「害醫療保險附約(第1次部分變更)」未停售且為最新版本，銷售日 113/10/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02708",
@@ -3414,7 +3577,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211MZ3D31621A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -3522,7 +3685,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽超級偉骨力傷害保險，銷售日 111/06/30／停售日 111/12/01）並非該系列現行版本；該系列保發中心即時頁僅「偉骨力傷害保險(第3次部分變更)」未停售且為最新版本，銷售日 113/10/01。官網條款最新日期等於該版本銷售日且含該版本文號，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02709",
@@ -3535,7 +3704,7 @@
         "stop_date": "2015-08-03",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211M11A13100"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -3652,7 +3821,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽超級新人生傷害保險，銷售日 101/10/11／停售日 104/08/03）並非該系列現行版本；該系列保發中心即時頁僅「新人生傷害保險(第5次部分變更)」未停售且為最新版本，銷售日 111/12/02。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02711",
@@ -3665,7 +3840,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ3D30821A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -3791,7 +3966,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽超級金人生傷害保險附約，銷售日 111/01/07／停售日 111/12/01）並非該系列現行版本；該系列保發中心即時頁僅「生傷害保險附約(第5次部分變更)」未停售且為最新版本，銷售日 113/10/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02712",
@@ -3804,7 +3985,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ1A28922A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -3894,7 +4075,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（雄人壽輕鬆好得意定期傷害保險附約，銷售日 110/04/20／停售日 111/12/01）並非該系列現行版本；該系列保發中心即時頁僅「期傷害保險附約(第2次部分變更)」未停售且為最新版本，銷售日 113/07/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02713",
@@ -3907,7 +4094,7 @@
         "stop_date": "2007-08-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211R11A06600"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -4060,7 +4247,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（壽雄安康醫療日額給付傷害保險附約，銷售日 096/07/02／停售日 096/08/31）並非該系列現行版本；該系列保發中心即時頁僅「傷害保險附約(第10次部份變更)」未停售且為最新版本，銷售日 113/10/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02716",
@@ -4073,7 +4266,7 @@
         "stop_date": "2024-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA2A36223A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -4157,7 +4350,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（人壽傳富倍多紛利率變動型終身壽險，銷售日 113/01/19／停售日 113/12/31）並非該系列現行版本；該系列保發中心即時頁僅「變動型終身壽險(第1次部分變更)」未停售且為最新版本，銷售日 114/01/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02739",
@@ -4170,7 +4369,7 @@
         "stop_date": "2024-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A35923A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -4260,7 +4459,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（人壽傳富雄給利利率變動型終身壽險，銷售日 113/01/01／停售日 113/12/31）並非該系列現行版本；該系列保發中心即時頁僅「變動型終身壽險(第1次部分變更)」未停售且為最新版本，銷售日 114/01/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02740",
@@ -4273,7 +4478,7 @@
         "stop_date": "2024-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A35823B11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -4363,7 +4568,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（傳富雄美利美元利率變動型終身壽險，銷售日 113/01/01／停售日 113/12/31）並非該系列現行版本；該系列保發中心即時頁僅「變動型終身壽險(第1次部分變更)」未停售且為最新版本，銷售日 114/01/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02745",
@@ -4376,7 +4587,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MZ2A27223A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -4470,7 +4681,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽新美滿致富增額終身壽險，銷售日 109/06/22／停售日 111/12/01）並非該系列現行版本；該系列保發中心即時頁僅「富增額終身壽險(第2次部分變更)」未停售且為最新版本，銷售日 114/01/01。官網條款最新日期等於該版本銷售日且含該版本文號，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02747",
@@ -4483,7 +4700,7 @@
         "stop_date": "2024-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A38223B11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -4573,7 +4790,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（美利讚美元利率變動型增額終身壽險，銷售日 113/10/30／停售日 113/12/31）並非該系列現行版本；該系列保發中心即時頁僅「型增額終身壽險(第1次部分變更)」未停售且為最新版本，銷售日 114/01/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02752",
@@ -4586,7 +4809,7 @@
         "stop_date": "2024-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A35123A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -4676,7 +4899,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（美滿金享優利率變動型增額終身壽險，銷售日 112/09/22／停售日 113/12/31）並非該系列現行版本；該系列保發中心即時頁僅「型增額終身壽險(第1次部分變更)」未停售且為最新版本，銷售日 114/01/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02754",
@@ -4689,7 +4918,7 @@
         "stop_date": "2024-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A37323A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -4779,7 +5008,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（美滿金優利利率變動型增額終身壽險，銷售日 113/06/21／停售日 113/12/31）並非該系列現行版本；該系列保發中心即時頁僅「型增額終身壽險(第1次部分變更)」未停售且為最新版本，銷售日 114/01/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02756",
@@ -4792,7 +5027,7 @@
         "stop_date": "2024-09-30",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4G36323A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -4891,7 +5126,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（美滿金永樂利率變動型增額終身壽險，銷售日 113/01/26／停售日 113/09/30）並非該系列現行版本；該系列保發中心即時頁僅「型增額終身壽險(第2次部分變更)」未停售且為最新版本，銷售日 114/01/01。官網條款最新日期等於該版本銷售日且含該版本文號，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02759",
@@ -4904,7 +5145,7 @@
         "stop_date": "2024-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A36523B11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -4994,7 +5235,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（雄樂福美元利率變動型增額終身壽險，銷售日 113/03/29／停售日 113/12/31）並非該系列現行版本；該系列保發中心即時頁僅「型增額終身壽險(第1次部分變更)」未停售且為最新版本，銷售日 114/01/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02770",
@@ -5007,7 +5254,7 @@
         "stop_date": "2018-04-24",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216421MA1A19323A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -5097,7 +5344,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（IGH利率變動型年金保險(甲型)，銷售日 104/10/05／停售日 107/04/24）並非該系列現行版本；該系列保發中心即時頁僅「金保險(甲型)(第2次部分變更)」未停售且為最新版本，銷售日 109/07/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02772",
@@ -5110,7 +5363,7 @@
         "stop_date": "2023-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MV1A35623A11Z90000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -5218,7 +5471,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（遠雄人壽66大吉變額萬能壽險，銷售日 112/12/01／停售日 112/12/31）並非該系列現行版本；該系列保發中心即時頁僅「吉變額萬能壽險(第4次部分變更)」未停售且為最新版本，銷售日 115/01/01。官網條款最新日期等於該版本銷售日且含該版本文號，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02780",
@@ -5231,7 +5490,7 @@
         "stop_date": "2024-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216121MA2A38123A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -5321,7 +5580,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（富貴喜多利利率變動型終身還本保險，銷售日 113/10/30／停售日 113/12/31）並非該系列現行版本；該系列保發中心即時頁僅「型終身還本保險(第1次部分變更)」未停售且為最新版本，銷售日 114/01/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02781",
@@ -5334,7 +5599,7 @@
         "stop_date": "2024-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216121MA2A36123A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -5418,7 +5683,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（富貴喜相逢利率變動型終身還本保險，銷售日 113/01/12／停售日 113/12/31）並非該系列現行版本；該系列保發中心即時頁僅「型終身還本保險(第1次部分變更)」未停售且為最新版本，銷售日 114/01/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "02782",
@@ -5431,7 +5702,7 @@
         "stop_date": "2024-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216121MA1A36423B11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍2：銷售日／停售日／狀態覆核",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
@@ -5521,7 +5792,13 @@
         "tii_url"
       ],
       "date_basis": "本站連結之保發中心版本（鑽美利美元利率變動型終身還本保險，銷售日 113/03/29／停售日 113/12/31）並非該系列現行版本；該系列保發中心即時頁僅「型終身還本保險(第1次部分變更)」未停售且為最新版本，銷售日 114/01/01。官網條款最新文號與該版本文號逐字相符，確認為現行版本。狀態仍為現售，僅更正販售日／停售日／保發中心連結。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得；整合時以「本站目前值＝本審核記錄之 current_site」為前提，否則略過",
+      "integration": {
+        "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T13:33:58+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+      }
     },
     {
       "product_id": "21847",
@@ -6153,5 +6430,12 @@
       "proposed": null,
       "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-date-recheck-relink-batch25-2026-11-26.json）"
     }
-  ]
+  ],
+  "integrated": {
+    "count": 46,
+    "commit": "e7c608d341cc2e00f7743711c518d796a68f1554",
+    "pages_build": "built",
+    "live_verified_at": "2026-11-26T13:33:58+08:00",
+    "live_verification": "線上 product_updates.js（release=sales-20261126-grok5）46 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok5"
+  }
 }
