@@ -1,0 +1,3066 @@
+{
+  "batch_id": "grok-scope2-onsale-live-refresh-batch85-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T17:25:16+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": {
+    "description": "範圍2：現售品項以即時保發中心詳細頁覆核",
+    "ids": 60
+  },
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": "以 2026-11-26 即時保發中心詳細頁核對本站連結版本之銷售日、停售日與狀態；一致者為一致性複核，不一致且無官網明文者移交 GPT，不改狀態。未對驗證碼做 OCR、未執行 submit。",
+  "summary": {
+    "狀態衝突": 8,
+    "已核實": 52,
+    "total": 60,
+    "items_with_proposed_changes": 0
+  },
+  "items": [
+    {
+      "product_id": "21641",
+      "name": "富邦人壽真豐利變額年金保險(第4次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-02-05",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A04123A11Z90000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209421MV1A04123A11Z90000004",
+          "name": "富邦人壽真豐利變額年金保險(第4次部分變更)",
+          "sale": "114/02/05",
+          "stop": "115/10/11",
+          "filing_date": "114/02/13",
+          "filing_no": "富壽商精字第1120001724號函備查,金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T17:17:36+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209421MV1A04123A11Z90000004",
+            "name": "富邦人壽真豐利變額年金保險(第4次部分變更)",
+            "sale": "114/02/05",
+            "stop": "115/10/11",
+            "filing_date": "114/02/13",
+            "filing_no": "富壽商精字第1120001724號函備查,金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T17:17:36+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/13294/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E7%9C%9F%E8%B1%90%E5%88%A9%E8%AE%8A%E9%A1%8D%E5%B9%B4%E9%87%91%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": {
+          "官網": "未取得官網明文（官網條款頁僅有備查文號，或本項尚未逐一查官網）"
+        },
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，銷售日「2025-02-05」；保發中心即時詳細頁銷售日「114/02/05」、停售日「115/10/11」。無官網明文可證明現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-onsale-live-refresh-batch85-2026-11-26.json）"
+    },
+    {
+      "product_id": "21652",
+      "name": "富邦人壽真吉利變額年金保險(第5次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-03-31",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A04023A11Z90000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209421MV1A04023A11Z90000005",
+          "name": "富邦人壽真吉利變額年金保險(第5次部分變更)",
+          "sale": "114/03/31",
+          "stop": "115/10/11",
+          "filing_date": "114/02/13",
+          "filing_no": "富壽商精字第1120001946號函備查,金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T17:16:34+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209421MV1A04023A11Z90000005",
+            "name": "富邦人壽真吉利變額年金保險(第5次部分變更)",
+            "sale": "114/03/31",
+            "stop": "115/10/11",
+            "filing_date": "114/02/13",
+            "filing_no": "富壽商精字第1120001946號函備查,金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T17:16:34+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/13293/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E7%9C%9F%E5%90%89%E5%88%A9%E8%AE%8A%E9%A1%8D%E5%B9%B4%E9%87%91%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": {
+          "官網": "未取得官網明文（官網條款頁僅有備查文號，或本項尚未逐一查官網）"
+        },
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，銷售日「2025-03-31」；保發中心即時詳細頁銷售日「114/03/31」、停售日「115/10/11」。無官網明文可證明現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-onsale-live-refresh-batch85-2026-11-26.json）"
+    },
+    {
+      "product_id": "21657",
+      "name": "富邦人壽真福利變額年金保險",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-03-31",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A05023A11Z90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209421MV1A05023A11Z90000000",
+          "name": "富邦人壽真福利變額年金保險",
+          "sale": "114/03/31",
+          "stop": "115/10/11",
+          "filing_date": "114/02/13",
+          "filing_no": "富壽商精字第1140000295號函備查,金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T17:16:35+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209421MV1A05023A11Z90000000",
+            "name": "富邦人壽真福利變額年金保險",
+            "sale": "114/03/31",
+            "stop": "115/10/11",
+            "filing_date": "114/02/13",
+            "filing_no": "富壽商精字第1140000295號函備查,金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T17:16:35+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/13297/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E7%9C%9F%E7%A6%8F%E5%88%A9%E8%AE%8A%E9%A1%8D%E5%B9%B4%E9%87%91%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": {
+          "官網": "未取得官網明文（官網條款頁僅有備查文號，或本項尚未逐一查官網）"
+        },
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，銷售日「2025-03-31」；保發中心即時詳細頁銷售日「114/03/31」、停售日「115/10/11」。無官網明文可證明現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-onsale-live-refresh-batch85-2026-11-26.json）"
+    },
+    {
+      "product_id": "21658",
+      "name": "富邦人壽外幣計價真福利變額年金保險",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-03-31",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A05123Z11Z90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209421MV1A05123Z11Z90000000",
+          "name": "富邦人壽外幣計價真福利變額年金保險",
+          "sale": "114/03/31",
+          "stop": "115/10/11",
+          "filing_date": "114/03/31",
+          "filing_no": "富壽商精字第1140000319號函備查,金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T17:16:37+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209421MV1A05123Z11Z90000000",
+            "name": "富邦人壽外幣計價真福利變額年金保險",
+            "sale": "114/03/31",
+            "stop": "115/10/11",
+            "filing_date": "114/03/31",
+            "filing_no": "富壽商精字第1140000319號函備查,金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T17:16:37+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/13298/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E5%A4%96%E5%B9%A3%E8%A8%88%E5%83%B9%E7%9C%9F%E7%A6%8F%E5%88%A9%E8%AE%8A%E9%A1%8D%E5%B9%B4%E9%87%91%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": {
+          "官網": "未取得官網明文（官網條款頁僅有備查文號，或本項尚未逐一查官網）"
+        },
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，銷售日「2025-03-31」；保發中心即時詳細頁銷售日「114/03/31」、停售日「115/10/11」。無官網明文可證明現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-onsale-live-refresh-batch85-2026-11-26.json）"
+    },
+    {
+      "product_id": "21676",
+      "name": "富邦人壽溢起防癌終身健康保險附約(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209321RZ1A00623A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209321RZ1A00623A11Z10000001",
+          "name": "富邦人壽溢起防癌終身健康保險附約(第1次部分變更)",
+          "sale": "114/07/01",
+          "stop": "115/10/22",
+          "filing_date": "114/02/13",
+          "filing_no": "富壽商精字第1140000538號函備查,金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T17:13:49+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209321RZ1A00623A11Z10000001",
+            "name": "富邦人壽溢起防癌終身健康保險附約(第1次部分變更)",
+            "sale": "114/07/01",
+            "stop": "115/10/22",
+            "filing_date": "114/02/13",
+            "filing_no": "富壽商精字第1140000538號函備查,金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T17:13:49+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/13390/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E6%BA%A2%E8%B5%B7%E9%98%B2%E7%99%8C%E7%B5%82%E8%BA%AB%E5%81%A5%E5%BA%B7%E4%BF%9D%E9%9A%AA%E9%99%84%E7%B4%84.pdf",
+        "fetched_at": null,
+        "quoted": {
+          "官網": "未取得官網明文（官網條款頁僅有備查文號，或本項尚未逐一查官網）"
+        },
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，銷售日「2025-07-01」；保發中心即時詳細頁銷售日「114/07/01」、停售日「115/10/22」。無官網明文可證明現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-onsale-live-refresh-batch85-2026-11-26.json）"
+    },
+    {
+      "product_id": "21678",
+      "name": "富邦人壽金富裕變額年金保險",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A05223A11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209421MV1A05223A11C90000000",
+          "name": "富邦人壽金富裕變額年金保險",
+          "sale": "114/07/01",
+          "stop": "115/10/11",
+          "filing_date": "114/02/13",
+          "filing_no": "富壽商精字第1140001683號函備查,金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T17:13:52+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209421MV1A05223A11C90000000",
+            "name": "富邦人壽金富裕變額年金保險",
+            "sale": "114/07/01",
+            "stop": "115/10/11",
+            "filing_date": "114/02/13",
+            "filing_no": "富壽商精字第1140001683號函備查,金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T17:13:52+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/13300/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E9%87%91%E5%AF%8C%E8%A3%95%E8%AE%8A%E9%A1%8D%E5%B9%B4%E9%87%91%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": {
+          "官網": "未取得官網明文（官網條款頁僅有備查文號，或本項尚未逐一查官網）"
+        },
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，銷售日「2025-07-01」；保發中心即時詳細頁銷售日「114/07/01」、停售日「115/10/11」。無官網明文可證明現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-onsale-live-refresh-batch85-2026-11-26.json）"
+    },
+    {
+      "product_id": "21680",
+      "name": "富邦人壽金富裕變額壽險",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MV1A02623A11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209131MV1A02623A11C90000000",
+          "name": "富邦人壽金富裕變額壽險",
+          "sale": "114/07/01",
+          "stop": "115/10/11",
+          "filing_date": "114/02/13",
+          "filing_no": "富壽商精字第1140001682號函備查,金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T17:13:53+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209131MV1A02623A11C90000000",
+            "name": "富邦人壽金富裕變額壽險",
+            "sale": "114/07/01",
+            "stop": "115/10/11",
+            "filing_date": "114/02/13",
+            "filing_no": "富壽商精字第1140001682號函備查,金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T17:13:53+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/13299/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E9%87%91%E5%AF%8C%E8%A3%95%E8%AE%8A%E9%A1%8D%E5%A3%BD%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": {
+          "官網": "未取得官網明文（官網條款頁僅有備查文號，或本項尚未逐一查官網）"
+        },
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，銷售日「2025-07-01」；保發中心即時詳細頁銷售日「114/07/01」、停售日「115/10/11」。無官網明文可證明現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-onsale-live-refresh-batch85-2026-11-26.json）"
+    },
+    {
+      "product_id": "21693",
+      "name": "富邦人壽日日心安一年期住院醫療健康保險附約(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-08-11",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311RZ1A03521A11E10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209311RZ1A03521A11E10000001",
+          "name": "富邦人壽日日心安一年期住院醫療健康保險附約(第1次部分變更)",
+          "sale": "114/08/11",
+          "stop": "115/10/22",
+          "filing_date": "114/02/13",
+          "filing_no": "富壽商精字第1140000392號函備查,金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T17:01:51+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209311RZ1A03521A11E10000001",
+            "name": "富邦人壽日日心安一年期住院醫療健康保險附約(第1次部分變更)",
+            "sale": "114/08/11",
+            "stop": "115/10/22",
+            "filing_date": "114/02/13",
+            "filing_no": "富壽商精字第1140000392號函備查,金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T17:01:51+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/13389/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E6%97%A5%E6%97%A5%E5%BF%83%E5%AE%89%E4%B8%80%E5%B9%B4%E6%9C%9F%E4%BD%8F%E9%99%A2%E9%86%AB%E7%99%82%E5%81%A5%E5%BA%B7%E4%BF%9D%E9%9A%AA%E9%99%84%E7%B4%84.pdf",
+        "fetched_at": null,
+        "quoted": {
+          "官網": "未取得官網明文（官網條款頁僅有備查文號，或本項尚未逐一查官網）"
+        },
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，銷售日「2025-08-11」；保發中心即時詳細頁銷售日「114/08/11」、停售日「115/10/22」。無官網明文可證明現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-onsale-live-refresh-batch85-2026-11-26.json）"
+    },
+    {
+      "product_id": "24233",
+      "name": "三商美邦人壽海外突發疾病醫療健康保險附約(第13次部分變更)",
+      "insurer": "三商美邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-02-19",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=211391RZ1A01521A11Z10000013"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "211391RZ1A01521A11Z10000013",
+          "name": "三商美邦人壽海外突發疾病醫療健康保險附約(第13次部分變更)",
+          "sale": "114/02/19",
+          "stop": "未停售",
+          "filing_date": "112/12/29,114/02/13",
+          "filing_no": "(99)三品字第00003號備查,金管保財字第11204944631 號,金管保壽字第11404900043號",
+          "at": "2026-11-26T17:17:24+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "211391RZ1A01521A11Z10000013",
+            "name": "三商美邦人壽海外突發疾病醫療健康保險附約(第13次部分變更)",
+            "sale": "114/02/19",
+            "stop": "未停售",
+            "filing_date": "112/12/29,114/02/13",
+            "filing_no": "(99)三品字第00003號備查,金管保財字第11204944631 號,金管保壽字第11404900043號",
+            "at": "2026-11-26T17:17:24+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.mli.com.tw/aes/winj/OHSB.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-02-19",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "24234",
+      "name": "三商美邦人壽超多鑫美元利率變動型終身保險(定期給付型)",
+      "insurer": "三商美邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-02-26",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=211121MA1A13123B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "211121MA1A13123B11Z10000000",
+          "name": "三商美邦人壽超多鑫美元利率變動型終身保險(定期給付型)",
+          "sale": "114/02/26",
+          "stop": "未停售",
+          "filing_date": "114/02/11,112/12/29,113/01/05,114/02/13",
+          "filing_no": "三品字第1140000058號函備查,金管保壽字第11304949343號,金管保財字第11204944631號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+          "at": "2026-11-26T17:16:59+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "211121MA1A13123B11Z10000000",
+            "name": "三商美邦人壽超多鑫美元利率變動型終身保險(定期給付型)",
+            "sale": "114/02/26",
+            "stop": "未停售",
+            "filing_date": "114/02/11,112/12/29,113/01/05,114/02/13",
+            "filing_no": "三品字第1140000058號函備查,金管保壽字第11304949343號,金管保財字第11204944631號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+            "at": "2026-11-26T17:16:59+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.mli.com.tw/aes/winj/CDS0.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-02-26",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "24236",
+      "name": "三商美邦人壽增多鑫美元利率變動型終身保險(定期給付型)",
+      "insurer": "三商美邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-02-26",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=211121MA1A13223B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "211121MA1A13223B11Z10000000",
+          "name": "三商美邦人壽增多鑫美元利率變動型終身保險(定期給付型)",
+          "sale": "114/02/26",
+          "stop": "未停售",
+          "filing_date": "114/02/11,112/12/29,113/01/05,114/02/13",
+          "filing_no": "三品字第1140000059號函備查,金管保壽字第11304949343號,金管保財字第11204944631號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+          "at": "2026-11-26T17:17:00+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "211121MA1A13223B11Z10000000",
+            "name": "三商美邦人壽增多鑫美元利率變動型終身保險(定期給付型)",
+            "sale": "114/02/26",
+            "stop": "未停售",
+            "filing_date": "114/02/11,112/12/29,113/01/05,114/02/13",
+            "filing_no": "三品字第1140000059號函備查,金管保壽字第11304949343號,金管保財字第11204944631號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+            "at": "2026-11-26T17:17:00+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.mli.com.tw/aes/winj/TDS0.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-02-26",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "24237",
+      "name": "三商美邦人壽金增吉利美元利率變動型增額終身壽險(定期給付型)",
+      "insurer": "三商美邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-04-17",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=211131MA1A12823B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "211131MA1A12823B11Z10000000",
+          "name": "三商美邦人壽金增吉利美元利率變動型增額終身壽險(定期給付型)",
+          "sale": "114/04/17",
+          "stop": "未停售",
+          "filing_date": "112/12/29,114/02/11,113/01/05,114/02/13",
+          "filing_no": "三品字第1140000084號函備查,金管保財字第11204944631號,金管保壽字第11304949343號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+          "at": "2026-11-26T17:16:05+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "211131MA1A12823B11Z10000000",
+            "name": "三商美邦人壽金增吉利美元利率變動型增額終身壽險(定期給付型)",
+            "sale": "114/04/17",
+            "stop": "未停售",
+            "filing_date": "112/12/29,114/02/11,113/01/05,114/02/13",
+            "filing_no": "三品字第1140000084號函備查,金管保財字第11204944631號,金管保壽字第11304949343號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+            "at": "2026-11-26T17:16:05+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.mli.com.tw/aes/winj/GTJL0.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-04-17",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "24238",
+      "name": "三商美邦人壽金增多利美元利率變動型增額終身壽險(定期給付型)",
+      "insurer": "三商美邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-04-17",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=211131MA1A12923B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "211131MA1A12923B11Z10000000",
+          "name": "三商美邦人壽金增多利美元利率變動型增額終身壽險(定期給付型)",
+          "sale": "114/04/17",
+          "stop": "未停售",
+          "filing_date": "114/02/11,112/12/29,113/01/05,114/02/13",
+          "filing_no": "三品字第1140000085號函備查,金管保壽字第11304949343號,金管保財字第11204944631號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+          "at": "2026-11-26T17:16:06+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "211131MA1A12923B11Z10000000",
+            "name": "三商美邦人壽金增多利美元利率變動型增額終身壽險(定期給付型)",
+            "sale": "114/04/17",
+            "stop": "未停售",
+            "filing_date": "114/02/11,112/12/29,113/01/05,114/02/13",
+            "filing_no": "三品字第1140000085號函備查,金管保壽字第11304949343號,金管保財字第11204944631號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+            "at": "2026-11-26T17:16:06+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.mli.com.tw/aes/winj/GZDL0.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-04-17",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "24239",
+      "name": "三商美邦人壽安心醫靠住院醫療定期健康保險(B型)(第1次部分變更)",
+      "insurer": "三商美邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-04-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=211311MZ1A05222A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "211311MZ1A05222A11Z10000001",
+          "name": "三商美邦人壽安心醫靠住院醫療定期健康保險(B型)(第1次部分變更)",
+          "sale": "114/04/25",
+          "stop": "未停售",
+          "filing_date": "112/12/29,113/01/05,113/11/12,114/02/13",
+          "filing_no": "三品字第1140000064號函備查,金管保財字第11204944631號,金管保壽字第11204942891號,金管保壽字第1130432500號,金管保壽字第11404900043號",
+          "at": "2026-11-26T17:15:33+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "211311MZ1A05222A11Z10000001",
+            "name": "三商美邦人壽安心醫靠住院醫療定期健康保險(B型)(第1次部分變更)",
+            "sale": "114/04/25",
+            "stop": "未停售",
+            "filing_date": "112/12/29,113/01/05,113/11/12,114/02/13",
+            "filing_no": "三品字第1140000064號函備查,金管保財字第11204944631號,金管保壽字第11204942891號,金管保壽字第1130432500號,金管保壽字第11404900043號",
+            "at": "2026-11-26T17:15:33+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.mli.com.tw/aes/winj/AHIB1.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-04-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "24240",
+      "name": "三商美邦人壽安心醫靠住院醫療定期健康保險(A型)(第1次部分變更)",
+      "insurer": "三商美邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-04-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=211311MZ1A05122A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "211311MZ1A05122A11Z10000001",
+          "name": "三商美邦人壽安心醫靠住院醫療定期健康保險(A型)(第1次部分變更)",
+          "sale": "114/04/25",
+          "stop": "未停售",
+          "filing_date": "112/12/29,113/01/05,113/11/12,114/02/13",
+          "filing_no": "三品字第1140000063號函備查,金管保財字第11204944631號,金管保壽字第11204942891號,金管保壽字第1130432500號,金管保壽字第11404900043號",
+          "at": "2026-11-26T17:15:34+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "211311MZ1A05122A11Z10000001",
+            "name": "三商美邦人壽安心醫靠住院醫療定期健康保險(A型)(第1次部分變更)",
+            "sale": "114/04/25",
+            "stop": "未停售",
+            "filing_date": "112/12/29,113/01/05,113/11/12,114/02/13",
+            "filing_no": "三品字第1140000063號函備查,金管保財字第11204944631號,金管保壽字第11204942891號,金管保壽字第1130432500號,金管保壽字第11404900043號",
+            "at": "2026-11-26T17:15:34+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.mli.com.tw/aes/winj/AHIA1.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-04-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "24241",
+      "name": "三商美邦人壽新33醫靠醫療定期健康保險(第7次部分變更)",
+      "insurer": "三商美邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-04-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=211311MZ1A04522A11Z10000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "211311MZ1A04522A11Z10000007",
+          "name": "三商美邦人壽新33醫靠醫療定期健康保險(第7次部分變更)",
+          "sale": "114/04/25",
+          "stop": "未停售",
+          "filing_date": "112/12/29,113/01/05,113/11/12,114/02/13",
+          "filing_no": "(111)三品字第00195號函備查,金管保財字第11204944631號,金管保壽字第11204942891號,金管保壽字第1130432500號,金管保壽字第11404900043號",
+          "at": "2026-11-26T17:15:36+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "211311MZ1A04522A11Z10000007",
+            "name": "三商美邦人壽新33醫靠醫療定期健康保險(第7次部分變更)",
+            "sale": "114/04/25",
+            "stop": "未停售",
+            "filing_date": "112/12/29,113/01/05,113/11/12,114/02/13",
+            "filing_no": "(111)三品字第00195號函備查,金管保財字第11204944631號,金管保壽字第11204942891號,金管保壽字第1130432500號,金管保壽字第11404900043號",
+            "at": "2026-11-26T17:15:36+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.mli.com.tw/aes/winj/NSEHI7.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-04-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "24244",
+      "name": "三商美邦人壽愛真心重大傷病終身健康保險（A型）",
+      "insurer": "三商美邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-06-13",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=211351MZ1A01923A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "211351MZ1A01923A11Z10000000",
+          "name": "三商美邦人壽愛真心重大傷病終身健康保險（A型）",
+          "sale": "114/06/13",
+          "stop": "未停售",
+          "filing_date": "112/12/29,113/11/12,113/01/05,114/02/13",
+          "filing_no": "三品字第1140000113號函備查,金管保財字第11204944631號,金管保壽字第1130432500號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+          "at": "2026-11-26T17:14:39+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "211351MZ1A01923A11Z10000000",
+            "name": "三商美邦人壽愛真心重大傷病終身健康保險（A型）",
+            "sale": "114/06/13",
+            "stop": "未停售",
+            "filing_date": "112/12/29,113/11/12,113/01/05,114/02/13",
+            "filing_no": "三品字第1140000113號函備查,金管保財字第11204944631號,金管保壽字第1130432500號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+            "at": "2026-11-26T17:14:39+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.mli.com.tw/aes/winj/IJSA0.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-06-13",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "24245",
+      "name": "三商美邦人壽愛真心重大傷病終身健康保險（B型）",
+      "insurer": "三商美邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-06-13",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=211351MZ1A02023A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "211351MZ1A02023A11Z10000000",
+          "name": "三商美邦人壽愛真心重大傷病終身健康保險（B型）",
+          "sale": "114/06/13",
+          "stop": "未停售",
+          "filing_date": "112/12/29,113/11/12,113/01/05,114/02/13",
+          "filing_no": "三品字第1140000114號函備查,金管保財字第11204944631號,金管保壽字第1130432500號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+          "at": "2026-11-26T17:14:40+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "211351MZ1A02023A11Z10000000",
+            "name": "三商美邦人壽愛真心重大傷病終身健康保險（B型）",
+            "sale": "114/06/13",
+            "stop": "未停售",
+            "filing_date": "112/12/29,113/11/12,113/01/05,114/02/13",
+            "filing_no": "三品字第1140000114號函備查,金管保財字第11204944631號,金管保壽字第1130432500號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+            "at": "2026-11-26T17:14:40+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.mli.com.tw/aes/winj/IJSB0.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-06-13",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "24250",
+      "name": "三商美邦人壽美利長存美元利率變動型增額終身壽險(定期給付型)",
+      "insurer": "三商美邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-09-02",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=211131MA1A13023B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "211131MA1A13023B11Z10000000",
+          "name": "三商美邦人壽美利長存美元利率變動型增額終身壽險(定期給付型)",
+          "sale": "114/09/02",
+          "stop": "未停售",
+          "filing_date": "114/02/11,112/12/29,113/01/05,114/02/13",
+          "filing_no": "三品字第1140000115號函備查,金管保壽字第11304949343號,金管保財字第11204944631號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+          "at": "2026-11-26T16:59:33+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "211131MA1A13023B11Z10000000",
+            "name": "三商美邦人壽美利長存美元利率變動型增額終身壽險(定期給付型)",
+            "sale": "114/09/02",
+            "stop": "未停售",
+            "filing_date": "114/02/11,112/12/29,113/01/05,114/02/13",
+            "filing_no": "三品字第1140000115號函備查,金管保壽字第11304949343號,金管保財字第11204944631號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+            "at": "2026-11-26T16:59:33+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.mli.com.tw/aes/winj/MLCT0.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-09-02",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "24251",
+      "name": "三商美邦人壽溢安享特定傷病定期健康保險",
+      "insurer": "三商美邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-09-02",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=211391MZ1A02122A11E10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "211391MZ1A02122A11E10000000",
+          "name": "三商美邦人壽溢安享特定傷病定期健康保險",
+          "sale": "114/09/02",
+          "stop": "未停售",
+          "filing_date": "112/12/29,113/11/12,113/01/05,114/02/13",
+          "filing_no": "三品字第1140000148號函備查,金管保財字第11204944631號,金管保壽字第1130432500號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+          "at": "2026-11-26T16:59:36+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "211391MZ1A02122A11E10000000",
+            "name": "三商美邦人壽溢安享特定傷病定期健康保險",
+            "sale": "114/09/02",
+            "stop": "未停售",
+            "filing_date": "112/12/29,113/11/12,113/01/05,114/02/13",
+            "filing_no": "三品字第1140000148號函備查,金管保財字第11204944631號,金管保壽字第1130432500號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+            "at": "2026-11-26T16:59:36+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.mli.com.tw/aes/winj/EASD0.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-09-02",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "24252",
+      "name": "三商美邦人壽溢多利美元利率變動型增額終身壽險(定期給付型)",
+      "insurer": "三商美邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-09-02",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=211131MA1A13123B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "211131MA1A13123B11Z10000000",
+          "name": "三商美邦人壽溢多利美元利率變動型增額終身壽險(定期給付型)",
+          "sale": "114/09/02",
+          "stop": "未停售",
+          "filing_date": "112/12/29,114/02/11,113/01/05,114/02/13",
+          "filing_no": "三品字第1140000135號函備查,金管保財字第11204944631號,金管保壽字第11304949343號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+          "at": "2026-11-26T16:59:41+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "211131MA1A13123B11Z10000000",
+            "name": "三商美邦人壽溢多利美元利率變動型增額終身壽險(定期給付型)",
+            "sale": "114/09/02",
+            "stop": "未停售",
+            "filing_date": "112/12/29,114/02/11,113/01/05,114/02/13",
+            "filing_no": "三品字第1140000135號函備查,金管保財字第11204944631號,金管保壽字第11304949343號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+            "at": "2026-11-26T16:59:41+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-09-02",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "24253",
+      "name": "三商美邦人壽溢安心特定傷病定期健康保險",
+      "insurer": "三商美邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-09-02",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=211391MZ1A02222A11E10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "211391MZ1A02222A11E10000000",
+          "name": "三商美邦人壽溢安心特定傷病定期健康保險",
+          "sale": "114/09/02",
+          "stop": "未停售",
+          "filing_date": "112/12/29,113/11/12,113/01/05,114/02/13",
+          "filing_no": "三品字第1140000147號函備查,金管保財字第11204944631號,金管保壽字第1130432500號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+          "at": "2026-11-26T16:59:46+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "211391MZ1A02222A11E10000000",
+            "name": "三商美邦人壽溢安心特定傷病定期健康保險",
+            "sale": "114/09/02",
+            "stop": "未停售",
+            "filing_date": "112/12/29,113/11/12,113/01/05,114/02/13",
+            "filing_no": "三品字第1140000147號函備查,金管保財字第11204944631號,金管保壽字第1130432500號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+            "at": "2026-11-26T16:59:46+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.mli.com.tw/aes/winj/EAXD0.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-09-02",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "24254",
+      "name": "三商美邦人壽溢安穩特定傷病定期健康保險",
+      "insurer": "三商美邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-09-02",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=211391MZ1A02322A11E10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "211391MZ1A02322A11E10000000",
+          "name": "三商美邦人壽溢安穩特定傷病定期健康保險",
+          "sale": "114/09/02",
+          "stop": "未停售",
+          "filing_date": "112/12/29,113/11/12,113/01/05,114/02/13",
+          "filing_no": "三品字第1140000149號函備查,金管保財字第11204944631號,金管保壽字第1130432500號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+          "at": "2026-11-26T16:59:51+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "211391MZ1A02322A11E10000000",
+            "name": "三商美邦人壽溢安穩特定傷病定期健康保險",
+            "sale": "114/09/02",
+            "stop": "未停售",
+            "filing_date": "112/12/29,113/11/12,113/01/05,114/02/13",
+            "filing_no": "三品字第1140000149號函備查,金管保財字第11204944631號,金管保壽字第1130432500號,金管保壽字第11204942891號,金管保壽字第11404900043號",
+            "at": "2026-11-26T16:59:51+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.mli.com.tw/aes/winj/EAWD0.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-09-02",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00038",
+      "name": "保誠人壽富御守護醫療終身健康保險",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-05-29",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203391MZ9B00523A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203391MZ9B00523A11Z10000000",
+          "name": "保誠人壽富御守護醫療終身健康保險",
+          "sale": "114/05/29",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000742號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:14:51+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203391MZ9B00523A11Z10000000",
+            "name": "保誠人壽富御守護醫療終身健康保險",
+            "sale": "114/05/29",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000742號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:14:51+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/health/ahirlb2.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-05-29",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00039",
+      "name": "保誠人壽富御安康醫療終身保險",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-05-29",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203191MZ9B00123A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203191MZ9B00123A11Z10000000",
+          "name": "保誠人壽富御安康醫療終身保險",
+          "sale": "114/05/29",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000743號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:14:52+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203191MZ9B00123A11Z10000000",
+            "name": "保誠人壽富御安康醫療終身保險",
+            "sale": "114/05/29",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000743號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:14:52+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/health/ahirlb3.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-05-29",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00040",
+      "name": "保誠人壽實支實付醫療定額給付年齡錯誤溢繳",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-02-24",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203391EZ1A00121A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203391EZ1A00121A11Z10000000",
+          "name": "保誠人壽實支實付醫療定額給付年齡錯誤溢繳保險費處理批註條款",
+          "sale": "114/02/24",
+          "stop": "未停售",
+          "filing_date": "114/02/24",
+          "filing_no": "保誠總字第1140000227號函備查",
+          "at": "2026-11-26T17:17:10+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203391EZ1A00121A11Z10000000",
+            "name": "保誠人壽實支實付醫療定額給付年齡錯誤溢繳保險費處理批註條款",
+            "sale": "114/02/24",
+            "stop": "未停售",
+            "filing_date": "114/02/24",
+            "filing_no": "保誠總字第1140000227號函備查",
+            "at": "2026-11-26T17:17:10+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/health/reimbursement_overpayment.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-02-24",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00046",
+      "name": "保誠人壽新易遊保海外突發疾病健康保險附加",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-02-24",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203311AZ1A00421A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203311AZ1A00421A11Z10000001",
+          "name": "保誠人壽新易遊保海外突發疾病健康保險附加條款(第1次部分變更)",
+          "sale": "114/02/24",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1120666號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:17:11+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203311AZ1A00421A11Z10000001",
+            "name": "保誠人壽新易遊保海外突發疾病健康保險附加條款(第1次部分變更)",
+            "sale": "114/02/24",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1120666號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:17:11+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/accident/obhs1.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-02-24",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00052",
+      "name": "保誠人壽睛彩守護終身健康保險",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-08-04",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203311MZ1A00723A11E10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203311MZ1A00723A11E10000000",
+          "name": "保誠人壽睛彩守護終身健康保險",
+          "sale": "114/08/04",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140001125號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:02:11+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203311MZ1A00723A11E10000000",
+            "name": "保誠人壽睛彩守護終身健康保險",
+            "sale": "114/08/04",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140001125號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:02:11+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/health/asgnlb4.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-08-04",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00053",
+      "name": "保誠人壽美滿美元豁免保險費健康保險附約乙",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203341RZ1A00622B11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203341RZ1A00622B11Z10000005",
+          "name": "保誠人壽美滿美元豁免保險費健康保險附約乙型(第5次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1080448號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:18:03+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203341RZ1A00622B11Z10000005",
+            "name": "保誠人壽美滿美元豁免保險費健康保險附約乙型(第5次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1080448號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:18:03+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/health/cwpntr4.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00082",
+      "name": "保誠人壽三年鑽外幣終身保險(定期給付型)",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-05-12",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203121MZ1A05123B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203121MZ1A05123B11Z10000000",
+          "name": "保誠人壽三年鑽外幣終身保險(定期給付型)",
+          "sale": "114/05/12",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000669號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:15:05+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203121MZ1A05123B11Z10000000",
+            "name": "保誠人壽三年鑽外幣終身保險(定期給付型)",
+            "sale": "114/05/12",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000669號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:15:05+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/aclpeu26.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-05-12",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00088",
+      "name": "保誠人壽六年鑽外幣終身保險(定期給付型)",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-05-12",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203121MZ1A05223B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203121MZ1A05223B11Z10000000",
+          "name": "保誠人壽六年鑽外幣終身保險(定期給付型)",
+          "sale": "114/05/12",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000670號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:15:07+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203121MZ1A05223B11Z10000000",
+            "name": "保誠人壽六年鑽外幣終身保險(定期給付型)",
+            "sale": "114/05/12",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000670號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:15:07+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/aclpeu27.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-05-12",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00098",
+      "name": "保誠人壽新富享紅運外幣終身壽險(定期給付型)",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-08-13",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ1A10223B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MZ1A10223B11Z10000000",
+          "name": "保誠人壽新富享紅運外幣終身壽險(定期給付型)",
+          "sale": "114/08/13",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000691號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:01:28+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MZ1A10223B11Z10000000",
+            "name": "保誠人壽新富享紅運外幣終身壽險(定期給付型)",
+            "sale": "114/08/13",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000691號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:01:28+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/arlplu61.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-08-13",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00104",
+      "name": "保誠人壽新紅旺世代外幣終身壽險(定期給付",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-07-14",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ1A07323B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MZ1A07323B11Z10000002",
+          "name": "保誠人壽新紅旺世代外幣終身壽險(定期給付型)(第2次部分變更)",
+          "sale": "114/07/14",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1130699號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:13:06+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MZ1A07323B11Z10000002",
+            "name": "保誠人壽新紅旺世代外幣終身壽險(定期給付型)(第2次部分變更)",
+            "sale": "114/07/14",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1130699號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:13:06+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/brdplu10.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-07-14",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00106",
+      "name": "保誠人壽新美好年年外幣終身保險(定期給付",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-07-14",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203121MZ1A04623B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203121MZ1A04623B11Z10000001",
+          "name": "保誠人壽新美好年年外幣終身保險(定期給付型)(第1次部分變更)",
+          "sale": "114/07/14",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140058號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:13:07+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203121MZ1A04623B11Z10000001",
+            "name": "保誠人壽新美好年年外幣終身保險(定期給付型)(第1次部分變更)",
+            "sale": "114/07/14",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140058號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:13:07+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/bclpeu23.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-07-14",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00107",
+      "name": "保誠人壽新美康滿利外幣終身壽險(定期給付型)",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-04-21",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ1A09123B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MZ1A09123B11Z10000000",
+          "name": "保誠人壽新美康滿利外幣終身壽險(定期給付型)",
+          "sale": "114/04/21",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000451號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:15:56+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MZ1A09123B11Z10000000",
+            "name": "保誠人壽新美康滿利外幣終身壽險(定期給付型)",
+            "sale": "114/04/21",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000451號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:15:56+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/arlplu57.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-04-21",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00108",
+      "name": "保誠人壽新美旺一生外幣終身壽險(定期給付",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-07-14",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ1A07923B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MZ1A07923B11Z10000002",
+          "name": "保誠人壽新美旺一生外幣終身壽險(定期給付型)(第2次部分變更)",
+          "sale": "114/07/14",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140046號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:13:08+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MZ1A07923B11Z10000002",
+            "name": "保誠人壽新美旺一生外幣終身壽險(定期給付型)(第2次部分變更)",
+            "sale": "114/07/14",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140046號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:13:08+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/brlplu49.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-07-14",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00109",
+      "name": "保誠人壽新美旺傳家外幣終身壽險(定期給付型) 保誠總字第1140001060 號函備查",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-06-30",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ1A09723B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MZ1A09723B11Z10000000",
+          "name": "保誠人壽新美旺傳家外幣終身壽險(定期給付型)",
+          "sale": "114/06/30",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140001060號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:13:55+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MZ1A09723B11Z10000000",
+            "name": "保誠人壽新美旺傳家外幣終身壽險(定期給付型)",
+            "sale": "114/06/30",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140001060號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:13:55+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/ardplu12.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-06-30",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00110",
+      "name": "保誠人壽新美滿相傳外幣終身壽險(定期給付型)",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-05-16",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ1A09423B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MZ1A09423B11Z10000000",
+          "name": "保誠人壽新美滿相傳外幣終身壽險(定期給付型)",
+          "sale": "114/05/16",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000767號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:15:01+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MZ1A09423B11Z10000000",
+            "name": "保誠人壽新美滿相傳外幣終身壽險(定期給付型)",
+            "sale": "114/05/16",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000767號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:15:01+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/arlplu71.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-05-16",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00120",
+      "name": "保誠人壽榮享富貴外幣終身壽險(定期給付型)",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ1A09823B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MZ1A09823B11Z10000000",
+          "name": "保誠人壽榮享富貴外幣終身壽險(定期給付型)",
+          "sale": "114/07/01",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140001014號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:13:14+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MZ1A09823B11Z10000000",
+            "name": "保誠人壽榮享富貴外幣終身壽險(定期給付型)",
+            "sale": "114/07/01",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140001014號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:13:14+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/arlplu74.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00126",
+      "name": "保誠人壽民富傳家人民幣終身壽險(定期給付",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ1A07823J11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MZ1A07823J11Z10000001",
+          "name": "保誠人壽民富傳家人民幣終身壽險(定期給付型)(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1131200號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:18:05+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MZ1A07823J11Z10000001",
+            "name": "保誠人壽民富傳家人民幣終身壽險(定期給付型)(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1131200號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:18:05+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/arlplr1.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00130",
+      "name": "保誠人壽紅運守富外幣增額終身壽險(定期給付",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-02-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ1A08723B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MZ1A08723B11Z10000000",
+          "name": "保誠人壽紅運守富外幣增額終身壽險(定期給付型)",
+          "sale": "114/02/03",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140071號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:17:41+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MZ1A08723B11Z10000000",
+            "name": "保誠人壽紅運守富外幣增額終身壽險(定期給付型)",
+            "sale": "114/02/03",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140071號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:17:41+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/ariplu7.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-02-03",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00132",
+      "name": "保誠人壽美世相傳外幣終身壽險(定期給付型) 保誠總字第1140000459 號函備查",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-04-21",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ1A09223B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MZ1A09223B11Z10000000",
+          "name": "保誠人壽美世相傳外幣終身壽險(定期給付型)",
+          "sale": "114/04/21",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000459號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:15:58+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MZ1A09223B11Z10000000",
+            "name": "保誠人壽美世相傳外幣終身壽險(定期給付型)",
+            "sale": "114/04/21",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000459號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:15:58+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/arlplu56.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-04-21",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00133",
+      "name": "保誠人壽美世雙收外幣終身保險(定期給付型) 保誠總字第1140000630 號函備查",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-04-30",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203121MZ1A05023B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203121MZ1A05023B11Z10000000",
+          "name": "保誠人壽美世雙收外幣終身保險(定期給付型)",
+          "sale": "114/04/30",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000630號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:15:18+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203121MZ1A05023B11Z10000000",
+            "name": "保誠人壽美世雙收外幣終身保險(定期給付型)",
+            "sale": "114/04/30",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000630號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:15:18+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/aclpeu30.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-04-30",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00139",
+      "name": "保誠人壽美利傳鑫外幣終身壽險(定期給付型) 保誠總字第1140000957 號函備查",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-06-30",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ1A09923B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MZ1A09923B11Z10000000",
+          "name": "保誠人壽美利傳鑫外幣終身壽險(定期給付型)",
+          "sale": "114/06/30",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000957號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:13:56+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MZ1A09923B11Z10000000",
+            "name": "保誠人壽美利傳鑫外幣終身壽險(定期給付型)",
+            "sale": "114/06/30",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000957號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:13:56+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/arlplu73.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-06-30",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00144",
+      "name": "保誠人壽美年鑽外幣終身保險(定期給付型)",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-04-18",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203121MZ1A04823B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203121MZ1A04823B11Z10000000",
+          "name": "保誠人壽美年鑽外幣終身保險(定期給付型)",
+          "sale": "114/04/18",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000460號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:16:02+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203121MZ1A04823B11Z10000000",
+            "name": "保誠人壽美年鑽外幣終身保險(定期給付型)",
+            "sale": "114/04/18",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000460號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:16:02+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/aclpeu25.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-04-18",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00145",
+      "name": "保誠人壽美愛相傳外幣終身壽險(定期給付型)",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-04-30",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ2B01523B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MZ2B01523B11Z10000000",
+          "name": "保誠人壽美愛相傳外幣終身壽險(定期給付型)",
+          "sale": "114/04/30",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000607號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:15:19+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MZ2B01523B11Z10000000",
+            "name": "保誠人壽美愛相傳外幣終身壽險(定期給付型)",
+            "sale": "114/04/30",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000607號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:15:19+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/arlplu69.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-04-30",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00146",
+      "name": "保誠人壽美承相傳外幣終身壽險(定期給付型) 保誠總字第1140000452 號函備查",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-04-21",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ1A09023B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MZ1A09023B11Z10000000",
+          "name": "保誠人壽美承相傳外幣終身壽險(定期給付型)",
+          "sale": "114/04/21",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000452號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:15:59+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MZ1A09023B11Z10000000",
+            "name": "保誠人壽美承相傳外幣終身壽險(定期給付型)",
+            "sale": "114/04/21",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000452號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:15:59+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/arlplu55.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-04-21",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00147",
+      "name": "保誠人壽美承雙收外幣終身保險(定期給付型) 保誠總字第1140000458 號函備查",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-04-21",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203121MZ1A04923B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203121MZ1A04923B11Z10000000",
+          "name": "保誠人壽美承雙收外幣終身保險(定期給付型)",
+          "sale": "114/04/21",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000458號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:16:00+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203121MZ1A04923B11Z10000000",
+            "name": "保誠人壽美承雙收外幣終身保險(定期給付型)",
+            "sale": "114/04/21",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000458號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:16:00+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/aclpeu24.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-04-21",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00150",
+      "name": "保誠人壽美星世代外幣終身壽險(定期給付型)",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-15",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ1A08623B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MZ1A08623B11Z10000000",
+          "name": "保誠人壽美星世代外幣終身壽險(定期給付型)",
+          "sale": "114/01/15",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140054號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:17:56+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MZ1A08623B11Z10000000",
+            "name": "保誠人壽美星世代外幣終身壽險(定期給付型)",
+            "sale": "114/01/15",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140054號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:17:56+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/arlplu54.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00158",
+      "name": "保誠人壽美耀相傳外幣終身壽險(113)(定期給付",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ1A06623B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MZ1A06623B11Z10000001",
+          "name": "保誠人壽美耀相傳外幣終身壽險(113)(定期給付型)(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1130547號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:18:06+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MZ1A06623B11Z10000001",
+            "name": "保誠人壽美耀相傳外幣終身壽險(113)(定期給付型)(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1130547號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:18:06+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/arlplu43.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00161",
+      "name": "保誠人壽美鑫雙收外幣終身保險(定期給付型) 保誠總字第1140000888 號函備查",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-06-09",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203121MZ1A05323B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203121MZ1A05323B11Z10000000",
+          "name": "保誠人壽美鑫雙收外幣終身保險(定期給付型)",
+          "sale": "114/06/09",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000888號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:14:44+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203121MZ1A05323B11Z10000000",
+            "name": "保誠人壽美鑫雙收外幣終身保險(定期給付型)",
+            "sale": "114/06/09",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000888號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:14:44+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/aclpeu31.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-06-09",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00202",
+      "name": "保誠人壽富足人生外幣變額壽險 保誠總字第1140000643 號函備查",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-05-05",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MV1A03823B11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MV1A03823B11C90000000",
+          "name": "保誠人壽富足人生外幣變額壽險",
+          "sale": "114/05/05",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000643號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:15:10+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MV1A03823B11C90000000",
+            "name": "保誠人壽富足人生外幣變額壽險",
+            "sale": "114/05/05",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000643號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:15:10+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/unit-linked/arvlbf9.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-05-05",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00203",
+      "name": "保誠人壽富足人生外幣變額年金保險 保誠總字第1140000645 號函備查",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-05-05",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203421MV1A02423B11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203421MV1A02423B11C90000000",
+          "name": "保誠人壽富足人生外幣變額年金保險",
+          "sale": "114/05/05",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000645號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:15:11+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203421MV1A02423B11C90000000",
+            "name": "保誠人壽富足人生外幣變額年金保險",
+            "sale": "114/05/05",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000645號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:15:11+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/unit-linked/arvabf2.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-05-05",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00204",
+      "name": "保誠人壽富足人生變額壽險 保誠總字第1140000642 號函備查",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-05-05",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MV1A03723A11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MV1A03723A11C90000000",
+          "name": "保誠人壽富足人生變額壽險",
+          "sale": "114/05/05",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000642號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:15:12+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MV1A03723A11C90000000",
+            "name": "保誠人壽富足人生變額壽險",
+            "sale": "114/05/05",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000642號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:15:12+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/unit-linked/arvlb5.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-05-05",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00205",
+      "name": "保誠人壽富足人生變額年金保險 保誠總字第1140000644 號函備查",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-05-05",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203421MV1A02323A11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203421MV1A02323A11C90000000",
+          "name": "保誠人壽富足人生變額年金保險",
+          "sale": "114/05/05",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000644號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:15:14+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203421MV1A02323A11C90000000",
+            "name": "保誠人壽富足人生變額年金保險",
+            "sale": "114/05/05",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000644號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:15:14+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/unit-linked/arvab1.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-05-05",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00209",
+      "name": "保誠人壽樂享人生外幣變額年金保險",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-02-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203421MV1A02223B11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203421MV1A02223B11C90000000",
+          "name": "保誠人壽樂享人生外幣變額年金保險",
+          "sale": "114/02/03",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140059號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:17:43+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203421MV1A02223B11C90000000",
+            "name": "保誠人壽樂享人生外幣變額年金保險",
+            "sale": "114/02/03",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140059號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:17:43+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/unit-linked/arvabf1.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-02-03",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00212",
+      "name": "保誠人壽樂活人生變額壽險",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-05-05",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MV1A03923A11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203131MV1A03923A11C90000000",
+          "name": "保誠人壽樂活人生變額壽險",
+          "sale": "114/05/05",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000638號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:15:15+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203131MV1A03923A11C90000000",
+            "name": "保誠人壽樂活人生變額壽險",
+            "sale": "114/05/05",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000638號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:15:15+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/unit-linked/asvlb7.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-05-05",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00213",
+      "name": "保誠人壽樂活人生變額年金保險",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-05-05",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203421MV1A02523A11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203421MV1A02523A11C90000000",
+          "name": "保誠人壽樂活人生變額年金保險",
+          "sale": "114/05/05",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1140000640號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:15:17+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203421MV1A02523A11C90000000",
+            "name": "保誠人壽樂活人生變額年金保險",
+            "sale": "114/05/05",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1140000640號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:15:17+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/unit-linked/asvab5.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-05-05",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00214",
+      "name": "保誠人壽樂活寶島變額年金保險(112)",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203421MV1A01623A11C90000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203421MV1A01623A11C90000006",
+          "name": "保誠人壽樂活寶島變額年金保險(112)(第6次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1100001號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:18:08+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203421MV1A01623A11C90000006",
+            "name": "保誠人壽樂活寶島變額年金保險(112)(第6次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1100001號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:18:08+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/unit-linked/crva1.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00215",
+      "name": "保誠人壽樂活雙享外幣變額年金保險",
+      "insurer": "保誠人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203421MV1A01823Z11C90000008"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "203421MV1A01823Z11C90000008",
+          "name": "保誠人壽樂活雙享外幣變額年金保險(第8次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "112/08/09",
+          "filing_no": "保誠總字第1100480號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+          "at": "2026-11-26T17:18:09+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "203421MV1A01823Z11C90000008",
+            "name": "保誠人壽樂活雙享外幣變額年金保險(第8次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "112/08/09",
+            "filing_no": "保誠總字第1100480號函備查,依金融監督管理委員會112年08月09日金管保財字第11204926091號令修正",
+            "at": "2026-11-26T17:18:09+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/unit-linked/crvaf2.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    }
+  ]
+}

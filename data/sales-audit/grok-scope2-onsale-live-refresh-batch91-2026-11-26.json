@@ -1,0 +1,123 @@
+{
+  "batch_id": "grok-scope2-onsale-live-refresh-batch91-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T17:25:16+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": {
+    "description": "範圍2：現售品項以即時保發中心詳細頁覆核",
+    "ids": 2
+  },
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": "以 2026-11-26 即時保發中心詳細頁核對本站連結版本之銷售日、停售日與狀態；一致者為一致性複核，不一致且無官網明文者移交 GPT，不改狀態。未對驗證碼做 OCR、未執行 submit。",
+  "summary": {
+    "已核實": 2,
+    "total": 2,
+    "items_with_proposed_changes": 0
+  },
+  "items": [
+    {
+      "product_id": "02787",
+      "name": "遠雄人壽美滿美利固美元養老保險",
+      "insurer": "遠雄人壽",
+      "site_code": "BQ1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-08-27",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216121MZ1A40222B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216121MZ1A40222B11Z10000000",
+          "name": "遠雄人壽美滿美利固美元養老保險",
+          "sale": "114/08/27",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1140020407號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T17:00:43+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216121MZ1A40222B11Z10000000",
+            "name": "遠雄人壽美滿美利固美元養老保險",
+            "sale": "114/08/27",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1140020407號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T17:00:43+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=BQ1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-08-27",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26658",
+      "name": "遠雄人壽樂活吉利變額壽險(112)(第9次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-04-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MV1A27523A11Z90000009"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MV1A27523A11Z90000009",
+          "name": "遠雄人壽樂活吉利變額壽險(112)(第9次部分變更)",
+          "sale": "114/04/25",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1090003719號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T17:15:31+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MV1A27523A11Z90000009",
+            "name": "遠雄人壽樂活吉利變額壽險(112)(第9次部分變更)",
+            "sale": "114/04/25",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1090003719號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T17:15:31+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-04-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    }
+  ]
+}
