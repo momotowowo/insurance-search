@@ -1,0 +1,3081 @@
+{
+  "batch_id": "grok-scope2-recent-onsale-live-batch32-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T14:09:57+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": {
+    "description": "範圍2：本站現售、銷售日 ≥ 2026-07-01 且有保發中心連結之品項，以即時保發中心詳細頁覆核狀態／銷售日／停售日",
+    "ids": 60
+  },
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": "以 2026-11-26 即時保發中心詳細頁（GET DetailList.aspx）核對本站連結版本之銷售日與停售日；與本站一致者為一致性複核，不一致且無官網明文者移交 GPT，不改狀態。未對驗證碼做 OCR、未執行 submit。",
+  "summary": {
+    "已核實": 60,
+    "total": 60,
+    "items_with_proposed_changes": 0
+  },
+  "items": [
+    {
+      "product_id": "01550",
+      "name": "新天生贏家 Plus 外幣變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A07623Z11Z90000013"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A07623Z11Z90000013",
+          "name": "安達人壽新天生贏家Plus外幣變額萬能壽險(第13次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1090053號函備查,安達精字第1150000083號函備查",
+          "at": "2026-11-26T14:01:15+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A07623Z11Z90000013",
+            "name": "安達人壽新天生贏家Plus外幣變額萬能壽險(第13次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1090053號函備查,安達精字第1150000083號函備查",
+            "at": "2026-11-26T14:01:15+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ten-sheng-ying-jia-plus-foreign-currency-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01551",
+      "name": "新天生贏家 Plus 變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A07523A11Z90000014"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A07523A11Z90000014",
+          "name": "安達人壽新天生贏家Plus變額萬能壽險(第14次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1090052號函備查,安達精字第1150000085號函備查",
+          "at": "2026-11-26T12:19:04+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A07523A11Z90000014",
+            "name": "安達人壽新天生贏家Plus變額萬能壽險(第14次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1090052號函備查,安達精字第1150000085號函備查",
+            "at": "2026-11-26T12:19:04+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ten-sheng-ying-jia-plus-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01553",
+      "name": "新好得利變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A03223A11Z90000019"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A03223A11Z90000019",
+          "name": "安達人壽新好得利變額萬能壽險(第19次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "中泰精字第1030063號函備查,安達精字第1150000089號函備查",
+          "at": "2026-11-26T14:01:16+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A03223A11Z90000019",
+            "name": "安達人壽新好得利變額萬能壽險(第19次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "中泰精字第1030063號函備查,安達精字第1150000089號函備查",
+            "at": "2026-11-26T14:01:16+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ho-de-li-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01554",
+      "name": "新幸福成雙美元變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A09423B11Z90000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A09423B11Z90000010",
+          "name": "安達人壽新幸福成雙美元變額萬能壽險(第10次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1110000102號函備查,安達精字第1150000090號函備查",
+          "at": "2026-11-26T14:01:17+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A09423B11Z90000010",
+            "name": "安達人壽新幸福成雙美元變額萬能壽險(第10次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1110000102號函備查,安達精字第1150000090號函備查",
+            "at": "2026-11-26T14:01:17+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/xing-fu-cheng-shuang-foreign-currency-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01559",
+      "name": "新愛家變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A08923A11Z90000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A08923A11Z90000010",
+          "name": "安達人壽新愛家變額萬能壽險(第10次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1100000287號函備查,安達精字第1150000093號函備查",
+          "at": "2026-11-26T14:01:19+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A08923A11Z90000010",
+            "name": "安達人壽新愛家變額萬能壽險(第10次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1100000287號函備查,安達精字第1150000093號函備查",
+            "at": "2026-11-26T14:01:19+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ai-jia-vul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01564",
+      "name": "新聚富人生變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A07023A11Z90000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A07023A11Z90000012",
+          "name": "安達人壽新聚富人生變額萬能壽險(第12次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1080043號函備查,安達精字第1150000094號函備查",
+          "at": "2026-11-26T14:01:20+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A07023A11Z90000012",
+            "name": "安達人壽新聚富人生變額萬能壽險(第12次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1080043號函備查,安達精字第1150000094號函備查",
+            "at": "2026-11-26T14:01:20+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ju-fu-ren-sheng-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01565",
+      "name": "新聚富傳家美元變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A08223B11Z90000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A08223B11Z90000010",
+          "name": "安達人壽新聚富傳家美元變額萬能壽險(第10次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1100050號函備查,安達精字第1150000095號函備查",
+          "at": "2026-11-26T14:01:22+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A08223B11Z90000010",
+            "name": "安達人壽新聚富傳家美元變額萬能壽險(第10次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1100050號函備查,安達精字第1150000095號函備查",
+            "at": "2026-11-26T14:01:22+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ju-fu-chuan-jia-usd-currency-vul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01566",
+      "name": "新聚富傳家變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A08123A11Z90000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A08123A11Z90000010",
+          "name": "安達人壽新聚富傳家變額萬能壽險(第10次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1100049號函備查,安達精字第1150000096號函備查",
+          "at": "2026-11-26T14:01:23+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A08123A11Z90000010",
+            "name": "安達人壽新聚富傳家變額萬能壽險(第10次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1100049號函備查,安達精字第1150000096號函備查",
+            "at": "2026-11-26T14:01:23+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ju-fu-chuan-jia-vul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01567",
+      "name": "新贏利高手美元變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A06723Z11Z90000015"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A06723Z11Z90000015",
+          "name": "安達人壽新贏利高手美元變額萬能壽險(第15次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1080004號函備查,安達精字第1150000103號函備查",
+          "at": "2026-11-26T14:01:25+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A06723Z11Z90000015",
+            "name": "安達人壽新贏利高手美元變額萬能壽險(第15次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1080004號函備查,安達精字第1150000103號函備查",
+            "at": "2026-11-26T14:01:25+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ying-li-kao-shou-usd-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01568",
+      "name": "新贏利高手變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A06623A11Z90000015"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A06623A11Z90000015",
+          "name": "安達人壽新贏利高手變額萬能壽險(第15次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1080003號函備查,安達精字第1150000104號函備查",
+          "at": "2026-11-26T14:01:26+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A06623A11Z90000015",
+            "name": "安達人壽新贏利高手變額萬能壽險(第15次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1080003號函備查,安達精字第1150000104號函備查",
+            "at": "2026-11-26T14:01:26+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ying-li-kao-shou-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01572",
+      "name": "新鑫享勢成變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A09723A11Z90000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A09723A11Z90000005",
+          "name": "安達人壽新鑫享勢成變額萬能壽險(第5次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1120000046號函備查,安達精字第1150000108號函備查",
+          "at": "2026-11-26T14:01:27+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A09723A11Z90000005",
+            "name": "安達人壽新鑫享勢成變額萬能壽險(第5次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1120000046號函備查,安達精字第1150000108號函備查",
+            "at": "2026-11-26T14:01:27+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/xin-xiang-shi-cheng-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01573",
+      "name": "新鑫龍星變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A05223A11Z90000014"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A05223A11Z90000014",
+          "name": "安達人壽新鑫龍星變額萬能壽險(第14次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1060032號函備查,安達精字第1150000109號函備查",
+          "at": "2026-11-26T14:01:29+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A05223A11Z90000014",
+            "name": "安達人壽新鑫龍星變額萬能壽險(第14次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1060032號函備查,安達精字第1150000109號函備查",
+            "at": "2026-11-26T14:01:29+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/xin-long-xing-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01574",
+      "name": "新闔家歡變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A02623A11Z90000020"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A02623A11Z90000020",
+          "name": "安達人壽新闔家歡變額萬能壽險(第20次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "中泰精字第1010137號函備查,安達精字第1150000102號函備查",
+          "at": "2026-11-26T14:01:30+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A02623A11Z90000020",
+            "name": "安達人壽新闔家歡變額萬能壽險(第20次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "中泰精字第1010137號函備查,安達精字第1150000102號函備查",
+            "at": "2026-11-26T14:01:30+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/he-jia-huan-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01579",
+      "name": "智匯贏家外幣變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A12323Z11Z90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A12323Z11Z90000001",
+          "name": "安達人壽智匯贏家外幣變額萬能壽險(第1次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1150000045號函備查,安達精字第1150000115號函備查",
+          "at": "2026-11-26T14:01:32+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A12323Z11Z90000001",
+            "name": "安達人壽智匯贏家外幣變額萬能壽險(第1次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1150000045號函備查,安達精字第1150000115號函備查",
+            "at": "2026-11-26T14:01:32+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/zhi-hui-ying-jia-foreign-currency-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01580",
+      "name": "智匯贏家變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A12223A11Z90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A12223A11Z90000001",
+          "name": "安達人壽智匯贏家變額萬能壽險(第1次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1150000044號函備查,安達精字第1150000114號函備查",
+          "at": "2026-11-26T14:01:33+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A12223A11Z90000001",
+            "name": "安達人壽智匯贏家變額萬能壽險(第1次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1150000044號函備查,安達精字第1150000114號函備查",
+            "at": "2026-11-26T14:01:33+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/zhi-hui-ying-jia-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01581",
+      "name": "智富贏家外幣變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A11923Z11Z90000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A11923Z11Z90000002",
+          "name": "安達人壽智富贏家外幣變額萬能壽險(第2次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1140000187號函備查,安達精字第1150000079號函備查",
+          "at": "2026-11-26T14:01:35+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A11923Z11Z90000002",
+            "name": "安達人壽智富贏家外幣變額萬能壽險(第2次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1140000187號函備查,安達精字第1150000079號函備查",
+            "at": "2026-11-26T14:01:35+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/zhi-fu-ying-jia-foreign-currency-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01582",
+      "name": "智富贏家變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A11823A11Z90000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A11823A11Z90000002",
+          "name": "安達人壽智富贏家變額萬能壽險(第2次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1140000186號函備查,安達精字第1150000081號函備查",
+          "at": "2026-11-26T14:01:36+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A11823A11Z90000002",
+            "name": "安達人壽智富贏家變額萬能壽險(第2次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1140000186號函備查,安達精字第1150000081號函備查",
+            "at": "2026-11-26T14:01:36+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/zhi-fu-ying-jia-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01585",
+      "name": "穩富贏家外幣變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A12123Z11Z90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A12123Z11Z90000001",
+          "name": "安達人壽穩富贏家外幣變額萬能壽險(第1次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1150000012號函備查,安達精字第1150000119號函備查",
+          "at": "2026-11-26T14:01:37+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A12123Z11Z90000001",
+            "name": "安達人壽穩富贏家外幣變額萬能壽險(第1次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1150000012號函備查,安達精字第1150000119號函備查",
+            "at": "2026-11-26T14:01:37+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/wun-fu-ying-jia-foreign-currency-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01586",
+      "name": "穩富贏家變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A12023A11Z90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A12023A11Z90000001",
+          "name": "安達人壽穩富贏家變額萬能壽險(第1次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1150000011號函備查,安達精字第1150000118號函備查",
+          "at": "2026-11-26T14:01:39+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A12023A11Z90000001",
+            "name": "安達人壽穩富贏家變額萬能壽險(第1次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1150000011號函備查,安達精字第1150000118號函備查",
+            "at": "2026-11-26T14:01:39+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/wun-fu-ying-jia-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01591",
+      "name": "金得益美元變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A10623Z11Z90000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A10623Z11Z90000007",
+          "name": "安達人壽金得益美元變額萬能壽險(第7次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1120000200號函備查,安達精字第1150000071號函備查",
+          "at": "2026-11-26T14:01:40+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A10623Z11Z90000007",
+            "name": "安達人壽金得益美元變額萬能壽險(第7次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1120000200號函備查,安達精字第1150000071號函備查",
+            "at": "2026-11-26T14:01:40+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/jin-de-yi-foreign-currency-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01592",
+      "name": "金得益變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A10523A11Z90000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A10523A11Z90000007",
+          "name": "安達人壽金得益變額萬能壽險(第7次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1120000199號函備查,安達精字第1150000073號函備查",
+          "at": "2026-11-26T14:01:42+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A10523A11Z90000007",
+            "name": "安達人壽金得益變額萬能壽險(第7次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1120000199號函備查,安達精字第1150000073號函備查",
+            "at": "2026-11-26T14:01:42+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/jin-de-yi-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01597",
+      "name": "鴻利鑫喜美元變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A10823Z11Z90000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A10823Z11Z90000005",
+          "name": "安達人壽鴻利鑫喜美元變額萬能壽險(第5次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1130000023號函備查,安達精字第1150000110號函備查",
+          "at": "2026-11-26T14:01:43+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A10823Z11Z90000005",
+            "name": "安達人壽鴻利鑫喜美元變額萬能壽險(第5次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1130000023號函備查,安達精字第1150000110號函備查",
+            "at": "2026-11-26T14:01:43+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/hong-li-xin-xi-foreign-currency-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01598",
+      "name": "鴻利鑫喜變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A10723A11Z90000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MV1A10723A11Z90000005",
+          "name": "安達人壽鴻利鑫喜變額萬能壽險(第5次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1130000022號函備查,安達精字第1150000111號函備查",
+          "at": "2026-11-26T14:01:45+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MV1A10723A11Z90000005",
+            "name": "安達人壽鴻利鑫喜變額萬能壽險(第5次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1130000022號函備查,安達精字第1150000111號函備查",
+            "at": "2026-11-26T14:01:45+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/hong-li-xin-xi-ul.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01603",
+      "name": "新優越外幣變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A05623Z11Z90000014"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256421MV1A05623Z11Z90000014",
+          "name": "安達人壽新優越外幣變額年金保險(第14次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1060035號函備查,安達精字第1150000099號函備查",
+          "at": "2026-11-26T14:01:46+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256421MV1A05623Z11Z90000014",
+            "name": "安達人壽新優越外幣變額年金保險(第14次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1060035號函備查,安達精字第1150000099號函備查",
+            "at": "2026-11-26T14:01:46+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/you-yue-foreign-currency-va.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01604",
+      "name": "新優越變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A05523A11Z90000014"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256421MV1A05523A11Z90000014",
+          "name": "安達人壽新優越變額年金保險(第14次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1060034號函備查,安達精字第1150000100號函備查",
+          "at": "2026-11-26T14:01:48+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256421MV1A05523A11Z90000014",
+            "name": "安達人壽新優越變額年金保險(第14次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1060034號函備查,安達精字第1150000100號函備查",
+            "at": "2026-11-26T14:01:48+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/you-yueva.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01605",
+      "name": "新天生贏家 Plus 外幣變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A07123Z11Z90000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256421MV1A07123Z11Z90000012",
+          "name": "安達人壽新天生贏家Plus外幣變額年金保險(第12次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1090063號函備查,安達精字第1150000082號函備查",
+          "at": "2026-11-26T14:01:49+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256421MV1A07123Z11Z90000012",
+            "name": "安達人壽新天生贏家Plus外幣變額年金保險(第12次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1090063號函備查,安達精字第1150000082號函備查",
+            "at": "2026-11-26T14:01:49+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/ten-sheng-ying-jia-plus-foreign-currency-va.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01606",
+      "name": "新天生贏家 Plus 變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A07023A11Z90000013"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256421MV1A07023A11Z90000013",
+          "name": "安達人壽新天生贏家Plus變額年金保險(第13次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1090062號函備查,安達精字第1150000084號函備查",
+          "at": "2026-11-26T12:19:23+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256421MV1A07023A11Z90000013",
+            "name": "安達人壽新天生贏家Plus變額年金保險(第13次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1090062號函備查,安達精字第1150000084號函備查",
+            "at": "2026-11-26T12:19:23+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/ten-sheng-ying-jia-plus-va.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01607",
+      "name": "新好得利外幣變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A03823Z11Z90000019"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256421MV1A03823Z11Z90000019",
+          "name": "安達人壽新好得利外幣變額年金保險(第19次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "中泰精字第1030061號函備查,安達精字第1150000086號函備查",
+          "at": "2026-11-26T14:01:51+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256421MV1A03823Z11Z90000019",
+            "name": "安達人壽新好得利外幣變額年金保險(第19次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "中泰精字第1030061號函備查,安達精字第1150000086號函備查",
+            "at": "2026-11-26T14:01:51+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/ho-de-li-foreign-currency-va.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01608",
+      "name": "新好得利變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A03723A11Z90000018"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256421MV1A03723A11Z90000018",
+          "name": "安達人壽新好得利變額年金保險(第18次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "中泰精字第1030060號函備查,安達精字第1150000088號函備查",
+          "at": "2026-11-26T14:01:52+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256421MV1A03723A11Z90000018",
+            "name": "安達人壽新好得利變額年金保險(第18次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "中泰精字第1030060號函備查,安達精字第1150000088號函備查",
+            "at": "2026-11-26T14:01:52+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/ho-de-li-va.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01615",
+      "name": "新聚寶盆美元變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A08223Z11Z90000009"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256421MV1A08223Z11Z90000009",
+          "name": "安達人壽新聚寶盆美元變額年金保險(第9次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1090255號函備查,安達精字第1150000097號函備查",
+          "at": "2026-11-26T14:01:54+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256421MV1A08223Z11Z90000009",
+            "name": "安達人壽新聚寶盆美元變額年金保險(第9次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1090255號函備查,安達精字第1150000097號函備查",
+            "at": "2026-11-26T14:01:54+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/ju-bao-pen-usd-currency-va.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01616",
+      "name": "新聚寶盆變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A06323A11Z90000015"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256421MV1A06323A11Z90000015",
+          "name": "安達人壽新聚寶盆變額年金保險(第15次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1060109號函備查,安達精字第1150000098號函備查",
+          "at": "2026-11-26T14:01:55+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256421MV1A06323A11Z90000015",
+            "name": "安達人壽新聚寶盆變額年金保險(第15次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1060109號函備查,安達精字第1150000098號函備查",
+            "at": "2026-11-26T14:01:55+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/ju-bao-pen-va.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01620",
+      "name": "新鑫享勢成變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A09523A11Z90000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256421MV1A09523A11Z90000005",
+          "name": "安達人壽新鑫享勢成變額年金保險(第5次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1120000044號函備查,安達精字第1150000107號函備查",
+          "at": "2026-11-26T14:01:57+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256421MV1A09523A11Z90000005",
+            "name": "安達人壽新鑫享勢成變額年金保險(第5次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1120000044號函備查,安達精字第1150000107號函備查",
+            "at": "2026-11-26T14:01:57+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/xin-xiang-shi-cheng-va.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01621",
+      "name": "新闔家歡變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A03023A11Z90000019"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256421MV1A03023A11Z90000019",
+          "name": "安達人壽新闔家歡變額年金保險(第19次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "中泰精字第1010136號函備查,安達精字第1150000101號函備查",
+          "at": "2026-11-26T14:01:58+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256421MV1A03023A11Z90000019",
+            "name": "安達人壽新闔家歡變額年金保險(第19次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "中泰精字第1010136號函備查,安達精字第1150000101號函備查",
+            "at": "2026-11-26T14:01:58+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/he-jia-huan-va.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01622",
+      "name": "智匯贏家外幣變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A11223Z11Z90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256421MV1A11223Z11Z90000001",
+          "name": "安達人壽智匯贏家外幣變額年金保險(第1次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1150000043號函備查,安達精字第1150000113號函備查",
+          "at": "2026-11-26T14:01:59+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256421MV1A11223Z11Z90000001",
+            "name": "安達人壽智匯贏家外幣變額年金保險(第1次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1150000043號函備查,安達精字第1150000113號函備查",
+            "at": "2026-11-26T14:01:59+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/zhi-hui-ying-jia-foreign-currency-va.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01623",
+      "name": "智匯贏家變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A11123A11Z90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256421MV1A11123A11Z90000001",
+          "name": "安達人壽智匯贏家變額年金保險(第1次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1150000042號函備查,安達精字第1150000112號函備查",
+          "at": "2026-11-26T14:02:01+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256421MV1A11123A11Z90000001",
+            "name": "安達人壽智匯贏家變額年金保險(第1次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1150000042號函備查,安達精字第1150000112號函備查",
+            "at": "2026-11-26T14:02:01+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/zhi-hui-ying-jia-va.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01626",
+      "name": "穩富贏家外幣變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A11023Z11Z90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256421MV1A11023Z11Z90000001",
+          "name": "安達人壽穩富贏家外幣變額年金保險(第1次部分變更)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/7/15",
+          "filing_no": "安達精字第1150000010號函備查,安達精字第1150000117號函備查",
+          "at": "2026-11-26T14:02:02+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256421MV1A11023Z11Z90000001",
+            "name": "安達人壽穩富贏家外幣變額年金保險(第1次部分變更)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/7/15",
+            "filing_no": "安達精字第1150000010號函備查,安達精字第1150000117號函備查",
+            "at": "2026-11-26T14:02:02+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/wun-fu-ying-jia-foreign-currency-va.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01660",
+      "name": "法商法國巴黎人壽珍美鴻運外幣分紅終身壽險(定期給付型)",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-17",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267131MZ1A00423B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267131MZ1A00423B11Z10000000",
+          "name": "法商法國巴黎人壽珍美鴻運外幣分紅終身壽險(定期給付型)",
+          "sale": "115/07/17",
+          "stop": "未停售",
+          "filing_date": "115/07/17",
+          "filing_no": "巴黎壽字第1150001696號",
+          "at": "2026-11-26T14:02:04+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267131MZ1A00423B11Z10000000",
+            "name": "法商法國巴黎人壽珍美鴻運外幣分紅終身壽險(定期給付型)",
+            "sale": "115/07/17",
+            "stop": "未停售",
+            "filing_date": "115/07/17",
+            "filing_no": "巴黎壽字第1150001696號",
+            "at": "2026-11-26T14:02:04+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.cardif.com.tw/documents/418719/4065068/PRU04A21_Provision.pdf/80c7876b-90d7-7ad6-ab9e-160db1d60c76?t=1784254371658",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-17",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01667",
+      "name": "法商法國巴黎人壽鴻運滿滿分紅終身保險(定期給付型)",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-09-04",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267121MZ1A00423A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267121MZ1A00423A11Z10000000",
+          "name": "法商法國巴黎人壽鴻運滿滿分紅終身保險(定期給付型)",
+          "sale": "115/09/04",
+          "stop": "未停售",
+          "filing_date": "115/09/04",
+          "filing_no": "巴黎壽字第1150002372號",
+          "at": "2026-11-26T14:02:05+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267121MZ1A00423A11Z10000000",
+            "name": "法商法國巴黎人壽鴻運滿滿分紅終身保險(定期給付型)",
+            "sale": "115/09/04",
+            "stop": "未停售",
+            "filing_date": "115/09/04",
+            "filing_no": "巴黎壽字第1150002372號",
+            "at": "2026-11-26T14:02:05+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.cardif.com.tw/documents/418719/4065068/PCT04A01_Provision.pdf/8933b12d-a696-f186-9b25-4d6f9078ab1a?t=1788424331757",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-09-04",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01672",
+      "name": "法商法國巴黎人壽享富足外幣變額年金保險(乙型)",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267421MV1A14423Z11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267421MV1A14423Z11C90000000",
+          "name": "法商法國巴黎人壽享富足外幣變額年金保險(乙型)",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/07/15",
+          "filing_no": "巴黎壽字第1150001599號",
+          "at": "2026-11-26T14:02:07+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267421MV1A14423Z11C90000000",
+            "name": "法商法國巴黎人壽享富足外幣變額年金保險(乙型)",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/07/15",
+            "filing_no": "巴黎壽字第1150001599號",
+            "at": "2026-11-26T14:02:07+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.cardif.com.tw/documents/418719/462100/XA0092_Provision.pdf/8cd42a63-7b95-ae56-dfc8-fa081836fd7b?t=1784099718272",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01673",
+      "name": "法商法國巴黎人壽享富足外幣變額萬能壽險",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267131MV1A14823Z11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267131MV1A14823Z11C90000000",
+          "name": "法商法國巴黎人壽享富足外幣變額萬能壽險",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/07/15",
+          "filing_no": "巴黎壽字第1150001600號",
+          "at": "2026-11-26T14:02:08+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267131MV1A14823Z11C90000000",
+            "name": "法商法國巴黎人壽享富足外幣變額萬能壽險",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/07/15",
+            "filing_no": "巴黎壽字第1150001600號",
+            "at": "2026-11-26T14:02:08+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.cardif.com.tw/documents/418719/462100/XL0092_Provision.pdf/840142ea-2a69-50a0-82b9-33aac4e39807?t=1784099706976",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01674",
+      "name": "法商法國巴黎人壽享富足變額年金保險",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267421MV1A14323A11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267421MV1A14323A11C90000000",
+          "name": "法商法國巴黎人壽享富足變額年金保險",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/07/15",
+          "filing_no": "巴黎壽字第1150001597號",
+          "at": "2026-11-26T14:02:10+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267421MV1A14323A11C90000000",
+            "name": "法商法國巴黎人壽享富足變額年金保險",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/07/15",
+            "filing_no": "巴黎壽字第1150001597號",
+            "at": "2026-11-26T14:02:10+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.cardif.com.tw/documents/418719/462100/UA0092_Provision.pdf/0f6d7c34-5dcb-4085-4284-3927d56c6de8?t=1784099739898",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01675",
+      "name": "法商法國巴黎人壽享富足變額萬能壽險",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267131MV1A14723A11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267131MV1A14723A11C90000000",
+          "name": "法商法國巴黎人壽享富足變額萬能壽險",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_date": "115/07/15",
+          "filing_no": "巴黎壽字第1150001598號",
+          "at": "2026-11-26T14:02:11+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267131MV1A14723A11C90000000",
+            "name": "法商法國巴黎人壽享富足變額萬能壽險",
+            "sale": "115/07/15",
+            "stop": "未停售",
+            "filing_date": "115/07/15",
+            "filing_no": "巴黎壽字第1150001598號",
+            "at": "2026-11-26T14:02:11+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.cardif.com.tw/documents/418719/462100/UL0092_Provision.pdf/38fb6018-122b-0eaf-aded-889a69fadeba?t=1784099728926",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01677",
+      "name": "法商法國巴黎人壽價值大師外幣變額年金保險(乙型)",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-21",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267421MV1A14623B11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267421MV1A14623B11C90000000",
+          "name": "法商法國巴黎人壽價值大師外幣變額年金保險(乙型)",
+          "sale": "115/08/21",
+          "stop": "未停售",
+          "filing_date": "115/08/21",
+          "filing_no": "巴黎壽字第1150001652號",
+          "at": "2026-11-26T14:02:12+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267421MV1A14623B11C90000000",
+            "name": "法商法國巴黎人壽價值大師外幣變額年金保險(乙型)",
+            "sale": "115/08/21",
+            "stop": "未停售",
+            "filing_date": "115/08/21",
+            "filing_no": "巴黎壽字第1150001652號",
+            "at": "2026-11-26T14:02:12+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.cardif.com.tw/documents/418719/462100/XA0093_Provision.pdf/18b6a075-ca33-d17a-7db2-7a1a2a50762e?t=1787277155753",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-08-21",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01678",
+      "name": "法商法國巴黎人壽價值大師變額年金保險",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-21",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267421MV1A14523A11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267421MV1A14523A11C90000000",
+          "name": "法商法國巴黎人壽價值大師變額年金保險",
+          "sale": "115/08/21",
+          "stop": "未停售",
+          "filing_date": "115/08/21",
+          "filing_no": "巴黎壽字第1150001650號",
+          "at": "2026-11-26T12:48:06+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267421MV1A14523A11C90000000",
+            "name": "法商法國巴黎人壽價值大師變額年金保險",
+            "sale": "115/08/21",
+            "stop": "未停售",
+            "filing_date": "115/08/21",
+            "filing_no": "巴黎壽字第1150001650號",
+            "at": "2026-11-26T12:48:06+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.cardif.com.tw/documents/418719/462100/UA0093_Provision.pdf/28bb1500-59c2-a022-caf7-11357832e81f?t=1787277135500",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-08-21",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01700",
+      "name": "法商法國巴黎人壽滿鑫欣喜外幣變額年金保險(乙型)",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-31",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267421MV1A14823Z11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267421MV1A14823Z11C90000000",
+          "name": "法商法國巴黎人壽滿鑫欣喜外幣變額年金保險(乙型)",
+          "sale": "115/08/31",
+          "stop": "未停售",
+          "filing_date": "115/08/31",
+          "filing_no": "巴黎壽字第1150002241號",
+          "at": "2026-11-26T14:02:14+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267421MV1A14823Z11C90000000",
+            "name": "法商法國巴黎人壽滿鑫欣喜外幣變額年金保險(乙型)",
+            "sale": "115/08/31",
+            "stop": "未停售",
+            "filing_date": "115/08/31",
+            "filing_no": "巴黎壽字第1150002241號",
+            "at": "2026-11-26T14:02:14+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.cardif.com.tw/documents/418719/462100/XA0094_Provision.pdf/04c54852-84e8-726a-407b-56a9d8c05a05?t=1788140944224",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-08-31",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01701",
+      "name": "法商法國巴黎人壽滿鑫欣喜外幣變額萬能壽險",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-31",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267131MV1A15223Z11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267131MV1A15223Z11C90000000",
+          "name": "法商法國巴黎人壽滿鑫欣喜外幣變額萬能壽險",
+          "sale": "115/08/31",
+          "stop": "未停售",
+          "filing_date": "115/08/31",
+          "filing_no": "巴黎壽字第1150002242號",
+          "at": "2026-11-26T14:02:15+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267131MV1A15223Z11C90000000",
+            "name": "法商法國巴黎人壽滿鑫欣喜外幣變額萬能壽險",
+            "sale": "115/08/31",
+            "stop": "未停售",
+            "filing_date": "115/08/31",
+            "filing_no": "巴黎壽字第1150002242號",
+            "at": "2026-11-26T14:02:15+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.cardif.com.tw/documents/418719/462100/XL0094_Provision.pdf/fc91b9bd-5334-4a2a-8b9f-3a42b1efc691?t=1788140928858",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-08-31",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01702",
+      "name": "法商法國巴黎人壽滿鑫欣喜變額年金保險",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-31",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267421MV1A14723A11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267421MV1A14723A11C90000000",
+          "name": "法商法國巴黎人壽滿鑫欣喜變額年金保險",
+          "sale": "115/08/31",
+          "stop": "未停售",
+          "filing_date": "115/08/31",
+          "filing_no": "巴黎壽字第1150002239號",
+          "at": "2026-11-26T14:02:17+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267421MV1A14723A11C90000000",
+            "name": "法商法國巴黎人壽滿鑫欣喜變額年金保險",
+            "sale": "115/08/31",
+            "stop": "未停售",
+            "filing_date": "115/08/31",
+            "filing_no": "巴黎壽字第1150002239號",
+            "at": "2026-11-26T14:02:17+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.cardif.com.tw/documents/418719/462100/UA0094_Provision.pdf/478ebef7-9a0e-5267-cc56-cab57a92442d?t=1788140973485",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-08-31",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01703",
+      "name": "法商法國巴黎人壽滿鑫欣喜變額萬能壽險",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-31",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267131MV1A15123A11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267131MV1A15123A11C90000000",
+          "name": "法商法國巴黎人壽滿鑫欣喜變額萬能壽險",
+          "sale": "115/08/31",
+          "stop": "未停售",
+          "filing_date": "115/08/31",
+          "filing_no": "巴黎壽字第1150002240號",
+          "at": "2026-11-26T14:02:18+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267131MV1A15123A11C90000000",
+            "name": "法商法國巴黎人壽滿鑫欣喜變額萬能壽險",
+            "sale": "115/08/31",
+            "stop": "未停售",
+            "filing_date": "115/08/31",
+            "filing_no": "巴黎壽字第1150002240號",
+            "at": "2026-11-26T14:02:18+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.cardif.com.tw/documents/418719/462100/UL0094_Provision.pdf/7e31d3b6-7109-9454-5a7d-96ad4c6b77a7?t=1788140959926",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-08-31",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01735",
+      "name": "法商法國巴黎人壽價值大師外幣變額萬能壽險",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-21",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267131MV1A15023B11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267131MV1A15023B11C90000000",
+          "name": "法商法國巴黎人壽價值大師外幣變額萬能壽險",
+          "sale": "115/08/21",
+          "stop": "未停售",
+          "filing_date": "115/08/21",
+          "filing_no": "巴黎壽字第1150001653號",
+          "at": "2026-11-26T14:02:20+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267131MV1A15023B11C90000000",
+            "name": "法商法國巴黎人壽價值大師外幣變額萬能壽險",
+            "sale": "115/08/21",
+            "stop": "未停售",
+            "filing_date": "115/08/21",
+            "filing_no": "巴黎壽字第1150001653號",
+            "at": "2026-11-26T14:02:20+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.cardif.com.tw/documents/418719/462100/XL0093_Provision.pdf/e7a782f5-9ae1-bfc8-77d5-44c96a749a2a?t=1787277164290",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-08-21",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01736",
+      "name": "法商法國巴黎人壽價值大師變額萬能壽險",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-21",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267131MV1A14923A11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267131MV1A14923A11C90000000",
+          "name": "法商法國巴黎人壽價值大師變額萬能壽險",
+          "sale": "115/08/21",
+          "stop": "未停售",
+          "filing_date": "115/08/21",
+          "filing_no": "巴黎壽字第1150001651號",
+          "at": "2026-11-26T14:02:21+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267131MV1A14923A11C90000000",
+            "name": "法商法國巴黎人壽價值大師變額萬能壽險",
+            "sale": "115/08/21",
+            "stop": "未停售",
+            "filing_date": "115/08/21",
+            "filing_no": "巴黎壽字第1150001651號",
+            "at": "2026-11-26T14:02:21+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.cardif.com.tw/documents/418719/462100/UL0093_Provision.pdf/e6bf6d51-82d2-d7ac-a476-e05c86c8196a?t=1787277145648",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-08-21",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01823",
+      "name": "臺銀人壽軍人軍眷照護終身醫療健康保險",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-09-30",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201311MZ1B0JR23A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "201311MZ1B0JR23A11Z10000000",
+          "name": "臺銀人壽軍人軍眷照護終身醫療健康保險",
+          "sale": "115/09/30",
+          "stop": "未停售",
+          "filing_date": "115/09/21",
+          "filing_no": "壽險精字第1150540212號函備查,金管保壽字第1150431279號",
+          "at": "2026-11-26T14:02:23+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "201311MZ1B0JR23A11Z10000000",
+            "name": "臺銀人壽軍人軍眷照護終身醫療健康保險",
+            "sale": "115/09/30",
+            "stop": "未停售",
+            "filing_date": "115/09/21",
+            "filing_no": "壽險精字第1150540212號函備查,金管保壽字第1150431279號",
+            "at": "2026-11-26T14:02:23+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/5-2.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-09-30",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01842",
+      "name": "臺銀人壽美添旺美元養老保險(定期給付型)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-09-22",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201121MZ1A0XJ22B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "201121MZ1A0XJ22B11Z10000000",
+          "name": "臺銀人壽美添旺美元養老保險(定期給付型)",
+          "sale": "115/09/22",
+          "stop": "未停售",
+          "filing_date": "115/09/22",
+          "filing_no": "壽險精字第1150540237號函備查",
+          "at": "2026-11-26T14:02:24+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "201121MZ1A0XJ22B11Z10000000",
+            "name": "臺銀人壽美添旺美元養老保險(定期給付型)",
+            "sale": "115/09/22",
+            "stop": "未停售",
+            "filing_date": "115/09/22",
+            "filing_no": "壽險精字第1150540237號函備查",
+            "at": "2026-11-26T14:02:24+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/5-2.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-09-22",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01848",
+      "name": "臺銀人壽金美永傳美元利率變動型終身壽險(定期給付型)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-31",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MA1A0XE23B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "201131MA1A0XE23B11Z10000002",
+          "name": "臺銀人壽金美永傳美元利率變動型終身壽險(定期給付型)(第2次部分變更)",
+          "sale": "115/07/31",
+          "stop": "未停售",
+          "filing_date": "115/07/31",
+          "filing_no": "壽險精字第1140540057號函備查,壽險精字第1150540169號函備查",
+          "at": "2026-11-26T14:02:26+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "201131MA1A0XE23B11Z10000002",
+            "name": "臺銀人壽金美永傳美元利率變動型終身壽險(定期給付型)(第2次部分變更)",
+            "sale": "115/07/31",
+            "stop": "未停售",
+            "filing_date": "115/07/31",
+            "filing_no": "壽險精字第1140540057號函備查,壽險精字第1150540169號函備查",
+            "at": "2026-11-26T14:02:26+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/5-2.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-31",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01852",
+      "name": "臺銀人壽金馬旺利率變動型終身壽險(定期給付型)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-09-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MA1A0JQ23A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "201131MA1A0JQ23A11Z10000000",
+          "name": "臺銀人壽金馬旺利率變動型終身壽險(定期給付型)",
+          "sale": "115/09/01",
+          "stop": "未停售",
+          "filing_date": "115/09/01",
+          "filing_no": "壽險精字第1150540211號函備查",
+          "at": "2026-11-26T14:02:27+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "201131MA1A0JQ23A11Z10000000",
+            "name": "臺銀人壽金馬旺利率變動型終身壽險(定期給付型)",
+            "sale": "115/09/01",
+            "stop": "未停售",
+            "filing_date": "115/09/01",
+            "filing_no": "壽險精字第1150540211號函備查",
+            "at": "2026-11-26T14:02:27+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/5-2.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-09-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02719",
+      "name": "遠雄人壽傳富盛匯美元利率變動型終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "YA1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-31",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA9B42523B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA9B42523B11Z10000000",
+          "name": "遠雄人壽傳富盛匯美元利率變動型終身壽險",
+          "sale": "115/07/31",
+          "stop": "未停售",
+          "filing_date": "115/07/31",
+          "filing_no": "遠壽字第1150011242號函",
+          "at": "2026-11-26T14:02:29+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA9B42523B11Z10000000",
+            "name": "遠雄人壽傳富盛匯美元利率變動型終身壽險",
+            "sale": "115/07/31",
+            "stop": "未停售",
+            "filing_date": "115/07/31",
+            "filing_no": "遠壽字第1150011242號函",
+            "at": "2026-11-26T14:02:29+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=YA1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-31",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02720",
+      "name": "遠雄人壽傳富美加佳美元利率變動型終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "YC1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-31",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A42623B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA1A42623B11Z10000000",
+          "name": "遠雄人壽傳富美加佳美元利率變動型終身壽險",
+          "sale": "115/07/31",
+          "stop": "未停售",
+          "filing_date": "115/07/31",
+          "filing_no": "遠壽字第1150011241號函",
+          "at": "2026-11-26T14:02:30+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA1A42623B11Z10000000",
+            "name": "遠雄人壽傳富美加佳美元利率變動型終身壽險",
+            "sale": "115/07/31",
+            "stop": "未停售",
+            "filing_date": "115/07/31",
+            "filing_no": "遠壽字第1150011241號函",
+            "at": "2026-11-26T14:02:30+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=YC1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-31",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02735",
+      "name": "遠雄人壽傳富雄保倍３利率變動型終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "WZ1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-09-30",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A42923A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA1A42923A11Z10000000",
+          "name": "遠雄人壽傳富雄保倍３利率變動型終身壽險",
+          "sale": "115/09/30",
+          "stop": "未停售",
+          "filing_date": "115/09/30",
+          "filing_no": "遠壽字第1150015657號函",
+          "at": "2026-11-26T14:02:32+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA1A42923A11Z10000000",
+            "name": "遠雄人壽傳富雄保倍３利率變動型終身壽險",
+            "sale": "115/09/30",
+            "stop": "未停售",
+            "filing_date": "115/09/30",
+            "filing_no": "遠壽字第1150015657號函",
+            "at": "2026-11-26T14:02:32+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=WZ1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-09-30",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02758",
+      "name": "遠雄人壽美滿雄得利利率變動型增額終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "WX1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-31",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A42223A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA1A42223A11Z10000000",
+          "name": "遠雄人壽美滿雄得利利率變動型增額終身壽險",
+          "sale": "115/07/31",
+          "stop": "未停售",
+          "filing_date": "115/07/31",
+          "filing_no": "遠壽字第1150010166號函",
+          "at": "2026-11-26T14:02:33+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA1A42223A11Z10000000",
+            "name": "遠雄人壽美滿雄得利利率變動型增額終身壽險",
+            "sale": "115/07/31",
+            "stop": "未停售",
+            "filing_date": "115/07/31",
+            "filing_no": "遠壽字第1150010166號函",
+            "at": "2026-11-26T14:02:33+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=WX1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-31",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02761",
+      "name": "遠雄人壽美滿雄福利３利率變動型增額終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "WY1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-10-06",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA2A43223A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA2A43223A11Z10000000",
+          "name": "遠雄人壽美滿雄福利３利率變動型增額終身壽險",
+          "sale": "115/10/06",
+          "stop": "未停售",
+          "filing_date": "115/10/06",
+          "filing_no": "遠壽字第1150015762號函",
+          "at": "2026-11-26T14:02:34+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA2A43223A11Z10000000",
+            "name": "遠雄人壽美滿雄福利３利率變動型增額終身壽險",
+            "sale": "115/10/06",
+            "stop": "未停售",
+            "filing_date": "115/10/06",
+            "filing_no": "遠壽字第1150015762號函",
+            "at": "2026-11-26T14:02:34+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=WY1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-10-06",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02784",
+      "name": "遠雄人壽美滿優固利美元養老保險",
+      "insurer": "遠雄人壽",
+      "site_code": "YH1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-09-30",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216121MZ1A43122B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：近期現售品項即時覆核（本站現售且銷售日 ≥ 2026-07-01，距 11/08 快取最可能有變動）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216121MZ1A43122B11Z10000000",
+          "name": "遠雄人壽美滿優固利美元養老保險",
+          "sale": "115/09/30",
+          "stop": "未停售",
+          "filing_date": "115/09/30",
+          "filing_no": "遠壽字第1150015582號函",
+          "at": "2026-11-26T14:02:36+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216121MZ1A43122B11Z10000000",
+            "name": "遠雄人壽美滿優固利美元養老保險",
+            "sale": "115/09/30",
+            "stop": "未停售",
+            "filing_date": "115/09/30",
+            "filing_no": "遠壽字第1150015582號函",
+            "at": "2026-11-26T14:02:36+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=YH1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-09-30",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    }
+  ]
+}
