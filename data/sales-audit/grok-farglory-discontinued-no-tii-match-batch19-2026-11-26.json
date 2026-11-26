@@ -1,0 +1,1630 @@
+{
+  "batch_id": "grok-farglory-discontinued-no-tii-match-batch19-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T12:52:10+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": {
+    "description": "遠雄人壽停售、缺販售日、保發中心無同名商品（276 筆之第 1/5 組）",
+    "ids": 55
+  },
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": "比對保發中心壽險全表快取（2026-11-08）與即時列表取樣；找不到遠雄人壽（含前身）同名商品者，不以備查日或他公司同名商品推測，全數移交 GPT。",
+  "summary": {
+    "待核對": 55,
+    "total": 55,
+    "items_with_proposed_changes": 0
+  },
+  "items": [
+    {
+      "product_id": "01873",
+      "name": "全福醫療保險附約(RBB)",
+      "insurer": "遠雄人壽",
+      "site_code": "#RBB",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23RBB&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：全福醫療保險附約；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "01874",
+      "name": "全福醫療保險附約(RBC)",
+      "insurer": "遠雄人壽",
+      "site_code": "#RBC",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23RBC&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：全福醫療保險附約；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "01875",
+      "name": "失能豁免保險費附約(RWP)",
+      "insurer": "遠雄人壽",
+      "site_code": "#RWP",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23RWP&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：失能豁免保險費附約；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "01882",
+      "name": "安心醫療保險附約(RSI)",
+      "insurer": "遠雄人壽",
+      "site_code": "#RSI",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23RSI&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：安心醫療保險附約；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "01905",
+      "name": "癌症終身健康保險(BCA)",
+      "insurer": "遠雄人壽",
+      "site_code": "#BCA",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23BCA&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：癌症終身健康保險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "保德信國際人壽癌症終身健"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "01906",
+      "name": "癌症終身健康保險(HCA)",
+      "insurer": "遠雄人壽",
+      "site_code": "#HCA",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23HCA&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：癌症終身健康保險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "保德信國際人壽癌症終身健"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "01910",
+      "name": "蘇黎世住院醫療保險附約(IHI)",
+      "insurer": "遠雄人壽",
+      "site_code": "#IHI",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23IHI&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世住院醫療保險附約；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "全球人壽住院醫療保險附約",
+          "南山人壽住院醫療保險附約",
+          "友邦人壽住院醫療保險附約",
+          "國寶人壽住院醫療保險附約",
+          "宏泰人壽住院醫療保險附約"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "01911",
+      "name": "蘇黎世癌症住院醫療日額給付保險附約(ICHI)",
+      "insurer": "遠雄人壽",
+      "site_code": "#ICHI",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23ICHI&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世癌症住院醫療日額給付保險附約；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "01912",
+      "name": "蘇黎世癌症終身健康保險(CA)1",
+      "insurer": "遠雄人壽",
+      "site_code": "#CA1",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23CA1&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世癌症終身健康保險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "保德信國際人壽癌症終身健"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "01913",
+      "name": "蘇黎世癌症終身健康保險(CA)3",
+      "insurer": "遠雄人壽",
+      "site_code": "#CA3",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23CA3&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世癌症終身健康保險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "保德信國際人壽癌症終身健"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "01914",
+      "name": "蘇黎世癌症終身健康保險(CA)4",
+      "insurer": "遠雄人壽",
+      "site_code": "#CA4",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23CA4&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世癌症終身健康保險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "保德信國際人壽癌症終身健"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "01915",
+      "name": "蘇黎世癌症終身健康保險(CA)5",
+      "insurer": "遠雄人壽",
+      "site_code": "#CA5",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23CA5&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世癌症終身健康保險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "保德信國際人壽癌症終身健"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "01916",
+      "name": "蘇黎世豁免保險費附約(SWA)1",
+      "insurer": "遠雄人壽",
+      "site_code": "#SWA1",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23SWA1&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世豁免保險費附約；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "保德信國際人壽豁免保險費",
+          "元大人壽豁免保險費附約(",
+          "新光人壽豁免保險費附約",
+          "新光人壽豁免保險費附約(",
+          "第一金人壽豁免保險費附約"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "01917",
+      "name": "蘇黎世豁免保險費附約(SWA)3",
+      "insurer": "遠雄人壽",
+      "site_code": "#SWA3",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23SWA3&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世豁免保險費附約；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "保德信國際人壽豁免保險費",
+          "元大人壽豁免保險費附約(",
+          "新光人壽豁免保險費附約",
+          "新光人壽豁免保險費附約(",
+          "第一金人壽豁免保險費附約"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "01918",
+      "name": "蘇黎世豁免保險費附約(SWA)4",
+      "insurer": "遠雄人壽",
+      "site_code": "#SWA4",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23SWA4&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世豁免保險費附約；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "保德信國際人壽豁免保險費",
+          "元大人壽豁免保險費附約(",
+          "新光人壽豁免保險費附約",
+          "新光人壽豁免保險費附約(",
+          "第一金人壽豁免保險費附約"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "01919",
+      "name": "蘇黎世豁免保險費附約(SWA)5",
+      "insurer": "遠雄人壽",
+      "site_code": "#SWA5",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23SWA5&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世豁免保險費附約；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "保德信國際人壽豁免保險費",
+          "元大人壽豁免保險費附約(",
+          "新光人壽豁免保險費附約",
+          "新光人壽豁免保險費附約(",
+          "第一金人壽豁免保險費附約"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "01920",
+      "name": "豁免保費附約(HA1)",
+      "insurer": "遠雄人壽",
+      "site_code": "#HA18",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23HA18&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：豁免保費附約；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02001",
+      "name": "防癌定期健康保險(THA)",
+      "insurer": "遠雄人壽",
+      "site_code": "#THA",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23THA&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：防癌定期健康保險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "宏泰人壽防癌定期健康保險"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02002",
+      "name": "防癌定期健康保險附約(RCT)",
+      "insurer": "遠雄人壽",
+      "site_code": "#RCT",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23RCT&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：防癌定期健康保險附約；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "宏泰人壽防癌定期健康保險"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02003",
+      "name": "防癌終身健康保險(LHB)",
+      "insurer": "遠雄人壽",
+      "site_code": "#LHB",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23LHB&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：防癌終身健康保險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "全球人壽防癌終身健康保險",
+          "宏泰人壽防癌終身健康保險"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02004",
+      "name": "防癌終身健康保險附約(RCW)",
+      "insurer": "遠雄人壽",
+      "site_code": "#RCW",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23RCW&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：防癌終身健康保險附約；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "中國人壽防癌終身健康保險",
+          "全球人壽防癌終身健康保險",
+          "安泰人壽防癌終身健康保險",
+          "宏利人壽防癌終身健康保險",
+          "宏泰人壽防癌終身健康保險"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02013",
+      "name": "※ ※ 殘廢程度與保險金給付表(主、附通用)951001",
+      "insurer": "遠雄人壽",
+      "site_code": "#DISABLED",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23DISABLED&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：※※殘廢程度與保險金給付表(主、附通用)951001；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02014",
+      "name": "人身傷害保險(乙型)(NPC)(MTIPA)",
+      "insurer": "遠雄人壽",
+      "site_code": "#NPC",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23NPC&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：人身傷害保險(乙型)(NPC)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02015",
+      "name": "人身傷害保險(海外加倍型)(NPD)(OSIPA)",
+      "insurer": "遠雄人壽",
+      "site_code": "#NPD",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23NPD&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：人身傷害保險(海外加倍型)(NPD)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02016",
+      "name": "人身傷害保險(甲型)(NPB)(PA01B)",
+      "insurer": "遠雄人壽",
+      "site_code": "#NPB",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23NPB&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：人身傷害保險(甲型)(NPB)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02017",
+      "name": "人身傷害保險附約(乙型)(JPC)(MTA)",
+      "insurer": "遠雄人壽",
+      "site_code": "#JPC",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23JPC&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：人身傷害保險附約(乙型)(JPC)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02018",
+      "name": "人身傷害保險附約(海外加倍型)(JPD)(OSA)",
+      "insurer": "遠雄人壽",
+      "site_code": "#JPD",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23JPD&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：人身傷害保險附約(海外加倍型)(JPD)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02019",
+      "name": "人身傷害保險附約(甲型)(JPB)(PA01I)",
+      "insurer": "遠雄人壽",
+      "site_code": "#JPB",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23JPB&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：人身傷害保險附約(甲型)(JPB)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02020",
+      "name": "傷害住院醫療日額附約(NHI)",
+      "insurer": "遠雄人壽",
+      "site_code": "#NHI",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23NHI&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：傷害住院醫療日額附約；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02021",
+      "name": "傷害保險(PHB~C)",
+      "insurer": "遠雄人壽",
+      "site_code": "#PHB",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23PHB&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：傷害保險(PHB~C)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02022",
+      "name": "傷害保險附約(RHB~C)",
+      "insurer": "遠雄人壽",
+      "site_code": "#RHB",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23RHB&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：傷害保險附約(RHB~C)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02023",
+      "name": "傷害醫療保險附約(MRA)(IMR)",
+      "insurer": "遠雄人壽",
+      "site_code": "#MRB",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23MRB&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：傷害醫療保險附約(MRA)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02024",
+      "name": "國內大眾運輸意外身故及完全失能保險金附加(PHF/RHF)",
+      "insurer": "遠雄人壽",
+      "site_code": "#PHF",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23PHF&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：國內大眾運輸意外身故及完全失能保險金附加(PHF/RHF)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02025",
+      "name": "意外傷害失能附約(RDI)",
+      "insurer": "遠雄人壽",
+      "site_code": "#RDI",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23RDI&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：意外傷害失能附約；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02028",
+      "name": "蘇黎世人身傷害保險(IPA)",
+      "insurer": "遠雄人壽",
+      "site_code": "#IPA",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23IPA&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世人身傷害保險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "元大人壽人身傷害保險(第",
+          "紐約人壽人身傷害保險",
+          "紐約人壽人身傷害保險(第",
+          "遠雄人壽人身傷害保險"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02029",
+      "name": "蘇黎世人身傷害保險(乙型)(MTIPA)",
+      "insurer": "遠雄人壽",
+      "site_code": "#MTIPA",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23MTIPA&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世人身傷害保險(乙型)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02030",
+      "name": "蘇黎世人身傷害保險(海外加倍型)OSIPA",
+      "insurer": "遠雄人壽",
+      "site_code": "#OSIPA",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23OSIPA&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世人身傷害保險(海外加倍型)OSIPA；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02031",
+      "name": "蘇黎世人身傷害保險(甲型)(PA0B1)",
+      "insurer": "遠雄人壽",
+      "site_code": "#PAOB1",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23PAOB1&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世人身傷害保險(甲型)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02032",
+      "name": "蘇黎世人身傷害保險附約(ADDIR)",
+      "insurer": "遠雄人壽",
+      "site_code": "#ADDIR",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23ADDIR&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世人身傷害保險附約；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "元大人壽人身傷害保險附約",
+          "紐約人壽人身傷害保險附約",
+          "遠雄人壽人身傷害保險附約"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02033",
+      "name": "蘇黎世人身傷害保險附約(乙型)(MTA)",
+      "insurer": "遠雄人壽",
+      "site_code": "#MTA",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23MTA&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世人身傷害保險附約(乙型)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02034",
+      "name": "蘇黎世人身傷害保險附約(海外加倍型)(OSA)",
+      "insurer": "遠雄人壽",
+      "site_code": "#OSA",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23OSA&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世人身傷害保險附約(海外加倍型)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02035",
+      "name": "蘇黎世人身傷害保險附約(甲型)(PA0)",
+      "insurer": "遠雄人壽",
+      "site_code": "#PAO",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23PAO&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：蘇黎世人身傷害保險附約(甲型)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02043",
+      "name": "一一五終身壽險(A、B型)(LFA~B)",
+      "insurer": "遠雄人壽",
+      "site_code": "#LFAB",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23LFAB&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：一一五終身壽險(A、B型)(LFA~B)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02045",
+      "name": "二十一世紀保險附約 A、B型(AEA、B)",
+      "insurer": "遠雄人壽",
+      "site_code": "#AEAB",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23AEAB&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：二十一世紀保險附約A、B型(AEA、B)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02046",
+      "name": "二十一世紀保險附約A、B型(REA~B)",
+      "insurer": "遠雄人壽",
+      "site_code": "#REAB",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23REAB&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：二十一世紀保險附約A、B型(REA~B)；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02048",
+      "name": "保本定期壽險(BLB)",
+      "insurer": "遠雄人壽",
+      "site_code": "#BLB",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23BLB&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：保本定期壽險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02049",
+      "name": "保本定期壽險(YLB)",
+      "insurer": "遠雄人壽",
+      "site_code": "#YLB",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23YLB&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：保本定期壽險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02050",
+      "name": "保本定期壽險(YLD)",
+      "insurer": "遠雄人壽",
+      "site_code": "#YLD",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23YLD&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：保本定期壽險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02057",
+      "name": "保障定期壽險(KTB)",
+      "insurer": "遠雄人壽",
+      "site_code": "#KTB",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23KTB&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：保障定期壽險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02058",
+      "name": "兒童保險(EAI)",
+      "insurer": "遠雄人壽",
+      "site_code": "#EAI",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23EAI&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：兒童保險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": [
+          "康健人壽兒童保險",
+          "新光人壽兒童保險",
+          "新光人壽兒童保險(第1次",
+          "新光人壽兒童保險(第2次"
+        ]
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02059",
+      "name": "八八萬歲保本壽險(BBK)",
+      "insurer": "遠雄人壽",
+      "site_code": "#BBK",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23BBK&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：八八萬歲保本壽險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02060",
+      "name": "八八萬歲保本壽險(LBK)",
+      "insurer": "遠雄人壽",
+      "site_code": "#LBK",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23LBK&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：八八萬歲保本壽險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02061",
+      "name": "八八萬歲增額壽險(BKK)",
+      "insurer": "遠雄人壽",
+      "site_code": "#BKK",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23BKK&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：八八萬歲增額壽險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02062",
+      "name": "八八萬歲增額壽險(LKK)",
+      "insurer": "遠雄人壽",
+      "site_code": "#LKK",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23LKK&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：八八萬歲增額壽險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    },
+    {
+      "product_id": "02063",
+      "name": "嘉富終身保險(YEF)",
+      "insurer": "遠雄人壽",
+      "site_code": "#YEF",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23YEF&termsKind=C",
+        "fetched_at": null,
+        "quoted": {
+          "說明": "本項未以官網條款判定日期：保發中心無對應商品，備查／修正日期不得作為販售日；條款未重新下載。"
+        }
+      },
+      "tii": {
+        "source": "保發中心壽險全表快取（2026-11-08，66,028 列）以商品名稱（去除代碼後：嘉富終身保險；及去除「蘇黎世」前綴之變體）比對遠雄人壽及前身公司（蘇黎世國際人壽、國寶人壽等）；並以 2026-11-26 即時工作階段取樣列表頁（約 66 頁取樣＋9 家公司區塊末段）確認自快取以來新增者皆為近期商品，無此類舊商品",
+        "family_live": [],
+        "cross_company_name_coincidences_not_used": []
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心全表中找不到遠雄人壽（或其前身蘇黎世國際人壽、國寶人壽）之同名商品；僅有他公司同名通用商品名稱（不得視為同一商品）。無保發中心銷售日可據，備查日不得作為販售日；未猜測",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json）"
+    }
+  ]
+}
