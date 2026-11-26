@@ -1,0 +1,1209 @@
+{
+  "batch_id": "grok-scope2-status-conflict-unsold-batch26-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T13:32:22+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": {
+    "description": "本站現售，保發中心即時頁顯示未銷售且全系列無未停售版本（18 筆）",
+    "ids": 18
+  },
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": "範圍2覆核：以本站現售商品所連結之保發中心版本為起點，於 2026-11-26 保發中心驗證碼工作階段 GET 即時詳細頁及同系列所有版本；與官網條款（遠雄／台灣／安聯 PDF）之文號與日期交叉比對。未經保發中心與官網雙重明文證據，不更改狀態；衝突移交 GPT。未對驗證碼做 OCR、未執行 submit。",
+  "summary": {
+    "狀態衝突": 18,
+    "total": 18,
+    "items_with_proposed_changes": 0
+  },
+  "items": [
+    {
+      "product_id": "06148",
+      "name": "台灣人壽金旺620人民幣利率變動型保險",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202121M21AFX000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202121M21AFX000",
+          "name": "台灣人壽金旺620人民幣利率變動型保險",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "103/06/03",
+          "filing_no": "金管保壽字第10302059640號核准",
+          "at": "2026-11-26T13:09:06+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202121M21AFX001",
+            "name": "台灣人壽金旺620人民幣利率變動型保險(第1次部分變更)",
+            "sale": "103/07/01",
+            "stop": "103/10/14",
+            "filing_date": "103/07/17",
+            "filing_no": "金管保壽字第10302059640號核准,台壽數一字第1030002545號備查",
+            "at": "2026-11-26T13:09:07+08:00"
+          },
+          {
+            "pid": "202121M21AFX000",
+            "name": "台灣人壽金旺620人民幣利率變動型保險",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "103/06/03",
+            "filing_no": "金管保壽字第10302059640號核准",
+            "at": "2026-11-26T13:09:06+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 2 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    },
+    {
+      "product_id": "06149",
+      "name": "台灣人壽鑫樂活變額年金保險",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202421MU1A65413A11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202421MU1A65413A11C90000000",
+          "name": "台灣人壽鑫樂活變額年金保險",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "107/02/02",
+          "filing_no": "金管保壽字第10704107410號函核准",
+          "at": "2026-11-26T13:09:09+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202421MU1A65423A11C90000001",
+            "name": "台灣人壽鑫樂活變額年金保險(第1次部分變更)",
+            "sale": "107/03/29",
+            "stop": "107/11/22",
+            "filing_date": "107/03/29",
+            "filing_no": "金管保壽字第10704107410號函核准,台壽字第1072330010號函備查修正",
+            "at": "2026-11-26T13:09:10+08:00"
+          },
+          {
+            "pid": "202421MU1A65423A11C90000002",
+            "name": "台灣人壽鑫樂活變額年金保險(第2次部分變更)",
+            "sale": "107/11/23",
+            "stop": "109/06/30",
+            "filing_date": "107/11/23",
+            "filing_no": "金管保壽字第10704107410號函核准,台壽字第1072330069號函備查修正",
+            "at": "2026-11-26T13:09:12+08:00"
+          },
+          {
+            "pid": "202421MU1A65423A11C90000003",
+            "name": "台灣人壽鑫樂活變額年金保險(第3次部分變更)",
+            "sale": "109/07/01",
+            "stop": "110/04/28",
+            "filing_date": "108/12/30",
+            "filing_no": "金管保壽字第10704107410號函核准,金管保壽字第1080439731號函",
+            "at": "2026-11-26T13:09:13+08:00"
+          },
+          {
+            "pid": "202421MU1A65413A11C90000000",
+            "name": "台灣人壽鑫樂活變額年金保險",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "107/02/02",
+            "filing_no": "金管保壽字第10704107410號函核准",
+            "at": "2026-11-26T13:09:09+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 4 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    },
+    {
+      "product_id": "06150",
+      "name": "台灣人壽鑫樂活外幣變額年金保險",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202421MU1A65513B11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202421MU1A65513B11C90000000",
+          "name": "台灣人壽鑫樂活外幣變額年金保險",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "107/02/02",
+          "filing_no": "金管保壽字第10704107400號函核准",
+          "at": "2026-11-26T13:09:15+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202421MU1A65523B11C90000001",
+            "name": "台灣人壽鑫樂活外幣變額年金保險(第1次部分變更)",
+            "sale": "107/03/29",
+            "stop": "107/11/22",
+            "filing_date": "107/03/29",
+            "filing_no": "金管保壽字第10704107400號函核准,台壽字第1072330011號函備查修正",
+            "at": "2026-11-26T13:09:16+08:00"
+          },
+          {
+            "pid": "202421MU1A65523B11C90000002",
+            "name": "台灣人壽鑫樂活外幣變額年金保險(第2次部分變更)",
+            "sale": "107/11/23",
+            "stop": "109/06/30",
+            "filing_date": "107/11/23",
+            "filing_no": "金管保壽字第10704107400號函核准,台壽字第1072330070號函備查修正",
+            "at": "2026-11-26T13:09:18+08:00"
+          },
+          {
+            "pid": "202421MU1A65523B11C90000003",
+            "name": "台灣人壽鑫樂活外幣變額年金保險(第3次部分變更)",
+            "sale": "109/07/01",
+            "stop": "110/04/28",
+            "filing_date": "108/12/30",
+            "filing_no": "金管保壽字第10704107400號函核准,金管保壽字第1080439731號函",
+            "at": "2026-11-26T13:09:19+08:00"
+          },
+          {
+            "pid": "202421MU1A65513B11C90000000",
+            "name": "台灣人壽鑫樂活外幣變額年金保險",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "107/02/02",
+            "filing_no": "金管保壽字第10704107400號函核准",
+            "at": "2026-11-26T13:09:15+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 4 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    },
+    {
+      "product_id": "10639",
+      "name": "國泰人壽幸福轉蛋保險",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204121MZ1AJT012A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204121MZ1AJT012A11Z10000000",
+          "name": "國泰人壽幸福轉蛋保險",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "107/06/13",
+          "filing_no": "金管保壽字第10704157430號函核准",
+          "at": "2026-11-26T13:09:21+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204121MZ1AJT022A11Z10000001",
+            "name": "國泰人壽幸福轉蛋保險(第1次部分變更)",
+            "sale": "107/08/30",
+            "stop": "108/12/31",
+            "filing_date": "107/09/19",
+            "filing_no": "金管保壽字第10704157430號函核准,國壽字第107080687號函備查",
+            "at": "2026-11-26T13:09:22+08:00"
+          },
+          {
+            "pid": "204121MZ1AJT012A11Z10000000",
+            "name": "國泰人壽幸福轉蛋保險",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "107/06/13",
+            "filing_no": "金管保壽字第10704157430號函核准",
+            "at": "2026-11-26T13:09:21+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 2 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    },
+    {
+      "product_id": "10640",
+      "name": "國泰人壽Hen守護長期照顧定期健康保險(實物給付型保險商品)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204361MZ1ADA112A12Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204361MZ1ADA112A12Z10000000",
+          "name": "國泰人壽Hen守護長期照顧定期健康保險(實物給付型保險商品)",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "108/03/07",
+          "filing_no": "金管保壽字第10804116460號函核准",
+          "at": "2026-11-26T13:09:24+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204361MZ1ADA122A12Z10000001",
+            "name": "國泰人壽Hen守護長期照顧定期健康保險(實物給付型保險商品)(第1次部分變更)",
+            "sale": "108/08/08",
+            "stop": "108/12/31",
+            "filing_date": "108/08/08",
+            "filing_no": "金管保壽字第10804116460號函核准,國壽字第108080019號函備查",
+            "at": "2026-11-26T13:09:25+08:00"
+          },
+          {
+            "pid": "204361MZ1ADA112A12Z10000000",
+            "name": "國泰人壽Hen守護長期照顧定期健康保險(實物給付型保險商品)",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "108/03/07",
+            "filing_no": "金管保壽字第10804116460號函核准",
+            "at": "2026-11-26T13:09:24+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 2 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    },
+    {
+      "product_id": "12982",
+      "name": "中國人壽增滿益變額年金保險",
+      "insurer": "中國人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205421MU1A00323A11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205421MU1A00323A11C90000000",
+          "name": "中國人壽增滿益變額年金保險",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "110/07/02",
+          "filing_no": "金管保壽字第11004229901號函核准",
+          "at": "2026-11-26T13:09:27+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205421MU1A00323A11C90000000",
+            "name": "中國人壽增滿益變額年金保險",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "110/07/02",
+            "filing_no": "金管保壽字第11004229901號函核准",
+            "at": "2026-11-26T13:09:27+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 1 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    },
+    {
+      "product_id": "12984",
+      "name": "中國人壽增滿益外幣變額年金保險",
+      "insurer": "中國人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205421MU1A00423B11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205421MU1A00423B11C90000000",
+          "name": "中國人壽增滿益外幣變額年金保險",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "110/07/02",
+          "filing_no": "金管保壽字第11004229902號函核准",
+          "at": "2026-11-26T13:09:28+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205421MU1A00423B11C90000000",
+            "name": "中國人壽增滿益外幣變額年金保險",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "110/07/02",
+            "filing_no": "金管保壽字第11004229902號函核准",
+            "at": "2026-11-26T13:09:28+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 1 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    },
+    {
+      "product_id": "21848",
+      "name": "富邦人壽天行健定期健康保險",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209351MZ5B00412A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209351MZ5B00412A11Z10000000",
+          "name": "富邦人壽天行健定期健康保險",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "106/01/16",
+          "filing_no": "金管保壽字第10602000830號函核准",
+          "at": "2026-11-26T13:09:38+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209351MZ5B00422A11Z10000001",
+            "name": "富邦人壽天行健定期健康保險(第1次部分變更)",
+            "sale": "106/04/21",
+            "stop": "107/09/13",
+            "filing_date": "106/11/30",
+            "filing_no": "金管保壽字第10602000830號函核准,金管保財字第10602505441號令修正",
+            "at": "2026-11-26T13:09:39+08:00"
+          },
+          {
+            "pid": "209351MZ5B00422A11Z10000002",
+            "name": "富邦人壽天行健定期健康保險(第2次部分變更)",
+            "sale": "107/09/14",
+            "stop": "108/12/31",
+            "filing_date": "107/11/06",
+            "filing_no": "金管保壽字第10602000830號函核准,金管保財字第10704504381號令修正",
+            "at": "2026-11-26T13:09:41+08:00"
+          },
+          {
+            "pid": "209351MZ5B00422A11Z10000003",
+            "name": "富邦人壽天行健定期健康保險(第3次部分變更)",
+            "sale": "109/01/01",
+            "stop": "109/08/31",
+            "filing_date": "109/05/14",
+            "filing_no": "金管保壽字第10602000830 號函核准,金管保財字第10904173811號令修正",
+            "at": "2026-11-26T13:09:42+08:00"
+          },
+          {
+            "pid": "209351MZ5B00422A11Z10000004",
+            "name": "富邦人壽天行健定期健康保險(第4次部分變更)",
+            "sale": "109/09/01",
+            "stop": "111/12/01",
+            "filing_date": "111/11/16",
+            "filing_no": "金管保壽字第10602000830號函核准,金管保財字第11104602421號令修正",
+            "at": "2026-11-26T13:09:43+08:00"
+          },
+          {
+            "pid": "209351MZ5B00422A11Z10000006",
+            "name": "富邦人壽天行健定期健康保險(第6次部分變更)",
+            "sale": "114/01/01",
+            "stop": "114/07/21",
+            "filing_date": "113/09/23",
+            "filing_no": "金管保壽字第10602000830號函核准,金管保壽字第1130427324號函修正",
+            "at": "2026-11-26T13:09:45+08:00"
+          },
+          {
+            "pid": "209351MZ5B00412A11Z10000000",
+            "name": "富邦人壽天行健定期健康保險",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "106/01/16",
+            "filing_no": "金管保壽字第10602000830號函核准",
+            "at": "2026-11-26T13:09:38+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 6 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    },
+    {
+      "product_id": "21850",
+      "name": "富邦人壽贏家一百變額年金保險",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A01900"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209421M31A01900",
+          "name": "富邦人壽贏家一百變額年金保險",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "103/08/07",
+          "filing_no": "金管保壽字第10302088150號函核准",
+          "at": "2026-11-26T13:09:46+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209421M31A01900",
+            "name": "富邦人壽贏家一百變額年金保險",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "103/08/07",
+            "filing_no": "金管保壽字第10302088150號函核准",
+            "at": "2026-11-26T13:09:46+08:00"
+          },
+          {
+            "pid": "209421M31A01901",
+            "name": "富邦人壽贏家一百變額年金保險(第一次部分變更)",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "103/08/29",
+            "filing_no": "金管保壽字第10302088150號函核准,富壽商精字第1030002940號函備查",
+            "at": "2026-11-26T13:09:48+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 2 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    },
+    {
+      "product_id": "21851",
+      "name": "富邦人壽贏家一百變額年金保險(第一次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A01901"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209421M31A01901",
+          "name": "富邦人壽贏家一百變額年金保險(第一次部分變更)",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "103/08/29",
+          "filing_no": "金管保壽字第10302088150號函核准,富壽商精字第1030002940號函備查",
+          "at": "2026-11-26T13:09:48+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209421M31A01900",
+            "name": "富邦人壽贏家一百變額年金保險",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "103/08/07",
+            "filing_no": "金管保壽字第10302088150號函核准",
+            "at": "2026-11-26T13:09:46+08:00"
+          },
+          {
+            "pid": "209421M31A01901",
+            "name": "富邦人壽贏家一百變額年金保險(第一次部分變更)",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "103/08/29",
+            "filing_no": "金管保壽字第10302088150號函核准,富壽商精字第1030002940號函備查",
+            "at": "2026-11-26T13:09:48+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 2 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    },
+    {
+      "product_id": "24296",
+      "name": "三商美邦人壽世紀滿億變額年金保險",
+      "insurer": "三商美邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=211491MV1A02513A11Z20000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "211491MV1A02513A11Z20000000",
+          "name": "三商美邦人壽世紀滿億變額年金保險",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "103/10/23",
+          "filing_no": "金管保壽字第10302123870號函核准",
+          "at": "2026-11-26T13:10:26+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "211491MV1A02523A11Z20000001",
+            "name": "三商美邦人壽世紀滿億變額年金保險(第1次部份變更)",
+            "sale": "104/10/21",
+            "stop": "105/01/17",
+            "filing_date": "104/11/03",
+            "filing_no": "金管保壽字第10302123870號函核准, (104)三品字第00229號函備查",
+            "at": "2026-11-26T13:10:27+08:00"
+          },
+          {
+            "pid": "211491MV1A02523A11Z20000002",
+            "name": "三商美邦人壽世紀滿億變額年金保險(第2次部分變更)",
+            "sale": "105/01/18",
+            "stop": "109/06/30",
+            "filing_date": "107/11/06",
+            "filing_no": "金管保壽字第10302123870號函核准,金管保財字第10704504384號函修正",
+            "at": "2026-11-26T13:10:29+08:00"
+          },
+          {
+            "pid": "211491MV1A02523A11Z20000003",
+            "name": "三商美邦人壽世紀滿億變額年金保險(第3次部分變更)",
+            "sale": "109/07/01",
+            "stop": "111/04/12",
+            "filing_date": "110/10/19",
+            "filing_no": "金管保壽字第10302123870號函核准,金管保財字第11004940091號令修正",
+            "at": "2026-11-26T13:10:30+08:00"
+          },
+          {
+            "pid": "211491MV1A02523A11Z20000004",
+            "name": "三商美邦人壽世紀滿億變額年金保險(第4次部分變更)",
+            "sale": "111/04/13",
+            "stop": "112/12/31",
+            "filing_date": "111/11/16",
+            "filing_no": "金管保壽字第10302123870號函核准,金管保財字第11104602423號函修正",
+            "at": "2026-11-26T13:10:32+08:00"
+          },
+          {
+            "pid": "211491MV1A02523A11Z20000005",
+            "name": "三商美邦人壽世紀滿億變額年金保險(第5次部分變更)",
+            "sale": "113/01/01",
+            "stop": "113/12/31",
+            "filing_date": "113/07/08",
+            "filing_no": "金管保壽字第10302123870號函核准,金管保壽字第11304921213號函修正",
+            "at": "2026-11-26T13:10:33+08:00"
+          },
+          {
+            "pid": "211491MV1A02513A11Z20000000",
+            "name": "三商美邦人壽世紀滿億變額年金保險",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "103/10/23",
+            "filing_no": "金管保壽字第10302123870號函核准",
+            "at": "2026-11-26T13:10:26+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 6 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    },
+    {
+      "product_id": "30426",
+      "name": "安聯人壽智聯人生變額年金保險",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218421MU1A00113A11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218421MU1A00113A11C90000000",
+          "name": "安聯人壽智聯人生變額年金保險",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "108/03/11",
+          "filing_no": "金管保壽字第10804118730號函核准",
+          "at": "2026-11-26T13:10:35+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218421MU1A00123A11C90000001",
+            "name": "安聯人壽智聯人生變額年金保險(第1次部分變更)",
+            "sale": "108/06/12",
+            "stop": "109/06/30",
+            "filing_date": "108/06/12",
+            "filing_no": "金管保壽字第10804118730號函核准，安總字第10804162號函修訂備查",
+            "at": "2026-11-26T13:10:36+08:00"
+          },
+          {
+            "pid": "218421MU1A00123A11C90000002",
+            "name": "安聯人壽智聯人生變額年金保險(第2次部分變更)",
+            "sale": "109/07/01",
+            "stop": "109/08/31",
+            "filing_date": "108/12/30,109/05/14",
+            "filing_no": "金管保壽字第10804118730號函核准,依108年12月30日金管保壽字第1080439731號函逕行修訂,依109年05月14日金管保財字第10904173814號函逕行修訂",
+            "at": "2026-11-26T13:10:38+08:00"
+          },
+          {
+            "pid": "218421MU1A00123A11C90000003",
+            "name": "安聯人壽智聯人生變額年金保險(第3次部分變更)",
+            "sale": "109/09/01",
+            "stop": "109/10/06",
+            "filing_date": "109/09/01",
+            "filing_no": "金管保壽字第10804118730號函核准,安總字第10907263號函修訂備查",
+            "at": "2026-11-26T13:10:39+08:00"
+          },
+          {
+            "pid": "218421MU1A00123A11C90000004",
+            "name": "安聯人壽智聯人生變額年金保險(第4次部分變更)",
+            "sale": "109/10/07",
+            "stop": "110/05/04",
+            "filing_date": "109/10/07",
+            "filing_no": "金管保壽字第10804118730號函核准,安總字第10908355號函修訂備查",
+            "at": "2026-11-26T13:10:41+08:00"
+          },
+          {
+            "pid": "218421MU1A00113A11C90000000",
+            "name": "安聯人壽智聯人生變額年金保險",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "108/03/11",
+            "filing_no": "金管保壽字第10804118730號函核准",
+            "at": "2026-11-26T13:10:35+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 5 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    },
+    {
+      "product_id": "30427",
+      "name": "安聯人壽智聯人生外幣變額年金保險",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218421MU1A00213Z11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218421MU1A00213Z11C90000000",
+          "name": "安聯人壽智聯人生外幣變額年金保險",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "108/03/11",
+          "filing_no": "金管保壽字第10804118720號函核准",
+          "at": "2026-11-26T13:10:42+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218421MU1A00223Z11C90000001",
+            "name": "安聯人壽智聯人生外幣變額年金保險(第1次部分變更)",
+            "sale": "108/06/12",
+            "stop": "109/06/30",
+            "filing_date": "108/06/12",
+            "filing_no": "金管保壽字第10804118720號函核准，安總字第10804163號函修訂備查",
+            "at": "2026-11-26T13:10:43+08:00"
+          },
+          {
+            "pid": "218421MU1A00223Z11C90000002",
+            "name": "安聯人壽智聯人生外幣變額年金保險(第2次部分變更)",
+            "sale": "109/07/01",
+            "stop": "109/08/31",
+            "filing_date": "108/12/30,109/05/14",
+            "filing_no": "金管保壽字第10804118720號函核准,依108年12月30日金管保壽字第1080439731號函逕行修訂,依109年05月14日金管保財字第10904173814號函逕行修訂",
+            "at": "2026-11-26T13:10:45+08:00"
+          },
+          {
+            "pid": "218421MU1A00223Z11C90000003",
+            "name": "安聯人壽智聯人生外幣變額年金保險(第3次部分變更)",
+            "sale": "109/09/01",
+            "stop": "109/10/06",
+            "filing_date": "109/09/01",
+            "filing_no": "金管保壽字第10804118720號函核准,安總字第10907262號函修訂備查",
+            "at": "2026-11-26T13:10:46+08:00"
+          },
+          {
+            "pid": "218421MU1A00223Z11C90000004",
+            "name": "安聯人壽智聯人生外幣變額年金保險(第4次部分變更)",
+            "sale": "109/10/07",
+            "stop": "110/05/04",
+            "filing_date": "109/10/07",
+            "filing_no": "金管保壽字第10804118720號函核准,安總字第10908356號函修訂備查",
+            "at": "2026-11-26T13:10:48+08:00"
+          },
+          {
+            "pid": "218421MU1A00213Z11C90000000",
+            "name": "安聯人壽智聯人生外幣變額年金保險",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "108/03/11",
+            "filing_no": "金管保壽字第10804118720號函核准",
+            "at": "2026-11-26T13:10:42+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 5 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    },
+    {
+      "product_id": "33213",
+      "name": "合作金庫人壽優享保外幣變額年金保險（乙型）",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222491MU1A00113B11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "222491MU1A00113B11C90000000",
+          "name": "合作金庫人壽優享保外幣變額年金保險（乙型）",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "111/12/23",
+          "filing_no": "民國111年12月23日金管保壽字第1110466281號",
+          "at": "2026-11-26T13:10:49+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "222491MU1A00123B11C90000003",
+            "name": "合作金庫人壽優享保外幣變額年金保險（乙型）(第3次部分變更)",
+            "sale": "113/01/01",
+            "stop": "113/07/01",
+            "filing_date": "112/08/21",
+            "filing_no": "民國111年12月23日金管保壽字第1110466281號,金管保壽字第11204262022號函",
+            "at": "2026-11-26T13:10:51+08:00"
+          },
+          {
+            "pid": "222491MU1A00113B11C90000000",
+            "name": "合作金庫人壽優享保外幣變額年金保險（乙型）",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "111/12/23",
+            "filing_no": "民國111年12月23日金管保壽字第1110466281號",
+            "at": "2026-11-26T13:10:49+08:00"
+          },
+          {
+            "pid": "222491MU1A00113B11C90000001",
+            "name": "合作金庫人壽優享保外幣變額年金保險（乙型）(第1次部分變更)",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "112/4/14",
+            "filing_no": "民國111年12月23日金管保壽字第1110466281號,合壽字第1120000096號",
+            "at": "2026-11-26T13:10:52+08:00"
+          },
+          {
+            "pid": "222491MU1A00123B11C90000002",
+            "name": "合作金庫人壽優享保外幣變額年金保險（乙型）(第2次部分變更)",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "112/07/01",
+            "filing_no": "民國111年12月23日金管保壽字第1110466281號,合壽字第1120000135號",
+            "at": "2026-11-26T13:10:54+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 4 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    },
+    {
+      "product_id": "33214",
+      "name": "合作金庫人壽優享保變額年金保險",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222421MU1A00113A11C90000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "222421MU1A00113A11C90000000",
+          "name": "合作金庫人壽優享保變額年金保險",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "111/12/23",
+          "filing_no": "民國111年12月23日金管保壽字第1110466281號",
+          "at": "2026-11-26T13:10:55+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "222421MU1A00113A11C90000000",
+            "name": "合作金庫人壽優享保變額年金保險",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "111/12/23",
+            "filing_no": "民國111年12月23日金管保壽字第1110466281號",
+            "at": "2026-11-26T13:10:55+08:00"
+          },
+          {
+            "pid": "222421MU1A00123A11C90000001",
+            "name": "合作金庫人壽優享保變額年金保險(第一次部分變更)",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "112/07/01",
+            "filing_no": "民國111年12月23日金管保壽字第1110466281號,合壽字第1120000134號",
+            "at": "2026-11-26T13:10:57+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 2 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    },
+    {
+      "product_id": "33215",
+      "name": "合作金庫人壽優享保外幣變額年金保險（乙型）(第1次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222491MU1A00113B11C90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "222491MU1A00113B11C90000001",
+          "name": "合作金庫人壽優享保外幣變額年金保險（乙型）(第1次部分變更)",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "112/4/14",
+          "filing_no": "民國111年12月23日金管保壽字第1110466281號,合壽字第1120000096號",
+          "at": "2026-11-26T13:10:52+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "222491MU1A00123B11C90000003",
+            "name": "合作金庫人壽優享保外幣變額年金保險（乙型）(第3次部分變更)",
+            "sale": "113/01/01",
+            "stop": "113/07/01",
+            "filing_date": "112/08/21",
+            "filing_no": "民國111年12月23日金管保壽字第1110466281號,金管保壽字第11204262022號函",
+            "at": "2026-11-26T13:10:51+08:00"
+          },
+          {
+            "pid": "222491MU1A00113B11C90000000",
+            "name": "合作金庫人壽優享保外幣變額年金保險（乙型）",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "111/12/23",
+            "filing_no": "民國111年12月23日金管保壽字第1110466281號",
+            "at": "2026-11-26T13:10:49+08:00"
+          },
+          {
+            "pid": "222491MU1A00113B11C90000001",
+            "name": "合作金庫人壽優享保外幣變額年金保險（乙型）(第1次部分變更)",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "112/4/14",
+            "filing_no": "民國111年12月23日金管保壽字第1110466281號,合壽字第1120000096號",
+            "at": "2026-11-26T13:10:52+08:00"
+          },
+          {
+            "pid": "222491MU1A00123B11C90000002",
+            "name": "合作金庫人壽優享保外幣變額年金保險（乙型）(第2次部分變更)",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "112/07/01",
+            "filing_no": "民國111年12月23日金管保壽字第1110466281號,合壽字第1120000135號",
+            "at": "2026-11-26T13:10:54+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 4 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    },
+    {
+      "product_id": "33216",
+      "name": "合作金庫人壽優享保變額年金保險(第一次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222421MU1A00123A11C90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "222421MU1A00123A11C90000001",
+          "name": "合作金庫人壽優享保變額年金保險(第一次部分變更)",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "112/07/01",
+          "filing_no": "民國111年12月23日金管保壽字第1110466281號,合壽字第1120000134號",
+          "at": "2026-11-26T13:10:57+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "222421MU1A00113A11C90000000",
+            "name": "合作金庫人壽優享保變額年金保險",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "111/12/23",
+            "filing_no": "民國111年12月23日金管保壽字第1110466281號",
+            "at": "2026-11-26T13:10:55+08:00"
+          },
+          {
+            "pid": "222421MU1A00123A11C90000001",
+            "name": "合作金庫人壽優享保變額年金保險(第一次部分變更)",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "112/07/01",
+            "filing_no": "民國111年12月23日金管保壽字第1110466281號,合壽字第1120000134號",
+            "at": "2026-11-26T13:10:57+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 2 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    },
+    {
+      "product_id": "33217",
+      "name": "合作金庫人壽優享保外幣變額年金保險（乙型）(第2次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "未銷售",
+        "stop_date": "未銷售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222491MU1A00123B11C90000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：銷售日／停售日／狀態覆核",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "222491MU1A00123B11C90000002",
+          "name": "合作金庫人壽優享保外幣變額年金保險（乙型）(第2次部分變更)",
+          "sale": "未銷售",
+          "stop": "未銷售",
+          "filing_date": "112/07/01",
+          "filing_no": "民國111年12月23日金管保壽字第1110466281號,合壽字第1120000135號",
+          "at": "2026-11-26T13:10:54+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "222491MU1A00123B11C90000003",
+            "name": "合作金庫人壽優享保外幣變額年金保險（乙型）(第3次部分變更)",
+            "sale": "113/01/01",
+            "stop": "113/07/01",
+            "filing_date": "112/08/21",
+            "filing_no": "民國111年12月23日金管保壽字第1110466281號,金管保壽字第11204262022號函",
+            "at": "2026-11-26T13:10:51+08:00"
+          },
+          {
+            "pid": "222491MU1A00113B11C90000000",
+            "name": "合作金庫人壽優享保外幣變額年金保險（乙型）",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "111/12/23",
+            "filing_no": "民國111年12月23日金管保壽字第1110466281號",
+            "at": "2026-11-26T13:10:49+08:00"
+          },
+          {
+            "pid": "222491MU1A00113B11C90000001",
+            "name": "合作金庫人壽優享保外幣變額年金保險（乙型）(第1次部分變更)",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "112/4/14",
+            "filing_no": "民國111年12月23日金管保壽字第1110466281號,合壽字第1120000096號",
+            "at": "2026-11-26T13:10:52+08:00"
+          },
+          {
+            "pid": "222491MU1A00123B11C90000002",
+            "name": "合作金庫人壽優享保外幣變額年金保險（乙型）(第2次部分變更)",
+            "sale": "未銷售",
+            "stop": "未銷售",
+            "filing_date": "112/07/01",
+            "filing_no": "民國111年12月23日金管保壽字第1110466281號,合壽字第1120000135號",
+            "at": "2026-11-26T13:10:54+08:00"
+          }
+        ]
+      },
+      "verification_status": "狀態衝突",
+      "proposed": null,
+      "reason": "本站狀態「現售」，販售日／停售日記為「未銷售／未銷售」；保發中心即時詳細頁該商品銷售日「未銷售」、停售日「未銷售」（尚未銷售），同系列 4 個版本皆無未停售版本。無官網明文證明其現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null
+      },
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json）"
+    }
+  ]
+}
