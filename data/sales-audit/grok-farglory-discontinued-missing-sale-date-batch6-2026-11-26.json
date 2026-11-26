@@ -1,0 +1,4315 @@
+{
+  "batch_id": "grok-farglory-discontinued-missing-sale-date-batch6-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T10:11:21+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": "同上，第 160–218 筆",
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": [
+    "保發中心：life_rows.tsv 壽險全表快取（2026-11-08）取同名商品系列全部版本之銷售日／停售日；同系列有詳細頁快取（2026-11-11）者取原始備查文號比對。此全表快取有部分版本缺漏，找不到對應版本者一律移交。",
+    "公司官網：本站 terms_url（遠雄 termsLink.html?termsKind=C，GET）本次重新下載條款 PDF，讀取首頁名稱及條款首部全部核准/備查/修訂/修正日期。",
+    "同版本判定：名稱相符（＋有快取時原始文號相符）＋官網條款首部最新日期恰等於系列中唯一一個版本之銷售日。備查/修正日期本身不當販售日。",
+    "條款 PDF 字型無 Unicode 對應而無法轉文字者，未以 OCR 猜讀，一律移交 GPT。"
+  ],
+  "summary": {
+    "待核對": 19,
+    "已核實": 40,
+    "total": 59,
+    "items_with_proposed_changes": 40,
+    "status_changes_proposed": 0
+  },
+  "items": [
+    {
+      "product_id": "02185",
+      "name": "真好康萬能保險(UE)",
+      "insurer": "遠雄人壽",
+      "site_code": "#UE4",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23UE4&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:45+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國98年11月01日；民國100年02月01日",
+          "修正日期": null,
+          "條款最新日期": "100/02/01",
+          "條款首部全部日期": [
+            "098/11/01",
+            "100/02/01"
+          ],
+          "文號行": [
+            "(98)遠雄壽字第940號函",
+            "(100)遠雄壽字第015號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽真好康萬能保險",
+            "銷售日": "098/11/01",
+            "停售日": "099/01/10",
+            "tii_product_id": "216121M21A10500"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於條款最新日期 100/02/01 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02186",
+      "name": "真好康萬能保險(UE1)",
+      "insurer": "遠雄人壽",
+      "site_code": "#UE1",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23UE1&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:45+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": null,
+          "修正日期": null,
+          "條款最新日期": null,
+          "條款首部全部日期": [],
+          "文號行": []
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽真好康萬能保險",
+            "銷售日": "098/11/01",
+            "停售日": "099/01/10",
+            "tii_product_id": "216121M21A10500"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02187",
+      "name": "真好康萬能保險(UE5)",
+      "insurer": "遠雄人壽",
+      "site_code": "#UE5",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23UE5&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:45+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國98年11月01日",
+          "修正日期": "民國101年07月01日",
+          "條款最新日期": "101/07/01",
+          "條款首部全部日期": [
+            "098/11/01",
+            "101/07/01"
+          ],
+          "文號行": [
+            "(98)遠雄壽字第940號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽真好康萬能保險",
+            "銷售日": "098/11/01",
+            "停售日": "099/01/10",
+            "tii_product_id": "216121M21A10500"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於條款最新日期 101/07/01 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02188",
+      "name": "真得意保本終身保險(JH1)",
+      "insurer": "遠雄人壽",
+      "site_code": "#JH12",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23JH12&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:46+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": null,
+          "修正日期": null,
+          "條款最新日期": null,
+          "條款首部全部日期": [],
+          "文號行": []
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽真得意保本終身保險",
+            "銷售日": "100/02/14",
+            "停售日": "100/06/30",
+            "tii_product_id": "216121M12A11700"
+          },
+          {
+            "name": "遠雄人壽真得意保本終身保險(第2次部分變更)",
+            "銷售日": "101/01/01",
+            "停售日": "103/12/30",
+            "tii_product_id": "216121M12A11702"
+          },
+          {
+            "name": "遠雄人壽真得意保本終身保險(第3次部分變更)",
+            "銷售日": "103/12/31",
+            "停售日": "104/08/03",
+            "tii_product_id": "216121M12A11703"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02189",
+      "name": "真得意保本終身保險(JH2)",
+      "insurer": "遠雄人壽",
+      "site_code": "#JH2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23JH2&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:45+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國100年02月14日；民國101年01月01日",
+          "修正日期": null,
+          "條款最新日期": "101/01/01",
+          "條款首部全部日期": [
+            "100/02/14",
+            "101/01/01"
+          ],
+          "文號行": [
+            "(100)遠雄壽字第046號函",
+            "(101)遠雄壽字第001號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽真得意保本終身保險",
+            "銷售日": "100/02/14",
+            "停售日": "100/06/30",
+            "tii_product_id": "216121M12A11700"
+          },
+          {
+            "name": "遠雄人壽真得意保本終身保險(第2次部分變更)",
+            "銷售日": "101/01/01",
+            "停售日": "103/12/30",
+            "tii_product_id": "216121M12A11702"
+          },
+          {
+            "name": "遠雄人壽真得意保本終身保險(第3次部分變更)",
+            "銷售日": "103/12/31",
+            "停售日": "104/08/03",
+            "tii_product_id": "216121M12A11703"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽真得意保本終身保險(第2次部分變更)",
+          "銷售日": "101/01/01",
+          "停售日": "103/12/30",
+          "tii_product_id": "216121M12A11702",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216121M12A11702"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2012-01-01",
+        "stop_date": "2014-12-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02190",
+      "name": "真心呵護防癌保本終身保險(FY1)",
+      "insurer": "遠雄人壽",
+      "site_code": "#FY1",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FY1&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:45+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": null,
+          "修正日期": null,
+          "條款最新日期": null,
+          "條款首部全部日期": [],
+          "文號行": []
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險",
+            "銷售日": "097/06/23",
+            "停售日": "098/03/29",
+            "tii_product_id": "216121M12B08100"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第1次部分變更)",
+            "銷售日": "098/03/30",
+            "停售日": "098/07/31",
+            "tii_product_id": "216121M12B08101"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第2次部分變更)",
+            "銷售日": "098/08/01",
+            "停售日": "099/02/11",
+            "tii_product_id": "216121M12B08102"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第3次部分變更)",
+            "銷售日": "099/02/12",
+            "停售日": "099/08/31",
+            "tii_product_id": "216121M12B08103"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第4次部分變更)",
+            "銷售日": "099/09/01",
+            "停售日": "099/09/09",
+            "tii_product_id": "216121M12B08104"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第5次部分變更)",
+            "銷售日": "099/09/10",
+            "停售日": "100/06/30",
+            "tii_product_id": "216121M12B08105"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第6次部分變更)",
+            "銷售日": "100/07/01",
+            "停售日": "100/12/31",
+            "tii_product_id": "216121M12B08106"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第7次部分變更)",
+            "銷售日": "101/01/01",
+            "停售日": "103/04/30",
+            "tii_product_id": "216121M12B08107"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第8次部分變更)",
+            "銷售日": "103/05/01",
+            "停售日": "104/08/03",
+            "tii_product_id": "216121M12B08108"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第9次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "105/02/29",
+            "tii_product_id": "216121MZ2B08123A11Z10000009"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02191",
+      "name": "真心呵護防癌保本終身保險(FY2)",
+      "insurer": "遠雄人壽",
+      "site_code": "#FY2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FY2&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:48+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": null,
+          "修正日期": null,
+          "條款最新日期": null,
+          "條款首部全部日期": [],
+          "文號行": []
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險",
+            "銷售日": "097/06/23",
+            "停售日": "098/03/29",
+            "tii_product_id": "216121M12B08100"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第1次部分變更)",
+            "銷售日": "098/03/30",
+            "停售日": "098/07/31",
+            "tii_product_id": "216121M12B08101"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第2次部分變更)",
+            "銷售日": "098/08/01",
+            "停售日": "099/02/11",
+            "tii_product_id": "216121M12B08102"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第3次部分變更)",
+            "銷售日": "099/02/12",
+            "停售日": "099/08/31",
+            "tii_product_id": "216121M12B08103"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第4次部分變更)",
+            "銷售日": "099/09/01",
+            "停售日": "099/09/09",
+            "tii_product_id": "216121M12B08104"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第5次部分變更)",
+            "銷售日": "099/09/10",
+            "停售日": "100/06/30",
+            "tii_product_id": "216121M12B08105"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第6次部分變更)",
+            "銷售日": "100/07/01",
+            "停售日": "100/12/31",
+            "tii_product_id": "216121M12B08106"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第7次部分變更)",
+            "銷售日": "101/01/01",
+            "停售日": "103/04/30",
+            "tii_product_id": "216121M12B08107"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第8次部分變更)",
+            "銷售日": "103/05/01",
+            "停售日": "104/08/03",
+            "tii_product_id": "216121M12B08108"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第9次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "105/02/29",
+            "tii_product_id": "216121MZ2B08123A11Z10000009"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02192",
+      "name": "真心呵護防癌保本終身保險(FY3)",
+      "insurer": "遠雄人壽",
+      "site_code": "#FY3",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FY3&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:47+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": null,
+          "修正日期": null,
+          "條款最新日期": null,
+          "條款首部全部日期": [],
+          "文號行": []
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險",
+            "銷售日": "097/06/23",
+            "停售日": "098/03/29",
+            "tii_product_id": "216121M12B08100"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第1次部分變更)",
+            "銷售日": "098/03/30",
+            "停售日": "098/07/31",
+            "tii_product_id": "216121M12B08101"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第2次部分變更)",
+            "銷售日": "098/08/01",
+            "停售日": "099/02/11",
+            "tii_product_id": "216121M12B08102"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第3次部分變更)",
+            "銷售日": "099/02/12",
+            "停售日": "099/08/31",
+            "tii_product_id": "216121M12B08103"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第4次部分變更)",
+            "銷售日": "099/09/01",
+            "停售日": "099/09/09",
+            "tii_product_id": "216121M12B08104"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第5次部分變更)",
+            "銷售日": "099/09/10",
+            "停售日": "100/06/30",
+            "tii_product_id": "216121M12B08105"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第6次部分變更)",
+            "銷售日": "100/07/01",
+            "停售日": "100/12/31",
+            "tii_product_id": "216121M12B08106"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第7次部分變更)",
+            "銷售日": "101/01/01",
+            "停售日": "103/04/30",
+            "tii_product_id": "216121M12B08107"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第8次部分變更)",
+            "銷售日": "103/05/01",
+            "停售日": "104/08/03",
+            "tii_product_id": "216121M12B08108"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第9次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "105/02/29",
+            "tii_product_id": "216121MZ2B08123A11Z10000009"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02193",
+      "name": "真心呵護防癌保本終身保險(FY4)",
+      "insurer": "遠雄人壽",
+      "site_code": "#FY44",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FY44&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:47+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": null,
+          "修正日期": null,
+          "條款最新日期": null,
+          "條款首部全部日期": [],
+          "文號行": []
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險",
+            "銷售日": "097/06/23",
+            "停售日": "098/03/29",
+            "tii_product_id": "216121M12B08100"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第1次部分變更)",
+            "銷售日": "098/03/30",
+            "停售日": "098/07/31",
+            "tii_product_id": "216121M12B08101"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第2次部分變更)",
+            "銷售日": "098/08/01",
+            "停售日": "099/02/11",
+            "tii_product_id": "216121M12B08102"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第3次部分變更)",
+            "銷售日": "099/02/12",
+            "停售日": "099/08/31",
+            "tii_product_id": "216121M12B08103"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第4次部分變更)",
+            "銷售日": "099/09/01",
+            "停售日": "099/09/09",
+            "tii_product_id": "216121M12B08104"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第5次部分變更)",
+            "銷售日": "099/09/10",
+            "停售日": "100/06/30",
+            "tii_product_id": "216121M12B08105"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第6次部分變更)",
+            "銷售日": "100/07/01",
+            "停售日": "100/12/31",
+            "tii_product_id": "216121M12B08106"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第7次部分變更)",
+            "銷售日": "101/01/01",
+            "停售日": "103/04/30",
+            "tii_product_id": "216121M12B08107"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第8次部分變更)",
+            "銷售日": "103/05/01",
+            "停售日": "104/08/03",
+            "tii_product_id": "216121M12B08108"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第9次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "105/02/29",
+            "tii_product_id": "216121MZ2B08123A11Z10000009"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02194",
+      "name": "真心呵護防癌保本終身保險(FY5)",
+      "insurer": "遠雄人壽",
+      "site_code": "#FY5",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FY5&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:46+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國97年06月23日；民國101年01月01日",
+          "修正日期": null,
+          "條款最新日期": "101/01/01",
+          "條款首部全部日期": [
+            "097/06/23",
+            "101/01/01"
+          ],
+          "文號行": [
+            "(97)遠雄壽字第372號函",
+            "(101)遠雄壽字第003號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險",
+            "銷售日": "097/06/23",
+            "停售日": "098/03/29",
+            "tii_product_id": "216121M12B08100"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第1次部分變更)",
+            "銷售日": "098/03/30",
+            "停售日": "098/07/31",
+            "tii_product_id": "216121M12B08101"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第2次部分變更)",
+            "銷售日": "098/08/01",
+            "停售日": "099/02/11",
+            "tii_product_id": "216121M12B08102"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第3次部分變更)",
+            "銷售日": "099/02/12",
+            "停售日": "099/08/31",
+            "tii_product_id": "216121M12B08103"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第4次部分變更)",
+            "銷售日": "099/09/01",
+            "停售日": "099/09/09",
+            "tii_product_id": "216121M12B08104"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第5次部分變更)",
+            "銷售日": "099/09/10",
+            "停售日": "100/06/30",
+            "tii_product_id": "216121M12B08105"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第6次部分變更)",
+            "銷售日": "100/07/01",
+            "停售日": "100/12/31",
+            "tii_product_id": "216121M12B08106"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第7次部分變更)",
+            "銷售日": "101/01/01",
+            "停售日": "103/04/30",
+            "tii_product_id": "216121M12B08107"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第8次部分變更)",
+            "銷售日": "103/05/01",
+            "停售日": "104/08/03",
+            "tii_product_id": "216121M12B08108"
+          },
+          {
+            "name": "遠雄人壽真心呵護防癌保本終身保險(第9次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "105/02/29",
+            "tii_product_id": "216121MZ2B08123A11Z10000009"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽真心呵護防癌保本終身保險(第7次部分變更)",
+          "銷售日": "101/01/01",
+          "停售日": "103/04/30",
+          "tii_product_id": "216121M12B08107",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216121M12B08107"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2012-01-01",
+        "stop_date": "2014-04-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02195",
+      "name": "真鑽養老保險(FU2)",
+      "insurer": "遠雄人壽",
+      "site_code": "#FU2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FU2&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:47+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國98年02月02日；民國102年01月01日",
+          "修正日期": null,
+          "條款最新日期": "102/01/01",
+          "條款首部全部日期": [
+            "098/02/02",
+            "102/01/01"
+          ],
+          "文號行": [
+            "(98)遠雄壽字第005號函",
+            "(102)遠雄壽字第001號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽真鑽養老保險",
+            "銷售日": "098/02/02",
+            "停售日": "098/03/29",
+            "tii_product_id": "216121M11A09200"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第1次部分變更)",
+            "銷售日": "098/03/30",
+            "停售日": "098/07/31",
+            "tii_product_id": "216121M11A09201"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第2次部分變更)",
+            "銷售日": "098/08/01",
+            "停售日": "099/03/09",
+            "tii_product_id": "216121M11A09202"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第3次部分變更)",
+            "銷售日": "099/03/10",
+            "停售日": "099/08/31",
+            "tii_product_id": "216121M11A09203"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第4次部分變更)",
+            "銷售日": "099/09/01",
+            "停售日": "100/01/09",
+            "tii_product_id": "216121M11A09204"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第5次部分變更)",
+            "銷售日": "100/01/10",
+            "停售日": "100/01/31",
+            "tii_product_id": "216121M11A09205"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第6次部分變更)",
+            "銷售日": "100/02/01",
+            "停售日": "100/06/30",
+            "tii_product_id": "216121M11A09206"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第7次部分變更)",
+            "銷售日": "100/07/01",
+            "停售日": "100/12/31",
+            "tii_product_id": "216121M11A09207"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第9次部分變更)",
+            "銷售日": "101/07/01",
+            "停售日": "101/12/31",
+            "tii_product_id": "216121M11A09209"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第10次部分變更)",
+            "銷售日": "102/01/01",
+            "停售日": "103/03/30",
+            "tii_product_id": "216121M11A09210"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽真鑽養老保險(第10次部分變更)",
+          "銷售日": "102/01/01",
+          "停售日": "103/03/30",
+          "tii_product_id": "216121M11A09210",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216121M11A09210"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2013-01-01",
+        "stop_date": "2014-03-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02196",
+      "name": "真鑽養老保險(FW3)",
+      "insurer": "遠雄人壽",
+      "site_code": "#FW3",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FW3&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:48+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": null,
+          "修正日期": null,
+          "條款最新日期": null,
+          "條款首部全部日期": [],
+          "文號行": []
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽真鑽養老保險",
+            "銷售日": "098/02/02",
+            "停售日": "098/03/29",
+            "tii_product_id": "216121M11A09200"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第1次部分變更)",
+            "銷售日": "098/03/30",
+            "停售日": "098/07/31",
+            "tii_product_id": "216121M11A09201"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第2次部分變更)",
+            "銷售日": "098/08/01",
+            "停售日": "099/03/09",
+            "tii_product_id": "216121M11A09202"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第3次部分變更)",
+            "銷售日": "099/03/10",
+            "停售日": "099/08/31",
+            "tii_product_id": "216121M11A09203"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第4次部分變更)",
+            "銷售日": "099/09/01",
+            "停售日": "100/01/09",
+            "tii_product_id": "216121M11A09204"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第5次部分變更)",
+            "銷售日": "100/01/10",
+            "停售日": "100/01/31",
+            "tii_product_id": "216121M11A09205"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第6次部分變更)",
+            "銷售日": "100/02/01",
+            "停售日": "100/06/30",
+            "tii_product_id": "216121M11A09206"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第7次部分變更)",
+            "銷售日": "100/07/01",
+            "停售日": "100/12/31",
+            "tii_product_id": "216121M11A09207"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第9次部分變更)",
+            "銷售日": "101/07/01",
+            "停售日": "101/12/31",
+            "tii_product_id": "216121M11A09209"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第10次部分變更)",
+            "銷售日": "102/01/01",
+            "停售日": "103/03/30",
+            "tii_product_id": "216121M11A09210"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02199",
+      "name": "真鑽養老保險(FWEFWF)",
+      "insurer": "遠雄人壽",
+      "site_code": "#FWEF",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FWEF&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:48+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": null,
+          "修正日期": null,
+          "條款最新日期": null,
+          "條款首部全部日期": [],
+          "文號行": []
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽真鑽養老保險",
+            "銷售日": "098/02/02",
+            "停售日": "098/03/29",
+            "tii_product_id": "216121M11A09200"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第1次部分變更)",
+            "銷售日": "098/03/30",
+            "停售日": "098/07/31",
+            "tii_product_id": "216121M11A09201"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第2次部分變更)",
+            "銷售日": "098/08/01",
+            "停售日": "099/03/09",
+            "tii_product_id": "216121M11A09202"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第3次部分變更)",
+            "銷售日": "099/03/10",
+            "停售日": "099/08/31",
+            "tii_product_id": "216121M11A09203"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第4次部分變更)",
+            "銷售日": "099/09/01",
+            "停售日": "100/01/09",
+            "tii_product_id": "216121M11A09204"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第5次部分變更)",
+            "銷售日": "100/01/10",
+            "停售日": "100/01/31",
+            "tii_product_id": "216121M11A09205"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第6次部分變更)",
+            "銷售日": "100/02/01",
+            "停售日": "100/06/30",
+            "tii_product_id": "216121M11A09206"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第7次部分變更)",
+            "銷售日": "100/07/01",
+            "停售日": "100/12/31",
+            "tii_product_id": "216121M11A09207"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第9次部分變更)",
+            "銷售日": "101/07/01",
+            "停售日": "101/12/31",
+            "tii_product_id": "216121M11A09209"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第10次部分變更)",
+            "銷售日": "102/01/01",
+            "停售日": "103/03/30",
+            "tii_product_id": "216121M11A09210"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02200",
+      "name": "真鑽養老保險(FWOFWP)",
+      "insurer": "遠雄人壽",
+      "site_code": "#FWOFWP",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FWOFWP&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:48+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國98年02月02日；民國101年01月01日",
+          "修正日期": null,
+          "條款最新日期": "101/01/01",
+          "條款首部全部日期": [
+            "098/02/02",
+            "101/01/01"
+          ],
+          "文號行": [
+            "(98)遠雄壽字第005號函",
+            "(101)遠雄壽字第007號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽真鑽養老保險",
+            "銷售日": "098/02/02",
+            "停售日": "098/03/29",
+            "tii_product_id": "216121M11A09200"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第1次部分變更)",
+            "銷售日": "098/03/30",
+            "停售日": "098/07/31",
+            "tii_product_id": "216121M11A09201"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第2次部分變更)",
+            "銷售日": "098/08/01",
+            "停售日": "099/03/09",
+            "tii_product_id": "216121M11A09202"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第3次部分變更)",
+            "銷售日": "099/03/10",
+            "停售日": "099/08/31",
+            "tii_product_id": "216121M11A09203"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第4次部分變更)",
+            "銷售日": "099/09/01",
+            "停售日": "100/01/09",
+            "tii_product_id": "216121M11A09204"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第5次部分變更)",
+            "銷售日": "100/01/10",
+            "停售日": "100/01/31",
+            "tii_product_id": "216121M11A09205"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第6次部分變更)",
+            "銷售日": "100/02/01",
+            "停售日": "100/06/30",
+            "tii_product_id": "216121M11A09206"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第7次部分變更)",
+            "銷售日": "100/07/01",
+            "停售日": "100/12/31",
+            "tii_product_id": "216121M11A09207"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第9次部分變更)",
+            "銷售日": "101/07/01",
+            "停售日": "101/12/31",
+            "tii_product_id": "216121M11A09209"
+          },
+          {
+            "name": "遠雄人壽真鑽養老保險(第10次部分變更)",
+            "銷售日": "102/01/01",
+            "停售日": "103/03/30",
+            "tii_product_id": "216121M11A09210"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於條款最新日期 101/01/01 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02215",
+      "name": "穩鑽養老保險(FW2)",
+      "insurer": "遠雄人壽",
+      "site_code": "#FW2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FW2&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:48+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": null,
+          "修正日期": null,
+          "條款最新日期": null,
+          "條款首部全部日期": [],
+          "文號行": []
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽穩鑽養老保險",
+            "銷售日": "098/01/01",
+            "停售日": "098/02/15",
+            "tii_product_id": "216121M11A09000"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02219",
+      "name": "美滿增值增額終身壽險(LA1)",
+      "insurer": "遠雄人壽",
+      "site_code": "#LA13",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23LA13&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:48+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國100年03月28日；民國100年09月19日",
+          "修正日期": null,
+          "條款最新日期": "100/09/19",
+          "條款首部全部日期": [
+            "100/03/28",
+            "100/09/19"
+          ],
+          "文號行": [
+            "(100)遠雄壽字第110號函",
+            "(100)遠雄壽字第864號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿增值增額終身壽險",
+            "銷售日": "100/03/28",
+            "停售日": "100/06/30",
+            "tii_product_id": "216141M11A11800"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於條款最新日期 100/09/19 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02220",
+      "name": "美滿富利利率變動型增額終身壽險(DB1)",
+      "insurer": "遠雄人壽",
+      "site_code": "#DB1",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23DB1&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:49+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國103年03月24日",
+          "修正日期": null,
+          "條款最新日期": "103/03/24",
+          "條款首部全部日期": [
+            "103/03/24"
+          ],
+          "文號行": [
+            "(103)遠雄壽字第254號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿富利利率變動型增額終身壽險",
+            "銷售日": "103/03/24",
+            "停售日": "103/09/14",
+            "tii_product_id": "216141M21A14600"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿富利利率變動型增額終身壽險",
+          "銷售日": "103/03/24",
+          "停售日": "103/09/14",
+          "tii_product_id": "216141M21A14600",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216141M21A14600"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2014-03-24",
+        "stop_date": "2014-09-14"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02221",
+      "name": "美滿富裕利率變動型增額終身壽險(DC1)",
+      "insurer": "遠雄人壽",
+      "site_code": "#DC1",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23DC1&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:49+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國103年06月16日",
+          "修正日期": null,
+          "條款最新日期": "103/06/16",
+          "條款首部全部日期": [
+            "103/06/16"
+          ],
+          "文號行": [
+            "遠壽字第1030484號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿富裕利率變動型增額終身壽險",
+            "銷售日": "103/06/16",
+            "停售日": "103/09/14",
+            "tii_product_id": "216141M21A14800"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿富裕利率變動型增額終身壽險",
+          "銷售日": "103/06/16",
+          "停售日": "103/09/14",
+          "tii_product_id": "216141M21A14800",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216141M21A14800"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2014-06-16",
+        "stop_date": "2014-09-14"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02222",
+      "name": "美滿富足利率變動型增額終身壽險(DA1)",
+      "insurer": "遠雄人壽",
+      "site_code": "#DA1",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23DA1&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:49+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國102年12月23日",
+          "修正日期": null,
+          "條款最新日期": "102/12/23",
+          "條款首部全部日期": [
+            "102/12/23"
+          ],
+          "文號行": [
+            "(102)遠雄壽字第1505號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿富足利率變動型增額終身壽險",
+            "銷售日": "102/12/23",
+            "停售日": "103/05/11",
+            "tii_product_id": "216141M21A14300"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿富足利率變動型增額終身壽險",
+          "銷售日": "102/12/23",
+          "停售日": "103/05/11",
+          "tii_product_id": "216141M21A14300",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216141M21A14300"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2013-12-23",
+        "stop_date": "2014-05-11"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02223",
+      "name": "美滿富足２利率變動型增額終身壽險（DA2）",
+      "insurer": "遠雄人壽",
+      "site_code": "#DA2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23DA2&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:49+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國102年12月23日；民國103年05月12日",
+          "修正日期": null,
+          "條款最新日期": "103/05/12",
+          "條款首部全部日期": [
+            "102/12/23",
+            "103/05/12"
+          ],
+          "文號行": [
+            "(102)遠雄壽字第1505號函",
+            "(103)遠雄壽字第395號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿富足２利率變動型增額終身壽險(第1次部分變更)",
+            "銷售日": "103/05/12",
+            "停售日": "103/09/14",
+            "tii_product_id": "216141M21A14301"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿富足２利率變動型增額終身壽險(第1次部分變更)",
+          "銷售日": "103/05/12",
+          "停售日": "103/09/14",
+          "tii_product_id": "216141M21A14301",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216141M21A14301"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2014-05-12",
+        "stop_date": "2014-09-14"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02224",
+      "name": "美滿致富增額終身壽險(LI1)",
+      "insurer": "遠雄人壽",
+      "site_code": "#LI1",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23LI1&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:50+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國101年10月29日",
+          "修正日期": null,
+          "條款最新日期": "101/10/29",
+          "條款首部全部日期": [
+            "101/10/29"
+          ],
+          "文號行": [
+            "(101)遠雄壽字第1355號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿致富增額終身壽險",
+            "銷售日": "101/10/29",
+            "停售日": "104/04/26",
+            "tii_product_id": "216141M11A13300"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿致富增額終身壽險",
+          "銷售日": "101/10/29",
+          "停售日": "104/04/26",
+          "tii_product_id": "216141M11A13300",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216141M11A13300"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2012-10-29",
+        "stop_date": "2015-04-26"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02314",
+      "name": "超好鑽利率變動型養老保險(FWX)",
+      "insurer": "遠雄人壽",
+      "site_code": "#FWX",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FWX&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:49+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國101年12月10日",
+          "修正日期": null,
+          "條款最新日期": "101/12/10",
+          "條款首部全部日期": [
+            "101/12/10"
+          ],
+          "文號行": [
+            "(101)遠雄壽字第1460號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽超好鑽利率變動型養老保險",
+            "銷售日": "101/12/10",
+            "停售日": "102/12/31",
+            "tii_product_id": "216121M21A13400"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽超好鑽利率變動型養老保險",
+          "銷售日": "101/12/10",
+          "停售日": "102/12/31",
+          "tii_product_id": "216121M21A13400",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216121M21A13400"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2012-12-10",
+        "stop_date": "2013-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02315",
+      "name": "超級鑽利率變動型養老保險(FWY)",
+      "insurer": "遠雄人壽",
+      "site_code": "#FWY",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FWY&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:50+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國102年07月01日；民國103年01月27日",
+          "修正日期": null,
+          "條款最新日期": "103/01/27",
+          "條款首部全部日期": [
+            "102/07/01",
+            "103/01/27"
+          ],
+          "文號行": [
+            "(102)遠雄壽字第861號函",
+            "(103)遠雄壽字第074號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽超級鑽利率變動型養老保險",
+            "銷售日": "102/07/01",
+            "停售日": "102/12/24",
+            "tii_product_id": "216121M21A13700"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於條款最新日期 103/01/27 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02321",
+      "name": "遠雄人壽傳富大盈家利率變動型終身壽險(109)",
+      "insurer": "遠雄人壽",
+      "site_code": "AE2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=AE2&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:51+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國107年12月14日；民國109年01月01日",
+          "修正日期": null,
+          "條款最新日期": "109/01/01",
+          "條款首部全部日期": [
+            "107/12/14",
+            "109/01/01"
+          ],
+          "文號行": [
+            "遠壽字第1070005133號函",
+            "遠壽字第1090000019號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽傳富大盈家利率變動型終身壽險",
+            "銷售日": "107/12/14",
+            "停售日": "108/12/31",
+            "tii_product_id": "216131MA1A24623A11Z10000000"
+          },
+          {
+            "name": "遠雄人壽傳富大盈家利率變動型終身壽險(109)(第1次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/06/30",
+            "tii_product_id": "216131MA1A24623A11Z10000001"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽傳富大盈家利率變動型終身壽險(109)(第1次部分變更)",
+          "銷售日": "109/01/01",
+          "停售日": "109/06/30",
+          "tii_product_id": "216131MA1A24623A11Z10000001",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A24623A11Z10000001"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-01-01",
+        "stop_date": "2020-06-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02323",
+      "name": "遠雄人壽傳富新終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "FI4",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=FI4&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:54+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國104年05月18日；民國109年09月01日",
+          "修正日期": null,
+          "條款最新日期": "109/09/01",
+          "條款首部全部日期": [
+            "104/05/18",
+            "109/09/01"
+          ],
+          "文號行": [
+            "遠壽字第1040186號函",
+            "遠壽字第1090003652號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽傳富新終身壽險(第5次部分變更)",
+            "銷售日": "109/07/01",
+            "停售日": "109/08/31",
+            "tii_product_id": "216131MZ1A18123A11Z10000005"
+          },
+          {
+            "name": "遠雄人壽傳富新終身壽險(第6次部分變更)",
+            "銷售日": "109/09/01",
+            "停售日": "110/06/30",
+            "tii_product_id": "216131MZ1A18123A11Z10000006"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽傳富新終身壽險(第6次部分變更)",
+          "銷售日": "109/09/01",
+          "停售日": "110/06/30",
+          "tii_product_id": "216131MZ1A18123A11Z10000006",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MZ1A18123A11Z10000006"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-09-01",
+        "stop_date": "2021-06-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02337",
+      "name": "遠雄人壽全家保小額終身壽險(109)",
+      "insurer": "遠雄人壽",
+      "site_code": "LM2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=LM2&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:52+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國107年01月17日",
+          "修正日期": "民國109年09月01日",
+          "條款最新日期": "109/09/01",
+          "條款首部全部日期": [
+            "107/01/17",
+            "109/09/01"
+          ],
+          "文號行": [
+            "遠壽字第1070000001號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽全家保小額終身壽險",
+            "銷售日": "107/01/17",
+            "停售日": "107/09/13",
+            "tii_product_id": "216131MZ1A23023A11D10000000"
+          },
+          {
+            "name": "遠雄人壽全家保小額終身壽險(109)(第3次部分變更)",
+            "銷售日": "109/09/01",
+            "停售日": "110/06/30",
+            "tii_product_id": "216131MZ1A23023A11D10000003"
+          },
+          {
+            "name": "遠雄人壽全家保小額終身壽險(109)(第4次部分變更)",
+            "銷售日": "110/07/01",
+            "停售日": "111/11/06",
+            "tii_product_id": "216131MZ1A23023A11D10000004"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽全家保小額終身壽險(109)(第3次部分變更)",
+          "銷售日": "109/09/01",
+          "停售日": "110/06/30",
+          "tii_product_id": "216131MZ1A23023A11D10000003",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MZ1A23023A11D10000003"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-09-01",
+        "stop_date": "2021-06-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02338",
+      "name": "遠雄人壽全家保小額終身壽險(109)",
+      "insurer": "遠雄人壽",
+      "site_code": "LM3",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=LM3&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:52+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國107年01月17日",
+          "修正日期": "民國110年07月01日",
+          "條款最新日期": "110/07/01",
+          "條款首部全部日期": [
+            "107/01/17",
+            "110/07/01"
+          ],
+          "文號行": [
+            "遠壽字第1070000001號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽全家保小額終身壽險",
+            "銷售日": "107/01/17",
+            "停售日": "107/09/13",
+            "tii_product_id": "216131MZ1A23023A11D10000000"
+          },
+          {
+            "name": "遠雄人壽全家保小額終身壽險(109)(第3次部分變更)",
+            "銷售日": "109/09/01",
+            "停售日": "110/06/30",
+            "tii_product_id": "216131MZ1A23023A11D10000003"
+          },
+          {
+            "name": "遠雄人壽全家保小額終身壽險(109)(第4次部分變更)",
+            "銷售日": "110/07/01",
+            "停售日": "111/11/06",
+            "tii_product_id": "216131MZ1A23023A11D10000004"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽全家保小額終身壽險(109)(第4次部分變更)",
+          "銷售日": "110/07/01",
+          "停售日": "111/11/06",
+          "tii_product_id": "216131MZ1A23023A11D10000004",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MZ1A23023A11D10000004"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2021-07-01",
+        "stop_date": "2022-11-06"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02342",
+      "name": "遠雄人壽幸福好照Ａ型失能照護終身保險",
+      "insurer": "遠雄人壽",
+      "site_code": "MG1",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=MG1&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:52+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國109年05月22日",
+          "修正日期": null,
+          "條款最新日期": "109/05/22",
+          "條款首部全部日期": [
+            "109/05/22"
+          ],
+          "文號行": [
+            "遠壽字第1090001073號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽幸福好照A型失能照護終身保險",
+            "銷售日": "109/05/22",
+            "停售日": "109/12/31",
+            "tii_product_id": "216131MZ1B26423A11Z10000000"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽幸福好照A型失能照護終身保險",
+          "銷售日": "109/05/22",
+          "停售日": "109/12/31",
+          "tii_product_id": "216131MZ1B26423A11Z10000000",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MZ1B26423A11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-05-22",
+        "stop_date": "2020-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02344",
+      "name": "遠雄人壽新定期壽險(106)",
+      "insurer": "遠雄人壽",
+      "site_code": "FD5",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=FD5&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:51+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國88年03月01日",
+          "修正日期": "民國109年01月01日",
+          "條款最新日期": "109/01/01",
+          "條款首部全部日期": [
+            "088/03/01",
+            "109/01/01"
+          ],
+          "文號行": [
+            "(88)中興研發研字第056號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽新定期壽險",
+            "銷售日": "092/12/31",
+            "停售日": "092/12/30",
+            "tii_product_id": "216131M11A01300"
+          },
+          {
+            "name": "遠雄人壽新定期壽險(第1次部分變更)",
+            "銷售日": "092/12/31",
+            "停售日": "095/12/31",
+            "tii_product_id": "216131M11A01301"
+          },
+          {
+            "name": "遠雄人壽新定期壽險(第2次部分變更)",
+            "銷售日": "096/01/01",
+            "停售日": "096/08/31",
+            "tii_product_id": "216131M11A01302"
+          },
+          {
+            "name": "遠雄人壽新定期壽險(第3次部分變更)",
+            "銷售日": "096/09/01",
+            "停售日": "096/12/31",
+            "tii_product_id": "216131M11A01303"
+          },
+          {
+            "name": "遠雄人壽新定期壽險(第4次部分變更)",
+            "銷售日": "097/01/01",
+            "停售日": "098/03/29",
+            "tii_product_id": "216131M11A01304"
+          },
+          {
+            "name": "遠雄人壽新定期壽險(第5次部分變更)",
+            "銷售日": "098/03/30",
+            "停售日": "099/04/08",
+            "tii_product_id": "216131M11A01305"
+          },
+          {
+            "name": "遠雄人壽新定期壽險(第6次部分變更)",
+            "銷售日": "099/04/09",
+            "停售日": "099/08/31",
+            "tii_product_id": "216131M11A01306"
+          },
+          {
+            "name": "遠雄人壽新定期壽險(第7次部分變更)",
+            "銷售日": "099/09/01",
+            "停售日": "100/06/30",
+            "tii_product_id": "216131M11A01307"
+          },
+          {
+            "name": "遠雄人壽新定期壽險(第8次部分變更)",
+            "銷售日": "100/07/01",
+            "停售日": "101/06/30",
+            "tii_product_id": "216131M11A01308"
+          },
+          {
+            "name": "遠雄人壽新定期壽險(第9次部分變更)",
+            "銷售日": "101/07/01",
+            "停售日": "104/08/03",
+            "tii_product_id": "216131M11A01309"
+          },
+          {
+            "name": "遠雄人壽新定期壽險(第10次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "105/12/31",
+            "tii_product_id": "216131MZ1A01322A11Z10000010"
+          },
+          {
+            "name": "遠雄人壽新定期壽險(106)(第11次部分變更)",
+            "銷售日": "106/01/01",
+            "停售日": "107/09/13",
+            "tii_product_id": "216131MZ1A01322A11Z10000011"
+          },
+          {
+            "name": "遠雄人壽新定期壽險(106)(第12次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/12/31",
+            "tii_product_id": "216131MZ1A01322A11Z10000012"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於條款最新日期 109/01/01 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02346",
+      "name": "遠雄人壽新定期壽險附約(106)",
+      "insurer": "遠雄人壽",
+      "site_code": "QA5",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=QA5&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:53+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國88年01月21日",
+          "修正日期": "民國109年01月01日",
+          "條款最新日期": "109/01/01",
+          "條款首部全部日期": [
+            "088/01/21",
+            "109/01/01"
+          ],
+          "文號行": []
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽新定期壽險附約",
+            "銷售日": "088/01/21",
+            "停售日": "094/12/31",
+            "tii_product_id": "216141R11A03000"
+          },
+          {
+            "name": "遠雄人壽新定期壽險附約(第1次部分變更)",
+            "銷售日": "095/01/01",
+            "停售日": "095/12/31",
+            "tii_product_id": "216141R11A03001"
+          },
+          {
+            "name": "遠雄人壽新定期壽險附約(第2次部分變更)",
+            "銷售日": "096/01/01",
+            "停售日": "096/08/31",
+            "tii_product_id": "216141R11A03002"
+          },
+          {
+            "name": "遠雄人壽新定期壽險附約(第5次部分變更)",
+            "銷售日": "098/03/30",
+            "停售日": "099/04/08",
+            "tii_product_id": "216141R11A03005"
+          },
+          {
+            "name": "遠雄人壽新定期壽險附約(第6次部分變更)",
+            "銷售日": "099/04/09",
+            "停售日": "099/08/31",
+            "tii_product_id": "216141R11A03006"
+          },
+          {
+            "name": "遠雄人壽新定期壽險附約(第7次部分變更)",
+            "銷售日": "099/09/01",
+            "停售日": "100/06/30",
+            "tii_product_id": "216141R11A03007"
+          },
+          {
+            "name": "遠雄人壽新定期壽險附約(第8次部分變更)",
+            "銷售日": "100/07/01",
+            "停售日": "101/06/30",
+            "tii_product_id": "216141R11A03008"
+          },
+          {
+            "name": "遠雄人壽新定期壽險附約(第9次部分變更)",
+            "銷售日": "101/07/01",
+            "停售日": "104/08/03",
+            "tii_product_id": "216141R11A03009"
+          },
+          {
+            "name": "遠雄人壽新定期壽險附約(106)(第11次部分變更)",
+            "銷售日": "106/01/01",
+            "停售日": "107/01/31",
+            "tii_product_id": "216131RZ1A03022A11Z10000011"
+          },
+          {
+            "name": "遠雄人壽新定期壽險附約(106)(第12次部分變更)",
+            "銷售日": "107/02/01",
+            "停售日": "107/09/13",
+            "tii_product_id": "216131RZ1A03022A11Z10000012"
+          },
+          {
+            "name": "遠雄人壽新定期壽險附約(106)(第13次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/12/31",
+            "tii_product_id": "216131RZ1A03022A11Z10000013"
+          },
+          {
+            "name": "遠雄人壽新定期壽險附約(106)(第14次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "110/06/30",
+            "tii_product_id": "216131RZ1A03022A11Z10000014"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽新定期壽險附約(106)(第14次部分變更)",
+          "銷售日": "109/01/01",
+          "停售日": "110/06/30",
+          "tii_product_id": "216131RZ1A03022A11Z10000014",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131RZ1A03022A11Z10000014"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-01-01",
+        "stop_date": "2021-06-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02348",
+      "name": "遠雄人壽新終身壽險(106)",
+      "insurer": "遠雄人壽",
+      "site_code": "FI2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=FI2&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:54+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國104年05月18日",
+          "修正日期": "民國107年09月14日",
+          "條款最新日期": "107/09/14",
+          "條款首部全部日期": [
+            "104/05/18",
+            "107/09/14"
+          ],
+          "文號行": [
+            "遠壽字第1040186號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽新終身壽險",
+            "銷售日": "092/12/31",
+            "停售日": "094/12/31",
+            "tii_product_id": "216141M11A00100"
+          },
+          {
+            "name": "遠雄人壽新終身壽險(第1次部分變更)",
+            "銷售日": "095/01/01",
+            "停售日": "095/12/31",
+            "tii_product_id": "216141M11A00101"
+          },
+          {
+            "name": "遠雄人壽新終身壽險(第2次部分變更)",
+            "銷售日": "096/01/01",
+            "停售日": "096/08/31",
+            "tii_product_id": "216141M11A00102"
+          },
+          {
+            "name": "遠雄人壽新終身壽險(第3次部分變更)",
+            "銷售日": "096/09/01",
+            "停售日": "096/12/31",
+            "tii_product_id": "216141M11A00103"
+          },
+          {
+            "name": "遠雄人壽新終身壽險(第4次部分變更)",
+            "銷售日": "097/01/01",
+            "停售日": "098/03/29",
+            "tii_product_id": "216141M11A00104"
+          },
+          {
+            "name": "遠雄人壽新終身壽險(第5次部分變更)",
+            "銷售日": "098/03/30",
+            "停售日": "098/08/01",
+            "tii_product_id": "216141M11A00105"
+          },
+          {
+            "name": "遠雄人壽新終身壽險(106)(第2次部分變更)",
+            "銷售日": "106/01/01",
+            "停售日": "107/09/13",
+            "tii_product_id": "216131MZ1A18123A11Z10000002"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於條款最新日期 107/09/14 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02349",
+      "name": "遠雄人壽新終身壽險(109)",
+      "insurer": "遠雄人壽",
+      "site_code": "FI3",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=FI3&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:54+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國104年05月18日；民國109年01月01日",
+          "修正日期": null,
+          "條款最新日期": "109/01/01",
+          "條款首部全部日期": [
+            "104/05/18",
+            "109/01/01"
+          ],
+          "文號行": [
+            "遠壽字第1040186號函",
+            "遠壽字第1090000024號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽新終身壽險",
+            "銷售日": "092/12/31",
+            "停售日": "094/12/31",
+            "tii_product_id": "216141M11A00100"
+          },
+          {
+            "name": "遠雄人壽新終身壽險(第1次部分變更)",
+            "銷售日": "095/01/01",
+            "停售日": "095/12/31",
+            "tii_product_id": "216141M11A00101"
+          },
+          {
+            "name": "遠雄人壽新終身壽險(第2次部分變更)",
+            "銷售日": "096/01/01",
+            "停售日": "096/08/31",
+            "tii_product_id": "216141M11A00102"
+          },
+          {
+            "name": "遠雄人壽新終身壽險(第3次部分變更)",
+            "銷售日": "096/09/01",
+            "停售日": "096/12/31",
+            "tii_product_id": "216141M11A00103"
+          },
+          {
+            "name": "遠雄人壽新終身壽險(第4次部分變更)",
+            "銷售日": "097/01/01",
+            "停售日": "098/03/29",
+            "tii_product_id": "216141M11A00104"
+          },
+          {
+            "name": "遠雄人壽新終身壽險(第5次部分變更)",
+            "銷售日": "098/03/30",
+            "停售日": "098/08/01",
+            "tii_product_id": "216141M11A00105"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於條款最新日期 109/01/01 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02353",
+      "name": "遠雄人壽新美滿永樂利率變動型增額終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "DZ3",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=DZ3&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:55+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國106年08月16日",
+          "修正日期": "民國111年12月02日",
+          "條款最新日期": "111/12/02",
+          "條款首部全部日期": [
+            "106/08/16",
+            "111/12/02"
+          ],
+          "文號行": [
+            "遠壽字第1060002457號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽新美滿永樂利率變動型增額終身壽險(第4次部分變更)",
+            "銷售日": "109/07/01",
+            "停售日": "111/12/01",
+            "tii_product_id": "216131MA4B22523A11Z10000004"
+          },
+          {
+            "name": "遠雄人壽新美滿永樂利率變動型增額終身壽險(第5次部分變更)",
+            "銷售日": "111/12/02",
+            "停售日": "113/05/31",
+            "tii_product_id": "216131MA4B22523A11Z10000005"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽新美滿永樂利率變動型增額終身壽險(第5次部分變更)",
+          "銷售日": "111/12/02",
+          "停售日": "113/05/31",
+          "tii_product_id": "216131MA4B22523A11Z10000005",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4B22523A11Z10000005"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2022-12-02",
+        "stop_date": "2024-05-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02354",
+      "name": "遠雄人壽新美滿永樂美元利率變動型增額終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "ZM3",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=ZM3&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:55+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國106年07月24日",
+          "修正日期": "民國112年03月01日",
+          "條款最新日期": "112/03/01",
+          "條款首部全部日期": [
+            "106/07/24",
+            "112/03/01"
+          ],
+          "文號行": [
+            "遠壽字第1060002244號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽新美滿永樂美元利率變動型增額終身壽險(第6次部分變更)",
+            "銷售日": "109/07/01",
+            "停售日": "111/12/01",
+            "tii_product_id": "216131MA4B22423B11Z10000006"
+          },
+          {
+            "name": "遠雄人壽新美滿永樂美元利率變動型增額終身壽險(第7次部分變更)",
+            "銷售日": "111/12/02",
+            "停售日": "112/02/28",
+            "tii_product_id": "216131MA4B22423B11Z10000007"
+          },
+          {
+            "name": "遠雄人壽新美滿永樂美元利率變動型增額終身壽險(第8次部分變更)",
+            "銷售日": "112/03/01",
+            "停售日": "112/12/31",
+            "tii_product_id": "216131MA4B22423B11Z10000008"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽新美滿永樂美元利率變動型增額終身壽險(第8次部分變更)",
+          "銷售日": "112/03/01",
+          "停售日": "112/12/31",
+          "tii_product_id": "216131MA4B22423B11Z10000008",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4B22423B11Z10000008"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2023-03-01",
+        "stop_date": "2023-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02356",
+      "name": "遠雄人壽新美滿金五利利率變動型增額終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "AI2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=AI2&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:58+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國108年12月18日",
+          "修正日期": "民國111年12月02日",
+          "條款最新日期": "111/12/02",
+          "條款首部全部日期": [
+            "108/12/18",
+            "111/12/02"
+          ],
+          "文號行": [
+            "遠壽字第1080005361號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽新美滿金五利利率變動型增額終身壽險(第2次部分變更)",
+            "銷售日": "109/07/01",
+            "停售日": "111/12/01",
+            "tii_product_id": "216131MA2A26023A11Z10000002"
+          },
+          {
+            "name": "遠雄人壽新美滿金五利利率變動型增額終身壽險(第3次部分變更)",
+            "銷售日": "111/12/02",
+            "停售日": "112/12/31",
+            "tii_product_id": "216131MA2A26023A11Z10000003"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽新美滿金五利利率變動型增額終身壽險(第3次部分變更)",
+          "銷售日": "111/12/02",
+          "停售日": "112/12/31",
+          "tii_product_id": "216131MA2A26023A11Z10000003",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA2A26023A11Z10000003"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2022-12-02",
+        "stop_date": "2023-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02357",
+      "name": "遠雄人壽新超好心Ａ型失能照護終身保險",
+      "insurer": "遠雄人壽",
+      "site_code": "MD1",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=MD1&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:58+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國108年07月01日",
+          "修正日期": null,
+          "條款最新日期": "108/07/01",
+          "條款首部全部日期": [
+            "108/07/01"
+          ],
+          "文號行": [
+            "遠壽字第1080002273號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽新超好心A型失能照護終身保險",
+            "銷售日": "108/07/01",
+            "停售日": "108/12/31",
+            "tii_product_id": "216131MZ1B25523A11Z10000000"
+          },
+          {
+            "name": "遠雄人壽新超好心A型失能照護終身保險(第1次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/12/31",
+            "tii_product_id": "216131MZ1B25523A11Z10000001"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽新超好心A型失能照護終身保險",
+          "銷售日": "108/07/01",
+          "停售日": "108/12/31",
+          "tii_product_id": "216131MZ1B25523A11Z10000000",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MZ1B25523A11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2019-07-01",
+        "stop_date": "2019-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02358",
+      "name": "遠雄人壽新超好心Ａ型失能照護終身保險",
+      "insurer": "遠雄人壽",
+      "site_code": "MD2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=MD2&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:57+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國108年07月01日；民國109年01月01日",
+          "修正日期": null,
+          "條款最新日期": "109/01/01",
+          "條款首部全部日期": [
+            "108/07/01",
+            "109/01/01"
+          ],
+          "文號行": [
+            "遠壽字第1080002273號函",
+            "遠壽字第1090000010號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽新超好心A型失能照護終身保險",
+            "銷售日": "108/07/01",
+            "停售日": "108/12/31",
+            "tii_product_id": "216131MZ1B25523A11Z10000000"
+          },
+          {
+            "name": "遠雄人壽新超好心A型失能照護終身保險(第1次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/12/31",
+            "tii_product_id": "216131MZ1B25523A11Z10000001"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽新超好心A型失能照護終身保險(第1次部分變更)",
+          "銷售日": "109/01/01",
+          "停售日": "109/12/31",
+          "tii_product_id": "216131MZ1B25523A11Z10000001",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MZ1B25523A11Z10000001"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-01-01",
+        "stop_date": "2020-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02363",
+      "name": "遠雄人壽美滿十倍勝利率變動型增額終身壽險(109)",
+      "insurer": "遠雄人壽",
+      "site_code": "AC2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=AC2&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:59+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國107年05月31日；民國109年01月01日",
+          "修正日期": null,
+          "條款最新日期": "109/01/01",
+          "條款首部全部日期": [
+            "107/05/31",
+            "109/01/01"
+          ],
+          "文號行": [
+            "遠壽字第1070001692號函",
+            "遠壽字第1090000017號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿十倍勝利率變動型增額終身壽險",
+            "銷售日": "107/05/31",
+            "停售日": "107/09/13",
+            "tii_product_id": "216131MA1G23823A11Z10000000"
+          },
+          {
+            "name": "遠雄人壽美滿十倍勝利率變動型增額終身壽險(第1次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/12/31",
+            "tii_product_id": "216131MA1G23823A11Z10000001"
+          },
+          {
+            "name": "遠雄人壽美滿十倍勝利率變動型增額終身壽險(109)(第2次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/06/30",
+            "tii_product_id": "216131MA1G23823A11Z10000002"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿十倍勝利率變動型增額終身壽險(109)(第2次部分變更)",
+          "銷售日": "109/01/01",
+          "停售日": "109/06/30",
+          "tii_product_id": "216131MA1G23823A11Z10000002",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1G23823A11Z10000002"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-01-01",
+        "stop_date": "2020-06-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02365",
+      "name": "遠雄人壽美滿增值增額終身壽險(106)",
+      "insurer": "遠雄人壽",
+      "site_code": "LA3",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=LA3&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:57+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國100年03月28日；民國106年01月01日",
+          "修正日期": null,
+          "條款最新日期": "106/01/01",
+          "條款首部全部日期": [
+            "100/03/28",
+            "106/01/01"
+          ],
+          "文號行": [
+            "(100)遠雄壽字第110號函",
+            "遠壽字第1060000013號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿增值增額終身壽險",
+            "銷售日": "100/03/28",
+            "停售日": "100/06/30",
+            "tii_product_id": "216141M11A11800"
+          },
+          {
+            "name": "遠雄人壽美滿增值增額終身壽險(106)(第5次部分變更)",
+            "銷售日": "106/01/01",
+            "停售日": "107/09/13",
+            "tii_product_id": "216131MZ1A11823A11Z10000005"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿增值增額終身壽險(106)(第5次部分變更)",
+          "銷售日": "106/01/01",
+          "停售日": "107/09/13",
+          "tii_product_id": "216131MZ1A11823A11Z10000005",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MZ1A11823A11Z10000005"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2017-01-01",
+        "stop_date": "2018-09-13"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02368",
+      "name": "遠雄人壽美滿多利利率變動型增額終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "DE2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=DE2&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:57+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國103年12月22日",
+          "修正日期": "民國104年08月04日",
+          "條款最新日期": "104/08/04",
+          "條款首部全部日期": [
+            "103/12/22",
+            "104/08/04"
+          ],
+          "文號行": [
+            "遠壽字第1030866號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿多利利率變動型增額終身壽險",
+            "銷售日": "103/12/22",
+            "停售日": "104/04/12",
+            "tii_product_id": "216141M21A17300"
+          },
+          {
+            "name": "遠雄人壽美滿多利利率變動型增額終身壽險(第1次部分變更)",
+            "銷售日": "104/04/13",
+            "停售日": "104/08/03",
+            "tii_product_id": "216141M21A17301"
+          },
+          {
+            "name": "遠雄人壽美滿多利利率變動型增額終身壽險(第2次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "105/12/31",
+            "tii_product_id": "216131MA1A17323A11Z10000002"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿多利利率變動型增額終身壽險(第2次部分變更)",
+          "銷售日": "104/08/04",
+          "停售日": "105/12/31",
+          "tii_product_id": "216131MA1A17323A11Z10000002",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A17323A11Z10000002"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2015-08-04",
+        "stop_date": "2016-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02376",
+      "name": "遠雄人壽美滿富利利率變動型增額終身壽險（２）",
+      "insurer": "遠雄人壽",
+      "site_code": "DB3",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=DB3&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:59+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國103年03月24日",
+          "修正日期": "民國104年08月04日",
+          "條款最新日期": "104/08/04",
+          "條款首部全部日期": [
+            "103/03/24",
+            "104/08/04"
+          ],
+          "文號行": [
+            "(103)遠雄壽字第254號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿富利利率變動型增額終身壽險",
+            "銷售日": "103/03/24",
+            "停售日": "103/09/14",
+            "tii_product_id": "216141M21A14600"
+          },
+          {
+            "name": "遠雄人壽美滿富利利率變動型增額終身壽險(２)(第1次部分變更)",
+            "銷售日": "103/09/15",
+            "停售日": "104/04/12",
+            "tii_product_id": "216141M21A14601"
+          },
+          {
+            "name": "遠雄人壽美滿富利利率變動型增額終身壽險(２)(第2次部分變更)",
+            "銷售日": "104/04/13",
+            "停售日": "104/08/03",
+            "tii_product_id": "216141M21A14602"
+          },
+          {
+            "name": "遠雄人壽美滿富利利率變動型增額終身壽險(２)(第3次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "105/12/31",
+            "tii_product_id": "216131MA1A14623A11Z10000003"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿富利利率變動型增額終身壽險(２)(第3次部分變更)",
+          "銷售日": "104/08/04",
+          "停售日": "105/12/31",
+          "tii_product_id": "216131MA1A14623A11Z10000003",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A14623A11Z10000003"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2015-08-04",
+        "stop_date": "2016-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02378",
+      "name": "遠雄人壽美滿富勝利率變動型增額終身壽險(106)",
+      "insurer": "遠雄人壽",
+      "site_code": "DT1",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=DT1&termsKind=C",
+        "fetched_at": "2026-11-26T10:08:01+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國106年01月01日",
+          "修正日期": "民國107年09月14日",
+          "條款最新日期": "107/09/14",
+          "條款首部全部日期": [
+            "106/01/01",
+            "107/09/14"
+          ],
+          "文號行": [
+            "遠壽字第1060000012號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿富勝利率變動型增額終身壽險",
+            "銷售日": "105/04/18",
+            "停售日": "105/12/31",
+            "tii_product_id": "216131MA4B19923A11Z10000000"
+          },
+          {
+            "name": "遠雄人壽美滿富勝利率變動型增額終身壽險(106)(第1次部分變更)",
+            "銷售日": "107/04/25",
+            "停售日": "107/09/13",
+            "tii_product_id": "216131MA4B21423A11Z10000001"
+          },
+          {
+            "name": "遠雄人壽美滿富勝利率變動型增額終身壽險(106)(第2次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/03/19",
+            "tii_product_id": "216131MA4B21423A11Z10000002"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿富勝利率變動型增額終身壽險(106)(第2次部分變更)",
+          "銷售日": "107/09/14",
+          "停售日": "108/03/19",
+          "tii_product_id": "216131MA4B21423A11Z10000002",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4B21423A11Z10000002"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2018-09-14",
+        "stop_date": "2019-03-19"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02381",
+      "name": "遠雄人壽美滿富裕利率變動型增額終身壽險（２）",
+      "insurer": "遠雄人壽",
+      "site_code": "DC3",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=DC3&termsKind=C",
+        "fetched_at": "2026-11-26T10:07:59+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國103年06月16日",
+          "修正日期": "民國104年08月04日",
+          "條款最新日期": "104/08/04",
+          "條款首部全部日期": [
+            "103/06/16",
+            "104/08/04"
+          ],
+          "文號行": [
+            "遠壽字第1030484號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿富裕利率變動型增額終身壽險",
+            "銷售日": "103/06/16",
+            "停售日": "103/09/14",
+            "tii_product_id": "216141M21A14800"
+          },
+          {
+            "name": "遠雄人壽美滿富裕利率變動型增額終身壽險(２)(第1次部分變更)",
+            "銷售日": "103/09/15",
+            "停售日": "104/04/12",
+            "tii_product_id": "216141M21A14801"
+          },
+          {
+            "name": "遠雄人壽美滿富裕利率變動型增額終身壽險(２)(第2次部分變更)",
+            "銷售日": "104/04/13",
+            "停售日": "104/08/03",
+            "tii_product_id": "216141M21A14802"
+          },
+          {
+            "name": "遠雄人壽美滿富裕利率變動型增額終身壽險(２)(第3次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "105/12/31",
+            "tii_product_id": "216131MA1A14823A11Z10000003"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿富裕利率變動型增額終身壽險(２)(第3次部分變更)",
+          "銷售日": "104/08/04",
+          "停售日": "105/12/31",
+          "tii_product_id": "216131MA1A14823A11Z10000003",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A14823A11Z10000003"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2015-08-04",
+        "stop_date": "2016-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02386",
+      "name": "遠雄人壽美滿富足利率變動型增額終身壽險(109)",
+      "insurer": "遠雄人壽",
+      "site_code": "DQ2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=DQ2&termsKind=C",
+        "fetched_at": "2026-11-26T10:08:01+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國106年01月01日；民國109年01月01日",
+          "修正日期": null,
+          "條款最新日期": "109/01/01",
+          "條款首部全部日期": [
+            "106/01/01",
+            "109/01/01"
+          ],
+          "文號行": [
+            "遠壽字第1060000009號函",
+            "遠壽字第1090000016號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿富足利率變動型增額終身壽險",
+            "銷售日": "102/12/23",
+            "停售日": "103/05/11",
+            "tii_product_id": "216141M21A14300"
+          },
+          {
+            "name": "遠雄人壽美滿富足利率變動型增額終身壽險(109)(第3次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/06/30",
+            "tii_product_id": "216131MA1A20823A11Z10000003"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿富足利率變動型增額終身壽險(109)(第3次部分變更)",
+          "銷售日": "109/01/01",
+          "停售日": "109/06/30",
+          "tii_product_id": "216131MA1A20823A11Z10000003",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A20823A11Z10000003"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-01-01",
+        "stop_date": "2020-06-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02387",
+      "name": "遠雄人壽美滿富足利率變動型增額終身壽險（３）",
+      "insurer": "遠雄人壽",
+      "site_code": "DA4",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=DA4&termsKind=C",
+        "fetched_at": "2026-11-26T10:08:00+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國102年12月23日；民國105年03月03日",
+          "修正日期": null,
+          "條款最新日期": "105/03/03",
+          "條款首部全部日期": [
+            "102/12/23",
+            "105/03/03"
+          ],
+          "文號行": [
+            "(102)遠雄壽字第1505號函",
+            "遠壽字第1050000258號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿富足利率變動型增額終身壽險",
+            "銷售日": "102/12/23",
+            "停售日": "103/05/11",
+            "tii_product_id": "216141M21A14300"
+          },
+          {
+            "name": "遠雄人壽美滿富足利率變動型增額終身壽險(３)(第2次部分變更)",
+            "銷售日": "103/09/15",
+            "停售日": "104/04/12",
+            "tii_product_id": "216141M21A14302"
+          },
+          {
+            "name": "遠雄人壽美滿富足利率變動型增額終身壽險(３)(第3次部分變更)",
+            "銷售日": "104/04/13",
+            "停售日": "104/08/03",
+            "tii_product_id": "216141M21A14303"
+          },
+          {
+            "name": "遠雄人壽美滿富足利率變動型增額終身壽險(３)(第4次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "105/03/02",
+            "tii_product_id": "216131MA1A14323A11Z10000004"
+          },
+          {
+            "name": "遠雄人壽美滿富足利率變動型增額終身壽險(３)(第5次部分變更)",
+            "銷售日": "105/03/03",
+            "停售日": "105/12/31",
+            "tii_product_id": "216131MA1A14323A11Z10000005"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿富足利率變動型增額終身壽險(３)(第5次部分變更)",
+          "銷售日": "105/03/03",
+          "停售日": "105/12/31",
+          "tii_product_id": "216131MA1A14323A11Z10000005",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A14323A11Z10000005"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2016-03-03",
+        "stop_date": "2016-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02391",
+      "name": "遠雄人壽美滿永富利率變動型增額終身壽險(109)",
+      "insurer": "遠雄人壽",
+      "site_code": "DY2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=DY2&termsKind=C",
+        "fetched_at": "2026-11-26T10:08:02+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國106年06月26日；民國109年01月01日",
+          "修正日期": null,
+          "條款最新日期": "109/01/01",
+          "條款首部全部日期": [
+            "106/06/26",
+            "109/01/01"
+          ],
+          "文號行": [
+            "遠壽字第1060001845號函",
+            "遠壽字第1090000014號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿永富利率變動型增額終身壽險",
+            "銷售日": "106/06/26",
+            "停售日": "107/04/24",
+            "tii_product_id": "216131MA4B22223A11Z10000000"
+          },
+          {
+            "name": "遠雄人壽美滿永富利率變動型增額終身壽險(第1次部分變更)",
+            "銷售日": "107/04/25",
+            "停售日": "107/09/13",
+            "tii_product_id": "216131MA4B22223A11Z10000001"
+          },
+          {
+            "name": "遠雄人壽美滿永富利率變動型增額終身壽險(第2次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/12/31",
+            "tii_product_id": "216131MA4B22223A11Z10000002"
+          },
+          {
+            "name": "遠雄人壽美滿永富利率變動型增額終身壽險(109)(第3次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/06/30",
+            "tii_product_id": "216131MA4B22223A11Z10000003"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿永富利率變動型增額終身壽險(109)(第3次部分變更)",
+          "銷售日": "109/01/01",
+          "停售日": "109/06/30",
+          "tii_product_id": "216131MA4B22223A11Z10000003",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4B22223A11Z10000003"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-01-01",
+        "stop_date": "2020-06-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02393",
+      "name": "遠雄人壽美滿永樂利率變動型增額終身壽險(109)",
+      "insurer": "遠雄人壽",
+      "site_code": "DZ2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=DZ2&termsKind=C",
+        "fetched_at": "2026-11-26T10:08:03+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國106年08月16日；民國109年01月01日",
+          "修正日期": null,
+          "條款最新日期": "109/01/01",
+          "條款首部全部日期": [
+            "106/08/16",
+            "109/01/01"
+          ],
+          "文號行": [
+            "遠壽字第1060002457號函",
+            "遠壽字第1090000018號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿永樂利率變動型增額終身壽險",
+            "銷售日": "106/08/16",
+            "停售日": "107/04/24",
+            "tii_product_id": "216131MA4B22523A11Z10000000"
+          },
+          {
+            "name": "遠雄人壽美滿永樂利率變動型增額終身壽險(第2次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/12/31",
+            "tii_product_id": "216131MA4B22523A11Z10000002"
+          },
+          {
+            "name": "遠雄人壽美滿永樂利率變動型增額終身壽險(109)(第3次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/06/30",
+            "tii_product_id": "216131MA4B22523A11Z10000003"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿永樂利率變動型增額終身壽險(109)(第3次部分變更)",
+          "銷售日": "109/01/01",
+          "停售日": "109/06/30",
+          "tii_product_id": "216131MA4B22523A11Z10000003",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4B22523A11Z10000003"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-01-01",
+        "stop_date": "2020-06-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02395",
+      "name": "遠雄人壽美滿永樂美元利率變動型增額終身壽險(109)",
+      "insurer": "遠雄人壽",
+      "site_code": "ZM2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=ZM2&termsKind=C",
+        "fetched_at": "2026-11-26T10:08:03+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國106年07月24日遠壽字第1060002244號函；民國109年01月01日遠壽字第1090000029號函",
+          "修正日期": null,
+          "條款最新日期": "109/01/01",
+          "條款首部全部日期": [
+            "106/07/24",
+            "109/01/01"
+          ],
+          "文號行": [
+            "備查文號:民國106年07月24日遠壽字第1060002244號函",
+            "備查文號:民國109年01月01日遠壽字第1090000029號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿永樂美元利率變動型增額終身壽險",
+            "銷售日": "106/07/24",
+            "停售日": "106/09/19",
+            "tii_product_id": "216131MA4B22423B11Z10000000"
+          },
+          {
+            "name": "遠雄人壽美滿永樂美元利率變動型增額終身壽險(第1次部分變更)",
+            "銷售日": "106/09/20",
+            "停售日": "107/04/24",
+            "tii_product_id": "216131MA4B22423B11Z10000001"
+          },
+          {
+            "name": "遠雄人壽美滿永樂美元利率變動型增額終身壽險(第2次部分變更)",
+            "銷售日": "107/04/25",
+            "停售日": "107/09/13",
+            "tii_product_id": "216131MA4B22423B11Z10000002"
+          },
+          {
+            "name": "遠雄人壽美滿永樂美元利率變動型增額終身壽險(第4次部分變更)",
+            "銷售日": "108/06/01",
+            "停售日": "108/12/31",
+            "tii_product_id": "216131MA4B22423B11Z10000004"
+          },
+          {
+            "name": "遠雄人壽美滿永樂美元利率變動型增額終身壽險(109)(第5次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/06/30",
+            "tii_product_id": "216131MA4B22423B11Z10000005"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿永樂美元利率變動型增額終身壽險(109)(第5次部分變更)",
+          "銷售日": "109/01/01",
+          "停售日": "109/06/30",
+          "tii_product_id": "216131MA4B22423B11Z10000005",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4B22423B11Z10000005"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-01-01",
+        "stop_date": "2020-06-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02397",
+      "name": "遠雄人壽美滿永續利率變動型增額終身壽險(109)",
+      "insurer": "遠雄人壽",
+      "site_code": "DW2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=DW2&termsKind=C",
+        "fetched_at": "2026-11-26T10:08:04+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國106年04月10日；民國109年01月01日",
+          "修正日期": null,
+          "條款最新日期": "109/01/01",
+          "條款首部全部日期": [
+            "106/04/10",
+            "109/01/01"
+          ],
+          "文號行": [
+            "遠壽字第1060000834號函",
+            "遠壽字第1090000015號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿永續利率變動型增額終身壽險",
+            "銷售日": "106/04/10",
+            "停售日": "107/04/24",
+            "tii_product_id": "216131MA4B21723A11Z10000000"
+          },
+          {
+            "name": "遠雄人壽美滿永續利率變動型增額終身壽險(第1次部分變更)",
+            "銷售日": "107/04/25",
+            "停售日": "107/09/13",
+            "tii_product_id": "216131MA4B21723A11Z10000001"
+          },
+          {
+            "name": "遠雄人壽美滿永續利率變動型增額終身壽險(第2次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/05/31",
+            "tii_product_id": "216131MA4B21723A11Z10000002"
+          },
+          {
+            "name": "遠雄人壽美滿永續利率變動型增額終身壽險(第3次部分變更)",
+            "銷售日": "108/06/01",
+            "停售日": "108/12/31",
+            "tii_product_id": "216131MA4B21723A11Z10000003"
+          },
+          {
+            "name": "遠雄人壽美滿永續利率變動型增額終身壽險(109)(第4次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/06/30",
+            "tii_product_id": "216131MA4B21723A11Z10000004"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿永續利率變動型增額終身壽險(109)(第4次部分變更)",
+          "銷售日": "109/01/01",
+          "停售日": "109/06/30",
+          "tii_product_id": "216131MA4B21723A11Z10000004",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4B21723A11Z10000004"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-01-01",
+        "stop_date": "2020-06-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02399",
+      "name": "遠雄人壽美滿永續美元利率變動型增額終身壽險(109)",
+      "insurer": "遠雄人壽",
+      "site_code": "ZL2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=ZL2&termsKind=C",
+        "fetched_at": "2026-11-26T10:08:04+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國106年06月26日；民國109年01月01日",
+          "修正日期": null,
+          "條款最新日期": "109/01/01",
+          "條款首部全部日期": [
+            "106/06/26",
+            "109/01/01"
+          ],
+          "文號行": [
+            "遠壽字第1060001844號函",
+            "遠壽字第1090000028號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿永續美元利率變動型增額終身壽險",
+            "銷售日": "106/06/26",
+            "停售日": "106/09/19",
+            "tii_product_id": "216131MA4B22123B11Z10000000"
+          },
+          {
+            "name": "遠雄人壽美滿永續美元利率變動型增額終身壽險(第1次部分變更)",
+            "銷售日": "106/09/20",
+            "停售日": "107/04/24",
+            "tii_product_id": "216131MA4B22123B11Z10000001"
+          },
+          {
+            "name": "遠雄人壽美滿永續美元利率變動型增額終身壽險(第2次部分變更)",
+            "銷售日": "107/04/25",
+            "停售日": "107/09/13",
+            "tii_product_id": "216131MA4B22123B11Z10000002"
+          },
+          {
+            "name": "遠雄人壽美滿永續美元利率變動型增額終身壽險(第3次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/12/31",
+            "tii_product_id": "216131MA4B22123B11Z10000003"
+          },
+          {
+            "name": "遠雄人壽美滿永續美元利率變動型增額終身壽險(109)(第4次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/06/30",
+            "tii_product_id": "216131MA4B22123B11Z10000004"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿永續美元利率變動型增額終身壽險(109)(第4次部分變更)",
+          "銷售日": "109/01/01",
+          "停售日": "109/06/30",
+          "tii_product_id": "216131MA4B22123B11Z10000004",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4B22123B11Z10000004"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-01-01",
+        "stop_date": "2020-06-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02403",
+      "name": "遠雄人壽美滿盛利利率變動型增額終身壽險(106)",
+      "insurer": "遠雄人壽",
+      "site_code": "DV2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=DV2&termsKind=C",
+        "fetched_at": "2026-11-26T10:08:03+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國106年03月27日",
+          "修正日期": "民國107年09月14日",
+          "條款最新日期": "107/09/14",
+          "條款首部全部日期": [
+            "106/03/27",
+            "107/09/14"
+          ],
+          "文號行": [
+            "遠壽字第1060000607號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿盛利利率變動型增額終身壽險",
+            "銷售日": "106/03/27",
+            "停售日": "106/10/31",
+            "tii_product_id": "216131MA1A21523A11Z10000000"
+          },
+          {
+            "name": "遠雄人壽美滿盛利利率變動型增額終身壽險(106)(第1次部分變更)",
+            "銷售日": "106/11/01",
+            "停售日": "107/04/24",
+            "tii_product_id": "216131MA1A21523A11Z10000001"
+          },
+          {
+            "name": "遠雄人壽美滿盛利利率變動型增額終身壽險(106)(第2次部分變更)",
+            "銷售日": "107/04/25",
+            "停售日": "107/09/13",
+            "tii_product_id": "216131MA1A21523A11Z10000002"
+          },
+          {
+            "name": "遠雄人壽美滿盛利利率變動型增額終身壽險(106)(第3次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/03/19",
+            "tii_product_id": "216131MA1A21523A11Z10000003"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿盛利利率變動型增額終身壽險(106)(第3次部分變更)",
+          "銷售日": "107/09/14",
+          "停售日": "108/03/19",
+          "tii_product_id": "216131MA1A21523A11Z10000003",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A21523A11Z10000003"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2018-09-14",
+        "stop_date": "2019-03-19"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02407",
+      "name": "遠雄人壽美滿美夢美元利率變動型增額終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "ZD2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=ZD2&termsKind=C",
+        "fetched_at": "2026-11-26T10:08:04+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國103年12月22日",
+          "修正日期": "民國104年08月04日",
+          "條款最新日期": "104/08/04",
+          "條款首部全部日期": [
+            "103/12/22",
+            "104/08/04"
+          ],
+          "文號行": [
+            "遠壽字第1030862號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿美夢美元利率變動型增額終身壽險",
+            "銷售日": "103/12/22",
+            "停售日": "104/04/12",
+            "tii_product_id": "216141M21A17200"
+          },
+          {
+            "name": "遠雄人壽美滿美夢美元利率變動型增額終身壽險(第1次部分變更)",
+            "銷售日": "104/04/13",
+            "停售日": "104/08/03",
+            "tii_product_id": "216141M21A17201"
+          },
+          {
+            "name": "遠雄人壽美滿美夢美元利率變動型增額終身壽險(第2次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "105/12/31",
+            "tii_product_id": "216131MA1A17223B11Z10000002"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿美夢美元利率變動型增額終身壽險(第2次部分變更)",
+          "銷售日": "104/08/04",
+          "停售日": "105/12/31",
+          "tii_product_id": "216131MA1A17223B11Z10000002",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A17223B11Z10000002"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2015-08-04",
+        "stop_date": "2016-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02409",
+      "name": "遠雄人壽美滿美夢美元利率變動型增額終身壽險(109)",
+      "insurer": "遠雄人壽",
+      "site_code": "ZJ2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=ZJ2&termsKind=C",
+        "fetched_at": "2026-11-26T10:08:04+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國106年01月01日；民國109年01月01日",
+          "修正日期": null,
+          "條款最新日期": "109/01/01",
+          "條款首部全部日期": [
+            "106/01/01",
+            "109/01/01"
+          ],
+          "文號行": [
+            "遠壽字第1060000027號函",
+            "遠壽字第1090000027號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿美夢美元利率變動型增額終身壽險",
+            "銷售日": "103/12/22",
+            "停售日": "104/04/12",
+            "tii_product_id": "216141M21A17200"
+          },
+          {
+            "name": "遠雄人壽美滿美夢美元利率變動型增額終身壽險(第1次部分變更)",
+            "銷售日": "104/04/13",
+            "停售日": "104/08/03",
+            "tii_product_id": "216141M21A17201"
+          },
+          {
+            "name": "遠雄人壽美滿美夢美元利率變動型增額終身壽險(第2次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "105/12/31",
+            "tii_product_id": "216131MA1A17223B11Z10000002"
+          },
+          {
+            "name": "遠雄人壽美滿美夢美元利率變動型增額終身壽險(109)(第4次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/06/30",
+            "tii_product_id": "216131MA1A21123B11Z10000004"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿美夢美元利率變動型增額終身壽險(109)(第4次部分變更)",
+          "銷售日": "109/01/01",
+          "停售日": "109/06/30",
+          "tii_product_id": "216131MA1A21123B11Z10000004",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A21123B11Z10000004"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-01-01",
+        "stop_date": "2020-06-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02416",
+      "name": "遠雄人壽美滿致富增額終身壽險(106)",
+      "insurer": "遠雄人壽",
+      "site_code": "LJ2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=LJ2&termsKind=C",
+        "fetched_at": "2026-11-26T10:08:05+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國103年01月06日",
+          "修正日期": "民國107年09月14日",
+          "條款最新日期": "107/09/14",
+          "條款首部全部日期": [
+            "103/01/06",
+            "107/09/14"
+          ],
+          "文號行": [
+            "(103)遠雄壽字第007號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿致富增額終身壽險",
+            "銷售日": "101/10/29",
+            "停售日": "104/04/26",
+            "tii_product_id": "216141M11A13300"
+          },
+          {
+            "name": "遠雄人壽美滿致富增額終身壽險(106)(第3次部分變更)",
+            "銷售日": "106/01/01",
+            "停售日": "107/09/13",
+            "tii_product_id": "216131MZ1A14423A11Z10000003"
+          },
+          {
+            "name": "遠雄人壽美滿致富增額終身壽險(106)(第4次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/12/31",
+            "tii_product_id": "216131MZ1A14423A11Z10000004"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿致富增額終身壽險(106)(第4次部分變更)",
+          "銷售日": "107/09/14",
+          "停售日": "108/12/31",
+          "tii_product_id": "216131MZ1A14423A11Z10000004",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MZ1A14423A11Z10000004"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2018-09-14",
+        "stop_date": "2019-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02417",
+      "name": "遠雄人壽美滿致富增額終身壽險(109)",
+      "insurer": "遠雄人壽",
+      "site_code": "LJ3",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=LJ3&termsKind=C",
+        "fetched_at": "2026-11-26T10:08:05+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國103年01月06日；民國109年01月01日",
+          "修正日期": null,
+          "條款最新日期": "109/01/01",
+          "條款首部全部日期": [
+            "103/01/06",
+            "109/01/01"
+          ],
+          "文號行": [
+            "(103)遠雄壽字第007號函",
+            "遠壽字第1090000020號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿致富增額終身壽險",
+            "銷售日": "101/10/29",
+            "停售日": "104/04/26",
+            "tii_product_id": "216141M11A13300"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於條款最新日期 109/01/01 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02420",
+      "name": "遠雄人壽美滿豐利利率變動型增額終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "DF2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=DF2&termsKind=C",
+        "fetched_at": "2026-11-26T10:08:07+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國104年01月16日",
+          "修正日期": "民國104年08月04日",
+          "條款最新日期": "104/08/04",
+          "條款首部全部日期": [
+            "104/01/16",
+            "104/08/04"
+          ],
+          "文號行": [
+            "遠壽字第1040010號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿豐利利率變動型增額終身壽險",
+            "銷售日": "104/01/16",
+            "停售日": "104/04/12",
+            "tii_product_id": "216141M21A17600"
+          },
+          {
+            "name": "遠雄人壽美滿豐利利率變動型增額終身壽險(第1次部分變更)",
+            "銷售日": "104/04/13",
+            "停售日": "104/08/03",
+            "tii_product_id": "216141M21A17601"
+          },
+          {
+            "name": "遠雄人壽美滿豐利利率變動型增額終身壽險(第2次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "105/12/31",
+            "tii_product_id": "216131MA1A17623A11Z10000002"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿豐利利率變動型增額終身壽險(第2次部分變更)",
+          "銷售日": "104/08/04",
+          "停售日": "105/12/31",
+          "tii_product_id": "216131MA1A17623A11Z10000002",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A17623A11Z10000002"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2015-08-04",
+        "stop_date": "2016-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02425",
+      "name": "遠雄人壽美滿超勝利利率變動型增額終身壽險(109)",
+      "insurer": "遠雄人壽",
+      "site_code": "AD2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=AD2&termsKind=C",
+        "fetched_at": "2026-11-26T10:08:06+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國107年08月31日；民國109年01月01日",
+          "修正日期": null,
+          "條款最新日期": "109/01/01",
+          "條款首部全部日期": [
+            "107/08/31",
+            "109/01/01"
+          ],
+          "文號行": [
+            "遠壽字第1070003241號函",
+            "遠壽字第1090000013號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿超勝利利率變動型增額終身壽險",
+            "銷售日": "107/08/31",
+            "停售日": "108/12/31",
+            "tii_product_id": "216131MA1A24323A11Z10000000"
+          },
+          {
+            "name": "遠雄人壽美滿超勝利利率變動型增額終身壽險(109)(第1次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/06/30",
+            "tii_product_id": "216131MA1A24323A11Z10000001"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿超勝利利率變動型增額終身壽險(109)(第1次部分變更)",
+          "銷售日": "109/01/01",
+          "停售日": "109/06/30",
+          "tii_product_id": "216131MA1A24323A11Z10000001",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A24323A11Z10000001"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-01-01",
+        "stop_date": "2020-06-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    },
+    {
+      "product_id": "02428",
+      "name": "遠雄人壽美滿超得利增額終身壽險(106)",
+      "insurer": "遠雄人壽",
+      "site_code": "LL2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=LL2&termsKind=C",
+        "fetched_at": "2026-11-26T10:08:07+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國104年12月31日",
+          "修正日期": "民國107年09月14日",
+          "條款最新日期": "107/09/14",
+          "條款首部全部日期": [
+            "104/12/31",
+            "107/09/14"
+          ],
+          "文號行": [
+            "遠壽字第1040753號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿超得利增額終身壽險",
+            "銷售日": "104/12/31",
+            "停售日": "105/12/31",
+            "tii_product_id": "216131MZ4B19523A11Z10000000"
+          },
+          {
+            "name": "遠雄人壽美滿超得利增額終身壽險(106)(第1次部分變更)",
+            "銷售日": "106/01/01",
+            "停售日": "107/09/13",
+            "tii_product_id": "216131MZ4B19523A11Z10000001"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於條款最新日期 107/09/14 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json）"
+    },
+    {
+      "product_id": "02434",
+      "name": "遠雄人壽美滿鉅富美元增額終身壽險(106)",
+      "insurer": "遠雄人壽",
+      "site_code": "ZC2",
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=ZC2&termsKind=C",
+        "fetched_at": "2026-11-26T10:08:06+08:00",
+        "is_pdf": true,
+        "quoted": {
+          "備查文號(日期)": "民國103年03月10日(103)遠雄壽字第080號函；民國106年09月20日遠壽字第1060003044號函",
+          "修正日期": null,
+          "條款最新日期": "106/09/20",
+          "條款首部全部日期": [
+            "103/03/10",
+            "106/09/20"
+          ],
+          "文號行": [
+            "備查文號:民國103年03月10日(103)遠雄壽字第080號函",
+            "備查文號:民國106年09月20日遠壽字第1060003044號函"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "遠雄人壽美滿鉅富美元增額終身壽險",
+            "銷售日": "103/03/10",
+            "停售日": "104/08/03",
+            "tii_product_id": "216141M11A14500"
+          },
+          {
+            "name": "遠雄人壽美滿鉅富美元增額終身壽險(第1次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "105/03/02",
+            "tii_product_id": "216131MZ1A14523B11Z10000001"
+          },
+          {
+            "name": "遠雄人壽美滿鉅富美元增額終身壽險(第2次部分變更)",
+            "銷售日": "105/03/03",
+            "停售日": "105/12/31",
+            "tii_product_id": "216131MZ1A14523B11Z10000002"
+          },
+          {
+            "name": "遠雄人壽美滿鉅富美元增額終身壽險(106)(第3次部分變更)",
+            "銷售日": "106/01/01",
+            "停售日": "106/09/19",
+            "tii_product_id": "216131MZ1A14523B11Z10000003"
+          },
+          {
+            "name": "遠雄人壽美滿鉅富美元增額終身壽險(106)(第4次部分變更)",
+            "銷售日": "106/09/20",
+            "停售日": "107/09/13",
+            "tii_product_id": "216131MZ1A14523B11Z10000004"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "family_detail_cached": null,
+        "matched_version": {
+          "name": "遠雄人壽美滿鉅富美元增額終身壽險(106)(第4次部分變更)",
+          "銷售日": "106/09/20",
+          "停售日": "107/09/13",
+          "tii_product_id": "216131MZ1A14523B11Z10000004",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MZ1A14523B11Z10000004"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2017-09-20",
+        "stop_date": "2018-09-13"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+    }
+  ]
+}
