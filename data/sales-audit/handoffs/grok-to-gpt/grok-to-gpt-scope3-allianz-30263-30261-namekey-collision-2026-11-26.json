@@ -1,0 +1,28 @@
+{
+  "handoff_id": "grok-to-gpt-scope3-allianz-30263-30261-namekey-collision-2026-11-26",
+  "from": "Grok",
+  "assigned_to": "GPT",
+  "handoff_at": "2026-11-26T22:00:49+08:00",
+  "handoff_status": "pending",
+  "note": "安聯守護寶照護健康保險附約有兩筆同名、同公司、皆現售之網站紀錄（30261 對應 TII 版本 218391RZ9D00221A11Z10000000、30263 對應 218391RZ9D00121A11Z10000000）。兩者 productKey（公司|名稱|代碼|契約類型）完全相同，index.html 依鍵值先於 TII 代碼查找附約索引，故 30263 會顯示 30261 版本之可搭配主約。TII 即時／快取資料：00121 為原備案（安總字第11306489號函備查，113/08/30），00221 為依114/02/13 金管保壽字第11404900043號函逕行修訂之版本，兩者皆未停售、銷售日皆 113/08/30；目前所有現售主約之附加保險清單只列 00221，無任何主約列 00121。Grok 在分片層無法以版本代碼區分（鍵值相同），故未改動任何分片。",
+  "recommendation": "需由 GPT 決定：(a) 前端附約查找改為先用 TII 代碼再用鍵值；或 (b) 確認 30263 是否應併入 30261（兩者 TII 皆列示）。不得以名稱推測改變狀態。",
+  "count": 2,
+  "records": [
+    {
+      "product_id": "30261",
+      "company": "安聯人壽",
+      "full_name": "安聯人壽守護寶照護健康保險附約",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218391RZ9D00221A11Z10000000",
+      "handoff_status": "pending",
+      "assigned_to": "GPT"
+    },
+    {
+      "product_id": "30263",
+      "company": "安聯人壽",
+      "full_name": "安聯人壽守護寶照護健康保險附約",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218391RZ9D00121A11Z10000000",
+      "handoff_status": "pending",
+      "assigned_to": "GPT"
+    }
+  ]
+}
