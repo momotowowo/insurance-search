@@ -9241,10 +9241,18 @@
     "corrections_made_in_this_series": 0
   },
   "scope3_no_link_mains": {
-    "updated_at": "2026-11-26T22:00:49+08:00",
-    "status": "未進行：TII 工作階段中斷",
+    "updated_at": "2026-11-26T22:30+08:00",
+    "status": "attempted_live_no_matches",
     "reason": "2026-11-26 21:59 使用者解鎖後，Grok 誤執行無參數的 tii_session.py（預設為 init），建立了新的未解鎖工作階段並覆寫 cookies.pkl，導致已解鎖工作階段失效；未做任何 submit／OCR。需使用者重新輸入驗證碼。",
     "ids_63": "見 handoffs 中 batch 15/16/17/18/14 之待確認項目（皆為原先無法由官方明文確認版本者，仍 pending）",
-    "namekey_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-allianz-30263-30261-namekey-collision-2026-11-26.json"
+    "namekey_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-allianz-30263-30261-namekey-collision-2026-11-26.json",
+    "batch": 118,
+    "result": {
+      "matched": 0,
+      "status_conflict_all_versions_stopped": 15,
+      "version_not_confirmable_by_official_terms": 10,
+      "no_same_name_in_tii": 38
+    },
+    "note": "No tii_url added, no links changed, no release bump. Detail in grok-scope3-nolink-mains-live-batch118-2026-11-26.json"
   }
 }
