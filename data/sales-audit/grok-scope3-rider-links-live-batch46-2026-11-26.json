@@ -1,0 +1,2325 @@
+{
+  "batch_id": "grok-scope3-rider-links-live-batch46-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T14:43:34+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": {
+    "description": "範圍3：本站現售主約之「可附加現售附約」連結，與即時保發中心商品頁「附加保險」清單比對",
+    "ids": 60
+  },
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": "以 2026-11-26 即時保發中心詳細頁（GET DetailList.aspx）之「附加保險」超連結清單，對照本站現行（GPT 建置之 data/riders 分片）該主約顯示之現售附約；僅比對同公司、同一保發中心版本代號（不做名稱或版本推測），只計本站狀態為現售之附約。不一致者列出應補／應移除之具體連結，移交 GPT；Grok 未修改任何 data/riders 分片。未對驗證碼做 OCR、未執行 submit。",
+  "summary": {
+    "已核實": 60,
+    "total": 60,
+    "items_with_proposed_changes": 0
+  },
+  "items": [
+    {
+      "product_id": "00951",
+      "name": "合作金庫人壽金富通重大疾病定期健康保險(甲型)(20年期)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-10-06",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222351MZ1A00222A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:13:12+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222351MZ1A00222A11Z10000000",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00954",
+      "name": "合作金庫人壽馨健康醫靠終身健康保險",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222311MZ1B00223A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:13:20+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222311MZ1B00223A11Z10000005",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00955",
+      "name": "合作金庫人壽一年期幸福保倍傷害保險",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222291RZ1A00221A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:13:23+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222291RZ1A00221A11Z10000002",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00956",
+      "name": "合作金庫人壽傷害醫療保險給付附加條",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2020-12-24",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222221AZ1A00121A11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:13:26+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222221AZ1A00121A11Z10000004",
+        "list_size": 1,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00964",
+      "name": "合作金庫人壽合利超旺利率變動型終身壽險–定期給付型",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-09-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MA2A00123A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:13:28+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MA2A00123A11Z10000000",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00967",
+      "name": "合作金庫人壽好安心美元養老保險",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-07-11",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222121MZ1A00922B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:13:31+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222121MZ1A00922B11Z10000000",
+        "list_size": 3,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00971",
+      "name": "合作金庫人壽真美傳家美元利率變動型終身壽險–定期給付型",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-11-14",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MA4B00223B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:13:37+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MA4B00223B11Z10000000",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00975",
+      "name": "合作金庫人壽真美富利美元利率變動型終身壽險–定期給付型",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-08-18",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MA1A00423B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:13:42+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MA1A00423B11Z10000000",
+        "list_size": 1,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00976",
+      "name": "合作金庫人壽真美豐華美元利率變動型終身壽險–定期給付型",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-02-26",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MA9B00123B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:13:46+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MA9B00123B11Z10000001",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00978",
+      "name": "合作金庫人壽美保堅利美元利率變動型終身壽險",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-04-10",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MA1A00523B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:13:51+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MA1A00523B11Z10000000",
+        "list_size": 2,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00979",
+      "name": "合作金庫人壽美利安心美元養老保險–",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222121MZ1A00722B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:13:53+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222121MZ1A00722B11Z10000001",
+        "list_size": 1,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00981",
+      "name": "合作金庫人壽美好安心美元養老保險–定期給付型",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-06-09",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222121MZ1A00822B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:13:57+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222121MZ1A00822B11Z10000000",
+        "list_size": 3,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00983",
+      "name": "合作金庫人壽金富通定期壽險（20年期",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MZ1A00722A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:14:02+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MZ1A00722A11Z10000001",
+        "list_size": 2,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "222216RZ1A00121A11D10000001",
+            "name": "合作金庫人壽金富通小額傷害保險附約(第1次部分變更)",
+            "site_id": "33197"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "222216RZ1A00121A11D10000001",
+            "name": "合作金庫人壽金富通小額傷害保險附約(第1次部分變更)",
+            "site_id": "33197"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00986",
+      "name": "合作金庫人壽利率變動型年金保險定期",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2020-12-24",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222421EA1A00122A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:14:07+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222421EA1A00122A11Z10000001",
+        "list_size": 1,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00988",
+      "name": "合作金庫人壽享鑽100外幣變額萬能",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A03123Z11Z90000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:14:09+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A03123Z11Z90000007",
+        "list_size": 7,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00992",
+      "name": "合作金庫人壽合益圓滿外幣變額萬能",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A04123Z11Z90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:14:13+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A04123Z11Z90000001",
+        "list_size": 7,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00997",
+      "name": "合作金庫人壽投資型保險投資標的收",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-08-16",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A00423Z11Z90000018"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:14:18+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A00423Z11Z90000018",
+        "list_size": 38,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00998",
+      "name": "合作金庫人壽投資型保險投資標的轉",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-08-16",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A01023Z11Z90000009"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:14:25+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A01023Z11Z90000009",
+        "list_size": 30,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "00999",
+      "name": "合作金庫人壽投資型保險自動提領投",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2020-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A02123Z11Z90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:14:29+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A02123Z11Z90000001",
+        "list_size": 4,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "01000",
+      "name": "合作金庫人壽投資型保險自動調整基",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-08-16",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A01623Z11Z90000009"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:14:33+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A01623Z11Z90000009",
+        "list_size": 22,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "01001",
+      "name": "合作金庫人壽投資型保險變更保險金",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-08-16",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A03123Z11Z90000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:14:49+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A03123Z11Z90000002",
+        "list_size": 310,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "01003",
+      "name": "合作金庫人壽樂活人生外幣變額萬能",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A03923Z11Z90000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:14:54+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A03923Z11Z90000005",
+        "list_size": 5,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "01010",
+      "name": "合作金庫人壽超鑽小金庫變額年金保",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-02-27",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222421MV1A03423A11Z90000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:14:57+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222421MV1A03423A11Z90000005",
+        "list_size": 1,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "01012",
+      "name": "合作金庫人壽龍合100外幣變額萬能",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A04323Z11Z90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:15:01+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A04323Z11Z90000001",
+        "list_size": 7,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33125",
+      "name": "合作金庫人壽一年定期重大疾病健康保險(甲型)(第9次部份變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222351MZ1A00121A11Z10000009"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:12:43+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222351MZ1A00121A11Z10000009",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33138",
+      "name": "合作金庫人壽龍合100外幣變額萬能壽險(第1次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A04323Z11Z90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:15:01+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A04323Z11Z90000001",
+        "list_size": 7,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33145",
+      "name": "合作金庫人壽享鑽100外幣變額萬能壽險(第7次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A03123Z11Z90000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:14:09+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A03123Z11Z90000007",
+        "list_size": 7,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33146",
+      "name": "合作金庫人壽馨健康醫靠終身健康保險(第5次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222311MZ1B00223A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:13:20+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222311MZ1B00223A11Z10000005",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33163",
+      "name": "合作金庫人壽金富通定期壽險（20年期及70歲滿期）(第1次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MZ1A00722A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:14:02+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MZ1A00722A11Z10000001",
+        "list_size": 2,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "222216RZ1A00121A11D10000001",
+            "name": "合作金庫人壽金富通小額傷害保險附約(第1次部分變更)",
+            "site_id": "33197"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "222216RZ1A00121A11D10000001",
+            "name": "合作金庫人壽金富通小額傷害保險附約(第1次部分變更)",
+            "site_id": "33197"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33169",
+      "name": "合作金庫人壽合益圓滿外幣變額萬能壽險(第1次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A04123Z11Z90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:14:13+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A04123Z11Z90000001",
+        "list_size": 7,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33176",
+      "name": "合作金庫人壽樂活人生外幣變額萬能壽險(第5次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A03923Z11Z90000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:14:54+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A03923Z11Z90000005",
+        "list_size": 5,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33183",
+      "name": "合作金庫人壽超鑽小金庫變額年金保險(第5次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-02-27",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222421MV1A03423A11Z90000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:14:57+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222421MV1A03423A11Z90000005",
+        "list_size": 1,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33185",
+      "name": "合作金庫人壽美好安心美元養老保險-定期給付型",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-06-09",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222121MZ1A00822B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:13:57+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222121MZ1A00822B11Z10000000",
+        "list_size": 3,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33186",
+      "name": "合作金庫人壽美利安心美元養老保險-定期給付型(第1次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222121MZ1A00722B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:13:53+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222121MZ1A00722B11Z10000001",
+        "list_size": 1,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33187",
+      "name": "合作金庫人壽真美傳家美元利率變動型終身壽險－定期給付型",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-11-14",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MA4B00223B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:13:37+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MA4B00223B11Z10000000",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33202",
+      "name": "合作金庫人壽真美豐華美元利率變動型終身壽險－定期給付型（第1次部分變更）",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-02-26",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MA9B00123B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:13:46+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MA9B00123B11Z10000001",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33204",
+      "name": "合作金庫人壽樂活人生變額年金保險(第6次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222421MV1A03223A11Z90000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:01+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222421MV1A03223A11Z90000006",
+        "list_size": 3,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33205",
+      "name": "合作金庫人壽合益圓滿變額年金保險(第2次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222421MV1A03523A11Z90000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:02+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222421MV1A03523A11Z90000002",
+        "list_size": 5,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33206",
+      "name": "合作金庫人壽龍合100變額年金保險(第2次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222421MV1A03723A11Z90000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:04+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222421MV1A03723A11Z90000002",
+        "list_size": 5,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33208",
+      "name": "合作金庫人壽樂活人生變額萬能壽險(第6次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A03823A11Z90000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:05+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A03823A11Z90000006",
+        "list_size": 5,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33209",
+      "name": "合作金庫人壽合益圓滿變額萬能壽險(第2次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A04023A11Z90000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:06+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A04023A11Z90000002",
+        "list_size": 8,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33210",
+      "name": "合作金庫人壽龍合100變額萬能壽險(第2次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A04223A11Z90000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:08+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222131MV1A04223A11Z90000002",
+        "list_size": 7,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44214",
+      "name": "合作金庫人壽全心守護特定傷病還本定期保險",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222121MZ1B00122A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:05:59+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222121MZ1B00122A11Z10000000",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=a983d875-3936-4890-a8f3-4fcd4dd877e9",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44215",
+      "name": "合作金庫人壽好鑽100投資標的批註條款(112)(第5次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A03923Z11Z90000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:24+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A03923Z11Z90000005",
+        "list_size": 4,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=99dacd34-4ed2-4d7e-b417-c7ebe8af62c7",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44216",
+      "name": "合作金庫人壽享鑽100投資標的批註條款(112)(第6次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A03623Z11Z90000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:25+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A03623Z11Z90000006",
+        "list_size": 4,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=9246a1de-43c4-4f6b-b6f4-3876525b28a0",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44217",
+      "name": "合作金庫人壽共同基金投資標的批註條款（112）(第6次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A03323Z11Z90000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:27+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A03323Z11Z90000006",
+        "list_size": 6,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=bd1a5db6-22dd-4cf3-b74c-b4303ba88acb",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44218",
+      "name": "合作金庫人壽指數股票型基金投資標的批註條款(112)(第4次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A03423Z11Z90000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:28+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A03423Z11Z90000004",
+        "list_size": 6,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=25253748-a00c-4c8d-86b7-df711bfeffba",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44219",
+      "name": "合作金庫人壽鑫鑽人生投資標的批註條款(112)(第6次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A03723Z11Z90000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:30+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A03723Z11Z90000006",
+        "list_size": 8,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=e30e54bb-24d0-423d-b178-2cc90316b705",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44220",
+      "name": "合作金庫人壽保利鑽投資標的批註條款(112)(第6次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A04123Z11Z90000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:31+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A04123Z11Z90000006",
+        "list_size": 4,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=9ac6caef-b682-4f90-a7d3-9bd497c5b20b",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44221",
+      "name": "合作金庫人壽保利鑽投資標的批註條款(南非幣)(112)(第6次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A04223Z11Z90000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:33+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A04223Z11Z90000006",
+        "list_size": 2,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=2972216e-3bf7-4f94-ae97-dc0712ea0ecc",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44222",
+      "name": "合作金庫人壽合益圓滿投資標的批註條款(第4次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A04323Z11Z90000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:34+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A04323Z11Z90000004",
+        "list_size": 4,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=c33ff2f5-fa8d-4c4f-82e7-6c7639b3b147",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44223",
+      "name": "合作金庫人壽共同基金投資標的批註條款（一）(第33次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A00223Z11Z90000033"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:35+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A00223Z11Z90000033",
+        "list_size": 6,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=098ea43e-1479-464b-83c3-6c708ff70d78",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44224",
+      "name": "合作金庫人壽指數股票型基金投資標的批註條款(一)(第18次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A00323Z11Z90000018"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:37+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A00323Z11Z90000018",
+        "list_size": 6,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=cc235e73-4e22-4f40-b4d2-6b2314b3cddc",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44225",
+      "name": "合作金庫人壽福利雙收投資標的批註條款(第27次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A00723Z11C90000027"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:38+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A00723Z11C90000027",
+        "list_size": 6,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=d8e0ca53-85a0-46f1-b1ba-549c44917f93",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44226",
+      "name": "合作金庫人壽樂活人生投資標的批註條款(第10次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A02923Z11Z90000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:40+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A02923Z11Z90000010",
+        "list_size": 4,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=b4386603-3751-4092-85df-df16978bd1f2",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44227",
+      "name": "合作金庫人壽鑫鑽人生投資標的批註條款(第11次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A02723Z11Z90000011"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:41+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A02723Z11Z90000011",
+        "list_size": 8,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=9df8d1b1-f5a2-4e53-b497-dbbb3160ecc8",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44228",
+      "name": "合作金庫人壽享鑽100投資標的批註條款(第15次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A02323Z11Z90000015"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:43+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A02323Z11Z90000015",
+        "list_size": 4,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=6795f003-22dd-40e5-8a87-531195efa3ab",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44229",
+      "name": "合作金庫人壽好鑽100投資標的批註條款(第12次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A02423Z11Z90000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:44+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A02423Z11Z90000012",
+        "list_size": 4,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=f267a586-ee57-496d-ac7a-ded69ed48ed1",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44230",
+      "name": "合作金庫人壽好利雙收投資標的批註條款(第16次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A01723Z11C90000016"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:46+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A01723Z11C90000016",
+        "list_size": 6,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=8ea37216-9fa5-4e7d-80bb-7c0ef5a4bfc3",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44231",
+      "name": "合作金庫人壽保利鑽投資標的批註條款(第13次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A01923Z11Z90000013"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:47+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A01923Z11Z90000013",
+        "list_size": 4,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=968f0883-8fa2-45de-ab4d-b61eb6078dd0",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    }
+  ]
+}

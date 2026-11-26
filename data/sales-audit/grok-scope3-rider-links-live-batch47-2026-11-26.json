@@ -1,0 +1,2301 @@
+{
+  "batch_id": "grok-scope3-rider-links-live-batch47-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T14:43:34+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": {
+    "description": "範圍3：本站現售主約之「可附加現售附約」連結，與即時保發中心商品頁「附加保險」清單比對",
+    "ids": 60
+  },
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": "以 2026-11-26 即時保發中心詳細頁（GET DetailList.aspx）之「附加保險」超連結清單，對照本站現行（GPT 建置之 data/riders 分片）該主約顯示之現售附約；僅比對同公司、同一保發中心版本代號（不做名稱或版本推測），只計本站狀態為現售之附約。不一致者列出應補／應移除之具體連結，移交 GPT；Grok 未修改任何 data/riders 分片。未對驗證碼做 OCR、未執行 submit。",
+  "summary": {
+    "已核實": 60,
+    "total": 60,
+    "items_with_proposed_changes": 0
+  },
+  "items": [
+    {
+      "product_id": "44232",
+      "name": "合作金庫人壽保利鑽投資標的批註條款(一)(第12次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A02023Z11Z90000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:48+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A02023Z11Z90000012",
+        "list_size": 2,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=c5a77905-1e4b-4219-8953-0158f90ea163",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44233",
+      "name": "合作金庫人壽滿福雙喜投資標的批註條款(第12次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A01323Z11C90000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:50+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A01323Z11C90000012",
+        "list_size": 3,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=56fe3d18-b699-4232-82c5-bffbdf69c554",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44234",
+      "name": "合作金庫人壽享利成雙投資標的批註條款(第21次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A01123Z11C90000021"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:51+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A01123Z11C90000021",
+        "list_size": 4,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=cf6b37d6-b921-46fd-841a-4264caf36318",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44235",
+      "name": "合作金庫人壽樂活人生投資標的批註條款(112)(第7次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A03223Z11Z90000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:53+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A03223Z11Z90000007",
+        "list_size": 4,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=d3810736-334c-4c96-b606-bfc09062f25d",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44236",
+      "name": "合作金庫人壽保費融資批註條款(第3次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-09-18",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EZ1A00722Z11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:55+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EZ1A00722Z11Z10000003",
+        "list_size": 7,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=25f96c0c-29f5-41fd-9abd-14ee9282f062",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44237",
+      "name": "合作金庫人壽保單融資批註條款(第3次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-09-18",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EZ1A00822Z11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:56+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EZ1A00822Z11Z10000003",
+        "list_size": 7,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=a7297c1d-a86b-4758-aecb-478405f7826e",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44238",
+      "name": "合作金庫人壽傳統型保險外幣保險單借款批註條款(115)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EZ1A00922Z11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:58+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EZ1A00922Z11Z10000000",
+        "list_size": 9,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=03a85906-a07e-4214-9f22-777af128acb7",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "44239",
+      "name": "合作金庫人壽龍合100投資標的批註條款(第5次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-08-03",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A04423Z11Z90000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:06:59+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A04423Z11Z90000005",
+        "list_size": 4,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://insprod.tii.org.tw/Open2.ashx?id=b37b2a9f-7231-498e-8af9-ba74e6261eb3",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "33203",
+      "name": "合作金庫人壽全心守護特定傷病還本定期保險",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222121MZ1B00122A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:05:59+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222121MZ1B00122A11Z10000000",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "01087",
+      "name": "國泰人壽心iLife一年期定期壽險",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2022-08-04",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MZ1AMNC21A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:07+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MZ1AMNC21A11Z10000000",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/MNC.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "18707",
+      "name": "富邦人壽優越變額年金保險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2010-12-20",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A00701"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:21+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A00701",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "18959",
+      "name": "富邦人壽優越變額年金保險(第9次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2012-09-07",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A00709"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:23+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A00709",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "18960",
+      "name": "富邦人壽新吉祥變額萬能終身壽險(A型、B型)(第41次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2012-09-07",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209141M31A00141"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:24+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209141M31A00141",
+        "list_size": 7,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "18977",
+      "name": "富邦人壽真多利變額年金保險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2012-10-05",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A00901"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:26+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A00901",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "18978",
+      "name": "富邦人壽真有利變額年金保險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2012-10-05",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A01001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:27+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A01001",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19059",
+      "name": "富邦人壽閤家有禮傷害暨健康一年定期保險",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2013-04-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391M12G00700"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:29+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391M12G00700",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19110",
+      "name": "富邦人壽真多利變額年金保險(第6次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2013-07-15",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A00906"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:30+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A00906",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19119",
+      "name": "富邦人壽真有利變額年金保險(第7次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2013-09-11",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A01007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:31+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A01007",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19139",
+      "name": "富邦人壽雙富利變額年金保險",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2013-11-05",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A01400"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:33+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A01400",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19441",
+      "name": "富邦人壽薪富人生傷害暨健康一年定期壽險(第3次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2015-08-04",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191MZ2G00121A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:34+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191MZ2G00121A11Z10000003",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19452",
+      "name": "富邦人壽樂活人生傷害暨健康一年定期保險(第3次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2015-08-04",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391MZ9G00221A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:36+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391MZ9G00221A11Z10000003",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19457",
+      "name": "富邦人壽富幼保傷害暨健康一年定期保險(第3次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2015-08-04",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391MZ9D00221A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:37+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391MZ9D00221A11Z10000003",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19458",
+      "name": "富邦人壽995百萬傷害保險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2015-08-04",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209211MZ1A00221A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:39+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209211MZ1A00221A11Z10000001",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19462",
+      "name": "富邦人壽新富幼保傷害暨健康一年定期保險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2015-08-04",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391MZ9D00321A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:40+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391MZ9D00321A11Z10000001",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19477",
+      "name": "富邦人壽好周全傷害暨健康一年定期保險(第2次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2015-08-04",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ9G00121A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:41+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ9G00121A11Z10000002",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19485",
+      "name": "富邦人壽雙富利變額年金保險(第5次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2015-08-04",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A01123A11C90000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:43+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A01123A11C90000005",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19498",
+      "name": "富邦人壽安心百分百一年定期壽險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2015-08-04",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A00321A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:44+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A00321A11Z10000001",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12585/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E5%AE%89%E5%BF%83%E7%99%BE%E5%88%86%E7%99%BE%E4%B8%80%E5%B9%B4%E5%AE%9A%E6%9C%9F%E5%A3%BD%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19501",
+      "name": "富邦人壽一家親一年定期壽險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2015-08-04",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A00421A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:45+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A00421A11Z10000001",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19515",
+      "name": "富邦人壽新放百萬心傷害暨健康一年定期保險(第2次部分變更）",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2015-08-04",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209291MZ1G00321A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:47+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209291MZ1G00321A11Z10000002",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19518",
+      "name": "富邦人壽666保一身傷害暨一年定期保險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2015-08-04",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209291MZ2A00121A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:48+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209291MZ2A00121A11Z10000001",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19530",
+      "name": "富邦人壽新安心護照傷害暨健康一年定期保險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2015-08-04",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ9G00221A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:50+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ9G00221A11Z10000001",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19570",
+      "name": "富邦人壽優越變額年金保險(第24次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2015-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A00223A11Z90000024"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:51+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A00223A11Z90000024",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19578",
+      "name": "富邦人壽富利旺終身壽險(第4次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2015-12-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1B00423A11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:53+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1B00423A11Z10000004",
+        "list_size": 1,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19583",
+      "name": "富邦人壽外幣計價真多利變額年金保險(第10次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2015-12-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A00923Z11Z90000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:54+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A00923Z11Z90000010",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "19739",
+      "name": "富邦人壽長安寶(實物給付型)終身壽險",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2016-11-30",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A01813A12Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:56+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A01813A12Z10000000",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "20147",
+      "name": "富邦人壽智糖人生定期健康保險",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2018-10-26",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1A00412A31Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:57+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1A00412A31Z10000000",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "20150",
+      "name": "富邦人壽吉祥變額遞延年金保險(第75次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2018-10-26",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A00123A11Z90000075"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:24:59+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A00123A11Z90000075",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "20579",
+      "name": "富邦人壽富貴吉祥變額萬能壽險(V1)(第8次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2020-09-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MV1A00723A11Z90000008"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:25:00+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MV1A00723A11Z90000008",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "20648",
+      "name": "富邦人壽美利吉順外幣利率變動型終身壽險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2020-09-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A04523B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:25:02+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A04523B11Z10000001",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "20727",
+      "name": "富邦人壽富利人生變額年金保險(V1)(第8次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2021-03-31",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MU1A00123A11C90000008"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:25:37+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MU1A00123A11C90000008",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "20936",
+      "name": "富邦人壽丰彩人生重大疾病一年定期保險",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2022-05-31",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209351MZ5B00721A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:25:38+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209351MZ5B00721A11Z10000000",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "21140",
+      "name": "富邦人壽e真心重大疾病一年期健康保險(甲型)(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2022-12-02",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209351MZ1A00221A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:25:40+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209351MZ1A00221A11Z10000001",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "21163",
+      "name": "富邦人壽金來寶小額終身壽險(第9次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-01-18",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A02023A11D10000009"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:25:41+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A02023A11D10000009",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "21167",
+      "name": "富邦人壽富貴吉祥變額萬能壽險(V2)(第18次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-01-18",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MV1A00723A11Z90000018"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:25:43+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MV1A00723A11Z90000018",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "21171",
+      "name": "富邦人壽優越變額年金保險(第48次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-01-18",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A00223A11Z90000048"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:32:07+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A00223A11Z90000048",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "21173",
+      "name": "富邦人壽新美利望外幣利率變動型增額終身壽險(第2次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-01-18",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A06723B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:32:11+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A06723B11Z10000002",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "21174",
+      "name": "富邦人壽優世代平準型定期壽險",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-01-18",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A03122A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:32:14+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A03122A11Z10000000",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12500/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E5%84%AA%E4%B8%96%E4%BB%A3%E5%B9%B3%E6%BA%96%E5%9E%8B%E5%AE%9A%E6%9C%9F%E5%A3%BD%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "21176",
+      "name": "富邦人壽優世代遞減型定期壽險",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-01-18",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A03222A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:32:17+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A03222A11Z10000000",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "21177",
+      "name": "富邦人壽外幣計價優越變額年金保險(第42次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-01-18",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A00323Z11Z90000042"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:32:21+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A00323Z11Z90000042",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "21184",
+      "name": "富邦人壽美滿世代外幣利率變動型終身壽險(第2次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-01-18",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A06623B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:32:27+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A06623B11Z10000002",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "21185",
+      "name": "富邦人壽華富美溢外幣利率變動型終身壽險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-01-18",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA4B00823B11E10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:32:31+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA4B00823B11E10000001",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "21193",
+      "name": "富邦人壽美利吉運外幣利率變動型終身壽險(第2次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-02-06",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A07023B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:32:37+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A07023B11Z10000002",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "21225",
+      "name": "富邦人壽外幣計價富利人生變額年金保險(V1)(第10次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-03-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MU1A00223B11C90000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:32:42+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MU1A00223B11C90000010",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "21557",
+      "name": "富邦人壽新鍾愛寶倍終身健康保險(第11次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1B00523A11Z10000011"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:32:48+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1B00523A11Z10000011",
+        "list_size": 8,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "21609",
+      "name": "富邦人壽富好鑽利率變動型增額終身壽險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA2A01323A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:32:53+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA2A01323A11Z10000001",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "21639",
+      "name": "富邦人壽真好利變額年金保險(第4次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-02-05",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A04423A11Z90000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:32:56+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A04423A11Z90000004",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "21647",
+      "name": "富邦人壽詠馨滿溢長期照顧終身壽險(第3次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-03-10",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ6B00223A11E10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:32:59+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ6B00223A11E10000003",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "16367",
+      "name": "新光人壽鑫富一生利率變動型終身壽險",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2014-03-10",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208141M21A00300"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:23:00+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208141M21A00300",
+        "list_size": 14,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "16376",
+      "name": "新光人壽美富一生外幣利率變動型終身壽險(第1次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2014-05-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208141M21A00201"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:23:02+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208141M21A00201",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "16384",
+      "name": "新光人壽美樂一生外幣利率變動型終身壽險(第1次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2014-05-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208141M21A00101"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:23:03+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208141M21A00101",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    }
+  ]
+}

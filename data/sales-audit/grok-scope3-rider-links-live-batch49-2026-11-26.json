@@ -1,0 +1,1503 @@
+{
+  "batch_id": "grok-scope3-rider-links-live-batch49-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T14:43:34+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": {
+    "description": "範圍3：本站現售主約之「可附加現售附約」連結，與即時保發中心商品頁「附加保險」清單比對",
+    "ids": 24
+  },
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": "以 2026-11-26 即時保發中心詳細頁（GET DetailList.aspx）之「附加保險」超連結清單，對照本站現行（GPT 建置之 data/riders 分片）該主約顯示之現售附約；僅比對同公司、同一保發中心版本代號（不做名稱或版本推測），只計本站狀態為現售之附約。不一致者列出應補／應移除之具體連結，移交 GPT；Grok 未修改任何 data/riders 分片。未對驗證碼做 OCR、未執行 submit。",
+  "summary": {
+    "已核實": 24,
+    "total": 24,
+    "items_with_proposed_changes": 0
+  },
+  "items": [
+    {
+      "product_id": "03515",
+      "name": "臺銀人壽新守護久久手術醫療終身健康保險(第11次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201391MZ9B0HW23A11Z10000011"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:16+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201391MZ9B0HW23A11Z10000011",
+        "list_size": 3,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)(第19次部分變更)",
+            "site_id": "03504"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約(第7次部分變更)",
+            "site_id": "03498"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/HW-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E6%96%B0%E5%AE%88%E8%AD%B7%E4%B9%85%E4%B9%85%E6%89%8B%E8%A1%93%E9%86%AB%E7%99%82%E7%B5%82%E8%BA%AB%E5%81%A5%E5%BA%B7%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)",
+            "site_id": "01826"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約",
+            "site_id": "01821"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03516",
+      "name": "臺銀人壽貸貸幸福定期壽險(平準型)(第2次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MZ1A0HP22A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:50+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MZ1A0HP22A11Z10000002",
+        "list_size": 2,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/HP-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E8%B2%B8%E8%B2%B8%E5%B9%B8%E7%A6%8F%E5%AE%9A%E6%9C%9F%E5%A3%BD%E9%9A%AA%E5%B9%B3%E6%BA%96%E5%9E%8B.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03517",
+      "name": "臺銀人壽新軍人照護終身醫療健康保險(第3次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201311MZ1B0JK23A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:20+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201311MZ1B0JK23A11Z10000003",
+        "list_size": 3,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)(第19次部分變更)",
+            "site_id": "03504"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約(第7次部分變更)",
+            "site_id": "03498"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/JK-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E6%96%B0%E8%BB%8D%E4%BA%BA%E7%85%A7%E8%AD%B7%E7%B5%82%E8%BA%AB%E9%86%AB%E7%99%82%E5%81%A5%E5%BA%B7%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)",
+            "site_id": "01826"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約",
+            "site_id": "01821"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03518",
+      "name": "臺銀人壽不分紅定期壽險(109A)(第19次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MZ1A0GE22A11Z10000019"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:23+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MZ1A0GE22A11Z10000019",
+        "list_size": 4,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          },
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)(第19次部分變更)",
+            "site_id": "03504"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約(第7次部分變更)",
+            "site_id": "03498"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/GE-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E4%B8%8D%E5%88%86%E7%B4%85%E5%AE%9A%E6%9C%9F%E5%A3%BD%E9%9A%AA109A.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          },
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)",
+            "site_id": "01826"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約",
+            "site_id": "01821"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03520",
+      "name": "臺銀人壽新一年定期壽險(第14次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MZ1A0GT21A11Z10000014"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:25+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MZ1A0GT21A11Z10000014",
+        "list_size": 2,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)(第19次部分變更)",
+            "site_id": "03504"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約(第7次部分變更)",
+            "site_id": "03498"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/GT-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E6%96%B0%E4%B8%80%E5%B9%B4%E5%AE%9A%E6%9C%9F%E5%A3%BD%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)",
+            "site_id": "01826"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約",
+            "site_id": "01821"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03522",
+      "name": "臺銀人壽安心貸減額定期壽險(109A)(第15次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MZ1A0FY22A11Z10000015"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:24+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MZ1A0FY22A11Z10000015",
+        "list_size": 2,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/FY-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E5%AE%89%E5%BF%83%E8%B2%B8%E6%B8%9B%E9%A1%8D%E5%AE%9A%E6%9C%9F%E5%A3%BD%E9%9A%AA109A.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03523",
+      "name": "臺銀人壽鑫富美外幣變額年金保險(第6次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201421MV1A0UU23B11C90000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:51+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201421MV1A0UU23B11C90000006",
+        "list_size": 1,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/UU-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E9%91%AB%E5%AF%8C%E7%BE%8E%E5%A4%96%E5%B9%A3%E8%AE%8A%E9%A1%8D%E5%B9%B4%E9%87%91%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03525",
+      "name": "臺銀人壽鑫富貴變額年金保險(第4次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201421MV1A0UV23A11C90000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:52+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201421MV1A0UV23A11C90000004",
+        "list_size": 1,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/UV-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E9%91%AB%E5%AF%8C%E8%B2%B4%E8%AE%8A%E9%A1%8D%E5%B9%B4%E9%87%91%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03527",
+      "name": "臺銀人壽鑫滿益變額年金保險(第3次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201421MV1A0UW23A11C90000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:54+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201421MV1A0UW23A11C90000003",
+        "list_size": 1,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/UW-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E9%91%AB%E6%BB%BF%E7%9B%8A%E8%AE%8A%E9%A1%8D%E5%B9%B4%E9%87%91%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03529",
+      "name": "臺銀人壽睛好保保險(第1次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201121MZ9B0JH22A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:56+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201121MZ9B0JH22A11Z10000001",
+        "list_size": 4,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          },
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)(第19次部分變更)",
+            "site_id": "03504"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約(第7次部分變更)",
+            "site_id": "03498"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/JH-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E7%9D%9B%E5%A5%BD%E4%BF%9D%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          },
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)",
+            "site_id": "01826"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約",
+            "site_id": "01821"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03531",
+      "name": "臺銀人壽安心傳家利率變動型終身壽險(定期給付型)(第2次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MA1A0HR23A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:57+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MA1A0HR23A11Z10000002",
+        "list_size": 5,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201131RZ1A01V22A11Z10000018",
+            "name": "臺銀人壽不分紅定期壽險附約(109A)(第18次部分變更)",
+            "site_id": "03535"
+          },
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          },
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)(第19次部分變更)",
+            "site_id": "03504"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約(第7次部分變更)",
+            "site_id": "03498"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/HR-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E5%AE%89%E5%BF%83%E5%82%B3%E5%AE%B6%E5%88%A9%E7%8E%87%E8%AE%8A%E5%8B%95%E5%9E%8B%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA%E5%AE%9A%E6%9C%9F%E7%B5%A6%E4%BB%98%E5%9E%8B.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201131RZ1A01V22A11Z10000018",
+            "name": "臺銀人壽不分紅定期壽險附約(109A)",
+            "site_id": "01828"
+          },
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          },
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)",
+            "site_id": "01826"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約",
+            "site_id": "01821"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03532",
+      "name": "臺銀人壽家倍平安定期壽險(平準型)(第3次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201191MZ2A0GU22A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:59+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201191MZ2A0GU22A11Z10000003",
+        "list_size": 5,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201131RZ1A01V22A11Z10000018",
+            "name": "臺銀人壽不分紅定期壽險附約(109A)(第18次部分變更)",
+            "site_id": "03535"
+          },
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          },
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)(第19次部分變更)",
+            "site_id": "03504"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約(第7次部分變更)",
+            "site_id": "03498"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/GU-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E5%AE%B6%E5%80%8D%E5%B9%B3%E5%AE%89%E5%AE%9A%E6%9C%9F%E5%A3%BD%E9%9A%AA%E5%B9%B3%E6%BA%96%E5%9E%8B.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201131RZ1A01V22A11Z10000018",
+            "name": "臺銀人壽不分紅定期壽險附約(109A)",
+            "site_id": "01828"
+          },
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          },
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)",
+            "site_id": "01826"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約",
+            "site_id": "01821"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03533",
+      "name": "臺銀人壽家倍平安定期壽險(遞減型)(第3次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201191MZ2A0GX22A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:21:00+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201191MZ2A0GX22A11Z10000003",
+        "list_size": 5,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201131RZ1A01V22A11Z10000018",
+            "name": "臺銀人壽不分紅定期壽險附約(109A)(第18次部分變更)",
+            "site_id": "03535"
+          },
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          },
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)(第19次部分變更)",
+            "site_id": "03504"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約(第7次部分變更)",
+            "site_id": "03498"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/GX-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E5%AE%B6%E5%80%8D%E5%B9%B3%E5%AE%89%E5%AE%9A%E6%9C%9F%E5%A3%BD%E9%9A%AA%E9%81%9E%E6%B8%9B%E5%9E%8B.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201131RZ1A01V22A11Z10000018",
+            "name": "臺銀人壽不分紅定期壽險附約(109A)",
+            "site_id": "01828"
+          },
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          },
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)",
+            "site_id": "01826"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約",
+            "site_id": "01821"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03534",
+      "name": "臺銀人壽新安心享終身保險(第5次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201191MZ4G0JC23A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:26+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201191MZ4G0JC23A11Z10000005",
+        "list_size": 5,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201131RZ1A01V22A11Z10000018",
+            "name": "臺銀人壽不分紅定期壽險附約(109A)(第18次部分變更)",
+            "site_id": "03535"
+          },
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          },
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)(第19次部分變更)",
+            "site_id": "03504"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約(第7次部分變更)",
+            "site_id": "03498"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/JC-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E6%96%B0%E5%AE%89%E5%BF%83%E4%BA%AB%E7%B5%82%E8%BA%AB%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201131RZ1A01V22A11Z10000018",
+            "name": "臺銀人壽不分紅定期壽險附約(109A)",
+            "site_id": "01828"
+          },
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          },
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)",
+            "site_id": "01826"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約",
+            "site_id": "01821"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03536",
+      "name": "臺銀人壽新國際技術合作人員保險(第2次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201211MZ1G07721A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:21:02+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201211MZ1G07721A11Z10000002",
+        "list_size": 0,
+        "onsale_site_riders_in_list": []
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/77-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E6%96%B0%E5%9C%8B%E9%9A%9B%E6%8A%80%E8%A1%93%E5%90%88%E4%BD%9C%E4%BA%BA%E5%93%A1%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": false,
+        "onsale_riders_shown": []
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03539",
+      "name": "臺銀人壽金美永憶美元利率變動型終身壽險(定期給付型)(第1次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-04-30",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MA9B0XD23B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:35+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MA9B0XD23B11Z10000001",
+        "list_size": 1,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/XD-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E9%87%91%E7%BE%8E%E6%B0%B8%E6%86%B6%E7%BE%8E%E5%85%83%E5%88%A9%E7%8E%87%E8%AE%8A%E5%8B%95%E5%9E%8B%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA%E5%AE%9A%E6%9C%9F%E7%B5%A6%E4%BB%98%E5%9E%8B.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03541",
+      "name": "臺銀人壽金美旺美元利率變動型終身壽險(定期給付型)(第2次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-04-30",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MA1A0XB23B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:21:03+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MA1A0XB23B11Z10000002",
+        "list_size": 1,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/XB-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E9%87%91%E7%BE%8E%E6%97%BA%E7%BE%8E%E5%85%83%E5%88%A9%E7%8E%87%E8%AE%8A%E5%8B%95%E5%9E%8B%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA%E5%AE%9A%E6%9C%9F%E7%B5%A6%E4%BB%98%E5%9E%8B.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03542",
+      "name": "臺銀人壽金美添美元利率變動型終身壽險(定期給付型)(第1次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-04-30",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MA9B0XC23B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:36+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MA9B0XC23B11Z10000001",
+        "list_size": 1,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/XC-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E9%87%91%E7%BE%8E%E6%B7%BB%E7%BE%8E%E5%85%83%E5%88%A9%E7%8E%87%E8%AE%8A%E5%8B%95%E5%9E%8B%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA%E5%AE%9A%E6%9C%9F%E7%B5%A6%E4%BB%98%E5%9E%8B.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03545",
+      "name": "臺銀人壽新樂活人生長期照顧終身保險(第12次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201361MZ6B0HV23A11Z10000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:28+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201361MZ6B0HV23A11Z10000012",
+        "list_size": 5,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201131RZ1A01V22A11Z10000018",
+            "name": "臺銀人壽不分紅定期壽險附約(109A)(第18次部分變更)",
+            "site_id": "03535"
+          },
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)(第19次部分變更)",
+            "site_id": "03504"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約(第7次部分變更)",
+            "site_id": "03498"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/HV-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E6%96%B0%E6%A8%82%E6%B4%BB%E4%BA%BA%E7%94%9F%E9%95%B7%E6%9C%9F%E7%85%A7%E9%A1%A7%E7%B5%82%E8%BA%AB%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201131RZ1A01V22A11Z10000018",
+            "name": "臺銀人壽不分紅定期壽險附約(109A)",
+            "site_id": "01828"
+          },
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)",
+            "site_id": "01826"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約",
+            "site_id": "01821"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03546",
+      "name": "臺銀人壽金福氣小額終身壽險(109)(第11次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MZ1A0FV23A11D10000011"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:32+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MZ1A0FV23A11D10000011",
+        "list_size": 1,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/FV-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E9%87%91%E7%A6%8F%E6%B0%A3%E5%B0%8F%E9%A1%8D%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA109.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03547",
+      "name": "臺銀人壽新松柏長青終身醫療健康保險(第11次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201311MZ1B0JF23A11Z10000011"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:18+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201311MZ1B0JF23A11Z10000011",
+        "list_size": 3,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)(第19次部分變更)",
+            "site_id": "03504"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約(第7次部分變更)",
+            "site_id": "03498"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/JF-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E6%96%B0%E6%9D%BE%E6%9F%8F%E9%95%B7%E9%9D%92%E7%B5%82%E8%BA%AB%E9%86%AB%E7%99%82%E5%81%A5%E5%BA%B7%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201211RZ1A01W21A11Z10000019",
+            "name": "臺銀人壽新傷害死亡及失能給付附約(110)",
+            "site_id": "01826"
+          },
+          {
+            "pid": "201311RZ1A01P21A11Z10000007",
+            "name": "臺銀人壽健康人生綜合住院醫療給付保險附約(第7次部分變更)",
+            "site_id": "03497"
+          },
+          {
+            "pid": "201311RZ1A01Z21A11Z10000007",
+            "name": "臺銀人壽新金安心住院醫療健康保險附約",
+            "site_id": "01821"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03548",
+      "name": "臺銀人壽富基享小額終身壽險(第1次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MZ1A0OC23A11D10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:21:05+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MZ1A0OC23A11D10000001",
+        "list_size": 2,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          },
+          {
+            "pid": "201211RZ1A01Y21A11D10000000",
+            "name": "臺銀人壽富基享小額傷害保險附約",
+            "site_id": "01824"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/OC-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E5%AF%8C%E5%9F%BA%E4%BA%AB%E5%B0%8F%E9%A1%8D%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          },
+          {
+            "pid": "201211RZ1A01Y21A11D10000000",
+            "name": "臺銀人壽富基享小額傷害保險附約",
+            "site_id": "01824"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03549",
+      "name": "臺銀人壽金美永富美元利率變動型終身壽險(定期給付型)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-05-29",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MA1A0XH23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:20:33+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MA1A0XH23B11Z10000000",
+        "list_size": 1,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/XH-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E9%87%91%E7%BE%8E%E6%B0%B8%E5%AF%8C%E7%BE%8E%E5%85%83%E5%88%A9%E7%8E%87%E8%AE%8A%E5%8B%95%E5%9E%8B%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA%E5%AE%9A%E6%9C%9F%E7%B5%A6%E4%BB%98%E5%9E%8B.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    },
+    {
+      "product_id": "03550",
+      "name": "臺銀人壽金美永傳美元利率變動型終身壽險(定期給付型)(第2次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-07-31",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MA1A0XE23B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T14:02:26+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131MA1A0XE23B11Z10000002",
+        "list_size": 1,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/XE-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E9%87%91%E7%BE%8E%E6%B0%B8%E5%82%B3%E7%BE%8E%E5%85%83%E5%88%A9%E7%8E%87%E8%AE%8A%E5%8B%95%E5%9E%8B%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA%E5%AE%9A%E6%9C%9F%E7%B5%A6%E4%BB%98%E5%9E%8B.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "201191AZ1A00B22A11Z10000006",
+            "name": "臺銀人壽生命末期提前給付附加條款(第6次部分變更)",
+            "site_id": "44242"
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed_links": {
+        "add": [],
+        "remove": []
+      },
+      "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
+    }
+  ]
+}
