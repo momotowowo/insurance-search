@@ -18375,81 +18375,12 @@ window.INSURANCE_RIDER_PRODUCT_UPDATES= {
       "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A05323B11Z10000000",
       "status_checked_at": "2026-11-26",
       "status_source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A05323B11Z10000000"
-    },
-    {
-      "name": "合作金庫人壽一年定期重大疾病健康保",
-      "insurer": "合作金庫人壽",
-      "sector": "人身保險",
-      "category": "健康險",
-      "status": "現售",
-      "source_name": "合作金庫人壽資訊公開 JV_Info_1 商品名稱與文號",
-      "source_url": "https://my.tcb-life.com.tw/public-info",
-      "id": "00942",
-      "source": "官網+保發中心",
-      "original_insurer": "合作金庫人壽",
-      "current_insurer": "合作金庫人壽",
-      "first_seen_at": "2026-11-09T08:14:13.106854+08:00",
-      "first_seen_source": "baseline",
-      "insurer_assignment_status": "verified_merge",
-      "terms_status": "尚未取得",
-      "sale_date": "2026-01-01",
-      "stop_date": "",
-      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222351RZ1A00321A11Z10000005",
-      "status_checked_at": "2026-11-26",
-      "status_source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222351RZ1A00321A11Z10000005",
-      "name_note": "官網名稱被截斷；完整名稱：合作金庫人壽一年定期重大疾病健康保險附約(乙型)"
-    },
-    {
-      "name": "合作金庫人壽投資型保險彈性交付之",
-      "insurer": "合作金庫人壽",
-      "sector": "人身保險",
-      "category": "投資型",
-      "status": "現售",
-      "source_name": "合作金庫人壽資訊公開 JV_Info_1 商品名稱與文號",
-      "source_url": "https://my.tcb-life.com.tw/public-info",
-      "id": "00996",
-      "source": "官網+保發中心",
-      "original_insurer": "合作金庫人壽",
-      "current_insurer": "合作金庫人壽",
-      "first_seen_at": "2026-11-09T08:14:13.106854+08:00",
-      "first_seen_source": "baseline",
-      "insurer_assignment_status": "verified_merge",
-      "terms_status": "尚未取得",
-      "sale_date": "2024-08-16",
-      "stop_date": "",
-      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A00923Z11Z90000009",
-      "status_checked_at": "2026-11-26",
-      "status_source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A00923Z11Z90000009",
-      "name_note": "官網名稱被截斷；完整名稱：合作金庫人壽投資型保險彈性交付之非首次投資配置日批註條款"
-    },
-    {
-      "name": "合作金庫人壽傳統型保險外幣保險單借",
-      "insurer": "合作金庫人壽",
-      "sector": "人身保險",
-      "category": "未分類",
-      "status": "現售",
-      "source_name": "合作金庫人壽資訊公開 JV_Info_1 商品名稱與文號",
-      "source_url": "https://my.tcb-life.com.tw/public-info",
-      "id": "01015",
-      "source": "官網+保發中心",
-      "original_insurer": "合作金庫人壽",
-      "current_insurer": "合作金庫人壽",
-      "first_seen_at": "2026-11-09T08:14:13.106854+08:00",
-      "first_seen_source": "baseline",
-      "insurer_assignment_status": "verified_merge",
-      "terms_status": "尚未取得",
-      "sale_date": "2020-12-24",
-      "stop_date": "",
-      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A00222Z11Z10000001",
-      "status_checked_at": "2026-11-26",
-      "status_source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222191EV1A00222Z11Z10000001",
-      "name_note": "官網名稱被截斷；完整名稱：合作金庫人壽傳統型保險外幣保險單借款批註條款"
     }
   ],
   "meta": {
     "title": "台灣壽險商品公開資料",
     "fetched_at": "2026-11-08 08:21（台北時間）；保發中心壽險 2026-11-08（台北時間）",
-    "count": 44201,
+    "count": 44196,
     "stats": {
       "insurers": {
         "中華郵政簡易壽險": 283,
@@ -18458,7 +18389,7 @@ window.INSURANCE_RIDER_PRODUCT_UPDATES= {
         "凱基人壽": 603,
         "南山人壽": 2226,
         "台灣人壽": 2875,
-        "合作金庫人壽": 985,
+        "合作金庫人壽": 980,
         "國泰人壽": 2978,
         "安聯人壽": 2531,
         "安達國際人壽": 2026,
@@ -18501,16 +18432,16 @@ window.INSURANCE_RIDER_PRODUCT_UPDATES= {
         "蘇黎世國際人壽": 15
       },
       "sectors": {
-        "人身保險": 44201
+        "人身保險": 44196
       },
       "statuses": {
         "停售": 40143,
-        "現售": 4049,
-        "未標示": 9
+        "現售": 4046,
+        "未標示": 7
       },
       "sources": {
-        "官網+保發中心": 2303,
-        "官網": 453,
+        "官網+保發中心": 2300,
+        "官網": 451,
         "保發中心": 41444,
         "金管會保險局": 1
       },
@@ -18518,10 +18449,10 @@ window.INSURANCE_RIDER_PRODUCT_UPDATES= {
         "附約": 7723,
         "壽險": 908,
         "簡易人壽": 8,
-        "健康險": 289,
+        "健康險": 288,
         "傷害險": 86,
-        "投資型": 14433,
-        "未分類": 20627,
+        "投資型": 14430,
+        "未分類": 20626,
         "年金險": 61,
         "OIU": 3,
         "還本險": 63

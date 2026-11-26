@@ -1,0 +1,137 @@
+{
+  "batch_id": "grok-delete5-tcb-truncated-batch121-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26",
+  "authorization": "使用者於 2026-11-26 23:09（台北時間）決定刪除這 5 筆合庫截斷名稱紀錄：00942、00996、01007、01015、01017。先前第二輪交叉確認（batch 120）已把重複配對記下，交由使用者決定是否移到待刪除。",
+  "scope": "只刪這 5 個 id；33200、33140、33143 完整名稱紀錄維持不變；batch 120 加進 overlay 的 00942/00996/01015 一併拿掉。",
+  "method": "先確認各筆所在資料源，再對現行檔做針對性刪除，沒有用過時的 products.json 重建。endorsement_deleted.json / addendum_deleted.json 不在 git、前端也不載入，不是線上刪除機制。線上既有做法是改 data/products.js、data/products-packed.js、data/meta.json（見 0c6a327、d150702）。overlay 只刪除那 3 筆並同步 meta 次數。附約分片沒有這 5 個 id 的引用，不必改。",
+  "data_sources": {
+    "00942": {
+      "base": "data/products.js 與 data/products-packed.js（及同步的 data/meta.json）",
+      "overlay": "data/riders/product_updates.js/.json（076b49e 新增的現售 overlay）"
+    },
+    "00996": {
+      "base": "data/products.js 與 data/products-packed.js（及同步的 data/meta.json）",
+      "overlay": "data/riders/product_updates.js/.json（076b49e 新增的現售 overlay）"
+    },
+    "01007": {
+      "base": "data/products.js 與 data/products-packed.js（及同步的 data/meta.json）",
+      "overlay": "無（從未寫入 overlay）"
+    },
+    "01015": {
+      "base": "data/products.js 與 data/products-packed.js（及同步的 data/meta.json）",
+      "overlay": "data/riders/product_updates.js/.json（076b49e 新增的現售 overlay）"
+    },
+    "01017": {
+      "base": "data/products.js 與 data/products-packed.js（及同步的 data/meta.json）",
+      "overlay": "無（從未寫入 overlay）"
+    }
+  },
+  "duplicate_pairings_from_batch120": {
+    "00942": "33200（同一 TII 版本 222351RZ1A00321A11Z10000005，現售 2026-01-01）",
+    "01007": [
+      "33140",
+      "33143"
+    ],
+    "00996": "endorsement_deleted.json 內同商品（投資型保險彈性交付之非首次投資配置日批註條款第9次部分變更）",
+    "01015": "endorsement_deleted.json 內同商品（傳統型保險外幣保險單借款批註條款第1次部分變更）",
+    "01017": "endorsement_deleted.json 內 (一)第18次、(112)第4次 兩筆"
+  },
+  "kept": {
+    "33200": "合作金庫人壽一年定期重大疾病健康保險附約(乙型)(第5次部分變更)，現售 2026-01-01",
+    "33140": "合作金庫人壽福貴人生外幣變額萬能壽險(第9次部分變更)，現售 2025-01-01",
+    "33143": "合作金庫人壽福貴人生外幣變額萬能壽險(一)(第9次部分變更)，現售 2025-01-01"
+  },
+  "rider_shards": "附約分片與 manifest 沒有這 5 個 id 的引用。tcb.js/.json 有 33200，未改。33140、33143 也不在分片裡。",
+  "counts": {
+    "base_products_array": {
+      "before": 44116,
+      "after": 44111
+    },
+    "base_meta_count": {
+      "before": 44218,
+      "after": 44213,
+      "note": "meta.count 原本就比 products 陣列多 102，本次只針對性減 5，沒有重算整個 meta"
+    },
+    "overlay_meta_count": {
+      "before": 44201,
+      "after": 44196
+    },
+    "overlay_stats_js_after": {
+      "停售": 40143,
+      "現售": 4046,
+      "未標示": 7,
+      "官網+保發中心": 2300,
+      "官網": 451,
+      "合作金庫人壽": 980
+    },
+    "overlay_stats_json_after": {
+      "停售": 40143,
+      "現售": 4045,
+      "未標示": 8,
+      "官網+保發中心": 2299,
+      "官網": 452,
+      "合作金庫人壽": 980,
+      "note": "js/json 既有 1 筆差距維持不變"
+    },
+    "live_visible_after_endorsement_filter": 44173,
+    "note": "前端會用 overlay 覆蓋後，再依名稱含「批註條款」過濾，並把 meta.count 設成過濾後筆數。這 5 筆截斷名稱本來會躲過過濾顯示出來，刪除後線上可見總數為 44173；33200/33140/33143 仍可見。"
+  },
+  "product_data_changed": true,
+  "publish": {
+    "files": [
+      "data/products.js",
+      "data/products-packed.js",
+      "data/meta.json",
+      "data/riders/product_updates.js",
+      "data/riders/product_updates.json",
+      "index.html"
+    ],
+    "release": "sales-20261126-grok14-delete5"
+  },
+  "items": [
+    {
+      "product_id": "00942",
+      "name": "合作金庫人壽一年定期重大疾病健康保",
+      "result": "deleted",
+      "sources_removed_from": [
+        "products.js/packed",
+        "product_updates overlay"
+      ]
+    },
+    {
+      "product_id": "00996",
+      "name": "合作金庫人壽投資型保險彈性交付之",
+      "result": "deleted",
+      "sources_removed_from": [
+        "products.js/packed",
+        "product_updates overlay"
+      ]
+    },
+    {
+      "product_id": "01007",
+      "name": "合作金庫人壽福貴人生外幣變額萬能",
+      "result": "deleted",
+      "sources_removed_from": [
+        "products.js/packed"
+      ]
+    },
+    {
+      "product_id": "01015",
+      "name": "合作金庫人壽傳統型保險外幣保險單借",
+      "result": "deleted",
+      "sources_removed_from": [
+        "products.js/packed",
+        "product_updates overlay"
+      ]
+    },
+    {
+      "product_id": "01017",
+      "name": "合作金庫人壽指數股票型基金投資標",
+      "result": "deleted",
+      "sources_removed_from": [
+        "products.js/packed"
+      ]
+    }
+  ]
+}
