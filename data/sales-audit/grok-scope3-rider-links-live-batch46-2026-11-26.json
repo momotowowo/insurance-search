@@ -8,13 +8,14 @@
     "ids": 60
   },
   "gpt_claimed_ids_excluded": true,
-  "integration_status": "待整合",
+  "integration_status": "不一致項已由 Grok 依使用者授權修正並上線",
   "product_data_changed": false,
   "method": "以 2026-11-26 即時保發中心詳細頁（GET DetailList.aspx）之「附加保險」超連結清單，對照本站現行（GPT 建置之 data/riders 分片）該主約顯示之現售附約；僅比對同公司、同一保發中心版本代號（不做名稱或版本推測），只計本站狀態為現售之附約。不一致者列出應補／應移除之具體連結，移交 GPT；Grok 未修改任何 data/riders 分片。未對驗證碼做 OCR、未執行 submit。",
   "summary": {
     "已核實": 60,
     "total": 60,
-    "items_with_proposed_changes": 0
+    "items_with_proposed_changes": 0,
+    "live_applied": 0
   },
   "items": [
     {
@@ -2321,5 +2322,14 @@
       },
       "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
     }
-  ]
+  ],
+  "integrated": {
+    "count": 0,
+    "commit": "6cd656a",
+    "followup_commit": "c3b20ac",
+    "pages_build": "built",
+    "live_verified_at": "2026-11-26T15:02:39+08:00",
+    "release": "sales-20261126-grok7",
+    "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+  }
 }

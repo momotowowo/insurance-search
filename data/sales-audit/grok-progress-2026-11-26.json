@@ -280,7 +280,7 @@
     },
     "note": "scope 1 (1,121): live-verified+applied 358+155+127+23 = 663; the remainder are handed to GPT (pending). scope 2 (recheck) and scope 3 (rider links) not started."
   },
-  "updated_at": "2026-11-26T14:43:42+08:00",
+  "updated_at": "2026-11-26T15:02:51+08:00",
   "live_tii_queue": {
     "note": "已移交 GPT（pending）之項目中，即時保發中心查詢（需使用者判讀驗證碼）可能解決者；Grok 要處理須先與 GPT 記錄",
     "counts": {
@@ -4464,8 +4464,306 @@
       "44211",
       "44213"
     ],
-    "rider_shards_modified": false,
-    "method": "GPT 之 data/riders 分片原封未動；僅比對並產出建議補／移除連結。",
-    "cache_based_compare_note": "其餘現售主約以 2026-11-10/17 快取之附加保險清單比對，與本站一致者未再即時覆核"
+    "rider_shards_modified": true,
+    "method": "依使用者 2026-11-26 14:45 授權，對 data/riders 分片做逐筆定向編修（雙向一致、同公司、版本代號精確、僅現售）；未重建整檔、未動 product_updates.*",
+    "cache_based_compare_note": "其餘現售主約以 2026-11-10/17 快取之附加保險清單比對，與本站一致者未再即時覆核",
+    "fix_applied": {
+      "authorized_by_user_at": "2026-11-26 14:45",
+      "commit": "6cd656a",
+      "cleanup_commit": "c3b20ac",
+      "release": "sales-20261126-grok7",
+      "pages_build": "built",
+      "live_verified_at": "2026-11-26T15:02:51+08:00",
+      "per_company_link_delta": {
+        "第一金人壽": {
+          "main_side_added": 0,
+          "main_side_removed": 0,
+          "rider_side_added": 0,
+          "rider_side_removed": 2,
+          "mt_entries": [
+            12,
+            12
+          ],
+          "rt_entries": [
+            13,
+            11
+          ]
+        },
+        "國泰人壽": {
+          "main_side_added": 61,
+          "main_side_removed": 91,
+          "rider_side_added": 137,
+          "rider_side_removed": 142,
+          "mt_entries": [
+            24,
+            40
+          ],
+          "rt_entries": [
+            10,
+            15
+          ]
+        },
+        "安聯人壽": {
+          "main_side_added": 523,
+          "main_side_removed": 0,
+          "rider_side_added": 414,
+          "rider_side_removed": 42,
+          "mt_entries": [
+            18,
+            44
+          ],
+          "rt_entries": [
+            13,
+            25
+          ]
+        },
+        "保誠人壽": {
+          "main_side_added": 178,
+          "main_side_removed": 29,
+          "rider_side_added": 257,
+          "rider_side_removed": 63,
+          "mt_entries": [
+            61,
+            88
+          ],
+          "rt_entries": [
+            13,
+            24
+          ]
+        },
+        "富邦人壽": {
+          "main_side_added": 24,
+          "main_side_removed": 1,
+          "rider_side_added": 24,
+          "rider_side_removed": 3,
+          "mt_entries": [
+            4,
+            12
+          ],
+          "rt_entries": [
+            6,
+            19
+          ]
+        },
+        "新光人壽": {
+          "main_side_added": 674,
+          "main_side_removed": 1,
+          "rider_side_added": 795,
+          "rider_side_removed": 123,
+          "mt_entries": [
+            36,
+            72
+          ],
+          "rt_entries": [
+            20,
+            51
+          ]
+        },
+        "台灣人壽": {
+          "main_side_added": 396,
+          "main_side_removed": 95,
+          "rider_side_added": 413,
+          "rider_side_removed": 136,
+          "mt_entries": [
+            26,
+            62
+          ],
+          "rt_entries": [
+            17,
+            32
+          ]
+        },
+        "遠雄人壽": {
+          "main_side_added": 71,
+          "main_side_removed": 259,
+          "rider_side_added": 50,
+          "rider_side_removed": 305,
+          "mt_entries": [
+            68,
+            53
+          ],
+          "rt_entries": [
+            47,
+            32
+          ]
+        },
+        "宏泰人壽": {
+          "main_side_added": 34,
+          "main_side_removed": 826,
+          "rider_side_added": 25,
+          "rider_side_removed": 1023,
+          "mt_entries": [
+            89,
+            86
+          ],
+          "rt_entries": [
+            79,
+            72
+          ]
+        },
+        "凱基人壽": {
+          "main_side_added": 0,
+          "main_side_removed": 20,
+          "rider_side_added": 0,
+          "rider_side_removed": 20,
+          "mt_entries": [
+            83,
+            79
+          ],
+          "rt_entries": [
+            25,
+            23
+          ]
+        },
+        "南山人壽": {
+          "main_side_added": 0,
+          "main_side_removed": 2,
+          "rider_side_added": 0,
+          "rider_side_removed": 3,
+          "mt_entries": [
+            44,
+            44
+          ],
+          "rt_entries": [
+            21,
+            21
+          ]
+        },
+        "法國巴黎人壽": {
+          "main_side_added": 2,
+          "main_side_removed": 0,
+          "rider_side_added": 3,
+          "rider_side_removed": 7,
+          "mt_entries": [
+            53,
+            54
+          ],
+          "rt_entries": [
+            6,
+            6
+          ]
+        },
+        "三商美邦人壽": {
+          "main_side_added": 0,
+          "main_side_removed": 0,
+          "rider_side_added": 0,
+          "rider_side_removed": 0,
+          "mt_entries": [
+            0,
+            0
+          ],
+          "rt_entries": [
+            0,
+            0
+          ]
+        },
+        "安達國際人壽": {
+          "main_side_added": 3,
+          "main_side_removed": 1,
+          "rider_side_added": 3,
+          "rider_side_removed": 4,
+          "mt_entries": [
+            16,
+            18
+          ],
+          "rt_entries": [
+            10,
+            8
+          ]
+        },
+        "全球人壽": {
+          "main_side_added": 0,
+          "main_side_removed": 0,
+          "rider_side_added": 0,
+          "rider_side_removed": 0,
+          "mt_entries": [
+            52,
+            52
+          ],
+          "rt_entries": [
+            46,
+            46
+          ]
+        },
+        "元大人壽": {
+          "main_side_added": 0,
+          "main_side_removed": 0,
+          "rider_side_added": 0,
+          "rider_side_removed": 0,
+          "mt_entries": [
+            25,
+            25
+          ],
+          "rt_entries": [
+            18,
+            18
+          ]
+        },
+        "合作金庫人壽": {
+          "main_side_added": 0,
+          "main_side_removed": 0,
+          "rider_side_added": 0,
+          "rider_side_removed": 0,
+          "mt_entries": [
+            6,
+            6
+          ],
+          "rt_entries": [
+            8,
+            8
+          ]
+        },
+        "友邦人壽": {
+          "main_side_added": 0,
+          "main_side_removed": 0,
+          "rider_side_added": 0,
+          "rider_side_removed": 0,
+          "mt_entries": [
+            25,
+            25
+          ],
+          "rt_entries": [
+            7,
+            7
+          ]
+        },
+        "臺銀人壽": {
+          "main_side_added": 0,
+          "main_side_removed": 1,
+          "rider_side_added": 0,
+          "rider_side_removed": 1,
+          "mt_entries": [
+            37,
+            37
+          ],
+          "rt_entries": [
+            6,
+            6
+          ]
+        },
+        "中華郵政簡易壽險": {
+          "main_side_added": 0,
+          "main_side_removed": 0,
+          "rider_side_added": 0,
+          "rider_side_removed": 0,
+          "mt_entries": [
+            9,
+            9
+          ],
+          "rt_entries": [
+            4,
+            4
+          ]
+        }
+      },
+      "items_applied": 381,
+      "items_no_change_on_recompute": 3,
+      "extra_batch": "50 (02683, 02708)",
+      "mains_still_unchecked_live": 278,
+      "unchecked_reason": "TII 驗證碼工作階段於 2026-11-26 約 15:00 到期，剩餘 278 筆主約未能即時覆核（其連結仍為 GPT 原資料，與 2026-11-10/17 快取清單比對時 27 筆不一致，待新工作階段）",
+      "known_skips": [
+        "安聯 30263 守護寶照護健康保險附約：與 30261 同名同公司，索引以名稱鍵值查找會指向 30261 條目，無法僅以版本代號區分，未改動"
+      ]
+    }
   }
 }

@@ -8,14 +8,15 @@
     "ids": 60
   },
   "gpt_claimed_ids_excluded": true,
-  "integration_status": "待整合",
+  "integration_status": "不一致項已由 Grok 依使用者授權修正並上線",
   "product_data_changed": false,
   "method": "以 2026-11-26 即時保發中心詳細頁（GET DetailList.aspx）之「附加保險」超連結清單，對照本站現行（GPT 建置之 data/riders 分片）該主約顯示之現售附約；僅比對同公司、同一保發中心版本代號（不做名稱或版本推測），只計本站狀態為現售之附約。不一致者列出應補／應移除之具體連結，移交 GPT；Grok 未修改任何 data/riders 分片。未對驗證碼做 OCR、未執行 submit。",
   "summary": {
     "連結不一致": 24,
     "已核實": 36,
     "total": 60,
-    "items_with_proposed_changes": 0
+    "items_with_proposed_changes": 0,
+    "live_applied": 24
   },
   "items": [
     {
@@ -29,7 +30,7 @@
         "stop_date": "未停售",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201311MZ1B0JL23A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -91,7 +92,22 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（2 筆）含現售附約 2 筆；本站現行顯示 3 筆。應補 0 筆、應移除 1 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [],
+        "remove": [
+          "201311RZ1A01Z21A11Z10000007"
+        ],
+        "rekeyed_index_entry_from": null
+      }
     },
     {
       "product_id": "02651",
@@ -104,7 +120,7 @@
         "stop_date": "",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216311MZ1B13923A11Z10000012"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -364,7 +380,44 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（34 筆）含現售附約 23 筆；本站現行顯示 0 筆。應補 23 筆、應移除 0 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [
+          "216211RZ1A30021A11Z10000004",
+          "216211RZ1A32721A11Z10000004",
+          "216211RZ1A35422A11Z10000002",
+          "216211RZ3D30821A11Z10000005",
+          "216211RZ3D30921A11Z10000005",
+          "216291RZ1A23521A11Z10000005",
+          "216311RZ1A34221A11Z10000000",
+          "216311RZ1A39121A11Z10000000",
+          "216321RZ1A02421A11Z10000012",
+          "216321RZ1A11623A11Z10000014",
+          "216321RZ1A20023A11Z10000010",
+          "216321RZ1A22323A11Z10000009",
+          "216321RZ1A26722A11Z10000005",
+          "216321RZ1A35321A11Z10000002",
+          "216341RZ1A02622A11Z10000020",
+          "216341RZ1A02722A11Z10000017",
+          "216341RZ1A13622A11Z10000008",
+          "216341RZ1A22722A11Z10000006",
+          "216351RZ1A09723A11Z10000013",
+          "216351RZ1A19623A11Z10000009",
+          "216361RZ1A38521A11Z10000000",
+          "216391RZ1A29921A11Z10000003",
+          "216391RZ9B08923A11Z10000018"
+        ],
+        "remove": [],
+        "rekeyed_index_entry_from": null
+      }
     },
     {
       "product_id": "02660",
@@ -377,7 +430,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216321MZ2B30722A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -480,7 +533,45 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（24 筆）含現售附約 5 筆；本站現行顯示 7 筆。應補 0 筆、應移除 2 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [
+          "216211RZ1A30021A11Z10000004",
+          "216211RZ1A32721A11Z10000004",
+          "216211RZ1A35422A11Z10000002",
+          "216211RZ3D30821A11Z10000005",
+          "216211RZ3D30921A11Z10000005",
+          "216291RZ1A23521A11Z10000005",
+          "216311RZ1A34221A11Z10000000",
+          "216321RZ1A02421A11Z10000012",
+          "216321RZ1A26722A11Z10000005",
+          "216321RZ1A35321A11Z10000002",
+          "216341RZ1A02622A11Z10000020",
+          "216341RZ1A02722A11Z10000017",
+          "216341RZ1A13622A11Z10000008",
+          "216341RZ1A22722A11Z10000006",
+          "216361RZ1A38521A11Z10000000",
+          "216391RZ1A29921A11Z10000003"
+        ],
+        "remove": [
+          "216211RZ1A30021A11Z10000000",
+          "216211RZ1A32721A11Z10000000",
+          "216211RZ3D30821A11Z10000000",
+          "216211RZ3D30921A11Z10000000",
+          "216291RZ1A23521A11Z10000004",
+          "216341RZ1A02622A11Z10000016",
+          "216391RZ1A29921A11Z10000000"
+        ],
+        "rekeyed_index_entry_from": "216321MZ2B30722A11Z10000000"
+      }
     },
     {
       "product_id": "02670",
@@ -493,7 +584,7 @@
         "stop_date": "",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216391MZ9B10323A11Z10000016"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -821,7 +912,28 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（33 筆）含現售附約 22 筆；本站現行顯示 29 筆。應補 0 筆、應移除 7 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [],
+        "remove": [
+          "216211RZ1A30021A11Z10000000",
+          "216211RZ1A32721A11Z10000000",
+          "216211RZ1A35422A11Z10000000",
+          "216211RZ3D30821A11Z10000000",
+          "216211RZ3D30921A11Z10000000",
+          "216321RZ1A35321A11Z10000000",
+          "216391RZ1A29921A11Z10000000"
+        ],
+        "rekeyed_index_entry_from": null
+      }
     },
     {
       "product_id": "02690",
@@ -834,7 +946,7 @@
         "stop_date": "2024-06-30",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216351MZ9B36922A11E10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -916,7 +1028,39 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（28 筆）含現售附約 4 筆；本站現行顯示 5 筆。應補 0 筆、應移除 1 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [
+          "216211RZ1A30021A11Z10000004",
+          "216211RZ1A32721A11Z10000004",
+          "216211RZ1A35422A11Z10000002",
+          "216211RZ3D30821A11Z10000005",
+          "216211RZ3D30921A11Z10000005",
+          "216321RZ1A02421A11Z10000012",
+          "216321RZ1A26722A11Z10000005",
+          "216321RZ1A35321A11Z10000002",
+          "216341RZ1A02622A11Z10000020",
+          "216341RZ1A02722A11Z10000017",
+          "216341RZ1A13622A11Z10000008",
+          "216341RZ1A22722A11Z10000006",
+          "216361RZ1A38521A11Z10000000",
+          "216391RZ1A29921A11Z10000003"
+        ],
+        "remove": [
+          "216211RZ1A35422A11Z10000000",
+          "216321RZ1A35321A11Z10000000",
+          "216391RZ1A29921A11Z10000001"
+        ],
+        "rekeyed_index_entry_from": "216351MZ9B36922A11E10000000"
+      }
     },
     {
       "product_id": "02698",
@@ -929,7 +1073,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211MZ3D31721A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -1001,7 +1145,30 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（5 筆）含現售附約 3 筆；本站現行顯示 4 筆。應補 0 筆、應移除 1 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [
+          "216211RZ1A30021A11Z10000004",
+          "216211RZ1A32721A11Z10000004",
+          "216211RZ1A37521A11Z10000001",
+          "216211RZ3D30921A11Z10000005"
+        ],
+        "remove": [
+          "216211RZ1A30021A11Z10000000",
+          "216211RZ1A32721A11Z10000000",
+          "216211RZ1A37521A11Z10000000",
+          "216211RZ3D30921A11Z10000000"
+        ],
+        "rekeyed_index_entry_from": "216211MZ3D31721A11Z10000000"
+      }
     },
     {
       "product_id": "02706",
@@ -1014,7 +1181,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211MZ1A32923A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -1139,7 +1306,57 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（35 筆）含現售附約 5 筆；本站現行顯示 9 筆。應補 0 筆、應移除 4 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [
+          "216211RZ1A06621A11Z10000010",
+          "216211RZ1A30021A11Z10000004",
+          "216211RZ1A32721A11Z10000004",
+          "216211RZ1A35422A11Z10000002",
+          "216211RZ1A37521A11Z10000001",
+          "216211RZ3D30821A11Z10000005",
+          "216211RZ3D30921A11Z10000005",
+          "216291RZ1A23521A11Z10000005",
+          "216311RZ1A08623A11Z10000014",
+          "216311RZ1A34221A11Z10000000",
+          "216311RZ1A39121A11Z10000000",
+          "216321RZ1A02421A11Z10000012",
+          "216321RZ1A11623A11Z10000014",
+          "216321RZ1A20023A11Z10000010",
+          "216321RZ1A22323A11Z10000009",
+          "216321RZ1A26722A11Z10000005",
+          "216321RZ1A35321A11Z10000002",
+          "216341RZ1A02622A11Z10000020",
+          "216341RZ1A02722A11Z10000017",
+          "216341RZ1A13622A11Z10000008",
+          "216341RZ1A22722A11Z10000006",
+          "216351RZ1A09723A11Z10000013",
+          "216351RZ1A19623A11Z10000009",
+          "216361RZ1A38521A11Z10000000",
+          "216391RZ1A29921A11Z10000003",
+          "216391RZ9B08923A11Z10000018"
+        ],
+        "remove": [
+          "216211RZ1A30021A11Z10000000",
+          "216211RZ1A32721A11Z10000000",
+          "216211RZ3D30821A11Z10000000",
+          "216211RZ3D30921A11Z10000000",
+          "216291RZ1A23521A11Z10000004",
+          "216311RZ1A08623A11Z10000010",
+          "216341RZ1A02622A11Z10000016",
+          "216391RZ1A29921A11Z10000000",
+          "216391RZ9B08923A11Z10000014"
+        ],
+        "rekeyed_index_entry_from": "216211MZ1A32923A11Z10000000"
+      }
     },
     {
       "product_id": "02716",
@@ -1152,7 +1369,7 @@
         "stop_date": "2024-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA2A36223A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -1469,7 +1686,34 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（87 筆）含現售附約 23 筆；本站現行顯示 26 筆。應補 2 筆、應移除 5 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [
+          "216311RZ1A08623A11Z10000014",
+          "216311RZ1A39121A11Z10000000",
+          "216351RZ1A09723A11Z10000013",
+          "216361RZ1A38521A11Z10000000",
+          "216391RZ9B08923A11Z10000018"
+        ],
+        "remove": [
+          "216211RZ1A35422A11Z10000000",
+          "216311RZ1A08623A11Z10000013",
+          "216321RZ1A35321A11Z10000000",
+          "216341RZ1A22722A11Z10000005",
+          "216351RZ1A09723A11Z10000012",
+          "216391RZ1A29921A11Z10000001",
+          "216391RZ9B08923A11Z10000015"
+        ],
+        "rekeyed_index_entry_from": "216131MA2A36223A11Z10000000"
+      }
     },
     {
       "product_id": "02718",
@@ -1482,7 +1726,7 @@
         "stop_date": "",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MZ1A18123A11Z10000009"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -1752,7 +1996,45 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（40 筆）含現售附約 24 筆；本站現行顯示 0 筆。應補 24 筆、應移除 0 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [
+          "216211RZ1A30021A11Z10000004",
+          "216211RZ1A32721A11Z10000004",
+          "216211RZ1A35422A11Z10000002",
+          "216211RZ3D30821A11Z10000005",
+          "216211RZ3D30921A11Z10000005",
+          "216291RZ1A23521A11Z10000005",
+          "216311RZ1A08623A11Z10000014",
+          "216311RZ1A34221A11Z10000000",
+          "216311RZ1A39121A11Z10000000",
+          "216321RZ1A02421A11Z10000012",
+          "216321RZ1A11623A11Z10000014",
+          "216321RZ1A20023A11Z10000010",
+          "216321RZ1A22323A11Z10000009",
+          "216321RZ1A26722A11Z10000005",
+          "216321RZ1A35321A11Z10000002",
+          "216341RZ1A02622A11Z10000020",
+          "216341RZ1A02722A11Z10000017",
+          "216341RZ1A13622A11Z10000008",
+          "216341RZ1A22722A11Z10000006",
+          "216351RZ1A09723A11Z10000013",
+          "216351RZ1A19623A11Z10000009",
+          "216361RZ1A38521A11Z10000000",
+          "216391RZ1A29921A11Z10000003",
+          "216391RZ9B08923A11Z10000018"
+        ],
+        "remove": [],
+        "rekeyed_index_entry_from": null
+      }
     },
     {
       "product_id": "02730",
@@ -1765,7 +2047,7 @@
         "stop_date": "",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4G36023A11Z10000001"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -2035,7 +2317,45 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（40 筆）含現售附約 24 筆；本站現行顯示 0 筆。應補 24 筆、應移除 0 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [
+          "216211RZ1A30021A11Z10000004",
+          "216211RZ1A32721A11Z10000004",
+          "216211RZ1A35422A11Z10000002",
+          "216211RZ3D30821A11Z10000005",
+          "216211RZ3D30921A11Z10000005",
+          "216291RZ1A23521A11Z10000005",
+          "216311RZ1A08623A11Z10000014",
+          "216311RZ1A34221A11Z10000000",
+          "216311RZ1A39121A11Z10000000",
+          "216321RZ1A02421A11Z10000012",
+          "216321RZ1A11623A11Z10000014",
+          "216321RZ1A20023A11Z10000010",
+          "216321RZ1A22323A11Z10000009",
+          "216321RZ1A26722A11Z10000005",
+          "216321RZ1A35321A11Z10000002",
+          "216341RZ1A02622A11Z10000020",
+          "216341RZ1A02722A11Z10000017",
+          "216341RZ1A13622A11Z10000008",
+          "216341RZ1A22722A11Z10000006",
+          "216351RZ1A09723A11Z10000013",
+          "216351RZ1A19623A11Z10000009",
+          "216361RZ1A38521A11Z10000000",
+          "216391RZ1A29921A11Z10000003",
+          "216391RZ9B08923A11Z10000018"
+        ],
+        "remove": [],
+        "rekeyed_index_entry_from": null
+      }
     },
     {
       "product_id": "02739",
@@ -2048,7 +2368,7 @@
         "stop_date": "2024-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A35923A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -2354,7 +2674,32 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（87 筆）含現售附約 23 筆；本站現行顯示 26 筆。應補 1 筆、應移除 4 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [
+          "216311RZ1A39121A11Z10000000",
+          "216351RZ1A09723A11Z10000013",
+          "216361RZ1A38521A11Z10000000",
+          "216391RZ9B08923A11Z10000018"
+        ],
+        "remove": [
+          "216211RZ1A35422A11Z10000000",
+          "216321RZ1A35321A11Z10000000",
+          "216341RZ1A22722A11Z10000005",
+          "216351RZ1A09723A11Z10000012",
+          "216391RZ1A29921A11Z10000001",
+          "216391RZ9B08923A11Z10000015"
+        ],
+        "rekeyed_index_entry_from": "216131MA1A35923A11Z10000000"
+      }
     },
     {
       "product_id": "02740",
@@ -2367,7 +2712,7 @@
         "stop_date": "2024-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A35823B11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -2419,7 +2764,22 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（4 筆）含現售附約 1 筆；本站現行顯示 2 筆。應補 0 筆、應移除 1 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [],
+        "remove": [
+          "216341RZ1A24122B11Z10000005"
+        ],
+        "rekeyed_index_entry_from": "216131MA1A35823B11Z10000000"
+      }
     },
     {
       "product_id": "02745",
@@ -2432,7 +2792,7 @@
         "stop_date": "2022-12-01",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MZ2A27223A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -2557,7 +2917,55 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（53 筆）含現售附約 5 筆；本站現行顯示 9 筆。應補 0 筆、應移除 4 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [
+          "216211RZ1A30021A11Z10000004",
+          "216211RZ1A32721A11Z10000004",
+          "216211RZ1A35422A11Z10000002",
+          "216211RZ3D30821A11Z10000005",
+          "216211RZ3D30921A11Z10000005",
+          "216291RZ1A23521A11Z10000005",
+          "216311RZ1A08623A11Z10000014",
+          "216311RZ1A34221A11Z10000000",
+          "216311RZ1A39121A11Z10000000",
+          "216321RZ1A02421A11Z10000012",
+          "216321RZ1A11623A11Z10000014",
+          "216321RZ1A20023A11Z10000010",
+          "216321RZ1A22323A11Z10000009",
+          "216321RZ1A26722A11Z10000005",
+          "216321RZ1A35321A11Z10000002",
+          "216341RZ1A02622A11Z10000020",
+          "216341RZ1A02722A11Z10000017",
+          "216341RZ1A13622A11Z10000008",
+          "216341RZ1A22722A11Z10000006",
+          "216351RZ1A09723A11Z10000013",
+          "216351RZ1A19623A11Z10000009",
+          "216361RZ1A38521A11Z10000000",
+          "216391RZ1A29921A11Z10000003",
+          "216391RZ9B08923A11Z10000018"
+        ],
+        "remove": [
+          "216211RZ1A30021A11Z10000000",
+          "216211RZ1A32721A11Z10000000",
+          "216211RZ3D30821A11Z10000000",
+          "216211RZ3D30921A11Z10000000",
+          "216291RZ1A23521A11Z10000002",
+          "216311RZ1A08623A11Z10000010",
+          "216341RZ1A02622A11Z10000016",
+          "216391RZ1A29921A11Z10000000",
+          "216391RZ9B08923A11Z10000014"
+        ],
+        "rekeyed_index_entry_from": "216131MZ2A27223A11Z10000000"
+      }
     },
     {
       "product_id": "02752",
@@ -2570,7 +2978,7 @@
         "stop_date": "2024-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A35123A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -2898,7 +3306,34 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（96 筆）含現售附約 23 筆；本站現行顯示 28 筆。應補 1 筆、應移除 6 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [
+          "216311RZ1A39121A11Z10000000",
+          "216351RZ1A09723A11Z10000013",
+          "216361RZ1A38521A11Z10000000",
+          "216391RZ9B08923A11Z10000018"
+        ],
+        "remove": [
+          "216211RZ1A30021A11Z10000001",
+          "216211RZ1A35422A11Z10000000",
+          "216211RZ3D30921A11Z10000002",
+          "216321RZ1A35321A11Z10000000",
+          "216341RZ1A22722A11Z10000005",
+          "216351RZ1A09723A11Z10000012",
+          "216391RZ1A29921A11Z10000001",
+          "216391RZ9B08923A11Z10000015"
+        ],
+        "rekeyed_index_entry_from": "216131MA1A35123A11Z10000000"
+      }
     },
     {
       "product_id": "02754",
@@ -2911,7 +3346,7 @@
         "stop_date": "2024-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A37323A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -3228,7 +3663,34 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（87 筆）含現售附約 23 筆；本站現行顯示 26 筆。應補 2 筆、應移除 5 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [
+          "216311RZ1A08623A11Z10000014",
+          "216311RZ1A39121A11Z10000000",
+          "216351RZ1A09723A11Z10000013",
+          "216361RZ1A38521A11Z10000000",
+          "216391RZ9B08923A11Z10000018"
+        ],
+        "remove": [
+          "216211RZ1A35422A11Z10000000",
+          "216311RZ1A08623A11Z10000013",
+          "216321RZ1A35321A11Z10000000",
+          "216341RZ1A22722A11Z10000005",
+          "216351RZ1A09723A11Z10000012",
+          "216391RZ1A29921A11Z10000001",
+          "216391RZ9B08923A11Z10000015"
+        ],
+        "rekeyed_index_entry_from": "216131MA1A37323A11Z10000000"
+      }
     },
     {
       "product_id": "02756",
@@ -3241,7 +3703,7 @@
         "stop_date": "2024-09-30",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4G36323A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -3367,7 +3829,51 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（63 筆）含現售附約 4 筆；本站現行顯示 9 筆。應補 0 筆、應移除 5 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [
+          "216211RZ1A30021A11Z10000004",
+          "216211RZ1A32721A11Z10000004",
+          "216211RZ1A35422A11Z10000002",
+          "216211RZ3D30821A11Z10000005",
+          "216211RZ3D30921A11Z10000005",
+          "216311RZ1A08623A11Z10000014",
+          "216311RZ1A39121A11Z10000000",
+          "216321RZ1A02421A11Z10000012",
+          "216321RZ1A11623A11Z10000014",
+          "216321RZ1A20023A11Z10000010",
+          "216321RZ1A22323A11Z10000009",
+          "216321RZ1A26722A11Z10000005",
+          "216321RZ1A35321A11Z10000002",
+          "216341RZ1A02622A11Z10000020",
+          "216341RZ1A02722A11Z10000017",
+          "216341RZ1A13622A11Z10000008",
+          "216341RZ1A22722A11Z10000006",
+          "216351RZ1A09723A11Z10000013",
+          "216351RZ1A19623A11Z10000009",
+          "216361RZ1A38521A11Z10000000",
+          "216391RZ1A29921A11Z10000003",
+          "216391RZ9B08923A11Z10000018"
+        ],
+        "remove": [
+          "216211RZ1A35422A11Z10000000",
+          "216311RZ1A08623A11Z10000013",
+          "216321RZ1A35321A11Z10000000",
+          "216341RZ1A22722A11Z10000005",
+          "216351RZ1A09723A11Z10000012",
+          "216391RZ1A29921A11Z10000001",
+          "216391RZ9B08923A11Z10000015"
+        ],
+        "rekeyed_index_entry_from": "216131MA4G36323A11Z10000000"
+      }
     },
     {
       "product_id": "02759",
@@ -3380,7 +3886,7 @@
         "stop_date": "2024-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A36523B11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -3432,7 +3938,22 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（4 筆）含現售附約 1 筆；本站現行顯示 2 筆。應補 0 筆、應移除 1 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [],
+        "remove": [
+          "216341RZ1A24122B11Z10000005"
+        ],
+        "rekeyed_index_entry_from": "216131MA1A36523B11Z10000000"
+      }
     },
     {
       "product_id": "02772",
@@ -3445,7 +3966,7 @@
         "stop_date": "2023-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MV1A35623A11Z90000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -3574,7 +4095,24 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（10 筆）含現售附約 1 筆；本站現行顯示 9 筆。應補 0 筆、應移除 8 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [],
+        "remove": [
+          "216211RZ1A30021A11Z10000001",
+          "216341RZ1A35721A11Z10000000",
+          "216391RZ1A29921A11Z10000001"
+        ],
+        "rekeyed_index_entry_from": "216131MV1A35623A11Z90000003"
+      }
     },
     {
       "product_id": "02781",
@@ -3587,7 +4125,7 @@
         "stop_date": "2024-12-31",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216121MA2A36123A11Z10000000"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -3904,7 +4442,34 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（87 筆）含現售附約 23 筆；本站現行顯示 26 筆。應補 2 筆、應移除 5 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [
+          "216311RZ1A08623A11Z10000014",
+          "216311RZ1A39121A11Z10000000",
+          "216351RZ1A09723A11Z10000013",
+          "216361RZ1A38521A11Z10000000",
+          "216391RZ9B08923A11Z10000018"
+        ],
+        "remove": [
+          "216211RZ1A35422A11Z10000000",
+          "216311RZ1A08623A11Z10000013",
+          "216321RZ1A35321A11Z10000000",
+          "216341RZ1A22722A11Z10000005",
+          "216351RZ1A09723A11Z10000012",
+          "216391RZ1A29921A11Z10000001",
+          "216391RZ9B08923A11Z10000015"
+        ],
+        "rekeyed_index_entry_from": "216121MA2A36123A11Z10000000"
+      }
     },
     {
       "product_id": "26415",
@@ -3917,7 +4482,7 @@
         "stop_date": "未停售",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211MZ1A13121A11Z10000005"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -4031,7 +4596,25 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（41 筆）含現售附約 5 筆；本站現行顯示 8 筆。應補 0 筆、應移除 3 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [],
+        "remove": [
+          "216211RZ1A30021A11Z10000001",
+          "216211RZ1A37521A11Z10000000",
+          "216211RZ3D30921A11Z10000001",
+          "216341RZ1A02622A11Z10000017"
+        ],
+        "rekeyed_index_entry_from": null
+      }
     },
     {
       "product_id": "26450",
@@ -4044,7 +4627,7 @@
         "stop_date": "未停售",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216311MZ1A28722A11Z10000001"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -4127,7 +4710,23 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（6 筆）含現售附約 3 筆；本站現行顯示 5 筆。應補 0 筆、應移除 2 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [],
+        "remove": [
+          "216211RZ1A28922A11Z10000001",
+          "216361RZ1A28822A11Z10000001"
+        ],
+        "rekeyed_index_entry_from": null
+      }
     },
     {
       "product_id": "26614",
@@ -4140,7 +4739,7 @@
         "stop_date": "未停售",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4G36023A11Z10000001"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -4433,7 +5032,23 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（40 筆）含現售附約 24 筆；本站現行顯示 26 筆。應補 0 筆、應移除 2 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [],
+        "remove": [
+          "216211RZ1A35422A11Z10000000",
+          "216321RZ1A35321A11Z10000000"
+        ],
+        "rekeyed_index_entry_from": "216131MA4G36023A11Z10000000"
+      }
     },
     {
       "product_id": "26624",
@@ -4446,7 +5061,7 @@
         "stop_date": "未停售",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216391MZ9B10323A11Z10000016"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -4774,7 +5389,28 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（33 筆）含現售附約 22 筆；本站現行顯示 29 筆。應補 0 筆、應移除 7 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [],
+        "remove": [
+          "216211RZ1A30021A11Z10000000",
+          "216211RZ1A32721A11Z10000000",
+          "216211RZ1A35422A11Z10000000",
+          "216211RZ3D30821A11Z10000000",
+          "216211RZ3D30921A11Z10000000",
+          "216321RZ1A35321A11Z10000000",
+          "216391RZ1A29921A11Z10000000"
+        ],
+        "rekeyed_index_entry_from": null
+      }
     },
     {
       "product_id": "26651",
@@ -4787,7 +5423,7 @@
         "stop_date": "未停售",
         "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MZ1A18123A11Z10000009"
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "scope": "範圍3：現售主約之可附加現售附約連結",
       "tii": {
         "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
@@ -5080,7 +5716,23 @@
         "rider_links"
       ],
       "reason": "即時保發中心附加保險清單（40 筆）含現售附約 24 筆；本站現行顯示 26 筆。應補 0 筆、應移除 2 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
-      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-scope3-rider-links-live-batch45-2026-11-26.json）"
+      "handoff": "Grok 依使用者 2026-11-26 14:45 授權收回並已修正上線",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      },
+      "applied_links": {
+        "add": [],
+        "remove": [
+          "216211RZ1A35422A11Z10000000",
+          "216321RZ1A35321A11Z10000000"
+        ],
+        "rekeyed_index_entry_from": "216131MZ1A18123A11Z10000008"
+      }
     },
     {
       "product_id": "00006",
@@ -8150,5 +8802,14 @@
       },
       "date_basis": "即時保發中心「附加保險」清單之現售附約與本站現行連結完全一致"
     }
-  ]
+  ],
+  "integrated": {
+    "count": 24,
+    "commit": "6cd656a",
+    "followup_commit": "c3b20ac",
+    "pages_build": "built",
+    "live_verified_at": "2026-11-26T15:02:39+08:00",
+    "release": "sales-20261126-grok7",
+    "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+  }
 }

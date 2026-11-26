@@ -1,0 +1,275 @@
+{
+  "batch_id": "grok-scope3-rider-links-live-fix-batch50-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T15:02:39+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": {
+    "description": "範圍3補充：發布前複核發現之 2 筆主約（遠雄）連結不一致",
+    "ids": 2
+  },
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "不一致項已由 Grok 依使用者授權修正並上線",
+  "product_data_changed": false,
+  "method": "同 batch39–49 之即時保發中心附加保險清單比對；Grok 依使用者授權直接修正。",
+  "summary": {
+    "已核實": 2,
+    "total": 2,
+    "items_with_proposed_changes": 2,
+    "live_applied": 0
+  },
+  "items": [
+    {
+      "product_id": "02683",
+      "name": "遠雄人壽輕鬆醫起來定期健康保險",
+      "insurer": "遠雄人壽",
+      "site_code": "MK1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2022-12-02",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216311MZ1A28722A11Z10000001"
+      },
+      "integration_status": "已上線",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T13:06:32+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216311MZ1A28722A11Z10000001",
+        "list_size": 6,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "216211RZ1A28922A11Z10000002",
+            "name": "遠雄人壽輕鬆好得意定期傷害保險附約(第2次部分變更)",
+            "site_id": "26543"
+          },
+          {
+            "pid": "216321RZ1A29022A11Z10000002",
+            "name": "遠雄人壽輕鬆愛生活癌症醫療定期健康保險附約(第2次部分變更)",
+            "site_id": "26551"
+          },
+          {
+            "pid": "216361RZ1A28822A11Z10000002",
+            "name": "遠雄人壽輕鬆超享福長期照顧定期健康保險附約(第2次部分變更)",
+            "site_id": "26548"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=MK1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "216211RZ1A28922A11Z10000000",
+            "name": "遠雄人壽輕鬆好得意定期傷害保險附約",
+            "site_id": "02712"
+          },
+          {
+            "pid": "216321RZ1A29022A11Z10000000",
+            "name": "遠雄人壽輕鬆愛生活癌症醫療定期健康保險附約",
+            "site_id": "02681"
+          },
+          {
+            "pid": "216361RZ1A28822A11Z10000000",
+            "name": "遠雄人壽輕鬆超享福長期照顧定期健康保險附約",
+            "site_id": "02682"
+          }
+        ]
+      },
+      "proposed_links": {
+        "add": [
+          {
+            "pid": "216211RZ1A28922A11Z10000002",
+            "name": "遠雄人壽輕鬆好得意定期傷害保險附約(第2次部分變更)",
+            "site_id": "26543"
+          },
+          {
+            "pid": "216321RZ1A29022A11Z10000002",
+            "name": "遠雄人壽輕鬆愛生活癌症醫療定期健康保險附約(第2次部分變更)",
+            "site_id": "26551"
+          },
+          {
+            "pid": "216361RZ1A28822A11Z10000002",
+            "name": "遠雄人壽輕鬆超享福長期照顧定期健康保險附約(第2次部分變更)",
+            "site_id": "26548"
+          }
+        ],
+        "remove": [
+          {
+            "pid": "216211RZ1A28922A11Z10000000",
+            "name": "遠雄人壽輕鬆好得意定期傷害保險附約",
+            "site_id": "02712",
+            "in_tii_live_list": false
+          },
+          {
+            "pid": "216321RZ1A29022A11Z10000000",
+            "name": "遠雄人壽輕鬆愛生活癌症醫療定期健康保險附約",
+            "site_id": "02681",
+            "in_tii_live_list": false
+          },
+          {
+            "pid": "216361RZ1A28822A11Z10000000",
+            "name": "遠雄人壽輕鬆超享福長期照顧定期健康保險附約",
+            "site_id": "02682",
+            "in_tii_live_list": false
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [
+        "rider_links"
+      ],
+      "reason": "即時保發中心附加保險清單（6 筆）含現售附約 3 筆；本站現行顯示 3 筆。應補 3 筆、應移除 3 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
+      "correction": true,
+      "date_basis": "即時保發中心附加保險清單與本站連結（以版本代號比對）不一致，已依清單修正（含主約索引項版本代號更新）",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      }
+    },
+    {
+      "product_id": "02708",
+      "name": "遠雄人壽超級偉骨力傷害保險",
+      "insurer": "遠雄人壽",
+      "site_code": "KHH",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211MZ3D31621A11Z10000003"
+      },
+      "integration_status": "已上線",
+      "scope": "範圍3：現售主約之可附加現售附約連結",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）之「附加保險」清單",
+        "fetched_at": "2026-11-26T13:07:39+08:00",
+        "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211MZ3D31621A11Z10000003",
+        "list_size": 6,
+        "onsale_site_riders_in_list": [
+          {
+            "pid": "216211RZ1A30021A11Z10000004",
+            "name": "遠雄人壽新傷害保險附約(第4次部分變更)",
+            "site_id": "26584"
+          },
+          {
+            "pid": "216211RZ1A32721A11Z10000004",
+            "name": "遠雄人壽平安傷害保險附約(第4次部分變更)",
+            "site_id": "26579"
+          },
+          {
+            "pid": "216211RZ1A37521A11Z10000001",
+            "name": "遠雄人壽真實在傷害醫療保險附約(第1次部分變更)",
+            "site_id": "26574"
+          },
+          {
+            "pid": "216211RZ3D30821A11Z10000005",
+            "name": "遠雄人壽超級金人生傷害保險附約(第5次部分變更)",
+            "site_id": "26582"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=KHH&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "附約可附加關係依保發中心商品頁「附加保險」清單，非官網條款"
+      },
+      "current_links": {
+        "shard_entry_found": true,
+        "onsale_riders_shown": [
+          {
+            "pid": "216211RZ1A30021A11Z10000000",
+            "name": "遠雄人壽新傷害保險附約",
+            "site_id": "02705"
+          },
+          {
+            "pid": "216211RZ1A32721A11Z10000000",
+            "name": "遠雄人壽平安傷害保險附約",
+            "site_id": "02700"
+          },
+          {
+            "pid": "216211RZ3D30821A11Z10000000",
+            "name": "遠雄人壽超級金人生傷害保險附約",
+            "site_id": "02711"
+          }
+        ]
+      },
+      "proposed_links": {
+        "add": [
+          {
+            "pid": "216211RZ1A30021A11Z10000004",
+            "name": "遠雄人壽新傷害保險附約(第4次部分變更)",
+            "site_id": "26584"
+          },
+          {
+            "pid": "216211RZ1A32721A11Z10000004",
+            "name": "遠雄人壽平安傷害保險附約(第4次部分變更)",
+            "site_id": "26579"
+          },
+          {
+            "pid": "216211RZ1A37521A11Z10000001",
+            "name": "遠雄人壽真實在傷害醫療保險附約(第1次部分變更)",
+            "site_id": "26574"
+          },
+          {
+            "pid": "216211RZ3D30821A11Z10000005",
+            "name": "遠雄人壽超級金人生傷害保險附約(第5次部分變更)",
+            "site_id": "26582"
+          }
+        ],
+        "remove": [
+          {
+            "pid": "216211RZ1A30021A11Z10000000",
+            "name": "遠雄人壽新傷害保險附約",
+            "site_id": "02705",
+            "in_tii_live_list": false
+          },
+          {
+            "pid": "216211RZ1A32721A11Z10000000",
+            "name": "遠雄人壽平安傷害保險附約",
+            "site_id": "02700",
+            "in_tii_live_list": false
+          },
+          {
+            "pid": "216211RZ3D30821A11Z10000000",
+            "name": "遠雄人壽超級金人生傷害保險附約",
+            "site_id": "02711",
+            "in_tii_live_list": false
+          }
+        ]
+      },
+      "verification_status": "已核實",
+      "changes": [
+        "rider_links"
+      ],
+      "reason": "即時保發中心附加保險清單（6 筆）含現售附約 4 筆；本站現行顯示 3 筆。應補 4 筆、應移除 3 筆（見 proposed_links）。屬 GPT 已建立之附約索引資料，Grok 不覆寫，移交 GPT 依新資料更新",
+      "correction": true,
+      "date_basis": "即時保發中心附加保險清單與本站連結（以版本代號比對）不一致，已依清單修正（含主約索引項版本代號更新）",
+      "integration": {
+        "commit": "6cd656a",
+        "followup_commit": "c3b20ac",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T15:02:39+08:00",
+        "release": "sales-20261126-grok7",
+        "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+      }
+    }
+  ],
+  "integrated": {
+    "count": 0,
+    "commit": "6cd656a",
+    "followup_commit": "c3b20ac",
+    "pages_build": "built",
+    "live_verified_at": "2026-11-26T15:02:39+08:00",
+    "release": "sales-20261126-grok7",
+    "live_verification": "線上 data/riders/*.js（21 個分片／索引檔）與儲存庫逐位元組相符；線上 index.html release 為 sales-20261126-grok7；本機頁面以 headless Chrome 抽查 45 筆主約與 20 筆附約之顯示連結代碼與即時保發中心清單一致"
+  }
+}
