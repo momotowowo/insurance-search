@@ -1,0 +1,3081 @@
+{
+  "batch_id": "grok-scope2-onsale-live-refresh-batch61-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T15:22:22+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": {
+    "description": "範圍2：現售品項以即時保發中心詳細頁覆核",
+    "ids": 60
+  },
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": "以 2026-11-26 即時保發中心詳細頁核對本站連結版本之銷售日、停售日與狀態；一致者為一致性複核，不一致且無官網明文者移交 GPT，不改狀態。未對驗證碼做 OCR、未執行 submit。",
+  "summary": {
+    "已核實": 60,
+    "total": 60,
+    "items_with_proposed_changes": 0
+  },
+  "items": [
+    {
+      "product_id": "12859",
+      "name": "凱基人壽天天開鑫利率變動型終身保險－定期給付型(第2次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205121MA4B01623A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205121MA4B01623A11Z10000002",
+          "name": "凱基人壽天天開鑫利率變動型終身保險－定期給付型(第2次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "中壽商一字第1113000219號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T14:08:05+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205121MA4B01623A11Z10000002",
+            "name": "凱基人壽天天開鑫利率變動型終身保險－定期給付型(第2次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "中壽商一字第1113000219號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T14:08:05+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/life-refund/clause/whole-life-with-coupon/apktpl.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12877",
+      "name": "凱基人壽e同守護五年定期壽險(第5次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205136MZ1A00122A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205136MZ1A00122A11Z10000005",
+          "name": "凱基人壽e同守護五年定期壽險(第5次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "中壽商一字第1100701002號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T14:07:56+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205136MZ1A00122A11Z10000005",
+            "name": "凱基人壽e同守護五年定期壽險(第5次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "中壽商一字第1100701002號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T14:07:56+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/life-refund/clause/term-life/apjgpl.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12886",
+      "name": "凱基人壽永享樂活住院醫療定期保險(第6次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205311MZ1B00522A11Z10000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205311MZ1B00522A11Z10000006",
+          "name": "凱基人壽永享樂活住院醫療定期保險(第6次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13,113/11/12",
+          "filing_no": "中壽商二字第1100917001號函備查,金管保壽字第11404900043號函,金管保壽字第1130432500號函",
+          "at": "2026-11-26T14:10:14+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205311MZ1B00522A11Z10000006",
+            "name": "凱基人壽永享樂活住院醫療定期保險(第6次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13,113/11/12",
+            "filing_no": "中壽商二字第1100917001號函備查,金管保壽字第11404900043號函,金管保壽字第1130432500號函",
+            "at": "2026-11-26T14:10:14+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/health/contract/health/majidb.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12946",
+      "name": "凱基人壽享順心長期照顧終身健康保險(第1次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-10-12",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205361MZ1A00123A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205361MZ1A00123A11Z10000001",
+          "name": "凱基人壽享順心長期照顧終身健康保險(第1次部分變更)",
+          "sale": "114/10/12",
+          "stop": "未停售",
+          "filing_date": "114/02/13,113/11/12",
+          "filing_no": "凱壽商二字第1133000163號函備查,金管保壽字第11404900043號函,金管保壽字第1130432500號函",
+          "at": "2026-11-26T14:22:56+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205361MZ1A00123A11Z10000001",
+            "name": "凱基人壽享順心長期照顧終身健康保險(第1次部分變更)",
+            "sale": "114/10/12",
+            "stop": "未停售",
+            "filing_date": "114/02/13,113/11/12",
+            "filing_no": "凱壽商二字第1133000163號函備查,金管保壽字第11404900043號函,金管保壽字第1130432500號函",
+            "at": "2026-11-26T14:22:56+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/health/contract/health/mahuha.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-10-12",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12953",
+      "name": "凱基人壽e國民小額終身壽險(第8次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205131MZ1A00923A11D10000008"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205131MZ1A00923A11D10000008",
+          "name": "凱基人壽e國民小額終身壽險(第8次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/07/29",
+          "filing_no": "中壽商一字第1071224001號函備查,金管保財字第11404177141號令",
+          "at": "2026-11-26T14:07:57+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205131MZ1A00923A11D10000008",
+            "name": "凱基人壽e國民小額終身壽險(第8次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/07/29",
+            "filing_no": "中壽商一字第1071224001號函備查,金管保財字第11404177141號令",
+            "at": "2026-11-26T14:07:57+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/life-refund/clause/whole-life-protection/fpenpl.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12954",
+      "name": "凱基人壽愛分享終身保險－定期給付型(第1次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205121MZ1A01423A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205121MZ1A01423A11Z10000001",
+          "name": "凱基人壽愛分享終身保險－定期給付型(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "凱壽商一字第1143000035號函備查,金管保壽字第11404321761號令",
+          "at": "2026-11-26T14:22:58+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205121MZ1A01423A11Z10000001",
+            "name": "凱基人壽愛分享終身保險－定期給付型(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "凱壽商一字第1143000035號函備查,金管保壽字第11404321761號令",
+            "at": "2026-11-26T14:22:58+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/life-refund/clause/whole-life-with-coupon/apnwpl.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12955",
+      "name": "凱基人壽全民小額終身壽險(第8次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205131MZ1A00823A11D10000008"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205131MZ1A00823A11D10000008",
+          "name": "凱基人壽全民小額終身壽險(第8次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/07/29",
+          "filing_no": "中壽商一字第1060327002號函備查,金管保財字第11404177141號令",
+          "at": "2026-11-26T14:08:00+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205131MZ1A00823A11D10000008",
+            "name": "凱基人壽全民小額終身壽險(第8次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/07/29",
+            "filing_no": "中壽商一字第1060327002號函備查,金管保財字第11404177141號令",
+            "at": "2026-11-26T14:08:00+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/life-refund/clause/whole-life-protection/ehjipl.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12960",
+      "name": "凱基人壽公教小額終身壽險(第7次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205131MZ1A01123A11D10000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205131MZ1A01123A11D10000007",
+          "name": "凱基人壽公教小額終身壽險(第7次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/07/29",
+          "filing_no": "中壽商一字第1080801001號函備查,金管保財字第11404177141號令",
+          "at": "2026-11-26T14:08:02+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205131MZ1A01123A11D10000007",
+            "name": "凱基人壽公教小額終身壽險(第7次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/07/29",
+            "filing_no": "中壽商一字第1080801001號函備查,金管保財字第11404177141號令",
+            "at": "2026-11-26T14:08:02+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/life-refund/clause/whole-life-protection/epfppl.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12962",
+      "name": "凱基人壽意百分終身傷害暨兒童傷害失能保險(第1次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-04-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205211MZ1A01123A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205211MZ1A01123A11Z10000001",
+          "name": "凱基人壽意百分終身傷害暨兒童傷害失能保險(第1次部分變更)",
+          "sale": "115/04/01",
+          "stop": "未停售",
+          "filing_date": "115/04/01",
+          "filing_no": "凱壽商二字第1143000156號函備查,凱壽商二字第1153000044號函備查",
+          "at": "2026-11-26T15:22:05+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205211MZ1A01123A11Z10000001",
+            "name": "凱基人壽意百分終身傷害暨兒童傷害失能保險(第1次部分變更)",
+            "sale": "115/04/01",
+            "stop": "未停售",
+            "filing_date": "115/04/01",
+            "filing_no": "凱壽商二字第1143000156號函備查,凱壽商二字第1153000044號函備查",
+            "at": "2026-11-26T15:22:05+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/health/contract/accident/aaipa.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-04-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12963",
+      "name": "凱基人壽享放心長期照顧終身健康保險(第4次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-05-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205361MZ6D00123A11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205361MZ6D00123A11Z10000004",
+          "name": "凱基人壽享放心長期照顧終身健康保險(第4次部分變更)",
+          "sale": "115/05/01",
+          "stop": "未停售",
+          "filing_date": "115/05/01",
+          "filing_no": "中壽商二字第1110101001號函備查,凱壽商二字第1153000087號函備查",
+          "at": "2026-11-26T14:07:59+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205361MZ6D00123A11Z10000004",
+            "name": "凱基人壽享放心長期照顧終身健康保險(第4次部分變更)",
+            "sale": "115/05/01",
+            "stop": "未停售",
+            "filing_date": "115/05/01",
+            "filing_no": "中壽商二字第1110101001號函備查,凱壽商二字第1153000087號函備查",
+            "at": "2026-11-26T14:07:59+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/health/contract/health/majiyb.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-05-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12964",
+      "name": "凱基人壽享安心長期照顧終身保險(第12次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-05-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205361MZ6G00123A11Z10000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205361MZ6G00123A11Z10000012",
+          "name": "凱基人壽享安心長期照顧終身保險(第12次部分變更)",
+          "sale": "115/05/01",
+          "stop": "未停售",
+          "filing_date": "115/05/01",
+          "filing_no": "中壽商二字第1040518006號函備查,凱壽商二字第1153000086號函備查",
+          "at": "2026-11-26T15:21:00+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205361MZ6G00123A11Z10000012",
+            "name": "凱基人壽享安心長期照顧終身保險(第12次部分變更)",
+            "sale": "115/05/01",
+            "stop": "未停售",
+            "filing_date": "115/05/01",
+            "filing_no": "中壽商二字第1040518006號函備查,凱壽商二字第1153000086號函備查",
+            "at": "2026-11-26T15:21:00+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/health/contract/health/legohg.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-05-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12965",
+      "name": "凱基人壽一生傳富外幣變額壽險(第1次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205131MV1A04723B11C90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205131MV1A04723B11C90000001",
+          "name": "凱基人壽一生傳富外幣變額壽險(第1次部分變更)",
+          "sale": "115/06/25",
+          "stop": "未停售",
+          "filing_date": "115/06/25",
+          "filing_no": "凱壽商二字第1143000172號函備查,凱壽商二字第1153000140號函備查",
+          "at": "2026-11-26T15:19:13+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205131MV1A04723B11C90000001",
+            "name": "凱基人壽一生傳富外幣變額壽險(第1次部分變更)",
+            "sale": "115/06/25",
+            "stop": "未停售",
+            "filing_date": "115/06/25",
+            "filing_no": "凱壽商二字第1143000172號函備查,凱壽商二字第1153000140號函備查",
+            "at": "2026-11-26T15:19:13+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/investment/clause/ilpl/abdpsil.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12966",
+      "name": "凱基人壽鑫收益變額年金保險（112）(第8次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205421MV1A03723A11C90000008"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205421MV1A03723A11C90000008",
+          "name": "凱基人壽鑫收益變額年金保險（112）(第8次部分變更)",
+          "sale": "115/06/25",
+          "stop": "未停售",
+          "filing_date": "115/06/25",
+          "filing_no": "中壽商二字第1101114002號函備查,凱壽商二字第1153000137號函備查",
+          "at": "2026-11-26T15:19:12+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205421MV1A03723A11C90000008",
+            "name": "凱基人壽鑫收益變額年金保險（112）(第8次部分變更)",
+            "sale": "115/06/25",
+            "stop": "未停售",
+            "filing_date": "115/06/25",
+            "filing_no": "中壽商二字第1101114002號函備查,凱壽商二字第1153000137號函備查",
+            "at": "2026-11-26T15:19:12+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/investment/clause/ilpa/bncbsva.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12967",
+      "name": "凱基人壽招財進保外幣變額壽險(第2次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205131MV1A04323B11C90000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205131MV1A04323B11C90000002",
+          "name": "凱基人壽招財進保外幣變額壽險(第2次部分變更)",
+          "sale": "115/06/25",
+          "stop": "未停售",
+          "filing_date": "115/06/25",
+          "filing_no": "凱壽商二字第1143000075號函備查,凱壽商二字第1153000130號函備查",
+          "at": "2026-11-26T15:19:15+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205131MV1A04323B11C90000002",
+            "name": "凱基人壽招財進保外幣變額壽險(第2次部分變更)",
+            "sale": "115/06/25",
+            "stop": "未停售",
+            "filing_date": "115/06/25",
+            "filing_no": "凱壽商二字第1143000075號函備查,凱壽商二字第1153000130號函備查",
+            "at": "2026-11-26T15:19:15+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/investment/clause/ilpl/aadhsil.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12968",
+      "name": "凱基人壽一生傳富外幣變額年金保險(第1次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205421MV1A05723B11C90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205421MV1A05723B11C90000001",
+          "name": "凱基人壽一生傳富外幣變額年金保險(第1次部分變更)",
+          "sale": "115/06/25",
+          "stop": "未停售",
+          "filing_date": "115/06/25",
+          "filing_no": "凱壽商二字第1143000174號函備查,凱壽商二字第1153000142號函備查",
+          "at": "2026-11-26T15:19:16+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205421MV1A05723B11C90000001",
+            "name": "凱基人壽一生傳富外幣變額年金保險(第1次部分變更)",
+            "sale": "115/06/25",
+            "stop": "未停售",
+            "filing_date": "115/06/25",
+            "filing_no": "凱壽商二字第1143000174號函備查,凱壽商二字第1153000142號函備查",
+            "at": "2026-11-26T15:19:16+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/investment/clause/ilpa/andrsva.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12969",
+      "name": "凱基人壽鑫收益外幣變額壽險（112）(第8次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205131MV1A03323B11C90000008"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205131MV1A03323B11C90000008",
+          "name": "凱基人壽鑫收益外幣變額壽險（112）(第8次部分變更)",
+          "sale": "115/06/25",
+          "stop": "未停售",
+          "filing_date": "115/06/25",
+          "filing_no": "中壽商二字第1110430001號函備查,凱壽商二字第1153000136號函備查",
+          "at": "2026-11-26T15:19:07+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205131MV1A03323B11C90000008",
+            "name": "凱基人壽鑫收益外幣變額壽險（112）(第8次部分變更)",
+            "sale": "115/06/25",
+            "stop": "未停售",
+            "filing_date": "115/06/25",
+            "filing_no": "中壽商二字第1110430001號函備查,凱壽商二字第1153000136號函備查",
+            "at": "2026-11-26T15:19:07+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/investment/clause/ilpl/bacusil.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12970",
+      "name": "凱基人壽一生傳富變額壽險(第1次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205131MV1A04623A11C90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205131MV1A04623A11C90000001",
+          "name": "凱基人壽一生傳富變額壽險(第1次部分變更)",
+          "sale": "115/06/25",
+          "stop": "未停售",
+          "filing_date": "115/06/25",
+          "filing_no": "凱壽商二字第1143000171號函備查,凱壽商二字第1153000139號函備查",
+          "at": "2026-11-26T15:19:18+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205131MV1A04623A11C90000001",
+            "name": "凱基人壽一生傳富變額壽險(第1次部分變更)",
+            "sale": "115/06/25",
+            "stop": "未停售",
+            "filing_date": "115/06/25",
+            "filing_no": "凱壽商二字第1143000171號函備查,凱壽商二字第1153000139號函備查",
+            "at": "2026-11-26T15:19:18+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/investment/clause/ilpl/abdosil.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12971",
+      "name": "凱基人壽招財進保外幣變額年金保險(第2次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205421MV1A05323B11C90000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205421MV1A05323B11C90000002",
+          "name": "凱基人壽招財進保外幣變額年金保險(第2次部分變更)",
+          "sale": "115/06/25",
+          "stop": "未停售",
+          "filing_date": "115/06/25",
+          "filing_no": "凱壽商二字第1143000077號函備查,凱壽商二字第1153000134號函備查",
+          "at": "2026-11-26T15:19:19+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205421MV1A05323B11C90000002",
+            "name": "凱基人壽招財進保外幣變額年金保險(第2次部分變更)",
+            "sale": "115/06/25",
+            "stop": "未停售",
+            "filing_date": "115/06/25",
+            "filing_no": "凱壽商二字第1143000077號函備查,凱壽商二字第1153000134號函備查",
+            "at": "2026-11-26T15:19:19+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/investment/clause/ilpa/andjsva.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12972",
+      "name": "凱基人壽世紀贏家變額壽險(第3次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205131MV1A03923A11C90000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205131MV1A03923A11C90000003",
+          "name": "凱基人壽世紀贏家變額壽險(第3次部分變更)",
+          "sale": "115/06/25",
+          "stop": "未停售",
+          "filing_date": "115/06/25",
+          "filing_no": "凱壽商三字第1143000001號函備查,凱壽商二字第1153000125號函備查",
+          "at": "2026-11-26T15:19:21+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205131MV1A03923A11C90000003",
+            "name": "凱基人壽世紀贏家變額壽險(第3次部分變更)",
+            "sale": "115/06/25",
+            "stop": "未停售",
+            "filing_date": "115/06/25",
+            "filing_no": "凱壽商三字第1143000001號函備查,凱壽商二字第1153000125號函備查",
+            "at": "2026-11-26T15:19:21+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/investment/clause/ilpl/aadasil.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12973",
+      "name": "凱基人壽世紀贏家外幣變額壽險(第3次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205131MV1A04023B11C90000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205131MV1A04023B11C90000003",
+          "name": "凱基人壽世紀贏家外幣變額壽險(第3次部分變更)",
+          "sale": "115/06/25",
+          "stop": "未停售",
+          "filing_date": "115/06/25",
+          "filing_no": "凱壽商三字第1143000002號函備查,凱壽商二字第1153000126號函備查",
+          "at": "2026-11-26T15:19:22+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205131MV1A04023B11C90000003",
+            "name": "凱基人壽世紀贏家外幣變額壽險(第3次部分變更)",
+            "sale": "115/06/25",
+            "stop": "未停售",
+            "filing_date": "115/06/25",
+            "filing_no": "凱壽商三字第1143000002號函備查,凱壽商二字第1153000126號函備查",
+            "at": "2026-11-26T15:19:22+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/investment/clause/ilpl/aadbsil.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12974",
+      "name": "凱基人壽一生傳富變額年金保險(第1次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205421MV1A05623A11C90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205421MV1A05623A11C90000001",
+          "name": "凱基人壽一生傳富變額年金保險(第1次部分變更)",
+          "sale": "115/06/25",
+          "stop": "未停售",
+          "filing_date": "115/06/25",
+          "filing_no": "凱壽商二字第1143000173號函備查,凱壽商二字第1153000141號函備查",
+          "at": "2026-11-26T15:19:24+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205421MV1A05623A11C90000001",
+            "name": "凱基人壽一生傳富變額年金保險(第1次部分變更)",
+            "sale": "115/06/25",
+            "stop": "未停售",
+            "filing_date": "115/06/25",
+            "filing_no": "凱壽商二字第1143000173號函備查,凱壽商二字第1153000141號函備查",
+            "at": "2026-11-26T15:19:24+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/investment/clause/ilpa/andqsva.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12975",
+      "name": "凱基人壽鑫收益變額壽險（112）(第7次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205131MV1A03823A11C90000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205131MV1A03823A11C90000007",
+          "name": "凱基人壽鑫收益變額壽險（112）(第7次部分變更)",
+          "sale": "115/06/25",
+          "stop": "未停售",
+          "filing_date": "115/06/25",
+          "filing_no": "中壽商二字第1113000146號函備查,凱壽商二字第1153000135號函備查",
+          "at": "2026-11-26T15:19:10+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205131MV1A03823A11C90000007",
+            "name": "凱基人壽鑫收益變額壽險（112）(第7次部分變更)",
+            "sale": "115/06/25",
+            "stop": "未停售",
+            "filing_date": "115/06/25",
+            "filing_no": "中壽商二字第1113000146號函備查,凱壽商二字第1153000135號函備查",
+            "at": "2026-11-26T15:19:10+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/investment/clause/ilpl/bacwsil.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12976",
+      "name": "凱基人壽招財進保變額壽險(第2次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205131MV1A04223A11C90000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205131MV1A04223A11C90000002",
+          "name": "凱基人壽招財進保變額壽險(第2次部分變更)",
+          "sale": "115/06/25",
+          "stop": "未停售",
+          "filing_date": "115/06/25",
+          "filing_no": "凱壽商二字第1143000074號函備查,凱壽商二字第1153000129號函備查",
+          "at": "2026-11-26T15:19:25+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205131MV1A04223A11C90000002",
+            "name": "凱基人壽招財進保變額壽險(第2次部分變更)",
+            "sale": "115/06/25",
+            "stop": "未停售",
+            "filing_date": "115/06/25",
+            "filing_no": "凱壽商二字第1143000074號函備查,凱壽商二字第1153000129號函備查",
+            "at": "2026-11-26T15:19:25+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/investment/clause/ilpl/aadgsil.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12977",
+      "name": "凱基人壽招財進保變額年金保險(第2次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205421MV1A05223A11C90000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205421MV1A05223A11C90000002",
+          "name": "凱基人壽招財進保變額年金保險(第2次部分變更)",
+          "sale": "115/06/25",
+          "stop": "未停售",
+          "filing_date": "115/06/25",
+          "filing_no": "凱壽商二字第1143000076號函備查,凱壽商二字第1153000131號函備查",
+          "at": "2026-11-26T15:19:27+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205421MV1A05223A11C90000002",
+            "name": "凱基人壽招財進保變額年金保險(第2次部分變更)",
+            "sale": "115/06/25",
+            "stop": "未停售",
+            "filing_date": "115/06/25",
+            "filing_no": "凱壽商二字第1143000076號函備查,凱壽商二字第1153000131號函備查",
+            "at": "2026-11-26T15:19:27+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/investment/clause/ilpa/andisva.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12978",
+      "name": "凱基人壽世紀贏家外幣變額年金保險(第3次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205421MV1A05023B11C90000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205421MV1A05023B11C90000003",
+          "name": "凱基人壽世紀贏家外幣變額年金保險(第3次部分變更)",
+          "sale": "115/06/25",
+          "stop": "未停售",
+          "filing_date": "115/06/25",
+          "filing_no": "凱壽商三字第1143000004號函備查,凱壽商二字第1153000128號函備查",
+          "at": "2026-11-26T15:19:00+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205421MV1A05023B11C90000003",
+            "name": "凱基人壽世紀贏家外幣變額年金保險(第3次部分變更)",
+            "sale": "115/06/25",
+            "stop": "未停售",
+            "filing_date": "115/06/25",
+            "filing_no": "凱壽商三字第1143000004號函備查,凱壽商二字第1153000128號函備查",
+            "at": "2026-11-26T15:19:00+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/investment/clause/ilpa/anddsva.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12979",
+      "name": "凱基人壽世紀贏家變額年金保險(第3次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205421MV1A04923A11C90000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205421MV1A04923A11C90000003",
+          "name": "凱基人壽世紀贏家變額年金保險(第3次部分變更)",
+          "sale": "115/06/25",
+          "stop": "未停售",
+          "filing_date": "115/06/25",
+          "filing_no": "凱壽商三字第1143000003號函備查,凱壽商二字第1153000127號函備查",
+          "at": "2026-11-26T15:19:03+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205421MV1A04923A11C90000003",
+            "name": "凱基人壽世紀贏家變額年金保險(第3次部分變更)",
+            "sale": "115/06/25",
+            "stop": "未停售",
+            "filing_date": "115/06/25",
+            "filing_no": "凱壽商三字第1143000003號函備查,凱壽商二字第1153000127號函備查",
+            "at": "2026-11-26T15:19:03+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/investment/clause/ilpa/andcsva.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "12980",
+      "name": "凱基人壽鑫收益外幣變額年金保險（112）(第9次部分變更)",
+      "insurer": "凱基人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=205421MV1A04123B11C90000009"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "205421MV1A04123B11C90000009",
+          "name": "凱基人壽鑫收益外幣變額年金保險（112）(第9次部分變更)",
+          "sale": "115/06/25",
+          "stop": "未停售",
+          "filing_date": "115/06/25",
+          "filing_no": "中壽商二字第1110430002號函備查,凱壽商二字第1153000138號函備查",
+          "at": "2026-11-26T15:19:09+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "205421MV1A04123B11C90000009",
+            "name": "凱基人壽鑫收益外幣變額年金保險（112）(第9次部分變更)",
+            "sale": "115/06/25",
+            "stop": "未停售",
+            "filing_date": "115/06/25",
+            "filing_no": "中壽商二字第1110430002號函備查,凱壽商二字第1153000138號函備查",
+            "at": "2026-11-26T15:19:09+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.kgilife.com.tw/zh-tw/-/media/files/kgil/product-overview/personal/investment/clause/ilpa/bncvsva.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00516",
+      "name": "南山人壽大樂選利率變動型還本保險(定期給付型)",
+      "insurer": "南山人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-12-21",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=206121MA4B30122A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "206121MA4B30122A11Z10000000",
+          "name": "南山人壽大樂選利率變動型還本保險（定期給付型）",
+          "sale": "113/12/21",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "南壽研字第1130033217號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T14:10:25+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "206121MA4B30122A11Z10000000",
+            "name": "南山人壽大樂選利率變動型還本保險（定期給付型）",
+            "sale": "113/12/21",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "南壽研字第1130033217號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T14:10:25+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.nanshanlife.com.tw/nanshanlife/nanshanlife-info/Products/rule/ARTE.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-12-21",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00535",
+      "name": "南山人壽樂享百歲美元利率變動型還本終身保險（定期給付型）",
+      "insurer": "南山人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-19",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=206121MA4B30223B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "206121MA4B30223B11Z10000000",
+          "name": "南山人壽樂享百歲美元利率變動型還本終身保險（定期給付型）",
+          "sale": "115/06/19",
+          "stop": "未停售",
+          "filing_date": "115/06/19",
+          "filing_no": "南壽研字第1150000095號函備查",
+          "at": "2026-11-26T15:19:34+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "206121MA4B30223B11Z10000000",
+            "name": "南山人壽樂享百歲美元利率變動型還本終身保險（定期給付型）",
+            "sale": "115/06/19",
+            "stop": "未停售",
+            "filing_date": "115/06/19",
+            "filing_no": "南壽研字第1150000095號函備查",
+            "at": "2026-11-26T15:19:34+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.nanshanlife.com.tw/nanshanlife/nanshanlife-info/Products/rule/ARUE3.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-19",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00550",
+      "name": "南山人壽相守溢百長期照顧終身保險",
+      "insurer": "南山人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-19",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=206361MZ6B30323A11E10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "206361MZ6B30323A11E10000000",
+          "name": "南山人壽相守溢百長期照顧終身保險",
+          "sale": "115/06/19",
+          "stop": "未停售",
+          "filing_date": "115/06/19",
+          "filing_no": "南壽研字第1150000081號函備查",
+          "at": "2026-11-26T15:19:36+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "206361MZ6B30323A11E10000000",
+            "name": "南山人壽相守溢百長期照顧終身保險",
+            "sale": "115/06/19",
+            "stop": "未停售",
+            "filing_date": "115/06/19",
+            "filing_no": "南壽研字第1150000081號函備查",
+            "at": "2026-11-26T15:19:36+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.nanshanlife.com.tw/nanshanlife/nanshanlife-info/Products/rule/HRLTC3.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-19",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00615",
+      "name": "南山人壽御利臻鑫美元養老保險（定期給付型）",
+      "insurer": "南山人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-10-17",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=206121MZ1A30922B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "206121MZ1A30922B11Z10000000",
+          "name": "南山人壽御利臻鑫美元養老保險（定期給付型）",
+          "sale": "115/10/17",
+          "stop": "未停售",
+          "filing_date": "115/10/17",
+          "filing_no": "南壽研字第1150000112號函備查",
+          "at": "2026-11-26T15:05:33+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "206121MZ1A30922B11Z10000000",
+            "name": "南山人壽御利臻鑫美元養老保險（定期給付型）",
+            "sale": "115/10/17",
+            "stop": "未停售",
+            "filing_date": "115/10/17",
+            "filing_no": "南壽研字第1150000112號函備查",
+            "at": "2026-11-26T15:05:33+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.nanshanlife.com.tw/nanshanlife/nanshanlife-info/Products/rule/U1P10EV.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-10-17",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00628",
+      "name": "南山人壽美利聚鑫美元利率變動型養老保險（定期給付型）",
+      "insurer": "南山人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-19",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=206121MA1A30622B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "206121MA1A30622B11Z10000000",
+          "name": "南山人壽美利聚鑫美元利率變動型養老保險（定期給付型）",
+          "sale": "115/06/19",
+          "stop": "未停售",
+          "filing_date": "115/06/19",
+          "filing_no": "南壽研字第1150000097號函備查",
+          "at": "2026-11-26T15:19:37+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "206121MA1A30622B11Z10000000",
+            "name": "南山人壽美利聚鑫美元利率變動型養老保險（定期給付型）",
+            "sale": "115/06/19",
+            "stop": "未停售",
+            "filing_date": "115/06/19",
+            "filing_no": "南壽研字第1150000097號函備查",
+            "at": "2026-11-26T15:19:37+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.nanshanlife.com.tw/nanshanlife/nanshanlife-info/Products/rule/2UI12E.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-19",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00629",
+      "name": "南山人壽美利臻鑫美元養老保險（定期給付型）",
+      "insurer": "南山人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-04-11",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=206121MZ1A30622B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "206121MZ1A30622B11Z10000000",
+          "name": "南山人壽美利臻鑫美元養老保險（定期給付型）",
+          "sale": "115/04/11",
+          "stop": "未停售",
+          "filing_date": "115/04/11",
+          "filing_no": "南壽研字第1150000064號函備查",
+          "at": "2026-11-26T15:21:46+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "206121MZ1A30622B11Z10000000",
+            "name": "南山人壽美利臻鑫美元養老保險（定期給付型）",
+            "sale": "115/04/11",
+            "stop": "未停售",
+            "filing_date": "115/04/11",
+            "filing_no": "南壽研字第1150000064號函備查",
+            "at": "2026-11-26T15:21:46+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.nanshanlife.com.tw/nanshanlife/nanshanlife-info/Products/rule/UXP12E.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-04-11",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00630",
+      "name": "南山人壽美好十光美元養老保險（定期給付型）",
+      "insurer": "南山人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-05-23",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=206121MZ1A30722B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "206121MZ1A30722B11Z10000000",
+          "name": "南山人壽美好十光美元養老保險（定期給付型）",
+          "sale": "115/05/23",
+          "stop": "未停售",
+          "filing_date": "115/05/23",
+          "filing_no": "南壽研字第1150000076號函備查",
+          "at": "2026-11-26T15:20:26+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "206121MZ1A30722B11Z10000000",
+            "name": "南山人壽美好十光美元養老保險（定期給付型）",
+            "sale": "115/05/23",
+            "stop": "未停售",
+            "filing_date": "115/05/23",
+            "filing_no": "南壽研字第1150000076號函備查",
+            "at": "2026-11-26T15:20:26+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.nanshanlife.com.tw/nanshanlife/nanshanlife-info/Products/rule/U1P10E3.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-05-23",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "14950",
+      "name": "南山人壽珍利發利率變動型增額終身保險（定期給付型）(第3次部分變更)",
+      "insurer": "南山人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-12-21",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=206131MA4G30323A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "206131MA4G30323A11Z10000003",
+          "name": "南山人壽珍利發利率變動型增額終身保險（定期給付型）(第3次部分變更)",
+          "sale": "113/12/21",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(109)南壽研字第177號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T14:22:59+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "206131MA4G30323A11Z10000003",
+            "name": "南山人壽珍利發利率變動型增額終身保險（定期給付型）(第3次部分變更)",
+            "sale": "113/12/21",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(109)南壽研字第177號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T14:22:59+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.nanshanlife.com.tw/nanshanlife/nanshanlife-info/Products/rule/6ATL.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-12-21",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "15035",
+      "name": "南山人壽實健溢百住院醫療終身保險(第1次部分變更)",
+      "insurer": "南山人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-06-19",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=206311MZ1B30323A11E10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "206311MZ1B30323A11E10000001",
+          "name": "南山人壽實健溢百住院醫療終身保險(第1次部分變更)",
+          "sale": "115/06/19",
+          "stop": "未停售",
+          "filing_date": "115/06/19",
+          "filing_no": "南壽研字第1150000062號函備查,南壽研字第1150000104號函備查",
+          "at": "2026-11-26T15:19:39+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "206311MZ1B30323A11E10000001",
+            "name": "南山人壽實健溢百住院醫療終身保險(第1次部分變更)",
+            "sale": "115/06/19",
+            "stop": "未停售",
+            "filing_date": "115/06/19",
+            "filing_no": "南壽研字第1150000062號函備查,南壽研字第1150000104號函備查",
+            "at": "2026-11-26T15:19:39+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.nanshanlife.com.tw/nanshanlife/nanshanlife-info/Products/rule/WEHS.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-19",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37443",
+      "name": "友邦人壽佑你定期壽險(第1次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2020-09-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257131MZ1A00721A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257131MZ1A00721A11Z10000001",
+          "name": "友邦人壽佑你定期壽險(第1次部分變更)",
+          "sale": "109/09/01",
+          "stop": "未停售",
+          "filing_date": "112/12/18",
+          "filing_no": "友邦字第1080800040號函備查,金管保壽字第11204939659號函",
+          "at": "2026-11-26T15:06:10+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257131MZ1A00721A11Z10000001",
+            "name": "友邦人壽佑你定期壽險(第1次部分變更)",
+            "sale": "109/09/01",
+            "stop": "未停售",
+            "filing_date": "112/12/18",
+            "filing_no": "友邦字第1080800040號函備查,金管保壽字第11204939659號函",
+            "at": "2026-11-26T15:06:10+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2020-09-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37500",
+      "name": "友邦人壽增利High利率變動型終身壽險(第3次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2022-12-02",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257131MA2A00123A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257131MA2A00123A11Z10000003",
+          "name": "友邦人壽增利High利率變動型終身壽險(第3次部分變更)",
+          "sale": "111/12/02",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1091000029號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:11+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257131MA2A00123A11Z10000003",
+            "name": "友邦人壽增利High利率變動型終身壽險(第3次部分變更)",
+            "sale": "111/12/02",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1091000029號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:11+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2022-12-02",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37505",
+      "name": "友邦人壽傳世富足利率變動型終身壽險(第7次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2022-12-02",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257131MA4B00323A11Z10000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257131MA4B00323A11Z10000007",
+          "name": "友邦人壽傳世富足利率變動型終身壽險(第7次部分變更)",
+          "sale": "111/12/02",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦台字第1060534號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:11+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257131MA4B00323A11Z10000007",
+            "name": "友邦人壽傳世富足利率變動型終身壽險(第7次部分變更)",
+            "sale": "111/12/02",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦台字第1060534號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:11+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2022-12-02",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37517",
+      "name": "友邦人壽平安定期壽險(第6次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2022-12-02",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257131MZ1A00422A11Z10000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257131MZ1A00422A11Z10000006",
+          "name": "友邦人壽平安定期壽險(第6次部分變更)",
+          "sale": "111/12/02",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦台字第1000185號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:12+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257131MZ1A00422A11Z10000006",
+            "name": "友邦人壽平安定期壽險(第6次部分變更)",
+            "sale": "111/12/02",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦台字第1000185號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:12+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2022-12-02",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37548",
+      "name": "友邦人壽三富人生美元利率變動型終身壽險(第8次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-03-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257131MA4B00223B11Z10000008"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257131MA4B00223B11Z10000008",
+          "name": "友邦人壽三富人生美元利率變動型終身壽險(第8次部分變更)",
+          "sale": "112/03/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦台字第1060392號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:13+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257131MA4B00223B11Z10000008",
+            "name": "友邦人壽三富人生美元利率變動型終身壽險(第8次部分變更)",
+            "sale": "112/03/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦台字第1060392號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:13+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2023-03-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37551",
+      "name": "友邦人壽享福人生美元利率變動型養老保險(第3次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-03-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257121MA1A00322B11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257121MA1A00322B11Z10000003",
+          "name": "友邦人壽享福人生美元利率變動型養老保險(第3次部分變更)",
+          "sale": "112/03/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1110300108號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:14+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257121MA1A00322B11Z10000003",
+            "name": "友邦人壽享福人生美元利率變動型養老保險(第3次部分變更)",
+            "sale": "112/03/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1110300108號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:14+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2023-03-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37552",
+      "name": "友邦人壽金創富人生美元利率變動型終身壽險(第2次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-03-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257131MA4B00523B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257131MA4B00523B11Z10000002",
+          "name": "友邦人壽金創富人生美元利率變動型終身壽險(第2次部分變更)",
+          "sale": "112/03/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1110800104號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:15+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257131MA4B00523B11Z10000002",
+            "name": "友邦人壽金創富人生美元利率變動型終身壽險(第2次部分變更)",
+            "sale": "112/03/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1110800104號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:15+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2023-03-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37554",
+      "name": "友邦人壽新世代美元利率變動型終身壽險(第1次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-03-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257131MA4B00623B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257131MA4B00623B11Z10000001",
+          "name": "友邦人壽新世代美元利率變動型終身壽險(第1次部分變更)",
+          "sale": "112/03/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1111000005號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:16+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257131MA4B00623B11Z10000001",
+            "name": "友邦人壽新世代美元利率變動型終身壽險(第1次部分變更)",
+            "sale": "112/03/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1111000005號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:16+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2023-03-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37555",
+      "name": "友邦人壽薪富人生美元利率變動型終身壽險(第1次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-03-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257131MA4B00723B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257131MA4B00723B11Z10000001",
+          "name": "友邦人壽薪富人生美元利率變動型終身壽險(第1次部分變更)",
+          "sale": "112/03/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1111000050號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:17+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257131MA4B00723B11Z10000001",
+            "name": "友邦人壽薪富人生美元利率變動型終身壽險(第1次部分變更)",
+            "sale": "112/03/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1111000050號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:17+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2023-03-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37557",
+      "name": "友邦人壽老當醫壯定期健康保險(第7次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257391MZ9B00122A11Z10000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257391MZ9B00122A11Z10000007",
+          "name": "友邦人壽老當醫壯定期健康保險(第7次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦台字第1060216號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:17+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257391MZ9B00122A11Z10000007",
+            "name": "友邦人壽老當醫壯定期健康保險(第7次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦台字第1060216號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:17+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37558",
+      "name": "友邦人壽滿意人生傷害還本終身保險(第3次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257191MZ2A00223A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257191MZ2A00223A11Z10000003",
+          "name": "友邦人壽滿意人生傷害還本終身保險(第3次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1090500103號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:18+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257191MZ2A00223A11Z10000003",
+            "name": "友邦人壽滿意人生傷害還本終身保險(第3次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1090500103號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:18+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37560",
+      "name": "友邦人壽樂退699美元利率變動型還本終身保險(第4次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257121MA9B00123B11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257121MA9B00123B11Z10000004",
+          "name": "友邦人壽樂退699美元利率變動型還本終身保險(第4次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1090600130號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:19+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257121MA9B00123B11Z10000004",
+            "name": "友邦人壽樂退699美元利率變動型還本終身保險(第4次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1090600130號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:19+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37561",
+      "name": "友邦人壽友我靶關防癌保險(第2次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257391MZ2B00122A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257391MZ2B00122A11Z10000002",
+          "name": "友邦人壽友我靶關防癌保險(第2次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1100100005號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:20+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257391MZ2B00122A11Z10000002",
+            "name": "友邦人壽友我靶關防癌保險(第2次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1100100005號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:20+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37562",
+      "name": "友邦人壽友保心安防癌保險(第4次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257191MZ2B00122A11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257191MZ2B00122A11Z10000004",
+          "name": "友邦人壽友保心安防癌保險(第4次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1080100096號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:21+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257191MZ2B00122A11Z10000004",
+            "name": "友邦人壽友保心安防癌保險(第4次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1080100096號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:21+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37564",
+      "name": "友邦人壽鴻利優沛利率變動型還本終身保險(第1次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257121MA1A00523A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257121MA1A00523A11Z10000001",
+          "name": "友邦人壽鴻利優沛利率變動型還本終身保險(第1次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1130100252號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:22+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257121MA1A00523A11Z10000001",
+            "name": "友邦人壽鴻利優沛利率變動型還本終身保險(第1次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1130100252號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:22+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37566",
+      "name": "友邦人壽雙享保利率變動型終身保險(第1次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257191MA9B00123A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257191MA9B00123A11Z10000001",
+          "name": "友邦人壽雙享保利率變動型終身保險(第1次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1120400020號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:22+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257191MA9B00123A11Z10000001",
+            "name": "友邦人壽雙享保利率變動型終身保險(第1次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1120400020號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:22+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37568",
+      "name": "友邦人壽富利優沛美元利率變動型還本終身保險(第1次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257121MA1A00423B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257121MA1A00423B11Z10000001",
+          "name": "友邦人壽富利優沛美元利率變動型還本終身保險(第1次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1120900018號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:23+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257121MA1A00423B11Z10000001",
+            "name": "友邦人壽富利優沛美元利率變動型還本終身保險(第1次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1120900018號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:23+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37571",
+      "name": "友邦人壽醫靶照防癌終身保險(第2次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257321MZ2B00323A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257321MZ2B00323A11Z10000002",
+          "name": "友邦人壽醫靶照防癌終身保險(第2次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1100100027號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:24+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257321MZ2B00323A11Z10000002",
+            "name": "友邦人壽醫靶照防癌終身保險(第2次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1100100027號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:24+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37572",
+      "name": "友邦人壽永富99美元利率變動型還本終身保險(第4次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257121MA1A00223B11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257121MA1A00223B11Z10000004",
+          "name": "友邦人壽永富99美元利率變動型還本終身保險(第4次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1101000014號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:25+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257121MA1A00223B11Z10000004",
+            "name": "友邦人壽永富99美元利率變動型還本終身保險(第4次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1101000014號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:25+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37576",
+      "name": "友邦人壽欣友相傳美元利率變動型終身壽險(第1次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257131MA1A00223B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257131MA1A00223B11Z10000001",
+          "name": "友邦人壽欣友相傳美元利率變動型終身壽險(第1次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1120300176號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:26+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257131MA1A00223B11Z10000001",
+            "name": "友邦人壽欣友相傳美元利率變動型終身壽險(第1次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1120300176號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:26+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.aia.com.tw/content/dam/tw-wise/zh-tw/help-and-support/important-info/docs/20241227/L-338(USWLD).pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37578",
+      "name": "友邦人壽鑫滿扶保利率變動型終身保險(第7次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257131MA9G00123A11Z10000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257131MA9G00123A11Z10000007",
+          "name": "友邦人壽鑫滿扶保利率變動型終身保險(第7次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1070800063號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:27+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257131MA9G00123A11Z10000007",
+            "name": "友邦人壽鑫滿扶保利率變動型終身保險(第7次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1070800063號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:27+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37579",
+      "name": "友邦人壽友利人生養老保險(第1次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257121MZ2A00422A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257121MZ2A00422A11Z10000001",
+          "name": "友邦人壽友利人生養老保險(第1次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1111200213號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:28+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257121MZ2A00422A11Z10000001",
+            "name": "友邦人壽友利人生養老保險(第1次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1111200213號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:28+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37580",
+      "name": "友邦人壽守富人生美元利率變動型終身壽險(第7次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257131MA4B00323B11Z10000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257131MA4B00323B11Z10000007",
+          "name": "友邦人壽守富人生美元利率變動型終身壽險(第7次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1081100056號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:28+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257131MA4B00323B11Z10000007",
+            "name": "友邦人壽守富人生美元利率變動型終身壽險(第7次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1081100056號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:28+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "37581",
+      "name": "友邦人壽5599還本終身保險(第2次部分變更)",
+      "insurer": "友邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=257121MZ2A00323A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "257121MZ2A00323A11Z10000002",
+          "name": "友邦人壽5599還本終身保險(第2次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "113/09/12",
+          "filing_no": "友邦字第1091200079號函備查,金管保壽字第1130492515號函",
+          "at": "2026-11-26T15:06:29+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "257121MZ2A00323A11Z10000002",
+            "name": "友邦人壽5599還本終身保險(第2次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "113/09/12",
+            "filing_no": "友邦字第1091200079號函備查,金管保壽字第1130492515號函",
+            "at": "2026-11-26T15:06:29+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    }
+  ]
+}

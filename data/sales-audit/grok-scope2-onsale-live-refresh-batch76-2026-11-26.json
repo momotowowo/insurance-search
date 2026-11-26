@@ -1,0 +1,3081 @@
+{
+  "batch_id": "grok-scope2-onsale-live-refresh-batch76-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T15:22:22+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": {
+    "description": "範圍2：現售品項以即時保發中心詳細頁覆核",
+    "ids": 60
+  },
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": "以 2026-11-26 即時保發中心詳細頁核對本站連結版本之銷售日、停售日與狀態；一致者為一致性複核，不一致且無官網明文者移交 GPT，不改狀態。未對驗證碼做 OCR、未執行 submit。",
+  "summary": {
+    "已核實": 60,
+    "total": 60,
+    "items_with_proposed_changes": 0
+  },
+  "items": [
+    {
+      "product_id": "02705",
+      "name": "遠雄人壽新傷害保險附約",
+      "insurer": "遠雄人壽",
+      "site_code": "RHQ",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ1A30021A11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211RZ1A30021A11Z10000004",
+          "name": "遠雄人壽新傷害保險附約(第4次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1100005735號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:23+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211RZ1A30021A11Z10000004",
+            "name": "遠雄人壽新傷害保險附約(第4次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1100005735號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:23+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=RHQ&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02706",
+      "name": "遠雄人壽新意大力終身傷害保險",
+      "insurer": "遠雄人壽",
+      "site_code": "XJ1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211MZ1A32923A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211MZ1A32923A11Z10000003",
+          "name": "遠雄人壽新意大力終身傷害保險(第3次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1110003588號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:30+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211MZ1A32923A11Z10000003",
+            "name": "遠雄人壽新意大力終身傷害保險(第3次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1110003588號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:30+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=XJ1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02707",
+      "name": "遠雄人壽真實在傷害醫療保險附約",
+      "insurer": "遠雄人壽",
+      "site_code": "MRE",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ1A37521A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211RZ1A37521A11Z10000001",
+          "name": "遠雄人壽真實在傷害醫療保險附約(第1次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130007082號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:33+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211RZ1A37521A11Z10000001",
+            "name": "遠雄人壽真實在傷害醫療保險附約(第1次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130007082號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:33+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=MRE&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02708",
+      "name": "遠雄人壽超級偉骨力傷害保險",
+      "insurer": "遠雄人壽",
+      "site_code": "KHH",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211MZ3D31621A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211MZ3D31621A11Z10000003",
+          "name": "遠雄人壽超級偉骨力傷害保險(第3次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1110002361號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:39+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211MZ3D31621A11Z10000003",
+            "name": "遠雄人壽超級偉骨力傷害保險(第3次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1110002361號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:39+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=KHH&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02709",
+      "name": "遠雄人壽超級新人生傷害保險",
+      "insurer": "遠雄人壽",
+      "site_code": "KHG",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2022-12-02",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211MZ1A13121A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211MZ1A13121A11Z10000005",
+          "name": "遠雄人壽超級新人生傷害保險(第5次部分變更)",
+          "sale": "111/12/02",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(101)遠雄壽字第1427號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:47+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211MZ1A13121A11Z10000005",
+            "name": "遠雄人壽超級新人生傷害保險(第5次部分變更)",
+            "sale": "111/12/02",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(101)遠雄壽字第1427號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:47+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=KHG&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2022-12-02",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02711",
+      "name": "遠雄人壽超級金人生傷害保險附約",
+      "insurer": "遠雄人壽",
+      "site_code": "XHP",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ3D30821A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211RZ3D30821A11Z10000005",
+          "name": "遠雄人壽超級金人生傷害保險附約(第5次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1110000012號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:56+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211RZ3D30821A11Z10000005",
+            "name": "遠雄人壽超級金人生傷害保險附約(第5次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1110000012號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:56+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=XHP&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02712",
+      "name": "遠雄人壽輕鬆好得意定期傷害保險附約",
+      "insurer": "遠雄人壽",
+      "site_code": "XA1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ1A28922A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211RZ1A28922A11Z10000002",
+          "name": "遠雄人壽輕鬆好得意定期傷害保險附約(第2次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1100000874號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:59+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211RZ1A28922A11Z10000002",
+            "name": "遠雄人壽輕鬆好得意定期傷害保險附約(第2次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1100000874號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:59+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=XA1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02713",
+      "name": "遠雄人壽雄安康醫療日額給付傷害保險附約",
+      "insurer": "遠雄人壽",
+      "site_code": "RHG",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ1A06621A11Z10000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211RZ1A06621A11Z10000010",
+          "name": "遠雄人壽雄安康醫療日額給付傷害保險附約(第10次部份變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(96)遠雄壽字第255號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:08:13+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211RZ1A06621A11Z10000010",
+            "name": "遠雄人壽雄安康醫療日額給付傷害保險附約(第10次部份變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(96)遠雄壽字第255號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:08:13+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=RHG&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02716",
+      "name": "遠雄人壽傳富倍多紛利率變動型終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "WG1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA2A36223A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA2A36223A11Z10000001",
+          "name": "遠雄人壽傳富倍多紛利率變動型終身壽險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130000017號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:08:16+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA2A36223A11Z10000001",
+            "name": "遠雄人壽傳富倍多紛利率變動型終身壽險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130000017號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:08:16+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=WG1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02718",
+      "name": "遠雄人壽傳富新終身壽險(110)",
+      "insurer": "遠雄人壽",
+      "site_code": "FI5",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MZ1A18123A11Z10000009"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MZ1A18123A11Z10000009",
+          "name": "遠雄人壽傳富新終身壽險(110)(第9次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1040186號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T14:20:41+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MZ1A18123A11Z10000009",
+            "name": "遠雄人壽傳富新終身壽險(110)(第9次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1040186號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T14:20:41+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=FI5&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02726",
+      "name": "遠雄人壽傳富美添億美元利率變動型終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "BW1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-04-10",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A41523B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA1A41523B11Z10000000",
+          "name": "遠雄人壽傳富美添億美元利率變動型終身壽險",
+          "sale": "115/04/10",
+          "stop": "未停售",
+          "filing_date": "115/04/10",
+          "filing_no": "遠壽字第1150003460號函",
+          "at": "2026-11-26T15:21:47+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA1A41523B11Z10000000",
+            "name": "遠雄人壽傳富美添億美元利率變動型終身壽險",
+            "sale": "115/04/10",
+            "stop": "未停售",
+            "filing_date": "115/04/10",
+            "filing_no": "遠壽字第1150003460號函",
+            "at": "2026-11-26T15:21:47+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=BW1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-04-10",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02730",
+      "name": "遠雄人壽傳富聚鑫利率變動型終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "WH1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4G36023A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA4G36023A11Z10000001",
+          "name": "遠雄人壽傳富聚鑫利率變動型終身壽險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130000016號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T14:20:42+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA4G36023A11Z10000001",
+            "name": "遠雄人壽傳富聚鑫利率變動型終身壽險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130000016號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T14:20:42+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=WH1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02731",
+      "name": "遠雄人壽傳富萬世達美元利率變動型終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "BV1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-04-30",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A41823B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA1A41823B11Z10000000",
+          "name": "遠雄人壽傳富萬世達美元利率變動型終身壽險",
+          "sale": "115/04/30",
+          "stop": "未停售",
+          "filing_date": "115/04/30",
+          "filing_no": "遠壽字第1150005660號函",
+          "at": "2026-11-26T15:21:09+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA1A41823B11Z10000000",
+            "name": "遠雄人壽傳富萬世達美元利率變動型終身壽險",
+            "sale": "115/04/30",
+            "stop": "未停售",
+            "filing_date": "115/04/30",
+            "filing_no": "遠壽字第1150005660號函",
+            "at": "2026-11-26T15:21:09+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=BV1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-04-30",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02739",
+      "name": "遠雄人壽傳富雄給利利率變動型終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "WK1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A35923A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA1A35923A11Z10000001",
+          "name": "遠雄人壽傳富雄給利利率變動型終身壽險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130000008號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:08:20+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA1A35923A11Z10000001",
+            "name": "遠雄人壽傳富雄給利利率變動型終身壽險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130000008號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:08:20+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=WK1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02740",
+      "name": "遠雄人壽傳富雄美利美元利率變動型終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "SU1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A35823B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA1A35823B11Z10000001",
+          "name": "遠雄人壽傳富雄美利美元利率變動型終身壽險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130000007號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:08:23+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA1A35823B11Z10000001",
+            "name": "遠雄人壽傳富雄美利美元利率變動型終身壽險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130000007號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:08:23+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=SU1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02745",
+      "name": "遠雄人壽新美滿致富增額終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "LN1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MZ2A27223A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MZ2A27223A11Z10000002",
+          "name": "遠雄人壽新美滿致富增額終身壽險(第2次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1090002283號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:08:28+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MZ2A27223A11Z10000002",
+            "name": "遠雄人壽新美滿致富增額終身壽險(第2次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1090002283號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:08:28+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=LN1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02747",
+      "name": "遠雄人壽美滿美利讚美元利率變動型增額終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "BB1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A38223B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA1A38223B11Z10000001",
+          "name": "遠雄人壽美滿美利讚美元利率變動型增額終身壽險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130018992號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:08:31+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA1A38223B11Z10000001",
+            "name": "遠雄人壽美滿美利讚美元利率變動型增額終身壽險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130018992號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:08:31+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=BB1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02752",
+      "name": "遠雄人壽美滿金享優利率變動型增額終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "WE1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A35123A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA1A35123A11Z10000001",
+          "name": "遠雄人壽美滿金享優利率變動型增額終身壽險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1120005374號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:08:34+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA1A35123A11Z10000001",
+            "name": "遠雄人壽美滿金享優利率變動型增額終身壽險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1120005374號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:08:34+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=WE1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02754",
+      "name": "遠雄人壽美滿金優利利率變動型增額終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "WL1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A37323A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA1A37323A11Z10000001",
+          "name": "遠雄人壽美滿金優利利率變動型增額終身壽險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130006970號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:08:38+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA1A37323A11Z10000001",
+            "name": "遠雄人壽美滿金優利利率變動型增額終身壽險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130006970號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:08:38+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=WL1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02756",
+      "name": "遠雄人壽美滿金永樂利率變動型增額終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "WJ1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4G36323A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA4G36323A11Z10000002",
+          "name": "遠雄人壽美滿金永樂利率變動型增額終身壽險(第2次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130000018號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:08:43+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA4G36323A11Z10000002",
+            "name": "遠雄人壽美滿金永樂利率變動型增額終身壽險(第2次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130000018號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:08:43+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=WJ1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02759",
+      "name": "遠雄人壽美滿雄樂福美元利率變動型增額終身壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "SW1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA1A36523B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA1A36523B11Z10000001",
+          "name": "遠雄人壽美滿雄樂福美元利率變動型增額終身壽險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130001762號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:08:46+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA1A36523B11Z10000001",
+            "name": "遠雄人壽美滿雄樂福美元利率變動型增額終身壽險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130001762號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:08:46+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=SW1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02770",
+      "name": "遠雄人壽豪利HIGH利率變動型年金保險（甲型）",
+      "insurer": "遠雄人壽",
+      "site_code": "NIZ",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2020-07-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216421MA1A19323A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216421MA1A19323A11Z10000002",
+          "name": "遠雄人壽豪利HIGH利率變動型年金保險(甲型)(第2次部分變更)",
+          "sale": "109/07/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1040537號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:08:49+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216421MA1A19323A11Z10000002",
+            "name": "遠雄人壽豪利HIGH利率變動型年金保險(甲型)(第2次部分變更)",
+            "sale": "109/07/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1040537號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:08:49+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=NIZ&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2020-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02772",
+      "name": "遠雄人壽66大吉變額萬能壽險",
+      "insurer": "遠雄人壽",
+      "site_code": "VE1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MV1A35623A11Z90000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MV1A35623A11Z90000004",
+          "name": "遠雄人壽66大吉變額萬能壽險(第4次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/07/29",
+          "filing_no": "遠壽字第1120007228號函,金管保財字第11404177141號令",
+          "at": "2026-11-26T13:08:55+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MV1A35623A11Z90000004",
+            "name": "遠雄人壽66大吉變額萬能壽險(第4次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/07/29",
+            "filing_no": "遠壽字第1120007228號函,金管保財字第11404177141號令",
+            "at": "2026-11-26T13:08:55+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=VE1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02780",
+      "name": "遠雄人壽富貴喜多利利率變動型終身還本保險",
+      "insurer": "遠雄人壽",
+      "site_code": "WM1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216121MA2A38123A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216121MA2A38123A11Z10000001",
+          "name": "遠雄人壽富貴喜多利利率變動型終身還本保險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130018991號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:08:58+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216121MA2A38123A11Z10000001",
+            "name": "遠雄人壽富貴喜多利利率變動型終身還本保險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130018991號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:08:58+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=WM1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02781",
+      "name": "遠雄人壽富貴喜相逢利率變動型終身還本保險",
+      "insurer": "遠雄人壽",
+      "site_code": "WI1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216121MA2A36123A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216121MA2A36123A11Z10000001",
+          "name": "遠雄人壽富貴喜相逢利率變動型終身還本保險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130000015號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:09:01+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216121MA2A36123A11Z10000001",
+            "name": "遠雄人壽富貴喜相逢利率變動型終身還本保險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130000015號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:09:01+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=WI1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02782",
+      "name": "遠雄人壽富貴鑽美利美元利率變動型終身還本保險",
+      "insurer": "遠雄人壽",
+      "site_code": "SX1",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216121MA1A36423B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216121MA1A36423B11Z10000001",
+          "name": "遠雄人壽富貴鑽美利美元利率變動型終身還本保險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130001415號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:09:04+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216121MA1A36423B11Z10000001",
+            "name": "遠雄人壽富貴鑽美利美元利率變動型終身還本保險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130001415號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:09:04+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=SX1&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26328",
+      "name": "遠雄人壽豪利HIGH利率變動型年金保險(甲型)(第2次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2020-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216421MA1A19323A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216421MA1A19323A11Z10000002",
+          "name": "遠雄人壽豪利HIGH利率變動型年金保險(甲型)(第2次部分變更)",
+          "sale": "109/07/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1040537號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:08:49+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216421MA1A19323A11Z10000002",
+            "name": "遠雄人壽豪利HIGH利率變動型年金保險(甲型)(第2次部分變更)",
+            "sale": "109/07/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1040537號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:08:49+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2020-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26415",
+      "name": "遠雄人壽超級新人生傷害保險(第5次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2022-12-02",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211MZ1A13121A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211MZ1A13121A11Z10000005",
+          "name": "遠雄人壽超級新人生傷害保險(第5次部分變更)",
+          "sale": "111/12/02",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(101)遠雄壽字第1427號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:47+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211MZ1A13121A11Z10000005",
+            "name": "遠雄人壽超級新人生傷害保險(第5次部分變更)",
+            "sale": "111/12/02",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(101)遠雄壽字第1427號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:47+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2022-12-02",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26450",
+      "name": "遠雄人壽輕鬆醫起來定期健康保險(第1次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2022-12-02",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216311MZ1A28722A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216311MZ1A28722A11Z10000001",
+          "name": "遠雄人壽輕鬆醫起來定期健康保險(第1次部分變更)",
+          "sale": "111/12/02",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1100000873號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:06:32+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216311MZ1A28722A11Z10000001",
+            "name": "遠雄人壽輕鬆醫起來定期健康保險(第1次部分變更)",
+            "sale": "111/12/02",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1100000873號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:06:32+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2022-12-02",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26459",
+      "name": "遠雄人壽完美人生傷害保險附約(第5次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2022-12-02",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216291RZ1A23521A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216291RZ1A23521A11Z10000005",
+          "name": "遠雄人壽完美人生傷害保險附約(第5次部分變更)",
+          "sale": "111/12/02",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1070000002號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:06:57+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216291RZ1A23521A11Z10000005",
+            "name": "遠雄人壽完美人生傷害保險附約(第5次部分變更)",
+            "sale": "111/12/02",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1070000002號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:06:57+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2022-12-02",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26543",
+      "name": "遠雄人壽輕鬆好得意定期傷害保險附約(第2次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ1A28922A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211RZ1A28922A11Z10000002",
+          "name": "遠雄人壽輕鬆好得意定期傷害保險附約(第2次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1100000874號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:59+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211RZ1A28922A11Z10000002",
+            "name": "遠雄人壽輕鬆好得意定期傷害保險附約(第2次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1100000874號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:59+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26548",
+      "name": "遠雄人壽輕鬆超享福長期照顧定期健康保險附約(第2次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216361RZ1A28822A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216361RZ1A28822A11Z10000002",
+          "name": "遠雄人壽輕鬆超享福長期照顧定期健康保險附約(第2次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1100000876號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:06:30+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216361RZ1A28822A11Z10000002",
+            "name": "遠雄人壽輕鬆超享福長期照顧定期健康保險附約(第2次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1100000876號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:06:30+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26551",
+      "name": "遠雄人壽輕鬆愛生活癌症醫療定期健康保險附約(第2次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216321RZ1A29022A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216321RZ1A29022A11Z10000002",
+          "name": "遠雄人壽輕鬆愛生活癌症醫療定期健康保險附約(第2次部分變更)",
+          "sale": "113/07/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1100000875號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:06:28+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216321RZ1A29022A11Z10000002",
+            "name": "遠雄人壽輕鬆愛生活癌症醫療定期健康保險附約(第2次部分變更)",
+            "sale": "113/07/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1100000875號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:06:28+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-07-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26567",
+      "name": "遠雄人壽新癌症終身健康保險附約(99)(第14次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216321RZ1A11623A11Z10000014"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216321RZ1A11623A11Z10000014",
+          "name": "遠雄人壽新癌症終身健康保險附約(99)(第14次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(99)遠雄壽字第1228號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T12:31:30+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216321RZ1A11623A11Z10000014",
+            "name": "遠雄人壽新癌症終身健康保險附約(99)(第14次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(99)遠雄壽字第1228號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T12:31:30+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26568",
+      "name": "遠雄人壽一年定期癌症健康保險附約(第12次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216321RZ1A02421A11Z10000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216321RZ1A02421A11Z10000012",
+          "name": "遠雄人壽一年定期癌症健康保險附約(第12次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台財保字第0920751405號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:06:14+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216321RZ1A02421A11Z10000012",
+            "name": "遠雄人壽一年定期癌症健康保險附約(第12次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台財保字第0920751405號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:06:14+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26570",
+      "name": "遠雄人壽愛無懼B型防癌終身健康保險附約(第10次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216321RZ1A20023A11Z10000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216321RZ1A20023A11Z10000010",
+          "name": "遠雄人壽愛無懼B型防癌終身健康保險附約(第10次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1050001087號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T12:32:22+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216321RZ1A20023A11Z10000010",
+            "name": "遠雄人壽愛無懼B型防癌終身健康保險附約(第10次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1050001087號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T12:32:22+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26574",
+      "name": "遠雄人壽真實在傷害醫療保險附約(第1次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ1A37521A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211RZ1A37521A11Z10000001",
+          "name": "遠雄人壽真實在傷害醫療保險附約(第1次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130007082號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:33+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211RZ1A37521A11Z10000001",
+            "name": "遠雄人壽真實在傷害醫療保險附約(第1次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130007082號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:33+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26576",
+      "name": "遠雄人壽意醫非凡傷害醫療定期保險附約(第2次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ1A35422A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211RZ1A35422A11Z10000002",
+          "name": "遠雄人壽意醫非凡傷害醫療定期保險附約(第2次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1120006097號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:20+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211RZ1A35422A11Z10000002",
+            "name": "遠雄人壽意醫非凡傷害醫療定期保險附約(第2次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1120006097號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:20+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26577",
+      "name": "遠雄人壽愛吉時一年定期癌症健康保險附約(第2次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216321RZ1A35321A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216321RZ1A35321A11Z10000002",
+          "name": "遠雄人壽愛吉時一年定期癌症健康保險附約(第2次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1120006245號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:06:21+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216321RZ1A35321A11Z10000002",
+            "name": "遠雄人壽愛吉時一年定期癌症健康保險附約(第2次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1120006245號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:06:21+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26578",
+      "name": "遠雄人壽保安康重大傷病一年定期健康保險附約(第3次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216391RZ1A29921A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216391RZ1A29921A11Z10000003",
+          "name": "遠雄人壽保安康重大傷病一年定期健康保險附約(第3次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1100004046號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:06:16+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216391RZ1A29921A11Z10000003",
+            "name": "遠雄人壽保安康重大傷病一年定期健康保險附約(第3次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1100004046號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:06:16+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26579",
+      "name": "遠雄人壽平安傷害保險附約(第4次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ1A32721A11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211RZ1A32721A11Z10000004",
+          "name": "遠雄人壽平安傷害保險附約(第4次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1110003002號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:08+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211RZ1A32721A11Z10000004",
+            "name": "遠雄人壽平安傷害保險附約(第4次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1110003002號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:08+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26582",
+      "name": "遠雄人壽超級金人生傷害保險附約(第5次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ3D30821A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211RZ3D30821A11Z10000005",
+          "name": "遠雄人壽超級金人生傷害保險附約(第5次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1110000012號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:56+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211RZ3D30821A11Z10000005",
+            "name": "遠雄人壽超級金人生傷害保險附約(第5次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1110000012號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:56+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26583",
+      "name": "遠雄人壽寶貝金人生傷害失能保險附約(第5次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ3D30921A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211RZ3D30921A11Z10000005",
+          "name": "遠雄人壽寶貝金人生傷害失能保險附約(第5次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1110000013號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:04+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211RZ3D30921A11Z10000005",
+            "name": "遠雄人壽寶貝金人生傷害失能保險附約(第5次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1110000013號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:04+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26584",
+      "name": "遠雄人壽新傷害保險附約(第4次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ1A30021A11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211RZ1A30021A11Z10000004",
+          "name": "遠雄人壽新傷害保險附約(第4次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1100005735號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:23+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211RZ1A30021A11Z10000004",
+            "name": "遠雄人壽新傷害保險附約(第4次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1100005735號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:23+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26586",
+      "name": "遠雄人壽金大吉豁免保險費附約(第2次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216341RZ1A35721A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216341RZ1A35721A11Z10000002",
+          "name": "遠雄人壽金大吉豁免保險費附約(第2次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1120007229號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:06:33+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216341RZ1A35721A11Z10000002",
+            "name": "遠雄人壽金大吉豁免保險費附約(第2次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1120007229號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:06:33+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26587",
+      "name": "遠雄人壽金放心美元豁免保險費附約(第6次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216341RZ1A24122B11Z10000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216341RZ1A24122B11Z10000006",
+          "name": "遠雄人壽金放心美元豁免保險費附約(第6次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1070002357號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:06:46+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216341RZ1A24122B11Z10000006",
+            "name": "遠雄人壽金放心美元豁免保險費附約(第6次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1070002357號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:06:46+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26588",
+      "name": "遠雄人壽雄安康醫療日額給付傷害保險附約(第10次部份變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211RZ1A06621A11Z10000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211RZ1A06621A11Z10000010",
+          "name": "遠雄人壽雄安康醫療日額給付傷害保險附約(第10次部份變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(96)遠雄壽字第255號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:08:13+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211RZ1A06621A11Z10000010",
+            "name": "遠雄人壽雄安康醫療日額給付傷害保險附約(第10次部份變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(96)遠雄壽字第255號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:08:13+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26589",
+      "name": "遠雄人壽金好心豁免保險費附約(第8次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216341RZ1A13622A11Z10000008"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216341RZ1A13622A11Z10000008",
+          "name": "遠雄人壽金好心豁免保險費附約(第8次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(102)遠雄壽字第523號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:06:41+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216341RZ1A13622A11Z10000008",
+            "name": "遠雄人壽金好心豁免保險費附約(第8次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(102)遠雄壽字第523號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:06:41+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26591",
+      "name": "遠雄人壽金貼心豁免保險費附約(第6次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216341RZ1A22722A11Z10000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216341RZ1A22722A11Z10000006",
+          "name": "遠雄人壽金貼心豁免保險費附約(第6次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1060002712號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:06:51+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216341RZ1A22722A11Z10000006",
+            "name": "遠雄人壽金貼心豁免保險費附約(第6次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1060002712號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:06:51+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26592",
+      "name": "遠雄人壽新意大力終身傷害保險(第3次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211MZ1A32923A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211MZ1A32923A11Z10000003",
+          "name": "遠雄人壽新意大力終身傷害保險(第3次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1110003588號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:30+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211MZ1A32923A11Z10000003",
+            "name": "遠雄人壽新意大力終身傷害保險(第3次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1110003588號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:30+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26595",
+      "name": "遠雄人壽寶貝偉骨力傷害失能保險(第3次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211MZ3D31721A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211MZ3D31721A11Z10000003",
+          "name": "遠雄人壽寶貝偉骨力傷害失能保險(第3次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1110002362號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:00+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211MZ3D31721A11Z10000003",
+            "name": "遠雄人壽寶貝偉骨力傷害失能保險(第3次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1110002362號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:00+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26596",
+      "name": "遠雄人壽超級偉骨力傷害保險(第3次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216211MZ3D31621A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216211MZ3D31621A11Z10000003",
+          "name": "遠雄人壽超級偉骨力傷害保險(第3次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1110002361號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:07:39+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216211MZ3D31621A11Z10000003",
+            "name": "遠雄人壽超級偉骨力傷害保險(第3次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1110002361號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:07:39+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26606",
+      "name": "遠雄人壽愛無價85防癌健康保險(第5次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216321MZ2B30722A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216321MZ2B30722A11Z10000005",
+          "name": "遠雄人壽愛無價85防癌健康保險(第5次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1100005514號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:06:26+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216321MZ2B30722A11Z10000005",
+            "name": "遠雄人壽愛無價85防癌健康保險(第5次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1100005514號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:06:26+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26608",
+      "name": "遠雄人壽富貴喜多利利率變動型終身還本保險(第1次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216121MA2A38123A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216121MA2A38123A11Z10000001",
+          "name": "遠雄人壽富貴喜多利利率變動型終身還本保險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130018991號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:08:58+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216121MA2A38123A11Z10000001",
+            "name": "遠雄人壽富貴喜多利利率變動型終身還本保險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130018991號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:08:58+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26609",
+      "name": "遠雄人壽守護醫級棒醫療保本終身保險(103)(第12次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216311MZ1B13923A11Z10000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216311MZ1B13923A11Z10000012",
+          "name": "遠雄人壽守護醫級棒醫療保本終身保險(103)(第12次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(102)遠雄壽字第1214號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T12:32:05+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216311MZ1B13923A11Z10000012",
+            "name": "遠雄人壽守護醫級棒醫療保本終身保險(103)(第12次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(102)遠雄壽字第1214號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T12:32:05+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26611",
+      "name": "遠雄人壽美滿金永樂利率變動型增額終身壽險(第2次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4G36323A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA4G36323A11Z10000002",
+          "name": "遠雄人壽美滿金永樂利率變動型增額終身壽險(第2次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130000018號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:08:43+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA4G36323A11Z10000002",
+            "name": "遠雄人壽美滿金永樂利率變動型增額終身壽險(第2次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130000018號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:08:43+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26614",
+      "name": "遠雄人壽傳富聚鑫利率變動型終身壽險(第1次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216131MA4G36023A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216131MA4G36023A11Z10000001",
+          "name": "遠雄人壽傳富聚鑫利率變動型終身壽險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130000016號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T14:20:42+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216131MA4G36023A11Z10000001",
+            "name": "遠雄人壽傳富聚鑫利率變動型終身壽險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130000016號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T14:20:42+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26615",
+      "name": "遠雄人壽富貴鑽美利美元利率變動型終身還本保險(第1次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216121MA1A36423B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216121MA1A36423B11Z10000001",
+          "name": "遠雄人壽富貴鑽美利美元利率變動型終身還本保險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130001415號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:09:04+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216121MA1A36423B11Z10000001",
+            "name": "遠雄人壽富貴鑽美利美元利率變動型終身還本保險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130001415號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:09:04+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26617",
+      "name": "遠雄人壽雄有溢85精選傷病定期保險(第3次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216351MZ9B36922A11E10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216351MZ9B36922A11E10000003",
+          "name": "遠雄人壽雄有溢85精選傷病定期保險(第3次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1130002809號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:06:54+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216351MZ9B36922A11E10000003",
+            "name": "遠雄人壽雄有溢85精選傷病定期保險(第3次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1130002809號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:06:54+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26620",
+      "name": "遠雄人壽健康久久手術醫療終身保險附約(第18次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216391RZ9B08923A11Z10000018"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216391RZ9B08923A11Z10000018",
+          "name": "遠雄人壽健康久久手術醫療終身保險附約(第18次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(97)遠雄壽字第823號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T13:57:02+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216391RZ9B08923A11Z10000018",
+            "name": "遠雄人壽健康久久手術醫療終身保險附約(第18次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(97)遠雄壽字第823號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T13:57:02+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    }
+  ]
+}

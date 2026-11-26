@@ -1,0 +1,3081 @@
+{
+  "batch_id": "grok-scope2-onsale-live-refresh-batch66-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T15:22:22+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": {
+    "description": "範圍2：現售品項以即時保發中心詳細頁覆核",
+    "ids": 60
+  },
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": "以 2026-11-26 即時保發中心詳細頁核對本站連結版本之銷售日、停售日與狀態；一致者為一致性複核，不一致且無官網明文者移交 GPT，不改狀態。未對驗證碼做 OCR、未執行 submit。",
+  "summary": {
+    "已核實": 60,
+    "total": 60,
+    "items_with_proposed_changes": 0
+  },
+  "items": [
+    {
+      "product_id": "01087",
+      "name": "國泰人壽心iLife一年期定期壽險",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2022-08-04",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MZ1AMNC21A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204131MZ1AMNC21A11Z10000000",
+          "name": "國泰人壽心iLife一年期定期壽險",
+          "sale": "111/08/04",
+          "stop": "未停售",
+          "filing_date": "111/03/31",
+          "filing_no": "國壽字第1110080003號函備查,金管保壽字第11104910677號函修正",
+          "at": "2026-11-26T14:20:07+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204131MZ1AMNC21A11Z10000000",
+            "name": "國泰人壽心iLife一年期定期壽險",
+            "sale": "111/08/04",
+            "stop": "未停售",
+            "filing_date": "111/03/31",
+            "filing_no": "國壽字第1110080003號函備查,金管保壽字第11104910677號函修正",
+            "at": "2026-11-26T14:20:07+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/MNC.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2022-08-04",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01089",
+      "name": "國泰人壽新GO心保障100定期壽險",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MZ2AQC022A11Z10000019"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204131MZ2AQC022A11Z10000019",
+          "name": "國泰人壽新GO心保障100定期壽險(第19次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第91110418號函核備,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:20:07+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204131MZ2AQC022A11Z10000019",
+            "name": "國泰人壽新GO心保障100定期壽險(第19次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第91110418號函核備,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:20:07+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/K84K93.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01117",
+      "name": "國泰人壽萬得利利率變動型終身壽險（定期給付型）",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-05-15",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MA1AWSL23A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204131MA1AWSL23A11Z10000000",
+          "name": "國泰人壽萬得利利率變動型終身壽險（定期給付型）",
+          "sale": "114/05/15",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第1140050006號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:20:08+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204131MA1AWSL23A11Z10000000",
+            "name": "國泰人壽萬得利利率變動型終身壽險（定期給付型）",
+            "sale": "114/05/15",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第1140050006號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:20:08+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/WSLWSM.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-05-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01119",
+      "name": "國泰人壽萬美裕利率變動型美元終身壽險（定期給付型）",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-04-30",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MA1AWJB23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204131MA1AWJB23B11Z10000000",
+          "name": "國泰人壽萬美裕利率變動型美元終身壽險（定期給付型）",
+          "sale": "115/04/30",
+          "stop": "未停售",
+          "filing_date": "115/04/30",
+          "filing_no": "國壽字第1150041616號函備查",
+          "at": "2026-11-26T15:21:06+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204131MA1AWJB23B11Z10000000",
+            "name": "國泰人壽萬美裕利率變動型美元終身壽險（定期給付型）",
+            "sale": "115/04/30",
+            "stop": "未停售",
+            "filing_date": "115/04/30",
+            "filing_no": "國壽字第1150041616號函備查",
+            "at": "2026-11-26T15:21:06+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/WJB.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-04-30",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01127",
+      "name": "國泰人壽馨美好人生利率變動型美元終身保險（定期給付型）",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-05-07",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MA9BWCL23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204131MA9BWCL23B11Z10000000",
+          "name": "國泰人壽馨美好人生利率變動型美元終身保險（定期給付型）",
+          "sale": "115/05/07",
+          "stop": "未停售",
+          "filing_date": "115/05/07",
+          "filing_no": "國壽字第1150050001號函備查（本商品適用「保險商品銷售前程序作業準則」第21條第1項之送審獎勵規定）",
+          "at": "2026-11-26T15:20:58+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204131MA9BWCL23B11Z10000000",
+            "name": "國泰人壽馨美好人生利率變動型美元終身保險（定期給付型）",
+            "sale": "115/05/07",
+            "stop": "未停售",
+            "filing_date": "115/05/07",
+            "filing_no": "國壽字第1150050001號函備查（本商品適用「保險商品銷售前程序作業準則」第21條第1項之送審獎勵規定）",
+            "at": "2026-11-26T15:20:58+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/WCLWCM.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-05-07",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01188",
+      "name": "國泰人壽平安保倍定期保險",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204291MZ4GFXA22A11Z10000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204291MZ4GFXA22A11Z10000006",
+          "name": "國泰人壽平安保倍定期保險(第6次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第110020016號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:20:09+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204291MZ4GFXA22A11Z10000006",
+            "name": "國泰人壽平安保倍定期保險(第6次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第110020016號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:20:09+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/accident/FXD.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01192",
+      "name": "國泰人壽新GO安心保本定期保險",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204121MZ1AUB022A11Z10000016"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204121MZ1AUB022A11Z10000016",
+          "name": "國泰人壽新GO安心保本定期保險(第16次部份變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第96020056號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:20:10+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204121MZ1AUB022A11Z10000016",
+            "name": "國泰人壽新GO安心保本定期保險(第16次部份變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第96020056號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:20:10+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/N66.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01196",
+      "name": "國泰人壽睛智守護特定疾病定期保險（外溢型）",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-03-26",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204391MZ9BLDA22A11E10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204391MZ9BLDA22A11E10000000",
+          "name": "國泰人壽睛智守護特定疾病定期保險（外溢型）",
+          "sale": "115/03/26",
+          "stop": "未停售",
+          "filing_date": "115/03/26",
+          "filing_no": "國壽字第1150030001號函備查(本商品適用「保險商品銷售前程序作業準則」第21條之1第3項之送審獎勵規定)",
+          "at": "2026-11-26T14:20:11+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204391MZ9BLDA22A11E10000000",
+            "name": "國泰人壽睛智守護特定疾病定期保險（外溢型）",
+            "sale": "115/03/26",
+            "stop": "未停售",
+            "filing_date": "115/03/26",
+            "filing_no": "國壽字第1150030001號函備查(本商品適用「保險商品銷售前程序作業準則」第21條之1第3項之送審獎勵規定)",
+            "at": "2026-11-26T14:20:11+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/LDALDB.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-03-26",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10419",
+      "name": "國泰人壽樂無憂防癌定期健康保險(第2次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204321MZ1ADP122A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204321MZ1ADP122A11Z10000002",
+          "name": "國泰人壽樂無憂防癌定期健康保險(第2次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "113/11/12,114/02/13",
+          "filing_no": "國壽字第1120110004號函備查,金管保壽字1130432500號函修正,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:22:33+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204321MZ1ADP122A11Z10000002",
+            "name": "國泰人壽樂無憂防癌定期健康保險(第2次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "113/11/12,114/02/13",
+            "filing_no": "國壽字第1120110004號函備查,金管保壽字1130432500號函修正,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:22:33+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/DP1DP2.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10426",
+      "name": "國泰人壽輕漾心安住院醫療終身健康保險(外溢型)(第1次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204311MZ1AHTA23A11E10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204311MZ1AHTA23A11E10000001",
+          "name": "國泰人壽輕漾心安住院醫療終身健康保險(外溢型)(第1次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "113/11/12,114/02/13",
+          "filing_no": "國壽字第1120030010號函備查,金管保壽字第1130432500號函修正,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:22:34+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204311MZ1AHTA23A11E10000001",
+            "name": "國泰人壽輕漾心安住院醫療終身健康保險(外溢型)(第1次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "113/11/12,114/02/13",
+            "filing_no": "國壽字第1120030010號函備查,金管保壽字第1130432500號函修正,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:22:34+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/HTA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10441",
+      "name": "國泰人壽樂活平安定期保險(第4次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204291MZ2AFXC22A11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204291MZ2AFXC22A11Z10000004",
+          "name": "國泰人壽樂活平安定期保險(第4次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第1100120714號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:22:36+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204291MZ2AFXC22A11Z10000004",
+            "name": "國泰人壽樂活平安定期保險(第4次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第1100120714號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:22:36+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/accident/FXC.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10442",
+      "name": "國泰人壽真漾心安住院醫療終身保險(外溢型)(第11次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204311MZ1BAGA23A11E10000011"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204311MZ1BAGA23A11E10000011",
+          "name": "國泰人壽真漾心安住院醫療終身保險(外溢型)(第11次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "113/11/12,114/02/13",
+          "filing_no": "國壽字第106030536號函備查,金管保壽字第1130432500號函修正,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:20:03+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204311MZ1BAGA23A11E10000011",
+            "name": "國泰人壽真漾心安住院醫療終身保險(外溢型)(第11次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "113/11/12,114/02/13",
+            "filing_no": "國壽字第106030536號函備查,金管保壽字第1130432500號函修正,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:20:03+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/AGH.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10443",
+      "name": "國泰人壽新GO安心保本定期保險(第16次部份變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204121MZ1AUB022A11Z10000016"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204121MZ1AUB022A11Z10000016",
+          "name": "國泰人壽新GO安心保本定期保險(第16次部份變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第96020056號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:20:10+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204121MZ1AUB022A11Z10000016",
+            "name": "國泰人壽新GO安心保本定期保險(第16次部份變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第96020056號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:20:10+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/N66.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10447",
+      "name": "國泰人壽平安保倍定期保險(第6次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204291MZ4GFXA22A11Z10000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204291MZ4GFXA22A11Z10000006",
+          "name": "國泰人壽平安保倍定期保險(第6次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第110020016號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:20:09+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204291MZ4GFXA22A11Z10000006",
+            "name": "國泰人壽平安保倍定期保險(第6次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第110020016號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:20:09+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/accident/FXD.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10454",
+      "name": "國泰人壽意萬平安傷害暨兒童意外骨折定期保險(第2次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204291MZ2AN6522A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204291MZ2AN6522A11Z10000002",
+          "name": "國泰人壽意萬平安傷害暨兒童意外骨折定期保險(第2次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第1110090697號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:22:37+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204291MZ2AN6522A11Z10000002",
+            "name": "國泰人壽意萬平安傷害暨兒童意外骨折定期保險(第2次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第1110090697號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:22:37+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/accident/N65.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10455",
+      "name": "國泰人壽真心安住院醫療終身保險(外溢型)(第17次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204311MZ1BL5023A11E10000017"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204311MZ1BL5023A11E10000017",
+          "name": "國泰人壽真心安住院醫療終身保險(外溢型)(第17次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "113/11/12,114/02/13",
+          "filing_no": "國壽字第101070003號函備查,金管保壽字第1130432500號函修正,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:16:37+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204311MZ1BL5023A11E10000017",
+            "name": "國泰人壽真心安住院醫療終身保險(外溢型)(第17次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "113/11/12,114/02/13",
+            "filing_no": "國壽字第101070003號函備查,金管保壽字第1130432500號函修正,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:16:37+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/FV7.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10457",
+      "name": "國泰人壽新GO心保障100定期壽險(第19次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MZ2AQC022A11Z10000019"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204131MZ2AQC022A11Z10000019",
+          "name": "國泰人壽新GO心保障100定期壽險(第19次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第91110418號函核備,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:20:07+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204131MZ2AQC022A11Z10000019",
+            "name": "國泰人壽新GO心保障100定期壽險(第19次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第91110418號函核備,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:20:07+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/K84K93.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10462",
+      "name": "國泰人壽真安安醫療終身保險(外溢型)(第7次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204311MZ1BJW023A11E10000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204311MZ1BJW023A11E10000007",
+          "name": "國泰人壽真安安醫療終身保險(外溢型)(第7次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "113/11/12,114/02/13",
+          "filing_no": "國壽字第108120204號函備查,金管保壽字第1130432500號函修正,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:15:26+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204311MZ1BJW023A11E10000007",
+            "name": "國泰人壽真安安醫療終身保險(外溢型)(第7次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "113/11/12,114/02/13",
+            "filing_no": "國壽字第108120204號函備查,金管保壽字第1130432500號函修正,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:15:26+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/JW4.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10467",
+      "name": "國泰人壽享醫靠醫療終身保險(第1次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204311MZ1BJWH23A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204311MZ1BJWH23A11Z10000001",
+          "name": "國泰人壽享醫靠醫療終身保險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "113/11/12,114/02/13",
+          "filing_no": "國壽字第1130080979號函備查,金管保壽字1130432500號函修正,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:22:39+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204311MZ1BJWH23A11Z10000001",
+            "name": "國泰人壽享醫靠醫療終身保險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "113/11/12,114/02/13",
+            "filing_no": "國壽字第1130080979號函備查,金管保壽字1130432500號函修正,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:22:39+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/JWH.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10473",
+      "name": "國泰人壽展望年年利率變動型終身保險(第1次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204121MA1AWUY23A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204121MA1AWUY23A11Z10000001",
+          "name": "國泰人壽展望年年利率變動型終身保險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第1120090004號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:22:40+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204121MA1AWUY23A11Z10000001",
+            "name": "國泰人壽展望年年利率變動型終身保險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第1120090004號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:22:40+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/WUY.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10477",
+      "name": "國泰人壽年年佳鑫利率變動型終身保險(第1次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204121MA1AWUX23A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204121MA1AWUX23A11Z10000001",
+          "name": "國泰人壽年年佳鑫利率變動型終身保險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第1120030004號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:22:41+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204121MA1AWUX23A11Z10000001",
+            "name": "國泰人壽年年佳鑫利率變動型終身保險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第1120030004號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:22:41+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/WUX.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10480",
+      "name": "國泰人壽真康順手術醫療終身保險(外溢型)(第16次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204391MZ9BL6023A11E10000016"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204391MZ9BL6023A11E10000016",
+          "name": "國泰人壽真康順手術醫療終身保險(外溢型)(第16次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "113/11/12,114/02/13",
+          "filing_no": "國壽字第101070004號函備查,金管保壽字第1130432500號函修正,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:15:31+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204391MZ9BL6023A11E10000016",
+            "name": "國泰人壽真康順手術醫療終身保險(外溢型)(第16次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "113/11/12,114/02/13",
+            "filing_no": "國壽字第101070004號函備查,金管保壽字第1130432500號函修正,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:15:31+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/L66.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10482",
+      "name": "國泰人壽新鍾心滿福重大傷病定期保險(外溢型)(第4次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204391MZ9BZCN22A11E10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204391MZ9BZCN22A11E10000004",
+          "name": "國泰人壽新鍾心滿福重大傷病定期保險(外溢型)(第4次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "113/11/12,114/02/13",
+          "filing_no": "國壽字第1120080508號函備查,金管保壽字第1130432500號函修正,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:15:22+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204391MZ9BZCN22A11E10000004",
+            "name": "國泰人壽新鍾心滿福重大傷病定期保險(外溢型)(第4次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "113/11/12,114/02/13",
+            "filing_no": "國壽字第1120080508號函備查,金管保壽字第1130432500號函修正,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:15:22+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/ZCO.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10488",
+      "name": "國泰人壽悠享年年終身保險(第1次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204121MZ1ACP123A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204121MZ1ACP123A11Z10000001",
+          "name": "國泰人壽悠享年年終身保險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第1120100813號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:22:43+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204121MZ1ACP123A11Z10000001",
+            "name": "國泰人壽悠享年年終身保險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第1120100813號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:22:43+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/CP1CP2CP3.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10490",
+      "name": "國泰人壽定期壽險(GL)(第13次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MZ1AGL822A11Z10000013"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204131MZ1AGL822A11Z10000013",
+          "name": "國泰人壽定期壽險(GL)(第13次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國寶商字第098083號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:20:06+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204131MZ1AGL822A11Z10000013",
+            "name": "國泰人壽定期壽險(GL)(第13次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國寶商字第098083號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:20:06+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/TC1.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10494",
+      "name": "國泰人壽IN享愛定期壽險（外溢型）(第2次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MZ1ADX422A11E10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204131MZ1ADX422A11E10000002",
+          "name": "國泰人壽IN享愛定期壽險（外溢型）(第2次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第1110040290號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:22:44+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204131MZ1ADX422A11E10000002",
+            "name": "國泰人壽IN享愛定期壽險（外溢型）(第2次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第1110040290號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:22:44+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10498",
+      "name": "國泰人壽自由配一年定期身故及完全失能壽險(第2次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MZ1ACFA21A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204131MZ1ACFA21A11Z10000002",
+          "name": "國泰人壽自由配一年定期身故及完全失能壽險(第2次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第1100081186號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:22:46+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204131MZ1ACFA21A11Z10000002",
+            "name": "國泰人壽自由配一年定期身故及完全失能壽險(第2次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第1100081186號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:22:46+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/CFA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10499",
+      "name": "國泰人壽鑫得利利率變動型終身壽險(第1次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MA1AWSJ23A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204131MA1AWSJ23A11Z10000001",
+          "name": "國泰人壽鑫得利利率變動型終身壽險(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第1120111043號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:22:47+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204131MA1AWSJ23A11Z10000001",
+            "name": "國泰人壽鑫得利利率變動型終身壽險(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第1120111043號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:22:47+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/WSJWSK.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10509",
+      "name": "國泰人壽旭滿鑫利率變動型終身壽險（定期給付型）(第1次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MA1AWSH23A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204131MA1AWSH23A11Z10000001",
+          "name": "國泰人壽旭滿鑫利率變動型終身壽險（定期給付型）(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第1120060060號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:22:49+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204131MA1AWSH23A11Z10000001",
+            "name": "國泰人壽旭滿鑫利率變動型終身壽險（定期給付型）(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第1120060060號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:22:49+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/WSHWSI.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10511",
+      "name": "國泰人壽祿利威登利率變動型終身壽險（定期給付型）(第1次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MA1AWAU23A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204131MA1AWAU23A11Z10000001",
+          "name": "國泰人壽祿利威登利率變動型終身壽險（定期給付型）(第1次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第1120110005號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:22:50+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204131MA1AWAU23A11Z10000001",
+            "name": "國泰人壽祿利威登利率變動型終身壽險（定期給付型）(第1次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第1120110005號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:22:50+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/WAU.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10516",
+      "name": "國泰人壽倍心守護公教長期照顧終身健康保險（外溢型）（實物給付型保險商品）(第3次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-02-22",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204366MZ1AZH623A12E10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204366MZ1AZH623A12E10000003",
+          "name": "國泰人壽倍心守護公教長期照顧終身健康保險（外溢型）（實物給付型保險商品）(第3次部分變更)",
+          "sale": "114/02/22",
+          "stop": "未停售",
+          "filing_date": "113/11/12,114/02/13",
+          "filing_no": "國壽字第1110020007號函備查,金管保壽字第1130432500號函修正,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T14:15:04+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204366MZ1AZH623A12E10000003",
+            "name": "國泰人壽倍心守護公教長期照顧終身健康保險（外溢型）（實物給付型保險商品）(第3次部分變更)",
+            "sale": "114/02/22",
+            "stop": "未停售",
+            "filing_date": "113/11/12,114/02/13",
+            "filing_no": "國壽字第1110020007號函備查,金管保壽字第1130432500號函修正,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T14:15:04+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/ZH8.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-02-22",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01203",
+      "name": "一年定期住院醫療費用保險附約(113)",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218311RZ1A00521A11Z10000018"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218311RZ1A00521A11Z10000018",
+          "name": "安聯人壽一年定期住院醫療費用保險附約(113)(第18次部分變更)",
+          "sale": "113/09/25",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台財保字第851829113號函核准,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:36:25+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218311RZ1A00521A11Z10000018",
+            "name": "安聯人壽一年定期住院醫療費用保險附約(113)(第18次部分變更)",
+            "sale": "113/09/25",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台財保字第851829113號函核准,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:36:25+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01204",
+      "name": "一年定期癌症照護健康保險附約(109)",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218321RZ1A00821A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218321RZ1A00821A11Z10000005",
+          "name": "安聯人壽一年定期癌症照護健康保險附約(109)(第5次部分變更)",
+          "sale": "113/09/25",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第10710145號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:36:27+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218321RZ1A00821A11Z10000005",
+            "name": "安聯人壽一年定期癌症照護健康保險附約(109)(第5次部分變更)",
+            "sale": "113/09/25",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第10710145號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:36:27+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01205",
+      "name": "一年定期癌症醫療健康保險附約(109)",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218321RZ1A00621A11Z10000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218321RZ1A00621A11Z10000006",
+          "name": "安聯人壽一年定期癌症醫療健康保險附約(109)(第6次部分變更)",
+          "sale": "113/09/25",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第1030323號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:36:27+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218321RZ1A00621A11Z10000006",
+            "name": "安聯人壽一年定期癌症醫療健康保險附約(109)(第6次部分變更)",
+            "sale": "113/09/25",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第1030323號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:36:27+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01206",
+      "name": "一年定期重大疾病暨特定傷病健康保險附約(109)",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218351RZ1A00321A11Z10000011"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218351RZ1A00321A11Z10000011",
+          "name": "安聯人壽一年定期重大疾病暨特定傷病健康保險附約(109)(第11次部分變更)",
+          "sale": "113/09/25",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第981279號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:36:28+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218351RZ1A00321A11Z10000011",
+            "name": "安聯人壽一年定期重大疾病暨特定傷病健康保險附約(109)(第11次部分變更)",
+            "sale": "113/09/25",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第981279號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:36:28+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01208",
+      "name": "安勝人生癌症定期健康保險",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-05-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218321MZ1A00222A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218321MZ1A00222A11Z10000000",
+          "name": "安聯人壽安勝人生癌症定期健康保險",
+          "sale": "114/05/15",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總商字第1140317002號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:36:33+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218321MZ1A00222A11Z10000000",
+            "name": "安聯人壽安勝人生癌症定期健康保險",
+            "sale": "114/05/15",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總商字第1140317002號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:36:33+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-05-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01209",
+      "name": "安心Go海外突發疾病醫療健康保險附約",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218311AZ1A00121A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218311AZ1A00121A11Z10000005",
+          "name": "安聯人壽安心Go海外突發疾病醫療健康保險附約(第5次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第10807064號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:36:34+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218311AZ1A00121A11Z10000005",
+            "name": "安聯人壽安心Go海外突發疾病醫療健康保險附約(第5次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第10807064號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:36:34+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01210",
+      "name": "安心寶重大疾病暨特定傷病健康保險附約(109)",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218351RZ1A00521A11Z10000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218351RZ1A00521A11Z10000007",
+          "name": "安聯人壽安心寶重大疾病暨特定傷病健康保險附約(109)(第7次部分變更)",
+          "sale": "113/09/25",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第10504006號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:36:36+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218351RZ1A00521A11Z10000007",
+            "name": "安聯人壽安心寶重大疾病暨特定傷病健康保險附約(109)(第7次部分變更)",
+            "sale": "113/09/25",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第10504006號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:36:36+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01211",
+      "name": "安心智在認知照護健康保險附約",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218391RZ1A00321A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218391RZ1A00321A11Z10000005",
+          "name": "安聯人壽安心智在認知照護健康保險附約(第5次部分變更)",
+          "sale": "113/09/25",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第11003004號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:36:38+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218391RZ1A00321A11Z10000005",
+            "name": "安聯人壽安心智在認知照護健康保險附約(第5次部分變更)",
+            "sale": "113/09/25",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第11003004號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:36:38+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01212",
+      "name": "安聯人壽寶滿滿重大傷病健康保險",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218391MZ9B01022A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218391MZ9B01022A11Z10000003",
+          "name": "安聯人壽寶滿滿重大傷病健康保險(第3次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第11108409號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T13:06:02+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218391MZ9B01022A11Z10000003",
+            "name": "安聯人壽寶滿滿重大傷病健康保險(第3次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第11108409號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T13:06:02+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01213",
+      "name": "寶安康終身健康保險",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218311MZ1B00323A11Z10000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218311MZ1B00323A11Z10000007",
+          "name": "安聯人壽寶安康終身健康保險(第7次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第10811307號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:36:39+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218311MZ1B00323A11Z10000007",
+            "name": "安聯人壽寶安康終身健康保險(第7次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第10811307號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:36:39+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01214",
+      "name": "寶安心手術終身健康保險",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218311MZ1B00423A11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218311MZ1B00423A11Z10000004",
+          "name": "安聯人壽寶安心手術終身健康保險(第4次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第11102340號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:36:41+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218311MZ1B00423A11Z10000004",
+            "name": "安聯人壽寶安心手術終身健康保險(第4次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第11102340號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:36:41+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01215",
+      "name": "寶滿分重大傷病健康保險附約",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218391RZ1A00521A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218391RZ1A00521A11Z10000002",
+          "name": "安聯人壽寶滿分重大傷病健康保險附約(第2次部分變更)",
+          "sale": "113/09/25",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第11210493號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:36:45+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218391RZ1A00521A11Z10000002",
+            "name": "安聯人壽寶滿分重大傷病健康保險附約(第2次部分變更)",
+            "sale": "113/09/25",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第11210493號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:36:45+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01216",
+      "name": "寶珍多重大疾病暨特定傷病健康保險",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218351MZ9B00122A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218351MZ9B00122A11Z10000003",
+          "name": "安聯人壽寶珍多重大疾病暨特定傷病健康保險(第3次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第11010196號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:36:46+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218351MZ9B00122A11Z10000003",
+            "name": "安聯人壽寶珍多重大疾病暨特定傷病健康保險(第3次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第11010196號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:36:46+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01218",
+      "name": "愛馨守護健康保險附約",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-04-23",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218311RZ1A00721A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218311RZ1A00721A11Z10000001",
+          "name": "安聯人壽愛馨守護健康保險附約(第1次部分變更)",
+          "sale": "115/04/23",
+          "stop": "未停售",
+          "filing_date": "115/04/23",
+          "filing_no": "安總商字第1140903002號函備查,安總商字第1150409003號函修訂備查",
+          "at": "2026-11-26T12:37:00+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218311RZ1A00721A11Z10000001",
+            "name": "安聯人壽愛馨守護健康保險附約(第1次部分變更)",
+            "sale": "115/04/23",
+            "stop": "未停售",
+            "filing_date": "115/04/23",
+            "filing_no": "安總商字第1140903002號函備查,安總商字第1150409003號函修訂備查",
+            "at": "2026-11-26T12:37:00+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-04-23",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01220",
+      "name": "新一年定期癌症健康保險附約(109)",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218321RZ1A00721A11Z10000008"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218321RZ1A00721A11Z10000008",
+          "name": "安聯人壽新一年定期癌症健康保險附約(109)(第8次部分變更)",
+          "sale": "113/09/25",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第1040665號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:37:07+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218321RZ1A00721A11Z10000008",
+            "name": "安聯人壽新一年定期癌症健康保險附約(109)(第8次部分變更)",
+            "sale": "113/09/25",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第1040665號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:37:07+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01221",
+      "name": "新一年定期重大疾病健康保險附約（乙型）(109)",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218351RZ1A00421A11Z10000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218351RZ1A00421A11Z10000006",
+          "name": "安聯人壽新一年定期重大疾病健康保險附約(乙型)(109)(第6次部分變更)",
+          "sale": "113/09/25",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第10503073號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:37:09+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218351RZ1A00421A11Z10000006",
+            "name": "安聯人壽新一年定期重大疾病健康保險附約(乙型)(109)(第6次部分變更)",
+            "sale": "113/09/25",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第10503073號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:37:09+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01222",
+      "name": "新安心豁免保險費健康保險附約",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218341RZ1A00321A11Z10000013"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218341RZ1A00321A11Z10000013",
+          "name": "安聯人壽新安心豁免保險費健康保險附約(第13次部分變更)",
+          "sale": "113/09/25",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第971277號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:37:15+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218341RZ1A00321A11Z10000013",
+            "name": "安聯人壽新安心豁免保險費健康保險附約(第13次部分變更)",
+            "sale": "113/09/25",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第971277號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:37:15+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01223",
+      "name": "新安逸豁免保險費健康保險附約",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218341RZ1A00421A11Z10000013"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218341RZ1A00421A11Z10000013",
+          "name": "安聯人壽新安逸豁免保險費健康保險附約(第13次部分變更)",
+          "sale": "113/09/25",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第971278號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:37:17+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218341RZ1A00421A11Z10000013",
+            "name": "安聯人壽新安逸豁免保險費健康保險附約(第13次部分變更)",
+            "sale": "113/09/25",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第971278號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:37:17+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01226",
+      "name": "珍愛馨癌症定期健康保險",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-04-23",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218321MZ1A00322A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218321MZ1A00322A11Z10000001",
+          "name": "安聯人壽珍愛馨癌症定期健康保險(第1次部分變更)",
+          "sale": "115/04/23",
+          "stop": "未停售",
+          "filing_date": "115/04/23",
+          "filing_no": "安總商字第1140903001號函備查,安總商字第1150409002號函修訂備查",
+          "at": "2026-11-26T12:37:30+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218321MZ1A00322A11Z10000001",
+            "name": "安聯人壽珍愛馨癌症定期健康保險(第1次部分變更)",
+            "sale": "115/04/23",
+            "stop": "未停售",
+            "filing_date": "115/04/23",
+            "filing_no": "安總商字第1140903001號函備查,安總商字第1150409002號函修訂備查",
+            "at": "2026-11-26T12:37:30+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-04-23",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01227",
+      "name": "術術安健康保險附約",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-12-31",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218311RZ1A00821A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218311RZ1A00821A11Z10000000",
+          "name": "安聯人壽術術安健康保險附約",
+          "sale": "114/12/31",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總商字第1141112001號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:37:32+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218311RZ1A00821A11Z10000000",
+            "name": "安聯人壽術術安健康保險附約",
+            "sale": "114/12/31",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總商字第1141112001號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:37:32+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-12-31",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01228",
+      "name": "要保人豁免保險費健康保險附約",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-02-09",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218341RZ1A00522A11Z10000011"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218341RZ1A00522A11Z10000011",
+          "name": "安聯人壽要保人豁免保險費健康保險附約(第11次部分變更)",
+          "sale": "112/02/09",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第971580號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:37:38+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218341RZ1A00522A11Z10000011",
+            "name": "安聯人壽要保人豁免保險費健康保險附約(第11次部分變更)",
+            "sale": "112/02/09",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第971580號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:37:38+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2023-02-09",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01229",
+      "name": "重大疾病及二至六級失能豁免保險費附約",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2023-02-09",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218341RZ1A00122A11Z10000018"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218341RZ1A00122A11Z10000018",
+          "name": "安聯人壽重大疾病及二至六級失能豁免保險費附約(第18次部分變更)",
+          "sale": "112/02/09",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台財保字第871842086號函核准,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:37:39+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218341RZ1A00122A11Z10000018",
+            "name": "安聯人壽重大疾病及二至六級失能豁免保險費附約(第18次部分變更)",
+            "sale": "112/02/09",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台財保字第871842086號函核准,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:37:39+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2023-02-09",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01230",
+      "name": "意起平安傷害暨兒童傷害失能保險",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-03-31",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218211MZ1A00322A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218211MZ1A00322A11Z10000000",
+          "name": "安聯人壽意起平安傷害暨兒童傷害失能保險",
+          "sale": "114/03/31",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總商字第1140213001號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:37:46+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218211MZ1A00322A11Z10000000",
+            "name": "安聯人壽意起平安傷害暨兒童傷害失能保險",
+            "sale": "114/03/31",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總商字第1140213001號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:37:46+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-03-31",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01231",
+      "name": "新意外傷害保險附約",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218211RZ1A00721A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218211RZ1A00721A11Z10000003",
+          "name": "安聯人壽新意外傷害保險附約(第3次部分變更)",
+          "sale": "113/09/25",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第11012301號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:37:47+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218211RZ1A00721A11Z10000003",
+            "name": "安聯人壽新意外傷害保險附約(第3次部分變更)",
+            "sale": "113/09/25",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第11012301號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:37:47+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01232",
+      "name": "新意外傷害醫療保險附約(住院日額型)",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218211RZ1A00621A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218211RZ1A00621A11Z10000003",
+          "name": "安聯人壽新意外傷害醫療保險附約(住院日額型)(第3次部分變更)",
+          "sale": "113/09/25",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第11012302號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:37:54+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218211RZ1A00621A11Z10000003",
+            "name": "安聯人壽新意外傷害醫療保險附約(住院日額型)(第3次部分變更)",
+            "sale": "113/09/25",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第11012302號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:37:54+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01233",
+      "name": "新意外傷害醫療保險附約(限額實支實付型)(113)",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-12-31",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218211RZ1A00821A11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218211RZ1A00821A11Z10000004",
+          "name": "安聯人壽新意外傷害醫療保險附約(限額實支實付型)(113)(第4次部分變更)",
+          "sale": "114/12/31",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第11102267號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:37:56+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218211RZ1A00821A11Z10000004",
+            "name": "安聯人壽新意外傷害醫療保險附約(限額實支實付型)(113)(第4次部分變更)",
+            "sale": "114/12/31",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第11102267號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:37:56+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-12-31",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01234",
+      "name": "重大燒燙傷傷害醫療保險附約",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218291RZ1A00121A11Z10000009"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218291RZ1A00121A11Z10000009",
+          "name": "安聯人壽重大燒燙傷傷害醫療保險附約(第9次部分變更)",
+          "sale": "113/09/25",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第971279號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:38:01+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218291RZ1A00121A11Z10000009",
+            "name": "安聯人壽重大燒燙傷傷害醫療保險附約(第9次部分變更)",
+            "sale": "113/09/25",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第971279號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:38:01+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01236",
+      "name": "長青守護傷害保險",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-05-15",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218211MZ1A00422A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218211MZ1A00422A11Z10000000",
+          "name": "安聯人壽長青守護傷害保險",
+          "sale": "115/05/15",
+          "stop": "未停售",
+          "filing_date": "115/05/15",
+          "filing_no": "安總商字第1150326001號函備查",
+          "at": "2026-11-26T12:38:08+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218211MZ1A00422A11Z10000000",
+            "name": "安聯人壽長青守護傷害保險",
+            "sale": "115/05/15",
+            "stop": "未停售",
+            "filing_date": "115/05/15",
+            "filing_no": "安總商字第1150326001號函備查",
+            "at": "2026-11-26T12:38:08+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-05-15",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01237",
+      "name": "骨力強傷害醫療保險附約",
+      "insurer": "安聯人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=218211RZ1A00321A11Z10000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "218211RZ1A00321A11Z10000006",
+          "name": "安聯人壽骨力強傷害醫療保險附約(第6次部分變更)",
+          "sale": "113/09/25",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安總字第1031495號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+          "at": "2026-11-26T12:38:10+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "218211RZ1A00321A11Z10000006",
+            "name": "安聯人壽骨力強傷害醫療保險附約(第6次部分變更)",
+            "sale": "113/09/25",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安總字第1031495號函備查,依114年02月13日金管保壽字第11404900043號函逕行修訂",
+            "at": "2026-11-26T12:38:10+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-09-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    }
+  ]
+}
