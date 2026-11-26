@@ -5,7 +5,7 @@
   "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
   "scope": "同上，第 219–309 筆（本類最後一批）",
   "gpt_claimed_ids_excluded": true,
-  "integration_status": "待整合",
+  "integration_status": "已核實項目已上線（待核對項目已移交 GPT，仍為 pending）",
   "product_data_changed": false,
   "method": [
     "保發中心：life_rows.tsv 壽險全表快取（2026-11-08）取同名商品系列全部版本之銷售日／停售日；同系列有詳細頁快取（2026-11-11）者取原始備查文號比對。此全表快取有部分版本缺漏，找不到對應版本者一律移交。",
@@ -18,7 +18,8 @@
     "已核實": 38,
     "total": 91,
     "items_with_proposed_changes": 38,
-    "status_changes_proposed": 0
+    "status_changes_proposed": 0,
+    "live_applied": 38
   },
   "items": [
     {
@@ -82,7 +83,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=HU3&termsKind=C",
         "fetched_at": "2026-11-26T10:08:12+08:00",
@@ -129,7 +130,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02442",
@@ -141,7 +148,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=HU2&termsKind=C",
         "fetched_at": "2026-11-26T10:08:13+08:00",
@@ -195,7 +202,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02443",
@@ -207,7 +220,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=FZ6&termsKind=C",
         "fetched_at": "2026-11-26T10:08:12+08:00",
@@ -290,7 +303,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02444",
@@ -302,7 +321,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=FG6&termsKind=C",
         "fetched_at": "2026-11-26T10:08:11+08:00",
@@ -416,7 +435,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02449",
@@ -551,7 +576,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=FX8&termsKind=C",
         "fetched_at": "2026-11-26T10:08:14+08:00",
@@ -677,7 +702,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02452",
@@ -899,7 +930,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FZ4&termsKind=C",
         "fetched_at": "2026-11-26T10:08:14+08:00",
@@ -977,7 +1008,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02456",
@@ -989,7 +1026,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FZ5&termsKind=C",
         "fetched_at": "2026-11-26T10:08:14+08:00",
@@ -1066,7 +1103,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02460",
@@ -2298,7 +2341,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FS34&termsKind=C",
         "fetched_at": "2026-11-26T10:08:19+08:00",
@@ -2387,7 +2430,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02491",
@@ -2399,7 +2448,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FN17&termsKind=C",
         "fetched_at": "2026-11-26T10:08:19+08:00",
@@ -2500,7 +2549,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02492",
@@ -2512,7 +2567,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FN2&termsKind=C",
         "fetched_at": "2026-11-26T10:08:19+08:00",
@@ -2614,7 +2669,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02493",
@@ -2626,7 +2687,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FN3&termsKind=C",
         "fetched_at": "2026-11-26T10:08:19+08:00",
@@ -2728,7 +2789,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02494",
@@ -3112,7 +3179,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FK3&termsKind=C",
         "fetched_at": "2026-11-26T10:08:21+08:00",
@@ -3244,7 +3311,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02498",
@@ -3256,7 +3329,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FK46&termsKind=C",
         "fetched_at": "2026-11-26T10:08:23+08:00",
@@ -3387,7 +3460,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02499",
@@ -3399,7 +3478,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FK6&termsKind=C",
         "fetched_at": "2026-11-26T10:08:24+08:00",
@@ -3531,7 +3610,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02500",
@@ -3891,7 +3976,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FWZS07&termsKind=C",
         "fetched_at": "2026-11-26T10:08:25+08:00",
@@ -3937,7 +4022,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02511",
@@ -3949,7 +4040,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FU4&termsKind=C",
         "fetched_at": "2026-11-26T10:08:25+08:00",
@@ -4003,7 +4094,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02512",
@@ -4015,7 +4112,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FWN&termsKind=C",
         "fetched_at": "2026-11-26T10:08:25+08:00",
@@ -4067,7 +4164,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02513",
@@ -4079,7 +4182,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FWW&termsKind=C",
         "fetched_at": "2026-11-26T10:08:25+08:00",
@@ -4133,7 +4236,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02517",
@@ -4445,7 +4554,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FT46&termsKind=C",
         "fetched_at": "2026-11-26T10:08:26+08:00",
@@ -4553,7 +4662,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02521",
@@ -5069,7 +5184,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FX56&termsKind=C",
         "fetched_at": "2026-11-26T10:08:29+08:00",
@@ -5182,7 +5297,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02528",
@@ -5194,7 +5315,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23UF1&termsKind=C",
         "fetched_at": "2026-11-26T10:08:28+08:00",
@@ -5240,7 +5361,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02529",
@@ -5835,7 +5962,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=NJC&termsKind=C",
         "fetched_at": "2026-11-26T10:08:31+08:00",
@@ -5895,7 +6022,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02563",
@@ -5907,7 +6040,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=NAD&termsKind=C",
         "fetched_at": "2026-11-26T10:08:33+08:00",
@@ -5961,7 +6094,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02564",
@@ -5973,7 +6112,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=NAE&termsKind=C",
         "fetched_at": "2026-11-26T10:08:33+08:00",
@@ -6027,7 +6166,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02569",
@@ -6039,7 +6184,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23VD14&termsKind=C",
         "fetched_at": "2026-11-26T10:08:32+08:00",
@@ -6123,7 +6268,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02575",
@@ -6135,7 +6286,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=VH2S&termsKind=C",
         "fetched_at": "2026-11-26T10:08:36+08:00",
@@ -6201,7 +6352,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02578",
@@ -6213,7 +6370,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=VF2S&termsKind=C",
         "fetched_at": "2026-11-26T10:08:36+08:00",
@@ -6272,7 +6429,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02581",
@@ -6284,7 +6447,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=VUL-&termsKind=C",
         "fetched_at": "2026-11-26T10:08:38+08:00",
@@ -6734,7 +6897,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02589",
@@ -6746,7 +6915,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23VUL_1021009&termsKind=C",
         "fetched_at": "2026-11-26T10:08:34+08:00",
@@ -7196,7 +7365,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02592",
@@ -7208,7 +7383,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23VB2&termsKind=C",
         "fetched_at": "2026-11-26T10:08:34+08:00",
@@ -7340,7 +7515,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02593",
@@ -7486,7 +7667,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=ZA2&termsKind=C",
         "fetched_at": "2026-11-26T10:08:36+08:00",
@@ -7563,7 +7744,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02601",
@@ -7575,7 +7762,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=JG5&termsKind=C",
         "fetched_at": "2026-11-26T10:08:37+08:00",
@@ -7676,7 +7863,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02620",
@@ -7688,7 +7881,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=JQ2&termsKind=C",
         "fetched_at": "2026-11-26T10:08:37+08:00",
@@ -7747,7 +7940,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02623",
@@ -7759,7 +7958,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=DL2&termsKind=C",
         "fetched_at": "2026-11-26T10:08:38+08:00",
@@ -7837,7 +8036,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02633",
@@ -7849,7 +8054,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=ZX1&termsKind=C",
         "fetched_at": "2026-11-26T10:08:38+08:00",
@@ -7902,7 +8107,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02634",
@@ -7914,7 +8125,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=FA5&termsKind=C",
         "fetched_at": "2026-11-26T10:08:39+08:00",
@@ -7997,7 +8208,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02637",
@@ -8009,7 +8226,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=FM9&termsKind=C",
         "fetched_at": "2026-11-26T10:08:38+08:00",
@@ -8111,7 +8328,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02639",
@@ -8123,7 +8346,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=FL9&termsKind=C",
         "fetched_at": "2026-11-26T10:08:39+08:00",
@@ -8231,7 +8454,13 @@
         "sale_date",
         "stop_date"
       ],
-      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。"
+      "date_basis": "販售日／停售日取自保發中心列表該版本「銷售日」「停售日」；官網條款以商品名稱、保發中心原始備查文號，以及條款最新備查/修正日期等於該版本銷售日，確認為同一版本。備查/修正日期本身不作為販售日。",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "02644",
@@ -8278,5 +8507,12 @@
       "proposed": null,
       "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json）"
     }
-  ]
+  ],
+  "integrated": {
+    "count": 38,
+    "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+    "pages_build": "built",
+    "live_verified_at": "2026-11-26T10:17:27+08:00",
+    "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+  }
 }

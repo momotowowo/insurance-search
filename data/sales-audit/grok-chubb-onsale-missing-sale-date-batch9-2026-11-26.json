@@ -5,7 +5,7 @@
   "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
   "scope": "安達國際人壽現售缺販售日，有保發中心詳細頁快取者（94 筆）ID 排序後 44 筆",
   "gpt_claimed_ids_excluded": true,
-  "integration_status": "待整合",
+  "integration_status": "已核實項目已上線（待核對項目已移交 GPT，仍為 pending）",
   "product_data_changed": false,
   "method": [
     "保發中心：同名未停售版本之詳細頁快取（安達現售附約抓取，2026-11）讀取銷售日、停售日、核准文號；列表快取 life_rows.tsv（2026-11-08）。",
@@ -17,7 +17,8 @@
     "待核對": 3,
     "total": 44,
     "items_with_proposed_changes": 41,
-    "status_changes_proposed": 0
+    "status_changes_proposed": 0,
+    "live_applied": 41
   },
   "items": [
     {
@@ -30,7 +31,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/xing-man-yi-zu-ul.html",
         "fetched_at": "2026-11-26T10:12:35+08:00",
@@ -74,7 +75,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01579",
@@ -86,7 +93,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/zhi-hui-ying-jia-foreign-currency-ul.html",
         "fetched_at": "2026-11-26T10:12:35+08:00",
@@ -130,7 +137,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01580",
@@ -142,7 +155,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/zhi-hui-ying-jia-ul.html",
         "fetched_at": "2026-11-26T10:12:35+08:00",
@@ -186,7 +199,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01581",
@@ -198,7 +217,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/zhi-fu-ying-jia-foreign-currency-ul.html",
         "fetched_at": "2026-11-26T10:12:36+08:00",
@@ -242,7 +261,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01582",
@@ -254,7 +279,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/zhi-fu-ying-jia-ul.html",
         "fetched_at": "2026-11-26T10:12:37+08:00",
@@ -298,7 +323,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01584",
@@ -310,7 +341,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/hou-li-99-ul.html",
         "fetched_at": "2026-11-26T10:12:37+08:00",
@@ -354,7 +385,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01585",
@@ -366,7 +403,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/wun-fu-ying-jia-foreign-currency-ul.html",
         "fetched_at": "2026-11-26T10:12:37+08:00",
@@ -410,7 +447,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01586",
@@ -422,7 +465,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/wun-fu-ying-jia-ul.html",
         "fetched_at": "2026-11-26T10:12:38+08:00",
@@ -466,7 +509,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01589",
@@ -478,7 +527,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/cai-hua-ying-xin-foreign-currency-ul.html",
         "fetched_at": "2026-11-26T10:12:38+08:00",
@@ -522,7 +571,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01591",
@@ -534,7 +589,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/jin-de-yi-foreign-currency-ul.html",
         "fetched_at": "2026-11-26T10:12:39+08:00",
@@ -578,7 +633,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01592",
@@ -590,7 +651,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/jin-de-yi-ul.html",
         "fetched_at": "2026-11-26T10:12:39+08:00",
@@ -634,7 +695,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01593",
@@ -646,7 +713,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/xin-li-100-foreign-currency-ul.html",
         "fetched_at": "2026-11-26T10:12:39+08:00",
@@ -689,7 +756,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01594",
@@ -732,7 +805,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ten-sheng-ying-jia-foreign-currency-ul.html",
         "fetched_at": "2026-11-26T10:12:40+08:00",
@@ -777,7 +850,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01596",
@@ -789,7 +868,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ten-sheng-ying-jia-ul.html",
         "fetched_at": "2026-11-26T10:12:40+08:00",
@@ -834,7 +913,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01597",
@@ -846,7 +931,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/hong-li-xin-xi-foreign-currency-ul.html",
         "fetched_at": "2026-11-26T10:12:40+08:00",
@@ -890,7 +975,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01598",
@@ -902,7 +993,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/hong-li-xin-xi-ul.html",
         "fetched_at": "2026-11-26T10:12:41+08:00",
@@ -946,7 +1037,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01599",
@@ -958,7 +1055,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/an-xin-xiang-fu-foreign-currency-va.html",
         "fetched_at": "2026-11-26T10:12:41+08:00",
@@ -1002,7 +1099,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01600",
@@ -1014,7 +1117,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/an-xin-xiang-fu-va.html",
         "fetched_at": "2026-11-26T10:12:42+08:00",
@@ -1058,7 +1161,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01603",
@@ -1070,7 +1179,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/you-yue-foreign-currency-va.html",
         "fetched_at": "2026-11-26T10:12:42+08:00",
@@ -1115,7 +1224,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01604",
@@ -1127,7 +1242,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/you-yueva.html",
         "fetched_at": "2026-11-26T10:12:43+08:00",
@@ -1172,7 +1287,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01605",
@@ -1184,7 +1305,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/ten-sheng-ying-jia-plus-foreign-currency-va.html",
         "fetched_at": "2026-11-26T10:12:43+08:00",
@@ -1229,7 +1350,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01606",
@@ -1273,7 +1400,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/ho-de-li-foreign-currency-va.html",
         "fetched_at": "2026-11-26T10:12:44+08:00",
@@ -1318,7 +1445,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01608",
@@ -1330,7 +1463,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/ho-de-li-va.html",
         "fetched_at": "2026-11-26T10:12:44+08:00",
@@ -1375,7 +1508,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01609",
@@ -1387,7 +1526,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/da-li-100-foreign-currency-va.html",
         "fetched_at": "2026-11-26T10:12:44+08:00",
@@ -1432,7 +1571,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01610",
@@ -1444,7 +1589,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/da-li-100-va.html",
         "fetched_at": "2026-11-26T10:12:45+08:00",
@@ -1489,7 +1634,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01613",
@@ -1501,7 +1652,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/zhi-biao-ling-hang-foreign-currency-va.html",
         "fetched_at": "2026-11-26T10:12:45+08:00",
@@ -1546,7 +1697,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01615",
@@ -1558,7 +1715,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/ju-bao-pen-usd-currency-va.html",
         "fetched_at": "2026-11-26T10:12:45+08:00",
@@ -1603,7 +1760,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01616",
@@ -1615,7 +1778,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/ju-bao-pen-va.html",
         "fetched_at": "2026-11-26T10:12:45+08:00",
@@ -1660,7 +1823,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01617",
@@ -1672,7 +1841,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/ju-xin-ying-jia-foreign-currency-va.html",
         "fetched_at": "2026-11-26T10:12:45+08:00",
@@ -1717,7 +1886,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01618",
@@ -1729,7 +1904,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/ju-xin-ying-jia-va.html",
         "fetched_at": "2026-11-26T10:12:45+08:00",
@@ -1774,7 +1949,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01619",
@@ -1786,7 +1967,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/xin-xiang-shi-cheng-foreign-currency-va.html",
         "fetched_at": "2026-11-26T10:12:46+08:00",
@@ -1830,7 +2011,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01620",
@@ -1842,7 +2029,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/xin-xiang-shi-cheng-va.html",
         "fetched_at": "2026-11-26T10:12:46+08:00",
@@ -1886,7 +2073,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01621",
@@ -1898,7 +2091,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/he-jia-huan-va.html",
         "fetched_at": "2026-11-26T10:12:46+08:00",
@@ -1943,7 +2136,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01622",
@@ -1955,7 +2154,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/zhi-hui-ying-jia-foreign-currency-va.html",
         "fetched_at": "2026-11-26T10:12:46+08:00",
@@ -1999,7 +2198,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01623",
@@ -2011,7 +2216,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/zhi-hui-ying-jia-va.html",
         "fetched_at": "2026-11-26T10:12:46+08:00",
@@ -2055,7 +2260,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01626",
@@ -2067,7 +2278,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/wun-fu-ying-jia-foreign-currency-va.html",
         "fetched_at": "2026-11-26T10:12:46+08:00",
@@ -2111,7 +2322,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01630",
@@ -2123,7 +2340,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/cai-hua-ying-xin-foreign-currency-va.html",
         "fetched_at": "2026-11-26T10:12:46+08:00",
@@ -2167,7 +2384,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01631",
@@ -2179,7 +2402,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/cai-hua-ying-xin-va.html",
         "fetched_at": "2026-11-26T10:12:47+08:00",
@@ -2223,7 +2446,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01634",
@@ -2235,7 +2464,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/xin-li-100-foreign-currency-va.html",
         "fetched_at": "2026-11-26T10:12:47+08:00",
@@ -2278,7 +2507,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01635",
@@ -2321,7 +2556,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/ten-sheng-ying-jia-foreign-currency-va.html",
         "fetched_at": "2026-11-26T10:12:48+08:00",
@@ -2366,7 +2601,13 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     },
     {
       "product_id": "01637",
@@ -2378,7 +2619,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/ten-sheng-ying-jia-va.html",
         "fetched_at": "2026-11-26T10:12:48+08:00",
@@ -2423,7 +2664,20 @@
         "sale_date"
       ],
       "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
-      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售",
+      "integration": {
+        "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T10:17:27+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+      }
     }
-  ]
+  ],
+  "integrated": {
+    "count": 41,
+    "commit": "99564f4dde190eb2bbdc5b769c9a9a1212477109",
+    "pages_build": "built",
+    "live_verified_at": "2026-11-26T10:17:27+08:00",
+    "live_verification": "線上 product_updates.js（release=sales-20261126-grok1）358 筆之銷售日／停售日／狀態與核實結果逐筆相符；線上頁面載入 44,178 筆並顯示銷售日"
+  }
 }
