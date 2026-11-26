@@ -75,10 +75,1882 @@
       "handed_off": 20,
       "integration_status": "待整合",
       "commit": "d503dca18bcd8f4659c412b9ad302c420becd4c3"
+    },
+    {
+      "batch": 5,
+      "topic": "farglory-discontinued-missing-sale-date",
+      "audit": "data/sales-audit/grok-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+      "handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+      "items": 59,
+      "verified": 16,
+      "handed_off": 43,
+      "integration_status": "待整合",
+      "commit": "d93d52f57a71af633f6d9294862fb4c958d30d34"
+    },
+    {
+      "batch": 6,
+      "topic": "farglory-discontinued-missing-sale-date",
+      "audit": "data/sales-audit/grok-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+      "handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+      "items": 59,
+      "verified": 40,
+      "handed_off": 19,
+      "integration_status": "待整合",
+      "commit": "0e6bc68a9bf9f411d1ff264763d250c8df6957e1"
+    },
+    {
+      "batch": 7,
+      "topic": "farglory-discontinued-missing-sale-date",
+      "audit": "data/sales-audit/grok-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+      "handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+      "items": 91,
+      "verified": 38,
+      "handed_off": 53,
+      "integration_status": "待整合",
+      "commit": "52149ce5ad27af36e7def81866873d8966a5db71"
+    },
+    {
+      "batch": 8,
+      "topic": "chubb-onsale-missing-sale-date",
+      "audit": "data/sales-audit/grok-chubb-onsale-missing-sale-date-batch8-2026-11-26.json",
+      "handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-onsale-missing-sale-date-batch8-2026-11-26.json",
+      "items": 50,
+      "verified": 47,
+      "handed_off": 3,
+      "integration_status": "待整合",
+      "commit": "c1c124529dc68686c332cc3b80933873f3aa0254"
     }
   ],
   "remaining_scope1": {
-    "farglory_discontinued_not_yet_processed": 485,
-    "others": "安達 293、安聯 128、其他公司 45"
+    "遠雄人壽停售_保發中心快取無同名系列": 276,
+    "安達國際人壽現售_有詳細頁快取未處理": 44,
+    "安達國際人壽現售_其他": 18,
+    "安達國際人壽停售": 181,
+    "安聯人壽現售": 128,
+    "其他公司近期新品（快取無資料）": 45
+  },
+  "updated_at": "2026-11-26T10:11:45+08:00",
+  "live_tii_queue": {
+    "note": "Grok 已移交 GPT 之項目中，即時保發中心查詢（需使用者判讀驗證碼）可能解決者；移交狀態仍為 pending，若 GPT 同意由 Grok 以即時查詢處理，須另行記錄",
+    "counts": {
+      "安達國際人壽|likely": 3,
+      "遠雄人壽|likely": 43,
+      "遠雄人壽|possible": 135
+    },
+    "total": 181,
+    "likely": 46,
+    "possible": 135,
+    "items": [
+      {
+        "product_id": "01523",
+        "company": "安達國際人壽",
+        "full_name": "鍾愛意生終身傷害保險",
+        "original_status": "現售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-onsale-missing-sale-date-batch8-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心快取同名未停售版本有 2 個，無法單一對應"
+      },
+      {
+        "product_id": "01548",
+        "company": "安達國際人壽",
+        "full_name": "富貴大贏家變額萬能壽險",
+        "original_status": "現售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-onsale-missing-sale-date-batch8-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心快取同名未停售版本有 2 個，無法單一對應"
+      },
+      {
+        "product_id": "01551",
+        "company": "安達國際人壽",
+        "full_name": "新天生贏家 Plus 變額萬能壽險",
+        "original_status": "現售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-onsale-missing-sale-date-batch8-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心快取同名未停售版本有 2 個，無法單一對應"
+      },
+      {
+        "product_id": "01861",
+        "company": "遠雄人壽",
+        "full_name": "一年定期癌症健康保險(KCC)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 097/01/01 的版本有 0 個"
+      },
+      {
+        "product_id": "01862",
+        "company": "遠雄人壽",
+        "full_name": "住院醫療日額給付保險附約(RHI)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01868",
+        "company": "遠雄人壽",
+        "full_name": "全殘扶助健康保險附約(HD1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01871",
+        "company": "遠雄人壽",
+        "full_name": "全殘扶助健康保險附約(OHL)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01872",
+        "company": "遠雄人壽",
+        "full_name": "全殘扶助健康保險附約(XHL)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01877",
+        "company": "遠雄人壽",
+        "full_name": "守護久久醫療終身保險(HK1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01878",
+        "company": "遠雄人壽",
+        "full_name": "守護久久醫療終身保險(HK2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01880",
+        "company": "遠雄人壽",
+        "full_name": "守護久久醫療終身保險(HK4)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 102/03/01 的版本有 0 個"
+      },
+      {
+        "product_id": "01883",
+        "company": "遠雄人壽",
+        "full_name": "新溫馨終身醫療健康保險附約(HJ1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 099/09/01 的版本有 0 個"
+      },
+      {
+        "product_id": "01885",
+        "company": "遠雄人壽",
+        "full_name": "新癌症終身健康保險(CCB)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01886",
+        "company": "遠雄人壽",
+        "full_name": "新癌症終身健康保險(CD1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01887",
+        "company": "遠雄人壽",
+        "full_name": "新癌症終身健康保險(KCB)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01889",
+        "company": "遠雄人壽",
+        "full_name": "新癌症終身健康保險附約(HG1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01890",
+        "company": "遠雄人壽",
+        "full_name": "新癌症終身健康保險附約(HG2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01891",
+        "company": "遠雄人壽",
+        "full_name": "新癌症終身健康保險附約(XCB)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01895",
+        "company": "遠雄人壽",
+        "full_name": "溫馨終身醫療日額保險附約(AHM)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01896",
+        "company": "遠雄人壽",
+        "full_name": "溫馨終身醫療日額保險附約(OHM)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01897",
+        "company": "遠雄人壽",
+        "full_name": "溫馨終身醫療日額保險附約(QHM)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01898",
+        "company": "遠雄人壽",
+        "full_name": "溫馨終身醫療日額保險附約(RHM)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01899",
+        "company": "遠雄人壽",
+        "full_name": "溫馨終身醫療日額保險附約(XHM)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01900",
+        "company": "遠雄人壽",
+        "full_name": "癌症終身保險附約(ACA)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01901",
+        "company": "遠雄人壽",
+        "full_name": "癌症終身保險附約(OCA)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01902",
+        "company": "遠雄人壽",
+        "full_name": "癌症終身保險附約(QCA)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01903",
+        "company": "遠雄人壽",
+        "full_name": "癌症終身保險附約(RCA)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01904",
+        "company": "遠雄人壽",
+        "full_name": "癌症終身保險附約(XCA)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01908",
+        "company": "遠雄人壽",
+        "full_name": "綜合住院醫療日額給付保險附約(RHJ)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01921",
+        "company": "遠雄人壽",
+        "full_name": "豁免保險費附約(ADP)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01923",
+        "company": "遠雄人壽",
+        "full_name": "豁免保險費附約(ODP)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01924",
+        "company": "遠雄人壽",
+        "full_name": "豁免保險費附約(QDP)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01925",
+        "company": "遠雄人壽",
+        "full_name": "豁免保險費附約(RDP)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01926",
+        "company": "遠雄人壽",
+        "full_name": "豁免保險費附約(XDP)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "01942",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽守護久久醫療終身保險(103)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 109/01/01 的版本有 0 個"
+      },
+      {
+        "product_id": "01988",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽雄享福全殘扶助終身健康保險附約",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 104/08/04 的版本有 0 個"
+      },
+      {
+        "product_id": "01991",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽雄健康手術醫療終身健康保險附約",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 113/10/01 的版本有 0 個"
+      },
+      {
+        "product_id": "01992",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽雄溫情終身醫療健康保險附約(103)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 104/08/04 的版本有 0 個"
+      },
+      {
+        "product_id": "01995",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽雄溫馨終身醫療健康保險(103)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 109/01/01 的版本有 0 個"
+      },
+      {
+        "product_id": "01999",
+        "company": "遠雄人壽",
+        "full_name": "金安心豁免保險費附約(ODQ)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02000",
+        "company": "遠雄人壽",
+        "full_name": "金安心豁免保險費附約(XDQ)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02005",
+        "company": "遠雄人壽",
+        "full_name": "雄健康手術醫療終身健康保險附約(HH1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02007",
+        "company": "遠雄人壽",
+        "full_name": "雄溫情終身醫療健康保險附約(HI1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02008",
+        "company": "遠雄人壽",
+        "full_name": "雄溫情終身醫療健康保險附約(HI2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 099/09/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02010",
+        "company": "遠雄人壽",
+        "full_name": "雄溫馨終身醫療健康保險(HE1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02012",
+        "company": "遠雄人壽",
+        "full_name": "雄溫馨終身醫療健康保險(HE3)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 102/03/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02044",
+        "company": "遠雄人壽",
+        "full_name": "一年定期壽險(KSD)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 093/10/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02051",
+        "company": "遠雄人壽",
+        "full_name": "保費分階終身壽險(CAB)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02052",
+        "company": "遠雄人壽",
+        "full_name": "保費分階終身壽險(FF1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02053",
+        "company": "遠雄人壽",
+        "full_name": "保費分階終身壽險(FF2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02055",
+        "company": "遠雄人壽",
+        "full_name": "保費分階終身壽險(KAB)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02056",
+        "company": "遠雄人壽",
+        "full_name": "保費分階終身壽險(YAB)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02077",
+        "company": "遠雄人壽",
+        "full_name": "好運旺定期保險(FP1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02079",
+        "company": "遠雄人壽",
+        "full_name": "好鑽養老保險(FW4)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02099",
+        "company": "遠雄人壽",
+        "full_name": "富貴一生終身還本保險(JE2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02101",
+        "company": "遠雄人壽",
+        "full_name": "富貴久久終身還本保險(JG1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02103",
+        "company": "遠雄人壽",
+        "full_name": "富貴年年終身還本保險(JF1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02111",
+        "company": "遠雄人壽",
+        "full_name": "新千禧定期還本保險(FV1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02114",
+        "company": "遠雄人壽",
+        "full_name": "新定期壽險(BTA)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02115",
+        "company": "遠雄人壽",
+        "full_name": "新定期壽險(CTA)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02116",
+        "company": "遠雄人壽",
+        "full_name": "新定期壽險(FD1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02119",
+        "company": "遠雄人壽",
+        "full_name": "新定期壽險(KTA)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02120",
+        "company": "遠雄人壽",
+        "full_name": "新定期壽險(TLA)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02121",
+        "company": "遠雄人壽",
+        "full_name": "新定期壽險(YTA)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02122",
+        "company": "遠雄人壽",
+        "full_name": "新定期壽險附約(ATL)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02123",
+        "company": "遠雄人壽",
+        "full_name": "新定期壽險附約(OTL)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02124",
+        "company": "遠雄人壽",
+        "full_name": "新定期壽險附約(QA1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02125",
+        "company": "遠雄人壽",
+        "full_name": "新定期壽險附約(QA2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02127",
+        "company": "遠雄人壽",
+        "full_name": "新定期壽險附約(QTL)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02128",
+        "company": "遠雄人壽",
+        "full_name": "新定期壽險附約(RTL)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02129",
+        "company": "遠雄人壽",
+        "full_name": "新定期壽險附約(XTL)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02130",
+        "company": "遠雄人壽",
+        "full_name": "新終身壽險(98)(FH3)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02132",
+        "company": "遠雄人壽",
+        "full_name": "新終身壽險(98)(FH5)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02133",
+        "company": "遠雄人壽",
+        "full_name": "新終身壽險(BAA)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02134",
+        "company": "遠雄人壽",
+        "full_name": "新終身壽險(CAA)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02135",
+        "company": "遠雄人壽",
+        "full_name": "新終身壽險(FH1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02136",
+        "company": "遠雄人壽",
+        "full_name": "新終身壽險(FH2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02137",
+        "company": "遠雄人壽",
+        "full_name": "新終身壽險(KAA)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02138",
+        "company": "遠雄人壽",
+        "full_name": "新終身壽險(WAA)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 089/03/15 的版本有 0 個"
+      },
+      {
+        "product_id": "02139",
+        "company": "遠雄人壽",
+        "full_name": "新終身壽險(YAA)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02145",
+        "company": "遠雄人壽",
+        "full_name": "新薔薇女性終身保險(A、B、C型)(KFA)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02153",
+        "company": "遠雄人壽",
+        "full_name": "新長青101還本終身保險(JA1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02154",
+        "company": "遠雄人壽",
+        "full_name": "新長青101還本終身保險(JA2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02155",
+        "company": "遠雄人壽",
+        "full_name": "新長青101還本終身保險(JA3)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02156",
+        "company": "遠雄人壽",
+        "full_name": "新長青101還本終身保險(JA4)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02158",
+        "company": "遠雄人壽",
+        "full_name": "新雄多利保險乙型(FM4)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02159",
+        "company": "遠雄人壽",
+        "full_name": "新雄多利保險乙型(FM5)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02161",
+        "company": "遠雄人壽",
+        "full_name": "新雄多利保險甲型(FL4)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02162",
+        "company": "遠雄人壽",
+        "full_name": "新雄多利保險甲型(FL5)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02165",
+        "company": "遠雄人壽",
+        "full_name": "步步高昇終身還本保險(JD1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02166",
+        "company": "遠雄人壽",
+        "full_name": "步步高昇終身還本保險(JD2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02174",
+        "company": "遠雄人壽",
+        "full_name": "特定傷病終身壽險附約(ADB)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02175",
+        "company": "遠雄人壽",
+        "full_name": "特定傷病終身壽險附約(ODB)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02176",
+        "company": "遠雄人壽",
+        "full_name": "特定傷病終身壽險附約(QB1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02177",
+        "company": "遠雄人壽",
+        "full_name": "特定傷病終身壽險附約(QB2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02179",
+        "company": "遠雄人壽",
+        "full_name": "特定傷病終身壽險附約(QDB)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02180",
+        "company": "遠雄人壽",
+        "full_name": "特定傷病終身壽險附約(RDB)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02181",
+        "company": "遠雄人壽",
+        "full_name": "特定傷病終身壽險附約(XDB)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02185",
+        "company": "遠雄人壽",
+        "full_name": "真好康萬能保險(UE)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 100/02/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02186",
+        "company": "遠雄人壽",
+        "full_name": "真好康萬能保險(UE1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02187",
+        "company": "遠雄人壽",
+        "full_name": "真好康萬能保險(UE5)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 101/07/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02188",
+        "company": "遠雄人壽",
+        "full_name": "真得意保本終身保險(JH1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02190",
+        "company": "遠雄人壽",
+        "full_name": "真心呵護防癌保本終身保險(FY1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02191",
+        "company": "遠雄人壽",
+        "full_name": "真心呵護防癌保本終身保險(FY2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02192",
+        "company": "遠雄人壽",
+        "full_name": "真心呵護防癌保本終身保險(FY3)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02193",
+        "company": "遠雄人壽",
+        "full_name": "真心呵護防癌保本終身保險(FY4)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02196",
+        "company": "遠雄人壽",
+        "full_name": "真鑽養老保險(FW3)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02199",
+        "company": "遠雄人壽",
+        "full_name": "真鑽養老保險(FWEFWF)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02200",
+        "company": "遠雄人壽",
+        "full_name": "真鑽養老保險(FWOFWP)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 101/01/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02215",
+        "company": "遠雄人壽",
+        "full_name": "穩鑽養老保險(FW2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02219",
+        "company": "遠雄人壽",
+        "full_name": "美滿增值增額終身壽險(LA1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 100/09/19 的版本有 0 個"
+      },
+      {
+        "product_id": "02315",
+        "company": "遠雄人壽",
+        "full_name": "超級鑽利率變動型養老保險(FWY)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 103/01/27 的版本有 0 個"
+      },
+      {
+        "product_id": "02344",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽新定期壽險(106)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 109/01/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02348",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽新終身壽險(106)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 107/09/14 的版本有 0 個"
+      },
+      {
+        "product_id": "02349",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽新終身壽險(109)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 109/01/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02417",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽美滿致富增額終身壽險(109)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 109/01/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02428",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽美滿超得利增額終身壽險(106)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 107/09/14 的版本有 0 個"
+      },
+      {
+        "product_id": "02439",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽美滿鴻福增額終身壽險(106)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 107/09/14 的版本有 0 個"
+      },
+      {
+        "product_id": "02449",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽雄安心終身保險(106)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 107/09/14 的版本有 0 個"
+      },
+      {
+        "product_id": "02452",
+        "company": "遠雄人壽",
+        "full_name": "醫療保本養老保險(FZ1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02453",
+        "company": "遠雄人壽",
+        "full_name": "醫療保本養老保險(FZ2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02454",
+        "company": "遠雄人壽",
+        "full_name": "醫療保本養老保險(FZ3)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02460",
+        "company": "遠雄人壽",
+        "full_name": "金保本終身壽險(CAD)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02461",
+        "company": "遠雄人壽",
+        "full_name": "金保本終身壽險(FG1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02462",
+        "company": "遠雄人壽",
+        "full_name": "金保本終身壽險(FG2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02463",
+        "company": "遠雄人壽",
+        "full_name": "金保本終身壽險(FG3)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02464",
+        "company": "遠雄人壽",
+        "full_name": "金保本終身壽險(FG4)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02465",
+        "company": "遠雄人壽",
+        "full_name": "金保本終身壽險(KAD)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02466",
+        "company": "遠雄人壽",
+        "full_name": "金保本終身壽險(YAD)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02478",
+        "company": "遠雄人壽",
+        "full_name": "金好運終身保險(CNC)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02480",
+        "company": "遠雄人壽",
+        "full_name": "金安家借貸契約定期壽險(FO1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02482",
+        "company": "遠雄人壽",
+        "full_name": "金幸福定期壽險(FQ1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02483",
+        "company": "遠雄人壽",
+        "full_name": "金幸福定期壽險(FQ2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 101/07/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02484",
+        "company": "遠雄人壽",
+        "full_name": "金幸福定期壽險(FQ3)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 101/07/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02485",
+        "company": "遠雄人壽",
+        "full_name": "金得意保險(FS1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02486",
+        "company": "遠雄人壽",
+        "full_name": "金得意保險(FS2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02494",
+        "company": "遠雄人壽",
+        "full_name": "金美滿終身壽險(CBE)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02495",
+        "company": "遠雄人壽",
+        "full_name": "金美滿終身壽險(FK1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02496",
+        "company": "遠雄人壽",
+        "full_name": "金美滿終身壽險(FK2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02500",
+        "company": "遠雄人壽",
+        "full_name": "金萬利萬能保險(UB)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 099/11/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02501",
+        "company": "遠雄人壽",
+        "full_name": "金萬利萬能保險(UB1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02502",
+        "company": "遠雄人壽",
+        "full_name": "金萬利萬能保險(UB9)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 101/07/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02503",
+        "company": "遠雄人壽",
+        "full_name": "金萬利萬能保險(UBES00)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 103/01/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02504",
+        "company": "遠雄人壽",
+        "full_name": "金萬能終身壽險(UA1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02505",
+        "company": "遠雄人壽",
+        "full_name": "金萬能終身壽險(UA2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 099/11/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02506",
+        "company": "遠雄人壽",
+        "full_name": "金萬能終身壽險(UA3)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 101/07/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02509",
+        "company": "遠雄人壽",
+        "full_name": "金鑽養老保險(FW1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02517",
+        "company": "遠雄人壽",
+        "full_name": "雄利HIGH增額終身壽險(FT1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02518",
+        "company": "遠雄人壽",
+        "full_name": "雄利HIGH增額終身壽險(FT2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02519",
+        "company": "遠雄人壽",
+        "full_name": "雄利HIGH增額終身壽險(FT3)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02521",
+        "company": "遠雄人壽",
+        "full_name": "雄多利保險(JB1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02522",
+        "company": "遠雄人壽",
+        "full_name": "雄好康萬能保險(UD)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02523",
+        "company": "遠雄人壽",
+        "full_name": "雄安心終身保險(FX1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02524",
+        "company": "遠雄人壽",
+        "full_name": "雄安心終身保險(FX2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02525",
+        "company": "遠雄人壽",
+        "full_name": "雄安心終身保險(FX3)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02526",
+        "company": "遠雄人壽",
+        "full_name": "雄安心終身保險(FX4)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02529",
+        "company": "遠雄人壽",
+        "full_name": "雄富康萬能保險(UF2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 101/07/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02533",
+        "company": "遠雄人壽",
+        "full_name": "雄萬利萬能保險(UC)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02535",
+        "company": "遠雄人壽",
+        "full_name": "養老保險附約(FE1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02536",
+        "company": "遠雄人壽",
+        "full_name": "養老保險附約(FE2)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02537",
+        "company": "遠雄人壽",
+        "full_name": "養老保險附約(FE3)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 101/07/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02541",
+        "company": "遠雄人壽",
+        "full_name": "鴻利年年養老保險(CNF)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02544",
+        "company": "遠雄人壽",
+        "full_name": "利率變動型年金保險(乙型)(NIB)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02545",
+        "company": "遠雄人壽",
+        "full_name": "利率變動型年金保險(乙型)(NIF)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02546",
+        "company": "遠雄人壽",
+        "full_name": "利率變動型年金保險(甲型)(NIA)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02547",
+        "company": "遠雄人壽",
+        "full_name": "利率變動型年金保險(甲型)(NIE)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02550",
+        "company": "遠雄人壽",
+        "full_name": "好利HIGH利率變動型年金保險(甲型)(NIM)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款 PDF 字型無 Unicode 對應，無法轉成可讀文字（需人工閱讀條款首頁）"
+      },
+      {
+        "product_id": "02593",
+        "company": "遠雄人壽",
+        "full_name": "雄吉利變額壽險(VC)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 103/09/15 的版本有 0 個"
+      },
+      {
+        "product_id": "02597",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽富貴一生終身還本保險(106)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 106/01/01 的版本有 0 個"
+      },
+      {
+        "product_id": "02644",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽美金鑽美元利率變動型養老保險(106)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 109/01/01 的版本有 0 個"
+      },
+      {
+        "product_id": "01864",
+        "company": "遠雄人壽",
+        "full_name": "健康久久手術醫療終身保險附約(HL1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-status-check-batch2-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款未見可讀的備查/修正日期；官網條款首頁商品名稱與本站名稱不符；官網條款未見保發中心原始文號 (97)遠雄壽字第823號函"
+      },
+      {
+        "product_id": "01888",
+        "company": "遠雄人壽",
+        "full_name": "新癌症終身健康保險附約(99)(HG3)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-status-check-batch2-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 101/02/24 的版本有 0 個"
+      },
+      {
+        "product_id": "01892",
+        "company": "遠雄人壽",
+        "full_name": "永安手術醫療終身保險(HO1)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-status-check-batch2-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款未見可讀的備查/修正日期；官網條款首頁商品名稱與本站名稱不符；官網條款未見保發中心原始文號 (98)遠雄壽字第721號函"
+      },
+      {
+        "product_id": "01945",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽守護醫級棒醫療保本終身保險(103)",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-status-check-batch2-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心同名系列中銷售日等於條款最新日期 109/01/01 的版本有 0 個"
+      },
+      {
+        "product_id": "01954",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽愛無懼Ｂ型防癌終身健康保險附約",
+        "original_status": "停售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-status-check-batch2-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款未見可讀的備查/修正日期"
+      },
+      {
+        "product_id": "02658",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽愛吾愛防癌定期保險",
+        "original_status": "現售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-onsale-missing-sale-date-batch1-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心快取（2026-11-08 全表）無同名未停售版本；需即時查詢保發中心（驗證碼）後確認同版本"
+      },
+      {
+        "product_id": "02721",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽傳富美加佳２美元利率變動型終身壽險",
+        "original_status": "現售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-onsale-missing-sale-date-batch1-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心快取（2026-11-08 全表）無同名未停售版本；需即時查詢保發中心（驗證碼）後確認同版本"
+      },
+      {
+        "product_id": "02723",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽傳富美樂富２美元利率變動型終身壽險",
+        "original_status": "現售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-onsale-missing-sale-date-batch1-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心快取（2026-11-08 全表）無同名未停售版本；需即時查詢保發中心（驗證碼）後確認同版本"
+      },
+      {
+        "product_id": "02751",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽美滿超多旺３美元利率變動型增額終身壽險",
+        "original_status": "現售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-onsale-missing-sale-date-batch1-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "保發中心快取（2026-11-08 全表）無同名未停售版本；需即時查詢保發中心（驗證碼）後確認同版本"
+      },
+      {
+        "product_id": "02767",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽新躉繳利率變動型即期年金保險",
+        "original_status": "現售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-onsale-missing-sale-date-batch1-2026-11-26.json",
+        "live_tii_resolvable": "likely",
+        "reason": "保發中心快取缺版本、多版本或無同名現行版本；即時查詢可直接取得該版本銷售日／停售日",
+        "issue": "官網條款修正/備查日期 109/09/28 與保發中心此版本銷售日 115/01/01 不一致，版本未確認"
+      },
+      {
+        "product_id": "02777",
+        "company": "遠雄人壽",
+        "full_name": "遠雄人壽金吉利變額萬能壽險(112)",
+        "original_status": "現售",
+        "handoff_file": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-onsale-missing-sale-date-batch1-2026-11-26.json",
+        "live_tii_resolvable": "possible",
+        "reason": "官網條款無法讀取；保發中心即時詳細頁之條款 PDF 可能可讀，可據以判定版本",
+        "issue": "官網條款未見保發中心原始文號 台財保字第0920701461號函；官網條款修正/備查日期 None 與保發中心此版本銷售日 115/01/01 不一致，版本未確認；官網條款首頁商品名稱與本站名稱不符"
+      }
+    ]
   }
 }
