@@ -1,0 +1,542 @@
+{
+  "batch_id": "grok-unmarked20-batch119-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T23:20:00+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "authorization": "使用者 2026-11-26 22:37（台北時間）明確授權 Grok 接手原分配給 GPT 的 20 筆「銷售狀態未標示」商品，查完直接發布",
+  "scope": {
+    "description": "20 筆銷售狀態未標示商品：複查是否已開賣",
+    "ids": [
+      "00642",
+      "00880",
+      "00881",
+      "00882",
+      "00942",
+      "00996",
+      "01007",
+      "01015",
+      "01017",
+      "01111",
+      "01662",
+      "01696",
+      "01698",
+      "44134",
+      "44139",
+      "44140",
+      "44141",
+      "44258",
+      "44267",
+      "44268"
+    ]
+  },
+  "method": "版本比對：名稱相符、保發中心原始備查文號出現在官方條款、條款最新日期恰等於保發中心唯一版本銷售日，才填銷售日、狀態與 tii_url。備查日不當銷售日；保發中心列表查無且官網無明文者保持待補充、不改為未標示。僅用 GET（detail、ResultQueryAll?page=），未對驗證碼 OCR、未 submit。",
+  "tii_list_note": "本次工作階段的 ResultQueryAll 為每頁 10 筆、共 196,118 筆（含產險）；以保發中心壽險 2026-11-08 快取順序（公司→銷售日，未銷售排最後）推算並實際取回各公司區段尾端頁面：國泰 14383–14385、富邦 16212–16215、安聯 17494、安達 18408–18411、法巴 19347。",
+  "summary": {
+    "unclear": 14,
+    "now_on_sale": 4,
+    "now_on_sale_no_date": 2,
+    "total": 20,
+    "changed": 6
+  },
+  "product_data_changed": true,
+  "publish": {
+    "files": [
+      "data/riders/product_updates.js",
+      "data/riders/product_updates.json",
+      "data/riders/bnp.js",
+      "data/riders/bnp.json",
+      "data/riders/manifest.js",
+      "data/riders/manifest.json",
+      "index.html"
+    ],
+    "release_token": "sales-20261126-grok12-unmarked"
+  },
+  "items": [
+    {
+      "product_id": "00642",
+      "name": "南山人壽美年金采美元利率變動型年金保險(甲型)【OIU】",
+      "insurer": "南山人壽",
+      "result": "unclear",
+      "changed": false,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": null,
+      "tii": null,
+      "evidence": [
+        "官網商品專區 https://www.nanshanlife.com.tw/nanshanlife/features-oiu/ 列有商品、承保年齡與投保規範；DM 為 2025 年 1 月版",
+        "官方條款首頁僅有申報日期：（104）南壽研字第202號函申報（2015-10-21）、南壽研字第1120000113號函申報（2023-02-25），皆非銷售日",
+        "保發中心壽險完整列表（2026-11-08 快取 66,028 筆）名稱含 OIU 者 0 筆，今日即時列表同公司區段亦無此商品；南山 OUISA 另有使用者／GPT 以關鍵字查詢「美年金采」查無結果（data/sales-audit/2026-11-26/nanshan-ouisa-tii-official-crosscheck.json）。OIU（國際保險業務分公司）商品不在保發中心列表。",
+        "無保發中心版本可比對、官網無明文銷售起日 → 保持待補充"
+      ]
+    },
+    {
+      "product_id": "00880",
+      "name": "台灣人壽一陸旺美元利率變動型年金保險(OIU)",
+      "insurer": "台灣人壽",
+      "result": "unclear",
+      "changed": false,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": null,
+      "tii": null,
+      "evidence": [
+        "官方條款 https://www.taiwanlife.com/portal-api/File/15646：中華民國104年（8月5日／10月1日）中信壽商發字函備查／申報、104年11月20日金管保壽字第10402548850號函核准、112年2月9日台壽字第1122320051號函申報，皆為申報／核准日期，非銷售日",
+        "保發中心壽險完整列表（2026-11-08 快取 66,028 筆）名稱含 OIU 者 0 筆，今日即時列表同公司區段亦無此商品；南山 OUISA 另有使用者／GPT 以關鍵字查詢「美年金采」查無結果（data/sales-audit/2026-11-26/nanshan-ouisa-tii-official-crosscheck.json）。OIU（國際保險業務分公司）商品不在保發中心列表。",
+        "官網僅見條款清單，未見獨立商品頁或銷售起日",
+        "無明文銷售起日與保發中心版本 → 保持待補充"
+      ]
+    },
+    {
+      "product_id": "00881",
+      "name": "台灣人壽一陸發人民幣利率變動型年金保險(OIU)",
+      "insurer": "台灣人壽",
+      "result": "unclear",
+      "changed": false,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": null,
+      "tii": null,
+      "evidence": [
+        "官方條款 https://www.taiwanlife.com/portal-api/File/15645：中華民國104年（8月5日／10月1日）中信壽商發字函備查／申報、104年11月20日金管保壽字第10402548850號函核准、112年2月9日台壽字第1122320051號函申報，皆為申報／核准日期，非銷售日",
+        "保發中心壽險完整列表（2026-11-08 快取 66,028 筆）名稱含 OIU 者 0 筆，今日即時列表同公司區段亦無此商品；南山 OUISA 另有使用者／GPT 以關鍵字查詢「美年金采」查無結果（data/sales-audit/2026-11-26/nanshan-ouisa-tii-official-crosscheck.json）。OIU（國際保險業務分公司）商品不在保發中心列表。",
+        "官網僅見條款清單，未見獨立商品頁或銷售起日",
+        "無明文銷售起日與保發中心版本 → 保持待補充"
+      ]
+    },
+    {
+      "product_id": "00882",
+      "name": "台灣人壽好美利美元利率變動型年金保險(OIU)",
+      "insurer": "台灣人壽",
+      "result": "unclear",
+      "changed": false,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": null,
+      "tii": null,
+      "evidence": [
+        "官方條款 https://www.taiwanlife.com/portal-api/File/15647：中華民國104年（8月5日／10月1日）中信壽商發字函備查／申報、104年11月20日金管保壽字第10402548850號函核准、112年2月9日台壽字第1122320051號函申報，皆為申報／核准日期，非銷售日",
+        "保發中心壽險完整列表（2026-11-08 快取 66,028 筆）名稱含 OIU 者 0 筆，今日即時列表同公司區段亦無此商品；南山 OUISA 另有使用者／GPT 以關鍵字查詢「美年金采」查無結果（data/sales-audit/2026-11-26/nanshan-ouisa-tii-official-crosscheck.json）。OIU（國際保險業務分公司）商品不在保發中心列表。",
+        "官網商品頁 https://www.taiwanlife.com/product/19/USA4 有承保年齡與投保規定（最低美元30萬），但未載銷售起日，無法對應保發中心版本",
+        "無明文銷售起日與保發中心版本 → 保持待補充"
+      ]
+    },
+    {
+      "product_id": "00942",
+      "name": "合作金庫人壽一年定期重大疾病健康保",
+      "insurer": "合作金庫人壽",
+      "result": "unclear",
+      "changed": false,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": null,
+      "tii": null,
+      "evidence": [
+        "「一年定期重大疾病健康保」可對應 一年定期重大疾病健康保險(甲型)（99/09/01 備查）或 一年定期重大疾病健康保險附約(乙型)（105/04/01、115/01/01 合壽字第1150000012號）等，無法唯一對應",
+        "合作金庫人壽 JV_Info_1 官方文件（https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf）名稱被截斷，同一截斷名稱對應多個官方商品，本站紀錄無備查文號可區分；本站另有完整名稱之現售／停售紀錄。無法逐版比對，保持待補充、狀態不變。"
+      ]
+    },
+    {
+      "product_id": "00996",
+      "name": "合作金庫人壽投資型保險彈性交付之",
+      "insurer": "合作金庫人壽",
+      "result": "unclear",
+      "changed": false,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": null,
+      "tii": null,
+      "evidence": [
+        "截斷名稱可能為「投資型保險彈性交付之非首次投資配置日批註條款」（103/08/01、113/08/16 合壽字第1130002370號）；為批註條款，保發中心合庫區段查無同名版本",
+        "合作金庫人壽 JV_Info_1 官方文件（https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf）名稱被截斷，同一截斷名稱對應多個官方商品，本站紀錄無備查文號可區分；本站另有完整名稱之現售／停售紀錄。無法逐版比對，保持待補充、狀態不變。"
+      ]
+    },
+    {
+      "product_id": "01007",
+      "name": "合作金庫人壽福貴人生外幣變額萬能",
+      "insurer": "合作金庫人壽",
+      "result": "unclear",
+      "changed": false,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": null,
+      "tii": null,
+      "evidence": [
+        "「福貴人生外幣變額萬能」可對應 福貴人生外幣變額萬能壽險 或 福貴人生外幣變額萬能壽險(一) 兩個官方商品；本站另有 33140／33143 等完整名稱紀錄（保發中心現售）",
+        "合作金庫人壽 JV_Info_1 官方文件（https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf）名稱被截斷，同一截斷名稱對應多個官方商品，本站紀錄無備查文號可區分；本站另有完整名稱之現售／停售紀錄。無法逐版比對，保持待補充、狀態不變。"
+      ]
+    },
+    {
+      "product_id": "01015",
+      "name": "合作金庫人壽傳統型保險外幣保險單借",
+      "insurer": "合作金庫人壽",
+      "result": "unclear",
+      "changed": false,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": null,
+      "tii": null,
+      "evidence": [
+        "「傳統型保險外幣保險單借」可對應 傳統型保險外幣保險單借款批註條款（104/07/15、109/12/24）或其「(115)」版（115/10/01 合壽字第1150003629號；保發中心 222191EZ1A00922Z11Z10000000 銷售日 115/10/01 未停售）；本站名稱無「(115)」，無法判定是哪一個",
+        "合作金庫人壽 JV_Info_1 官方文件（https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf）名稱被截斷，同一截斷名稱對應多個官方商品，本站紀錄無備查文號可區分；本站另有完整名稱之現售／停售紀錄。無法逐版比對，保持待補充、狀態不變。"
+      ]
+    },
+    {
+      "product_id": "01017",
+      "name": "合作金庫人壽指數股票型基金投資標",
+      "insurer": "合作金庫人壽",
+      "result": "unclear",
+      "changed": false,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": null,
+      "tii": null,
+      "evidence": [
+        "「指數股票型基金投資標」可對應 指數股票型基金投資標的批註條款（一）或（112）兩個官方商品",
+        "合作金庫人壽 JV_Info_1 官方文件（https://my.tcb-life.com.tw/api/assets/b6e70b59-b408-4ba9-951f-ac0399719e10/JV_Info_1_20260427.pdf）名稱被截斷，同一截斷名稱對應多個官方商品，本站紀錄無備查文號可區分；本站另有完整名稱之現售／停售紀錄。無法逐版比對，保持待補充、狀態不變。"
+      ]
+    },
+    {
+      "product_id": "01111",
+      "name": "國泰人壽美添增富利率變動型美元終身壽險",
+      "insurer": "國泰人壽",
+      "result": "now_on_sale",
+      "changed": true,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-10-13",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MA1AABD23B11Z10000000"
+      },
+      "tii": {
+        "source": "保發中心即時列表／詳細頁（2026-11-26 22:02 驗證碼工作階段，僅 GET；未對驗證碼 OCR、未執行 submit）",
+        "version": {
+          "pid": "204131MA1AABD23B11Z10000000",
+          "name": "國泰人壽美添增富利率變動型美元終身壽險",
+          "sale": "115/10/13",
+          "stop": "未停售",
+          "filing_no": "國壽字第1150100001號函備查",
+          "filing_date": "115/10/13",
+          "fetched_at": "2026-11-26T22:44:24+08:00"
+        }
+      },
+      "evidence": [
+        "官方條款 https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/ABD.pdf 首頁：115.10.13 國壽字第1150100001號函備查，條款中最新日期 115.10.13",
+        "保發中心即時詳細頁：名稱相同、備查文號「國壽字第1150100001號函備查」與官網條款一致、銷售日 115/10/13 與條款最新日期相同；該名稱僅此一個版本、未停售",
+        "版本比對成立：新增銷售日 2026-10-13，狀態現售（附約清單：保發中心頁無附加保險）"
+      ]
+    },
+    {
+      "product_id": "01696",
+      "name": "法商法國巴黎人壽滿鑫100外幣變額年金保險(乙型)",
+      "insurer": "法國巴黎人壽",
+      "result": "now_on_sale",
+      "changed": true,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267421MV1A02323Z11C90000011"
+      },
+      "tii": {
+        "source": "保發中心即時列表／詳細頁（2026-11-26 22:02 驗證碼工作階段，僅 GET；未對驗證碼 OCR、未執行 submit）",
+        "version": {
+          "pid": "267421MV1A02323Z11C90000011",
+          "name": "法商法國巴黎人壽滿鑫100外幣變額年金保險(乙型)(第11次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_no": "巴黎(102)壽字第04007號備查,金管保壽字第11404900043號函",
+          "filing_date": "114/02/13",
+          "fetched_at": "2026-11-26T22:44:41+08:00"
+        }
+      },
+      "evidence": [
+        "官方條款（法國巴黎人壽）備查／修訂紀錄最後一筆：民國114年01月01日 依113年08月13日金管保壽字第1130424977號函逕修；原始備查文號 巴黎(102)壽字第04007號 出現在條款",
+        "保發中心即時詳細頁：滿鑫100外幣變額年金保險(乙型)(第11次部分變更) 備查文號「巴黎(102)壽字第04007號備查,金管保壽字第11404900043號函」、銷售日 114/01/01（與條款最新日期相同）、未停售",
+        "版本比對成立：新增銷售日 2025-01-01，狀態現售；保發中心附加保險僅有批註條款（本站不列為附約），無附約可串"
+      ]
+    },
+    {
+      "product_id": "01698",
+      "name": "法商法國巴黎人壽滿鑫100變額年金保險",
+      "insurer": "法國巴黎人壽",
+      "result": "now_on_sale",
+      "changed": true,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267421MV1A02423A11C90000010",
+        "riders_linked": [
+          "267351RZ1A00121A11Z10000010",
+          "267291RZ1A00321A11Z10000012"
+        ]
+      },
+      "tii": {
+        "source": "保發中心即時列表／詳細頁（2026-11-26 22:02 驗證碼工作階段，僅 GET；未對驗證碼 OCR、未執行 submit）",
+        "version": {
+          "pid": "267421MV1A02423A11C90000010",
+          "name": "法商法國巴黎人壽滿鑫100變額年金保險(第10次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_no": "巴黎(102)壽字第04005號備查,金管保壽字第11404900043號函",
+          "filing_date": "114/02/13",
+          "fetched_at": "2026-11-26T22:44:52+08:00"
+        }
+      },
+      "evidence": [
+        "官方條款備查／修訂紀錄最後一筆：民國114年01月01日 依113年08月13日金管保壽字第1130424977號函逕修；原始備查文號 巴黎(102)壽字第04005號 出現在條款",
+        "保發中心即時詳細頁：滿鑫100變額年金保險(第10次部分變更) 備查文號「巴黎(102)壽字第04005號備查,金管保壽字第11404900043號函」、銷售日 114/01/01、未停售",
+        "版本比對成立：新增銷售日 2025-01-01，狀態現售",
+        "附約：保發中心附加保險清單中的非批註條款附約為 一年定期重大疾病健康保險附約(甲型)(第10次部分變更) 267351RZ1A00121A11Z10000010（銷售日113/07/01 未停售，本站 42196 現售）與 一年定期意外傷害保險附約(第12次部分變更) 267291RZ1A00321A11Z10000012（銷售日113/10/01 未停售，本站 42218 現售），版本碼完全相符，已雙向串接"
+      ]
+    },
+    {
+      "product_id": "44267",
+      "name": "富邦人壽永富紅運外幣分紅終身壽險",
+      "insurer": "富邦人壽",
+      "result": "now_on_sale",
+      "changed": true,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-10-12",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A05323B11Z10000000"
+      },
+      "tii": {
+        "source": "保發中心即時列表／詳細頁（2026-11-26 22:02 驗證碼工作階段，僅 GET；未對驗證碼 OCR、未執行 submit）",
+        "version": {
+          "pid": "209131MZ1A05323B11Z10000000",
+          "name": "富邦人壽永富紅運外幣分紅終身壽險",
+          "sale": "115/10/12",
+          "stop": "未停售",
+          "filing_no": "富壽商精字第1150003974號函備查",
+          "filing_date": "115/10/12",
+          "fetched_at": "2026-11-26T22:53:05+08:00"
+        }
+      },
+      "evidence": [
+        "官方條款首頁：115.10.12 富壽商精字第1150003974號函備查，條款中最新日期 115.10.12",
+        "保發中心即時列表／詳細頁：富邦人壽永富紅運外幣分紅終身壽險，備查文號「富壽商精字第1150003974號函備查」與條款相同，銷售日 115/10/12、未停售（該名稱僅此一版）",
+        "版本比對成立：新增銷售日 2026-10-12，狀態現售（保發中心頁無附加保險）"
+      ]
+    },
+    {
+      "product_id": "01662",
+      "name": "法商法國巴黎人壽美吉鴻運外幣分紅終身壽險(定期給付型)",
+      "insurer": "法國巴黎人壽",
+      "result": "now_on_sale_no_date",
+      "changed": true,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null,
+        "tii_url": null
+      },
+      "tii": {
+        "source": "保發中心即時列表／詳細頁（2026-11-26 22:02 驗證碼工作階段，僅 GET；未對驗證碼 OCR、未執行 submit）",
+        "result": "保發中心列表未見此商品"
+      },
+      "evidence": [
+        "官方條款首頁：備查文號 民國115年01月15日 巴黎壽字第1150000035號（備查日，非銷售日）",
+        "法國巴黎人壽官網商品 DM（DM Code 2026.01版及2026.07版，含投保年齡、繳費年期、投保金額與保費折扣等投保規則）：https://life.cardif.com.tw/documents/418719/4295315/%E6%B3%95%E5%9C%8B%E5%B7%B4%E9%BB%8E%E4%BA%BA%E5%A3%BD%E7%BE%8E%E5%90%89%E9%B4%BB%E9%81%8B%E5%A4%96%E5%B9%A3%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E4%BF%9D%E9%9A%AA%28%E5%AE%9A%E6%9C%9F%E7%B5%A6%E4%BB%98%E5%9E%8B%29.pdf/d25a9413-668f-ab07-2e01-a2fe46de7608?t=1768443371823",
+        "保發中心即時列表：法國巴黎人壽區段銷售日最新止於 115/10/01，未列美吉鴻運，無法版本比對，不寫銷售日、不填 tii_url",
+        "狀態改為現售（官方 DM 為證）；銷售日待補充"
+      ]
+    },
+    {
+      "product_id": "44258",
+      "name": "國泰人壽滿溢鍾心重大傷病定期保險（外溢型）",
+      "insurer": "國泰人壽",
+      "result": "now_on_sale_no_date",
+      "changed": true,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null,
+        "tii_url": null
+      },
+      "tii": {
+        "source": "保發中心即時列表／詳細頁（2026-11-26 22:02 驗證碼工作階段，僅 GET；未對驗證碼 OCR、未執行 submit）",
+        "result": "保發中心列表未見此商品"
+      },
+      "evidence": [
+        "官方條款首頁：115.11.19 國壽字第1150110003號函備查（備查日，非銷售日）",
+        "國泰人壽官網商品頁 https://www.cathaylife.com.tw/official/products/health-illness/zcqzcr（含承保年齡、繳費期間、保額限制）；國泰人壽 2026-11-24 新聞稿（經濟日報／中華新聞雲）稱「推出」",
+        "保發中心即時列表：國泰人壽區段銷售日最新止於 115/10/13，另有未銷售三筆，未列滿溢鍾心，無法版本比對，不寫銷售日、不填 tii_url",
+        "狀態改為現售（官網商品頁為證）；銷售日待補充"
+      ]
+    },
+    {
+      "product_id": "44134",
+      "name": "安達人壽美利安康美元分紅終身保險",
+      "insurer": "安達國際人壽",
+      "result": "unclear",
+      "changed": false,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": null,
+      "tii": {
+        "source": "保發中心即時列表／詳細頁（2026-11-26 22:02 驗證碼工作階段，僅 GET；未對驗證碼 OCR、未執行 submit）",
+        "result": "保發中心列表未見此商品"
+      },
+      "evidence": [
+        "金管會保險局 2026-11-09 核准公告「同意出單銷售」（金管保壽字第1150434909號函）：https://www.ib.gov.tw/ch/home.jsp?id=64&parentpath=0,8&mcustomize=onemessages_view.jsp&dataserno=202611090001&dtable=Product",
+        "安達人壽官網商品列表無此商品（life.chubb.com 商品頁 404）；官方條款尚未取得",
+        "保發中心即時列表：安達人壽區段銷售日最新止於 115/09/30，未列此商品",
+        "核准不等於已開賣，無官網銷售證據 → 保持待補充"
+      ]
+    },
+    {
+      "product_id": "44139",
+      "name": "富邦人壽美好年華外幣分紅終身保險",
+      "insurer": "富邦人壽",
+      "result": "unclear",
+      "changed": false,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": null,
+      "tii": {
+        "source": "保發中心即時列表／詳細頁（2026-11-26 22:02 驗證碼工作階段，僅 GET；未對驗證碼 OCR、未執行 submit）",
+        "result": "保發中心列表未見此商品"
+      },
+      "evidence": [
+        "官方條款首頁：115.11.06 富壽商精字第1150003733號函備查（備查日，非銷售日）",
+        "富邦人壽官網商品列表（life-refund／long-term-saving 頁）與搜尋結果均未見此商品頁；官網資訊公開僅有條款",
+        "保發中心即時列表：富邦人壽區段銷售日最新止於 115/10/23，未列此商品",
+        "無銷售起日與官網銷售證據 → 保持待補充"
+      ]
+    },
+    {
+      "product_id": "44140",
+      "name": "富邦人壽安鑫平安終身保險",
+      "insurer": "富邦人壽",
+      "result": "unclear",
+      "changed": false,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": null,
+      "tii": {
+        "source": "保發中心即時列表／詳細頁（2026-11-26 22:02 驗證碼工作階段，僅 GET；未對驗證碼 OCR、未執行 submit）",
+        "result": "保發中心列表未見此商品"
+      },
+      "evidence": [
+        "官方條款首頁：115.11.06 富壽商精字第1150003899號函備查（備查日，非銷售日）",
+        "富邦人壽官網商品列表（life-refund／long-term-saving 頁）與搜尋結果均未見此商品頁；官網資訊公開僅有條款",
+        "保發中心即時列表：富邦人壽區段銷售日最新止於 115/10/23，未列此商品",
+        "無銷售起日與官網銷售證據 → 保持待補充"
+      ]
+    },
+    {
+      "product_id": "44141",
+      "name": "富邦人壽金享優退外幣分紅終身保險",
+      "insurer": "富邦人壽",
+      "result": "unclear",
+      "changed": false,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": null,
+      "tii": {
+        "source": "保發中心即時列表／詳細頁（2026-11-26 22:02 驗證碼工作階段，僅 GET；未對驗證碼 OCR、未執行 submit）",
+        "result": "保發中心列表未見此商品"
+      },
+      "evidence": [
+        "官方條款首頁：115.11.12 富壽商精字第1150004321號函備查（備查日，非銷售日）",
+        "富邦人壽官網商品列表（life-refund／long-term-saving 頁）與搜尋結果均未見此商品頁；官網資訊公開僅有條款",
+        "保發中心即時列表：富邦人壽區段銷售日最新止於 115/10/23，未列此商品",
+        "無銷售起日與官網銷售證據 → 保持待補充"
+      ]
+    },
+    {
+      "product_id": "44268",
+      "name": "安聯人壽扶力優長期照顧終身健康保險",
+      "insurer": "安聯人壽",
+      "result": "unclear",
+      "changed": false,
+      "original": {
+        "status": "未標示",
+        "sale_date": null,
+        "tii_url": null
+      },
+      "proposed": null,
+      "tii": {
+        "source": "保發中心即時列表／詳細頁（2026-11-26 22:02 驗證碼工作階段，僅 GET；未對驗證碼 OCR、未執行 submit）",
+        "result": "保發中心列表未見此商品"
+      },
+      "evidence": [
+        "官方條款首頁：115.11.13 安總商字第1151001001號函備查（備查日，非銷售日）",
+        "安聯人壽 2026-11-20 新聞稿（經濟日報／現代保險／Yahoo 轉載）稱「推出」扶力優長期照顧終身健康保險，但官網商品專區查無獨立商品頁（只見「扶力多」LTC 商品頁），未載銷售起日",
+        "保發中心即時列表：安聯人壽區段銷售日最新止於 115/10/15，另有未銷售兩筆，未列此商品",
+        "只有新聞稿、無官網商品頁與銷售日 → 保持待補充"
+      ]
+    }
+  ]
+}
