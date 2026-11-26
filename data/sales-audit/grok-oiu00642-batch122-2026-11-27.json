@@ -1,0 +1,71 @@
+{
+  "batch_id": "grok-oiu00642-batch122-2026-11-27",
+  "author": "Grok",
+  "created_at": "2026-11-27",
+  "authorization": "使用者於 2026-11-27（台北時間）指示：OIU採用，兩筆就先當作現售（pt234u）",
+  "scope": "00642 採用先前查到的首版上架日 2015-10-21 並標為現售；01662、44258 維持現售且不填銷售日。00880/00881/00882 未改。",
+  "method": "只在 overlay（product_updates.js/.json）針對性新增 00642；未改底層 products.js/packed；未執行 tii_session.py；未從 JSON 重建 JS。",
+  "items": [
+    {
+      "product_id": "00642",
+      "name": "南山人壽美年金采美元利率變動型年金保險(甲型)【OIU】",
+      "changed": true,
+      "result": "now_on_sale",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2015-10-21",
+        "stop_date": "",
+        "source": "官網",
+        "status_source_url": "https://www.ctee.com.tw/news/20151022700060-439901"
+      },
+      "evidence": [
+        "使用者採用先前交叉確認提出的可選方案：工商時報 2015-10-22 報導南山人壽 21 日上架 OIU 首張保單（美元利變年金），與條款首版申報日 2015-10-21（104）南壽研字第202號相符，作為銷售起日。",
+        "官網 OIU 專區仍列出本商品、DM 為 2025 年 1 月版、保險商品成本分析使用 115 年 1 月宣告利率，作為現售依據。現行版本申報日 2023-02-25 不是銷售日。OIU 不在保發中心列表。",
+        "狀態標為現售，不設未標示。"
+      ]
+    },
+    {
+      "product_id": "01662",
+      "name": "法商法國巴黎人壽美吉鴻運外幣分紅終身壽險(定期給付型)",
+      "changed": false,
+      "result": "already_on_sale_no_date",
+      "note": "overlay 已是現售、無銷售日（batch 119），使用者核准維持，未再改。"
+    },
+    {
+      "product_id": "44258",
+      "name": "國泰人壽滿溢鍾心重大傷病定期保險（外溢型）",
+      "changed": false,
+      "result": "already_on_sale_no_date",
+      "note": "overlay 已是現售、無銷售日（batch 119），使用者核准維持，未再改。"
+    },
+    {
+      "product_id": "00880",
+      "name": "台灣人壽一陸旺美元利率變動型年金保險(OIU)",
+      "changed": false,
+      "result": "left_unchanged",
+      "note": "2015-10-21 是南山 OIU 首張上架日，不能套用到台灣人壽。中信人壽 OIU 於 2015-08-05 開業，新聞寫首日上架 3 張／4 幣別，未點名本商品；條款 104/8/5 備查日不是已確認的銷售日。"
+    },
+    {
+      "product_id": "00881",
+      "name": "台灣人壽一陸發人民幣利率變動型年金保險(OIU)",
+      "changed": false,
+      "result": "left_unchanged",
+      "note": "官網有商品頁但無銷售起日；2015-10-21 不適用。"
+    },
+    {
+      "product_id": "00882",
+      "name": "台灣人壽好美利美元利率變動型年金保險(OIU)",
+      "changed": false,
+      "result": "left_unchanged",
+      "note": "條款申報日為 2015-10-01，與南山 2015-10-21 不同，也沒有點名本商品的上市日。"
+    }
+  ],
+  "publish": {
+    "files": [
+      "data/riders/product_updates.js",
+      "data/riders/product_updates.json",
+      "index.html"
+    ],
+    "release": "sales-20261127-grok15-oiu00642"
+  }
+}

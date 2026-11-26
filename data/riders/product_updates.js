@@ -18375,6 +18375,26 @@ window.INSURANCE_RIDER_PRODUCT_UPDATES= {
       "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A05323B11Z10000000",
       "status_checked_at": "2026-11-26",
       "status_source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A05323B11Z10000000"
+    },
+    {
+      "name": "南山人壽美年金采美元利率變動型年金保險(甲型)【OIU】",
+      "insurer": "南山人壽",
+      "sector": "人身保險",
+      "category": "年金險",
+      "status": "現售",
+      "terms_url": "https://www.nanshanlife.com.tw/nanshanlife/nanshanlife-info/Products/rule/OUISA.pdf",
+      "source_name": "南山人壽公開資訊／個人年金保險商品契約條款",
+      "source_url": "https://www.nanshanlife.com.tw/nanshanlife/about-public-info-product/",
+      "id": "00642",
+      "source": "官網",
+      "original_insurer": "南山人壽",
+      "current_insurer": "南山人壽",
+      "first_seen_at": "2026-11-09T08:14:13.106854+08:00",
+      "first_seen_source": "baseline",
+      "sale_date": "2015-10-21",
+      "stop_date": "",
+      "status_checked_at": "2026-11-27",
+      "status_source_url": "https://www.ctee.com.tw/news/20151022700060-439901"
     }
   ],
   "meta": {
@@ -18436,8 +18456,8 @@ window.INSURANCE_RIDER_PRODUCT_UPDATES= {
       },
       "statuses": {
         "停售": 40143,
-        "現售": 4046,
-        "未標示": 7
+        "現售": 4047,
+        "未標示": 6
       },
       "sources": {
         "官網+保發中心": 2300,
