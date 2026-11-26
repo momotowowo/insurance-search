@@ -429,7 +429,7 @@
     function loadScript(src) {
       return new Promise((resolve,reject) => {
         const script=document.createElement('script');
-        const release = 'sales-20261126-grok10';
+        const release = 'sales-20261126-grok11';
         script.src=src+(src.includes('?') ? '&' : '?')+'v='+release; script.onload=resolve;
         script.onerror=()=>reject(new Error('資料檔無法開啟，請確認壓縮檔已完整解壓縮。'));
         document.head.appendChild(script);
@@ -683,7 +683,7 @@
       const key = productKey(p);
       const tii = tiiProductIdOf(p);
       const idx = ridersManifest.main || {};
-      return idx['k:' + key] || (tii && idx['t:' + tii]) || (p.id && idx['p:' + p.id]) || null;
+      return (tii && idx['t:' + tii]) || idx['k:' + key] || (p.id && idx['p:' + p.id]) || null;
     }
 
     function manifestRiderMeta(p) {
@@ -694,7 +694,7 @@
       const tii = tiiProductIdOf(p);
       const baseKey = `${p.current_insurer || p.insurer || ''}|${stripPartialChangeSuffix(p.name || '')}`;
       const idx = ridersManifest.rider || {};
-      return idx['k:' + key] || (tii && idx['t:' + tii]) || idx['b:' + baseKey] || idx['b:' + `${p.current_insurer || p.insurer || ''}|${p.name || ''}`] || null;
+      return (tii && idx['t:' + tii]) || idx['k:' + key] || idx['b:' + baseKey] || idx['b:' + `${p.current_insurer || p.insurer || ''}|${p.name || ''}`] || null;
     }
 
     function ridersForProduct(p) {
@@ -703,7 +703,7 @@
       const key = productKey(p);
       const tii = tiiProductIdOf(p);
       const pr = window.INSURANCE_PRODUCT_RIDERS || {};
-      const entry = (pr.by_main_key || {})[key] || (pr.by_main_tii_product_id || {})[tii] || (pr.by_product_id || {})[p.id];
+      const entry = (tii && (pr.by_main_tii_product_id || {})[tii]) || (pr.by_main_key || {})[key] || (pr.by_product_id || {})[p.id];
       if (!entry || !Array.isArray(entry.riders) || !entry.riders.length) return null;
       return entry;
     }
@@ -716,7 +716,7 @@
       const tii = tiiProductIdOf(p);
       const baseKey = `${p.current_insurer || p.insurer || ''}|${stripPartialChangeSuffix(p.name || '')}`;
       const pr = window.INSURANCE_PRODUCT_RIDERS || {};
-      let raw = (pr.by_rider_key || {})[key] || (pr.by_rider_tii_product_id || {})[tii] || (pr.by_rider_base_name || {})[baseKey] || null;
+      let raw = (tii && (pr.by_rider_tii_product_id || {})[tii]) || (pr.by_rider_key || {})[key] || (pr.by_rider_base_name || {})[baseKey] || null;
       if (!raw) return null;
       let mains, note, official;
       if (Array.isArray(raw)) {
@@ -812,7 +812,7 @@
           <ul class="riders-list">${renderRiderItems(items)}</ul>
         </details>`;
       }
-      return `<details class="riders-block" data-lazy-riders="1" data-rider-co="${escapeAttr(company)}" data-product-key="${escapeAttr(productKey(p))}">
+      return `<details class="riders-block" data-lazy-riders="1" data-rider-co="${escapeAttr(company)}" data-product-id="${escapeAttr(p.id || '')}" data-product-key="${escapeAttr(productKey(p))}">
         <summary>可附加附約（${n}）</summary>
         <div class="riders-lazy-body"><div class="riders-meta">載入附約資料中…</div></div>
       </details>`;
@@ -834,7 +834,7 @@
           <ul class="riders-list">${renderMainItems(items)}</ul>
         </details>`;
       }
-      return `<details class="riders-block mains-block" data-lazy-mains="1" data-rider-co="${escapeAttr(company)}" data-product-key="${escapeAttr(productKey(p))}">
+      return `<details class="riders-block mains-block" data-lazy-mains="1" data-rider-co="${escapeAttr(company)}" data-product-id="${escapeAttr(p.id || '')}" data-product-key="${escapeAttr(productKey(p))}">
         <summary>可搭配主約（${n}）</summary>
         <div class="riders-lazy-body"><div class="riders-meta">載入主約資料中…</div></div>
       </details>`;
@@ -843,9 +843,10 @@
     async function fillLazyRiderBlock(detailsEl) {
       if (!detailsEl || detailsEl.dataset.lazyFilled === '1') return;
       const company = detailsEl.getAttribute('data-rider-co') || '';
+      const id = detailsEl.getAttribute('data-product-id') || '';
       const key = detailsEl.getAttribute('data-product-key') || '';
       await ensureRiderShard(company);
-      const p = products.find((x) => productKey(x) === key);
+      const p = (id && productsById.get(id)) || products.find((x) => productKey(x) === key);
       if (!p) return;
       if (detailsEl.dataset.lazyRiders === '1') {
         const entry = ridersForProduct(p);
