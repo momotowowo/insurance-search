@@ -269,13 +269,18 @@
     }
   ],
   "remaining_scope1": {
-    "遠雄人壽停售_保發中心快取無同名系列": 276,
-    "安達國際人壽現售_其他": 18,
-    "安聯人壽現售": 128,
-    "其他公司近期新品（快取無資料）": 45,
-    "note": "scope 1 共 1,121 筆，已處理 637 筆（358 已上線＋279 移交 GPT）"
+    "summary_after_live_tii": {
+      "安聯_verified": 108,
+      "安聯_pending": 20,
+      "其他公司近期新品_verified": 19,
+      "其他公司近期新品_pending": 26,
+      "安達現售18_verified": 4,
+      "安達現售18_pending": 14,
+      "遠雄停售276_pending_no_TII_match": 276
+    },
+    "note": "scope 1 (1,121): live-verified+applied 358+155+127+23 = 663; the remainder are handed to GPT (pending). scope 2 (recheck) and scope 3 (rider links) not started."
   },
-  "updated_at": "2026-11-26T12:54:12+08:00",
+  "updated_at": "2026-11-26T13:04:45+08:00",
   "live_tii_queue": {
     "note": "已移交 GPT（pending）之項目中，即時保發中心查詢（需使用者判讀驗證碼）可能解決者；Grok 要處理須先與 GPT 記錄",
     "counts": {
@@ -3798,8 +3803,13 @@
     },
     "gpt_takeover_records_found": 0,
     "total_reclaimed": 296,
-    "total_resolved": 155,
-    "total_returned_to_gpt": 141
+    "total_resolved": 174,
+    "total_returned_to_gpt": 141,
+    "recheck_batch24": {
+      "resolved": 19
+    },
+    "total_returned_to_gpt_pending": 122,
+    "note": "297 incl. 01351 re-handed; 122 remain pending for GPT after live recheck"
   },
   "integration3": {
     "commit": "0b62f499df6bfd81e453d03e5761ed37ef92851c",
