@@ -1,0 +1,4562 @@
+{
+  "batch_id": "grok-chubb-discontinued-missing-sale-date-batch10-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T10:14:38+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": "安達國際人壽停售缺販售日（181 筆）依 ID 第 1–60 筆",
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": [
+    "保發中心：life_rows.tsv 壽險全表快取（2026-11-08 擷取）取同名商品系列（含安達人壽、安達國際人壽及前身中泰人壽名稱）全部版本之銷售日／停售日。無詳細頁快取，故無原始文號逐一比對。",
+    "公司官網：本站 terms_url 之安達停售專區商品頁（life.chubb.com），本次重新下載，讀取核准/備查文號區塊之日期。",
+    "同版本判定：名稱相符＋官網文號最新日期恰等於系列中唯一一個版本之銷售日。備查/核准日期本身不當販售日；找不到唯一對應者一律移交 GPT。"
+  ],
+  "summary": {
+    "待核對": 29,
+    "已核實": 31,
+    "total": 60,
+    "items_with_proposed_changes": 31,
+    "status_changes_proposed": 0
+  },
+  "items": [
+    {
+      "product_id": "01333",
+      "name": "創富人生萬能保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/oiu/perpetual-saving-plan.html",
+        "fetched_at": "2026-11-26T10:13:27+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國106.01.01 安達精字第1060001號(OIU)函",
+          "文號日期": [
+            "106/01/01"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心快取（2026-11-08）找不到同名商品系列（含安達／中泰前身名稱）",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01334",
+      "name": "恆富傳承分紅終身保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/oiu/perpetual-life-plan-oiu.html",
+        "fetched_at": "2026-11-26T10:13:28+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國105.11.02 安達精字第1050001號(OIU)函",
+          "文號日期": [
+            "105/11/02"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心快取（2026-11-08）找不到同名商品系列（含安達／中泰前身名稱）",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01335",
+      "name": "悠活人生外幣變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/oiu/yoho-life-oiu.html",
+        "fetched_at": "2026-11-26T10:13:28+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國106.03.21安達精字第1060003號(OIU)函",
+          "文號日期": [
+            "106/03/21"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心快取（2026-11-08）找不到同名商品系列（含安達／中泰前身名稱）",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01336",
+      "name": "一路照護定期健康保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/term-life-dismemberment-income.html",
+        "fetched_at": "2026-11-26T10:13:28+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 110.02.22 康健(商)字第11000000200號函",
+          "文號日期": [
+            "110/02/22"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽一路照護定期健康保險(第2次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256391MZ1A00722A11Z10000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽一路照護定期健康保險(第3次部分變更)",
+            "銷售日": "112/02/06",
+            "停售日": "112/07/30",
+            "tii_product_id": "256391MZ1A00722A11Z10000003",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽一路照護定期健康保險(第4次部分變更)",
+            "銷售日": "112/07/31",
+            "停售日": "113/06/30",
+            "tii_product_id": "256391MZ1A00722A11Z10000004",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 110/02/22 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01337",
+      "name": "一路相挺一年定期失能扶助保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/protection/health-insurance/oyt-disability.html",
+        "fetched_at": "2026-11-26T10:13:28+08:00",
+        "page_section": "非停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 107.10.01 康健(商)字第10700000650號函",
+          "文號日期": [
+            "107/10/01"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽一路相挺一年定期失能扶助保險(第3次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256391MZ1A00221A11Z10000003",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽一路相挺一年定期失能扶助保險(第4次部分變更)",
+            "銷售日": "112/02/06",
+            "停售日": "113/06/30",
+            "tii_product_id": "256391MZ1A00221A11Z10000004",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "官網頁面不在停售專區",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01338",
+      "name": "傳愛傳家定期保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/chuan-ai-chuan-chia.html",
+        "fetched_at": "2026-11-26T10:13:28+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 106.02.02 安達精字第1060018號函",
+          "文號日期": [
+            "106/02/02"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽傳愛傳家定期保險",
+            "銷售日": "106/02/02",
+            "停售日": "106/12/31",
+            "tii_product_id": "270131MZ2A00322A11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽傳愛傳家定期保險(第1次部分變更)",
+            "銷售日": "107/01/01",
+            "停售日": "107/09/13",
+            "tii_product_id": "270131MZ2A00322A11Z10000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽傳愛傳家定期保險(第2次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/07/21",
+            "tii_product_id": "270131MZ2A00322A11Z10000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽傳愛傳家定期保險(第3次部分變更)",
+            "銷售日": "108/07/22",
+            "停售日": "108/12/31",
+            "tii_product_id": "270131MZ2A00322A11Z10000003",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽傳愛傳家定期保險(第4次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/06/30",
+            "tii_product_id": "270131MZ2A00322A11Z10000004",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽傳愛傳家定期保險",
+          "銷售日": "106/02/02",
+          "停售日": "106/12/31",
+          "tii_product_id": "270131MZ2A00322A11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MZ2A00322A11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2017-02-02",
+        "stop_date": "2017-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01339",
+      "name": "全民守護重大傷病健康保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/nhi-ci.html",
+        "fetched_at": "2026-11-26T10:13:28+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國103.10.17 金管保壽字第10302102120號函",
+          "文號日期": [
+            "103/10/17"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽全民守護重大傷病健康保險",
+            "銷售日": "103/10/20",
+            "停售日": "103/12/31",
+            "tii_product_id": "270351M12B00100",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽全民守護重大傷病健康保險(第1次部分變更)",
+            "銷售日": "104/01/01",
+            "停售日": "104/04/16",
+            "tii_product_id": "270351M12B00101",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽全民守護重大傷病健康保險(第2次部分變更)",
+            "銷售日": "104/04/17",
+            "停售日": "104/08/03",
+            "tii_product_id": "270351M12B00102",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽全民守護重大傷病健康保險(第3次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "104/12/31",
+            "tii_product_id": "270351MZ5B00122A11Z10000003",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽全民守護重大傷病健康保險(第4次部分變更)",
+            "銷售日": "105/01/01",
+            "停售日": "105/03/31",
+            "tii_product_id": "270351MZ5B00122A11Z10000004",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽全民守護重大傷病健康保險(第5次部分變更)",
+            "銷售日": "105/04/01",
+            "停售日": "105/09/05",
+            "tii_product_id": "270351MZ5B00122A11Z10000005",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "安達人壽全民守護重大傷病健康保險(第6次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "105/12/31",
+            "tii_product_id": "270351MZ5B00122A11Z10000006",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全民守護重大傷病健康保險(第7次部分變更)",
+            "銷售日": "106/01/01",
+            "停售日": "106/12/31",
+            "tii_product_id": "270351MZ5B00122A11Z10000007",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全民守護重大傷病健康保險(第8次部分變更)",
+            "銷售日": "107/01/01",
+            "停售日": "107/09/13",
+            "tii_product_id": "270351MZ5B00122A11Z10000008",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 103/10/17 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01340",
+      "name": "好安心重大傷病健康保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/nhicia.html",
+        "fetched_at": "2026-11-26T10:13:29+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國107.01.01 安達精字第1070001號函",
+          "文號日期": [
+            "107/01/01"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽好安心重大傷病健康保險",
+            "銷售日": "107/01/01",
+            "停售日": "107/09/13",
+            "tii_product_id": "270351MZ5B00422A11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽好安心重大傷病健康保險(第1次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/07/21",
+            "tii_product_id": "270351MZ5B00422A11Z10000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽好安心重大傷病健康保險(第3次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/08/31",
+            "tii_product_id": "270351MZ5B00422A11Z10000003",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽好安心重大傷病健康保險(第4次部分變更)",
+            "銷售日": "109/09/01",
+            "停售日": "110/07/01",
+            "tii_product_id": "270351MZ5B00422A11Z10000004",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽好安心重大傷病健康保險",
+          "銷售日": "107/01/01",
+          "停售日": "107/09/13",
+          "tii_product_id": "270351MZ5B00422A11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270351MZ5B00422A11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2018-01-01",
+        "stop_date": "2018-09-13"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01341",
+      "name": "好家在定期壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/hao-jia-zai.html",
+        "fetched_at": "2026-11-26T10:13:29+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 111.08.31 安達精字第 1110000065 號函",
+          "文號日期": [
+            "111/08/31"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽好家在定期壽險",
+            "銷售日": "111/08/31",
+            "停售日": "111/11/30",
+            "tii_product_id": "270131MZ1A00522A11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽好家在定期壽險(第1次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256131MZ1A00522A11Z10000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽好家在定期壽險(第2次部分變更)",
+            "銷售日": "112/02/06",
+            "停售日": "112/12/31",
+            "tii_product_id": "256131MZ1A00522A11Z10000002",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽好家在定期壽險",
+          "銷售日": "111/08/31",
+          "停售日": "111/11/30",
+          "tii_product_id": "270131MZ1A00522A11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MZ1A00522A11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2022-08-31",
+        "stop_date": "2022-11-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01342",
+      "name": "好富寓定期保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/hao-fu-yu.html",
+        "fetched_at": "2026-11-26T10:13:30+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 110.06.10 安達精字第 1100174 號函",
+          "文號日期": [
+            "110/06/10"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽好富寓定期保險",
+            "銷售日": "110/06/10",
+            "停售日": "111/11/30",
+            "tii_product_id": "270131MZ2A00822A11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽好富寓定期保險(第1次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256131MZ2A00822A11Z10000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽好富寓定期保險(第2次部分變更)",
+            "銷售日": "112/02/06",
+            "停售日": "112/06/30",
+            "tii_product_id": "256131MZ2A00822A11Z10000002",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽好富寓定期保險",
+          "銷售日": "110/06/10",
+          "停售日": "111/11/30",
+          "tii_product_id": "270131MZ2A00822A11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MZ2A00822A11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2021-06-10",
+        "stop_date": "2022-11-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01343",
+      "name": "好富築定期保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/hao-fu-chu.html",
+        "fetched_at": "2026-11-26T10:13:30+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國109.04.27 安達精字第1090042號函",
+          "文號日期": [
+            "109/04/27"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽好富築定期保險",
+            "銷售日": "109/04/27",
+            "停售日": "109/08/31",
+            "tii_product_id": "270131MZ2A00522A11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽好富築定期保險(第1次部分變更)",
+            "銷售日": "109/09/01",
+            "停售日": "110/07/01",
+            "tii_product_id": "270131MZ2A00522A11Z10000001",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽好富築定期保險",
+          "銷售日": "109/04/27",
+          "停售日": "109/08/31",
+          "tii_product_id": "270131MZ2A00522A11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MZ2A00522A11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-04-27",
+        "stop_date": "2020-08-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01344",
+      "name": "好滿築定期保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/hao-man-chu.html",
+        "fetched_at": "2026-11-26T10:13:30+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 108.06.03 金管保壽字第10804276411號函",
+          "文號日期": [
+            "108/06/03"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽好滿築定期保險",
+            "銷售日": "103/12/01",
+            "停售日": "104/06/30",
+            "tii_product_id": "270131M12A00200",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽好滿築定期保險(第1次部分變更)",
+            "銷售日": "104/07/01",
+            "停售日": "104/08/03",
+            "tii_product_id": "270131MZ2A00222A11Z10000001",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽好滿築定期保險(第2次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "104/12/31",
+            "tii_product_id": "270131MZ2A00222A11Z10000002",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽好滿築定期保險(第3次部分變更)",
+            "銷售日": "105/01/01",
+            "停售日": "105/09/05",
+            "tii_product_id": "270131MZ2A00222A11Z10000003",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "安達人壽好滿築定期保險(第4次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "105/12/31",
+            "tii_product_id": "270131MZ2A00222A11Z10000004",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽好滿築定期保險(第5次部分變更)",
+            "銷售日": "106/01/01",
+            "停售日": "106/12/31",
+            "tii_product_id": "270131MZ2A00222A11Z10000005",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽好滿築定期保險(第6次部分變更)",
+            "銷售日": "107/01/01",
+            "停售日": "107/09/13",
+            "tii_product_id": "270131MZ2A00222A11Z10000006",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽好滿築定期保險(第7次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/07/21",
+            "tii_product_id": "270131MZ2A00222A11Z10000007",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽好滿築定期保險(第8次部分變更)",
+            "銷售日": "108/07/22",
+            "停售日": "108/12/31",
+            "tii_product_id": "270131MZ2A00222A11Z10000008",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽好滿築定期保險(第9次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/06/30",
+            "tii_product_id": "270131MZ2A00222A11Z10000009",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 108/06/03 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01345",
+      "name": "好築GO定期保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/hao-chu-go.html",
+        "fetched_at": "2026-11-26T10:13:31+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 110.06.01 安達精字第1100170號函",
+          "文號日期": [
+            "110/06/01"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽好築GO定期保險",
+            "銷售日": "110/06/01",
+            "停售日": "111/11/30",
+            "tii_product_id": "270131MZ2A00722A11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽好築GO定期保險(第2次部分變更)",
+            "銷售日": "112/02/06",
+            "停售日": "112/06/30",
+            "tii_product_id": "256131MZ2A00722A11Z10000002",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽好築GO定期保險",
+          "銷售日": "110/06/01",
+          "停售日": "111/11/30",
+          "tii_product_id": "270131MZ2A00722A11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MZ2A00722A11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2021-06-01",
+        "stop_date": "2022-11-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01346",
+      "name": "好築意定期保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/hao-chu-yi.html",
+        "fetched_at": "2026-11-26T10:13:31+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 109.06.15 安達精字第1090108 號函",
+          "文號日期": [
+            "109/06/15"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽好築意定期保險",
+            "銷售日": "109/06/15",
+            "停售日": "109/08/31",
+            "tii_product_id": "270131MZ2A00622A11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽好築意定期保險(第1次部分變更)",
+            "銷售日": "109/09/01",
+            "停售日": "110/06/30",
+            "tii_product_id": "270131MZ2A00622A11Z10000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽好築意定期保險(第2次部分變更)",
+            "銷售日": "110/07/01",
+            "停售日": "111/11/30",
+            "tii_product_id": "270131MZ2A00622A11Z10000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽好築意定期保險(第4次部分變更)",
+            "銷售日": "112/02/06",
+            "停售日": "112/06/30",
+            "tii_product_id": "256131MZ2A00622A11Z10000004",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽好築意定期保險",
+          "銷售日": "109/06/15",
+          "停售日": "109/08/31",
+          "tii_product_id": "270131MZ2A00622A11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MZ2A00622A11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-06-15",
+        "stop_date": "2020-08-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01347",
+      "name": "如意還本保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/personal-accident-return-of-premium.html",
+        "fetched_at": "2026-11-26T10:13:31+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": null,
+          "文號日期": []
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽如意還本保險",
+            "銷售日": "095/12/26",
+            "停售日": "095/12/31",
+            "tii_product_id": "270131M12A00100",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽如意還本保險(第1次部分變更)",
+            "銷售日": "096/01/01",
+            "停售日": "096/09/30",
+            "tii_product_id": "270131M12A00101",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽如意還本保險(第2次部分變更)",
+            "銷售日": "096/10/01",
+            "停售日": "096/12/31",
+            "tii_product_id": "270131M12A00102",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽如意還本保險(第3次部分變更)",
+            "銷售日": "097/01/01",
+            "停售日": "097/12/28",
+            "tii_product_id": "270131M12A00103",
+            "company_prefix": "中泰人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "官網頁面未見可讀的核准／備查文號區塊",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01348",
+      "name": "安心傳家定期保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/mortage-2-term-life.html",
+        "fetched_at": "2026-11-26T10:13:32+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 108.06.03 金管保壽字第10804276411號函",
+          "文號日期": [
+            "108/06/03"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽安心傳家定期保險",
+            "銷售日": "104/07/01",
+            "停售日": "104/12/31",
+            "tii_product_id": "270131MZ5G00122A11Z10000000",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽安心傳家定期保險(第1次部分變更)",
+            "銷售日": "105/01/01",
+            "停售日": "105/03/31",
+            "tii_product_id": "270131MZ5G00122A11Z10000001",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽安心傳家定期保險(第2次部分變更)",
+            "銷售日": "105/04/01",
+            "停售日": "105/09/05",
+            "tii_product_id": "270131MZ5G00122A11Z10000002",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "安達人壽安心傳家定期保險(第3次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "105/12/31",
+            "tii_product_id": "270131MZ5G00122A11Z10000003",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽安心傳家定期保險(第4次部分變更)",
+            "銷售日": "106/01/01",
+            "停售日": "106/12/31",
+            "tii_product_id": "270131MZ5G00122A11Z10000004",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽安心傳家定期保險(第5次部分變更)",
+            "銷售日": "107/01/01",
+            "停售日": "107/09/13",
+            "tii_product_id": "270131MZ5G00122A11Z10000005",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽安心傳家定期保險(第6次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/07/21",
+            "tii_product_id": "270131MZ5G00122A11Z10000006",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽安心傳家定期保險(第7次部分變更)",
+            "銷售日": "108/07/22",
+            "停售日": "108/12/31",
+            "tii_product_id": "270131MZ5G00122A11Z10000007",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽安心傳家定期保險(第8次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/06/30",
+            "tii_product_id": "270131MZ5G00122A11Z10000008",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 108/06/03 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01349",
+      "name": "安心守護還本型重大傷病保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/nhi-ci-rop.html",
+        "fetched_at": "2026-11-26T10:13:33+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國107.09.14 依金融監督管理委員會107.06.07金管保壽字第10704158370號函",
+          "文號日期": [
+            "107/09/14"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽安心守護還本型重大傷病保險",
+            "銷售日": "104/06/01",
+            "停售日": "104/08/03",
+            "tii_product_id": "270351M12B00200",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽安心守護還本型重大傷病保險(第1次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "104/12/31",
+            "tii_product_id": "270351MZ5B00222A11Z10000001",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽安心守護還本型重大傷病保險(第2次部分變更)",
+            "銷售日": "105/01/01",
+            "停售日": "105/03/31",
+            "tii_product_id": "270351MZ5B00222A11Z10000002",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽安心守護還本型重大傷病保險(第3次部分變更)",
+            "銷售日": "105/04/01",
+            "停售日": "105/09/05",
+            "tii_product_id": "270351MZ5B00222A11Z10000003",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "安達人壽安心守護還本型重大傷病保險(第4次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "105/12/31",
+            "tii_product_id": "270351MZ5B00222A11Z10000004",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽安心守護還本型重大傷病保險(第5次部分變更)",
+            "銷售日": "106/01/01",
+            "停售日": "106/09/30",
+            "tii_product_id": "270351MZ5B00222A11Z10000005",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽安心守護還本型重大傷病保險(第6次部分變更)",
+            "銷售日": "106/10/01",
+            "停售日": "106/12/31",
+            "tii_product_id": "270351MZ5B00222A11Z10000006",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 107/09/14 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01350",
+      "name": "完美築意定期保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/wan-mei-chu-yi.html",
+        "fetched_at": "2026-11-26T10:13:33+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國110.06.01 安達精字第1100171號函",
+          "文號日期": [
+            "110/06/01"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽完美築意定期保險",
+            "銷售日": "110/06/01",
+            "停售日": "111/11/30",
+            "tii_product_id": "270131MZ5G00622A11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽完美築意定期保險(第1次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256131MZ5G00622A11Z10000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽完美築意定期保險(第2次部分變更)",
+            "銷售日": "112/02/06",
+            "停售日": "112/06/30",
+            "tii_product_id": "256131MZ5G00622A11Z10000002",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽完美築意定期保險",
+          "銷售日": "110/06/01",
+          "停售日": "111/11/30",
+          "tii_product_id": "270131MZ5G00622A11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MZ5G00622A11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2021-06-01",
+        "stop_date": "2022-11-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01351",
+      "name": "家好康定期壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/home-mortgage-term-life-i.html",
+        "fetched_at": "2026-11-26T10:13:33+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 97.05.30 依行政院金融監督管理委員會96.12.3金管保一字第09602505610號函",
+          "文號日期": [
+            "097/05/30"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽家好康定期壽險",
+            "銷售日": "095/02/17",
+            "停售日": "095/04/06",
+            "tii_product_id": "270131M11A00100",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽家好康定期壽險(第1次部分變更)",
+            "銷售日": "095/04/07",
+            "停售日": "095/12/31",
+            "tii_product_id": "270131M11A00101",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽家好康定期壽險(第2次部分變更)",
+            "銷售日": "096/01/01",
+            "停售日": "096/08/21",
+            "tii_product_id": "270131M11A00102",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽家好康定期壽險(第3次部分變更)",
+            "銷售日": "096/08/22",
+            "停售日": "096/12/31",
+            "tii_product_id": "270131M11A00103",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽家好康定期壽險(第4次部分變更)",
+            "銷售日": "097/01/01",
+            "停售日": "098/08/01",
+            "tii_product_id": "270131M11A00104",
+            "company_prefix": "中泰人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 097/05/30 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01352",
+      "name": "富築傳家定期保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/fu-chu-chuan-chia.html",
+        "fetched_at": "2026-11-26T10:13:33+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國109.05.20 安達精字第1090043號函",
+          "文號日期": [
+            "109/05/20"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽富築傳家定期保險",
+            "銷售日": "109/05/20",
+            "停售日": "109/08/31",
+            "tii_product_id": "270131MZ5G00422A11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽富築傳家定期保險(第1次部分變更)",
+            "銷售日": "109/09/01",
+            "停售日": "110/07/01",
+            "tii_product_id": "270131MZ5G00422A11Z10000001",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽富築傳家定期保險",
+          "銷售日": "109/05/20",
+          "停售日": "109/08/31",
+          "tii_product_id": "270131MZ5G00422A11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MZ5G00422A11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-05-20",
+        "stop_date": "2020-08-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01353",
+      "name": "幸福寓守定期保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/xing-fu-yu-shou.html",
+        "fetched_at": "2026-11-26T10:13:33+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 110.06.10 安達精字第 1100175 號函",
+          "文號日期": [
+            "110/06/10"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽幸福寓守定期保險",
+            "銷售日": "110/06/10",
+            "停售日": "111/11/30",
+            "tii_product_id": "270131MZ5G00722A11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽幸福寓守定期保險(第1次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256131MZ5G00722A11Z10000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽幸福寓守定期保險(第2次部分變更)",
+            "銷售日": "112/02/06",
+            "停售日": "112/06/30",
+            "tii_product_id": "256131MZ5G00722A11Z10000002",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽幸福寓守定期保險",
+          "銷售日": "110/06/10",
+          "停售日": "111/11/30",
+          "tii_product_id": "270131MZ5G00722A11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MZ5G00722A11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2021-06-10",
+        "stop_date": "2022-11-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01354",
+      "name": "心滿意築定期保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/xin-man-yi-chu.html",
+        "fetched_at": "2026-11-26T10:13:34+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國107.01.05 安達精字第1070009號函",
+          "文號日期": [
+            "107/01/05"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽心滿意築定期保險",
+            "銷售日": "107/01/05",
+            "停售日": "107/09/13",
+            "tii_product_id": "270131MZ5G00322A11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽心滿意築定期保險(第1次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/07/21",
+            "tii_product_id": "270131MZ5G00322A11Z10000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽心滿意築定期保險(第2次部分變更)",
+            "銷售日": "108/07/22",
+            "停售日": "108/12/31",
+            "tii_product_id": "270131MZ5G00322A11Z10000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽心滿意築定期保險(第3次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "110/07/01",
+            "tii_product_id": "270131MZ5G00322A11Z10000003",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽心滿意築定期保險",
+          "銷售日": "107/01/05",
+          "停售日": "107/09/13",
+          "tii_product_id": "270131MZ5G00322A11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MZ5G00322A11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2018-01-05",
+        "stop_date": "2018-09-13"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01355",
+      "name": "扶愛85定期保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/medical-term-all-in-one-comprehensive.html",
+        "fetched_at": "2026-11-26T10:13:34+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 111.05.20 康健(商)字第11100000190號函",
+          "文號日期": [
+            "111/05/20"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽扶愛85定期保險(第1次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256391MZ9GTIB22A11Z10000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽扶愛85定期保險(第2次部分變更)",
+            "銷售日": "112/02/06",
+            "停售日": "113/06/30",
+            "tii_product_id": "256391MZ9GTIB22A11Z10000002",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 111/05/20 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01356",
+      "name": "新團體一年定期壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/ngtl.html",
+        "fetched_at": "2026-11-26T10:13:34+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國105.08.16金管保壽字第10502071540號函",
+          "文號日期": [
+            "105/08/16"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽新團體一年定期壽險",
+            "銷售日": "102/11/29",
+            "停售日": "104/08/03",
+            "tii_product_id": "270133M11A00200",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽新團體一年定期壽險(第1次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "104/12/30",
+            "tii_product_id": "270133MZ1A00221A11Z10000001",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽新團體一年定期壽險(第2次部分變更)",
+            "銷售日": "104/12/31",
+            "停售日": "105/09/05",
+            "tii_product_id": "270133MZ1A00221A11Z10000002",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "安達人壽新團體一年定期壽險(第3次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "107/09/13",
+            "tii_product_id": "270133MZ1A00221A11Z10000003",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 105/08/16 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01357",
+      "name": "星美佳利美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/xing-mei-jia-li-par-life.html",
+        "fetched_at": "2026-11-26T10:13:34+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國114.02.27安達精字第1140000036號函",
+          "文號日期": [
+            "114/02/27"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽星美佳利美元分紅終身壽險",
+            "銷售日": "114/02/27",
+            "停售日": "114/12/31",
+            "tii_product_id": "256121MZ1A01023B11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽星美佳利美元分紅終身壽險(第1次部分變更)",
+            "銷售日": "115/01/01",
+            "停售日": "115/09/30",
+            "tii_product_id": "256121MZ1A01023B11Z10000001",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽星美佳利美元分紅終身壽險",
+          "銷售日": "114/02/27",
+          "停售日": "114/12/31",
+          "tii_product_id": "256121MZ1A01023B11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A01023B11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2025-02-27",
+        "stop_date": "2025-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01358",
+      "name": "永保安康終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/elderly-term-life.html",
+        "fetched_at": "2026-11-26T10:13:35+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 97.05.30 依行政院金融監督管理委員會96.12.3金管保一字第09602505610號函",
+          "文號日期": [
+            "097/05/30"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽永保安康終身壽險",
+            "銷售日": "095/09/29",
+            "停售日": "095/12/31",
+            "tii_product_id": "270141M11A00100",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽永保安康終身壽險(第1次部分變更)",
+            "銷售日": "096/01/01",
+            "停售日": "097/03/02",
+            "tii_product_id": "270141M11A00101",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽永保安康終身壽險(第2次部分變更)",
+            "銷售日": "097/03/03",
+            "停售日": "097/05/31",
+            "tii_product_id": "270141M11A00102",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽永保安康終身壽險(第3次部分變更)",
+            "銷售日": "097/06/01",
+            "停售日": "097/12/28",
+            "tii_product_id": "270141M11A00103",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽永保安康終身壽險(第4次部分變更)",
+            "銷售日": "097/12/29",
+            "停售日": "098/08/01",
+            "tii_product_id": "270141M11A00104",
+            "company_prefix": "中泰人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 097/05/30 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01359",
+      "name": "永富傳承美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/diu-perpetual-life-full-version.html",
+        "fetched_at": "2026-11-26T10:13:35+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國106.07.17 金管保壽字第10602069370號函",
+          "文號日期": [
+            "106/07/17"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽永富傳承美元分紅終身壽險",
+            "銷售日": "106/07/17",
+            "停售日": "107/07/15",
+            "tii_product_id": "270131MZ1A00313B21Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽永富傳承美元分紅終身壽險(第一次部分變更)",
+            "銷售日": "107/07/16",
+            "停售日": "107/09/13",
+            "tii_product_id": "270131MZ1A00313B21Z10000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽永富傳承美元分紅終身壽險(第2次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/07/21",
+            "tii_product_id": "270131MZ1A00313B21Z10000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽永富傳承美元分紅終身壽險(第3次部分變更)",
+            "銷售日": "108/07/22",
+            "停售日": "108/12/31",
+            "tii_product_id": "270131MZ1A00313B21Z10000003",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽永富傳承美元分紅終身壽險",
+          "銷售日": "106/07/17",
+          "停售日": "107/07/15",
+          "tii_product_id": "270131MZ1A00313B21Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MZ1A00313B21Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2017-07-17",
+        "stop_date": "2018-07-15"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01360",
+      "name": "泰富康養老保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/endowment-i.html",
+        "fetched_at": "2026-11-26T10:13:35+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 96.08.31 依行政院金融監督管理委員會95.9.1金管保二字第0950252225B號令",
+          "文號日期": [
+            "096/08/31"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽泰富康養老保險",
+            "銷售日": "094/12/06",
+            "停售日": "094/12/31",
+            "tii_product_id": "270121M11A00200",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽泰富康養老保險(第1次部分變更)",
+            "銷售日": "095/01/01",
+            "停售日": "095/12/31",
+            "tii_product_id": "270121M11A00201",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽泰富康養老保險(第2次部分變更)",
+            "銷售日": "096/01/01",
+            "停售日": "096/08/31",
+            "tii_product_id": "270121M11A00202",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽泰富康養老保險(第3次部分變更)",
+            "銷售日": "096/09/01",
+            "停售日": "097/03/02",
+            "tii_product_id": "270121M11A00203",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽泰富康養老保險(第4次部分變更)",
+            "銷售日": "097/03/03",
+            "停售日": "097/05/31",
+            "tii_product_id": "270121M11A00204",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽泰富康養老保險(第5次部分變更)",
+            "銷售日": "097/06/01",
+            "停售日": "098/08/01",
+            "tii_product_id": "270121M11A00205",
+            "company_prefix": "中泰人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 096/08/31 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01361",
+      "name": "泰滿億還本終身保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/endowment-ii.html",
+        "fetched_at": "2026-11-26T10:13:36+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 96.08.31 依行政院金融監督管理委員會95.9.1金管保二字第0950252225B號令",
+          "文號日期": [
+            "096/08/31"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽泰滿億還本終身保險",
+            "銷售日": "094/12/06",
+            "停售日": "094/12/31",
+            "tii_product_id": "270121M11A00100",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽泰滿億還本終身保險(第1次部分變更)",
+            "銷售日": "095/01/01",
+            "停售日": "095/05/04",
+            "tii_product_id": "270121M11A00101",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽泰滿億還本終身保險(第2次部分變更)",
+            "銷售日": "095/05/05",
+            "停售日": "095/12/31",
+            "tii_product_id": "270121M11A00102",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽泰滿億還本終身保險(第3次部分變更)",
+            "銷售日": "096/01/01",
+            "停售日": "096/08/31",
+            "tii_product_id": "270121M11A00103",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽泰滿億還本終身保險(第4次部分變更)",
+            "銷售日": "096/09/01",
+            "停售日": "097/03/02",
+            "tii_product_id": "270121M11A00104",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽泰滿億還本終身保險(第5次部分變更)",
+            "銷售日": "097/03/03",
+            "停售日": "097/05/31",
+            "tii_product_id": "270121M11A00105",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽泰滿億還本終身保險(第6次部分變更)",
+            "銷售日": "097/06/01",
+            "停售日": "098/08/01",
+            "tii_product_id": "270121M11A00106",
+            "company_prefix": "中泰人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 096/08/31 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01362",
+      "name": "泰鑫安100防癌健康保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/6-year-cancer-term-life.html",
+        "fetched_at": "2026-11-26T10:13:36+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國105.08.16 金管保壽字第10502071540號函",
+          "文號日期": [
+            "105/08/16"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽泰鑫安100防癌健康保險",
+            "銷售日": "103/08/11",
+            "停售日": "103/12/31",
+            "tii_product_id": "270321M12B00100",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽泰鑫安100防癌健康保險(第1次部份變更)",
+            "銷售日": "104/01/01",
+            "停售日": "104/08/03",
+            "tii_product_id": "270321M12B00101",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽泰鑫安100防癌健康保險(第2次部份變更)",
+            "銷售日": "104/08/04",
+            "停售日": "104/12/31",
+            "tii_product_id": "270321MZ2B00122A11Z10000002",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽泰鑫安100防癌健康保險(第3次部份變更)",
+            "銷售日": "105/01/01",
+            "停售日": "105/09/05",
+            "tii_product_id": "270321MZ2B00122A11Z10000003",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "安達人壽泰鑫安100防癌健康保險(第4次部份變更)",
+            "銷售日": "105/09/06",
+            "停售日": "105/12/31",
+            "tii_product_id": "270321MZ2B00122A11Z10000004",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽泰鑫安100防癌健康保險(第5次部份變更)",
+            "銷售日": "106/01/01",
+            "停售日": "106/12/31",
+            "tii_product_id": "270321MZ2B00122A11Z10000005",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽泰鑫安100防癌健康保險(第6次部份變更)",
+            "銷售日": "107/01/01",
+            "停售日": "107/04/26",
+            "tii_product_id": "270321MZ2B00122A11Z10000006",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽泰鑫安100防癌健康保險(第7次部份變更)",
+            "銷售日": "107/04/27",
+            "停售日": "107/09/13",
+            "tii_product_id": "270321MZ2B00122A11Z10000007",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽泰鑫安100防癌健康保險(第8次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "107/12/31",
+            "tii_product_id": "270321MZ2B00122A11Z10000008",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 105/08/16 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01363",
+      "name": "珍愛一生重大傷病終身保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/love-forever-whole-life-ci-rop.html",
+        "fetched_at": "2026-11-26T10:13:36+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國106.10.25 安達精字第1060147號函",
+          "文號日期": [
+            "106/10/25"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽珍愛一生重大傷病終身保險",
+            "銷售日": "106/10/25",
+            "停售日": "107/01/04",
+            "tii_product_id": "270351MZ5B00323A11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽珍愛一生重大傷病終身保險(第1次部分變更)",
+            "銷售日": "107/01/05",
+            "停售日": "107/09/13",
+            "tii_product_id": "270351MZ5B00323A11Z10000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽珍愛一生重大傷病終身保險(第4次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/06/29",
+            "tii_product_id": "270351MZ5B00323A11Z10000004",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽珍愛一生重大傷病終身保險(第5次部分變更)",
+            "銷售日": "109/06/30",
+            "停售日": "109/08/31",
+            "tii_product_id": "270351MZ5B00323A11Z10000005",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽珍愛一生重大傷病終身保險(第6次部分變更)",
+            "銷售日": "109/09/01",
+            "停售日": "110/07/01",
+            "tii_product_id": "270351MZ5B00323A11Z10000006",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽珍愛一生重大傷病終身保險",
+          "銷售日": "106/10/25",
+          "停售日": "107/01/04",
+          "tii_product_id": "270351MZ5B00323A11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270351MZ5B00323A11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2017-10-25",
+        "stop_date": "2018-01-04"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01364",
+      "name": "珍愛傳家定期保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/jen-ai-chuan-chia.html",
+        "fetched_at": "2026-11-26T10:13:37+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 106.02.02 安達精字第1060019號函",
+          "文號日期": [
+            "106/02/02"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽珍愛傳家定期保險",
+            "銷售日": "106/02/02",
+            "停售日": "106/12/31",
+            "tii_product_id": "270131MZ5G00222A11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽珍愛傳家定期保險(第1次部分變更)",
+            "銷售日": "107/01/01",
+            "停售日": "107/09/13",
+            "tii_product_id": "270131MZ5G00222A11Z10000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽珍愛傳家定期保險(第2次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/07/21",
+            "tii_product_id": "270131MZ5G00222A11Z10000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽珍愛傳家定期保險(第3次部分變更)",
+            "銷售日": "108/07/22",
+            "停售日": "108/12/31",
+            "tii_product_id": "270131MZ5G00222A11Z10000003",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽珍愛傳家定期保險(第4次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/06/30",
+            "tii_product_id": "270131MZ5G00222A11Z10000004",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽珍愛傳家定期保險",
+          "銷售日": "106/02/02",
+          "停售日": "106/12/31",
+          "tii_product_id": "270131MZ5G00222A11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MZ5G00222A11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2017-02-02",
+        "stop_date": "2017-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01365",
+      "name": "築夢傳家定期保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/chu-meng-chuan-chia.html",
+        "fetched_at": "2026-11-26T10:13:37+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 109.06.15 安達精字第1090109 號函",
+          "文號日期": [
+            "109/06/15"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽築夢傳家定期保險",
+            "銷售日": "109/06/15",
+            "停售日": "109/08/31",
+            "tii_product_id": "270131MZ5G00522A11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽築夢傳家定期保險(第1次部分變更)",
+            "銷售日": "109/09/01",
+            "停售日": "110/07/01",
+            "tii_product_id": "270131MZ5G00522A11Z10000001",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽築夢傳家定期保險",
+          "銷售日": "109/06/15",
+          "停售日": "109/08/31",
+          "tii_product_id": "270131MZ5G00522A11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MZ5G00522A11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-06-15",
+        "stop_date": "2020-08-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01366",
+      "name": "紅運旺旺美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/hong-yun-wang-wang-par-life.html",
+        "fetched_at": "2026-11-26T10:13:38+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國113.11.29安達精字第1130000149號函",
+          "文號日期": [
+            "113/11/29"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽紅運旺旺美元分紅終身壽險",
+            "銷售日": "113/11/29",
+            "停售日": "113/12/31",
+            "tii_product_id": "256121MZ1A00923B11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽紅運旺旺美元分紅終身壽險(第1次部分變更)",
+            "銷售日": "114/01/01",
+            "停售日": "114/07/31",
+            "tii_product_id": "256121MZ1A00923B11Z10000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽紅運旺旺美元分紅終身壽險(第2次部分變更)",
+            "銷售日": "114/08/01",
+            "停售日": "114/12/31",
+            "tii_product_id": "256121MZ1A00923B11Z10000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽紅運旺旺美元分紅終身壽險(第3次部分變更)",
+            "銷售日": "115/01/01",
+            "停售日": "115/09/30",
+            "tii_product_id": "256121MZ1A00923B11Z10000003",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽紅運旺旺美元分紅終身壽險",
+          "銷售日": "113/11/29",
+          "停售日": "113/12/31",
+          "tii_product_id": "256121MZ1A00923B11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A00923B11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2024-11-29",
+        "stop_date": "2024-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01367",
+      "name": "緣滿人生終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/simplfy-issue-whole-life.html",
+        "fetched_at": "2026-11-26T10:13:38+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國105.08.16 金管保壽字第10502071540號函",
+          "文號日期": [
+            "105/08/16"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽緣滿人生終身壽險",
+            "銷售日": "099/02/12",
+            "停售日": "099/08/31",
+            "tii_product_id": "270141M11A00200",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽緣滿人生終身壽險(第1次部分變更)",
+            "銷售日": "099/09/01",
+            "停售日": "100/06/30",
+            "tii_product_id": "270141M11A00201",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽緣滿人生終身壽險(第2次部分變更)",
+            "銷售日": "100/07/01",
+            "停售日": "100/12/29",
+            "tii_product_id": "270141M11A00202",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽緣滿人生終身壽險(第3次部分變更)",
+            "銷售日": "100/12/30",
+            "停售日": "101/06/28",
+            "tii_product_id": "270141M11A00203",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽緣滿人生終身壽險(第4次部分變更)",
+            "銷售日": "101/06/29",
+            "停售日": "101/12/27",
+            "tii_product_id": "270141M11A00204",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽緣滿人生終身壽險(第5次部分變更)",
+            "銷售日": "101/12/28",
+            "停售日": "102/12/31",
+            "tii_product_id": "270141M11A00205",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽緣滿人生終身壽險(第6次部分變更)",
+            "銷售日": "103/01/01",
+            "停售日": "103/12/31",
+            "tii_product_id": "270141M11A00206",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽緣滿人生終身壽險(第7次部分變更)",
+            "銷售日": "104/01/01",
+            "停售日": "104/08/03",
+            "tii_product_id": "270141M11A00207",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽緣滿人生終身壽險(第8次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "104/12/31",
+            "tii_product_id": "270131MZ1A00223A11Z10000008",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽緣滿人生終身壽險(第9次部分變更)",
+            "銷售日": "105/01/01",
+            "停售日": "105/09/05",
+            "tii_product_id": "270131MZ1A00223A11Z10000009",
+            "company_prefix": "中泰人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 105/08/16 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01368",
+      "name": "美利久久美元養老保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/6p30e.html",
+        "fetched_at": "2026-11-26T10:13:38+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國105.08.16 金管保壽字第10502071540號函",
+          "文號日期": [
+            "105/08/16"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽美利久久美元養老保險",
+            "銷售日": "103/12/31",
+            "停售日": "104/03/01",
+            "tii_product_id": "270121M11A00500",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽美利久久美元養老保險(第1次部分變更)",
+            "銷售日": "104/03/02",
+            "停售日": "104/08/03",
+            "tii_product_id": "270121M11A00501",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽美利久久美元養老保險(第2次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "104/12/31",
+            "tii_product_id": "270121MZ1A00522B11Z10000002",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽美利久久美元養老保險(第3次部分變更)",
+            "銷售日": "105/01/01",
+            "停售日": "105/09/05",
+            "tii_product_id": "270121MZ1A00522B11Z10000003",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "安達人壽美利久久美元養老保險(第4次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "105/12/31",
+            "tii_product_id": "270121MZ1A00522B11Z10000004",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽美利久久美元養老保險(第5次部分變更)",
+            "銷售日": "106/01/01",
+            "停售日": "106/02/13",
+            "tii_product_id": "270121MZ1A00522B11Z10000005",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 105/08/16 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01369",
+      "name": "美利威美元養老保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/mei-li-wei-fc-endowment.html",
+        "fetched_at": "2026-11-26T10:13:38+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 101.08.21 金管保壽字第 10102111260 號函",
+          "文號日期": [
+            "101/08/21"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽美利威美元養老保險",
+            "銷售日": "101/11/15",
+            "停售日": "101/12/28",
+            "tii_product_id": "270121M11A00400",
+            "company_prefix": "中泰人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 101/08/21 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01370",
+      "name": "美滿得利美元利率變動型增額終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/mei-man-de-li-interest-sensitive-whole-life.html",
+        "fetched_at": "2026-11-26T10:13:38+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國108.06.10 安達精字第1080036號函",
+          "文號日期": [
+            "108/06/10"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽美滿得利美元利率變動型增額終身壽險",
+            "銷售日": "108/06/10",
+            "停售日": "108/07/21",
+            "tii_product_id": "270131MA1A00123B11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽美滿得利美元利率變動型增額終身壽險(第1次部分變更)",
+            "銷售日": "108/07/22",
+            "停售日": "108/12/31",
+            "tii_product_id": "270131MA1A00123B11Z10000001",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽美滿得利美元利率變動型增額終身壽險",
+          "銷售日": "108/06/10",
+          "停售日": "108/07/21",
+          "tii_product_id": "270131MA1A00123B11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MA1A00123B11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2019-06-10",
+        "stop_date": "2019-07-21"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01371",
+      "name": "財富傳家美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/diu-perpetual-life-lite-version.html",
+        "fetched_at": "2026-11-26T10:13:39+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國106.07.03安達精字第1060084號函",
+          "文號日期": [
+            "106/07/03"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽財富傳家美元分紅終身壽險",
+            "銷售日": "106/07/03",
+            "停售日": "106/12/31",
+            "tii_product_id": "270121MZ2A00123B11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽財富傳家美元分紅終身壽險(第2次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "107/12/31",
+            "tii_product_id": "270121MZ2A00123B11Z10000002",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽財富傳家美元分紅終身壽險",
+          "銷售日": "106/07/03",
+          "停售日": "106/12/31",
+          "tii_product_id": "270121MZ2A00123B11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270121MZ2A00123B11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2017-07-03",
+        "stop_date": "2017-12-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01372",
+      "name": "遞減型定期壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/home-mortgage-term-life-ii.html",
+        "fetched_at": "2026-11-26T10:13:39+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 97.05.30 依行政院金融監督管理委員會96.12.3金管保一字第09602505610號函",
+          "文號日期": [
+            "097/05/30"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心快取（2026-11-08）找不到同名商品系列（含安達／中泰前身名稱）",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01373",
+      "name": "鼎富傳家美元分紅終身保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products/diu-perpetual-life-usd.html",
+        "fetched_at": "2026-11-26T10:13:39+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國107.11.09 安達精字第1070137號函",
+          "文號日期": [
+            "107/11/09"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽鼎富傳家美元分紅終身保險",
+            "銷售日": "107/11/09",
+            "停售日": "108/07/21",
+            "tii_product_id": "270121MZ1A00623B11Z10000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽鼎富傳家美元分紅終身保險(第1次部分變更)",
+            "銷售日": "108/07/22",
+            "停售日": "108/12/31",
+            "tii_product_id": "270121MZ1A00623B11Z10000001",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽鼎富傳家美元分紅終身保險",
+          "銷售日": "107/11/09",
+          "停售日": "108/07/21",
+          "tii_product_id": "270121MZ1A00623B11Z10000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270121MZ1A00623B11Z10000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2018-11-09",
+        "stop_date": "2019-07-21"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01374",
+      "name": "享樂年年外幣變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/shiang-le-nian-nian-foreign-currency-va.html",
+        "fetched_at": "2026-11-26T10:13:39+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國109.05.20安達精字第1090068號函",
+          "文號日期": [
+            "109/05/20"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽享樂年年外幣變額年金保險",
+            "銷售日": "109/05/20",
+            "停售日": "109/08/31",
+            "tii_product_id": "270421MV1A07323Z11Z90000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽享樂年年外幣變額年金保險(第1次部分變更)",
+            "銷售日": "109/09/01",
+            "停售日": "110/12/31",
+            "tii_product_id": "270421MV1A07323Z11Z90000001",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽享樂年年外幣變額年金保險",
+          "銷售日": "109/05/20",
+          "停售日": "109/08/31",
+          "tii_product_id": "270421MV1A07323Z11Z90000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MV1A07323Z11Z90000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-05-20",
+        "stop_date": "2020-08-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01375",
+      "name": "享樂年年變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/shiang-le-nian-nian-va.html",
+        "fetched_at": "2026-11-26T10:13:39+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 109.05.20 安達精字第1090067號函",
+          "文號日期": [
+            "109/05/20"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽享樂年年變額年金保險",
+            "銷售日": "109/05/20",
+            "停售日": "109/08/31",
+            "tii_product_id": "270421MV1A07223A11Z90000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽享樂年年變額年金保險(第1次部分變更)",
+            "銷售日": "109/09/01",
+            "停售日": "110/12/31",
+            "tii_product_id": "270421MV1A07223A11Z90000001",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽享樂年年變額年金保險",
+          "銷售日": "109/05/20",
+          "停售日": "109/08/31",
+          "tii_product_id": "270421MV1A07223A11Z90000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MV1A07223A11Z90000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2020-05-20",
+        "stop_date": "2020-08-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01376",
+      "name": "優越人生外幣變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/you-yue-ren-sheng-foreign-currency-va.html",
+        "fetched_at": "2026-11-26T10:13:39+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國105.08.16 金管保壽字第10502071540號函",
+          "文號日期": [
+            "105/08/16"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽優越人生外幣變額年金保險",
+            "銷售日": "102/03/01",
+            "停售日": "102/04/07",
+            "tii_product_id": "270421M31A03100",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽優越人生外幣變額年金保險(第1次部分變更)",
+            "銷售日": "102/04/08",
+            "停售日": "102/12/31",
+            "tii_product_id": "270421M31A03101",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽優越人生外幣變額年金保險(第2次部分變更)",
+            "銷售日": "103/01/01",
+            "停售日": "103/06/29",
+            "tii_product_id": "270421M31A03102",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽優越人生外幣變額年金保險(第3次部分變更)",
+            "銷售日": "103/06/30",
+            "停售日": "103/09/30",
+            "tii_product_id": "270421M31A03103",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽優越人生外幣變額年金保險(第4次部分變更)",
+            "銷售日": "103/10/01",
+            "停售日": "104/04/30",
+            "tii_product_id": "270421M31A03104",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽優越人生外幣變額年金保險(第5次部分變更)",
+            "銷售日": "104/05/01",
+            "停售日": "104/06/30",
+            "tii_product_id": "270421M31A03105",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽優越人生外幣變額年金保險(第6次部分變更)",
+            "銷售日": "104/07/01",
+            "停售日": "104/08/03",
+            "tii_product_id": "270421MV1A03123Z11Z90000006",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽優越人生外幣變額年金保險(第7次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "105/09/05",
+            "tii_product_id": "270421MV1A03123Z11Z90000007",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "安達人壽優越人生外幣變額年金保險(第8次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "105/09/05",
+            "tii_product_id": "270421MV1A03123Z11Z90000008",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽優越人生外幣變額年金保險(第9次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "106/03/30",
+            "tii_product_id": "270421MV1A03123Z11Z90000009",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 105/08/16 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01377",
+      "name": "優越人生變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/you-yue-ren-sheng-va.html",
+        "fetched_at": "2026-11-26T10:13:39+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國105.08.16 金管保壽字第10502071540號函",
+          "文號日期": [
+            "105/08/16"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽優越人生變額年金保險",
+            "銷售日": "100/01/21",
+            "停售日": "100/05/05",
+            "tii_product_id": "270421M31A02000",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽優越人生變額年金保險(第1次部分變更)",
+            "銷售日": "100/05/06",
+            "停售日": "101/06/28",
+            "tii_product_id": "270421M31A02001",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽優越人生變額年金保險(第2次部分變更)",
+            "銷售日": "101/06/29",
+            "停售日": "101/12/27",
+            "tii_product_id": "270421M31A02002",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽優越人生變額年金保險(第3次部分變更)",
+            "銷售日": "101/12/28",
+            "停售日": "102/12/31",
+            "tii_product_id": "270421M31A02003",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽優越人生變額年金保險(第4次部分變更)",
+            "銷售日": "103/01/01",
+            "停售日": "103/06/29",
+            "tii_product_id": "270421M31A02004",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽優越人生變額年金保險(第5次部分變更)",
+            "銷售日": "103/06/30",
+            "停售日": "104/01/15",
+            "tii_product_id": "270421M31A02005",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽優越人生變額年金保險(第8次部分變更)",
+            "銷售日": "104/07/01",
+            "停售日": "104/08/03",
+            "tii_product_id": "270421MV1A02023A11Z90000008",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽優越人生變額年金保險(第9次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "105/09/05",
+            "tii_product_id": "270421MV1A02023A11Z90000009",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "安達人壽優越人生變額年金保險(第10次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "105/09/05",
+            "tii_product_id": "270421MV1A02023A11Z90000010",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽優越人生變額年金保險(第11次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "106/03/30",
+            "tii_product_id": "270421MV1A02023A11Z90000011",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 105/08/16 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01378",
+      "name": "優越人生變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/you-yue-reng-sheng-ul.html",
+        "fetched_at": "2026-11-26T10:13:39+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國104.08.04依金融監督管理委員會104.06.24金管保壽字第10402049830號函",
+          "文號日期": [
+            "104/08/04"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽優越人生變額萬能壽險",
+            "銷售日": "103/10/31",
+            "停售日": "104/01/15",
+            "tii_product_id": "270141M31A03500",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽優越人生變額萬能壽險(第1次部分變更)",
+            "銷售日": "104/01/16",
+            "停售日": "104/04/30",
+            "tii_product_id": "270141M31A03501",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽優越人生變額萬能壽險(第3次部分變更)",
+            "銷售日": "104/07/01",
+            "停售日": "104/08/03",
+            "tii_product_id": "270131MV1A03523A11Z90000003",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽優越人生變額萬能壽險(第4次部分變更)",
+            "銷售日": "104/08/04",
+            "停售日": "105/09/05",
+            "tii_product_id": "270131MV1A03523A11Z90000004",
+            "company_prefix": "中泰人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "中泰人壽優越人生變額萬能壽險(第4次部分變更)",
+          "銷售日": "104/08/04",
+          "停售日": "105/09/05",
+          "tii_product_id": "270131MV1A03523A11Z90000004",
+          "company_prefix": "中泰人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MV1A03523A11Z90000004"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2015-08-04",
+        "stop_date": "2016-09-05"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定；保發中心列名為前身中泰人壽，官網文號含中泰字號"
+    },
+    {
+      "product_id": "01379",
+      "name": "全心滿益外幣變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/cyuan-sin-man-yi-foreign-currency-va.html",
+        "fetched_at": "2026-11-26T10:13:39+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 110.12.20 安達精字第 1100000297 號函",
+          "文號日期": [
+            "110/12/20"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽全心滿益外幣變額年金保險",
+            "銷售日": "110/12/20",
+            "停售日": "111/09/30",
+            "tii_product_id": "270421MV1A09223Z11Z90000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全心滿益外幣變額年金保險(第2次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256421MV1A09223Z11Z90000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全心滿益外幣變額年金保險(第3次部分變更)",
+            "銷售日": "112/02/06",
+            "停售日": "112/12/31",
+            "tii_product_id": "256421MV1A09223Z11Z90000003",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽全心滿益外幣變額年金保險",
+          "銷售日": "110/12/20",
+          "停售日": "111/09/30",
+          "tii_product_id": "270421MV1A09223Z11Z90000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MV1A09223Z11Z90000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2021-12-20",
+        "stop_date": "2022-09-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01380",
+      "name": "全心滿益外幣變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/cyuan-sin-man-yi-foreign-currency-vul.html",
+        "fetched_at": "2026-11-26T10:13:40+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 110.12.20 安達精字第 1100000299 號函",
+          "文號日期": [
+            "110/12/20"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽全心滿益外幣變額萬能壽險",
+            "銷售日": "110/12/20",
+            "停售日": "111/11/30",
+            "tii_product_id": "270131MV1A09223Z11Z90000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全心滿益外幣變額萬能壽險(第1次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256131MV1A09223Z11Z90000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全心滿益外幣變額萬能壽險(第2次部分變更)",
+            "銷售日": "112/02/06",
+            "停售日": "112/12/31",
+            "tii_product_id": "256131MV1A09223Z11Z90000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全心滿益外幣變額萬能壽險(第3次部分變更)",
+            "銷售日": "113/01/01",
+            "停售日": "113/12/31",
+            "tii_product_id": "256131MV1A09223Z11Z90000003",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽全心滿益外幣變額萬能壽險",
+          "銷售日": "110/12/20",
+          "停售日": "111/11/30",
+          "tii_product_id": "270131MV1A09223Z11Z90000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MV1A09223Z11Z90000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2021-12-20",
+        "stop_date": "2022-11-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01381",
+      "name": "全心滿益變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/cyuan-sin-man-yi-va.html",
+        "fetched_at": "2026-11-26T10:13:40+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 110.12.20 安達精字第 1100000296 號函",
+          "文號日期": [
+            "110/12/20"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽全心滿益變額年金保險",
+            "銷售日": "110/12/20",
+            "停售日": "111/09/30",
+            "tii_product_id": "270421MV1A09123A11Z90000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全心滿益變額年金保險(第1次部分變更)",
+            "銷售日": "111/10/01",
+            "停售日": "111/11/30",
+            "tii_product_id": "270421MV1A09123A11Z90000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全心滿益變額年金保險(第2次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256421MV1A09123A11Z90000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全心滿益變額年金保險(第3次部分變更)",
+            "銷售日": "112/02/06",
+            "停售日": "112/12/31",
+            "tii_product_id": "256421MV1A09123A11Z90000003",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽全心滿益變額年金保險",
+          "銷售日": "110/12/20",
+          "停售日": "111/09/30",
+          "tii_product_id": "270421MV1A09123A11Z90000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MV1A09123A11Z90000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2021-12-20",
+        "stop_date": "2022-09-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01382",
+      "name": "全心滿益變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/cyuan-sin-man-yi-vul.html",
+        "fetched_at": "2026-11-26T10:13:40+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 110.12.20 安達精字第 1100000298 號函",
+          "文號日期": [
+            "110/12/20"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽全心滿益變額萬能壽險",
+            "銷售日": "110/12/20",
+            "停售日": "111/11/30",
+            "tii_product_id": "270131MV1A09123A11Z90000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全心滿益變額萬能壽險(第1次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256131MV1A09123A11Z90000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全心滿益變額萬能壽險(第2次部分變更)",
+            "銷售日": "112/02/06",
+            "停售日": "112/12/31",
+            "tii_product_id": "256131MV1A09123A11Z90000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全心滿益變額萬能壽險(第3次部分變更)",
+            "銷售日": "113/01/01",
+            "停售日": "113/12/31",
+            "tii_product_id": "256131MV1A09123A11Z90000003",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽全心滿益變額萬能壽險",
+          "銷售日": "110/12/20",
+          "停售日": "111/11/30",
+          "tii_product_id": "270131MV1A09123A11Z90000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MV1A09123A11Z90000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2021-12-20",
+        "stop_date": "2022-11-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01383",
+      "name": "全新全益外幣變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/quan-xin-quan-yi-foreign-currency-va.html",
+        "fetched_at": "2026-11-26T10:13:40+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 108.12.23 安達精字第 1080089 號函",
+          "文號日期": [
+            "108/12/23"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽全新全益外幣變額年金保險",
+            "銷售日": "108/12/23",
+            "停售日": "109/08/31",
+            "tii_product_id": "270421MV1A06923Z11Z90000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益外幣變額年金保險(第2次部分變更)",
+            "銷售日": "110/01/01",
+            "停售日": "110/12/31",
+            "tii_product_id": "270421MV1A06923Z11Z90000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益外幣變額年金保險(第3次部分變更)",
+            "銷售日": "111/01/01",
+            "停售日": "111/03/31",
+            "tii_product_id": "270421MV1A06923Z11Z90000003",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益外幣變額年金保險(第4次部分變更)",
+            "銷售日": "111/04/01",
+            "停售日": "111/09/30",
+            "tii_product_id": "270421MV1A06923Z11Z90000004",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益外幣變額年金保險(第5次部分變更)",
+            "銷售日": "111/10/01",
+            "停售日": "111/11/30",
+            "tii_product_id": "270421MV1A06923Z11Z90000005",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益外幣變額年金保險(第6次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256421MV1A06923Z11Z90000006",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益外幣變額年金保險(第7次部分變更)",
+            "銷售日": "112/02/06",
+            "停售日": "112/06/30",
+            "tii_product_id": "256421MV1A06923Z11Z90000007",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽全新全益外幣變額年金保險",
+          "銷售日": "108/12/23",
+          "停售日": "109/08/31",
+          "tii_product_id": "270421MV1A06923Z11Z90000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MV1A06923Z11Z90000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2019-12-23",
+        "stop_date": "2020-08-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01384",
+      "name": "全新全益外幣變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/quan-xin-quan-yi-foreign-currency-ul.html",
+        "fetched_at": "2026-11-26T10:13:40+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 108.12.23 安達精字第1080091號函",
+          "文號日期": [
+            "108/12/23"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽全新全益外幣變額萬能壽險",
+            "銷售日": "108/12/23",
+            "停售日": "109/06/30",
+            "tii_product_id": "270131MV1A07423Z11Z90000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益外幣變額萬能壽險(第1次部分變更)",
+            "銷售日": "109/07/01",
+            "停售日": "109/08/31",
+            "tii_product_id": "270131MV1A07423Z11Z90000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益外幣變額萬能壽險(第2次部分變更)",
+            "銷售日": "109/09/01",
+            "停售日": "109/12/31",
+            "tii_product_id": "270131MV1A07423Z11Z90000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益外幣變額萬能壽險(第3次部分變更)",
+            "銷售日": "110/01/01",
+            "停售日": "110/12/31",
+            "tii_product_id": "270131MV1A07423Z11Z90000003",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益外幣變額萬能壽險(第4次部分變更)",
+            "銷售日": "111/01/01",
+            "停售日": "111/03/31",
+            "tii_product_id": "270131MV1A07423Z11Z90000004",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益外幣變額萬能壽險(第5次部分變更)",
+            "銷售日": "111/04/01",
+            "停售日": "111/11/30",
+            "tii_product_id": "270131MV1A07423Z11Z90000005",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益外幣變額萬能壽險(第6次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256131MV1A07423Z11Z90000006",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽全新全益外幣變額萬能壽險",
+          "銷售日": "108/12/23",
+          "停售日": "109/06/30",
+          "tii_product_id": "270131MV1A07423Z11Z90000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MV1A07423Z11Z90000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2019-12-23",
+        "stop_date": "2020-06-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01385",
+      "name": "全新全益變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/quan-xin-quan-yi-va.html",
+        "fetched_at": "2026-11-26T10:13:40+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 108.12.23 安達精字第 1080088 號函",
+          "文號日期": [
+            "108/12/23"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽全新全益變額年金保險",
+            "銷售日": "108/12/23",
+            "停售日": "109/08/31",
+            "tii_product_id": "270421MV1A06823A11Z90000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益變額年金保險(第2次部分變更)",
+            "銷售日": "110/01/01",
+            "停售日": "110/12/31",
+            "tii_product_id": "270421MV1A06823A11Z90000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益變額年金保險(第3次部分變更)",
+            "銷售日": "111/01/01",
+            "停售日": "111/03/31",
+            "tii_product_id": "270421MV1A06823A11Z90000003",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益變額年金保險(第4次部分變更)",
+            "銷售日": "111/04/01",
+            "停售日": "111/09/30",
+            "tii_product_id": "270421MV1A06823A11Z90000004",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益變額年金保險(第5次部分變更)",
+            "銷售日": "111/10/01",
+            "停售日": "111/11/30",
+            "tii_product_id": "270421MV1A06823A11Z90000005",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益變額年金保險(第6次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256421MV1A06823A11Z90000006",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益變額年金保險(第7次部分變更)",
+            "銷售日": "112/02/06",
+            "停售日": "112/06/30",
+            "tii_product_id": "256421MV1A06823A11Z90000007",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽全新全益變額年金保險",
+          "銷售日": "108/12/23",
+          "停售日": "109/08/31",
+          "tii_product_id": "270421MV1A06823A11Z90000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MV1A06823A11Z90000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2019-12-23",
+        "stop_date": "2020-08-31"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01386",
+      "name": "全新全益變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/quan-xin-quan-yi-ul.html",
+        "fetched_at": "2026-11-26T10:13:41+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國108.12.23安達精字第1080090號函",
+          "文號日期": [
+            "108/12/23"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "安達人壽全新全益變額萬能壽險",
+            "銷售日": "108/12/23",
+            "停售日": "109/06/30",
+            "tii_product_id": "270131MV1A07323A11Z90000000",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益變額萬能壽險(第2次部分變更)",
+            "銷售日": "109/09/01",
+            "停售日": "109/12/31",
+            "tii_product_id": "270131MV1A07323A11Z90000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益變額萬能壽險(第3次部分變更)",
+            "銷售日": "110/01/01",
+            "停售日": "110/12/31",
+            "tii_product_id": "270131MV1A07323A11Z90000003",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益變額萬能壽險(第4次部分變更)",
+            "銷售日": "111/01/01",
+            "停售日": "111/03/31",
+            "tii_product_id": "270131MV1A07323A11Z90000004",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全新全益變額萬能壽險(第5次部分變更)",
+            "銷售日": "111/04/01",
+            "停售日": "111/11/30",
+            "tii_product_id": "270131MV1A07323A11Z90000005",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）",
+        "matched_version": {
+          "name": "安達人壽全新全益變額萬能壽險",
+          "銷售日": "108/12/23",
+          "停售日": "109/06/30",
+          "tii_product_id": "270131MV1A07323A11Z90000000",
+          "company_prefix": "安達人壽",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MV1A07323A11Z90000000"
+        }
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "停售",
+        "sale_date": "2019-12-23",
+        "stop_date": "2020-06-30"
+      },
+      "changes": [
+        "sale_date",
+        "stop_date"
+      ],
+      "date_basis": "販售日／停售日取自保發中心列表該版本；官網停售專區頁面標示之核准/備查文號最新日期等於該版本銷售日，名稱相符，確認同一版本。核准/備查日期本身不作為販售日。",
+      "caveat": "保發中心列表為 2026-11-08 快取；本項無保發中心詳細頁快取，原始備查文號未逐一比對，僅以名稱＋唯一日期相符判定"
+    },
+    {
+      "product_id": "01387",
+      "name": "全能攻守外幣變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/chung-neng-kung-shou-foreign-currency-va.html",
+        "fetched_at": "2026-11-26T10:13:41+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 112.02.06 依金融監督管理委員會111.08.30金管保壽字第1110445485號函",
+          "文號日期": [
+            "112/02/06"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽全能攻守外幣變額年金保險",
+            "銷售日": "104/11/27",
+            "停售日": "105/09/05",
+            "tii_product_id": "270421MV1A04723Z11Z90000000",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額年金保險(第1次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "105/09/05",
+            "tii_product_id": "270421MV1A04723Z11Z90000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額年金保險(第2次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "106/01/10",
+            "tii_product_id": "270421MV1A04723Z11Z90000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額年金保險(第3次部分變更)",
+            "銷售日": "106/01/11",
+            "停售日": "106/09/24",
+            "tii_product_id": "270421MV1A04723Z11Z90000003",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額年金保險(第4次部分變更)",
+            "銷售日": "106/09/25",
+            "停售日": "107/05/27",
+            "tii_product_id": "270421MV1A04723Z11Z90000004",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額年金保險(第5次部分變更)",
+            "銷售日": "107/05/28",
+            "停售日": "107/10/30",
+            "tii_product_id": "270421MV1A04723Z11Z90000005",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額年金保險(第6次部分變更)",
+            "銷售日": "107/10/31",
+            "停售日": "108/07/21",
+            "tii_product_id": "270421MV1A04723Z11Z90000006",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額年金保險(第7次部分變更)",
+            "銷售日": "108/07/22",
+            "停售日": "108/12/22",
+            "tii_product_id": "270421MV1A04723Z11Z90000007",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額年金保險(第8次部分變更)",
+            "銷售日": "108/12/23",
+            "停售日": "109/06/30",
+            "tii_product_id": "270421MV1A04723Z11Z90000008",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額年金保險(第11次部分變更)",
+            "銷售日": "110/01/01",
+            "停售日": "110/12/31",
+            "tii_product_id": "270421MV1A04723Z11Z90000011",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額年金保險(第12次部分變更)",
+            "銷售日": "111/01/01",
+            "停售日": "111/03/31",
+            "tii_product_id": "270421MV1A04723Z11Z90000012",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額年金保險(第13次部分變更)",
+            "銷售日": "111/04/01",
+            "停售日": "111/09/30",
+            "tii_product_id": "270421MV1A04723Z11Z90000013",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額年金保險(第14次部分變更)",
+            "銷售日": "111/10/01",
+            "停售日": "111/11/30",
+            "tii_product_id": "270421MV1A04723Z11Z90000014",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額年金保險(第15次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256421MV1A04723Z11Z90000015",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 112/02/06 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01388",
+      "name": "全能攻守外幣變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/chung-neng-kung-shou-foreign-currency-ul.html",
+        "fetched_at": "2026-11-26T10:13:41+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 112.02.06 依金融監督管理委員會111.08.30金管保壽字第1110445485號函",
+          "文號日期": [
+            "112/02/06"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽全能攻守外幣變額萬能壽險",
+            "銷售日": "104/11/27",
+            "停售日": "105/09/05",
+            "tii_product_id": "270131MV1A04623Z11Z90000000",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額萬能壽險(第1次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "105/09/05",
+            "tii_product_id": "270131MV1A04623Z11Z90000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額萬能壽險(第2次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "106/01/10",
+            "tii_product_id": "270131MV1A04623Z11Z90000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額萬能壽險(第3次部分變更)",
+            "銷售日": "106/01/11",
+            "停售日": "107/05/27",
+            "tii_product_id": "270131MV1A04623Z11Z90000003",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額萬能壽險(第4次部分變更)",
+            "銷售日": "107/05/28",
+            "停售日": "107/09/13",
+            "tii_product_id": "270131MV1A04623Z11Z90000004",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額萬能壽險(第5次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "107/10/30",
+            "tii_product_id": "270131MV1A04623Z11Z90000005",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額萬能壽險(第6次部分變更)",
+            "銷售日": "107/10/31",
+            "停售日": "108/07/21",
+            "tii_product_id": "270131MV1A04623Z11Z90000006",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額萬能壽險(第8次部分變更)",
+            "銷售日": "108/12/23",
+            "停售日": "109/06/30",
+            "tii_product_id": "270131MV1A04623Z11Z90000008",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額萬能壽險(第9次部分變更)",
+            "銷售日": "109/07/01",
+            "停售日": "109/08/31",
+            "tii_product_id": "270131MV1A04623Z11Z90000009",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額萬能壽險(第11次部分變更)",
+            "銷售日": "110/01/01",
+            "停售日": "110/12/31",
+            "tii_product_id": "270131MV1A04623Z11Z90000011",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額萬能壽險(第12次部分變更)",
+            "銷售日": "111/01/01",
+            "停售日": "111/03/31",
+            "tii_product_id": "270131MV1A04623Z11Z90000012",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額萬能壽險(第13次部分變更)",
+            "銷售日": "111/04/01",
+            "停售日": "111/11/30",
+            "tii_product_id": "270131MV1A04623Z11Z90000013",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守外幣變額萬能壽險(第14次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256131MV1A04623Z11Z90000014",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 112/02/06 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01389",
+      "name": "全能攻守變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/chung-neng-kung-shou-va.html",
+        "fetched_at": "2026-11-26T10:13:41+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 112.02.06 依金融監督管理委員會111.08.30金管保壽字第1110445485號函",
+          "文號日期": [
+            "112/02/06"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽全能攻守變額年金保險",
+            "銷售日": "104/11/27",
+            "停售日": "105/09/05",
+            "tii_product_id": "270421MV1A04623A11Z90000000",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額年金保險(第3次部分變更)",
+            "銷售日": "106/01/11",
+            "停售日": "107/05/27",
+            "tii_product_id": "270421MV1A04623A11Z90000003",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額年金保險(第5次部分變更)",
+            "銷售日": "107/10/31",
+            "停售日": "107/12/19",
+            "tii_product_id": "270421MV1A04623A11Z90000005",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額年金保險(第6次部分變更)",
+            "銷售日": "107/12/20",
+            "停售日": "108/07/21",
+            "tii_product_id": "270421MV1A04623A11Z90000006",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額年金保險(第7次部分變更)",
+            "銷售日": "108/07/22",
+            "停售日": "108/12/22",
+            "tii_product_id": "270421MV1A04623A11Z90000007",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額年金保險(第8次部分變更)",
+            "銷售日": "108/12/23",
+            "停售日": "109/06/30",
+            "tii_product_id": "270421MV1A04623A11Z90000008",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額年金保險(第9次部分變更)",
+            "銷售日": "109/07/01",
+            "停售日": "109/08/31",
+            "tii_product_id": "270421MV1A04623A11Z90000009",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額年金保險(第10次部分變更)",
+            "銷售日": "109/09/01",
+            "停售日": "109/12/31",
+            "tii_product_id": "270421MV1A04623A11Z90000010",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額年金保險(第11次部分變更)",
+            "銷售日": "110/01/01",
+            "停售日": "110/12/31",
+            "tii_product_id": "270421MV1A04623A11Z90000011",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額年金保險(第12次部分變更)",
+            "銷售日": "111/01/01",
+            "停售日": "111/03/31",
+            "tii_product_id": "270421MV1A04623A11Z90000012",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額年金保險(第13次部分變更)",
+            "銷售日": "111/04/01",
+            "停售日": "111/09/30",
+            "tii_product_id": "270421MV1A04623A11Z90000013",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額年金保險(第14次部分變更)",
+            "銷售日": "111/10/01",
+            "停售日": "111/11/30",
+            "tii_product_id": "270421MV1A04623A11Z90000014",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額年金保險(第15次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256421MV1A04623A11Z90000015",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 112/02/06 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01390",
+      "name": "全能攻守變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/chung-neng-kung-shou-ul.html",
+        "fetched_at": "2026-11-26T10:13:41+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 112.02.06 依金融監督管理委員會111.08.30金管保壽字第1110445485號函",
+          "文號日期": [
+            "112/02/06"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽全能攻守變額萬能壽險",
+            "銷售日": "104/11/27",
+            "停售日": "105/09/05",
+            "tii_product_id": "270131MV1A04523A11Z90000000",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額萬能壽險(第1次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "105/09/05",
+            "tii_product_id": "270131MV1A04523A11Z90000001",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額萬能壽險(第2次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "106/01/10",
+            "tii_product_id": "270131MV1A04523A11Z90000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額萬能壽險(第3次部分變更)",
+            "銷售日": "106/01/11",
+            "停售日": "107/05/27",
+            "tii_product_id": "270131MV1A04523A11Z90000003",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額萬能壽險(第4次部分變更)",
+            "銷售日": "107/05/28",
+            "停售日": "107/09/13",
+            "tii_product_id": "270131MV1A04523A11Z90000004",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額萬能壽險(第5次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "107/10/30",
+            "tii_product_id": "270131MV1A04523A11Z90000005",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額萬能壽險(第6次部分變更)",
+            "銷售日": "107/10/31",
+            "停售日": "107/12/19",
+            "tii_product_id": "270131MV1A04523A11Z90000006",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額萬能壽險(第7次部分變更)",
+            "銷售日": "107/12/20",
+            "停售日": "108/07/21",
+            "tii_product_id": "270131MV1A04523A11Z90000007",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額萬能壽險(第9次部分變更)",
+            "銷售日": "108/12/23",
+            "停售日": "109/06/30",
+            "tii_product_id": "270131MV1A04523A11Z90000009",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額萬能壽險(第10次部分變更)",
+            "銷售日": "109/07/01",
+            "停售日": "109/08/31",
+            "tii_product_id": "270131MV1A04523A11Z90000010",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額萬能壽險(第12次部分變更)",
+            "銷售日": "110/01/01",
+            "停售日": "110/12/31",
+            "tii_product_id": "270131MV1A04523A11Z90000012",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額萬能壽險(第13次部分變更)",
+            "銷售日": "111/01/01",
+            "停售日": "111/03/31",
+            "tii_product_id": "270131MV1A04523A11Z90000013",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額萬能壽險(第14次部分變更)",
+            "銷售日": "111/04/01",
+            "停售日": "111/11/30",
+            "tii_product_id": "270131MV1A04523A11Z90000014",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽全能攻守變額萬能壽險(第15次部分變更)",
+            "銷售日": "111/12/01",
+            "停售日": "112/02/05",
+            "tii_product_id": "256131MV1A04523A11Z90000015",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 112/02/06 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01391",
+      "name": "凱鑫得利變額年金保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/kay-xin-de-li-va.html",
+        "fetched_at": "2026-11-26T10:13:41+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 108.06.03 金管保壽字第10804276411號函",
+          "文號日期": [
+            "108/06/03"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽凱鑫得利變額年金保險",
+            "銷售日": "104/09/21",
+            "停售日": "105/02/29",
+            "tii_product_id": "270421MV1A04523A11Z90000000",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽凱鑫得利變額年金保險(第1次部分變更)",
+            "銷售日": "105/03/01",
+            "停售日": "105/09/05",
+            "tii_product_id": "270421MV1A04523A11Z90000001",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "安達人壽凱鑫得利變額年金保險(第2次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "105/09/05",
+            "tii_product_id": "270421MV1A04523A11Z90000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽凱鑫得利變額年金保險(第3次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "106/09/24",
+            "tii_product_id": "270421MV1A04523A11Z90000003",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽凱鑫得利變額年金保險(第4次部分變更)",
+            "銷售日": "106/09/25",
+            "停售日": "107/09/13",
+            "tii_product_id": "270421MV1A04523A11Z90000004",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽凱鑫得利變額年金保險(第5次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/07/21",
+            "tii_product_id": "270421MV1A04523A11Z90000005",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽凱鑫得利變額年金保險(第7次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/06/30",
+            "tii_product_id": "270421MV1A04523A11Z90000007",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽凱鑫得利變額年金保險(第8次部分變更)",
+            "銷售日": "109/07/01",
+            "停售日": "109/08/31",
+            "tii_product_id": "270421MV1A04523A11Z90000008",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽凱鑫得利變額年金保險(第9次部分變更)",
+            "銷售日": "109/09/01",
+            "停售日": "110/12/31",
+            "tii_product_id": "270421MV1A04523A11Z90000009",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 108/06/03 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    },
+    {
+      "product_id": "01392",
+      "name": "凱鑫得利變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "停售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/kay-xin-de-li-ul.html",
+        "fetched_at": "2026-11-26T10:13:42+08:00",
+        "page_section": "停售專區",
+        "quoted": {
+          "文號區塊": "中華民國 108.06.03金管保壽字第10804276411號函",
+          "文號日期": [
+            "108/06/03"
+          ]
+        }
+      },
+      "tii": {
+        "family_listing": [
+          {
+            "name": "中泰人壽凱鑫得利變額萬能壽險",
+            "銷售日": "104/09/21",
+            "停售日": "105/02/29",
+            "tii_product_id": "270131MV1A04423A11Z90000000",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "中泰人壽凱鑫得利變額萬能壽險(第1次部分變更)",
+            "銷售日": "105/03/01",
+            "停售日": "105/09/05",
+            "tii_product_id": "270131MV1A04423A11Z90000001",
+            "company_prefix": "中泰人壽"
+          },
+          {
+            "name": "安達人壽凱鑫得利變額萬能壽險(第2次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "105/09/05",
+            "tii_product_id": "270131MV1A04423A11Z90000002",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽凱鑫得利變額萬能壽險(第3次部分變更)",
+            "銷售日": "105/09/06",
+            "停售日": "106/09/24",
+            "tii_product_id": "270131MV1A04423A11Z90000003",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽凱鑫得利變額萬能壽險(第4次部分變更)",
+            "銷售日": "106/09/25",
+            "停售日": "107/09/13",
+            "tii_product_id": "270131MV1A04423A11Z90000004",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽凱鑫得利變額萬能壽險(第5次部分變更)",
+            "銷售日": "107/09/14",
+            "停售日": "108/07/21",
+            "tii_product_id": "270131MV1A04423A11Z90000005",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽凱鑫得利變額萬能壽險(第7次部分變更)",
+            "銷售日": "109/01/01",
+            "停售日": "109/06/30",
+            "tii_product_id": "270131MV1A04423A11Z90000007",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽凱鑫得利變額萬能壽險(第8次部分變更)",
+            "銷售日": "109/07/01",
+            "停售日": "109/08/31",
+            "tii_product_id": "270131MV1A04423A11Z90000008",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽凱鑫得利變額萬能壽險(第9次部分變更)",
+            "銷售日": "109/09/01",
+            "停售日": "109/12/31",
+            "tii_product_id": "270131MV1A04423A11Z90000009",
+            "company_prefix": "安達人壽"
+          },
+          {
+            "name": "安達人壽凱鑫得利變額萬能壽險(第10次部分變更)",
+            "銷售日": "110/01/01",
+            "停售日": "110/12/31",
+            "tii_product_id": "270131MV1A04423A11Z90000010",
+            "company_prefix": "安達人壽"
+          }
+        ],
+        "listing_cache": "life_rows.tsv（保發中心壽險全表，2026-11-08 擷取）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心同名系列中銷售日等於官網文號最新日期 108/06/03 的版本有 0 個",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json）"
+    }
+  ]
+}
