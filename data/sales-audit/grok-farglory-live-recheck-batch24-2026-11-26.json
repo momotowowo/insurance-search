@@ -8,13 +8,14 @@
     "ids": 19
   },
   "gpt_claimed_ids_excluded": true,
-  "integration_status": "待整合",
+  "integration_status": "已核實項目已上線（待核對項目已移交 GPT，仍為 pending）",
   "product_data_changed": false,
   "method": "沿用批次 14 之即時保發中心詳細頁與官網條款（含 OCR 首部文字）資料，僅調整版本判定：當官網條款較新備查／修正文號未列於保發中心版本時，若「條款最新日期＝保發中心某版本銷售日（或備查日）且該版本文號含條款所載原始／當期文號」且唯一，則確認同版本。",
   "summary": {
     "已核實": 19,
     "total": 19,
-    "items_with_proposed_changes": 19
+    "items_with_proposed_changes": 19,
+    "live_applied": 19
   },
   "items": [
     {
@@ -27,7 +28,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23HG1&termsKind=C",
@@ -153,7 +154,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」，且條款文號含該版本文號，名稱相符、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02052",
@@ -165,7 +172,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FF1&termsKind=C",
@@ -371,7 +378,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」，且條款文號含該版本文號，名稱相符、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02099",
@@ -383,7 +396,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23JE22&termsKind=C",
@@ -518,7 +531,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」與備查日期，且條款文號含該版本文號、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02101",
@@ -530,7 +549,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23JG15&termsKind=C",
@@ -665,7 +684,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」與備查日期，且條款文號含該版本文號、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02111",
@@ -677,7 +702,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FV14&termsKind=C",
@@ -785,7 +810,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」與備查日期，且條款文號含該版本文號、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02116",
@@ -797,7 +828,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FD1&termsKind=C",
@@ -990,7 +1021,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」，且條款文號含該版本文號，名稱相符、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02125",
@@ -1002,7 +1039,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23QA24&termsKind=C",
@@ -1137,7 +1174,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」與備查日期，且條款文號含該版本文號、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02132",
@@ -1149,7 +1192,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FH55&termsKind=C",
@@ -1302,7 +1345,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」與備查日期，且條款文號含該版本文號、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02135",
@@ -1314,7 +1363,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FH1&termsKind=C",
@@ -1450,7 +1499,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」，且條款文號含該版本文號，名稱相符、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02162",
@@ -1462,7 +1517,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FL55&termsKind=C",
@@ -1615,7 +1670,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」與備查日期，且條款文號含該版本文號、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02166",
@@ -1627,7 +1688,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23JD25&termsKind=C",
@@ -1744,7 +1805,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」與備查日期，且條款文號含該版本文號、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02193",
@@ -1756,7 +1823,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FY44&termsKind=C",
@@ -1909,7 +1976,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」與備查日期，且條款文號含該版本文號、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02199",
@@ -1921,7 +1994,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FWEF&termsKind=C",
@@ -2074,7 +2147,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」與備查日期，且條款文號含該版本文號、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02454",
@@ -2086,7 +2165,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FZ33&termsKind=C",
@@ -2203,7 +2282,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」與備查日期，且條款文號含該版本文號、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02461",
@@ -2215,7 +2300,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FG1&termsKind=C",
@@ -2407,7 +2492,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」，且條款文號含該版本文號，名稱相符、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02464",
@@ -2419,7 +2510,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FG45&termsKind=C",
@@ -2590,7 +2681,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」與備查日期，且條款文號含該版本文號、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02480",
@@ -2602,7 +2699,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FO15&termsKind=C",
@@ -2719,7 +2816,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」與備查日期，且條款文號含該版本文號、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02482",
@@ -2731,7 +2834,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FQ16&termsKind=C",
@@ -2839,7 +2942,13 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」與備查日期，且條款文號含該版本文號、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "02536",
@@ -2851,7 +2960,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "reclaimed_from_handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json",
       "company": {
         "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=%23FE24&termsKind=C",
@@ -2959,7 +3068,20 @@
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網條款首部最新日期等於保發中心即時詳細頁該版本「銷售日」與備查日期，且條款文號含該版本文號、僅對應單一版本。官網條款 PDF 字型無 Unicode 對應，以影像辨識（OCR）讀取首部文字；僅在辨識結果之日期／文號與保發中心即時頁逐字相符時採用。備查／修正日期本身不作為販售日。",
       "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
-      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定"
+      "supersedes": "批次 14 曾因「官網較新文號日期未能對應」列為待核對；放寬為「該文號對應失敗時仍以銷售日＝官網最新日期＋原始文號相符之唯一版本」後重新判定",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     }
-  ]
+  ],
+  "integrated": {
+    "count": 19,
+    "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+    "pages_build": "built",
+    "live_verified_at": "2026-11-26T12:54:12+08:00",
+    "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+  }
 }

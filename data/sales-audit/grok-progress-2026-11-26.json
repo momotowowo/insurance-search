@@ -238,6 +238,34 @@
       "commit": "c1f5be5",
       "integration_status": "已核實項目已上線",
       "live_applied": 27
+    },
+    {
+      "batch": 18,
+      "audit": "data/sales-audit/grok-chubb-onsale-no-saved-pages-batch18-2026-11-26.json",
+      "items": 18,
+      "verified": 4,
+      "handed_off": 14,
+      "commit": "d8acd46",
+      "live_applied": 4
+    },
+    {
+      "batch": "19-23",
+      "topic": "farglory-discontinued-no-tii-match",
+      "items": 276,
+      "verified": 0,
+      "handed_off": 276,
+      "commit": "d8acd46",
+      "note": "no matching TII product for 遠雄/predecessor; all handed to GPT"
+    },
+    {
+      "batch": 24,
+      "audit": "data/sales-audit/grok-farglory-live-recheck-batch24-2026-11-26.json",
+      "items": 19,
+      "verified": 19,
+      "handed_off": 0,
+      "commit": "0988670",
+      "live_applied": 19,
+      "note": "recheck of batch 14 pending items with refined version logic"
     }
   ],
   "remaining_scope1": {
@@ -247,7 +275,7 @@
     "其他公司近期新品（快取無資料）": 45,
     "note": "scope 1 共 1,121 筆，已處理 637 筆（358 已上線＋279 移交 GPT）"
   },
-  "updated_at": "2026-11-26T12:51:02+08:00",
+  "updated_at": "2026-11-26T12:54:12+08:00",
   "live_tii_queue": {
     "note": "已移交 GPT（pending）之項目中，即時保發中心查詢（需使用者判讀驗證碼）可能解決者；Grok 要處理須先與 GPT 記錄",
     "counts": {
@@ -3909,5 +3937,38 @@
       "44266"
     ],
     "release": "sales-20261126-grok3"
+  },
+  "integration4": {
+    "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+    "pages_build": "built",
+    "live_verified_at": "2026-11-26T12:54:12+08:00",
+    "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4",
+    "verified_items_applied": 23,
+    "applied_ids": [
+      "01525",
+      "01543",
+      "01628",
+      "01629",
+      "01889",
+      "02052",
+      "02099",
+      "02101",
+      "02111",
+      "02116",
+      "02125",
+      "02132",
+      "02135",
+      "02162",
+      "02166",
+      "02193",
+      "02199",
+      "02454",
+      "02461",
+      "02464",
+      "02480",
+      "02482",
+      "02536"
+    ],
+    "release": "sales-20261126-grok4"
   }
 }

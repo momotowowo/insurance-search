@@ -8,7 +8,7 @@
     "ids": 18
   },
   "gpt_claimed_ids_excluded": true,
-  "integration_status": "待整合",
+  "integration_status": "已核實項目已上線（待核對項目已移交 GPT，仍為 pending）",
   "product_data_changed": false,
   "method": "Grok 於 2026-11-26 保發中心驗證碼工作階段內，對安達現售商品同名系列所有版本以 GET DetailList.aspx 取得即時詳細頁；以官網現售商品頁「商品文號／核准、核備文號」比對各版本文號與銷售日。保發中心顯示該版本已停售者，與本站現售不符，列為狀態衝突並移交 GPT（不改狀態）。未對驗證碼做 OCR、未執行 submit。",
   "summary": {
@@ -16,7 +16,8 @@
     "待核對": 12,
     "狀態衝突": 2,
     "total": 18,
-    "items_with_proposed_changes": 4
+    "items_with_proposed_changes": 4,
+    "live_applied": 4
   },
   "items": [
     {
@@ -29,7 +30,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/life/chuan-chia-bao.html",
         "fetched_at": "2026-11-26T12:51:10+08:00",
@@ -177,7 +178,13 @@
         "sale_date"
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網頁面文號最新日期等於保發中心即時詳細頁該版本「銷售日」，且官網文號含該版本原始文號，名稱相符、僅對應單一版本。核准／備查／修正日期本身不作為販售日。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "01526",
@@ -357,7 +364,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/life/jumbo-term-life.html",
         "fetched_at": "2026-11-26T12:51:11+08:00",
@@ -681,7 +688,13 @@
         "sale_date"
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網頁面文號最新日期等於保發中心即時詳細頁該版本「銷售日」，且官網文號含該版本原始文號，名稱相符、僅對應單一版本。核准／備查／修正日期本身不作為販售日。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "01601",
@@ -1327,7 +1340,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/tsai-hua-man-yi-foreign-currency-va.html",
         "fetched_at": "2026-11-26T12:51:14+08:00",
@@ -1464,7 +1477,13 @@
         "sale_date"
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網頁面文號最新日期等於保發中心即時詳細頁該版本「銷售日」，且官網文號含該版本原始文號，名稱相符、僅對應單一版本。核准／備查／修正日期本身不作為販售日。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "01629",
@@ -1476,7 +1495,7 @@
         "sale_date": null,
         "stop_date": null
       },
-      "integration_status": "待整合",
+      "integration_status": "已上線",
       "company": {
         "product_page_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/tsai-hua-man-yi-va.html",
         "fetched_at": "2026-11-26T12:51:14+08:00",
@@ -1602,7 +1621,13 @@
         "sale_date"
       ],
       "date_basis": "販售日／停售日取自保發中心即時詳細頁；官網頁面文號最新日期等於保發中心即時詳細頁該版本「銷售日」，且官網文號含該版本原始文號，名稱相符、僅對應單一版本。核准／備查／修正日期本身不作為販售日。",
-      "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）"
+      "caveat": "保發中心即時查詢於 2026-11-26 取得（見 matched_version.fetched_at）",
+      "integration": {
+        "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+        "pages_build": "built",
+        "live_verified_at": "2026-11-26T12:54:12+08:00",
+        "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+      }
     },
     {
       "product_id": "01632",
@@ -1822,5 +1847,12 @@
       "proposed": null,
       "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-onsale-no-saved-pages-batch18-2026-11-26.json）"
     }
-  ]
+  ],
+  "integrated": {
+    "count": 4,
+    "commit": "66d410a73d94f782bc2a41252c9cd676974fecdb",
+    "pages_build": "built",
+    "live_verified_at": "2026-11-26T12:54:12+08:00",
+    "live_verification": "線上 product_updates.js（release=sales-20261126-grok4）23 筆之銷售日／停售日／狀態／tii_url 與核實結果逐筆相符；線上 index.html release 為 sales-20261126-grok4"
+  }
 }
