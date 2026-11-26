@@ -1,0 +1,531 @@
+{
+  "batch_id": "grok-scope2-onsale-live-refresh-batch95-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T19:35:18+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": {
+    "description": "範圍2：現售品項以即時保發中心詳細頁覆核",
+    "ids": 10
+  },
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": "以 2026-11-26 即時保發中心詳細頁核對本站連結版本之銷售日、停售日與狀態；一致者為一致性複核，不一致且無官網明文者移交 GPT，不改狀態。未對驗證碼做 OCR、未執行 submit。",
+  "summary": {
+    "已核實": 10,
+    "total": 10,
+    "items_with_proposed_changes": 0
+  },
+  "items": [
+    {
+      "product_id": "42301",
+      "name": "法商法國巴黎人壽滿福100外幣變額萬能壽險(第7次部分變更)",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267131MV1A09023Z11Z90000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267131MV1A09023Z11Z90000007",
+          "name": "法商法國巴黎人壽滿福100外幣變額萬能壽險(第7次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "巴黎(107)壽字第09009號備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:35:02+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267131MV1A09023Z11Z90000007",
+            "name": "法商法國巴黎人壽滿福100外幣變額萬能壽險(第7次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "巴黎(107)壽字第09009號備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:35:02+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "42307",
+      "name": "法商法國巴黎人壽好利滿滿外幣變額年金保險(乙型)(第9次部分變更)",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267421MV1A07323Z11C90000009"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267421MV1A07323Z11C90000009",
+          "name": "法商法國巴黎人壽好利滿滿外幣變額年金保險(乙型)(第9次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "巴黎(107)壽字第03002號備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T17:29:13+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267421MV1A07323Z11C90000009",
+            "name": "法商法國巴黎人壽好利滿滿外幣變額年金保險(乙型)(第9次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "巴黎(107)壽字第03002號備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T17:29:13+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.cardif.com.tw/documents/418719/462100/XA0047_Provision.pdf/f072d202-4e2d-6c6f-a0b7-b7e93afc9f58?t=1735645259991",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "42310",
+      "name": "法商法國巴黎人壽金采年華變額萬能壽險(第3次部分變更)",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267131MV1A12823A11C90000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267131MV1A12823A11C90000003",
+          "name": "法商法國巴黎人壽金采年華變額萬能壽險(第3次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "巴黎(112)壽字第08005號備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:35:16+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267131MV1A12823A11C90000003",
+            "name": "法商法國巴黎人壽金采年華變額萬能壽險(第3次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "巴黎(112)壽字第08005號備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:35:16+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "42311",
+      "name": "法商法國巴黎人壽金采年華外幣變額萬能壽險(第3次部分變更)",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267131MV1A12923Z11C90000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267131MV1A12923Z11C90000003",
+          "name": "法商法國巴黎人壽金采年華外幣變額萬能壽險(第3次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "巴黎(112)壽字第08007號備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:35:14+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267131MV1A12923Z11C90000003",
+            "name": "法商法國巴黎人壽金采年華外幣變額萬能壽險(第3次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "巴黎(112)壽字第08007號備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:35:14+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "42312",
+      "name": "法商法國巴黎人壽元滿福氣變額萬能壽險(第2次部分變更)",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267131MV1A13023A11C90000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267131MV1A13023A11C90000002",
+          "name": "法商法國巴黎人壽元滿福氣變額萬能壽險(第2次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "巴黎(112)壽字第11004號備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T17:31:01+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267131MV1A13023A11C90000002",
+            "name": "法商法國巴黎人壽元滿福氣變額萬能壽險(第2次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "巴黎(112)壽字第11004號備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T17:31:01+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "42313",
+      "name": "法商法國巴黎人壽新福企滿貸定期壽險(第7次部分變更)",
+      "insurer": "法國巴黎人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=267131MZ2A00222A11Z10000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "267131MZ2A00222A11Z10000007",
+          "name": "法商法國巴黎人壽新福企滿貸定期壽險(第7次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "115/01/01",
+          "filing_no": "巴黎(102)壽字第06022號備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T17:29:02+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "267131MZ2A00222A11Z10000007",
+            "name": "法商法國巴黎人壽新福企滿貸定期壽險(第7次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "115/01/01",
+            "filing_no": "巴黎(102)壽字第06022號備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T17:29:02+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.cardif.com.tw/documents/418719/462103/STLT1_VIE.pdf/6a0e3fc8-5490-4f5f-b644-9b3a49b7a2ba?t=1735629661789",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01828",
+      "name": "臺銀人壽不分紅定期壽險附約(109A)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131RZ1A01V22A11Z10000018"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "201131RZ1A01V22A11Z10000018",
+          "name": "臺銀人壽不分紅定期壽險附約(109A)(第18次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台總壽字第09215603583號函核備,金管保壽字第11404900041號",
+          "at": "2026-11-26T19:35:17+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "201131RZ1A01V22A11Z10000018",
+            "name": "臺銀人壽不分紅定期壽險附約(109A)(第18次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台總壽字第09215603583號函核備,金管保壽字第11404900041號",
+            "at": "2026-11-26T19:35:17+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/5-2.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "03535",
+      "name": "臺銀人壽不分紅定期壽險附約(109A)(第18次部分變更)",
+      "insurer": "臺銀人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=201131RZ1A01V22A11Z10000018"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "201131RZ1A01V22A11Z10000018",
+          "name": "臺銀人壽不分紅定期壽險附約(109A)(第18次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台總壽字第09215603583號函核備,金管保壽字第11404900041號",
+          "at": "2026-11-26T19:35:17+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "201131RZ1A01V22A11Z10000018",
+            "name": "臺銀人壽不分紅定期壽險附約(109A)(第18次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台總壽字第09215603583號函核備,金管保壽字第11404900041號",
+            "at": "2026-11-26T19:35:17+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.twfhclife.com.tw/wp-content/uploads/1V-%E8%87%BA%E9%8A%80%E4%BA%BA%E5%A3%BD%E4%B8%8D%E5%88%86%E7%B4%85%E5%AE%9A%E6%9C%9F%E5%A3%BD%E9%9A%AA%E9%99%84%E7%B4%84109A.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "02662",
+      "name": "遠雄人壽愛無懼防癌保本終身保險",
+      "insurer": "遠雄人壽",
+      "site_code": "HS5",
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216321MZ2B14923A11Z10000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216321MZ2B14923A11Z10000012",
+          "name": "遠雄人壽愛無懼防癌保本終身保險(第12次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1030507號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T19:35:17+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216321MZ2B14923A11Z10000012",
+            "name": "遠雄人壽愛無懼防癌保本終身保險(第12次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1030507號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T19:35:17+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fglife.com.tw/termsLink.html?UUID=HS5&termsKind=O",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "26613",
+      "name": "遠雄人壽愛無懼防癌保本終身保險(第12次部分變更)",
+      "insurer": "遠雄人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=216321MZ2B14923A11Z10000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "216321MZ2B14923A11Z10000012",
+          "name": "遠雄人壽愛無懼防癌保本終身保險(第12次部分變更)",
+          "sale": "114/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "遠壽字第1030507號函,金管保壽字第11404900041號令",
+          "at": "2026-11-26T19:35:17+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "216321MZ2B14923A11Z10000012",
+            "name": "遠雄人壽愛無懼防癌保本終身保險(第12次部分變更)",
+            "sale": "114/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "遠壽字第1030507號函,金管保壽字第11404900041號令",
+            "at": "2026-11-26T19:35:17+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    }
+  ]
+}
