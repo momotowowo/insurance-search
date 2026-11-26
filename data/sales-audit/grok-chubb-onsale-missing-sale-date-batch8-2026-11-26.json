@@ -1,0 +1,2758 @@
+{
+  "batch_id": "grok-chubb-onsale-missing-sale-date-batch8-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T10:11:24+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": "安達國際人壽：本站現售、缺販售日、保發中心有詳細頁快取者（94 筆）依 ID 排序前 50 筆",
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": [
+    "保發中心：同名未停售版本之詳細頁快取（安達現售附約抓取，2026-11）讀取銷售日、停售日、核准文號；列表快取 life_rows.tsv（2026-11-08）。",
+    "公司官網：本站 terms_url 之安達現售商品頁（life.chubb.com），本次重新下載，讀取「商品文號／核准、核備文號」區塊。",
+    "同版本判定：商品頁含本站全名、位於現售區、文號區塊含保發中心原始核准文號號碼，且區塊內最新「中華民國」日期等於保發中心該版本銷售日。核准/備查/修正日期本身不作為販售日。"
+  ],
+  "summary": {
+    "已核實": 47,
+    "待核對": 3,
+    "total": 50,
+    "items_with_proposed_changes": 47,
+    "status_changes_proposed": 0
+  },
+  "items": [
+    {
+      "product_id": "01514",
+      "name": "卡放心美元重大傷病終身健康保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/protection/health-insurance/ka-fang-xin-critical-illness-whole-life-health.html",
+        "fetched_at": "2026-11-26T10:10:37+08:00",
+        "quoted": {
+          "商品文號": "中華民國115.07.24安達精字第1150000144號函備查",
+          "商品文號日期": [
+            "115/07/24"
+          ],
+          "條款PDF": []
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256351MZ5BSWD23B11Z10000000",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256351MZ5BSWD23B11Z10000000",
+        "listing_row": {
+          "name": "安達人壽卡放心美元重大傷病終身健康保險",
+          "銷售日": "115/07/24",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽卡放心美元重大傷病終身健康保險",
+          "銷售日": "115/07/24",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/07/24",
+          "核准、核備、備查文號": "安達精字第1150000144號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-24",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01515",
+      "name": "從齒健康全面型定期保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/protection/health-insurance/tsong-chih-jian-kang-chyuan-main-sing-term-dental.html",
+        "fetched_at": "2026-11-26T10:10:37+08:00",
+        "quoted": {
+          "商品文號": "中華民國 107.10.01 金管保壽字第10704188600號函核准 中華民國 112.01.16 金管保壽字第1110467552號函核准 中華民國 114.01.01依金融監督管理委員會 113.09.23金管保壽字第1130427324號函修正",
+          "商品文號日期": [
+            "107/10/01",
+            "112/01/16",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/tsong-chih-jian-kang-chyuan-main-sing-term-dental-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256391MZ9B00522A11Z10000007",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256391MZ9B00522A11Z10000007",
+        "listing_row": {
+          "name": "安達人壽從齒健康全面型定期保險(第7次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽從齒健康全面型定期保險(第7次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "金管保壽字第10704188600號函核准,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01516",
+      "name": "愛醫靠一年期定期防癌健康保險附約",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/protection/health-insurance/ai-yi-kau-health.html",
+        "fetched_at": "2026-11-26T10:10:37+08:00",
+        "quoted": {
+          "商品文號": "中華民國114.01.24安達精字第1140000017號函備查",
+          "商品文號日期": [
+            "114/01/24"
+          ],
+          "條款PDF": []
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256321RZ1AOCE21A11Z10000000",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256321RZ1AOCE21A11Z10000000",
+        "listing_row": {
+          "name": "安達人壽愛醫靠一年期定期防癌健康保險附約",
+          "銷售日": "114/01/24",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽愛醫靠一年期定期防癌健康保險附約",
+          "銷售日": "114/01/24",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/01/24",
+          "核准、核備、備查文號": "安達精字第1140000017號函備查,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-24",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01517",
+      "name": "憶路相伴終身健康保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/protection/health-insurance/yi-lu-xiang-ban-whole-life-health.html",
+        "fetched_at": "2026-11-26T10:10:38+08:00",
+        "quoted": {
+          "商品文號": "中華民國115.06.26安達精字第1150000137號函備查",
+          "商品文號日期": [
+            "115/06/26"
+          ],
+          "條款PDF": []
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256361MZ1AWDA23A11Z10000000",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256361MZ1AWDA23A11Z10000000",
+        "listing_row": {
+          "name": "安達人壽憶路相伴終身健康保險",
+          "銷售日": "115/06/26",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽憶路相伴終身健康保險",
+          "銷售日": "115/06/26",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/06/26",
+          "核准、核備、備查文號": "安達精字第1150000137號備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-26",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01518",
+      "name": "新終身醫靠終身醫療保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/protection/health-insurance/sin-jhong-shen-yi-kao-whole-life-medical.html",
+        "fetched_at": "2026-11-26T10:10:38+08:00",
+        "quoted": {
+          "商品文號": "中華民國 111.06.13 康健(商)字第11100000560號函備查 中華民國 112.01.16 金管保壽字第1110467552號函核准 中華民國114.01.01依金融監督管理委員會 113.09.23金管保壽字第 1130427324號函修正",
+          "商品文號日期": [
+            "111/06/13",
+            "112/01/16",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/sin-jhong-shen-yi-kao-whole-life-medical-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256311MZ1AWLJ23A11Z10000004",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256311MZ1AWLJ23A11Z10000004",
+        "listing_row": {
+          "name": "安達人壽新終身醫靠終身醫療保險(第4次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新終身醫靠終身醫療保險(第4次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "康健(商)字第11100000560號函備查,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01519",
+      "name": "新術術順心手術醫療終身健康保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/protection/health-insurance/whole-life-surgical-protection.html",
+        "fetched_at": "2026-11-26T10:10:38+08:00",
+        "quoted": {
+          "商品文號": "中華民國 106.01.01 康健(商)字第10600000210號函備查 中華民國 112.01.16 金管保壽字第1110467552號函核准 中華民國 114.01.01依金融監督管理委員會 113.09.23金管保壽字第1130427324號函修正",
+          "商品文號日期": [
+            "106/01/01",
+            "112/01/16",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/whole-life-surgical-protection-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256311MZ1A00723A11Z10000007",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256311MZ1A00723A11Z10000007",
+        "listing_row": {
+          "name": "安達人壽新術術順心手術醫療終身健康保險(第7次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新術術順心手術醫療終身健康保險(第7次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "康健(商)字第10600000210號函備查,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01520",
+      "name": "樂活長青定期保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/protection/health-insurance/term-senior-ci-protection.html",
+        "fetched_at": "2026-11-26T10:10:38+08:00",
+        "quoted": {
+          "商品文號": "中華民國 110.09.24 康健(商)字第11000000570號函備查 中華民國 112.01.16 金管保壽字第1110467552號函核准 中華民國 114.01.01依金融監督管理委員會113.09.23金管保壽字第1130427324號函修正",
+          "商品文號日期": [
+            "110/09/24",
+            "112/01/16",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/term-enior-ci-protection-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256391MZ9DTDI22A11Z10000005",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256391MZ9DTDI22A11Z10000005",
+        "listing_row": {
+          "name": "安達人壽樂活長青定期保險(第5次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽樂活長青定期保險(第5次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "康健(商)字第11000000570號函備查,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01521",
+      "name": "術術平安終身健康保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/protection/health-insurance/shu-shu-ping-an-whole-life-health.html",
+        "fetched_at": "2026-11-26T10:10:38+08:00",
+        "quoted": {
+          "商品文號": "中華民國114.01.24安達精字第1140000014號函備查 中華民國114.08.01安達精字第1140000166號函備查",
+          "商品文號日期": [
+            "114/01/24",
+            "114/08/01"
+          ],
+          "條款PDF": []
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256311MZ1AWSD23A11Z10000001",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256311MZ1AWSD23A11Z10000001",
+        "listing_row": {
+          "name": "安達人壽術術平安終身健康保險(第1次部分變更)",
+          "銷售日": "114/08/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽術術平安終身健康保險(第1次部分變更)",
+          "銷售日": "114/08/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "安達精字第1140000014號函備查,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-08-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01522",
+      "name": "銀領健康定期健康保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/protection/health-insurance/term-senior-medical-protection.html",
+        "fetched_at": "2026-11-26T10:10:38+08:00",
+        "quoted": {
+          "商品文號": "中華民國 108.05.27 康健(商)字第10800000450號函備查 中華民國 112.01.16 金管保壽字第1110467552號函核准 中華民國114.01.01依金融監督管理委員會113.09.23金管保壽字第1130427324號函修正",
+          "商品文號日期": [
+            "108/05/27",
+            "112/01/16",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/term-senior-medical-protection-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256311MZ1A01522A11Z10000006",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256311MZ1A01522A11Z10000006",
+        "listing_row": {
+          "name": "安達人壽銀領健康定期健康保險(第6次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽銀領健康定期健康保險(第6次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "康健(商)字第10800000450號函備查,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01523",
+      "name": "鍾愛意生終身傷害保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/protection/health-insurance/whole-life-personal-accident.html",
+        "fetched_at": "2026-11-26T10:10:38+08:00",
+        "quoted": {
+          "商品文號": "中華民國 109.01.01 康健(商)字第10900000010號函備查 中華民國 112.01.16 金管保壽字第1110467552號函核准 中華民國 114.01.01依金融監督管理委員會 113.09.23金管保壽字第1130427324號函修正",
+          "商品文號日期": [
+            "109/01/01",
+            "112/01/16",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/whole-life-personal-accident-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心快取同名未停售版本有 2 個，無法單一對應",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-onsale-missing-sale-date-batch8-2026-11-26.json）"
+    },
+    {
+      "product_id": "01528",
+      "name": "永富長紅美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/life/yong-fu-chang-hong-par-life.html",
+        "fetched_at": "2026-11-26T10:10:39+08:00",
+        "quoted": {
+          "商品文號": "中華民國115.01.30安達精字第1150000021號函備查 保險範圍 被保險人於本契約有效期間內身故、致成完全失能、或於保險年齡達一百一十歲之保單週年日仍生存者，本公司分別依保單條款第十五條至第十八條約定給付各項保險金。",
+          "商品文號日期": [
+            "115/01/30"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/yong-fu-chang-hong-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MZ1A01723B11Z10000000",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MZ1A01723B11Z10000000",
+        "listing_row": {
+          "name": "安達人壽永富長紅美元分紅終身壽險",
+          "銷售日": "115/01/30",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽永富長紅美元分紅終身壽險",
+          "銷售日": "115/01/30",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/01/30",
+          "核准、核備、備查文號": "安達精字第1150000021號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-30",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01530",
+      "name": "美利大世代美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/life/mei-li-da-shi-dai-par-life.html",
+        "fetched_at": "2026-11-26T10:10:39+08:00",
+        "quoted": {
+          "商品文號": "中華民國115.01.20安達精字第1150000019號函備查 保險範圍 被保險人於本契約有效期間內身故或於保險年齡達一百一十歲之保單週年日仍生存者，本公司分別依本契約第十三條及第十四條約定給付各項保險金。",
+          "商品文號日期": [
+            "115/01/20"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/mei-li-da-shi-dai-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MZ1A01623B11Z10000000",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MZ1A01623B11Z10000000",
+        "listing_row": {
+          "name": "安達人壽美利大世代美元分紅終身壽險",
+          "銷售日": "115/01/20",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽美利大世代美元分紅終身壽險",
+          "銷售日": "115/01/20",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/01/20",
+          "核准、核備、備查文號": "安達精字第1150000019號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-20",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01531",
+      "name": "美利如星美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/life/mei-li-ru-xing-par-life.html",
+        "fetched_at": "2026-11-26T10:10:39+08:00",
+        "quoted": {
+          "商品文號": "中華民國113.07.31安達精字第1130000105號函備查 中華民國115.01.01依金融監督管理委員會114.12.17金管保壽字第11404321761號令修正 保險範圍 被保險人於本契約有效期間內身故、致成完全失能、或於保險年齡達一百一十歲之保單週年日仍生存者，本公司分別依保單條款第十五條至第十八條約定給付各項保險金。",
+          "商品文號日期": [
+            "113/07/31",
+            "115/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/mei-li-ru-xing-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256121MZ1A00823B11Z10000002",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A00823B11Z10000002",
+        "listing_row": {
+          "name": "安達人壽美利如星美元分紅終身壽險(第2次部分變更)",
+          "銷售日": "115/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽美利如星美元分紅終身壽險(第2次部分變更)",
+          "銷售日": "115/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/12/27",
+          "核准、核備、備查文號": "安達精字第1130000105號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01532",
+      "name": "美利新世代美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/life/mei-li-xin-shi-dai-par-life.html",
+        "fetched_at": "2026-11-26T10:10:40+08:00",
+        "quoted": {
+          "商品文號": "中華民國114.09.30安達精字第1140000172號函備查 中華民國115.01.01依金融監督管理委員會114.12.17金管保壽字第11404321761號令修正 保險範圍 被保險人於本契約有效期間內身故、致成完全失能、或於保險年齡達一百一十歲之保單週年日仍生存者，本公司分別依本契約第十三條至第十五條約定給付各項保險金。",
+          "商品文號日期": [
+            "114/09/30",
+            "115/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/mei-li-xin-shi-dai-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256121MZ1A01323B11Z10000001",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A01323B11Z10000001",
+        "listing_row": {
+          "name": "安達人壽美利新世代美元分紅終身壽險(第1次部分變更)",
+          "銷售日": "115/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽美利新世代美元分紅終身壽險(第1次部分變更)",
+          "銷售日": "115/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/12/27",
+          "核准、核備、備查文號": "安達精字第1140000172號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01533",
+      "name": "美利星承美元分紅終身保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/life/mei-li-xing-cheng-par-life.html",
+        "fetched_at": "2026-11-26T10:10:40+08:00",
+        "quoted": {
+          "商品文號": "中華民國115.07.21安達精字第1150000157號函備查 保險範圍 被保險人於本契約有效期間內身故、致成保單條款附表一所列完全失能程度之一、生命末期診斷確定、於第四保單週年日起至保險年齡達九十九歲(含)之每一保單週年日止仍生存且未致成完全失能、或於保險年齡達一百歲之保單週年日仍生存者，本公司分別依保單條款第十五條至第十九條約定給付各項保險金。",
+          "商品文號日期": [
+            "115/07/21"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/mei-li-xing-cheng-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256121MZ1A01923B11Z10000000",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A01923B11Z10000000",
+        "listing_row": {
+          "name": "安達人壽美利星承美元分紅終身保險",
+          "銷售日": "115/07/21",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽美利星承美元分紅終身保險",
+          "銷售日": "115/07/21",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/07/21",
+          "核准、核備、備查文號": "安達精字第1150000157號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-21",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01534",
+      "name": "美利紅美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/life/mei-li-hong-par-life.html",
+        "fetched_at": "2026-11-26T10:10:40+08:00",
+        "quoted": {
+          "商品文號": "中華民國113.03.31安達精字第1130000058號函備查 中華民國115.01.01依金融監督管理委員會114.12.17金管保壽字第11404321761號令修正 保險範圍 被保險人於本契約有效期間內身故、致成完全失能、或於保險年齡達一百一十歲之保單週年日仍生存者，本公司分別依保單條款第十五條至第十八條約定給付各項保險金。",
+          "商品文號日期": [
+            "113/03/31",
+            "115/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/mei-li-hong-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256121MZ1A00723B11Z10000004",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A00723B11Z10000004",
+        "listing_row": {
+          "name": "安達人壽美利紅美元分紅終身壽險(第4次部分變更)",
+          "銷售日": "115/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽美利紅美元分紅終身壽險(第4次部分變更)",
+          "銷售日": "115/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/12/27",
+          "核准、核備、備查文號": "安達精字第1130000058號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01535",
+      "name": "美好美利美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/life/mei-hao-mei-li-par-life.html",
+        "fetched_at": "2026-11-26T10:10:40+08:00",
+        "quoted": {
+          "商品文號": "中華民國114.10.31安達精字第1140000198號函備查 中華民國115.01.01依金融監督管理委員會114.12.17金管保壽字第11404321761號令修正 保險範圍 被保險人於本契約有效期間內身故、致成完全失能、或於保險年齡達一百一十歲之保單週年日仍生存者，本公司分別依保單條款第十五條至第十八條約定給付各項保險金。",
+          "商品文號日期": [
+            "114/10/31",
+            "115/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/mei-hao-mei-li-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256121MZ1A01523B11Z10000001",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A01523B11Z10000001",
+        "listing_row": {
+          "name": "安達人壽美好美利美元分紅終身壽險(第1次部分變更)",
+          "銷售日": "115/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽美好美利美元分紅終身壽險(第1次部分變更)",
+          "銷售日": "115/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/12/27",
+          "核准、核備、備查文號": "安達精字第1140000198號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01537",
+      "name": "美美優美元利率變動型終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/life/mei-mei-you-usd-interest-sensitive-whole-life.html",
+        "fetched_at": "2026-11-26T10:10:40+08:00",
+        "quoted": {
+          "商品文號": "中華民國113.02.07安達精字第1130000020號函備查 中華民國114.01.01依金融監督管理委員會113.09.23金管保壽字第1130427324號函修正 保險範圍 被保險人於本契約有效期間內身故、致成完全失能、或於保險年齡達一百一十歲之保單週年日仍生存者，本公司分別依本契約第十六條至第十九條約定給付各項保險金。",
+          "商品文號日期": [
+            "113/02/07",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/mei-mei-you-usd-interest-sensitive-whole-life-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MA9B00523B11Z10000001",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MA9B00523B11Z10000001",
+        "listing_row": {
+          "name": "安達人壽美美優美元利率變動型終身壽險(第1次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽美美優美元利率變動型終身壽險(第1次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "安達精字第1130000020號函備查,114.02.13金管保壽字第11404900041號函修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01538",
+      "name": "美美得益美元利率變動型終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/life/mei-mei-de-yi-usd-interest-sensitive-whole-life.html",
+        "fetched_at": "2026-11-26T10:10:40+08:00",
+        "quoted": {
+          "商品文號": "中華民國112.02.06安達精字第1120000017號函備查 中華民國114.01.01依金融監督管理委員會113.09.23金管保壽字第1130427324號函修正 保險範圍 被保險人於本契約有效期間內身故、致成完全失能、或於保險年齡達一百一十歲之保單週年日仍生存者，本公司分別依本契約第十六條至第十九條約定給付各項保險金。",
+          "商品文號日期": [
+            "112/02/06",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/mei-mei-de-yi-usd-interest-sensitive-whole-life-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MA1A00323B11Z10000002",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MA1A00323B11Z10000002",
+        "listing_row": {
+          "name": "安達人壽美美得益美元利率變動型終身壽險(第2次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽美美得益美元利率變動型終身壽險(第2次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "安達精字第1120000017號函備查,114.02.13金管保壽字第11404900041號函修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01539",
+      "name": "美美得美元利率變動型終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/life/mei-mei-de-usd-interest-sensitive-whole-life.html",
+        "fetched_at": "2026-11-26T10:10:41+08:00",
+        "quoted": {
+          "商品文號": "中華民國112.01.03安達精字第1120000015號函備查 中華民國114.01.01依金融監督管理委員會113.09.23金管保壽字第1130427324號函修正 保險範圍 被保險人於本契約有效期間內身故、致成完全失能、或於保險年齡達一百一十歲之保單週年日仍生存者，本公司分別依本契約第十六條至第十九條約定給付各項保險金。",
+          "商品文號日期": [
+            "112/01/03",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/mei-mei-de-usd-interest-sensitive-whole-life-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MA1A00223B11Z10000002",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MA1A00223B11Z10000002",
+        "listing_row": {
+          "name": "安達人壽美美得美元利率變動型終身壽險(第2次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽美美得美元利率變動型終身壽險(第2次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "安達精字第1120000015號函備查,114.02.13金管保壽字第11404900041號函修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01540",
+      "name": "美美鑫益美元利率變動型終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/life/mei-mei-xin-yi-usd-interest-sensitive-whole-life.html",
+        "fetched_at": "2026-11-26T10:10:41+08:00",
+        "quoted": {
+          "商品文號": "中華民國114.02.03安達精字第1140000022號函備查 保險範圍 被保險人於本契約有效期間內身故、致成完全失能、或於保險年齡達一百一十歲之保單週年日仍生存者，本公司分別依本契約第十六條至第十九條約定給付各項保險金。",
+          "商品文號日期": [
+            "114/02/03"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/mei-mei-xin-yi-usd-interest-sensitive-whole-life-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MA1A00723B11Z10000000",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MA1A00723B11Z10000000",
+        "listing_row": {
+          "name": "安達人壽美美鑫益美元利率變動型終身壽險",
+          "銷售日": "114/02/03",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽美美鑫益美元利率變動型終身壽險",
+          "銷售日": "114/02/03",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "安達精字第1140000022號函備查,114.02.13金管保壽字第11404900041號函修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-02-03",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01542",
+      "name": "金多美美元利率變動型終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/life/jin-duo-mei-usd-interest-sensitive-whole-life.html",
+        "fetched_at": "2026-11-26T10:10:41+08:00",
+        "quoted": {
+          "商品文號": "中華民國112.05.15安達精字第1120000053號函備查 中華民國114.01.01依金融監督管理委員會113.09.23金管保壽字第1130427324號函修正 身故保險金或喪葬費用保險金 被保險人於本契約有效期間內身故者，本公司依下列兩款計算方式所得金額加總之值給付「身故保險金」： 一、基本保險金額對應之身故保險金為下列三者中之最大者： (一) 身故當時之基本保險金額。 (二) 身故當時之基本保險金額對應之保單價值準備金乘以保單價值準備金比率。 (三) 身故當時之基本保險金額對應之年繳保險費總和的一點一倍。 二、累計增加保險金額對應之身故保險金為下列三者之最大者： (一) 身故當時之累計增加保險金額。 (二) 身故當時之累計增加保險金額對應之保單價值準備金乘以保單價值準備金比率。 (三) 身故當時之累計增加保險金額對應之年繳保險費總和的一點一倍。 完全失能保險金 被保險人於本契約有效期間內致成附表一所列完全失能程度之一者，經醫院醫師診斷確定後，本公司依下列兩款計算方式所得金額加總之值給付「完全失能保險金」： 一、基本保險金額對應之完全失能保險金為下列三者中之最大者： (一) 完全失能診斷確定當時之基本保險金額。 (二) 完全失能診斷確定當時之基本保險金額對應之保單價值準備金乘以保單價值準備金比率。 (三) 完全失能診斷確定當時之基本保險金額對應之年繳保險費總和的一點一倍",
+          "商品文號日期": [
+            "112/05/15",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/jin-duo-mei-usd-interest-sensitive-whole-life-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MA1A00423B11Z10000001",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MA1A00423B11Z10000001",
+        "listing_row": {
+          "name": "安達人壽金多美美元利率變動型終身壽險(第1次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽金多美美元利率變動型終身壽險(第1次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "安達精字第1120000053號函備查,114.02.13金管保壽字第11404900041號函修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01544",
+      "name": "鼎吉美利美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/life/ding-ji-mei-li-par-life.html",
+        "fetched_at": "2026-11-26T10:10:41+08:00",
+        "quoted": {
+          "商品文號": "中華民國115.03.12安達精字第1150000038號函備查 保險範圍 被保險人於本契約有效期間內身故、致成完全失能、或於保險年齡達一百一十歲之保單週年日仍生存者，本公司分別依保單條款第十五條至第十八條約定給付各項保險金。",
+          "商品文號日期": [
+            "115/03/12"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/ding-ji-mei-li-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MZ1A01823B11Z10000000",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MZ1A01823B11Z10000000",
+        "listing_row": {
+          "name": "安達人壽鼎吉美利美元分紅終身壽險",
+          "銷售日": "115/03/12",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽鼎吉美利美元分紅終身壽險",
+          "銷售日": "115/03/12",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/03/12",
+          "核准、核備、備查文號": "安達精字第1150000038號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-03-12",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01546",
+      "name": "安薪享富變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/an-xin-xiang-fu-ul.html",
+        "fetched_at": "2026-11-26T10:10:42+08:00",
+        "quoted": {
+          "商品文號": "中華民國112.04.25安達精字第1120000035號函備查 中華民國114.01.01依金融監督管理委員會113.08.13金管保壽字第1130424977號函及113.09.23金管保壽字第1130427324號函修正",
+          "商品文號日期": [
+            "112/04/25",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-an-xin-xiang-fu-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A09923A11Z90000002",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A09923A11Z90000002",
+        "listing_row": {
+          "name": "安達人壽安薪享富變額萬能壽險(第2次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽安薪享富變額萬能壽險(第2次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "安達精字第1120000035號函備查,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01547",
+      "name": "富貴大贏家外幣變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/fu-qui-da-ying-jia-foreign-currency-ul.html",
+        "fetched_at": "2026-11-26T10:10:42+08:00",
+        "quoted": {
+          "商品文號": "中華民國113.07.26安達精字第1130000093號函備查 中華民國115.07.15安達精字第1150000075號函備查",
+          "商品文號日期": [
+            "113/07/26",
+            "115/07/15"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-fu-qui-da-ying-jia-foreign-currency-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A11523Z11Z90000005",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A11523Z11Z90000005",
+        "listing_row": {
+          "name": "安達人壽富貴大贏家外幣變額萬能壽險(第5次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽富貴大贏家外幣變額萬能壽險(第5次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/7/15",
+          "核准、核備、備查文號": "安達精字第1130000093號函備查,安達精字第1150000075號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01548",
+      "name": "富貴大贏家變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/fu-qui-da-ying-jia-ul.html",
+        "fetched_at": "2026-11-26T10:10:43+08:00",
+        "quoted": {
+          "商品文號": "中華民國113.07.26安達精字第1130000092號函備查 中華民國115.07.15安達精字第1150000077號函備查",
+          "商品文號日期": [
+            "113/07/26",
+            "115/07/15"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-fu-qui-da-ying-jia-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心快取同名未停售版本有 2 個，無法單一對應",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-onsale-missing-sale-date-batch8-2026-11-26.json）"
+    },
+    {
+      "product_id": "01549",
+      "name": "愛保倍變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ai-bao-bei-ul.html",
+        "fetched_at": "2026-11-26T10:10:43+08:00",
+        "quoted": {
+          "商品文號": "中華民國113.05.20安達精字第1130000063號函備查 中華民國114.01.01依金融監督管理委員會113.08.13金管保壽字第1130424977號函及113.09.23金管保壽字第1130427324號函修正",
+          "商品文號日期": [
+            "113/05/20",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-ai-bao-bei-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A11323A11Z90000001",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A11323A11Z90000001",
+        "listing_row": {
+          "name": "安達人壽愛保倍變額萬能壽險(第1次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽愛保倍變額萬能壽險(第1次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "安達精字第1130000063號函備查,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01550",
+      "name": "新天生贏家 Plus 外幣變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ten-sheng-ying-jia-plus-foreign-currency-ul.html",
+        "fetched_at": "2026-11-26T10:10:43+08:00",
+        "quoted": {
+          "商品文號": "中華民國109.05.20安達精字第1090053號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國115.07.15安達精字第1150000083號函備查",
+          "商品文號日期": [
+            "109/05/20",
+            "111/11/09",
+            "115/07/15"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-ten-sheng-ying-jia-plus-foreign-currency-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A07623Z11Z90000013",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A07623Z11Z90000013",
+        "listing_row": {
+          "name": "安達人壽新天生贏家Plus外幣變額萬能壽險(第13次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新天生贏家Plus外幣變額萬能壽險(第13次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/7/15",
+          "核准、核備、備查文號": "安達精字第1090053號函備查,安達精字第1150000083號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01551",
+      "name": "新天生贏家 Plus 變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ten-sheng-ying-jia-plus-ul.html",
+        "fetched_at": "2026-11-26T10:10:43+08:00",
+        "quoted": {
+          "商品文號": "中華民國109.05.20安達精字第1090052號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國115.07.15安達精字第1150000085號函備查",
+          "商品文號日期": [
+            "109/05/20",
+            "111/11/09",
+            "115/07/15"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-ten-sheng-ying-jia-plus-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "verification_status": "待核對",
+      "reason": "保發中心快取同名未停售版本有 2 個，無法單一對應",
+      "proposed": null,
+      "handoff": "已移交 GPT（data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-chubb-onsale-missing-sale-date-batch8-2026-11-26.json）"
+    },
+    {
+      "product_id": "01553",
+      "name": "新好得利變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ho-de-li-ul.html",
+        "fetched_at": "2026-11-26T10:10:43+08:00",
+        "quoted": {
+          "商品文號": "中華民國103.03.24中泰精字第1030063號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國115.07.15安達精字第1150000089號函備查",
+          "商品文號日期": [
+            "103/03/24",
+            "111/11/09",
+            "115/07/15"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-ho-de-li-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A03223A11Z90000019",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A03223A11Z90000019",
+        "listing_row": {
+          "name": "安達人壽新好得利變額萬能壽險(第19次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新好得利變額萬能壽險(第19次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/7/15",
+          "核准、核備、備查文號": "中泰精字第1030063號函備查,安達精字第1150000089號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01554",
+      "name": "新幸福成雙美元變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/xing-fu-cheng-shuang-foreign-currency-ul.html",
+        "fetched_at": "2026-11-26T10:10:43+08:00",
+        "quoted": {
+          "商品文號": "中華民國111.02.07安達精字第1110000102號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國115.07.15安達精字第1150000090號函備查",
+          "商品文號日期": [
+            "111/02/07",
+            "111/11/09",
+            "115/07/15"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-xing-fu-cheng-shuang-foreign-currency-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A09423B11Z90000010",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A09423B11Z90000010",
+        "listing_row": {
+          "name": "安達人壽新幸福成雙美元變額萬能壽險(第10次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新幸福成雙美元變額萬能壽險(第10次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/7/15",
+          "核准、核備、備查文號": "安達精字第1110000102號函備查,安達精字第1150000090號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01556",
+      "name": "新得利100外幣變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/da-li-100-foreign-currency-ul.html",
+        "fetched_at": "2026-11-26T10:10:43+08:00",
+        "quoted": {
+          "商品文號": "中華民國108.08.19安達精字第1080056號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國115.06.01安達精字第1150000066號函備查",
+          "商品文號日期": [
+            "108/08/19",
+            "111/11/09",
+            "115/06/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-da-li-100-foreign-currency-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A06923Z11Z90000012",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A06923Z11Z90000012",
+        "listing_row": {
+          "name": "安達人壽新得利100外幣變額萬能壽險(第12次部分變更)",
+          "銷售日": "115/06/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新得利100外幣變額萬能壽險(第12次部分變更)",
+          "銷售日": "115/06/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/06/01",
+          "核准、核備、備查文號": "安達精字第1080056號函備查,安達精字第1150000066號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01557",
+      "name": "新得利100變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/da-li-100-ul.html",
+        "fetched_at": "2026-11-26T10:10:44+08:00",
+        "quoted": {
+          "商品文號": "中華民國108.08.19安達精字第1080055號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國115.06.01安達精字第1150000068號函備查",
+          "商品文號日期": [
+            "108/08/19",
+            "111/11/09",
+            "115/06/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-da-li-100-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A06823A11Z90000010",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A06823A11Z90000010",
+        "listing_row": {
+          "name": "安達人壽新得利100變額萬能壽險(第10次部分變更)",
+          "銷售日": "115/06/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新得利100變額萬能壽險(第10次部分變更)",
+          "銷售日": "115/06/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/06/01",
+          "核准、核備、備查文號": "安達精字第1080055號函備查,安達精字第1150000068號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-06-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01559",
+      "name": "新愛家變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ai-jia-vul.html",
+        "fetched_at": "2026-11-26T10:10:44+08:00",
+        "quoted": {
+          "商品文號": "中華民國110.07.26安達精字第1100000287號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國115.07.15安達精字第1150000093號函備查",
+          "商品文號日期": [
+            "110/07/26",
+            "111/11/09",
+            "115/07/15"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-ai-jia-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A08923A11Z90000010",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A08923A11Z90000010",
+        "listing_row": {
+          "name": "安達人壽新愛家變額萬能壽險(第10次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新愛家變額萬能壽險(第10次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/7/15",
+          "核准、核備、備查文號": "安達精字第1100000287號函備查,安達精字第1150000093號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01560",
+      "name": "新戰略贏家外幣變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/zhan-lue-ying-jia-foreign-currency-ul.html",
+        "fetched_at": "2026-11-26T10:10:44+08:00",
+        "quoted": {
+          "商品文號": "中華民國105.05.20中泰精字第1050037號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國114.01.01依金融監督管理委員會113.08.13金管保壽字第1130424977號函及113.09.23金管保壽字第1130427324號函修正",
+          "商品文號日期": [
+            "105/05/20",
+            "111/11/09",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-zhan-lue-ying-jia-foreign-currency-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A04923Z11Z90000017",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A04923Z11Z90000017",
+        "listing_row": {
+          "name": "安達人壽新戰略贏家外幣變額萬能壽險(第17次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新戰略贏家外幣變額萬能壽險(第17次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/01/01",
+          "核准、核備、備查文號": "中泰精字第1050037號函備查,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01561",
+      "name": "新戰略贏家變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/zhan-lue-ying-jia-ul.html",
+        "fetched_at": "2026-11-26T10:10:44+08:00",
+        "quoted": {
+          "商品文號": "中華民國105.05.20中泰精字第1050036號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國114.01.01依金融監督管理委員會113.08.13金管保壽字第1130424977號函及113.09.23金管保壽字第1130427324號函修正",
+          "商品文號日期": [
+            "105/05/20",
+            "111/11/09",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-zhan-lue-ying-jia-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A04823A11Z90000017",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A04823A11Z90000017",
+        "listing_row": {
+          "name": "安達人壽新戰略贏家變額萬能壽險(第17次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新戰略贏家變額萬能壽險(第17次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/01/01",
+          "核准、核備、備查文號": "中泰精字第1050036號函備查,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01563",
+      "name": "新指標領航變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/zhi-biao-ling-hang-ul.html",
+        "fetched_at": "2026-11-26T10:10:45+08:00",
+        "quoted": {
+          "商品文號": "中華民國105.03.08中泰精字第1050012號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國114.01.01依金融監督管理委員會113.08.13金管保壽字第1130424977號函及113.09.23金管保壽字第1130427324號函修正",
+          "商品文號日期": [
+            "105/03/08",
+            "111/11/09",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-zhi-biao-ling-hang-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A04723A11Z90000021",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A04723A11Z90000021",
+        "listing_row": {
+          "name": "安達人壽新指標領航變額萬能壽險(第21次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新指標領航變額萬能壽險(第21次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "中泰精字第1050012號函備查,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01564",
+      "name": "新聚富人生變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ju-fu-ren-sheng-ul.html",
+        "fetched_at": "2026-11-26T10:10:45+08:00",
+        "quoted": {
+          "商品文號": "中華民國108.09.16安達精字第1080043號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國115.07.15安達精字第1150000094號函備查",
+          "商品文號日期": [
+            "108/09/16",
+            "111/11/09",
+            "115/07/15"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-ju-fu-ren-sheng-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A07023A11Z90000012",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A07023A11Z90000012",
+        "listing_row": {
+          "name": "安達人壽新聚富人生變額萬能壽險(第12次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新聚富人生變額萬能壽險(第12次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/7/15",
+          "核准、核備、備查文號": "安達精字第1080043號函備查,安達精字第1150000094號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01565",
+      "name": "新聚富傳家美元變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ju-fu-chuan-jia-usd-currency-vul.html",
+        "fetched_at": "2026-11-26T10:10:45+08:00",
+        "quoted": {
+          "商品文號": "中華民國110.01.01安達精字第1100050號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國115.07.15安達精字第1150000095號函備查",
+          "商品文號日期": [
+            "110/01/01",
+            "111/11/09",
+            "115/07/15"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-ju-fu-chuan-jia-usd-currency-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A08223B11Z90000010",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A08223B11Z90000010",
+        "listing_row": {
+          "name": "安達人壽新聚富傳家美元變額萬能壽險(第10次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新聚富傳家美元變額萬能壽險(第10次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/7/15",
+          "核准、核備、備查文號": "安達精字第1100050號函備查,安達精字第1150000095號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01566",
+      "name": "新聚富傳家變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ju-fu-chuan-jia-vul.html",
+        "fetched_at": "2026-11-26T10:10:46+08:00",
+        "quoted": {
+          "商品文號": "中華民國110.01.01安達精字第1100049號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國115.07.15安達精字第1150000096號函備查",
+          "商品文號日期": [
+            "110/01/01",
+            "111/11/09",
+            "115/07/15"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-ju-fu-chuan-jia-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A08123A11Z90000010",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A08123A11Z90000010",
+        "listing_row": {
+          "name": "安達人壽新聚富傳家變額萬能壽險(第10次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新聚富傳家變額萬能壽險(第10次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/7/15",
+          "核准、核備、備查文號": "安達精字第1100049號函備查,安達精字第1150000096號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01567",
+      "name": "新贏利高手美元變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ying-li-kao-shou-usd-ul.html",
+        "fetched_at": "2026-11-26T10:10:46+08:00",
+        "quoted": {
+          "商品文號": "中華民國108.04.15安達精字第1080004號 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國115.07.15安達精字第1150000103號函備查",
+          "商品文號日期": [
+            "108/04/15",
+            "111/11/09",
+            "115/07/15"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-ying-li-kao-shou-usd-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A06723Z11Z90000015",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A06723Z11Z90000015",
+        "listing_row": {
+          "name": "安達人壽新贏利高手美元變額萬能壽險(第15次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新贏利高手美元變額萬能壽險(第15次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/7/15",
+          "核准、核備、備查文號": "安達精字第1080004號函備查,安達精字第1150000103號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01568",
+      "name": "新贏利高手變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ying-li-kao-shou-ul.html",
+        "fetched_at": "2026-11-26T10:10:46+08:00",
+        "quoted": {
+          "商品文號": "中華民國108.04.15安達精字第1080003號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國115.07.15安達精字第1150000104號函備查",
+          "商品文號日期": [
+            "108/04/15",
+            "111/11/09",
+            "115/07/15"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-ying-li-kao-shou-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A06623A11Z90000015",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A06623A11Z90000015",
+        "listing_row": {
+          "name": "安達人壽新贏利高手變額萬能壽險(第15次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新贏利高手變額萬能壽險(第15次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/7/15",
+          "核准、核備、備查文號": "安達精字第1080003號函備查,安達精字第1150000104號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01569",
+      "name": "新鉅鑫贏家外幣變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ju-xin-ying-jia-foreign-currency-ul.html",
+        "fetched_at": "2026-11-26T10:10:46+08:00",
+        "quoted": {
+          "商品文號": "中華民國106.07.17安達精字第1060091號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國114.08.01安達精字第1140000104號函備查",
+          "商品文號日期": [
+            "106/07/17",
+            "111/11/09",
+            "114/08/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-ju-xin-ying-jia-foreign-currency-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A05723Z11Z90000014",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A05723Z11Z90000014",
+        "listing_row": {
+          "name": "安達人壽新鉅鑫贏家外幣變額萬能壽險(第14次部分變更)",
+          "銷售日": "114/08/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新鉅鑫贏家外幣變額萬能壽險(第14次部分變更)",
+          "銷售日": "114/08/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "安達精字第1060091號函備查,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-08-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01570",
+      "name": "新鉅鑫贏家變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/ju-xin-ying-jia-ul.html",
+        "fetched_at": "2026-11-26T10:10:46+08:00",
+        "quoted": {
+          "商品文號": "中華民國106.07.17安達精字第1060090號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國114.08.01安達精字第1140000106號函備查",
+          "商品文號日期": [
+            "106/07/17",
+            "111/11/09",
+            "114/08/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-ju-xin-ying-jia-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A05623A11Z90000014",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A05623A11Z90000014",
+        "listing_row": {
+          "name": "安達人壽新鉅鑫贏家變額萬能壽險(第14次部分變更)",
+          "銷售日": "114/08/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新鉅鑫贏家變額萬能壽險(第14次部分變更)",
+          "銷售日": "114/08/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "安達精字第1060090號函備查,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-08-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01572",
+      "name": "新鑫享勢成變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/xin-xiang-shi-cheng-ul.html",
+        "fetched_at": "2026-11-26T10:10:47+08:00",
+        "quoted": {
+          "商品文號": "中華民國112.04.21安達精字第1120000046號函備查 中華民國115.07.15安達精字第1150000108號函備查",
+          "商品文號日期": [
+            "112/04/21",
+            "115/07/15"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-xin-xiang-shi-cheng-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A09723A11Z90000005",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A09723A11Z90000005",
+        "listing_row": {
+          "name": "安達人壽新鑫享勢成變額萬能壽險(第5次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新鑫享勢成變額萬能壽險(第5次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/7/15",
+          "核准、核備、備查文號": "安達精字第1120000046號函備查,安達精字第1150000108號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01573",
+      "name": "新鑫龍星變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/xin-long-xing-ul.html",
+        "fetched_at": "2026-11-26T10:10:47+08:00",
+        "quoted": {
+          "商品文號": "中華民國106.03.31安達精字第1060032號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國115.07.15安達精字第1150000109號函備查",
+          "商品文號日期": [
+            "106/03/31",
+            "111/11/09",
+            "115/07/15"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-xin-long-xing-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A05223A11Z90000014",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A05223A11Z90000014",
+        "listing_row": {
+          "name": "安達人壽新鑫龍星變額萬能壽險(第14次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新鑫龍星變額萬能壽險(第14次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/7/15",
+          "核准、核備、備查文號": "安達精字第1060032號函備查,安達精字第1150000109號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01574",
+      "name": "新闔家歡變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/he-jia-huan-ul.html",
+        "fetched_at": "2026-11-26T10:10:48+08:00",
+        "quoted": {
+          "商品文號": "中華民國101.12.03中泰精字第1010137號函備查 中華民國111.11.09金管保壽字第1110494678號函核准 中華民國115.07.15安達精字第1150000102號函備查",
+          "商品文號日期": [
+            "101/12/03",
+            "111/11/09",
+            "115/07/15"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-he-jia-huan-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A02623A11Z90000020",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A02623A11Z90000020",
+        "listing_row": {
+          "name": "安達人壽新闔家歡變額萬能壽險(第20次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽新闔家歡變額萬能壽險(第20次部分變更)",
+          "銷售日": "115/07/15",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "115/7/15",
+          "核准、核備、備查文號": "中泰精字第1010137號函備查,安達精字第1150000102號函備查"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-07-15",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01575",
+      "name": "星動盈家外幣變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/xing-dong-ying-jia-foreign-currency-ul.html",
+        "fetched_at": "2026-11-26T10:10:48+08:00",
+        "quoted": {
+          "商品文號": "中華民國113.05.20安達精字第1130000049號函備查 中華民國114.01.01安達精字第1140000016號函備查",
+          "商品文號日期": [
+            "113/05/20",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-xing-dong-ying-jia-foreign-currency-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A11223Z11Z90000001",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A11223Z11Z90000001",
+        "listing_row": {
+          "name": "安達人壽星動盈家外幣變額萬能壽險(第1次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽星動盈家外幣變額萬能壽險(第1次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "安達精字第1130000049號函備查,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01576",
+      "name": "星動盈家變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/xing-dong-ying-jia-ul.html",
+        "fetched_at": "2026-11-26T10:10:49+08:00",
+        "quoted": {
+          "商品文號": "中華民國113.05.20安達精字第1130000048號函備查 中華民國114.01.01安達精字第1140000015號函備查",
+          "商品文號日期": [
+            "113/05/20",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-xing-dong-ying-jia-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A11123A11Z90000001",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A11123A11Z90000001",
+        "listing_row": {
+          "name": "安達人壽星動盈家變額萬能壽險(第1次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽星動盈家變額萬能壽險(第1次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "安達精字第1130000048號函備查,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    },
+    {
+      "product_id": "01577",
+      "name": "星滿益足外幣變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": null,
+        "stop_date": null
+      },
+      "integration_status": "待整合",
+      "company": {
+        "product_page_url": "https://life.chubb.com/tw-zh/products/investing/universal-life/xing-man-yi-zu-foreign-currency-ul.html",
+        "fetched_at": "2026-11-26T10:10:49+08:00",
+        "quoted": {
+          "商品文號": "中華民國113.05.20安達精字第1130000045號函備查 中華民國114.01.01依金融監督管理委員會113.08.13金管保壽字第1130424977號函及113.09.23金管保壽字第1130427324號函修正",
+          "商品文號日期": [
+            "113/05/20",
+            "114/01/01"
+          ],
+          "條款PDF": [
+            "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/vul-xing-man-yi-zu-foreign-currency-code.pdf"
+          ]
+        },
+        "page_section": "現售商品頁（/products/protection 等，非停售專區）"
+      },
+      "tii": {
+        "tii_product_id": "256131MV1A11023Z11Z90000001",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A11023Z11Z90000001",
+        "listing_row": {
+          "name": "安達人壽星滿益足外幣變額萬能壽險(第1次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售"
+        },
+        "listing_cache": "life_rows.tsv（2026-11-08）",
+        "detail_observed": {
+          "商品名稱": "安達人壽星滿益足外幣變額萬能壽險(第1次部分變更)",
+          "銷售日": "114/01/01",
+          "停售日": "未停售",
+          "核准、核備、備查日期": "114/02/13",
+          "核准、核備、備查文號": "安達精字第1130000045號函備查,114.02.13金管保壽字第11404900041號令修正"
+        },
+        "detail_cache": "保發中心詳細頁快取（安達現售附約抓取，2026-11 rider build）"
+      },
+      "verification_status": "已核實",
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-01-01",
+        "stop_date": ""
+      },
+      "changes": [
+        "sale_date"
+      ],
+      "date_basis": "販售日取自保發中心詳細頁「銷售日」；官網現售商品頁「商品文號」含保發中心原始核准文號，且其最新日期等於保發中心該版本銷售日，確認同一版本。核准/修正日期本身不作為販售日。",
+      "caveat": "保發中心狀態為 2026-11 快取；整合前建議即時覆核未停售"
+    }
+  ]
+}
