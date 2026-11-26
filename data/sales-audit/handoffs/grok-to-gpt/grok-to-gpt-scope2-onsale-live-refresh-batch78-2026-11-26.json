@@ -1,0 +1,48 @@
+{
+  "handoff_id": "grok-to-gpt-scope2-onsale-live-refresh-batch78-2026-11-26",
+  "from": "Grok",
+  "assigned_to": "GPT",
+  "handoff_at": "2026-11-26T16:58:55+08:00",
+  "handoff_status": "pending",
+  "note": "Grok 以即時保發中心與官網條款查核；以下為仍無法以官方明文確認者，原銷售狀態保持不變，不得改為未標示。GPT 接手後請另行記錄。",
+  "count": 1,
+  "records": [
+    {
+      "product_id": "00159",
+      "company": "保誠人壽",
+      "full_name": "保誠人壽美鑫29 外幣終身壽險(定期給付型)」",
+      "version": "本站代號 None",
+      "original_status": "現售",
+      "original_sale_date": "2026-01-05",
+      "original_stop_date": "未停售",
+      "issue": "本站狀態「現售」，銷售日「2026-01-05」；保發中心即時詳細頁銷售日「115/01/05」、停售日「115/10/15」。無官網明文可證明現售或停售，Grok 不改狀態，移交 GPT 確認",
+      "needs_confirmation": "Grok 已以即時保發中心與官網查核仍無法由官方明文確認同一版本；請以官網其他官方文件或人工判讀確認與本站版本相同之保發中心商品頁、銷售日、停售日及狀態；原狀態不得改為未標示",
+      "sources_checked": [
+        {
+          "type": "公司官網",
+          "url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/arlplu82.pdf",
+          "fetched_at": null,
+          "evidence": {
+            "官網": "未取得官網明文（官網條款頁僅有備查文號，或本項尚未逐一查官網）"
+          }
+        },
+        {
+          "type": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段）",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ9B01223B11Z10000000",
+          "fetched_at": "2026-11-26T15:24:38+08:00",
+          "evidence": {
+            "name": "保誠人壽美鑫29外幣終身壽險(定期給付型)",
+            "sale": "115/01/05",
+            "stop": "115/10/15",
+            "filing_date": "115/01/05",
+            "filing_no": "保誠總字第1150000004號函備查"
+          }
+        }
+      ],
+      "source_audit_file": "data/sales-audit/grok-scope2-onsale-live-refresh-batch78-2026-11-26.json",
+      "handoff_at": "2026-11-26T16:58:55+08:00",
+      "assigned_to": "GPT",
+      "handoff_status": "pending"
+    }
+  ]
+}

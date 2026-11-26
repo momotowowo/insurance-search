@@ -1,0 +1,3081 @@
+{
+  "batch_id": "grok-scope2-onsale-live-refresh-batch80-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T16:58:55+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": {
+    "description": "範圍2：現售品項以即時保發中心詳細頁覆核",
+    "ids": 60
+  },
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": "以 2026-11-26 即時保發中心詳細頁核對本站連結版本之銷售日、停售日與狀態；一致者為一致性複核，不一致且無官網明文者移交 GPT，不改狀態。未對驗證碼做 OCR、未執行 submit。",
+  "summary": {
+    "已核實": 60,
+    "total": 60,
+    "items_with_proposed_changes": 0
+  },
+  "items": [
+    {
+      "product_id": "06116",
+      "name": "台灣人壽美紅旺美元分紅終身壽險(第1次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202131MZ1A67A23B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202131MZ1A67A23B11Z10000001",
+          "name": "台灣人壽美紅旺美元分紅終身壽險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13,114/12/17",
+          "filing_no": "台壽字第1142320034號函備查,金管保壽字第11404900043號函,金管保壽字第11404321761號令",
+          "at": "2026-11-26T15:25:03+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202131MZ1A67A23B11Z10000001",
+            "name": "台灣人壽美紅旺美元分紅終身壽險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13,114/12/17",
+            "filing_no": "台壽字第1142320034號函備查,金管保壽字第11404900043號函,金管保壽字第11404321761號令",
+            "at": "2026-11-26T15:25:03+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/22095",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "33196",
+      "name": "合作金庫人壽新傷害保險附約(第9次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222291RZ1A00121A11Z10000009"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "222291RZ1A00121A11Z10000009",
+          "name": "合作金庫人壽新傷害保險附約(第9次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "115/01/01",
+          "filing_no": "合壽(99)總字第04051號備查,合壽字第1150000005號備查",
+          "at": "2026-11-26T15:28:04+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "222291RZ1A00121A11Z10000009",
+            "name": "合作金庫人壽新傷害保險附約(第9次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "115/01/01",
+            "filing_no": "合壽(99)總字第04051號備查,合壽字第1150000005號備查",
+            "at": "2026-11-26T15:28:04+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "33197",
+      "name": "合作金庫人壽金富通小額傷害保險附約(第1次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222216RZ1A00121A11D10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "222216RZ1A00121A11D10000001",
+          "name": "合作金庫人壽金富通小額傷害保險附約(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "115/01/01",
+          "filing_no": "合壽字第1120000095號備查,合壽字第1150000007號備查",
+          "at": "2026-11-26T15:28:06+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "222216RZ1A00121A11D10000001",
+            "name": "合作金庫人壽金富通小額傷害保險附約(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "115/01/01",
+            "filing_no": "合壽字第1120000095號備查,合壽字第1150000007號備查",
+            "at": "2026-11-26T15:28:06+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "33198",
+      "name": "合作金庫人壽網路投保傷害保險附約(第6次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222211RZ1A00121A11Z10000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "222211RZ1A00121A11Z10000006",
+          "name": "合作金庫人壽網路投保傷害保險附約(第6次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "115/01/01",
+          "filing_no": "(105)合壽字第105166號備查,合壽字第1150000014號備查",
+          "at": "2026-11-26T15:28:07+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "222211RZ1A00121A11Z10000006",
+            "name": "合作金庫人壽網路投保傷害保險附約(第6次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "115/01/01",
+            "filing_no": "(105)合壽字第105166號備查,合壽字第1150000014號備查",
+            "at": "2026-11-26T15:28:07+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "33200",
+      "name": "合作金庫人壽一年定期重大疾病健康保險附約(乙型)(第5次部分變更)",
+      "insurer": "合作金庫人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=222351RZ1A00321A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "222351RZ1A00321A11Z10000005",
+          "name": "合作金庫人壽一年定期重大疾病健康保險附約(乙型)(第5次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "115/01/01",
+          "filing_no": "(105)合壽字第105146號備查,合壽字第1150000012號備查",
+          "at": "2026-11-26T15:28:09+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "222351RZ1A00321A11Z10000005",
+            "name": "合作金庫人壽一年定期重大疾病健康保險附約(乙型)(第5次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "115/01/01",
+            "filing_no": "(105)合壽字第105146號備查,合壽字第1150000012號備查",
+            "at": "2026-11-26T15:28:09+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01043",
+      "name": "國泰人壽海外突發疾病醫療健康保險附約(丙型)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-11-13",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204311AZ1A70421A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204311AZ1A70421A11Z10000005",
+          "name": "國泰人壽海外突發疾病醫療健康保險附約(丙型)(第5次部分變更)",
+          "sale": "114/11/13",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第102110003號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T15:39:02+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204311AZ1A70421A11Z10000005",
+            "name": "國泰人壽海外突發疾病醫療健康保險附約(丙型)(第5次部分變更)",
+            "sale": "114/11/13",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第102110003號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T15:39:02+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/accessory-contract/travelC.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-11-13",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01066",
+      "name": "國泰人壽ｅ悠遊海外突發疾病醫療健康保險附約",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-11-13",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204311AZ1A0GU21A11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204311AZ1A0GU21A11Z10000004",
+          "name": "國泰人壽e悠遊海外突發疾病醫療健康保險附約(第4次部分變更)",
+          "sale": "114/11/13",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第104070117號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T15:39:08+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204311AZ1A0GU21A11Z10000004",
+            "name": "國泰人壽e悠遊海外突發疾病醫療健康保險附約(第4次部分變更)",
+            "sale": "114/11/13",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第104070117號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T15:39:08+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/accessory-contract/ohs-b.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-11-13",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01110",
+      "name": "國泰人壽美智守護利率變動型美元終身保險（定期給付型）",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-28",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MA9BWCJ23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204131MA9BWCJ23B11Z10000000",
+          "name": "國泰人壽美智守護利率變動型美元終身保險（定期給付型）",
+          "sale": "115/01/28",
+          "stop": "未停售",
+          "filing_date": "115/01/28",
+          "filing_no": "國壽字第1150011499號函備查",
+          "at": "2026-11-26T15:23:29+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204131MA9BWCJ23B11Z10000000",
+            "name": "國泰人壽美智守護利率變動型美元終身保險（定期給付型）",
+            "sale": "115/01/28",
+            "stop": "未停售",
+            "filing_date": "115/01/28",
+            "filing_no": "國壽字第1150011499號函備查",
+            "at": "2026-11-26T15:23:29+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/WCJWCK.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-28",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01114",
+      "name": "國泰人壽美滿康愛利率變動型美元終身保險(定期給付型)(外溢型)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-11-13",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MA9BWDB23B11E10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204131MA9BWDB23B11E10000000",
+          "name": "國泰人壽美滿康愛利率變動型美元終身保險（定期給付型）（外溢型）",
+          "sale": "114/11/13",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第1140110051號函備查（本商品適用「保險商品銷售前程序作業準則」第21條之1第3項之送審獎勵規定）,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T15:39:13+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204131MA9BWDB23B11E10000000",
+            "name": "國泰人壽美滿康愛利率變動型美元終身保險（定期給付型）（外溢型）",
+            "sale": "114/11/13",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第1140110051號函備查（本商品適用「保險商品銷售前程序作業準則」第21條之1第3項之送審獎勵規定）,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T15:39:13+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/WDB.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-11-13",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01125",
+      "name": "國泰人壽鑽美鑫利率變動型美元終身壽險（定期給付型）",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-03-05",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204131MA1AWJA23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204131MA1AWJA23B11Z10000000",
+          "name": "國泰人壽鑽美鑫利率變動型美元終身壽險（定期給付型）",
+          "sale": "115/03/05",
+          "stop": "未停售",
+          "filing_date": "115/03/05",
+          "filing_no": "國壽字第1150030014號函備查",
+          "at": "2026-11-26T15:23:02+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204131MA1AWJA23B11Z10000000",
+            "name": "國泰人壽鑽美鑫利率變動型美元終身壽險（定期給付型）",
+            "sale": "115/03/05",
+            "stop": "未停售",
+            "filing_date": "115/03/05",
+            "filing_no": "國壽字第1150030014號函備查",
+            "at": "2026-11-26T15:23:02+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/life-health-annuity/WJA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-03-05",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10540",
+      "name": "國泰人壽海外突發疾病醫療健康保險附約(丙型)(第5次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-11-13",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204311AZ1A70421A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204311AZ1A70421A11Z10000005",
+          "name": "國泰人壽海外突發疾病醫療健康保險附約(丙型)(第5次部分變更)",
+          "sale": "114/11/13",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第102110003號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T15:39:02+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204311AZ1A70421A11Z10000005",
+            "name": "國泰人壽海外突發疾病醫療健康保險附約(丙型)(第5次部分變更)",
+            "sale": "114/11/13",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第102110003號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T15:39:02+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/accessory-contract/travelC.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-11-13",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "10541",
+      "name": "國泰人壽e悠遊海外突發疾病醫療健康保險附約(第4次部分變更)",
+      "insurer": "國泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-11-13",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=204311AZ1A0GU21A11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "204311AZ1A0GU21A11Z10000004",
+          "name": "國泰人壽e悠遊海外突發疾病醫療健康保險附約(第4次部分變更)",
+          "sale": "114/11/13",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "國壽字第104070117號函備查,金管保壽字第11404900043號函修正",
+          "at": "2026-11-26T15:39:08+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "204311AZ1A0GU21A11Z10000004",
+            "name": "國泰人壽e悠遊海外突發疾病醫療健康保險附約(第4次部分變更)",
+            "sale": "114/11/13",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "國壽字第104070117號函備查,金管保壽字第11404900043號函修正",
+            "at": "2026-11-26T15:39:08+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/laws-policies/public-info/insurance/accessory-contract/ohs-b.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-11-13",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01528",
+      "name": "永富長紅美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-30",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MZ1A01723B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MZ1A01723B11Z10000000",
+          "name": "安達人壽永富長紅美元分紅終身壽險",
+          "sale": "115/01/30",
+          "stop": "未停售",
+          "filing_date": "115/01/30",
+          "filing_no": "安達精字第1150000021號函備查",
+          "at": "2026-11-26T15:23:26+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MZ1A01723B11Z10000000",
+            "name": "安達人壽永富長紅美元分紅終身壽險",
+            "sale": "115/01/30",
+            "stop": "未停售",
+            "filing_date": "115/01/30",
+            "filing_no": "安達精字第1150000021號函備查",
+            "at": "2026-11-26T15:23:26+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/life/yong-fu-chang-hong-par-life.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-30",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01530",
+      "name": "美利大世代美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-20",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MZ1A01623B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MZ1A01623B11Z10000000",
+          "name": "安達人壽美利大世代美元分紅終身壽險",
+          "sale": "115/01/20",
+          "stop": "未停售",
+          "filing_date": "115/01/20",
+          "filing_no": "安達精字第1150000019號函備查",
+          "at": "2026-11-26T15:24:19+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MZ1A01623B11Z10000000",
+            "name": "安達人壽美利大世代美元分紅終身壽險",
+            "sale": "115/01/20",
+            "stop": "未停售",
+            "filing_date": "115/01/20",
+            "filing_no": "安達精字第1150000019號函備查",
+            "at": "2026-11-26T15:24:19+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/life/mei-li-da-shi-dai-par-life.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-20",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01531",
+      "name": "美利如星美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A00823B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256121MZ1A00823B11Z10000002",
+          "name": "安達人壽美利如星美元分紅終身壽險(第2次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/27",
+          "filing_no": "安達精字第1130000105號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:24:50+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256121MZ1A00823B11Z10000002",
+            "name": "安達人壽美利如星美元分紅終身壽險(第2次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/27",
+            "filing_no": "安達精字第1130000105號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:24:50+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/life/mei-li-ru-xing-par-life.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01532",
+      "name": "美利新世代美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A01323B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256121MZ1A01323B11Z10000001",
+          "name": "安達人壽美利新世代美元分紅終身壽險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/27",
+          "filing_no": "安達精字第1140000172號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:24:52+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256121MZ1A01323B11Z10000001",
+            "name": "安達人壽美利新世代美元分紅終身壽險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/27",
+            "filing_no": "安達精字第1140000172號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:24:52+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/life/mei-li-xin-shi-dai-par-life.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01534",
+      "name": "美利紅美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A00723B11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256121MZ1A00723B11Z10000004",
+          "name": "安達人壽美利紅美元分紅終身壽險(第4次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/27",
+          "filing_no": "安達精字第1130000058號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:24:53+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256121MZ1A00723B11Z10000004",
+            "name": "安達人壽美利紅美元分紅終身壽險(第4次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/27",
+            "filing_no": "安達精字第1130000058號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:24:53+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/life/mei-li-hong-par-life.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01535",
+      "name": "美好美利美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A01523B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256121MZ1A01523B11Z10000001",
+          "name": "安達人壽美好美利美元分紅終身壽險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/27",
+          "filing_no": "安達精字第1140000198號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:24:55+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256121MZ1A01523B11Z10000001",
+            "name": "安達人壽美好美利美元分紅終身壽險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/27",
+            "filing_no": "安達精字第1140000198號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:24:55+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/life/mei-hao-mei-li-par-life.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "01544",
+      "name": "鼎吉美利美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-03-12",
+        "stop_date": "",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MZ1A01823B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MZ1A01823B11Z10000000",
+          "name": "安達人壽鼎吉美利美元分紅終身壽險",
+          "sale": "115/03/12",
+          "stop": "未停售",
+          "filing_date": "115/03/12",
+          "filing_no": "安達精字第1150000038號函備查",
+          "at": "2026-11-26T15:22:53+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MZ1A01823B11Z10000000",
+            "name": "安達人壽鼎吉美利美元分紅終身壽險",
+            "sale": "115/03/12",
+            "stop": "未停售",
+            "filing_date": "115/03/12",
+            "filing_no": "安達精字第1150000038號函備查",
+            "at": "2026-11-26T15:22:53+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/tw-zh/products/life/ding-ji-mei-li-par-life.html",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-03-12",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "36670",
+      "name": "安達人壽安心溢起動定期保險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-12-30",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256211MZ1DTAS22A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256211MZ1DTAS22A11Z10000000",
+          "name": "安達人壽安心溢起動定期保險",
+          "sale": "114/12/30",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "安達精字第1140000199號備查,114.02.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:28:28+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256211MZ1DTAS22A11Z10000000",
+            "name": "安達人壽安心溢起動定期保險",
+            "sale": "114/12/30",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "安達精字第1140000199號備查,114.02.13金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:28:28+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/tas_20251230.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-12-30",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "36701",
+      "name": "安達人壽美好美利美元分紅終身壽險(第1次部分變更)",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A01523B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256121MZ1A01523B11Z10000001",
+          "name": "安達人壽美好美利美元分紅終身壽險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/27",
+          "filing_no": "安達精字第1140000198號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:24:55+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256121MZ1A01523B11Z10000001",
+            "name": "安達人壽美好美利美元分紅終身壽險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/27",
+            "filing_no": "安達精字第1140000198號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:24:55+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "36702",
+      "name": "安達人壽星利保倍美元分紅終身壽險(第1次部分變更)",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A01423B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256121MZ1A01423B11Z10000001",
+          "name": "安達人壽星利保倍美元分紅終身壽險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "安達精字第1140000182號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:28:10+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256121MZ1A01423B11Z10000001",
+            "name": "安達人壽星利保倍美元分紅終身壽險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "安達精字第1140000182號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:28:10+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "36703",
+      "name": "安達人壽美利新世代美元分紅終身壽險(第1次部分變更)",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A01323B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256121MZ1A01323B11Z10000001",
+          "name": "安達人壽美利新世代美元分紅終身壽險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/27",
+          "filing_no": "安達精字第1140000172號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:24:52+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256121MZ1A01323B11Z10000001",
+            "name": "安達人壽美利新世代美元分紅終身壽險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/27",
+            "filing_no": "安達精字第1140000172號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:24:52+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "36704",
+      "name": "安達人壽快樂保倍美元分紅終身壽險(第1次部分變更)",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A01223B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256121MZ1A01223B11Z10000001",
+          "name": "安達人壽快樂保倍美元分紅終身壽險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/27",
+          "filing_no": "安達精字第1140000169號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:28:12+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256121MZ1A01223B11Z10000001",
+            "name": "安達人壽快樂保倍美元分紅終身壽險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/27",
+            "filing_no": "安達精字第1140000169號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:28:12+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "36707",
+      "name": "安達人壽美利紅美元分紅終身壽險(第4次部分變更)",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A00723B11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256121MZ1A00723B11Z10000004",
+          "name": "安達人壽美利紅美元分紅終身壽險(第4次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/27",
+          "filing_no": "安達精字第1130000058號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:24:53+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256121MZ1A00723B11Z10000004",
+            "name": "安達人壽美利紅美元分紅終身壽險(第4次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/27",
+            "filing_no": "安達精字第1130000058號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:24:53+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "36708",
+      "name": "安達人壽美利如星美元分紅終身壽險(第2次部分變更)",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A00823B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256121MZ1A00823B11Z10000002",
+          "name": "安達人壽美利如星美元分紅終身壽險(第2次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/27",
+          "filing_no": "安達精字第1130000105號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:24:50+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256121MZ1A00823B11Z10000002",
+            "name": "安達人壽美利如星美元分紅終身壽險(第2次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/27",
+            "filing_no": "安達精字第1130000105號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:24:50+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "36713",
+      "name": "安達人壽美利大世代美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-20",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MZ1A01623B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MZ1A01623B11Z10000000",
+          "name": "安達人壽美利大世代美元分紅終身壽險",
+          "sale": "115/01/20",
+          "stop": "未停售",
+          "filing_date": "115/01/20",
+          "filing_no": "安達精字第1150000019號函備查",
+          "at": "2026-11-26T15:24:19+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MZ1A01623B11Z10000000",
+            "name": "安達人壽美利大世代美元分紅終身壽險",
+            "sale": "115/01/20",
+            "stop": "未停售",
+            "filing_date": "115/01/20",
+            "filing_no": "安達精字第1150000019號函備查",
+            "at": "2026-11-26T15:24:19+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-20",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "36714",
+      "name": "安達人壽永富長紅美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-30",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MZ1A01723B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MZ1A01723B11Z10000000",
+          "name": "安達人壽永富長紅美元分紅終身壽險",
+          "sale": "115/01/30",
+          "stop": "未停售",
+          "filing_date": "115/01/30",
+          "filing_no": "安達精字第1150000021號函備查",
+          "at": "2026-11-26T15:23:26+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MZ1A01723B11Z10000000",
+            "name": "安達人壽永富長紅美元分紅終身壽險",
+            "sale": "115/01/30",
+            "stop": "未停售",
+            "filing_date": "115/01/30",
+            "filing_no": "安達精字第1150000021號函備查",
+            "at": "2026-11-26T15:23:26+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-30",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "36715",
+      "name": "安達人壽守護醫靠定期健康保險(第1次部分變更)",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-03-06",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256311MZ1ATSO22A11E10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256311MZ1ATSO22A11E10000001",
+          "name": "安達人壽守護醫靠定期健康保險(第1次部分變更)",
+          "sale": "115/03/06",
+          "stop": "未停售",
+          "filing_date": "115/09/21",
+          "filing_no": "安達精字第1140000002號函備查,安達精字第1150000054號函備查,115.09.21金管保壽字第1150431279號令修正",
+          "at": "2026-11-26T15:23:00+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256311MZ1ATSO22A11E10000001",
+            "name": "安達人壽守護醫靠定期健康保險(第1次部分變更)",
+            "sale": "115/03/06",
+            "stop": "未停售",
+            "filing_date": "115/09/21",
+            "filing_no": "安達精字第1140000002號函備查,安達精字第1150000054號函備查,115.09.21金管保壽字第1150431279號令修正",
+            "at": "2026-11-26T15:23:00+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://life.chubb.com/content/dam/chubb-sites/life-chubb-com/tw-zh/documents/tso_20250102.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-03-06",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "36716",
+      "name": "安達人壽鼎吉美利美元分紅終身壽險",
+      "insurer": "安達國際人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-03-12",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MZ1A01823B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "256131MZ1A01823B11Z10000000",
+          "name": "安達人壽鼎吉美利美元分紅終身壽險",
+          "sale": "115/03/12",
+          "stop": "未停售",
+          "filing_date": "115/03/12",
+          "filing_no": "安達精字第1150000038號函備查",
+          "at": "2026-11-26T15:22:53+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "256131MZ1A01823B11Z10000000",
+            "name": "安達人壽鼎吉美利美元分紅終身壽險",
+            "sale": "115/03/12",
+            "stop": "未停售",
+            "filing_date": "115/03/12",
+            "filing_no": "安達精字第1150000038號函備查",
+            "at": "2026-11-26T15:22:53+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-03-12",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "27857",
+      "name": "宏泰人壽美滿佳倍美元利率變動型終身壽險(第2次部分變更)",
+      "insurer": "宏泰人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-03-17",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=217131MA1A03423B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "217131MA1A03423B11Z10000002",
+          "name": "宏泰人壽美滿佳倍美元利率變動型終身壽險(第2次部分變更)",
+          "sale": "115/03/17",
+          "stop": "未停售",
+          "filing_date": "115/03/17",
+          "filing_no": "宏壽傳字第1130008871號函備查,宏壽商字第1150001799號函備查",
+          "at": "2026-11-26T15:22:44+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "217131MA1A03423B11Z10000002",
+            "name": "宏泰人壽美滿佳倍美元利率變動型終身壽險(第2次部分變更)",
+            "sale": "115/03/17",
+            "stop": "未停售",
+            "filing_date": "115/03/17",
+            "filing_no": "宏壽傳字第1130008871號函備查,宏壽商字第1150001799號函備查",
+            "at": "2026-11-26T15:22:44+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-03-17",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21702",
+      "name": "富邦人壽網投低頭族定期健康保險附約",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-10-28",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311RZ1A03621A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209311RZ1A03621A11Z10000000",
+          "name": "富邦人壽網投低頭族定期健康保險附約",
+          "sale": "114/10/28",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "富壽商精字第1140003211號函備查,金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:40:22+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209311RZ1A03621A11Z10000000",
+            "name": "富邦人壽網投低頭族定期健康保險附約",
+            "sale": "114/10/28",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "富壽商精字第1140003211號函備查,金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:40:22+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/13393/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E7%B6%B2%E6%8A%95%E4%BD%8E%E9%A0%AD%E6%97%8F%E5%AE%9A%E6%9C%9F%E5%81%A5%E5%BA%B7%E4%BF%9D%E9%9A%AA%E9%99%84%E7%B4%84.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-10-28",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21706",
+      "name": "富邦人壽通勤安心網路投保傷害保險(第3次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-10-28",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209211MZ1A01321A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209211MZ1A01321A11Z10000003",
+          "name": "富邦人壽通勤安心網路投保傷害保險(第3次部分變更)",
+          "sale": "114/10/28",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "富壽商精字第1120005803號函備查,金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:40:26+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209211MZ1A01321A11Z10000003",
+            "name": "富邦人壽通勤安心網路投保傷害保險(第3次部分變更)",
+            "sale": "114/10/28",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "富壽商精字第1120005803號函備查,金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:40:26+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12760/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E9%80%9A%E5%8B%A4%E5%AE%89%E5%BF%83%E7%B6%B2%E8%B7%AF%E6%8A%95%E4%BF%9D%E5%82%B7%E5%AE%B3%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-10-28",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21707",
+      "name": "富邦人壽心動守護定期健康保險",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-11-10",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391MZ1A00322A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209391MZ1A00322A11Z10000000",
+          "name": "富邦人壽心動守護定期健康保險",
+          "sale": "114/11/10",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "富壽商精字第1140003083號函備查,金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:39:31+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209391MZ1A00322A11Z10000000",
+            "name": "富邦人壽心動守護定期健康保險",
+            "sale": "114/11/10",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "富壽商精字第1140003083號函備查,金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:39:31+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/1328/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E5%BF%83%E5%8B%95%E5%AE%88%E8%AD%B7%E5%AE%9A%E6%9C%9F%E5%81%A5%E5%BA%B7%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-11-10",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21713",
+      "name": "富邦人壽全鑫一年期住院醫療健康保險附約(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-11-27",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311RZ1A03421A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209311RZ1A03421A11Z10000001",
+          "name": "富邦人壽全鑫一年期住院醫療健康保險附約(第1次部分變更)",
+          "sale": "114/11/27",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "富壽商精字第1130005872號函備查,金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:37:33+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209311RZ1A03421A11Z10000001",
+            "name": "富邦人壽全鑫一年期住院醫療健康保險附約(第1次部分變更)",
+            "sale": "114/11/27",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "富壽商精字第1130005872號函備查,金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:37:33+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12506/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E5%85%A8%E9%91%AB%E4%B8%80%E5%B9%B4%E6%9C%9F%E4%BD%8F%E9%99%A2%E9%86%AB%E7%99%82%E5%81%A5%E5%BA%B7%E4%BF%9D%E9%9A%AA%E9%99%84%E7%B4%84.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-11-27",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21715",
+      "name": "富邦人壽傳富美滿外幣利率變動型終身壽險",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-12-12",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A08223B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209131MA1A08223B11Z10000000",
+          "name": "富邦人壽傳富美滿外幣利率變動型終身壽險",
+          "sale": "114/12/12",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "富壽商精字第1140004537號函備查,金管保壽字第11304949343號令及金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:28:53+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209131MA1A08223B11Z10000000",
+            "name": "富邦人壽傳富美滿外幣利率變動型終身壽險",
+            "sale": "114/12/12",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "富壽商精字第1140004537號函備查,金管保壽字第11304949343號令及金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:28:53+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/1598/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E5%82%B3%E5%AF%8C%E7%BE%8E%E6%BB%BF%E5%A4%96%E5%B9%A3%E5%88%A9%E7%8E%87%E8%AE%8A%E5%8B%95%E5%9E%8B%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-12-12",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21719",
+      "name": "富邦人壽美利大富外幣利率變動型終身壽險",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-12-12",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A08323B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209131MA1A08323B11Z10000000",
+          "name": "富邦人壽美利大富外幣利率變動型終身壽險",
+          "sale": "114/12/12",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "富壽商精字第1140004539號函備查,金管保壽字第11304949343號令及金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:28:54+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209131MA1A08323B11Z10000000",
+            "name": "富邦人壽美利大富外幣利率變動型終身壽險",
+            "sale": "114/12/12",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "富壽商精字第1140004539號函備查,金管保壽字第11304949343號令及金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:28:54+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/1597/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E7%BE%8E%E5%88%A9%E5%A4%A7%E5%AF%8C%E5%A4%96%E5%B9%A3%E5%88%A9%E7%8E%87%E8%AE%8A%E5%8B%95%E5%9E%8B%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-12-12",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21720",
+      "name": "富邦人壽金給力防癌健康保險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2025-12-12",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209321MZ2B00622A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209321MZ2B00622A11Z10000001",
+          "name": "富邦人壽金給力防癌健康保險(第1次部分變更)",
+          "sale": "114/12/12",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "富壽商精字第1140000473號函備查,金管保壽字第11404900041號令修正",
+          "at": "2026-11-26T15:28:56+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209321MZ2B00622A11Z10000001",
+            "name": "富邦人壽金給力防癌健康保險(第1次部分變更)",
+            "sale": "114/12/12",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "富壽商精字第1140000473號函備查,金管保壽字第11404900041號令修正",
+            "at": "2026-11-26T15:28:56+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/1594/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E9%87%91%E7%B5%A6%E5%8A%9B%E9%98%B2%E7%99%8C%E5%81%A5%E5%BA%B7%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2025-12-12",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21721",
+      "name": "富邦人壽骨力勇意外骨折傷害保險附約(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209211RZ1A01321A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209211RZ1A01321A11Z10000001",
+          "name": "富邦人壽骨力勇意外骨折傷害保險附約(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "115/01/01",
+          "filing_no": "富壽商精字第1140003368號函備查,富壽商精字第1140004642號函備查",
+          "at": "2026-11-26T15:27:02+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209211RZ1A01321A11Z10000001",
+            "name": "富邦人壽骨力勇意外骨折傷害保險附約(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "115/01/01",
+            "filing_no": "富壽商精字第1140003368號函備查,富壽商精字第1140004642號函備查",
+            "at": "2026-11-26T15:27:02+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12804/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E9%AA%A8%E5%8A%9B%E5%8B%87%E6%84%8F%E5%A4%96%E9%AA%A8%E6%8A%98%E5%82%B7%E5%AE%B3%E4%BF%9D%E9%9A%AA%E9%99%84%E7%B4%84.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21722",
+      "name": "富邦人壽享滿富分紅終身保險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A05523A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209121MZ1A05523A11Z10000001",
+          "name": "富邦人壽享滿富分紅終身保險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "富壽商精字第1140004043號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+          "at": "2026-11-26T15:27:03+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209121MZ1A05523A11Z10000001",
+            "name": "富邦人壽享滿富分紅終身保險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "富壽商精字第1140004043號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+            "at": "2026-11-26T15:27:03+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12480/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E4%BA%AB%E6%BB%BF%E5%AF%8C%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21723",
+      "name": "富邦人壽美富紅運外幣分紅終身壽險(第7次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A03523B11Z10000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209131MZ1A03523B11Z10000007",
+          "name": "富邦人壽美富紅運外幣分紅終身壽險(第7次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "富壽商精字第1120000937號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+          "at": "2026-11-26T15:27:05+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209131MZ1A03523B11Z10000007",
+            "name": "富邦人壽美富紅運外幣分紅終身壽險(第7次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "富壽商精字第1120000937號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+            "at": "2026-11-26T15:27:05+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12724/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E7%BE%8E%E5%AF%8C%E7%B4%85%E9%81%8B%E5%A4%96%E5%B9%A3%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21724",
+      "name": "富邦人壽美年加鑫外幣分紅終身保險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A05623B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209121MZ1A05623B11Z10000001",
+          "name": "富邦人壽美年加鑫外幣分紅終身保險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "富壽商精字第1140004233號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+          "at": "2026-11-26T15:27:06+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209121MZ1A05623B11Z10000001",
+            "name": "富邦人壽美年加鑫外幣分紅終身保險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "富壽商精字第1140004233號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+            "at": "2026-11-26T15:27:06+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12727/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E7%BE%8E%E5%B9%B4%E5%8A%A0%E9%91%AB%E5%A4%96%E5%B9%A3%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21725",
+      "name": "富邦人壽富貴長紅分紅終身壽險(第5次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A03423A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209131MZ1A03423A11Z10000005",
+          "name": "富邦人壽富貴長紅分紅終身壽險(第5次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "富壽商精字第1120000559號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+          "at": "2026-11-26T15:27:08+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209131MZ1A03423A11Z10000005",
+            "name": "富邦人壽富貴長紅分紅終身壽險(第5次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "富壽商精字第1120000559號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+            "at": "2026-11-26T15:27:08+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12601/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E5%AF%8C%E8%B2%B4%E9%95%B7%E7%B4%85%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21726",
+      "name": "富邦人壽美滿富外幣分紅終身保險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A05423B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209121MZ1A05423B11Z10000001",
+          "name": "富邦人壽美滿富外幣分紅終身保險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "富壽商精字第1140001765號函備查,金管保壽字第11404900041 號令及金管保壽字第11404321761 號令修正",
+          "at": "2026-11-26T15:27:09+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209121MZ1A05423B11Z10000001",
+            "name": "富邦人壽美滿富外幣分紅終身保險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "富壽商精字第1140001765號函備查,金管保壽字第11404900041 號令及金管保壽字第11404321761 號令修正",
+            "at": "2026-11-26T15:27:09+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12731/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E7%BE%8E%E6%BB%BF%E5%AF%8C%E5%A4%96%E5%B9%A3%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21727",
+      "name": "富邦人壽終愛e生網路投保小額終身壽險(第7次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A02823A11D10000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209131MZ1A02823A11D10000007",
+          "name": "富邦人壽終愛e生網路投保小額終身壽險(第7次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "115/01/01",
+          "filing_no": "富壽商精字第1090002318號函備查,富壽商精字第1140004506號函備查",
+          "at": "2026-11-26T15:27:11+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209131MZ1A02823A11D10000007",
+            "name": "富邦人壽終愛e生網路投保小額終身壽險(第7次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "115/01/01",
+            "filing_no": "富壽商精字第1090002318號函備查,富壽商精字第1140004506號函備查",
+            "at": "2026-11-26T15:27:11+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12707/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E7%B5%82%E6%84%9Be%E7%94%9F%E7%B6%B2%E8%B7%AF%E6%8A%95%E4%BF%9D%E5%B0%8F%E9%A1%8D%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21728",
+      "name": "富邦人壽超美優退外幣分紅終身保險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A05323B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209121MZ1A05323B11Z10000001",
+          "name": "富邦人壽超美優退外幣分紅終身保險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "富壽商精字第1140001948號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+          "at": "2026-11-26T15:27:12+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209121MZ1A05323B11Z10000001",
+            "name": "富邦人壽超美優退外幣分紅終身保險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "富壽商精字第1140001948號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+            "at": "2026-11-26T15:27:12+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12759/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E8%B6%85%E7%BE%8E%E5%84%AA%E9%80%80%E5%A4%96%E5%B9%A3%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21729",
+      "name": "富邦人壽金來寶小額終身壽險(第12次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A02023A11D10000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209131MZ1A02023A11D10000012",
+          "name": "富邦人壽金來寶小額終身壽險(第12次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "115/01/01",
+          "filing_no": "富壽商精字第1060000719號函備查,富壽商精字第1140004474號函備查",
+          "at": "2026-11-26T15:27:14+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209131MZ1A02023A11D10000012",
+            "name": "富邦人壽金來寶小額終身壽險(第12次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "115/01/01",
+            "filing_no": "富壽商精字第1060000719號函備查,富壽商精字第1140004474號函備查",
+            "at": "2026-11-26T15:27:14+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12770/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E9%87%91%E4%BE%86%E5%AF%B6%E5%B0%8F%E9%A1%8D%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21730",
+      "name": "富邦人壽紅運優外幣分紅終身保險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A05123B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209121MZ1A05123B11Z10000001",
+          "name": "富邦人壽紅運優外幣分紅終身保險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "富壽商精字第1140001399號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+          "at": "2026-11-26T15:27:15+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209121MZ1A05123B11Z10000001",
+            "name": "富邦人壽紅運優外幣分紅終身保險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "富壽商精字第1140001399號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+            "at": "2026-11-26T15:27:15+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12701/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E7%B4%85%E9%81%8B%E5%84%AA%E5%A4%96%E5%B9%A3%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21731",
+      "name": "富邦人壽富裕長紅增額分紅終身壽險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A04823A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209131MZ1A04823A11Z10000001",
+          "name": "富邦人壽富裕長紅增額分紅終身壽險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "富壽商精字第1140004517號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+          "at": "2026-11-26T15:27:17+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209131MZ1A04823A11Z10000001",
+            "name": "富邦人壽富裕長紅增額分紅終身壽險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "富壽商精字第1140004517號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+            "at": "2026-11-26T15:27:17+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12598/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E5%AF%8C%E8%A3%95%E9%95%B7%E7%B4%85%E5%A2%9E%E9%A1%8D%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21732",
+      "name": "富邦人壽活利優退分紅終身保險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A05023A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209121MZ1A05023A11Z10000001",
+          "name": "富邦人壽活利優退分紅終身保險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "富壽商精字第1130004898號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+          "at": "2026-11-26T15:27:18+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209121MZ1A05023A11Z10000001",
+            "name": "富邦人壽活利優退分紅終身保險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "富壽商精字第1130004898號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+            "at": "2026-11-26T15:27:18+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12673/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E6%B4%BB%E5%88%A9%E5%84%AA%E9%80%80%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21733",
+      "name": "富邦人壽尊榮紅富外幣分紅終身壽險(第2次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A04623B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209131MZ1A04623B11Z10000002",
+          "name": "富邦人壽尊榮紅富外幣分紅終身壽險(第2次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "富壽商精字第1140002502號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+          "at": "2026-11-26T15:27:20+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209131MZ1A04623B11Z10000002",
+            "name": "富邦人壽尊榮紅富外幣分紅終身壽險(第2次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "富壽商精字第1140002502號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+            "at": "2026-11-26T15:27:20+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12605/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E5%B0%8A%E6%A6%AE%E7%B4%85%E5%AF%8C%E5%A4%96%E5%B9%A3%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21734",
+      "name": "富邦人壽花漾年華外幣分紅終身保險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A04923B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209121MZ1A04923B11Z10000001",
+          "name": "富邦人壽花漾年華外幣分紅終身保險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "富壽商精字第1130004746號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+          "at": "2026-11-26T15:27:21+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209121MZ1A04923B11Z10000001",
+            "name": "富邦人壽花漾年華外幣分紅終身保險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "富壽商精字第1130004746號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+            "at": "2026-11-26T15:27:21+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12742/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E8%8A%B1%E6%BC%BE%E5%B9%B4%E8%8F%AF%E5%A4%96%E5%B9%A3%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21735",
+      "name": "富邦人壽美富長紅外幣分紅終身壽險(第1次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A04723B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209131MZ1A04723B11Z10000001",
+          "name": "富邦人壽美富長紅外幣分紅終身壽險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/27",
+          "filing_no": "富壽商精字第1140003851號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+          "at": "2026-11-26T15:27:23+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209131MZ1A04723B11Z10000001",
+            "name": "富邦人壽美富長紅外幣分紅終身壽險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/27",
+            "filing_no": "富壽商精字第1140003851號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+            "at": "2026-11-26T15:27:23+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21737",
+      "name": "富邦人壽智富紅運外幣分紅終身壽險(第5次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A04423B11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209131MZ1A04423B11Z10000005",
+          "name": "富邦人壽智富紅運外幣分紅終身壽險(第5次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "富壽商精字第1130000766號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+          "at": "2026-11-26T15:27:24+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209131MZ1A04423B11Z10000005",
+            "name": "富邦人壽智富紅運外幣分紅終身壽險(第5次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "富壽商精字第1130000766號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+            "at": "2026-11-26T15:27:24+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12659/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E6%99%BA%E5%AF%8C%E7%B4%85%E9%81%8B%E5%A4%96%E5%B9%A3%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21739",
+      "name": "富邦人壽鴻運久久分紅終身壽險(第4次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A04223A11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209131MZ1A04223A11Z10000004",
+          "name": "富邦人壽鴻運久久分紅終身壽險(第4次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/27",
+          "filing_no": "富壽商精字第1120005617號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+          "at": "2026-11-26T15:27:26+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209131MZ1A04223A11Z10000004",
+            "name": "富邦人壽鴻運久久分紅終身壽險(第4次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/27",
+            "filing_no": "富壽商精字第1120005617號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+            "at": "2026-11-26T15:27:26+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12807/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E9%B4%BB%E9%81%8B%E4%B9%85%E4%B9%85%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21740",
+      "name": "富邦人壽雙美紅運外幣分紅終身保險(第4次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A03923B11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209121MZ1A03923B11Z10000004",
+          "name": "富邦人壽雙美紅運外幣分紅終身保險(第4次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "富壽商精字第1120003467號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+          "at": "2026-11-26T15:27:27+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209121MZ1A03923B11Z10000004",
+            "name": "富邦人壽雙美紅運外幣分紅終身保險(第4次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "富壽商精字第1120003467號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+            "at": "2026-11-26T15:27:27+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12797/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E9%9B%99%E7%BE%8E%E7%B4%85%E9%81%8B%E5%A4%96%E5%B9%A3%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21741",
+      "name": "富邦人壽華富紅運分紅終身壽險(第4次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A04123A11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209131MZ1A04123A11Z10000004",
+          "name": "富邦人壽華富紅運分紅終身壽險(第4次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "富壽商精字第1120005612號函備查,金管保壽字第11404900041 號令及金管保壽字第11404321761 號令修正",
+          "at": "2026-11-26T15:27:29+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209131MZ1A04123A11Z10000004",
+            "name": "富邦人壽華富紅運分紅終身壽險(第4次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "富壽商精字第1120005612號函備查,金管保壽字第11404900041 號令及金管保壽字第11404321761 號令修正",
+            "at": "2026-11-26T15:27:29+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12745/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E8%8F%AF%E5%AF%8C%E7%B4%85%E9%81%8B%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21742",
+      "name": "富邦人壽美年紅旺外幣分紅終身保險(第4次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A03723B11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209121MZ1A03723B11Z10000004",
+          "name": "富邦人壽美年紅旺外幣分紅終身保險(第4次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "富壽商精字第1120002047號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+          "at": "2026-11-26T15:27:30+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209121MZ1A03723B11Z10000004",
+            "name": "富邦人壽美年紅旺外幣分紅終身保險(第4次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "富壽商精字第1120002047號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+            "at": "2026-11-26T15:27:30+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12729/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E7%BE%8E%E5%B9%B4%E7%B4%85%E6%97%BA%E5%A4%96%E5%B9%A3%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21743",
+      "name": "富邦人壽紅運長樂增額分紅終身壽險(第5次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A04023A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209131MZ1A04023A11Z10000005",
+          "name": "富邦人壽紅運長樂增額分紅終身壽險(第5次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "富壽商精字第1120004492號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+          "at": "2026-11-26T15:27:32+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209131MZ1A04023A11Z10000005",
+            "name": "富邦人壽紅運長樂增額分紅終身壽險(第5次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "富壽商精字第1120004492號函備查,金管保壽字第11404900041號令及金管保壽字第11404321761號令修正",
+            "at": "2026-11-26T15:27:32+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12705/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E7%B4%85%E9%81%8B%E9%95%B7%E6%A8%82%E5%A2%9E%E9%A1%8D%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E5%A3%BD%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "21744",
+      "name": "富邦人壽紅旺年年分紅終身保險(第5次部分變更)",
+      "insurer": "富邦人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A03623A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "209121MZ1A03623A11Z10000005",
+          "name": "富邦人壽紅旺年年分紅終身保險(第5次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/12/17",
+          "filing_no": "富壽商精字第1120001020號函備查,金管保壽字第11404900041 號令及金管保壽字第11404321761 號令修正",
+          "at": "2026-11-26T15:27:33+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "209121MZ1A03623A11Z10000005",
+            "name": "富邦人壽紅旺年年分紅終身保險(第5次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/12/17",
+            "filing_no": "富壽商精字第1120001020號函備查,金管保壽字第11404900041 號令及金管保壽字第11404321761 號令修正",
+            "at": "2026-11-26T15:27:33+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.fubon.com/life/api/v1/files/12700/open/%E5%AF%8C%E9%82%A6%E4%BA%BA%E5%A3%BD%E7%B4%85%E6%97%BA%E5%B9%B4%E5%B9%B4%E5%88%86%E7%B4%85%E7%B5%82%E8%BA%AB%E4%BF%9D%E9%9A%AA.pdf",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    }
+  ]
+}

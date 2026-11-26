@@ -1,0 +1,3081 @@
+{
+  "batch_id": "grok-scope2-onsale-live-refresh-batch82-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T16:58:55+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": {
+    "description": "範圍2：現售品項以即時保發中心詳細頁覆核",
+    "ids": 60
+  },
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": "以 2026-11-26 即時保發中心詳細頁核對本站連結版本之銷售日、停售日與狀態；一致者為一致性複核，不一致且無官網明文者移交 GPT，不改狀態。未對驗證碼做 OCR、未執行 submit。",
+  "summary": {
+    "已核實": 60,
+    "total": 60,
+    "items_with_proposed_changes": 0
+  },
+  "items": [
+    {
+      "product_id": "17707",
+      "name": "新光人壽保平安傷害保險(第9次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208211MZ1A02721A11Z10000009"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208211MZ1A02721A11Z10000009",
+          "name": "新光人壽保平安傷害保險(第9次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(101)保字第140號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:12+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208211MZ1A02721A11Z10000009",
+            "name": "新光人壽保平安傷害保險(第9次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(101)保字第140號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:12+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17708",
+      "name": "新光人壽真新利變額年金保險(第1次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208421MV1A00823A11Z90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208421MV1A00823A11Z90000001",
+          "name": "新光人壽真新利變額年金保險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1140001099號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:14+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208421MV1A00823A11Z90000001",
+            "name": "新光人壽真新利變額年金保險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1140001099號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:14+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17709",
+      "name": "新光人壽住院醫療健康保險附約(丙型)(第12次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208311RZ1A01121A11Z10000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208311RZ1A01121A11Z10000012",
+          "name": "新光人壽住院醫療健康保險附約(丙型)(第12次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台財保第0890751190號(核准)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:15+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208311RZ1A01121A11Z10000012",
+            "name": "新光人壽住院醫療健康保險附約(丙型)(第12次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台財保第0890751190號(核准)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:15+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17711",
+      "name": "新光人壽新享亮利外幣變額年金保險(第6次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208421MV1A00923B11Z90000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208421MV1A00923B11Z90000006",
+          "name": "新光人壽新享亮利外幣變額年金保險(第6次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1110000003號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:17+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208421MV1A00923B11Z90000006",
+            "name": "新光人壽新享亮利外幣變額年金保險(第6次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1110000003號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:17+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17712",
+      "name": "新光人壽住院醫療健康保險附約(定額給付型)(第12次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208311RZ1A01221A11Z10000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208311RZ1A01221A11Z10000012",
+          "name": "新光人壽住院醫療健康保險附約(定額給付型)(第12次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台財保第0890751182號(核准)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:18+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208311RZ1A01221A11Z10000012",
+            "name": "新光人壽住院醫療健康保險附約(定額給付型)(第12次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台財保第0890751182號(核准)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:18+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17713",
+      "name": "新光人壽永保安康終身手術醫療保險(第4次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208391MZ9B01123A11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208391MZ9B01123A11Z10000004",
+          "name": "新光人壽永保安康終身手術醫療保險(第4次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1120000239號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:20+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208391MZ9B01123A11Z10000004",
+            "name": "新光人壽永保安康終身手術醫療保險(第4次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1120000239號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:20+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17715",
+      "name": "新光人壽優選亮利外幣變額年金保險(第6次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208421MV1A01023Z11Z90000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208421MV1A01023Z11Z90000006",
+          "name": "新光人壽優選亮利外幣變額年金保險(第6次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1110001193號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:21+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208421MV1A01023Z11Z90000006",
+            "name": "新光人壽優選亮利外幣變額年金保險(第6次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1110001193號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:21+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17716",
+      "name": "新光人壽住院醫療健康保險附約(日額給付型)(第9次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208311RZ1A01321A11Z10000009"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208311RZ1A01321A11Z10000009",
+          "name": "新光人壽住院醫療健康保險附約(日額給付型)(第9次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台財保第0890751189號(核准)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:22+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208311RZ1A01321A11Z10000009",
+            "name": "新光人壽住院醫療健康保險附約(日額給付型)(第9次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台財保第0890751189號(核准)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:22+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17717",
+      "name": "新光人壽台享富貴利率變動型終身壽險(第2次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MA1A09223A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MA1A09223A11Z10000002",
+          "name": "新光人壽台享富貴利率變動型終身壽險(第2次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/11,114/02/13",
+          "filing_no": "台新人壽字第1140000100號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:24+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MA1A09223A11Z10000002",
+            "name": "新光人壽台享富貴利率變動型終身壽險(第2次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/11,114/02/13",
+            "filing_no": "台新人壽字第1140000100號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:24+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17718",
+      "name": "新光人壽新富亮利外幣變額年金保險(第4次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208421MV1A01123B11Z90000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208421MV1A01123B11Z90000004",
+          "name": "新光人壽新富亮利外幣變額年金保險(第4次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1120000006號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:25+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208421MV1A01123B11Z90000004",
+            "name": "新光人壽新富亮利外幣變額年金保險(第4次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1120000006號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:25+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17719",
+      "name": "新光人壽住院醫療費用健康保險附約(第5次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208311RZ1A01421A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208311RZ1A01421A11Z10000005",
+          "name": "新光人壽住院醫療費用健康保險附約(第5次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(108)保字第510號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:27+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208311RZ1A01421A11Z10000005",
+            "name": "新光人壽住院醫療費用健康保險附約(第5次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(108)保字第510號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:27+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17720",
+      "name": "新光人壽永保安心重大傷病定期健康保險(第4次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208391MZ9B01222A11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208391MZ9B01222A11Z10000004",
+          "name": "新光人壽永保安心重大傷病定期健康保險(第4次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1120000554號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:28+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208391MZ9B01222A11Z10000004",
+            "name": "新光人壽永保安心重大傷病定期健康保險(第4次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1120000554號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:28+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17721",
+      "name": "新光人壽傷害住院日額保險附約(第17次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208211RZ1A00521A11Z10000017"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208211RZ1A00521A11Z10000017",
+          "name": "新光人壽傷害住院日額保險附約(第17次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "115/01/01",
+          "filing_no": "臺財保第841496205號函核准,新壽商一字第1150000012號函備查",
+          "at": "2026-11-26T15:25:30+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208211RZ1A00521A11Z10000017",
+            "name": "新光人壽傷害住院日額保險附約(第17次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "115/01/01",
+            "filing_no": "臺財保第841496205號函核准,新壽商一字第1150000012號函備查",
+            "at": "2026-11-26T15:25:30+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17723",
+      "name": "新光人壽臻保順心住院醫療費用健康保險附約-自負額型(第1次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208311RZ1A01521A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208311RZ1A01521A11Z10000001",
+          "name": "新光人壽臻保順心住院醫療費用健康保險附約-自負額型(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1130000032號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:31+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208311RZ1A01521A11Z10000001",
+            "name": "新光人壽臻保順心住院醫療費用健康保險附約-自負額型(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1130000032號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:31+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17724",
+      "name": "新光人壽鑫盈富利率變動型美元終身壽險(第4次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MA1A09323B11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MA1A09323B11Z10000004",
+          "name": "新光人壽鑫盈富利率變動型美元終身壽險(第4次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/11,114/02/13",
+          "filing_no": "台新人壽字第1110001816號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:33+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MA1A09323B11Z10000004",
+            "name": "新光人壽鑫盈富利率變動型美元終身壽險(第4次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/11,114/02/13",
+            "filing_no": "台新人壽字第1110001816號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:33+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17725",
+      "name": "新光人壽新享亮利變額年金保險(第6次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208421MV1A00123A11Z90000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208421MV1A00123A11Z90000006",
+          "name": "新光人壽新享亮利變額年金保險(第6次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1110000001號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:34+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208421MV1A00123A11Z90000006",
+            "name": "新光人壽新享亮利變額年金保險(第6次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1110000001號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:34+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17726",
+      "name": "新光人壽臻保醫靠住院醫療費用健康保險附約(第1次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208311RZ1A01621A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208311RZ1A01621A11Z10000001",
+          "name": "新光人壽臻保醫靠住院醫療費用健康保險附約(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1130000568號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:36+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208311RZ1A01621A11Z10000001",
+            "name": "新光人壽臻保醫靠住院醫療費用健康保險附約(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1130000568號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:36+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17728",
+      "name": "新光人壽骨力贏傷害暨兒童意外骨折保險附約(第1次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208211RZ1A02421A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208211RZ1A02421A11Z10000001",
+          "name": "新光人壽骨力贏傷害暨兒童意外骨折保險附約(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "115/01/01",
+          "filing_no": "新壽商開字第1130000182號函備查,新壽商一字第1150000017號函備查",
+          "at": "2026-11-26T15:25:37+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208211RZ1A02421A11Z10000001",
+            "name": "新光人壽骨力贏傷害暨兒童意外骨折保險附約(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "115/01/01",
+            "filing_no": "新壽商開字第1130000182號函備查,新壽商一字第1150000017號函備查",
+            "at": "2026-11-26T15:25:37+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17729",
+      "name": "新光人壽優選亮利變額年金保險(第5次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208421MV1A00223A11Z90000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208421MV1A00223A11Z90000005",
+          "name": "新光人壽優選亮利變額年金保險(第5次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1110001191號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:38+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208421MV1A00223A11Z90000005",
+            "name": "新光人壽優選亮利變額年金保險(第5次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1110001191號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:38+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17730",
+      "name": "新光人壽全新醫靠住院醫療健康保險附約⎯定額型(第1次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208311RZ1A01721A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208311RZ1A01721A11Z10000001",
+          "name": "新光人壽全新醫靠住院醫療健康保險附約⎯定額型(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1130001088號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:40+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208311RZ1A01721A11Z10000001",
+            "name": "新光人壽全新醫靠住院醫療健康保險附約⎯定額型(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1130001088號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:40+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17731",
+      "name": "新光人壽吉美傳家利率變動型美元終身壽險(第2次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MA1A09423B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MA1A09423B11Z10000002",
+          "name": "新光人壽吉美傳家利率變動型美元終身壽險(第2次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/11,114/02/13",
+          "filing_no": "台新人壽字第1130000071號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:42+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MA1A09423B11Z10000002",
+            "name": "新光人壽吉美傳家利率變動型美元終身壽險(第2次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/11,114/02/13",
+            "filing_no": "台新人壽字第1130000071號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:42+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17732",
+      "name": "新光人壽新富亮利變額年金保險(第4次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208421MV1A00323A11Z90000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208421MV1A00323A11Z90000004",
+          "name": "新光人壽新富亮利變額年金保險(第4次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1120000004號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:43+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208421MV1A00323A11Z90000004",
+            "name": "新光人壽新富亮利變額年金保險(第4次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1120000004號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:43+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17733",
+      "name": "新光人壽備感依靠住院醫療費用健康保險附約(第1次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208311RZ1A01821A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208311RZ1A01821A11Z10000001",
+          "name": "新光人壽備感依靠住院醫療費用健康保險附約(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1130001089號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:44+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208311RZ1A01821A11Z10000001",
+            "name": "新光人壽備感依靠住院醫療費用健康保險附約(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1130001089號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:44+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17735",
+      "name": "新光人壽台鑫金讚利率變動型終身保險(第5次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208191MA4B00223A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208191MA4B00223A11Z10000005",
+          "name": "新光人壽台鑫金讚利率變動型終身保險(第5次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/11,114/02/13",
+          "filing_no": "台新人壽字第1120001116號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:46+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208191MA4B00223A11Z10000005",
+            "name": "新光人壽台鑫金讚利率變動型終身保險(第5次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/11,114/02/13",
+            "filing_no": "台新人壽字第1120001116號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:46+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17736",
+      "name": "新光人壽要保人豁免保險費健康保險附約(第8次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208341RZ1A00721A11Z10000008"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208341RZ1A00721A11Z10000008",
+          "name": "新光人壽要保人豁免保險費健康保險附約(第8次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(103)保字第742號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:47+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208341RZ1A00721A11Z10000008",
+            "name": "新光人壽要保人豁免保險費健康保險附約(第8次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(103)保字第742號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:47+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17738",
+      "name": "新光人壽新豁免保險費健康保險附約(第6次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208341RZ1A00821A11Z10000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208341RZ1A00821A11Z10000006",
+          "name": "新光人壽新豁免保險費健康保險附約(第6次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(108)保字第511號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:49+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208341RZ1A00821A11Z10000006",
+            "name": "新光人壽新豁免保險費健康保險附約(第6次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(108)保字第511號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:49+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17739",
+      "name": "新光人壽鑫好美利率變動型美元終身壽險(第2次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MA1A09523B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MA1A09523B11Z10000002",
+          "name": "新光人壽鑫好美利率變動型美元終身壽險(第2次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/11,114/02/13",
+          "filing_no": "台新人壽字第1130000994號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:50+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MA1A09523B11Z10000002",
+            "name": "新光人壽鑫好美利率變動型美元終身壽險(第2次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/11,114/02/13",
+            "filing_no": "台新人壽字第1130000994號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:50+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17740",
+      "name": "新光人壽重大疾病定期保險(第11次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208351MZ5B00222A11Z10000011"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208351MZ5B00222A11Z10000011",
+          "name": "新光人壽重大疾病定期保險(第11次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(105)保字第003號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:52+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208351MZ5B00222A11Z10000011",
+            "name": "新光人壽重大疾病定期保險(第11次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(105)保字第003號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:52+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17741",
+      "name": "新光人壽守護健康終身醫療保險(111)(第5次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208311MZ1B01423A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208311MZ1B01423A11Z10000005",
+          "name": "新光人壽守護健康終身醫療保險(111)(第5次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1110000251號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:53+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208311MZ1B01423A11Z10000005",
+            "name": "新光人壽守護健康終身醫療保險(111)(第5次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1110000251號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:53+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17742",
+      "name": "新光人壽美保金讚利率變動型美元終身保險(第5次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208191MA4B00323B11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208191MA4B00323B11Z10000005",
+          "name": "新光人壽美保金讚利率變動型美元終身保險(第5次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/11,114/02/13",
+          "filing_no": "台新人壽字第1110001822號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:55+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208191MA4B00323B11Z10000005",
+            "name": "新光人壽美保金讚利率變動型美元終身保險(第5次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/11,114/02/13",
+            "filing_no": "台新人壽字第1110001822號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:55+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17743",
+      "name": "新光人壽美滿傳世利率變動型美元終身壽險(第1次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MA1A09623B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MA1A09623B11Z10000001",
+          "name": "新光人壽美滿傳世利率變動型美元終身壽險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/11,114/02/13",
+          "filing_no": "台新人壽字第1130001304號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:56+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MA1A09623B11Z10000001",
+            "name": "新光人壽美滿傳世利率變動型美元終身壽險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/11,114/02/13",
+            "filing_no": "台新人壽字第1130001304號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:56+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17744",
+      "name": "新光人壽美利達利率變動型美元終身保險(第5次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208191MA4B00423B11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208191MA4B00423B11Z10000005",
+          "name": "新光人壽美利達利率變動型美元終身保險(第5次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/11,114/02/13",
+          "filing_no": "台新人壽字第1120001359號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:58+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208191MA4B00423B11Z10000005",
+            "name": "新光人壽美利達利率變動型美元終身保險(第5次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/11,114/02/13",
+            "filing_no": "台新人壽字第1120001359號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:58+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17745",
+      "name": "新光人壽美利傳世利率變動型美元終身壽險(第1次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MA1A09723B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MA1A09723B11Z10000001",
+          "name": "新光人壽美利傳世利率變動型美元終身壽險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/11,114/02/13",
+          "filing_no": "台新人壽字第1140001104號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:25:59+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MA1A09723B11Z10000001",
+            "name": "新光人壽美利傳世利率變動型美元終身壽險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/11,114/02/13",
+            "filing_no": "台新人壽字第1140001104號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:25:59+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17746",
+      "name": "新光人壽大樂美利率變動型美元終身保險(第2次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208191MA4B00523B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208191MA4B00523B11Z10000002",
+          "name": "新光人壽大樂美利率變動型美元終身保險(第2次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/11,114/02/13",
+          "filing_no": "台新人壽字第1130000118號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:01+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208191MA4B00523B11Z10000002",
+            "name": "新光人壽大樂美利率變動型美元終身保險(第2次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/11,114/02/13",
+            "filing_no": "台新人壽字第1130000118號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:01+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17747",
+      "name": "新光人壽長保安心重大傷病一年期健康保險附約(第5次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208391RZ1A01421A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208391RZ1A01421A11Z10000005",
+          "name": "新光人壽長保安心重大傷病一年期健康保險附約(第5次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1100000140號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:02+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208391RZ1A01421A11Z10000005",
+            "name": "新光人壽長保安心重大傷病一年期健康保險附約(第5次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1100000140號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:02+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17748",
+      "name": "新光人壽多美傳家利率變動型美元終身保險(第3次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208191MA4B00623B11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208191MA4B00623B11Z10000003",
+          "name": "新光人壽多美傳家利率變動型美元終身保險(第3次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/11,114/02/13",
+          "filing_no": "台新人壽字第1130000540號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:03+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208191MA4B00623B11Z10000003",
+            "name": "新光人壽多美傳家利率變動型美元終身保險(第3次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/11,114/02/13",
+            "filing_no": "台新人壽字第1130000540號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:03+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17749",
+      "name": "新光人壽新享亮利變額萬能壽險(第6次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MV1A01123A11Z90000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MV1A01123A11Z90000006",
+          "name": "新光人壽新享亮利變額萬能壽險(第6次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1110000002號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:05+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MV1A01123A11Z90000006",
+            "name": "新光人壽新享亮利變額萬能壽險(第6次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1110000002號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:05+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17750",
+      "name": "新光人壽傳富安家利率變動型美元終身保險(第2次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208191MA4B00723B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208191MA4B00723B11Z10000002",
+          "name": "新光人壽傳富安家利率變動型美元終身保險(第2次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/11,114/02/13",
+          "filing_no": "台新人壽字第1130000869號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:06+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208191MA4B00723B11Z10000002",
+            "name": "新光人壽傳富安家利率變動型美元終身保險(第2次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/11,114/02/13",
+            "filing_no": "台新人壽字第1130000869號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:06+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17751",
+      "name": "新光人壽優選亮利變額萬能壽險(第5次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MV1A01223A11Z90000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MV1A01223A11Z90000005",
+          "name": "新光人壽優選亮利變額萬能壽險(第5次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1110001192號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:08+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MV1A01223A11Z90000005",
+            "name": "新光人壽優選亮利變額萬能壽險(第5次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1110001192號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:08+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17752",
+      "name": "新光人壽美好世代利率變動型美元終身保險(第2次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208191MA4B00823B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208191MA4B00823B11Z10000002",
+          "name": "新光人壽美好世代利率變動型美元終身保險(第2次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/11,114/02/13",
+          "filing_no": "台新人壽字第1130001163號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:09+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208191MA4B00823B11Z10000002",
+            "name": "新光人壽美好世代利率變動型美元終身保險(第2次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/11,114/02/13",
+            "filing_no": "台新人壽字第1130001163號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:09+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17753",
+      "name": "新光人壽新富亮利變額萬能壽險(第4次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MV1A01323A11Z90000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MV1A01323A11Z90000004",
+          "name": "新光人壽新富亮利變額萬能壽險(第4次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1120000005號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:11+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MV1A01323A11Z90000004",
+            "name": "新光人壽新富亮利變額萬能壽險(第4次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1120000005號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:11+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17754",
+      "name": "新光人壽美滿豐收利率變動型美元終身保險(第1次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208191MA4B00923B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208191MA4B00923B11Z10000001",
+          "name": "新光人壽美滿豐收利率變動型美元終身保險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/11,114/02/13",
+          "filing_no": "台新人壽字第1130001408號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:12+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208191MA4B00923B11Z10000001",
+            "name": "新光人壽美滿豐收利率變動型美元終身保險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/11,114/02/13",
+            "filing_no": "台新人壽字第1130001408號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:12+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17755",
+      "name": "新光人壽鑫鑽人生變額萬能壽險(第2次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MV1A01423A11Z90000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MV1A01423A11Z90000002",
+          "name": "新光人壽鑫鑽人生變額萬能壽險(第2次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1130000020號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:14+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MV1A01423A11Z90000002",
+            "name": "新光人壽鑫鑽人生變額萬能壽險(第2次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1130000020號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:14+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17756",
+      "name": "新光人壽美利臻心利率變動型美元終身保險(第1次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208191MA4B01023B11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208191MA4B01023B11Z10000001",
+          "name": "新光人壽美利臻心利率變動型美元終身保險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/11,114/02/13",
+          "filing_no": "台新人壽字第1140001105號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:15+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208191MA4B01023B11Z10000001",
+            "name": "新光人壽美利臻心利率變動型美元終身保險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/11,114/02/13",
+            "filing_no": "台新人壽字第1140001105號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:15+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17758",
+      "name": "新光人壽華美臻鑫利率變動型美元終身保險(第2次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208191MA9B00123B11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208191MA9B00123B11Z10000002",
+          "name": "新光人壽華美臻鑫利率變動型美元終身保險(第2次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/11,114/02/13",
+          "filing_no": "台新人壽字第1130001126號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:17+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208191MA9B00123B11Z10000002",
+            "name": "新光人壽華美臻鑫利率變動型美元終身保險(第2次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/11,114/02/13",
+            "filing_no": "台新人壽字第1130001126號依114.02.11金管保壽字第11304949343號函及114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:17+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17759",
+      "name": "新光人壽新益亮利變額萬能壽險(第2次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MV1A01623A11Z90000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MV1A01623A11Z90000002",
+          "name": "新光人壽新益亮利變額萬能壽險(第2次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1130000069號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:18+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MV1A01623A11Z90000002",
+            "name": "新光人壽新益亮利變額萬能壽險(第2次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1130000069號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:18+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17760",
+      "name": "新光人壽定期保險(第10次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208191MZ9B00222A11Z10000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208191MZ9B00222A11Z10000010",
+          "name": "新光人壽定期保險(第10次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(105)保字第007號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:20+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208191MZ9B00222A11Z10000010",
+            "name": "新光人壽定期保險(第10次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(105)保字第007號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:20+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17762",
+      "name": "新光人壽高額定期保險(第9次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208191MZ9B00322A11Z10000009"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208191MZ9B00322A11Z10000009",
+          "name": "新光人壽高額定期保險(第9次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(105)保字第008號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:21+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208191MZ9B00322A11Z10000009",
+            "name": "新光人壽高額定期保險(第9次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(105)保字第008號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:21+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17763",
+      "name": "新光人壽真新利變額萬能壽險(第1次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MV1A01823A11Z90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MV1A01823A11Z90000001",
+          "name": "新光人壽真新利變額萬能壽險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1140001100號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:22+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MV1A01823A11Z90000001",
+            "name": "新光人壽真新利變額萬能壽險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1140001100號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:22+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17764",
+      "name": "新光人壽家用保障定期保險(第14次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208191MZ9B00422A11Z10000014"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208191MZ9B00422A11Z10000014",
+          "name": "新光人壽家用保障定期保險(第14次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(106)保字第215號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:24+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208191MZ9B00422A11Z10000014",
+            "name": "新光人壽家用保障定期保險(第14次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(106)保字第215號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:24+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17765",
+      "name": "新光人壽新享亮利外幣變額萬能壽險(第6次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MV1A01923B11Z90000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MV1A01923B11Z90000006",
+          "name": "新光人壽新享亮利外幣變額萬能壽險(第6次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1110000004號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:25+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MV1A01923B11Z90000006",
+            "name": "新光人壽新享亮利外幣變額萬能壽險(第6次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1110000004號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:25+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17766",
+      "name": "新光人壽家用保障定期保險附約(第8次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208191RZ1A00122A11Z10000008"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208191RZ1A00122A11Z10000008",
+          "name": "新光人壽家用保障定期保險附約(第8次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(109)保字第208號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:27+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208191RZ1A00122A11Z10000008",
+            "name": "新光人壽家用保障定期保險附約(第8次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(109)保字第208號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:27+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17767",
+      "name": "新光人壽優選亮利外幣變額萬能壽險(第5次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MV1A02023Z11Z90000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MV1A02023Z11Z90000005",
+          "name": "新光人壽優選亮利外幣變額萬能壽險(第5次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1110001194號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:28+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MV1A02023Z11Z90000005",
+            "name": "新光人壽優選亮利外幣變額萬能壽險(第5次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1110001194號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:28+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17768",
+      "name": "新光人壽新定期保險附約(第10次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208191RZ9B00122A11Z10000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208191RZ9B00122A11Z10000010",
+          "name": "新光人壽新定期保險附約(第10次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(105)保字第009號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:30+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208191RZ9B00122A11Z10000010",
+            "name": "新光人壽新定期保險附約(第10次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(105)保字第009號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:30+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17769",
+      "name": "新光人壽新富亮利外幣變額萬能壽險(第4次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MV1A02123B11Z90000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MV1A02123B11Z90000004",
+          "name": "新光人壽新富亮利外幣變額萬能壽險(第4次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1120000007號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:31+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MV1A02123B11Z90000004",
+            "name": "新光人壽新富亮利外幣變額萬能壽險(第4次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1120000007號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:31+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17771",
+      "name": "新光人壽新益亮利外幣變額萬能壽險(第1次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MV1A02323B11Z90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MV1A02323B11Z90000001",
+          "name": "新光人壽新益亮利外幣變額萬能壽險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1140000009號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:33+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MV1A02323B11Z90000001",
+            "name": "新光人壽新益亮利外幣變額萬能壽險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1140000009號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:33+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17773",
+      "name": "新光人壽享加鑫變額年金保險(第2次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208421MV1A00423A11Z90000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208421MV1A00423A11Z90000002",
+          "name": "新光人壽享加鑫變額年金保險(第2次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1130000023號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:34+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208421MV1A00423A11Z90000002",
+            "name": "新光人壽享加鑫變額年金保險(第2次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1130000023號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:34+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17774",
+      "name": "新光人壽真新利外幣變額萬能壽險(第1次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MV1A02523Z11Z90000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MV1A02523Z11Z90000001",
+          "name": "新光人壽真新利外幣變額萬能壽險(第1次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1140001102號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:36+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MV1A02523Z11Z90000001",
+            "name": "新光人壽真新利外幣變額萬能壽險(第1次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1140001102號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:36+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17776",
+      "name": "新光人壽新享愛家終身保險(第3次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MZ9B00223A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MZ9B00223A11Z10000003",
+          "name": "新光人壽新享愛家終身保險(第3次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台新人壽字第1110001564號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:37+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MZ9B00223A11Z10000003",
+            "name": "新光人壽新享愛家終身保險(第3次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台新人壽字第1110001564號依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:37+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "17777",
+      "name": "新光人壽終身壽險(113)(第14次部分變更)",
+      "insurer": "新光人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=208131MZ1A01823A11Z10000014"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "208131MZ1A01823A11Z10000014",
+          "name": "新光人壽終身壽險(113)(第14次部分變更)",
+          "sale": "115/01/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(107)保字第009號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+          "at": "2026-11-26T15:26:38+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "208131MZ1A01823A11Z10000014",
+            "name": "新光人壽終身壽險(113)(第14次部分變更)",
+            "sale": "115/01/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(107)保字第009號(備查)依114.02.13金管保壽字第11404900043號函修正 115.01.01",
+            "at": "2026-11-26T15:26:38+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2026-01-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    }
+  ]
+}
