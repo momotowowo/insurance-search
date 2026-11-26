@@ -1,0 +1,3081 @@
+{
+  "batch_id": "grok-scope2-onsale-live-refresh-batch102-2026-11-26",
+  "author": "Grok",
+  "created_at": "2026-11-26T20:01:49+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "scope": {
+    "description": "範圍2：現售品項以即時保發中心詳細頁覆核",
+    "ids": 60
+  },
+  "gpt_claimed_ids_excluded": true,
+  "integration_status": "待整合",
+  "product_data_changed": false,
+  "method": "以 2026-11-26 即時保發中心詳細頁核對本站連結版本之銷售日、停售日與狀態；一致者為一致性複核，不一致且無官網明文者移交 GPT，不改狀態。未對驗證碼做 OCR、未執行 submit。",
+  "summary": {
+    "已核實": 60,
+    "total": 60,
+    "items_with_proposed_changes": 0
+  },
+  "items": [
+    {
+      "product_id": "00777",
+      "name": "台灣人壽意外傷害保險",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211MZ1AIPA21A11Z10000014"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211MZ1AIPA21A11Z10000014",
+          "name": "台灣人壽意外傷害保險(第14次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台財保第851782265號核准,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:49:53+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211MZ1AIPA21A11Z10000014",
+            "name": "台灣人壽意外傷害保險(第14次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台財保第851782265號核准,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:49:53+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/10137",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00779",
+      "name": "台灣人壽意外傷害保險附約",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ1AADD21A11Z10000019"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ1AADD21A11Z10000019",
+          "name": "台灣人壽意外傷害保險附約(第19次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台財保第81096234號核准,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:49:54+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ1AADD21A11Z10000019",
+            "name": "台灣人壽意外傷害保險附約(第19次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台財保第81096234號核准,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:49:54+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/10172",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00781",
+      "name": "台灣人壽意本正經實支實付型傷害醫療保險附約",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-09",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ1A27A21A11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ1A27A21A11Z10000000",
+          "name": "台灣人壽意本正經實支實付型傷害醫療保險附約",
+          "sale": "113/10/09",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台壽字第1132320119號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:40:00+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ1A27A21A11Z10000000",
+            "name": "台灣人壽意本正經實支實付型傷害醫療保險附約",
+            "sale": "113/10/09",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台壽字第1132320119號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:40:00+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/20532",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-09",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00789",
+      "name": "台灣人壽歲歲平安傷害保險附約",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ1A21521A11Z10000019"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ1A21521A11Z10000019",
+          "name": "台灣人壽歲歲平安傷害保險附約(第19次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "113/06/28",
+          "filing_no": "台財保第872441212號函核准,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:49:55+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ1A21521A11Z10000019",
+            "name": "台灣人壽歲歲平安傷害保險附約(第19次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "113/06/28",
+            "filing_no": "台財保第872441212號函核准,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:49:55+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/10168",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00790",
+      "name": "台灣人壽歲歲平安傷害醫療保險附約",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ1A21621A11Z10000014"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ1A21621A11Z10000014",
+          "name": "台灣人壽歲歲平安傷害醫療保險附約(第14次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台財保第872441255號函核准,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:49:56+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ1A21621A11Z10000014",
+            "name": "台灣人壽歲歲平安傷害醫療保險附約(第14次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台財保第872441255號函核准,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:49:56+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/11627",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00794",
+      "name": "台灣人壽長安傷害保險附約",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ1A21821A11Z10000019"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ1A21821A11Z10000019",
+          "name": "台灣人壽長安傷害保險附約(第19次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "113/06/28",
+          "filing_no": "91大法字第033號函核備,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:49:57+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ1A21821A11Z10000019",
+            "name": "台灣人壽長安傷害保險附約(第19次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "113/06/28",
+            "filing_no": "91大法字第033號函核備,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:49:57+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/10169",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00796",
+      "name": "台灣人壽附加意外傷害（含因病失能）特約",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ9DG1521A11Z10000015"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ9DG1521A11Z10000015",
+          "name": "台灣人壽附加意外傷害(含因病失能)特約(第15次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(67)台財錢字第15909號,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:49:58+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ9DG1521A11Z10000015",
+            "name": "台灣人壽附加意外傷害(含因病失能)特約(第15次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(67)台財錢字第15909號,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:49:58+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/10174",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00835",
+      "name": "台灣人壽美世多美元利率變動型終身壽險",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-11-29",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202131MA1A51A23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202131MA1A51A23B11Z10000000",
+          "name": "台灣人壽美世多美元利率變動型終身壽險",
+          "sale": "113/11/29",
+          "stop": "未停售",
+          "filing_date": "113/11/29",
+          "filing_no": "台壽字第1132320144號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:39:45+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202131MA1A51A23B11Z10000000",
+            "name": "台灣人壽美世多美元利率變動型終身壽險",
+            "sale": "113/11/29",
+            "stop": "未停售",
+            "filing_date": "113/11/29",
+            "filing_no": "台壽字第1132320144號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:39:45+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/20818",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-11-29",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00864",
+      "name": "台灣人壽臻豐盛美元利率變動型終身壽險",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-11-25",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202131MA1A50A23B11Z10000000"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202131MA1A50A23B11Z10000000",
+          "name": "台灣人壽臻豐盛美元利率變動型終身壽險",
+          "sale": "113/11/25",
+          "stop": "未停售",
+          "filing_date": "113/11/25",
+          "filing_no": "台壽字第1132320141號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:39:47+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202131MA1A50A23B11Z10000000",
+            "name": "台灣人壽臻豐盛美元利率變動型終身壽險",
+            "sale": "113/11/25",
+            "stop": "未停售",
+            "filing_date": "113/11/25",
+            "filing_no": "台壽字第1132320141號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:39:47+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/20817",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-11-25",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00894",
+      "name": "台灣人壽年年好鑫2 外幣變額年金保險",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-12-13",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202421MV1A83923B11Z90000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202421MV1A83923B11Z90000006",
+          "name": "台灣人壽年年好鑫2外幣變額年金保險(第6次部分變更)",
+          "sale": "113/12/13",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台壽字第1092330122號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:39:30+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202421MV1A83923B11Z90000006",
+            "name": "台灣人壽年年好鑫2外幣變額年金保險(第6次部分變更)",
+            "sale": "113/12/13",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台壽字第1092330122號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:39:30+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/10859",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-12-13",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00895",
+      "name": "台灣人壽年年好鑫2 變額年金保險",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-12-13",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202421MV1A83823A11Z90000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202421MV1A83823A11Z90000006",
+          "name": "台灣人壽年年好鑫2變額年金保險(第6次部分變更)",
+          "sale": "113/12/13",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台壽字第1092330121號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:39:30+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202421MV1A83823A11Z90000006",
+            "name": "台灣人壽年年好鑫2變額年金保險(第6次部分變更)",
+            "sale": "113/12/13",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台壽字第1092330121號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:39:30+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/10860",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-12-13",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00899",
+      "name": "台灣人壽新鑫樂活外幣變額年金保險",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-12-13",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202421MU1A65523B11C90000008"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202421MU1A65523B11C90000008",
+          "name": "台灣人壽新鑫樂活外幣變額年金保險(第8次部分變更)",
+          "sale": "113/12/13",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "金管保壽字第10704107400號函核准,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:39:31+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202421MU1A65523B11C90000008",
+            "name": "台灣人壽新鑫樂活外幣變額年金保險(第8次部分變更)",
+            "sale": "113/12/13",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "金管保壽字第10704107400號函核准,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:39:31+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/10869",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-12-13",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00900",
+      "name": "台灣人壽新鑫樂活變額年金保險",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-12-13",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202421MU1A65423A11C90000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202421MU1A65423A11C90000007",
+          "name": "台灣人壽新鑫樂活變額年金保險(第7次部分變更)",
+          "sale": "113/12/13",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "金管保壽字第10704107410號函核准,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:39:32+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202421MU1A65423A11C90000007",
+            "name": "台灣人壽新鑫樂活變額年金保險(第7次部分變更)",
+            "sale": "113/12/13",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "金管保壽字第10704107410號函核准,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:39:32+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/10870",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-12-13",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00901",
+      "name": "台灣人壽臻滿億2 外幣變額年金保險",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-12-13",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202421MV1A97823B11Z90000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202421MV1A97823B11Z90000004",
+          "name": "台灣人壽臻滿億2外幣變額年金保險(第4次部分變更)",
+          "sale": "113/12/13",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台壽字第1112330151號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:39:33+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202421MV1A97823B11Z90000004",
+            "name": "台灣人壽臻滿億2外幣變額年金保險(第4次部分變更)",
+            "sale": "113/12/13",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台壽字第1112330151號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:39:33+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15277",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-12-13",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00902",
+      "name": "台灣人壽臻滿億2 外幣變額萬能壽險",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-12-13",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202131MV1A98423B11Z90000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202131MV1A98423B11Z90000003",
+          "name": "台灣人壽臻滿億2外幣變額萬能壽險(第3次部分變更)",
+          "sale": "113/12/13",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台壽字第1122330030號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:39:34+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202131MV1A98423B11Z90000003",
+            "name": "台灣人壽臻滿億2外幣變額萬能壽險(第3次部分變更)",
+            "sale": "113/12/13",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台壽字第1122330030號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:39:34+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15594",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-12-13",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00903",
+      "name": "台灣人壽臻滿億2 變額年金保險",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-12-13",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202421MV1A97723A11Z90000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202421MV1A97723A11Z90000003",
+          "name": "台灣人壽臻滿億2變額年金保險(第3次部分變更)",
+          "sale": "113/12/13",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台壽字第1112330150號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:39:35+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202421MV1A97723A11Z90000003",
+            "name": "台灣人壽臻滿億2變額年金保險(第3次部分變更)",
+            "sale": "113/12/13",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台壽字第1112330150號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:39:35+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15276",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-12-13",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "00904",
+      "name": "台灣人壽臻滿億2 變額萬能壽險",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-12-13",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202131MV1A98323A11Z90000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202131MV1A98323A11Z90000003",
+          "name": "台灣人壽臻滿億2變額萬能壽險(第3次部分變更)",
+          "sale": "113/12/13",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台壽字第1122330029號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:39:36+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202131MV1A98323A11Z90000003",
+            "name": "台灣人壽臻滿億2變額萬能壽險(第3次部分變更)",
+            "sale": "113/12/13",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台壽字第1122330029號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:39:36+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15595",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-12-13",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05922",
+      "name": "台灣人壽一年期二至十一級失能健康保險附約（第15次部分變更）",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202391RZ9DGE021A11Z10000015"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202391RZ9DGE021A11Z10000015",
+          "name": "台灣人壽一年期二至十一級失能健康保險附約（第15次部分變更）",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(88)台壽企字第2528號備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:40:27+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202391RZ9DGE021A11Z10000015",
+            "name": "台灣人壽一年期二至十一級失能健康保險附約（第15次部分變更）",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(88)台壽企字第2528號備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:40:27+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/10153",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05923",
+      "name": "台灣人壽一年期癌症健康保險附約(第12次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202321RZ1AYCA21A11Z10000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202321RZ1AYCA21A11Z10000012",
+          "name": "台灣人壽一年期癌症健康保險附約(第12次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "宏總字第99518號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:40:36+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202321RZ1AYCA21A11Z10000012",
+            "name": "台灣人壽一年期癌症健康保險附約(第12次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "宏總字第99518號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:40:36+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15606",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05925",
+      "name": "台灣人壽愛無慮B型一年定期癌症健康保險附約(第3次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202321RZ1A90121A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202321RZ1A90121A11Z10000003",
+          "name": "台灣人壽愛無慮B型一年定期癌症健康保險附約(第3次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台壽字第1102320145號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:50:16+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202321RZ1A90121A11Z10000003",
+            "name": "台灣人壽愛無慮B型一年定期癌症健康保險附約(第3次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台壽字第1102320145號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:50:16+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/11377",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05926",
+      "name": "台灣人壽永健住院醫療健康保險附約(第14次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202311RZ1AAC021A11Z10000014"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202311RZ1AAC021A11Z10000014",
+          "name": "台灣人壽永健住院醫療健康保險附約(第14次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(93)台財保字第0930750704號核准,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:49:45+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202311RZ1AAC021A11Z10000014",
+            "name": "台灣人壽永健住院醫療健康保險附約(第14次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(93)台財保字第0930750704號核准,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:49:45+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15628",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05927",
+      "name": "台灣人壽一年期特定傷病健康保險附約(第10次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202391RZ1AYDB21A11Z10000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202391RZ1AYDB21A11Z10000010",
+          "name": "台灣人壽一年期特定傷病健康保險附約(第10次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "宏總字第101037號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:40:35+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202391RZ1AYDB21A11Z10000010",
+            "name": "台灣人壽一年期特定傷病健康保險附約(第10次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "宏總字第101037號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:40:35+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15607",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05928",
+      "name": "台灣人壽愛無慮A型一年定期癌症健康保險附約(第3次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202321RZ1A90021A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202321RZ1A90021A11Z10000003",
+          "name": "台灣人壽愛無慮A型一年定期癌症健康保險附約(第3次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "113/06/28",
+          "filing_no": "台壽字第1102320144號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:50:17+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202321RZ1A90021A11Z10000003",
+            "name": "台灣人壽愛無慮A型一年定期癌症健康保險附約(第3次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "113/06/28",
+            "filing_no": "台壽字第1102320144號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:50:17+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/11376",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05930",
+      "name": "台灣人壽意外傷害保險附加特約(第13次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ1AG2021A11Z10000013"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ1AG2021A11Z10000013",
+          "name": "台灣人壽意外傷害保險附加特約(第13次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(73)台財融第20600號,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:50:18+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ1AG2021A11Z10000013",
+            "name": "台灣人壽意外傷害保險附加特約(第13次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(73)台財融第20600號,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:50:18+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/10147",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05931",
+      "name": "台灣人壽一年期帳戶型癌症健康保險附約(第13次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202321RZ1AYCB21A11Z10000013"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202321RZ1AYCB21A11Z10000013",
+          "name": "台灣人壽一年期帳戶型癌症健康保險附約(第13次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "宏總字第99519號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:40:32+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202321RZ1AYCB21A11Z10000013",
+            "name": "台灣人壽一年期帳戶型癌症健康保險附約(第13次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "宏總字第99519號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:40:32+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15652",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05932",
+      "name": "台灣人壽真勇健醫療健康保險附約A型(0501)(第12次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202311RZ1AAY021A11Z10000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202311RZ1AAY021A11Z10000012",
+          "name": "台灣人壽真勇健醫療健康保險附約A型(0501)(第12次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(98)台壽數字第00184號備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:49:47+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202311RZ1AAY021A11Z10000012",
+            "name": "台灣人壽真勇健醫療健康保險附約A型(0501)(第12次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(98)台壽數字第00184號備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:49:47+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15627",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05933",
+      "name": "台灣人壽一年期帳戶型特定傷病健康保險附約(第10次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202391RZ1AYDA21A11Z90000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202391RZ1AYDA21A11Z90000010",
+          "name": "台灣人壽一年期帳戶型特定傷病健康保險附約(第10次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "宏總字第100217號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:40:31+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202391RZ1AYDA21A11Z90000010",
+            "name": "台灣人壽一年期帳戶型特定傷病健康保險附約(第10次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "宏總字第100217號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:40:31+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15653",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05934",
+      "name": "台灣人壽珍愛守護防癌終身健康保險附約(第6次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202321RZ1A71623A11Z10000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202321RZ1A71623A11Z10000006",
+          "name": "台灣人壽珍愛守護防癌終身健康保險附約(第6次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "113/11/12,114/02/13",
+          "filing_no": "台壽字第1082320004號函備查,金管保壽字第11404900043號函,金管保壽字第1130432500號函修正",
+          "at": "2026-11-26T19:49:47+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202321RZ1A71623A11Z10000006",
+            "name": "台灣人壽珍愛守護防癌終身健康保險附約(第6次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "113/11/12,114/02/13",
+            "filing_no": "台壽字第1082320004號函備查,金管保壽字第11404900043號函,金管保壽字第1130432500號函修正",
+            "at": "2026-11-26T19:49:47+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/10149",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05936",
+      "name": "台灣人壽新傷害醫療保險金日額附約(第11次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ1ABJ021A11Z10000011"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ1ABJ021A11Z10000011",
+          "name": "台灣人壽新傷害醫療保險金日額附約(第11次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台壽數二字第1030000032號備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:50:19+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ1ABJ021A11Z10000011",
+            "name": "台灣人壽新傷害醫療保險金日額附約(第11次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台壽數二字第1030000032號備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:50:19+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/11633",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05937",
+      "name": "台灣人壽一年定期防癌健康保險附約(第6次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202321RZ1A63521A11Z10000006"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202321RZ1A63521A11Z10000006",
+          "name": "台灣人壽一年定期防癌健康保險附約(第6次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台壽字第1062321119號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:50:20+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202321RZ1A63521A11Z10000006",
+            "name": "台灣人壽一年定期防癌健康保險附約(第6次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台壽字第1062321119號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:50:20+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15633",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05938",
+      "name": "台灣人壽真勇健醫療健康保險附約B型(0501)(第12次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202311RZ1AAZ021A11Z10000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202311RZ1AAZ021A11Z10000012",
+          "name": "台灣人壽真勇健醫療健康保險附約B型(0501)(第12次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(98)台壽數字第00185號備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:49:48+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202311RZ1AAZ021A11Z10000012",
+            "name": "台灣人壽真勇健醫療健康保險附約B型(0501)(第12次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(98)台壽數字第00185號備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:49:48+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15626",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05939",
+      "name": "台灣人壽一年期一至六級失能扶助金健康保險附約(第10次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202391RZ1AYOA21A11Z10000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202391RZ1AYOA21A11Z10000010",
+          "name": "台灣人壽一年期一至六級失能扶助金健康保險附約(第10次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "宏總字第101288號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:40:26+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202391RZ1AYOA21A11Z10000010",
+            "name": "台灣人壽一年期一至六級失能扶助金健康保險附約(第10次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "宏總字第101288號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:40:26+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15608",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05940",
+      "name": "台灣人壽安心首護一年期帳戶型癌症健康保險附約(108)(第10次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202321RZ1A41621A11Z10000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202321RZ1A41621A11Z10000010",
+          "name": "台灣人壽安心首護一年期帳戶型癌症健康保險附約(108)(第10次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "102中信壽商發二字第047號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:40:39+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202321RZ1A41621A11Z10000010",
+            "name": "台灣人壽安心首護一年期帳戶型癌症健康保險附約(108)(第10次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "102中信壽商發二字第047號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:40:39+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15650",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05942",
+      "name": "台灣人壽傷害醫療保險金日額附約(第13次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ1AAU021A11Z10000013"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ1AAU021A11Z10000013",
+          "name": "台灣人壽傷害醫療保險金日額附約(第13次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(94)台壽數理字第00101號備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:50:21+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ1AAU021A11Z10000013",
+            "name": "台灣人壽傷害醫療保險金日額附約(第13次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(94)台壽數理字第00101號備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:50:21+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/11637",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05943",
+      "name": "台灣人壽一年期防癌健康保險(第11次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202321MZ1A62621A11Z10000011"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202321MZ1A62621A11Z10000011",
+          "name": "台灣人壽一年期防癌健康保險(第11次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(88)台財保第881846632號,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:50:21+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202321MZ1A62621A11Z10000011",
+            "name": "台灣人壽一年期防癌健康保險(第11次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(88)台財保第881846632號,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:50:21+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15621",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05944",
+      "name": "台灣人壽住院醫療日額給付健康保險附約(第14次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202311RZ1AG6121A11Z10000014"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202311RZ1AG6121A11Z10000014",
+          "name": "台灣人壽住院醫療日額給付健康保險附約(第14次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台財保字第820258940號奉准,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:40:38+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202311RZ1AG6121A11Z10000014",
+            "name": "台灣人壽住院醫療日額給付健康保險附約(第14次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台財保字第820258940號奉准,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:40:38+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15617",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05945",
+      "name": "台灣人壽一年期帳戶型一至六級失能扶助金健康保險附約(第10次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202391RZ1AYOB21A11Z10000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202391RZ1AYOB21A11Z10000010",
+          "name": "台灣人壽一年期帳戶型一至六級失能扶助金健康保險附約(第10次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "宏總字第102351號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:40:29+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202391RZ1AYOB21A11Z10000010",
+            "name": "台灣人壽一年期帳戶型一至六級失能扶助金健康保險附約(第10次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "宏總字第102351號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:40:29+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15654",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05948",
+      "name": "台灣人壽新實支實付傷害醫療保險金附約(第10次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ1ABI021A11Z10000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ1ABI021A11Z10000010",
+          "name": "台灣人壽新實支實付傷害醫療保險金附約(第10次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台壽數二字第1030000031號備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:50:22+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ1ABI021A11Z10000010",
+            "name": "台灣人壽新實支實付傷害醫療保險金附約(第10次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台壽數二字第1030000031號備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:50:22+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/11632",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05950",
+      "name": "台灣人壽溫心住院醫療健康保險附約(第13次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202311RZ1ABB121A11Z10000013"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202311RZ1ABB121A11Z10000013",
+          "name": "台灣人壽溫心住院醫療健康保險附約(第13次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(99)台壽數字第00015號備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:49:46+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202311RZ1ABB121A11Z10000013",
+            "name": "台灣人壽溫心住院醫療健康保險附約(第13次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(99)台壽數字第00015號備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:49:46+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15625",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05952",
+      "name": "台灣人壽防癌保險(第12次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202321MZ1A68021A11Z10000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202321MZ1A68021A11Z10000012",
+          "name": "台灣人壽防癌保險(第12次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(69)臺財錢第17249號,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:50:23+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202321MZ1A68021A11Z10000012",
+            "name": "台灣人壽防癌保險(第12次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(69)臺財錢第17249號,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:50:23+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/20393",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05954",
+      "name": "台灣人壽Fun心生活骨折傷害保險附約(第5次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202291RZ1A76221A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202291RZ1A76221A11Z10000005",
+          "name": "台灣人壽Fun心生活骨折傷害保險附約(第5次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "113/06/28",
+          "filing_no": "台壽字第1082320109號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:50:24+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202291RZ1A76221A11Z10000005",
+            "name": "台灣人壽Fun心生活骨折傷害保險附約(第5次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "113/06/28",
+            "filing_no": "台壽字第1082320109號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:50:24+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15642",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05955",
+      "name": "台灣人壽附加意外傷害(含因病失能)特約(第15次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ9DG1521A11Z10000015"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ9DG1521A11Z10000015",
+          "name": "台灣人壽附加意外傷害(含因病失能)特約(第15次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(67)台財錢字第15909號,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:49:58+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ9DG1521A11Z10000015",
+            "name": "台灣人壽附加意外傷害(含因病失能)特約(第15次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(67)台財錢字第15909號,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:49:58+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/10174",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05956",
+      "name": "台灣人壽新防癌健康保險(第12次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202321MZ1A68121A11Z10000012"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202321MZ1A68121A11Z10000012",
+          "name": "台灣人壽新防癌健康保險(第12次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(76)台財融第7602085號,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:50:25+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202321MZ1A68121A11Z10000012",
+            "name": "台灣人壽新防癌健康保險(第12次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(76)台財融第7602085號,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:50:25+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/20392",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05957",
+      "name": "台灣人壽意外傷害保險(第14次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211MZ1AIPA21A11Z10000014"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211MZ1AIPA21A11Z10000014",
+          "name": "台灣人壽意外傷害保險(第14次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台財保第851782265號核准,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:49:53+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211MZ1AIPA21A11Z10000014",
+            "name": "台灣人壽意外傷害保險(第14次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台財保第851782265號核准,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:49:53+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/10137",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05958",
+      "name": "台灣人壽住院醫療保險附加特約條款(第10次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202311RZ1AG7X21A11Z10000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202311RZ1AG7X21A11Z10000010",
+          "name": "台灣人壽住院醫療保險附加特約條款(第10次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "(71)台財融第24460號,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:40:37+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202311RZ1AG7X21A11Z10000010",
+            "name": "台灣人壽住院醫療保險附加特約條款(第10次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "(71)台財融第24460號,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:40:37+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": null,
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05959",
+      "name": "台灣人壽彩意傷害保險附約(第10次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ1A44821A11Z10000010"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ1A44821A11Z10000010",
+          "name": "台灣人壽彩意傷害保險附約(第10次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "103中信壽商發一字第058號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:49:53+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ1A44821A11Z10000010",
+            "name": "台灣人壽彩意傷害保險附約(第10次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "103中信壽商發一字第058號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:49:53+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/10170",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05960",
+      "name": "台灣人壽龍好意日額型傷害醫療保險附約(第2次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ1A17A21A11Z10000002"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ1A17A21A11Z10000002",
+          "name": "台灣人壽龍好意日額型傷害醫療保險附約(第2次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台壽字第1132320004號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:50:26+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ1A17A21A11Z10000002",
+            "name": "台灣人壽龍好意日額型傷害醫療保險附約(第2次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台壽字第1132320004號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:50:26+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/18641",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05961",
+      "name": "台灣人壽全方位一年定期傷害保險附約(第1次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ1A30A21A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ1A30A21A11Z10000001",
+          "name": "台灣人壽全方位一年定期傷害保險附約(第1次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台壽字第1132320031號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:50:27+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ1A30A21A11Z10000001",
+            "name": "台灣人壽全方位一年定期傷害保險附約(第1次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台壽字第1132320031號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:50:27+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/19235",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05962",
+      "name": "台灣人壽一年期帳戶型傷害醫療保險附約(第7次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ1A50321A11Z10000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ1A50321A11Z10000007",
+          "name": "台灣人壽一年期帳戶型傷害醫療保險附約(第7次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "104中信壽商發二字第073號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:49:50+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ1A50321A11Z10000007",
+            "name": "台灣人壽一年期帳戶型傷害醫療保險附約(第7次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "104中信壽商發二字第073號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:49:50+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/11631",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05963",
+      "name": "台灣人壽一年定期失能健康保險附約(第5次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202391RZ1A58321A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202391RZ1A58321A11Z10000005",
+          "name": "台灣人壽一年定期失能健康保險附約(第5次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台壽字第1052320093號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:40:25+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202391RZ1A58321A11Z10000005",
+            "name": "台灣人壽一年定期失能健康保險附約(第5次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台壽字第1052320093號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:40:25+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15630",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05964",
+      "name": "台灣人壽卡安心一年定期重大傷病健康保險附約(第5次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202391RZ1A63221A11Z10000005"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202391RZ1A63221A11Z10000005",
+          "name": "台灣人壽卡安心一年定期重大傷病健康保險附約(第5次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台壽字第1062321103號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:50:28+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202391RZ1A63221A11Z10000005",
+            "name": "台灣人壽卡安心一年定期重大傷病健康保險附約(第5次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台壽字第1062321103號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:50:28+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15632",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05966",
+      "name": "台灣人壽一年期帳戶型失能健康保險附約(第4次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202391RZ1A65321A11Z10000004"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202391RZ1A65321A11Z10000004",
+          "name": "台灣人壽一年期帳戶型失能健康保險附約(第4次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台壽字第1072330001號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:40:30+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202391RZ1A65321A11Z10000004",
+            "name": "台灣人壽一年期帳戶型失能健康保險附約(第4次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台壽字第1072330001號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:40:30+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15655",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05967",
+      "name": "台灣人壽e樂活一年定期住院日額健康保險(第1次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202311MZ1A18A21A11Z10000001"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202311MZ1A18A21A11Z10000001",
+          "name": "台灣人壽e樂活一年定期住院日額健康保險(第1次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "113/06/28",
+          "filing_no": "台壽字第1132320009號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:50:28+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202311MZ1A18A21A11Z10000001",
+            "name": "台灣人壽e樂活一年定期住院日額健康保險(第1次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "113/06/28",
+            "filing_no": "台壽字第1132320009號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:50:28+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/19234",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05968",
+      "name": "台灣人壽龍易保住院醫療健康保險(第3次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202311MZ1A62822A11Z10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202311MZ1A62822A11Z10000003",
+          "name": "台灣人壽龍易保住院醫療健康保險(第3次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "113/11/12,114/02/13",
+          "filing_no": "台壽字第1062321059號函備查,金管保壽字第11404900043號函,金管保壽字第1130432500號函修正",
+          "at": "2026-11-26T19:50:29+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202311MZ1A62822A11Z10000003",
+            "name": "台灣人壽龍易保住院醫療健康保險(第3次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "113/11/12,114/02/13",
+            "filing_no": "台壽字第1062321059號函備查,金管保壽字第11404900043號函,金管保壽字第1130432500號函修正",
+            "at": "2026-11-26T19:50:29+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15631",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05971",
+      "name": "台灣人壽與糖同行定期健康保險(第3次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202311MZ1A73922A31E10000003"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202311MZ1A73922A31E10000003",
+          "name": "台灣人壽與糖同行定期健康保險(第3次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "113/11/12,114/02/13",
+          "filing_no": "台壽字第1082320031號函備查,金管保壽字第11404900043號函,金管保壽字第1130432500號函修正",
+          "at": "2026-11-26T19:50:30+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202311MZ1A73922A31E10000003",
+            "name": "台灣人壽與糖同行定期健康保險(第3次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "113/11/12,114/02/13",
+            "filing_no": "台壽字第1082320031號函備查,金管保壽字第11404900043號函,金管保壽字第1130432500號函修正",
+            "at": "2026-11-26T19:50:30+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15639",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05978",
+      "name": "台灣人壽一年期新住院日額型健康保險附約(第9次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202311RZ1AYHC21A11Z10000009"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202311RZ1AYHC21A11Z10000009",
+          "name": "台灣人壽一年期新住院日額型健康保險附約(第9次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "宏總字第102433號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:40:35+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202311RZ1AYHC21A11Z10000009",
+            "name": "台灣人壽一年期新住院日額型健康保險附約(第9次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "宏總字第102433號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:40:35+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15610",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05980",
+      "name": "台灣人壽一年期住院醫療日額健康保險附約(新)(第11次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202311RZ1AYHB21A11Z10000011"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202311RZ1AYHB21A11Z10000011",
+          "name": "台灣人壽一年期住院醫療日額健康保險附約(新)(第11次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "宏總字第100147號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:40:27+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202311RZ1AYHB21A11Z10000011",
+            "name": "台灣人壽一年期住院醫療日額健康保險附約(新)(第11次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "宏總字第100147號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:40:27+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/15605",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05981",
+      "name": "台灣人壽新長安傷害保險附約(第16次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ1AAE021A11Z10000016"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ1AAE021A11Z10000016",
+          "name": "台灣人壽新長安傷害保險附約(第16次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "113/06/28",
+          "filing_no": "(93)台壽數理字第0028號,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:50:31+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ1AAE021A11Z10000016",
+            "name": "台灣人壽新長安傷害保險附約(第16次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "113/06/28",
+            "filing_no": "(93)台壽數理字第0028號,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:50:31+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/10158",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05982",
+      "name": "台灣人壽意外傷害保險附約(第19次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ1AADD21A11Z10000019"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ1AADD21A11Z10000019",
+          "name": "台灣人壽意外傷害保險附約(第19次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "114/02/13",
+          "filing_no": "台財保第81096234號核准,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:49:54+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ1AADD21A11Z10000019",
+            "name": "台灣人壽意外傷害保險附約(第19次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "114/02/13",
+            "filing_no": "台財保第81096234號核准,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:49:54+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/10172",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    },
+    {
+      "product_id": "05983",
+      "name": "台灣人壽Fun心生活特定意外身故傷害保險附約(第7次部分變更)",
+      "insurer": "台灣人壽",
+      "site_code": null,
+      "current_site": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=202211RZ1A76321A11Z10000007"
+      },
+      "integration_status": "待整合",
+      "scope": "範圍2：現售品項即時覆核（銷售日／停售日／狀態）",
+      "tii": {
+        "source": "保發中心即時詳細頁（2026-11-26 驗證碼工作階段，GET DetailList.aspx）",
+        "site_linked_version": {
+          "pid": "202211RZ1A76321A11Z10000007",
+          "name": "台灣人壽Fun心生活特定意外身故傷害保險附約(第7次部分變更)",
+          "sale": "113/10/01",
+          "stop": "未停售",
+          "filing_date": "113/06/28",
+          "filing_no": "台壽字第1082320110號函備查,金管保壽字第11404900043號函",
+          "at": "2026-11-26T19:50:32+08:00"
+        },
+        "family_live": [
+          {
+            "pid": "202211RZ1A76321A11Z10000007",
+            "name": "台灣人壽Fun心生活特定意外身故傷害保險附約(第7次部分變更)",
+            "sale": "113/10/01",
+            "stop": "未停售",
+            "filing_date": "113/06/28",
+            "filing_no": "台壽字第1082320110號函備查,金管保壽字第11404900043號函",
+            "at": "2026-11-26T19:50:32+08:00"
+          }
+        ]
+      },
+      "company": {
+        "terms_url": "https://www.taiwanlife.com/portal-api/File/11096",
+        "fetched_at": null,
+        "quoted": null,
+        "note": "一致性複核；官網條款先前已與保發中心比對，本項未重新下載"
+      },
+      "verification_status": "已核實",
+      "changes": [],
+      "proposed": {
+        "status": "現售",
+        "sale_date": "2024-10-01",
+        "stop_date": "未停售"
+      },
+      "date_basis": "保發中心即時詳細頁該版本銷售日、停售日（未停售）與本站現售狀態及銷售日一致，無需更正"
+    }
+  ]
+}
