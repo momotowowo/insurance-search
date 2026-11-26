@@ -1,0 +1,46 @@
+{
+  "author": "Grok",
+  "created_at": "2026-11-26T10:02:29+08:00",
+  "allocation_file": "data/sales-audit/work-allocation-2026-11-26.json",
+  "allocation_commit": "45ad0917f95f88186fccf074f30c87ac5b3cf647",
+  "acknowledgement": "Grok 確認分工：不處理 GPT 認領之 20 個 ID；GPT 檔案不由 Grok 修改（work-allocation 內 grok.acknowledged 仍為 false，請 GPT 視需要更新）。",
+  "catalog_basis": "正式版合併資料：data/products.js + data/riders/product_updates.js 覆蓋，去除名稱含「批註條款」者；共 44,178 筆（停售 40,143／現售 4,015／未標示 20，未標示 20 筆即 GPT 認領 ID）。",
+  "scope": {
+    "1_missing_sale_date_status_set": {
+      "total": 1121,
+      "by_company_status": {
+        "遠雄人壽|停售": 618,
+        "安達國際人壽|停售": 181,
+        "安聯人壽|現售": 128,
+        "安達國際人壽|現售": 112,
+        "遠雄人壽|現售": 37,
+        "國泰人壽|現售": 11,
+        "元大人壽|現售": 10,
+        "富邦人壽|現售": 9,
+        "凱基人壽|現售": 5,
+        "台灣人壽|現售": 5,
+        "南山人壽|現售": 2,
+        "保誠人壽|現售": 1,
+        "法國巴黎人壽|現售": 1,
+        "友邦人壽|現售": 1
+      }
+    },
+    "2_sale_stop_status_recheck": "其餘已標示狀態商品（排除 GPT ID），於 1 完成後分批進行",
+    "3_onsale_main_rider_links": {
+      "onsale_products": 4015,
+      "note": "僅採保發中心「附加保險」明文；分公司分批"
+    }
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "topic": "farglory-onsale-missing-sale-date",
+      "audit": "data/sales-audit/grok-farglory-onsale-missing-sale-date-batch1-2026-11-26.json",
+      "handoff": "data/sales-audit/handoffs/grok-to-gpt/grok-to-gpt-farglory-onsale-missing-sale-date-batch1-2026-11-26.json",
+      "items": 37,
+      "verified": 31,
+      "handed_off": 6,
+      "integration_status": "待整合"
+    }
+  ]
+}
