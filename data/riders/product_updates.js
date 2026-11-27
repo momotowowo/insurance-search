@@ -19273,6 +19273,57 @@ window.INSURANCE_RIDER_PRODUCT_UPDATES= {
       "status_checked_at": "2026-11-27",
       "status_note": "使用者核准標為待開賣（尚未開始銷售，t250s1088）；不填銷售日。",
       "status_source_url": "https://www.fubon.com/life/Investors/public-info/fubon/D3B4A1896E0046EB844E43A98E2FC83B/"
+    },
+    {
+      "name": "安聯人壽扶力優長期照顧終身健康保險",
+      "insurer": "安聯人壽",
+      "original_insurer": "安聯人壽",
+      "current_insurer": "安聯人壽",
+      "sector": "人身保險",
+      "category": "健康險",
+      "status": "待開賣",
+      "source": "官網",
+      "source_name": "安聯人壽資訊公開 4-14 契約條款清單（傳統型主約）",
+      "source_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+      "terms_url": "https://es.allianz.com.tw/customer/companyInfo/publicInfo/open-0414.aspx",
+      "verified_new_release": true,
+      "terms_status": "已核實條款",
+      "filing": "115.11.13安總商字第1151001001號函備查（條款首頁）",
+      "change_type": "新商品（官網資訊公開已上架條款；銷售起日／通路待核對）",
+      "id": "44268",
+      "first_seen_at": "2026-11-23T09:44:20+08:00",
+      "first_seen_source": "discovered",
+      "status_checked_at": "2026-11-27",
+      "status_note": "使用者核准標為待開賣（t251u）；新聞僅寫「推出」，未載銷售起日，故不填銷售日。",
+      "status_source_url": "https://money.udn.com/money/story/5636/9890904"
+    },
+    {
+      "name": "保誠人壽美鑫29 外幣終身壽險(定期給付型)」",
+      "insurer": "保誠人壽",
+      "sector": "人身保險",
+      "category": "壽險",
+      "status": "停售",
+      "terms_url": "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/galleries/pdf/pdd/provision/life/arlplu82.pdf",
+      "source_name": "保誠人壽資訊公開 pdd_info5-1（商品名稱、文號及條款）",
+      "source_url": "https://www.pcalife.com.tw/zh/public-info/",
+      "id": "00159",
+      "source": "官網+保發中心",
+      "sale_date": "2026-01-05",
+      "stop_date": "2026-10-15",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ9B01223B11Z10000000",
+      "original_insurer": "保誠人壽",
+      "current_insurer": "保誠人壽",
+      "first_seen_at": "2026-11-09T08:14:13.106854+08:00",
+      "first_seen_source": "baseline",
+      "insurer_assignment_status": "needs_verification",
+      "insurer_assignment_note": "保誠原始資料，現承保公司待核對（部分契約曾轉凱基）",
+      "insurer_assignment_sources": [
+        "https://www.pcalife.com.tw/content/dam/prudential-aem-lbu/pcalt/zh_TW/public-info/2023q4fs.pdf",
+        "https://www.lia-roc.org.tw/list_article?article_content=140"
+      ],
+      "status_checked_at": "2026-11-27",
+      "status_source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ9B01223B11Z10000000",
+      "status_note": "使用者核准採用保發中心單一證據（t251u）：本站此筆對應 TII 203131MZ9B01223B11Z10000000，即時列表第 174 頁銷售期間 115/01/05–115/10/15。較新版本 203131MZ9B01223B11Z10000001（115/10/16 起未停售）未入庫。"
     }
   ],
   "meta": {
@@ -19333,10 +19384,10 @@ window.INSURANCE_RIDER_PRODUCT_UPDATES= {
         "人身保險": 44196
       },
       "statuses": {
-        "停售": 40143,
-        "現售": 4050,
-        "未標示": 1,
-        "待開賣": 4
+        "停售": 40144,
+        "現售": 4049,
+        "未標示": 0,
+        "待開賣": 5
       },
       "sources": {
         "官網+保發中心": 2300,

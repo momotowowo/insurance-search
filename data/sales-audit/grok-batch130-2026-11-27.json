@@ -1,0 +1,51 @@
+{
+  "batch_id": "grok-batch130-2026-11-27",
+  "author": "Grok",
+  "created_at": "2026-11-27",
+  "authorization": "使用者於 t251u 回覆「好」，核准這兩筆的處理方式。",
+  "scope": "只改 44268、00159。未從 JSON 重建 JS；未執行 tii_session.py。",
+  "items": [
+    {
+      "product_id": "44268",
+      "name": "安聯人壽扶力優長期照顧終身健康保險",
+      "result": "pending_sale",
+      "changed": true,
+      "status": "待開賣",
+      "sale_date": null,
+      "kept_new_listing_fields": [
+        "first_seen_at",
+        "first_seen_source",
+        "verified_new_release",
+        "change_type",
+        "filing"
+      ],
+      "evidence": "經濟日報／現代保險（資料來源：安聯人壽）2026-11-20 新聞點名本商品並寫「推出」，未載即日起或銷售起日。使用者核准標為待開賣、不填銷售日。",
+      "status_source_url": "https://money.udn.com/money/story/5636/9890904"
+    },
+    {
+      "product_id": "00159",
+      "name": "保誠人壽美鑫29 外幣終身壽險(定期給付型)」",
+      "result": "now_discontinued",
+      "changed": true,
+      "status": "停售",
+      "sale_date": "2026-01-05",
+      "stop_date": "2026-10-15",
+      "source": "官網+保發中心",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=203131MZ9B01223B11Z10000000",
+      "evidence": [
+        "使用者核准採用保發中心單一證據（t251u）。",
+        "先前交叉確認（data/sales-audit/grok-conflict-newer-versions-batch126-2026-11-27.json group C；batch 128 曾因使用者當時指示而暫不改）：本站 00159 對應 TII productId 203131MZ9B01223B11Z10000000，即時列表第 174 頁銷售期間 115/01/05–115/10/15。",
+        "較新 TII 版本 203131MZ9B01223B11Z10000001「保誠人壽美鑫29外幣終身壽險(115)(定期給付型)(第1次部份變更)」115/10/16 起未停售，本次未入庫。"
+      ],
+      "earlier_audit": "data/sales-audit/grok-conflict-newer-versions-batch126-2026-11-27.json"
+    }
+  ],
+  "publish": {
+    "files": [
+      "data/riders/product_updates.js",
+      "data/riders/product_updates.json",
+      "index.html"
+    ],
+    "release": "sales-20261127-grok22-44268-00159"
+  }
+}
