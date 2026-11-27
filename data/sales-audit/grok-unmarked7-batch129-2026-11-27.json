@@ -1,0 +1,107 @@
+{
+  "batch_id": "grok-unmarked7-batch129-2026-11-27",
+  "author": "Grok",
+  "created_at": "2026-11-27",
+  "authorization": "使用者於 widget t250s1088 回覆「照上面三點處理」，核准這 7 筆未標示商品的處理方式。",
+  "scope": "只改 00880、00881、00882、44134、44139、44140、44141；未改 44268（扶力優，仍為未標示）與 JS 既有的 00615 overlay。",
+  "method": "只在 overlay 針對性新增這 7 筆；未從 JSON 重建 JS；未執行 tii_session.py。待開賣是新狀態值（資料中原本沒有），index.html 做最小支援：篩選選項、徽章樣式、表頭筆數（有才顯示）。",
+  "ui": {
+    "status_value": "待開賣",
+    "existed_already": false,
+    "minimal_index_html": [
+      "status filter option 待開賣",
+      "statusClass pending-sale",
+      "header pill if count>0"
+    ],
+    "new_listing_zone": "44134/44139/44140/44141 保留 first_seen_source=discovered、verified_new_release 與 first_seen_at，仍會出現在新上架區。"
+  },
+  "meta_note": "overlay 既有 statuses 與合併後實數有落差。本次 未標示 改為本批處理後合併清單的剩餘筆數（JS 1＝44268；JSON 2＝44268+00615），避免在舊 meta 上直接減 7 出現負數。現售 +3、待開賣 +4。00881 來源 官網→工商時報。",
+  "items": [
+    {
+      "product_id": "00881",
+      "name": "台灣人壽一陸發人民幣利率變動型年金保險(OIU)",
+      "result": "now_on_sale",
+      "sale_date": "2015-08-05",
+      "status": "現售",
+      "source": "工商時報",
+      "status_source_url": "https://www.ctee.com.tw/news/20150806700015-439901",
+      "evidence": "使用者核准採用新聞：工商時報 2015-08-06 報導中信 OIU 於 2015-08-05 上架人民幣利變年金（6萬–3億），與本商品投保規定相符；新聞未點名一陸發全名。"
+    },
+    {
+      "product_id": "00880",
+      "name": "台灣人壽一陸旺美元利率變動型年金保險(OIU)",
+      "result": "now_on_sale_no_date",
+      "sale_date": null,
+      "status": "現售",
+      "source": "官網",
+      "evidence": "使用者核准先標現售、不填銷售日、不以文號日充當銷售日。官網傳統型個人險商品條款清單仍列本商品。"
+    },
+    {
+      "product_id": "00882",
+      "name": "台灣人壽好美利美元利率變動型年金保險(OIU)",
+      "result": "now_on_sale_no_date",
+      "sale_date": null,
+      "status": "現售",
+      "source": "官網",
+      "status_source_url": "https://www.taiwanlife.com/product/19/USA4",
+      "evidence": "使用者核准先標現售、不填銷售日。官網商品頁仍在。"
+    },
+    {
+      "product_id": "44134",
+      "name": "安達人壽美利安康美元分紅終身保險",
+      "result": "pending_sale",
+      "status": "待開賣",
+      "sale_date": null,
+      "evidence": "使用者核准標為待開賣（金管會已同意出單但尚未見銷售日起日／開賣新聞；TII 尚未收錄）。"
+    },
+    {
+      "product_id": "44139",
+      "name": "富邦人壽美好年華外幣分紅終身保險",
+      "result": "pending_sale",
+      "status": "待開賣",
+      "sale_date": null,
+      "evidence": "使用者核准標為待開賣（官網已有條款與分紅專區列出，但無銷售日；TII 尚未收錄）。"
+    },
+    {
+      "product_id": "44140",
+      "name": "富邦人壽安鑫平安終身保險",
+      "result": "pending_sale",
+      "status": "待開賣",
+      "sale_date": null,
+      "evidence": "使用者核准標為待開賣（官網已有條款，無銷售日；TII 尚未收錄）。"
+    },
+    {
+      "product_id": "44141",
+      "name": "富邦人壽金享優退外幣分紅終身保險",
+      "result": "pending_sale",
+      "status": "待開賣",
+      "sale_date": null,
+      "evidence": "使用者核准標為待開賣（官網已有條款與分紅專區列出，但無銷售日；TII 尚未收錄）。"
+    }
+  ],
+  "remaining_unmarked_after": {
+    "live_js": [
+      {
+        "product_id": "44268",
+        "name": "安聯人壽扶力優長期照顧終身健康保險",
+        "status": "未標示",
+        "note": "不在本次 7 筆範圍，維持未標示"
+      }
+    ],
+    "json_also": [
+      {
+        "product_id": "00615",
+        "name": "南山人壽御利臻鑫美元養老保險（定期給付型）",
+        "note": "只存在於 JSON 底層未標示；JS overlay 已是現售，線上載入 JS，故線上不算未標示"
+      }
+    ]
+  },
+  "publish": {
+    "files": [
+      "data/riders/product_updates.js",
+      "data/riders/product_updates.json",
+      "index.html"
+    ],
+    "release": "sales-20261127-grok21-unmarked7"
+  }
+}
