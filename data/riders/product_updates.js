@@ -20040,6 +20040,28 @@ window.INSURANCE_RIDER_PRODUCT_UPDATES= {
       "sale_date": "2025-01-01",
       "stop_date": "",
       "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A04823A11Z90000020"
+    },
+    {
+      "name": "快樂保倍美元分紅終身保險",
+      "insurer": "安達國際人壽",
+      "sector": "人身保險",
+      "category": "壽險",
+      "status": "現售",
+      "terms_url": "https://life.chubb.com/tw-zh/products/life/kuai-le-bao-bei-par-life.html",
+      "source_name": "安達國際人壽官網商品／停售商品頁",
+      "source_url": "https://life.chubb.com/tw-zh/products/life.html",
+      "id": "01526",
+      "source": "官網+保發中心",
+      "original_insurer": "安達國際人壽",
+      "current_insurer": "安達國際人壽",
+      "first_seen_at": "2026-11-09T08:14:13.106854+08:00",
+      "first_seen_source": "baseline",
+      "sale_date": "2026-01-01",
+      "stop_date": "",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A01223B11Z10000001",
+      "status_checked_at": "2026-11-27",
+      "status_source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A01223B11Z10000001",
+      "status_note": "使用者 t253u「好」核准採用販售日 2026-01-01。保發中心名稱為「安達人壽快樂保倍美元分紅終身壽險(第1次部分變更)」，官網標題與本站名稱為「快樂保倍美元分紅終身保險」（保險／壽險用字不同）。原始文號安達精字第1140000169號、官網最新日115.01.01等於該版銷售日。狀態維持現售，未改。"
     }
   ],
   "meta": {
@@ -20107,8 +20129,8 @@ window.INSURANCE_RIDER_PRODUCT_UPDATES= {
         "未銷售": 22
       },
       "sources": {
-        "官網+保發中心": 2311,
-        "官網": 439,
+        "官網+保發中心": 2312,
+        "官網": 438,
         "保發中心": 41445,
         "金管會保險局": 1,
         "工商時報": 1
@@ -20354,4 +20376,4 @@ window.INSURANCE_RIDER_PRODUCT_UPDATES= {
       }
     }
   }
-};
+}
