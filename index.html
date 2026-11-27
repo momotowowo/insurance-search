@@ -429,7 +429,7 @@
     function loadScript(src) {
       return new Promise((resolve,reject) => {
         const script=document.createElement('script');
-        const release = 'sales-20261127-grok15-oiu00642';
+        const release = 'sales-20261127-skl-approval';
         script.src=src+(src.includes('?') ? '&' : '?')+'v='+release; script.onload=resolve;
         script.onerror=()=>reject(new Error('資料檔無法開啟，請確認壓縮檔已完整解壓縮。'));
         document.head.appendChild(script);
@@ -451,6 +451,15 @@
       const mergedProducts = new Map(window.INSURANCE_PRODUCTS.map(p => [p.id, p]));
       for (const p of verifiedUpdates.products) mergedProducts.set(p.id, p);
       const meta = verifiedUpdates.meta;
+      await loadScript('data/approved-products.js');
+      for (const p of window.INSURANCE_APPROVED_PRODUCTS) {
+        if ([...mergedProducts.values()].some(existing => existing.id === p.id || existing.name === p.name)) continue;
+        mergedProducts.set(p.id, p);
+        for (const [group, field] of Object.entries({ insurers: 'insurer', sectors: 'sector', statuses: 'status', sources: 'source', categories: 'category' })) {
+          const counts = meta.stats[group];
+          counts[p[field]] = (counts[p[field]] || 0) + 1;
+        }
+      }
       const fields = { insurers: 'insurer', sectors: 'sector', statuses: 'status', sources: 'source', categories: 'category' };
       for (const [id, product] of mergedProducts) {
         if (!/批[註注]條款/.test(product.name.replace(/\s+/g, ''))) continue;
@@ -967,7 +976,8 @@
       const tii = p.tii_url ? ` <a class="sub" href="${escapeAttr(p.tii_url)}" target="_blank" rel="noopener noreferrer">保發中心詳細頁</a>` : "";
       const dm = p.dm_url ? ` <a class="sub" href="${escapeAttr(p.dm_url)}" target="_blank" rel="noopener noreferrer">商品文宣（DM）</a>` : "";
       const termsUrl = officialTermsUrl(p);
-      if (!termsUrl) return `<span class="sub">條款尚未取得</span>` + tii + dm;
+      const approval = p.approval_url ? ` <a class="sub" href="${escapeAttr(p.approval_url)}" target="_blank" rel="noopener noreferrer">保險局核准公告</a>` : "";
+      if (!termsUrl) return `<span class="sub">條款尚未取得</span>` + tii + dm + approval;
       // Cross-site POST in a new tab is often blocked on phones; use a normal link for GET terms.
       if (p.terms_method === "POST" && p.terms_params) {
         return `<button class="ghost" type="button" data-i="${i}">開啟條款</button>` + tii + dm;
