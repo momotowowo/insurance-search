@@ -1,0 +1,143 @@
+{
+  "batch_id": "grok-takeover-farglory-chubb-allianz-batch124-2026-11-27",
+  "author": "Grok",
+  "created_at": "2026-11-27T12:18:37+08:00",
+  "basis": "使用者 2026-11-27 t243u「你先接手」",
+  "product_data_changed": false,
+  "method": "逐筆比對交接項目與目前線上 product_updates 及 Grok 後續已上線批次（批次 13/14/24 等，依即時保發中心＋官網條款核實）；已上線者標記 resolved_by_grok 並附來源批次與 commit；其餘重新檢視既有官方證據，無新證據者維持待補充、原狀態不變",
+  "official_site_access": {
+    "遠雄人壽": "2026-11-27 12:2x 自本機以 curl 下載遠雄官網條款（termsLink.html）與公告頁（Ftp.html）均被官網防火牆拒絕（「違規偵測」頁），無法重新取得官網文件",
+    "note": "遠雄官網「攸關消費大眾權益之重大訊息 5-x 停售商品公告」（Ftp.html?UUID=de3b02bd1974486abd4a6927b10fbab0）列有歷年停售商品與停辦日，可能可補部分停售日，但需以瀏覽器或使用者電腦連線讀取；「5-1 保險商品之文號及日期」僅有備查日期，不得作為銷售日"
+  },
+  "leads_not_used": [
+    {
+      "items": [
+        "26623",
+        "26635",
+        "26648"
+      ],
+      "note": "兆鎮保經（非官方）2026-10-30 公告遠雄 WN1/SP1/SY1 等 115/11/02 起停售，與保發中心停售日 115/11/01 吻合；非公司官網，不據以改狀態"
+    }
+  ],
+  "handoff_files": {
+    "grok-to-gpt-farglory-discontinued-missing-sale-date-batch3-2026-11-26.json": {
+      "resolved": 11,
+      "still_pending": 21
+    },
+    "grok-to-gpt-farglory-discontinued-missing-sale-date-batch4-2026-11-26.json": {
+      "resolved": 10,
+      "still_pending": 10
+    },
+    "grok-to-gpt-farglory-discontinued-missing-sale-date-batch5-2026-11-26.json": {
+      "resolved": 19,
+      "still_pending": 24
+    },
+    "grok-to-gpt-farglory-discontinued-missing-sale-date-batch6-2026-11-26.json": {
+      "resolved": 13,
+      "still_pending": 6
+    },
+    "grok-to-gpt-farglory-discontinued-missing-sale-date-batch7-2026-11-26.json": {
+      "resolved": 36,
+      "still_pending": 17
+    },
+    "grok-to-gpt-farglory-discontinued-no-tii-match-batch19-2026-11-26.json": {
+      "resolved": 0,
+      "still_pending": 55
+    },
+    "grok-to-gpt-farglory-discontinued-no-tii-match-batch20-2026-11-26.json": {
+      "resolved": 0,
+      "still_pending": 55
+    },
+    "grok-to-gpt-farglory-discontinued-no-tii-match-batch21-2026-11-26.json": {
+      "resolved": 0,
+      "still_pending": 55
+    },
+    "grok-to-gpt-farglory-discontinued-no-tii-match-batch22-2026-11-26.json": {
+      "resolved": 0,
+      "still_pending": 55
+    },
+    "grok-to-gpt-farglory-discontinued-no-tii-match-batch23-2026-11-26.json": {
+      "resolved": 0,
+      "still_pending": 56
+    },
+    "grok-to-gpt-farglory-discontinued-status-check-batch2-2026-11-26.json": {
+      "resolved": 3,
+      "still_pending": 2
+    },
+    "grok-to-gpt-farglory-live-reclaim-batch14-2026-11-26.json": {
+      "resolved": 19,
+      "still_pending": 87
+    },
+    "grok-to-gpt-farglory-onsale-missing-sale-date-batch1-2026-11-26.json": {
+      "resolved": 0,
+      "still_pending": 6
+    },
+    "grok-to-gpt-chubb-discontinued-missing-sale-date-batch10-2026-11-26.json": {
+      "resolved": 14,
+      "still_pending": 15
+    },
+    "grok-to-gpt-chubb-discontinued-missing-sale-date-batch11-2026-11-26.json": {
+      "resolved": 35,
+      "still_pending": 9
+    },
+    "grok-to-gpt-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json": {
+      "resolved": 27,
+      "still_pending": 12
+    },
+    "grok-to-gpt-chubb-live-reclaim-batch13-2026-11-26.json": {
+      "resolved": 0,
+      "still_pending": 35
+    },
+    "grok-to-gpt-chubb-onsale-missing-sale-date-batch8-2026-11-26.json": {
+      "resolved": 3,
+      "still_pending": 0
+    },
+    "grok-to-gpt-chubb-onsale-missing-sale-date-batch9-2026-11-26.json": {
+      "resolved": 3,
+      "still_pending": 0
+    },
+    "grok-to-gpt-chubb-onsale-no-saved-pages-batch18-2026-11-26.json": {
+      "resolved": 0,
+      "still_pending": 14
+    },
+    "grok-to-gpt-allianz-onsale-missing-sale-date-batch15-2026-11-26.json": {
+      "resolved": 0,
+      "still_pending": 7
+    },
+    "grok-to-gpt-allianz-onsale-missing-sale-date-batch16-2026-11-26.json": {
+      "resolved": 2,
+      "still_pending": 11
+    }
+  },
+  "release": "sales-20261127-grok18",
+  "status_conflicts_reviewed": {
+    "grok-to-gpt-scope2-onsale-live-refresh-batch56-2026-11-26.json": {
+      "resolved": 0,
+      "still_pending": 6
+    },
+    "grok-to-gpt-scope2-onsale-live-refresh-batch78-2026-11-26.json": {
+      "resolved": 0,
+      "still_pending": 1
+    },
+    "grok-to-gpt-scope2-onsale-live-refresh-batch85-2026-11-26.json": {
+      "resolved": 0,
+      "still_pending": 8
+    },
+    "grok-to-gpt-scope2-onsale-live-refresh-batch96-2026-11-26.json": {
+      "resolved": 0,
+      "still_pending": 6
+    },
+    "grok-to-gpt-scope2-recent-onsale-live-batch38-2026-11-26.json": {
+      "resolved": 0,
+      "still_pending": 4
+    },
+    "grok-to-gpt-scope2-status-conflict-unsold-batch26-2026-11-26.json": {
+      "resolved": 0,
+      "still_pending": 18
+    },
+    "grok-to-gpt-scope2-status-date-recheck-relink-batch25-2026-11-26.json": {
+      "resolved": 0,
+      "still_pending": 7
+    }
+  }
+}

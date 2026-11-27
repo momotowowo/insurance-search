@@ -3,7 +3,7 @@
   "from": "Grok",
   "assigned_to": "GPT",
   "handoff_at": "2026-11-26T10:14:41+08:00",
-  "handoff_status": "pending",
+  "handoff_status": "taken_over_by_grok",
   "note": "Grok 無法以官方明文確認之項目；原銷售狀態保持不變，不得改為未標示。GPT 接手後請另行記錄。",
   "count": 39,
   "records": [
@@ -99,7 +99,13 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "taken_over_by_grok_still_pending",
+      "grok_takeover": {
+        "resolved": false,
+        "result": "重新檢視 2026-11-26 即時保發中心各版本詳細頁與官網條款首部文號：仍無法依「名稱相符＋條款含保發中心原始文號＋條款最新日期等於某版本銷售日」唯一確認同版本（原因同 issue），無新官方證據；不猜日期，原狀態「停售」不變",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01456",
@@ -191,7 +197,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2017-09-25、停售日 2018-08-31",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MV1A02623Z11Z90000008",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01457",
@@ -285,7 +300,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2016-09-06、停售日 2018-08-31",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MV1A02523A11Z90000007",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01463",
@@ -366,7 +390,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2014-01-01、停售日 2014-12-31",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421M31A01604",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01464",
@@ -449,7 +482,13 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "taken_over_by_grok_still_pending",
+      "grok_takeover": {
+        "resolved": false,
+        "result": "重新檢視 2026-11-26 即時保發中心各版本詳細頁與官網條款首部文號：仍無法依「名稱相符＋條款含保發中心原始文號＋條款最新日期等於某版本銷售日」唯一確認同版本（原因同 issue），無新官方證據；不猜日期，原狀態「停售」不變",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01465",
@@ -530,7 +569,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2014-01-01、停售日 2014-12-31",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270141M31A01404",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01471",
@@ -624,7 +672,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2018-01-01、停售日 2018-06-11",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MV1A01023Z11Z90000021",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01472",
@@ -718,7 +775,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2018-01-01、停售日 2018-06-11",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MV1A00923A11Z90000022",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01479",
@@ -812,7 +878,13 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "taken_over_by_grok_still_pending",
+      "grok_takeover": {
+        "resolved": false,
+        "result": "重新檢視 2026-11-26 即時保發中心各版本詳細頁與官網條款首部文號：仍無法依「名稱相符＋條款含保發中心原始文號＋條款最新日期等於某版本銷售日」唯一確認同版本（原因同 issue），無新官方證據；不猜日期，原狀態「停售」不變",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01480",
@@ -906,7 +978,13 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "taken_over_by_grok_still_pending",
+      "grok_takeover": {
+        "resolved": false,
+        "result": "重新檢視 2026-11-26 即時保發中心各版本詳細頁與官網條款首部文號：仍無法依「名稱相符＋條款含保發中心原始文號＋條款最新日期等於某版本銷售日」唯一確認同版本（原因同 issue），無新官方證據；不猜日期，原狀態「停售」不變",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01481",
@@ -1000,7 +1078,13 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "taken_over_by_grok_still_pending",
+      "grok_takeover": {
+        "resolved": false,
+        "result": "重新檢視 2026-11-26 即時保發中心各版本詳細頁與官網條款首部文號：仍無法依「名稱相符＋條款含保發中心原始文號＋條款最新日期等於某版本銷售日」唯一確認同版本（原因同 issue），無新官方證據；不猜日期，原狀態「停售」不變",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01483",
@@ -1070,7 +1154,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2012-06-29、停售日 2013-12-31",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421M31A01104",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01485",
@@ -1162,7 +1255,13 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "taken_over_by_grok_still_pending",
+      "grok_takeover": {
+        "resolved": false,
+        "result": "重新檢視 2026-11-26 即時保發中心各版本詳細頁與官網條款首部文號：仍無法依「名稱相符＋條款含保發中心原始文號＋條款最新日期等於某版本銷售日」唯一確認同版本（原因同 issue），無新官方證據；不猜日期，原狀態「停售」不變",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01486",
@@ -1256,7 +1355,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2019-07-22、停售日 2019-12-31",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MU1A00223Z11Z90000013",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01487",
@@ -1348,7 +1456,13 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "taken_over_by_grok_still_pending",
+      "grok_takeover": {
+        "resolved": false,
+        "result": "重新檢視 2026-11-26 即時保發中心各版本詳細頁與官網條款首部文號：仍無法依「名稱相符＋條款含保發中心原始文號＋條款最新日期等於某版本銷售日」唯一確認同版本（原因同 issue），無新官方證據；不猜日期，原狀態「停售」不變",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01488",
@@ -1440,7 +1554,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2015-01-16、停售日 2015-04-30",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270141M31A01306",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01489",
@@ -1534,7 +1657,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2019-07-22、停售日 2019-12-31",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MU1A00123A11Z90000014",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01490",
@@ -1626,7 +1758,13 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "taken_over_by_grok_still_pending",
+      "grok_takeover": {
+        "resolved": false,
+        "result": "重新檢視 2026-11-26 即時保發中心各版本詳細頁與官網條款首部文號：仍無法依「名稱相符＋條款含保發中心原始文號＋條款最新日期等於某版本銷售日」唯一確認同版本（原因同 issue），無新官方證據；不猜日期，原狀態「停售」不變",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01491",
@@ -1709,7 +1847,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2017-09-25、停售日 2018-08-31",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MV1A04223Z11Z90000006",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01492",
@@ -1759,7 +1906,13 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "taken_over_by_grok_still_pending",
+      "grok_takeover": {
+        "resolved": false,
+        "result": "重新檢視 2026-11-26 即時保發中心各版本詳細頁與官網條款首部文號：仍無法依「名稱相符＋條款含保發中心原始文號＋條款最新日期等於某版本銷售日」唯一確認同版本（原因同 issue），無新官方證據；不猜日期，原狀態「停售」不變",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01493",
@@ -1842,7 +1995,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2017-03-31、停售日 2018-08-31",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MV1A04123A11Z90000006",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01494",
@@ -1903,7 +2065,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2017-03-31、停售日 2018-08-31",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MV1A03623A11Z90000006",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01495",
@@ -1997,7 +2168,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2021-01-01、停售日 2021-12-31",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MV1A02123Z11Z90000017",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01496",
@@ -2091,7 +2271,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2020-09-01、停售日 2021-12-31",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MV1A02923A11Z90000014",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01497",
@@ -2185,7 +2374,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2021-01-01、停售日 2021-12-31",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MV1A02023A11Z90000018",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01498",
@@ -2235,7 +2433,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2025-01-01、停售日 2026-05-31",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A09423Z11Z90000005",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01499",
@@ -2285,7 +2492,13 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "taken_over_by_grok_still_pending",
+      "grok_takeover": {
+        "resolved": false,
+        "result": "重新檢視 2026-11-26 即時保發中心各版本詳細頁與官網條款首部文號：仍無法依「名稱相符＋條款含保發中心原始文號＋條款最新日期等於某版本銷售日」唯一確認同版本（原因同 issue），無新官方證據；不猜日期，原狀態「停售」不變",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01500",
@@ -2346,7 +2559,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2025-01-01、停售日 2026-05-31",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A09323A11Z90000005",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01501",
@@ -2394,7 +2616,13 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "taken_over_by_grok_still_pending",
+      "grok_takeover": {
+        "resolved": false,
+        "result": "重新檢視 2026-11-26 即時保發中心各版本詳細頁與官網條款首部文號：仍無法依「名稱相符＋條款含保發中心原始文號＋條款最新日期等於某版本銷售日」唯一確認同版本（原因同 issue），無新官方證據；不猜日期，原狀態「停售」不變",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01502",
@@ -2488,7 +2716,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2020-09-01、停售日 2021-12-31",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MV1A01923Z11Z90000017",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01503",
@@ -2558,7 +2795,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2012-03-01、停售日 2012-05-27",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421M31A01803",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01504",
@@ -2619,7 +2865,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2025-01-01、停售日 2025-06-30",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A01023Z11Z90000030",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01505",
@@ -2680,7 +2935,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2025-01-01、停售日 2025-06-30",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A00923A11Z90000032",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01506",
@@ -2730,7 +2994,13 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "taken_over_by_grok_still_pending",
+      "grok_takeover": {
+        "resolved": false,
+        "result": "重新檢視 2026-11-26 即時保發中心各版本詳細頁與官網條款首部文號：仍無法依「名稱相符＋條款含保發中心原始文號＋條款最新日期等於某版本銷售日」唯一確認同版本（原因同 issue），無新官方證據；不猜日期，原狀態「停售」不變",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01507",
@@ -2824,7 +3094,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2022-01-01、停售日 2022-09-30",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MV1A03623Z11Z90000017",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01508",
@@ -2916,7 +3195,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2022-01-01、停售日 2022-09-30",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MV1A03123Z11Z90000018",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01509",
@@ -3010,7 +3298,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2022-01-01、停售日 2022-09-30",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270421MV1A03523A11Z90000017",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01510",
@@ -3104,7 +3401,16 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2022-01-01、停售日 2022-09-30",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MV1A03023A11Z90000018",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     },
     {
       "product_id": "01511",
@@ -3185,7 +3491,25 @@
       "source_audit_file": "data/sales-audit/grok-chubb-discontinued-missing-sale-date-batch12-2026-11-26.json",
       "handoff_at": "2026-11-26T10:14:41+08:00",
       "assigned_to": "GPT",
-      "handoff_status": "pending"
+      "handoff_status": "resolved_by_grok",
+      "grok_takeover": {
+        "resolved": true,
+        "result": "已由 Grok 後續批次以即時保發中心＋官網條款核實並上線；目前線上 product_updates：狀態 停售、銷售日 2015-01-16、停售日 2015-04-30",
+        "verified_in": "grok-chubb-live-reclaim-batch13-2026-11-26.json",
+        "commit": "051026cbd12be91798af85ca64b8ddbf55d558ee",
+        "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270141M31A02204",
+        "checked_at": "2026-11-27T12:18:37+08:00",
+        "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json"
+      }
     }
-  ]
+  ],
+  "resolved_by_grok": {
+    "at": "2026-11-27T12:18:37+08:00",
+    "basis": "依使用者 2026-11-27 t243u「你先接手」授權，Grok 接手 GPT 待辦",
+    "audit_file": "data/sales-audit/grok-takeover-farglory-chubb-allianz-batch124-2026-11-27.json",
+    "commit": "見 audit_file（release sales-20261127-grok18）",
+    "resolved": 27,
+    "still_pending": 12,
+    "note": "Grok 已接手本檔全部項目；仍待補充者原狀態不變（不改為未標示），理由見各項 grok_takeover.result"
+  }
 }
