@@ -1,0 +1,650 @@
+{
+  "batch_id": "grok-batch131-tii-live-2026-11-27",
+  "author": "Grok",
+  "created_at": "2026-11-27T22:05:48+08:00",
+  "timezone": "Asia/Taipei",
+  "product_data_changed": true,
+  "commit": null,
+  "authorization": "使用者於 2026-11-27 21:28（台北時間）提供驗證碼開啟保發中心工作階段（t252u）；本次未執行 tii_session.py 空指令、--help、submit 或 unlock，未覆寫 cookies.pkl 或既有 tii/details 快取。",
+  "tii_session": {
+    "unlocked_at": "2026-11-27T21:28:57+08:00",
+    "unlock_last_submit_total_life_only": 66143,
+    "note": "unlock 後的 last_submit.html 是人身保險 66,143 筆、每頁10筆、第1頁為中央人壽。其後對 ResultQueryAll.aspx（含 ?page= 與 ?fQueryAll= / ?CompanyID=）做 GET，結果變成預設 196,126 筆（第1頁為安達產物／臺灣產物），壽險篩選狀態流失。之後改以 GET DetailList.aspx?productId= 取即時明細，有效。部分列表頁 GET 曾 60 秒逾時，明細在 22:01 仍可用。",
+    "detail_saved_under": "/workspace/tii_live_2128/details/",
+    "did_not_overwrite": "/workspace/insurance-search/tii/details/"
+  },
+  "scope": {
+    "review_queue": "/workspace/site_preview/data/sales-audit/grok-review-queue-batch129-2026-11-27.json",
+    "pending_anda_unique_ids": 50,
+    "pending_source_handoffs": [
+      "grok-to-gpt-chubb-discontinued-missing-sale-date-batch10/11/12",
+      "grok-to-gpt-chubb-live-reclaim-batch13",
+      "grok-to-gpt-chubb-onsale-no-saved-pages-batch18"
+    ],
+    "also": "skl-approval-1150436751 新光安心在宅"
+  },
+  "match_rule": "名稱相符（以官網條款／商品頁標題與保發中心商品名比對）＋官網條款含保發中心原始文號＋官網條款最新日期等於該版本保發中心銷售日。核准／備查日本身不當作販售日。不猜測。",
+  "summary": {
+    "verified_sale_dates": 11,
+    "partial_name_variant": 1,
+    "unresolved_priority": 6,
+    "remaining_discontinued_not_reprobed": 33,
+    "total_targets": 51
+  },
+  "verified_sale_dates": [
+    {
+      "id": "01632",
+      "name": "金得益美元變額年金保險",
+      "site_status": "現售",
+      "sale_date": "2026-07-15",
+      "sale_date_roc": "115/07/15",
+      "stop_date": null,
+      "tii_stop": "未停售",
+      "tii_productId": "256421MV1A10223Z11Z90000007",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A10223Z11Z90000007",
+      "tii_name": "安達人壽金得益美元變額年金保險(第7次部分變更)",
+      "match_basis": {
+        "name": "官網標題與保發中心名稱皆為「金得益美元變額年金保險」（第7次部分變更為該版標示）",
+        "original_filing_in_official_terms": "中華民國112.10.11安達精字第1120000198號函備查（官網商品文號與保發中心文號皆有）",
+        "newest_official_terms_date": "115.07.15",
+        "newest_official_filing": "安達精字第1150000070號函備查",
+        "tii_sale_date_equals_newest_official_terms_date": true,
+        "tii_filing_no": "安達精字第1120000198號函備查,安達精字第1150000070號函備查",
+        "unique": true,
+        "official_terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/jin-de-yi-foreign-currency-va.html",
+        "note": "先前快取最末版為第6次（銷售114/12/31、停售115/07/14），缺少銷售日=官網最新日115/07/15的版本；本次即時明細補到第7次且未停售。"
+      }
+    },
+    {
+      "id": "01633",
+      "name": "金得益變額年金保險",
+      "site_status": "現售",
+      "sale_date": "2026-07-15",
+      "sale_date_roc": "115/07/15",
+      "stop_date": null,
+      "tii_stop": "未停售",
+      "tii_productId": "256421MV1A10123A11Z90000007",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A10123A11Z90000007",
+      "tii_name": "安達人壽金得益變額年金保險(第7次部分變更)",
+      "match_basis": {
+        "name": "官網標題與保發中心名稱皆為「金得益變額年金保險」",
+        "original_filing_in_official_terms": "中華民國112.10.11安達精字第1120000197號函備查",
+        "newest_official_terms_date": "115.07.15",
+        "newest_official_filing": "安達精字第1150000072號函備查",
+        "tii_sale_date_equals_newest_official_terms_date": true,
+        "tii_filing_no": "安達精字第1120000197號函備查,安達精字第1150000072號函備查",
+        "unique": true,
+        "official_terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/jin-de-yi-va.html",
+        "note": "先前快取最末版為第6次（停售115/07/14）；本次即時明細補到第7次未停售。"
+      }
+    },
+    {
+      "id": "01624",
+      "name": "智富贏家外幣變額年金保險",
+      "site_status": "現售",
+      "sale_date": "2026-07-15",
+      "sale_date_roc": "115/07/15",
+      "stop_date": null,
+      "tii_stop": "未停售",
+      "tii_productId": "256421MV1A10823Z11Z90000002",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A10823Z11Z90000002",
+      "tii_name": "安達人壽智富贏家外幣變額年金保險(第2次部分變更)",
+      "match_basis": {
+        "name": "官網標題與保發中心名稱皆為「智富贏家外幣變額年金保險」",
+        "original_filing_in_official_terms": "中華民國114.10.17安達精字第1140000185號函備查",
+        "newest_official_terms_date": "115.07.15",
+        "newest_official_filing": "安達精字第1150000078號函備查",
+        "tii_sale_date_equals_newest_official_terms_date": true,
+        "tii_filing_no": "安達精字第1140000185號函備查,安達精字第1150000078號函備查",
+        "unique": true,
+        "official_terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/zhi-fu-ying-jia-foreign-currency-va.html",
+        "note": "先前快取最末版為第1次（銷售114/12/31、停售115/07/14）。"
+      }
+    },
+    {
+      "id": "01625",
+      "name": "智富贏家變額年金保險",
+      "site_status": "現售",
+      "sale_date": "2026-07-15",
+      "sale_date_roc": "115/07/15",
+      "stop_date": null,
+      "tii_stop": "未停售",
+      "tii_productId": "256421MV1A10723A11Z90000002",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A10723A11Z90000002",
+      "tii_name": "安達人壽智富贏家變額年金保險(第2次部分變更)",
+      "match_basis": {
+        "name": "官網標題與保發中心名稱皆為「智富贏家變額年金保險」",
+        "original_filing_in_official_terms": "中華民國114.10.17安達精字第1140000184號函備查",
+        "newest_official_terms_date": "115.07.15",
+        "newest_official_filing": "安達精字第1150000080號函備查",
+        "tii_sale_date_equals_newest_official_terms_date": true,
+        "tii_filing_no": "安達精字第1140000184號函備查,安達精字第1150000080號函備查",
+        "unique": true,
+        "official_terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/zhi-fu-ying-jia-va.html",
+        "note": "先前快取最末版為第1次（停售115/07/14）。"
+      }
+    },
+    {
+      "id": "01601",
+      "name": "富貴大贏家外幣變額年金保險",
+      "site_status": "現售",
+      "sale_date": "2026-07-15",
+      "sale_date_roc": "115/07/15",
+      "stop_date": null,
+      "tii_stop": "未停售",
+      "tii_productId": "256421MV1A10423Z11Z90000005",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A10423Z11Z90000005",
+      "tii_name": "安達人壽富貴大贏家外幣變額年金保險(第5次部分變更)",
+      "match_basis": {
+        "name": "官網標題與保發中心名稱皆為「富貴大贏家外幣變額年金保險」",
+        "original_filing_in_official_terms": "中華民國113.07.26安達精字第1130000091號函備查",
+        "newest_official_terms_date": "115.07.15",
+        "newest_official_filing": "安達精字第1150000074號函備查",
+        "tii_sale_date_equals_newest_official_terms_date": true,
+        "tii_filing_no": "安達精字第1130000091號函備查,安達精字第1150000074號函備查",
+        "unique": true,
+        "official_terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/fu-qui-da-ying-jia-foreign-currency-va.html",
+        "note": "先前快取最末版為第4次（停售115/07/14）。官網現售頁商品文號已含115.07.15安達精字第1150000074號。"
+      }
+    },
+    {
+      "id": "01627",
+      "name": "穩富贏家變額年金保險",
+      "site_status": "現售",
+      "sale_date": "2026-07-15",
+      "sale_date_roc": "115/07/15",
+      "stop_date": null,
+      "tii_stop": "未停售",
+      "tii_productId": "256421MV1A10923A11Z90000001",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A10923A11Z90000001",
+      "tii_name": "安達人壽穩富贏家變額年金保險(第1次部分變更)",
+      "match_basis": {
+        "name": "官網標題與保發中心名稱皆為「穩富贏家變額年金保險」",
+        "original_filing_in_official_terms": "中華民國115.01.09安達精字第1150000009號函備查",
+        "newest_official_terms_date": "115.07.15",
+        "newest_official_filing": "安達精字第1150000116號函備查",
+        "tii_sale_date_equals_newest_official_terms_date": true,
+        "tii_filing_no": "安達精字第1150000009號函備查,安達精字第1150000116號函備查",
+        "unique": true,
+        "official_terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/wun-fu-ying-jia-va.html",
+        "note": "先前僅第0版（銷售115/01/09、停售115/07/14），與本站「現售」衝突故未改狀態。本次即時明細有第1次部分變更、115/07/15起未停售，與官網最新文號日相符。舊版停售日仍為115/07/14。"
+      }
+    },
+    {
+      "id": "01527",
+      "name": "星利保倍美元分紅終身保險",
+      "site_status": "現售",
+      "sale_date": "2026-01-01",
+      "sale_date_roc": "115/01/01",
+      "stop_date": null,
+      "tii_stop": "未停售",
+      "tii_productId": "256121MZ1A01423B11Z10000001",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A01423B11Z10000001",
+      "tii_name": "安達人壽星利保倍美元分紅終身壽險(第1次部分變更)",
+      "match_basis": {
+        "name": "官網標題與保發中心皆為「星利保倍美元分紅終身壽險」；本站商品名作「…終身保險」（少「壽」字）。比對以官網條款頁標題為準，與保發中心一致。",
+        "original_filing_in_official_terms": "中華民國114.09.30安達精字第1140000182號函備查",
+        "newest_official_terms_date": "115.01.01",
+        "newest_official_filing": "依金融監督管理委員會114.12.17金管保壽字第11404321761號令修正",
+        "tii_sale_date_equals_newest_official_terms_date": true,
+        "tii_filing_no": "安達精字第1140000182號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+        "unique": true,
+        "official_terms_url": "https://life.chubb.com/tw-zh/products/life/xing-li-bao-bei-par-life.html",
+        "note": "先前以本站全名「終身保險」即時搜尋找不到同名系列。原始版256121MZ1A01423B11Z10000000銷售114/09/30–114/12/31。"
+      }
+    },
+    {
+      "id": "01529",
+      "name": "築夢未來定期壽險",
+      "site_status": "現售",
+      "sale_date": "2025-01-01",
+      "sale_date_roc": "114/01/01",
+      "stop_date": null,
+      "tii_stop": "未停售",
+      "tii_productId": "256131MZ5G00822A11Z10000004",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MZ5G00822A11Z10000004",
+      "tii_name": "安達人壽築夢未來定期保險(第4次部分變更)",
+      "match_basis": {
+        "name": "官網標題與保發中心皆為「築夢未來定期保險」；本站商品名作「築夢未來定期壽險」。比對以官網條款頁標題為準，與保發中心一致。",
+        "original_filing_in_official_terms": "中華民國110.07.01安達精字第1100178號函備查（原始版270131MZ5G00822A11Z10000000亦為此一文號，銷售110/07/01–111/11/30）",
+        "newest_official_terms_date": "114.01.01",
+        "newest_official_filing": "依金融監督管理委員會113.09.23金管保壽字第1130427324號函修正",
+        "tii_sale_date_equals_newest_official_terms_date": true,
+        "tii_filing_no": "安達精字第1100178號函備查,114.02.13金管保壽字第11404900041號函修正",
+        "unique": true,
+        "official_terms_url": "https://life.chubb.com/tw-zh/products/life/chu-meng-wei-lai.html",
+        "note": "保發中心該版文號列11404900041令修正，未列出官網的1130427324函；仍符合「名稱＋原始文號在官網條款＋官網最新日=保發中心銷售日」且該銷售日僅此一共一版。先前用「定期壽險」搜尋不到同名系列。"
+      }
+    },
+    {
+      "id": "01611",
+      "name": "新戰略贏家外幣變額年金保險",
+      "site_status": "現售",
+      "sale_date": "2025-01-01",
+      "sale_date_roc": "114/01/01",
+      "stop_date": null,
+      "tii_stop": "未停售",
+      "tii_productId": "256421MV1A05223Z11Z90000017",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A05223Z11Z90000017",
+      "tii_name": "安達人壽新戰略贏家外幣變額年金保險(第17次部分變更)",
+      "match_basis": {
+        "name": "官網標題與保發中心名稱皆為「新戰略贏家外幣變額年金保險」",
+        "original_filing_in_official_terms": "中華民國105.05.20中泰精字第1050035號函備查",
+        "newest_official_terms_date": "114.01.01",
+        "newest_official_filing": "依金融監督管理委員會113.08.13金管保壽字第1130424977號函修正",
+        "tii_sale_date_equals_newest_official_terms_date": true,
+        "tii_filing_no": "中泰精字第1050035號函備查,114.02.13金管保壽字第11404900041號令修正",
+        "unique": true,
+        "official_terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/zhan-lue-ying-jia-foreign-currency-va.html",
+        "note": "本次2026-11-27即時官網商品文號最新日為114.01.01（先前批次18曾記為115/07/15，與今日官網不符）。快取life_rows.tsv最末僅到第15次（112/07/01–112/12/31）；即時明細第17次114/01/01起未停售。第16次為113/01/01–113/12/31。"
+      }
+    },
+    {
+      "id": "01612",
+      "name": "新戰略贏家變額年金保險",
+      "site_status": "現售",
+      "sale_date": "2025-01-01",
+      "sale_date_roc": "114/01/01",
+      "stop_date": null,
+      "tii_stop": "未停售",
+      "tii_productId": "256421MV1A05123A11Z90000017",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A05123A11Z90000017",
+      "tii_name": "安達人壽新戰略贏家變額年金保險(第17次部分變更)",
+      "match_basis": {
+        "name": "官網標題與保發中心名稱皆為「新戰略贏家變額年金保險」",
+        "original_filing_in_official_terms": "中華民國105.05.20中泰精字第1050034號函備查",
+        "newest_official_terms_date": "114.01.01",
+        "newest_official_filing": "依金融監督管理委員會113.08.13金管保壽字第1130424977號函修正",
+        "tii_sale_date_equals_newest_official_terms_date": true,
+        "tii_filing_no": "中泰精字第1050034號函備查,114.02.13金管保壽字第11404900041號令修正",
+        "unique": true,
+        "official_terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/zhan-lue-ying-jia-va.html",
+        "note": "同01611：今日官網最新日為114.01.01；即時明細第17次114/01/01起未停售（快取曾見第16次113/01/01–113/12/31）。"
+      }
+    },
+    {
+      "id": "01614",
+      "name": "新指標領航變額年金保險",
+      "site_status": "現售",
+      "sale_date": "2025-01-01",
+      "sale_date_roc": "114/01/01",
+      "stop_date": null,
+      "tii_stop": "未停售",
+      "tii_productId": "256421MV1A04823A11Z90000020",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A04823A11Z90000020",
+      "tii_name": "安達人壽新指標領航變額年金保險(第20次部分變更)",
+      "match_basis": {
+        "name": "官網標題與保發中心名稱皆為「新指標領航變額年金保險」",
+        "original_filing_in_official_terms": "中華民國105.03.08中泰精字第1050011號函備查",
+        "newest_official_terms_date": "114.01.01",
+        "newest_official_filing": "依金融監督管理委員會113.08.13金管保壽字第1130424977號函修正",
+        "tii_sale_date_equals_newest_official_terms_date": true,
+        "tii_filing_no": "中泰精字第1050011號函備查,114.02.13金管保壽字第11404900041號令修正",
+        "unique": true,
+        "official_terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/zhi-biao-ling-hang-va.html",
+        "note": "今日官網最新日為114.01.01；快取最末第19次113/01/01–113/12/31；即時明細第20次114/01/01起未停售。"
+      }
+    }
+  ],
+  "partial_name_variant": [
+    {
+      "id": "01526",
+      "name": "快樂保倍美元分紅終身保險",
+      "site_status": "現售",
+      "candidate_sale_date": "2026-01-01",
+      "candidate_sale_date_roc": "115/01/01",
+      "tii_productId": "256121MZ1A01223B11Z10000001",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256121MZ1A01223B11Z10000001",
+      "tii_name": "安達人壽快樂保倍美元分紅終身壽險(第1次部分變更)",
+      "tii_sale": "115/01/01",
+      "tii_stop": "未停售",
+      "tii_filing_no": "安達精字第1140000169號函備查,114.12.17金管保壽字第11404321761號令修正,114.02.13金管保壽字第11404900041號令修正",
+      "official_title": "快樂保倍美元分紅終身保險",
+      "official_terms_url": "https://life.chubb.com/tw-zh/products/life/kuai-le-bao-bei-par-life.html",
+      "official_filings": [
+        "中華民國114.09.01安達精字第1140000169號函備查",
+        "中華民國115.01.01依金融監督管理委員會114.12.17金管保壽字第11404321761號令修正"
+      ],
+      "original_version": {
+        "tii_productId": "256121MZ1A01223B11Z10000000",
+        "sale": "114/09/01",
+        "stop": "114/12/31",
+        "filing_no": "安達精字第1140000169號函備查"
+      },
+      "why_not_fully_verified": "原始文號與官網最新日（115.01.01）均可唯一對應此版，但官網標題／本站名稱是「終身保險」，保發中心名稱是「終身壽險」，名稱不完全相符。依既有「名稱＋文號＋最新日」三條件，本次不列為已核實。"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "01602",
+      "name": "富貴大贏家變額年金保險",
+      "site_status": "現售",
+      "why": "今日即時官網商品文號最新為114.12.31安達精字第1140000209號函備查，沒有115.07.15文號。保發中心第5次（256421MV1A10323A11Z90000005）銷售114/12/31–115/07/14，文號為1130000090＋11404900041，未出現1140000209；第6次（256421MV1A10323A11Z90000006）銷售115/07/15未停售，文號1130000090＋1150000076，但1150000076尚未出現在官網商品文號。無法以官網最新日唯一對應任一版。先前第0版停售115/07/14與本站現售亦曾衝突。",
+      "official_terms_url": "https://life.chubb.com/tw-zh/products/investing/variable-annuity/fu-qui-da-ying-jia-va.html",
+      "official_filings_live": [
+        "中華民國113.07.26安達精字第1130000090號函備查",
+        "中華民國114.12.31安達精字第1140000209號函備查"
+      ],
+      "tii_candidates": [
+        {
+          "tii_productId": "256421MV1A10323A11Z90000005",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A10323A11Z90000005",
+          "sale": "114/12/31",
+          "stop": "115/07/14",
+          "filing_no": "安達精字第1130000090號函備查,114.02.13金管保壽字第11404900041號令修正"
+        },
+        {
+          "tii_productId": "256421MV1A10323A11Z90000006",
+          "url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256421MV1A10323A11Z90000006",
+          "sale": "115/07/15",
+          "stop": "未停售",
+          "filing_no": "安達精字第1130000090號函備查,安達精字第1150000076號函備查"
+        }
+      ]
+    },
+    {
+      "id": "01536",
+      "name": "美樂利美元分紅終身壽險",
+      "site_status": "現售",
+      "why": "官網與條款PDF（mei-le-li-code.pdf）僅有中華民國115.10.26安達精字第1150000181號函備查，條款名稱為「安達人壽美樂利美元分紅終身壽險」。life_rows.tsv與先前即時系列皆無此名。本次對256121MZ1A008–030（23B，含快樂保倍012、星利保倍014）及021的23A/23Z/22B/21B做即時明細探測，沒有美樂利或1150000181。人身保險列表工作階段在第一次GET ResultQueryAll後改成196,126筆產險＋壽險全部清單，無法再按公司掃安達清單尾端。",
+      "official_terms_url": "https://life.chubb.com/tw-zh/products/life/mei-le-li-par-life.html",
+      "official_filings_live": [
+        "中華民國115.10.26安達精字第1150000181號函備查"
+      ],
+      "newest_official_terms_date": "115.10.26"
+    },
+    {
+      "id": "01333",
+      "name": "創富人生萬能保險",
+      "site_status": "停售",
+      "why": "本站官網停售頁為OIU（/products/discontinued/oiu/perpetual-saving-plan.html），條款可見中華民國106.01.01安達精字第1060001號。life_rows.tsv與名稱探測皆無「創富人生萬能」。OIU商品通常不在保發中心人身保險清單。本次無法恢復66,143筆壽險列表，未能全文掃清單。官網先前亦被記為未見可讀核准／備查文號區塊。",
+      "official_terms_url": "https://life.chubb.com/tw-zh/products/discontinued/oiu/perpetual-saving-plan.html",
+      "official_filings_cached": [
+        "中華民國106.01.01安達精字第1060001號"
+      ]
+    },
+    {
+      "id": "01334",
+      "name": "恆富傳承分紅終身保險",
+      "site_status": "停售",
+      "why": "OIU停售頁（perpetual-life-plan-oiu.html），條款可見105.11.02安達精字第1050001號、107.01.01安達精字第1070001號。life_rows.tsv無同名系列。情況同01333。",
+      "official_terms_url": "https://life.chubb.com/tw-zh/products/discontinued/oiu/perpetual-life-plan-oiu.html",
+      "official_filings_cached": [
+        "中華民國105.11.02安達精字第1050001號",
+        "中華民國107.01.01安達精字第1070001號"
+      ]
+    },
+    {
+      "id": "01335",
+      "name": "悠活人生外幣變額年金保險",
+      "site_status": "停售",
+      "why": "OIU停售頁（yoho-life-oiu.html），條款可見106.03.21安達精字第1060003號(OIU)。保發中心只有「悠活人生外幣變額萬能壽險」（270131MV1A063…），不是年金保險，名稱與險種皆不同，不可當作同一商品。",
+      "official_terms_url": "https://life.chubb.com/tw-zh/products/discontinued/oiu/yoho-life-oiu.html",
+      "official_filings_cached": [
+        "中華民國106.03.21安達精字第1060003號(OIU)函"
+      ],
+      "near_miss": "安達人壽悠活人生外幣變額萬能壽險 270131MV1A06323Z11Z90000000 起，非年金、非同一險種"
+    },
+    {
+      "id": "skl-approval-1150436751",
+      "name": "新光人壽安心在宅一年期住院日額暨在宅急症照護健康保險",
+      "site_status": "已核准，開賣日待核對",
+      "why": "保險局核准公告金管保壽字第1150436751號、官方發布日2026-11-25；條款狀態「尚未取得」，因此即使找到保發中心頁，也還無法做「官網條款原始文號＋最新日=銷售日」的版本核對。life_rows.tsv（2026-11-08）與本日稍早壽險清單快取（/tmp/pg2）皆無「安心在宅」。GET ?fQueryAll=安心在宅 與 ?CompanyID=208 都不會過濾，仍回196,126筆預設清單。對208311MZ1A/1B 020–025、21A/22A/23A 第0版做即時明細探測皆為空頁。人身保險66,143筆列表工作階段已流失，無法掃新光區塊（含未銷售區）尾端。",
+      "filing": "金管保壽字第1150436751號",
+      "approval_url": "https://www.ib.gov.tw/ch/home.jsp?dataserno=202611260001&dtable=Product&id=64&mcustomize=onemessages_view.jsp&parentpath=0%2C8",
+      "official_release_date": "2026-11-25",
+      "terms_status": "尚未取得"
+    }
+  ],
+  "remaining_discontinued_not_reprobed": [
+    {
+      "id": "01337",
+      "name": "一路相挺一年定期失能扶助保險",
+      "site_status": "停售",
+      "prior_issue": "官網頁面不在停售專區",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01339",
+      "name": "全民守護重大傷病健康保險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 103/10/17 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01349",
+      "name": "安心守護還本型重大傷病保險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 107/09/14 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01351",
+      "name": "家好康定期壽險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 097/05/30 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01360",
+      "name": "泰富康養老保險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 096/08/31 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01361",
+      "name": "泰滿億還本終身保險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 096/08/31 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01367",
+      "name": "緣滿人生終身壽險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 105/08/16 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01372",
+      "name": "遞減型定期壽險",
+      "site_status": "停售",
+      "prior_issue": "保發中心快取（2026-11-08）找不到同名商品系列（含安達／中泰前身名稱）",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01387",
+      "name": "全能攻守外幣變額年金保險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 112/02/06 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01388",
+      "name": "全能攻守外幣變額萬能壽險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 112/02/06 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01389",
+      "name": "全能攻守變額年金保險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 112/02/06 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01390",
+      "name": "全能攻守變額萬能壽險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 112/02/06 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01395",
+      "name": "吉星高照變額萬能壽險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 105/08/16 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01412",
+      "name": "持盈保泰外幣變額萬能壽險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 105/08/16 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01414",
+      "name": "指標啟航外幣變額年金保險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 111/01/01 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01415",
+      "name": "指標啟航外幣變額萬能壽險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 104/08/04 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01420",
+      "name": "效傲江湖變額萬能壽險",
+      "site_status": "停售",
+      "prior_issue": "保發中心版本掛名中泰人壽，官網頁面未見中泰文號可證明為同一商品",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01421",
+      "name": "新享優利外幣變額年金保險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 110/05/31 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01436",
+      "name": "新穩利雙收外幣變額年金保險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 108/11/11 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01438",
+      "name": "新穩利雙收變額年金保險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 108/11/11 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01448",
+      "name": "泰吉利外幣變額萬能壽險",
+      "site_status": "停售",
+      "prior_issue": "官網頁面未見可讀的核准／備查文號區塊",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01455",
+      "name": "泰金采變額年金保險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 112/02/06 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01464",
+      "name": "神氣活現外幣變額萬能壽險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 105/08/16 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01479",
+      "name": "超級贏家外幣變額年金保險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 112/02/06 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01480",
+      "name": "超級贏家外幣變額萬能壽險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 112/02/06 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01481",
+      "name": "超級贏家變額年金保險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 112/02/06 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01485",
+      "name": "金好鑽變額萬能壽險",
+      "site_status": "停售",
+      "prior_issue": "官網頁面未見可讀的核准／備查文號區塊",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01487",
+      "name": "金滿意變額萬能壽險",
+      "site_status": "停售",
+      "prior_issue": "官網頁面未見可讀的核准／備查文號區塊",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01490",
+      "name": "金萬福外幣變額萬能壽險",
+      "site_status": "停售",
+      "prior_issue": "官網頁面未見可讀的核准／備查文號區塊",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01492",
+      "name": "鎖利贏家外幣變額萬能壽險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 105/08/16 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01499",
+      "name": "鑫安得利(2)外幣變額萬能壽險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 111/06/29 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01501",
+      "name": "鑫安得利(2)變額萬能壽險",
+      "site_status": "停售",
+      "prior_issue": "官網頁面未見可讀的核准／備查文號區塊；官網頁面未見本站商品全名",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    },
+    {
+      "id": "01506",
+      "name": "鑫龍星高照變額萬能壽險",
+      "site_status": "停售",
+      "prior_issue": "保發中心同名系列中銷售日等於官網文號最新日期 105/08/16 的版本有 0 個",
+      "why": "本次工作階段優先處理「快取沒有對應版本或保發中心未列出」的現售／未列出系列，以及新光安心在宅。此筆屬停售缺販售日、先前已有同名系列但官網最新日對不到任何一版（或文號不唯一）。未在本次對該系列再往後探測所有新版。原狀態不變。"
+    }
+  ],
+  "published": {
+    "at": "2026-11-27T22:08:00+08:00",
+    "token": "sales-20261127-grok25-anda-dates",
+    "scope": "verified_sale_dates only (11); sale_date + tii_url filled; status unchanged; excluded 01526 and unresolved",
+    "ids": [
+      "01632",
+      "01633",
+      "01624",
+      "01625",
+      "01601",
+      "01627",
+      "01527",
+      "01529",
+      "01611",
+      "01612",
+      "01614"
+    ]
+  }
+}
