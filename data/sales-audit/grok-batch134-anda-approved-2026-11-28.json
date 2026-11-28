@@ -1,0 +1,75 @@
+{
+  "batch_id": "grok-batch134-anda-approved-2026-11-28",
+  "author": "Grok",
+  "created_at": "2026-11-28T16:18:00+08:00",
+  "timezone": "Asia/Taipei",
+  "authorization": "使用者於小工具 t258s1147「01337和01492都補」核准填入 01337 一路相挺販售日 2023-02-06、01492 鎖利贏家販售日 2016-09-06（第5次）。",
+  "product_data_changed": true,
+  "token": "sales-20261128-grok28-anda-approved",
+  "basis": "data/sales-audit/grok-batch133-anda-live-2026-11-28.json 提案；使用者明示兩筆都補。只填販售日與保發中心網址，不改狀態。",
+  "notes": [
+    "01337 名稱、原始文號、官網最新日均相符，但官網頁位於現售健康險路徑而非停售專區；經核准後仍維持停售。",
+    "01492 第4次與第5次銷售日皆為105/09/06；經核准採用第5次 270131MV1A03723Z11Z90000005。"
+  ],
+  "changes": [
+    {
+      "id": "01337",
+      "name": "一路相挺一年定期失能扶助保險",
+      "field": "sale_date",
+      "from": null,
+      "to": "2023-02-06",
+      "sale_date_roc": "112/02/06",
+      "status": "停售",
+      "status_changed": false,
+      "tii_productId": "256391MZ1A00221A11Z10000004",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256391MZ1A00221A11Z10000004",
+      "tii_name": "安達人壽一路相挺一年定期失能扶助保險(第4次部分變更)",
+      "tii_sale": "112/02/06",
+      "tii_stop": "113/06/30",
+      "tii_filing_no": "康健(商)字第10700000650號函備查,111.08.30金管保壽字第1110445485號函修正",
+      "original_filing": "中華民國 107.10.01 康健(商)字第10700000650號函備查",
+      "newest_official_terms_date": "112.02.06",
+      "official_terms_url": "https://life.chubb.com/tw-zh/products/protection/health-insurance/oyt-disability.html",
+      "official_page_location": "現售健康險路徑 /products/protection/health-insurance/，不在停售專區",
+      "approval_note": "使用者 t258s1147 核准在官網頁面位置疑義下仍填入販售日；狀態維持停售。"
+    },
+    {
+      "id": "01492",
+      "name": "鎖利贏家外幣變額萬能壽險",
+      "field": "sale_date",
+      "from": null,
+      "to": "2016-09-06",
+      "sale_date_roc": "105/09/06",
+      "status": "停售",
+      "status_changed": false,
+      "tii_productId": "270131MV1A03723Z11Z90000005",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MV1A03723Z11Z90000005",
+      "tii_name": "安達人壽鎖利贏家外幣變額萬能壽險(第5次部分變更)",
+      "tii_sale": "105/09/06",
+      "tii_stop": "107/08/31",
+      "tii_filing_no": "中泰精字第1040034號函備查,安達精字第1050028號函備查",
+      "original_filing": "中華民國104.03.02 中泰精字第1040034號函備查",
+      "newest_official_terms_date": "105.09.06",
+      "official_terms_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/so-ling-ying-jia-foreign-currency-ul.html",
+      "same_sale_date_versions": [
+        {
+          "version": "第4次",
+          "tii_productId": "270131MV1A03723Z11Z90000004",
+          "sale": "105/09/06",
+          "stop": "105/09/05",
+          "filing_no": "中泰精字第1040034號函備查,金管保壽字第10502071540號函核准",
+          "not_chosen": "停售日早於銷售日，且文號為10502071540而非官網最新安達精字第1050028號"
+        },
+        {
+          "version": "第5次",
+          "tii_productId": "270131MV1A03723Z11Z90000005",
+          "sale": "105/09/06",
+          "stop": "107/08/31",
+          "filing_no": "中泰精字第1040034號函備查,安達精字第1050028號函備查",
+          "chosen": true
+        }
+      ],
+      "approval_note": "使用者 t258s1147 核准在第4／5次銷售日不唯一的疑義下，採用第5次並填入販售日；狀態維持停售。"
+    }
+  ]
+}

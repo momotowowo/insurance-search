@@ -20322,6 +20322,48 @@ window.INSURANCE_RIDER_PRODUCT_UPDATES= {
       "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A09523A11Z90000005",
       "status_checked_at": "2026-11-28",
       "status_source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256131MV1A09523A11Z90000005"
+    },
+    {
+      "name": "一路相挺一年定期失能扶助保險",
+      "insurer": "安達國際人壽",
+      "sector": "人身保險",
+      "category": "健康險",
+      "status": "停售",
+      "terms_url": "https://life.chubb.com/tw-zh/products/protection/health-insurance/oyt-disability.html",
+      "source_name": "安達國際人壽官網商品／停售商品頁",
+      "source_url": "https://life.chubb.com/tw-zh/products/discontinued/traditional-products.html",
+      "id": "01337",
+      "source": "官網+保發中心",
+      "original_insurer": "安達國際人壽",
+      "current_insurer": "安達國際人壽",
+      "first_seen_at": "2026-11-09T08:14:13.106854+08:00",
+      "first_seen_source": "baseline",
+      "sale_date": "2023-02-06",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256391MZ1A00221A11Z10000004",
+      "status_checked_at": "2026-11-28",
+      "status_source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=256391MZ1A00221A11Z10000004",
+      "status_note": "使用者於小工具 t258s1147「01337和01492都補」核准填入販售日 2023-02-06。名稱、原始文號康健(商)字第10700000650號、官網最新日112.02.06與保發中心第4次部分變更銷售日相符。疑義：官網商品頁位於現售健康險路徑 /products/protection/health-insurance/，而非停售專區。狀態維持停售，未改。"
+    },
+    {
+      "name": "鎖利贏家外幣變額萬能壽險",
+      "insurer": "安達國際人壽",
+      "sector": "人身保險",
+      "category": "投資型",
+      "status": "停售",
+      "terms_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products/so-ling-ying-jia-foreign-currency-ul.html",
+      "source_name": "安達國際人壽官網商品／停售商品頁",
+      "source_url": "https://life.chubb.com/tw-zh/products/discontinued/investment-products.html",
+      "id": "01492",
+      "source": "官網+保發中心",
+      "original_insurer": "安達國際人壽",
+      "current_insurer": "安達國際人壽",
+      "first_seen_at": "2026-11-09T08:14:13.106854+08:00",
+      "first_seen_source": "baseline",
+      "sale_date": "2016-09-06",
+      "tii_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MV1A03723Z11Z90000005",
+      "status_checked_at": "2026-11-28",
+      "status_source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=270131MV1A03723Z11Z90000005",
+      "status_note": "使用者於小工具 t258s1147「01337和01492都補」核准填入販售日 2016-09-06，採用保發中心第5次部分變更 270131MV1A03723Z11Z90000005。疑義：第4次與第5次銷售日皆為105/09/06，不唯一；第4次停售日105/09/05早於銷售日且文號為10502071540。第5次文號含安達精字第1050028號（與官網最新日105.09.06相符），停售107/08/31。狀態維持停售，未改。"
     }
   ],
   "meta": {
@@ -20389,8 +20431,8 @@ window.INSURANCE_RIDER_PRODUCT_UPDATES= {
         "未銷售": 22
       },
       "sources": {
-        "官網+保發中心": 2325,
-        "官網": 425,
+        "官網+保發中心": 2327,
+        "官網": 423,
         "保發中心": 41445,
         "金管會保險局": 1,
         "工商時報": 1
